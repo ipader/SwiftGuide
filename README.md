@@ -27,7 +27,7 @@ Swift语言指南
 [在线版(英文)](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html)
 
 * 爱好者翻译版：
-[在线版(中文) (By @Swift中文翻译组)](http://wwww.swiftguide.cn) ｜
+[在线版(中文) (By @Swift中文翻译组)](http://www.swiftguide.cn) ｜
 [PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQ5CZ/1402621206) ｜ 
 [百度阅读版 (By 小岂子)](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
 
