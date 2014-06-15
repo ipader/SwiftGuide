@@ -63,6 +63,7 @@ Swift语言指南
 
 * [官方示例代码](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
 * [WWDC2014 详解OSX/iOS8/Swift语言](http://www.jikexueyuan.com/study/89.html): "极客学院全国首发课程，详解OSX/iOS8新特性/崭新编程语言Swift！极客学院团队通宵录制、上传，只为在这一刻把最新最实战的课程呈现给开发者"
+* [Developing iOS 8 Apps Using Swift (I) – Animations, Audio, and Custom Table View Cells](http://jamesonquave.com/blog/developing-ios-8-apps-using-swift-animations-audio-and-custom-table-view-cells/): "这个教程大概7篇blog，一步步讲解了一个『itunes music search app』的制作对于async http, api delegate, 异步图片，动画，代码分层，interface builder都做了清晰的介绍。" By [gaohailang](https://github.com/gaohailang)
 * [绘图和动画编程](http://blog.sina.com.cn/virtualgs) [(By @林泰前)](http://weibo.com/limtc)
 * [A001.01 WWDC 2014 Swift入门](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html) [(By @赵哲)](http://weibo.com/zhaozhecleric): 苹果大会官方视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。
 * [Swift中下划线的妙用](http://blog.csdn.net/twlkyao/article/details/30536397#1536434-tsina-1-70302-66a1f5d8f89e9ad52626f6f40fdeadaa): "在Swift中，下划线有很多妙用，这里将已经看到的妙用进行总结，希望可以帮助更多学习Swift的朋友。..." By [@twlkyao](http://weibo.com/105712625)
