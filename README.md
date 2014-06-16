@@ -38,7 +38,11 @@ Swift语言指南
 	3. [Apple的Swift语言](http://www.xiaozhou.net/the-swift-language-2014-06-12.html): "哥也无意中在Github上看到这个翻译项目，并有幸参与了翻译，算是亲身体验了一把多人协作的开源项目，感觉很赞也很有成就感……" By [@TimothyYe](http://weibo.com/timothyye)
 	4. [雨燕Swift](http://swiftist.org/topics/81): "...我做翻译这件事的目的其实挺自私的，没想改变世界，没想着跟世界同步，没想干什么轰轰烈烈的大事。... 我是Aminby，和大多数程序员一样默默无闻地用国内外先进的技术或解决方案为工作忙活着的普通人。" By [@老白经aminby](http://weibo.com/aminby)
 
-### 3. 快速入门
+### 3. Using Swift with Cocoa and Objective-C
+* 苹果官方文档：[在线版(英文)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
+* 爱好者翻译版：[在线版(中文) (By @CocoaChina)](https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md)｜[PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQHNd/1402648326)
+ 
+### 4. 快速入门
 * [Swift Cheat Sheet](https://github.com/grant/swift-cheat-sheet) ([PDF版](https://raw.githubusercontent.com/grant/swift-cheat-sheet/gh-pages/swift.pdf)): 形式以代码先行，极简、有效地Swift语言快速学习指南
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift): 相对于Swift Cheat Sheet带了不少说明，但整个文档不显啰嗦，可读性强
 * [马上着手开发 iOS 应用程序 (Start Developing iOS Apps Today)](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html#//apple_ref/doc/uid/TP40012668): 苹果官方文档
@@ -51,7 +55,7 @@ Swift语言指南
 [Scala vs. Swift](http://t.cn/RvXDwYI),
 [Go vs. Swift](http://t.cn/RvK5m7u)
 
-### 4. 相关文档
+### 5. 相关文档
 * [关于Swift，开发者最需要了解的7个方面](http://www.cocoachina.com/applenews/devnews/2014/0613/8815.html) （[英文原文](https://medium.com/@thomasxchen/top-7-things-to-know-about-swift-apples-new-language-for-ios-8-14e09004cada)): 简明扼要的阐述了Swift语言的几个重要特点
 * [程序员眼中的苹果Swift语言：简单 易学 高效](http://tech.qq.com/a/20140609/000862.htm)
 * [行走于 Swift 的世界中](http://onevcat.com/2014/06/walk-in-swift/): 总结了一下近一周以来的一些觉得这个语言里有意思的地方
@@ -89,6 +93,7 @@ Swift语言指南
 * [天气预报iOS项目](https://github.com/JakeLin/SwiftWeather): 新界面还不错，简单，还带点卡通的味道。
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法" By [lingoer](https://github.com/lingoer)
+* [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
 
 ---
 ## 资源合集
