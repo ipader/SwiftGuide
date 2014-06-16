@@ -68,6 +68,7 @@ Swift语言指南
 * [A001.01 WWDC 2014 Swift入门](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html) [(By @赵哲)](http://weibo.com/zhaozhecleric): 苹果大会官方视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。
 * [Swift中下划线的妙用](http://blog.csdn.net/twlkyao/article/details/30536397#1536434-tsina-1-70302-66a1f5d8f89e9ad52626f6f40fdeadaa): "在Swift中，下划线有很多妙用，这里将已经看到的妙用进行总结，希望可以帮助更多学习Swift的朋友。..." By [@twlkyao](http://weibo.com/105712625)
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
+* [LTBouncyPlaceholder代码解读](https://github.com/nixzhu/dev-blog/blob/master/2014-06-12-LTBouncyPlaceholder.md): "我希望你已经下载了 LTBouncyPlaceholder 的 Demo ，用 Xcode 6 打开并编译、运行，然后在界面中显示的几个 UITextField 里输入一些文字来体验这个扩展。看到 Placeholder 的动画了吗？" By [nixzhu](http://weibo.com/nixzhu)
 
 ---
 ## Swift项目
