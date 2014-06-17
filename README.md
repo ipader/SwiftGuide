@@ -49,7 +49,8 @@ Swift语言指南
 ### 5. 相关文档
 * WWDC 2014
 	1. [WWDC 2014发布会(带中文字幕)](http://v.youku.com/v_show/id_XNzIwOTc0NTA0.html): 有关Swift语言演讲部分从103:54开始，首先苹果iOS/OS X及公共平台负责人克雷格·费德里吉(Craig Federighi)针对Xcode及Objective C的简要回顾，克里斯·拉特纳(Chris Lattner)上台做Swift语言演示从107:15开始。
-	2. [WWDC 2014 PDFs](http://pan.baidu.com/s/1mgqOVA4): 107个PDF压缩包 By [@清醒疯子](http://weibo.com/qingxingfengzi)
+	2. [WWDC 2014 Videos](https://developer.apple.com/videos/wwdc/2014/): 需要苹果开发者帐号才能观看。
+	3. [WWDC 2014 PDFs](http://pan.baidu.com/s/1mgqOVA4): 107个PDF压缩包 By [@清醒疯子](http://weibo.com/qingxingfengzi)
 * [Chris Lattner](http://nondot.org/sabre/) ([译文：Swift 编程语言首席架构师](http://blog.jobbole.com/70139/)): "Chris Lattner（1978年出生）是 LLVM 项目的主要发起人与作者之一，Clang 编译器的作者。他现在是苹果公司『开发者工具』部门的主管，领导 Xcode、Instruments 和 编译器团队，从 2010 年 7 月开始主导" By 伯乐在线
 * [关于Swift，开发者最需要了解的7个方面](http://www.cocoachina.com/applenews/devnews/2014/0613/8815.html) （[英文原文](https://medium.com/@thomasxchen/top-7-things-to-know-about-swift-apples-new-language-for-ios-8-14e09004cada)): 简明扼要的阐述了Swift语言的几个重要特点
 * [程序员眼中的苹果Swift语言：简单 易学 高效](http://tech.qq.com/a/20140609/000862.htm)
