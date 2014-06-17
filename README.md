@@ -2,9 +2,11 @@ Swift语言指南
 ===
 这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。
 
-存放于GitHub仓库: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide), 欢迎Swift编程爱好者共同编辑、维护。
+存放并管理于GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide)。欢迎Swift编程爱好者共同编辑、维护。
 
-将同步更新于微博：[@SwiftLanguage](http://weibo.com/swiftlanguage)
+网页版访问：[http://dev.swiftguide.cn](http://dev.swiftguide.cn)
+
+与微博同步更新：[@SwiftLanguage](http://weibo.com/swiftlanguage)
 
 
 ## Swift文档
