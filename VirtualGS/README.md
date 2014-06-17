@@ -1,4 +1,4 @@
-# VitualGS系列教程
+# VitualGS教程示例
 以下示例程序来源于林泰前老师[微博](http://weibo.com/limtc)或[博客](http://blog.sina.com.cn/virtualgs)发布，为方便大家学习Swift编程，有幸获得林老师的准许在这里发布。如果它们对您的学习有用。欢迎关注他的微博（[@林泰前](http://weibo.com/limtc)）及教学博客([VirtualGS](http://blog.sina.com.cn/virtualgs))，上面有更详细的编程过程介绍。那将带给您学习编程的乐趣及惊喜收获！
 
 ## Lores
