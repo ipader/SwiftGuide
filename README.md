@@ -80,7 +80,7 @@ Swift语言指南
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
 * [LTBouncyPlaceholder代码解读](https://github.com/nixzhu/dev-blog/blob/master/2014-06-12-LTBouncyPlaceholder.md): "我希望你已经下载了 LTBouncyPlaceholder 的 Demo ，用 Xcode 6 打开并编译、运行，然后在界面中显示的几个 UITextField 里输入一些文字来体验这个扩展。看到 Placeholder 的动画了吗？" By [nixzhu](http://weibo.com/nixzhu)
 * [从零开始学Swift计时器App开发](http://swiftist.org/topics/96)（[源代码](https://github.com/lifedim/SwiftCasts/tree/master/001_swift_counter/SwiftCounter)）: "通过完成此教程，我对Swift语言的理解也更进了一步。Swift是一门全新的语言，作为开发者，我们需要不断加深对这门语言的理解，并灵活使用语言提供的特性来编程。..."  by [@李洁信](http://weibo.com/u/1780854425) 
-* [使用 Swift 和 AVOSCloud 构建 iOS 应用](https://blog.avoscloud.com/1407/):"使用 AVOSCloud SDK 和 Swift 构建 iOS 应用 | AVOS Cloud Blog" By [AVOS江宏](http://weibo.com/lazyseq)  这就是业界的速度，先机才是致胜法宝。
+* [使用 Swift 和 AVOSCloud 构建 iOS 应用](https://blog.avoscloud.com/1407/):"使用 AVOSCloud SDK 和 Swift 构建 iOS 应用 | AVOS Cloud Blog" By [@AVOS江宏](http://weibo.com/lazyseq) ｜ 这就是业界的速度，先机才是致胜法宝。
 
 ---
 ## Swift项目
