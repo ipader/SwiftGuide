@@ -37,6 +37,7 @@ Swift语言指南
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq): Raywenderlich的Swift语言FAQ说清楚了很多问题。这份FAQ确实浅显易读，初学者不可或缺好文章！
 * [WWDC14 Session 402 学习笔记](http://blog.txx.im/blog/2014/06/07/wwdc14-session-402/) By [@糖炒小虾_txx](http://weibo.com/rpplusplus)
 * [Swift与Objective-C混编高级教程之混编框架的创建和调用](http://blog.sina.com.cn/s/blog_877e9c3c0101sexl.html)
+* [Objective-C开发者对Swift亮点的点评](http://blog.jobbole.com/71250/): 这篇译文确实不错，含括了常见的亮点。尽管对于Swift相较于Objective C的亮点描述还不够全面，对初学者很受用。[原文在此](http://www.raywenderlich.com/73997/swift-language-highlights)
 * 与其它语言对比表: 
 [C vs. Go vs. Swift](http://t.cn/hDwCeY),
 [C# vs. Swift](http://t.cn/RvSOQaN),
