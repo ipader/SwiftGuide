@@ -80,6 +80,7 @@ Swift语言指南
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
 * [LTBouncyPlaceholder代码解读](https://github.com/nixzhu/dev-blog/blob/master/2014-06-12-LTBouncyPlaceholder.md): "我希望你已经下载了 LTBouncyPlaceholder 的 Demo ，用 Xcode 6 打开并编译、运行，然后在界面中显示的几个 UITextField 里输入一些文字来体验这个扩展。看到 Placeholder 的动画了吗？" By [nixzhu](http://weibo.com/nixzhu)
 * [从零开始学Swift计时器App开发](http://swiftist.org/topics/96)（[源代码](https://github.com/lifedim/SwiftCasts/tree/master/001_swift_counter/SwiftCounter)）: "通过完成此教程，我对Swift语言的理解也更进了一步。Swift是一门全新的语言，作为开发者，我们需要不断加深对这门语言的理解，并灵活使用语言提供的特性来编程。..."  by [@李洁信](http://weibo.com/u/1780854425) 
+* [使用 Swift 和 AVOSCloud 构建 iOS 应用](https://blog.avoscloud.com/1407/):"使用 AVOSCloud SDK 和 Swift 构建 iOS 应用 | AVOS Cloud Blog" By [AVOS江宏](http://weibo.com/lazyseq)  这就是业界的速度，先机才是致胜法宝。
 
 ---
 ## Swift项目
@@ -89,7 +90,6 @@ Swift语言指南
 * [An app to list the available fonts on iOS](https://github.com/roadfire/SwiftFonts): 用Swift语言调用UIKit，列出设备内所有字体名称的小程序。
 * [Swift版的知乎日报](https://github.com/jxd001/Swift-ZhihuDaily): 学习一门新语言，光看是没有用的，想要快速的掌握它，就得投入到真实项目的开发中，仿照@YANGReal 的糗事百科，做了一个Swift版的知乎日报
 * [Swift RSS Sample](https://github.com/wantedly/swift-rss-sample): 用Swift语言开发的RSS阅读器
-* [简单的 Lores 绘图程序 RetroPaint](https://www.dropbox.com/s/shdvo6laaun0w1s/RetroPaint.zip): "随便画，摇摇手机清除图画！支持 iPhone/iPad" By [@林泰前](http://weibo.com/limtc)
 * [Swift版PM2.5的例子](https://github.com/sxyx2008/Swift-PM25): 一个很好的Swift与Objective C协同工作GitHub开源项目。用到的开源类库有[TFHpple](https://github.com/topfunky/hpple): 以XPath方式解析HTML，[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift): 使用Swift写的AlertView SVProgressHUD 进度条 By [@荧星诉语](http://weibo.com/qq184675420)
 
 
