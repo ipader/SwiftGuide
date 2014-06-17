@@ -59,6 +59,11 @@ Swift语言指南
 	2. [翻译暂时告一段落 写点感想吧](http://swiftist.org/topics/44) : "现在翻译已经告一段落，感觉这段时间的效率真是高的可怕，也许是因为一种成就感，或许带了那么一点功利心（我想每个人或多或少的都会有一点吧）。" By [@CoverXiT](http://weibo.com/u/3969796349)
 	3. [Apple的Swift语言](http://www.xiaozhou.net/the-swift-language-2014-06-12.html): "哥也无意中在Github上看到这个翻译项目，并有幸参与了翻译，算是亲身体验了一把多人协作的开源项目，感觉很赞也很有成就感……" By [@TimothyYe](http://weibo.com/timothyye)
 	4. [雨燕Swift](http://swiftist.org/topics/81): "...我做翻译这件事的目的其实挺自私的，没想改变世界，没想着跟世界同步，没想干什么轰轰烈烈的大事。... 我是Aminby，和大多数程序员一样默默无闻地用国内外先进的技术或解决方案为工作忙活着的普通人。" By [@老白经aminby](http://weibo.com/aminby)
+	
+### 6. 推荐网站
+* [raywenderlich.com](http://www.raywenderlich.com/): "This blog is focused on developing high quality programming tutorials. Our goal is to take the coolest and most challenging topics and make them easy for everyone to learn – so we can all make amazing apps." 这个站专注于开发高质量编程指南（近期优质Swift文章及视频教程不断）。还第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)（开始接受预订）。官方网站有[简体中文](http://www.raywenderlich.com/zh-hans/)，可惜译文更新比较慢。P.S. 国内资深技术同行也经常转载此站文章。
+* [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Learn To Make Real World iOS 8 Apps》](http://jamesonquave.com/swiftebook/) 及视频教程。
+
 
 ---
 ## Swift教程
