@@ -35,6 +35,7 @@ Swift语言指南
 ### 4. 快速入门
 * [Swift Cheat Sheet](https://github.com/grant/swift-cheat-sheet) ([PDF版](https://raw.githubusercontent.com/grant/swift-cheat-sheet/gh-pages/swift.pdf)): 形式以代码先行，极简、有效地Swift语言快速学习指南
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift): 相对于Swift Cheat Sheet带了不少说明，但整个文档不显啰嗦，可读性强
+* [Swift Reference Playground](https://github.com/hackswift/swift-reference-pg),[Swift Operators Playground](https://github.com/hackswift/swift-operators-pg): "Swift Reference is a handy playground file that can be used when you are starting to learn swift.It covers the basic syntax definitions and different ways to use" 初学Swift语言的同学一定先玩玩这个，可以让您更快感性的了解Swift语言语法、操作符及语言新特点。
 * [马上着手开发 iOS 应用程序 (Start Developing iOS Apps Today)](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html#//apple_ref/doc/uid/TP40012668): 苹果官方文档
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq): Raywenderlich的Swift语言FAQ说清楚了很多问题。这份FAQ确实浅显易读，初学者不可或缺好文章！
 * [WWDC14 Session 402 学习笔记](http://blog.txx.im/blog/2014/06/07/wwdc14-session-402/) By [@糖炒小虾_txx](http://weibo.com/rpplusplus)
@@ -73,7 +74,6 @@ Swift语言指南
 * 苹果官方
 	1. [示例代码](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
 	2. Swift入门(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), A001.03(即将发布...)： WWDC 2014官方Session 402视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。
-* [Swift Reference Playground](http://www.hackswift.co/playgrounds)（[源代码](https://github.com/hackswift/swift-reference-pg)）: "Swift Reference is a handy playground file that can be used when you are starting to learn swift.It covers the basic syntax definitions and different ways to use" 初学Swift语言的同学一定先玩玩这个，可以更快感性的了解Swift语言语法及特点。
 * [VirtualGS教程](http://blog.sina.com.cn/virtualgs) [(By @林泰前)](http://weibo.com/limtc): 几十年的老程序员，资深的iOS开发工程师，把自己儿子培养成苹果应用商店最年少的应用开发者，哪里能找到这样优质的编程老师？
 * [Developing iOS 8 Apps Using Swift (I) – Animations, Audio, and Custom Table View Cells](http://jamesonquave.com/blog/developing-ios-8-apps-using-swift-animations-audio-and-custom-table-view-cells/): "这个教程大概7篇blog，一步步讲解了一个『itunes music search app』的制作对于async http, api delegate, 异步图片，动画，代码分层，interface builder都做了清晰的介绍。" By [gaohailang](https://github.com/gaohailang)
 * [WWDC2014 详解OSX/iOS8/Swift语言](http://www.jikexueyuan.com/study/89.html): "极客学院全国首发课程，详解OSX/iOS8新特性/崭新编程语言Swift！极客学院团队通宵录制、上传，只为在这一刻把最新最实战的课程呈现给开发者"
