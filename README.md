@@ -62,7 +62,7 @@ Swift语言指南
 	
 ### 6. 推荐网站
 * [raywenderlich.com](http://www.raywenderlich.com/): "This blog is focused on developing high quality programming tutorials. Our goal is to take the coolest and most challenging topics and make them easy for everyone to learn – so we can all make amazing apps." 这个站专注于开发高质量编程指南（近期优质Swift文章及视频教程不断）。还第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)（开始接受预订）。官方网站有[简体中文](http://www.raywenderlich.com/zh-hans/)，可惜译文更新比较慢。P.S. 国内资深技术同行也经常转载此站文章。
-* [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Learn To Make Real World iOS 8 Apps》](http://jamesonquave.com/swiftebook/) 及视频教程。
+* [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
 
 
 ---
