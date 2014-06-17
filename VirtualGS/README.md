@@ -4,6 +4,25 @@
 ## Lores
 "我们小时候用 Apple II 电脑学习编程，都是用 BASIC 语言在低解析度（Lores，40x40）屏幕上用 PLOT，VLIN，HLIN 等指令来画砖块。这个程序是模拟 Lores 编程，不过语言换成了 Swift。" 
 
+基本功能：
+
+* clear:设定40x40屏幕
+* plot:画方块
+* plotHLine/plotVLine:画直线
+* setColor:设定颜色(编号/颜色名字)
+
 
 ## GSwift
-"Main.swift 是你编程的地方，里头有两个函数：在 setup() 里做设定，在 main() 里绘图。对已经会 iPhone 编程的高手－如果你需要在自己的 Swift 程序里使用，你只要从中抽取 GSView.swift 即可。"
+"相较于第一个例子，这个风格更适合初学者。如何使用 GSwift 绘图程序库？Main.swift 是你编程的地方，里头有两个函数：在 setup() 里做设定，在 main() 里绘图。对已经会 iPhone 编程的高手－如果你需要在自己的 Swift 程序里使用，你只要从中抽取 GSView.swift 即可。"
+
+相对于第一个例子绘图库，增加了以下功能：
+
+* hplot
+* paintRect
+* drawLine
+* drawImage
+* paintCircle
+* ...
+
+更详细功能参见程序库
+
