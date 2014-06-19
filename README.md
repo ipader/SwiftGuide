@@ -113,6 +113,13 @@ Swift语言指南
 * [InfoQ《苹果发布Swift编程语言-iOS移动开发周报》](http://www.infoq.com/cn/news/2014/06/ios-mobile-weekly): By [@唐巧_boy](http://weibo.com/tangqiaoboy)
 
 ---
+
+## 开放平台
+	平台开放相对于Swift语言更具战略意义，这是开发者不得不面对的挑战。也是苹果新一代创新应用的催化剂。通过Extension达成应用之间的协同及通讯，这是对生态内应用开放的基础。让我更期待的是，Extension在Safari Action上实现及支持，这是实现平台开放及跨平台应用最简单直接的方案。
+
+* [谈谈 iOS 8 和 OS X 10.10 的 Extension](http://imtx.me/archives/1898.html): "我个人认为这是 iOS 和 OS X 发展至今非常具有里程碑意义的一处改进，甚至比 UI 上的改变重要的多。我想简单地谈一下为何 Extensions 这么重要。" By [@图拉鼎](http://weibo.com/tualatrix)
+
+---
 ## 媒体文章
 * [WWDC 2014给开发者带来了什么？](http://www.pingwest.com/pingraphic-wwdc-2014/): "苹果向第三方开发者开放了大量的可调用特性和4000个新API——指纹识别、云存储、智能家居平台、相机控制、健康数据平台、3D图形API、对iOS 8可扩展程序的调用，以及新的编程语言Swift。PingWest制作了一种信息图带你一览这些新特性"
 * [编程语言进化链的顶端：为什么说Swift正在颠覆整个互联网生态？(36Kr)](http://www.36kr.com/p/212612.html): "Swift 代表的程序猿先进生产力的发展要求（提高编程效率），代表了计算机先进文化的发展方向（语法简洁，现代），代表了广大人民的根本利益（写起来爽，学起来快）。"
