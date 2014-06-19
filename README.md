@@ -98,7 +98,7 @@ Swift语言指南
 
 ### 2. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift): 用Swift语言实现的 FlappyBird
-* [Swift实用工具库](https://github.com/ankurp/Dollar.swift): 尤其在Array和Dictionary的支持上（实现类库仅一个Dollar.swift文件），Swift编程必备！用过Javascript版的Lo-Dash就知道其实用程度
+* [Swift实用工具库](https://github.com/ankurp/Dollar.swift): 尤其在Array和Dictionary的支持上（实现类库仅一个Dollar.swift文件），Swift编程必备！用过Javascript版的Lo-Dash就知道其实用程度。｜ 还有一个类似的更完整的版本[ExSwift](https://github.com/pNre/ExSwift)
 * [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent): 一个简单、小巧、实用的HTTP请求Swift语言实现类（仅一个Agent.swift类）
 * [天气预报iOS项目](https://github.com/JakeLin/SwiftWeather): 新界面还不错，简单，还带点卡通的味道。
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
