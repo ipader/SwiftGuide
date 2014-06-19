@@ -60,11 +60,6 @@ Swift语言指南
 * [知乎《如何评价 Swift 语言？》](http://www.zhihu.com/question/24002984)
 * [VM10装Mac OS X 10.9.3及更新到Mac OS X 10.10](http://wang9262.github.io/blog/2014/06/06/install-mac-os-x-10-dot-10-by-vmare/): "嗯，我写的。屌丝学生党买不起Mac，只能在黑苹果和虚拟机上先折腾会了。" By [@Vong_HUST](http://weibo.com/VongLo)
 	
-### 6. 推荐网站
-* [raywenderlich.com](http://www.raywenderlich.com/): "This blog is focused on developing high quality programming tutorials. Our goal is to take the coolest and most challenging topics and make them easy for everyone to learn – so we can all make amazing apps." 这个站专注于开发高质量编程指南（近期优质Swift文章及视频教程不断）。还第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)（开始接受预订）。官方网站有[简体中文](http://www.raywenderlich.com/zh-hans/)，可惜译文更新比较慢。P.S. 国内资深技术同行也经常转载此站文章。
-* [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
-
-
 ---
 ## Swift教程
 * 苹果官方
@@ -100,6 +95,11 @@ Swift语言指南
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法" By [lingoer](https://github.com/lingoer)
 * [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
+
+---
+## 推荐网站
+* [raywenderlich.com](http://www.raywenderlich.com/): "This blog is focused on developing high quality programming tutorials. Our goal is to take the coolest and most challenging topics and make them easy for everyone to learn – so we can all make amazing apps." 这个站专注于开发高质量编程指南（近期优质Swift文章及视频教程不断）。还第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)（开始接受预订）。官方网站有[简体中文](http://www.raywenderlich.com/zh-hans/)，可惜译文更新比较慢。P.S. 国内资深技术同行也经常转载此站文章。
+* [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
 
 ---
 ## 资源合集
