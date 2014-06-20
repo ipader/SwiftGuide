@@ -1,3 +1,5 @@
+<img src="sl-logo_1.0.png" width="150px" style="float:right"/>
+
 Swift语言指南
 ===
 这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。
