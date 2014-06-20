@@ -95,6 +95,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法" By [lingoer](https://github.com/lingoer)
 * [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
+* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
 
 ---
 ## 推荐网站
