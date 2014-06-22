@@ -54,11 +54,11 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 	3. [WWDC 2014 PDFs](http://pan.baidu.com/s/1mgqOVA4): 107个PDF压缩包 By [@清醒疯子](http://weibo.com/qingxingfengzi)
 * [Chris Lattner](http://nondot.org/sabre/) ([译文：Swift 编程语言首席架构师](http://blog.jobbole.com/70139/)): "Chris Lattner（1978年出生）是 LLVM 项目的主要发起人与作者之一，Clang 编译器的作者。他现在是苹果公司『开发者工具』部门的主管，领导 Xcode、Instruments 和 编译器团队，从 2010 年 7 月开始主导" By 伯乐在线
 * [关于Swift，开发者最需要了解的7个方面](http://www.cocoachina.com/applenews/devnews/2014/0613/8815.html) （[英文原文](https://medium.com/@thomasxchen/top-7-things-to-know-about-swift-apples-new-language-for-ios-8-14e09004cada)): 简明扼要的阐述了Swift语言的几个重要特点
-* [程序员眼中的苹果Swift语言：简单 易学 高效](http://tech.qq.com/a/20140609/000862.htm)
-* [行走于 Swift 的世界中](http://onevcat.com/2014/06/walk-in-swift/): 总结了一下近一周以来的一些觉得这个语言里有意思的地方
+* [程序员眼中的苹果Swift语言：简单 易学 高效](http://tech.qq.com/a/20140609/000862.htm):“以下是记者准备的七个问题，涉及Swift的优点、缺点。以及Objective-C的结局。索菲斯的答案中有些会有点骇人、令人震惊，或许还有几丝伤感。“ 相关参考：[知乎《如何评价 Swift 语言？》](http://www.zhihu.com/question/24002984)
+* [行走于 Swift 的世界中](http://onevcat.com/2014/06/walk-in-swift/): 总结了一下近一周以来的一些觉得这个语言里有意思的地方。
 * [Swift の 函数式编程](http://io-meter.com/2014/06/04/swift's-functional-programing/): "Swift 相比原先的 Objective-C 最重要的优点之一，就是对函数式编程提供了更好的支持。 Swift 提供了更多的语法糖和一些新特性来增强函数式编程的能力，本文就在这方面进行一些讨论。" By [@diumoo](http://weibo.com/u/2717070362)
-* [知乎《如何评价 Swift 语言？》](http://www.zhihu.com/question/24002984)
-* [VM10装Mac OS X 10.9.3及更新到Mac OS X 10.10](http://wang9262.github.io/blog/2014/06/06/install-mac-os-x-10-dot-10-by-vmare/): "嗯，我写的。屌丝学生党买不起Mac，只能在黑苹果和虚拟机上先折腾会了。" By [@Vong_HUST](http://weibo.com/VongLo)
+* [Top 5 iOS 7 Animations](http://www.raywenderlich.com/73286/top-5-ios-7-animations): iOS 7 排名前5的动画效果预览。谁能解读一下到这些动画效果对应的程序库、或找到对应或相近开源代码分享吗？（Swift版本更佳，OBJC也可以）
+	1. [IFTTT/JazzHands](https://github.com/IFTTT/JazzHands): Flickr开始界面动画类似效果，OBJC版本实现程序库。
 	
 ---
 ## Swift教程
@@ -106,6 +106,8 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 * [raywenderlich.com](http://www.raywenderlich.com/)([中文版](http://www.raywenderlich.com/zh-hans/)): 由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。近期第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/)): 著名开源作者[Matt Thompson](https://github.com/mattt)创建的开发技术博客网站，他开发了[AFNetworking](https://github.com/afnetworking/afnetworking)网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709) By [@程序员付恒](http://weibo.com/fallhunter)
 * [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
+* [objc.io](http://objc.io)([中译版 By @onevcat 及其朋友们](http://objccn.io)): "关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
+
 
 ---
 ## 资源合集
@@ -146,15 +148,10 @@ __
 	4. [雨燕Swift](http://swiftist.org/topics/81): "...我做翻译这件事的目的其实挺自私的，没想改变世界，没想着跟世界同步，没想干什么轰轰烈烈的大事。... 我是Aminby，和大多数程序员一样默默无闻地用国内外先进的技术或解决方案为工作忙活着的普通人。" By [@老白经aminby](http://weibo.com/aminby)
 * [蒂姆·库克的苹果](http://my.txtshare.in/article/da01660222c4603f3ff9fd86dfe5bff6/?from=timeline&isappinstalled=0): "当库克走向舞台左侧的暗处时，气氛一时变得神秘起来。这时苹果软件工程负责人克莱格·费德里西(Craig Federighi)快步走上台。他和库克插肩而过，走到聚光灯下，向大家介绍这款新品。它不是一款新的消费产品，而是一套名为“开发工具包”的软件工具，可以帮助开发人员开发出更好的应用。这个世界上的其他人可能会对此打哈欠，但开发者们站起身，兴奋地叫嚷起来。"
 
-## 其它开发资源
-### 1. Objective-C精选
-* [objc.io](http://objc.io)([中译版 By @onevcat 及其朋友们](http://objccn.io)): "关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
 
+## 其它相关
+* [VM10装Mac OS X 10.9.3及更新到Mac OS X 10.10](http://wang9262.github.io/blog/2014/06/06/install-mac-os-x-10-dot-10-by-vmare/): "嗯，我写的。屌丝学生党买不起Mac，只能在黑苹果和虚拟机上先折腾会了。" By [@Vong_HUST](http://weibo.com/VongLo) 
 
-* [Top 5 iOS 7 Animations](http://www.raywenderlich.com/73286/top-5-ios-7-animations): iOS 7 排名前5的动画效果预览。谁能解读一下到这些动画效果对应的程序库、或找到对应或相近开源代码分享吗？（Swift版本更佳，OBJC也可以）
-	1. [IFTTT/JazzHands](https://github.com/IFTTT/JazzHands): Flickr开始界面动画类似效果，OBJC版本实现程序库。
-
-### 2. 设计相关
 * [Origami](http://facebook.github.io/origami/): 快速原型动画开发工具。Origami由Facebook开发Quartz Composer工具库，它使原型开发更容易。参考文章：
 	1. [次时代交互原型神器Origami档案](http://www.csdn.net/article/2014-06-09/2820131): "随着iOS 7的推出，扁平化和极简主义设计风格在移动互联网领域流行起来，App动效越来越成为了决定App气质的重要因素，原型的动态保真度似乎成为了阻碍设计师发挥想象力的一道门槛。传统的以点按为主的App设计，逐渐演变成为大量手势交互，这使得Axure类工具表现手势交互显得心有余而力不足。基于QC的Origami应运而生。"
 	2. [用 Quartz Composer 和 Origami 制作一个简单的按钮动画(译文)](https://github.com/nixzhu/dev-blog/blob/master/2014-06-22-quartz-composer-and-origami-tutorial-button-animation.md): "结识了 QC 和 Origami 之后，我就能用很短的时间制作出这个动画的原型。我爱上了 QC 和 Origami —— 我希望你在使用它们之后，也会爱上它们。同时，我十二分地感谢 Facebook 创造了 Origami，以及 Apple 创造了 Quartz Composer。"  By [@nixzhu](http://weibo.com/nixzhu)
