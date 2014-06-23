@@ -35,6 +35,11 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 ### 4. 快速入门
 * [Swift Cheat Sheet(PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_3.pdf): 形式以代码先行，极简、有效地Swift语言快速学习指南
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift): 相对于Swift Cheat Sheet带了不少说明，但整个文档不显啰嗦，可读性强
+* 与其它语言对比表: 
+[C vs. Go vs. Swift](http://t.cn/hDwCeY),
+[C# vs. Swift](http://t.cn/RvSOQaN),
+[Scala vs. Swift](http://t.cn/RvXDwYI),
+[Go vs. Swift](http://t.cn/RvK5m7u)
 * [Swift Reference Playground](https://github.com/hackswift/swift-reference-pg),[Swift Operators Playground](https://github.com/hackswift/swift-operators-pg): "Swift Reference is a handy playground file that can be used when you are starting to learn swift.It covers the basic syntax definitions and different ways to use" 初学Swift语言的同学一定先玩玩这个，可以让您更快感性的了解Swift语言语法、操作符及语言新特点（代码涵盖地比较完整）。
 * [74个Swift标准库](http://practicalswift.com/2014/06/14/the-swift-standard-library-list-of-built-in-functions/) ([译文](http://swiftist.org/topics/126)): Swift包含了74个内置函数，但在The Swift Programming Langage一书中只介绍了其中的7个，其它的都没有在文档中体现。"文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果。我测试了好多个都能用，而且Xcode还会给出语法提示：）" by [@李洁信](http://weibo.com/u/1780854425) 
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq): Raywenderlich的Swift语言FAQ说清楚了很多问题。这份FAQ确实浅显易读，初学者不可或缺好文章！
@@ -43,11 +48,6 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 * [Objective-C开发者对Swift亮点的点评](http://blog.jobbole.com/71250/): 这篇译文确实不错，含括了常见的亮点。尽管对于Swift相较于Objective C的亮点描述还不够全面，对初学者很受用。[原文在此](http://www.raywenderlich.com/73997/swift-language-highlights)
 * [开启iOS/Mac开发之旅，过来人告诉你16件事 (译文来自@CocoaChina)](http://www.cocoachina.com/applenews/devnews/2013/0930/7091.html):"我曾向iOS开发者推荐了[《Twitter上最值得关注的30个人》](http://www.appdesignvault.com/inspiration-35/)，收到了不少开发者的反馈，受此鼓舞，我向知名iOS开发者和设计师询问了这样一个问题--回到你开始iOS/Mac app开发的时候，你以现在的角度会给“最初的你”哪些建议。"  译文来自，英文原文[《13 Things You Must Know When Starting Out in iOS/Mac Development》](http://www.appdesignvault.com/start-advice/)
 * [马上着手开发 iOS 应用程序 (Start Developing iOS Apps Today)](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html#//apple_ref/doc/uid/TP40012668): 苹果官方文档
-* 与其它语言对比表: 
-[C vs. Go vs. Swift](http://t.cn/hDwCeY),
-[C# vs. Swift](http://t.cn/RvSOQaN),
-[Scala vs. Swift](http://t.cn/RvXDwYI),
-[Go vs. Swift](http://t.cn/RvK5m7u)
 
 ### 5. 相关文档
 * WWDC 2014
