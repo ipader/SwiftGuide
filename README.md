@@ -59,6 +59,29 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 * [Top 5 iOS 7 Animations](http://www.raywenderlich.com/73286/top-5-ios-7-animations): iOS 7 排名前5的动画效果预览。谁能解读一下到这些动画效果对应的程序库、或找到对应或相近开源代码分享吗？（Swift版本更佳，OBJC也可以）
 	1. [IFTTT/JazzHands](https://github.com/IFTTT/JazzHands): Flickr开始界面动画类似效果，OBJC版本实现程序库。
 	
+## 常用工具
+* 开发工具
+	1. [Xcode 6 beta 2](http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg): 苹果应用集成开发环境。支持c/c++, Objective C, Swift等。没有开发者帐号的在[百度网盘](http://pan.baidu.com/s/1c0Bypby)(提取码:va1y)下载。
+	2. [Textmate](http://macromates.com/)：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
+	3. [Mou](http://mouapp.com/)：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。
+	4. [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
+	
+* 代码管理
+	1. [GitHub](http://github.com/)：声望日盛的资源分享之地。
+	2. [GitHub for Mac](https://mac.github.com/)：一个设计的非常美观的git客户端，不能取代你从命令行获得的所有功能，但使用起来非常简单。
+	3. [Git](http://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看免费电子书籍。
+	
+* Xcode插件
+	1. [CocoaPods](http://beta.cocoapods.org/)：第三方库的管理利器，允许你简单地把第三方库整合进自己的应用中。对我个人来说，我基本上每个项目都使用CocoaPods。
+	2. [CocoaPods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin)：一款Xcode插件，允许你直接从Xcode管理CocoaPod依赖。
+* 管理工具
+	1. [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X上非常出色的包管理工具。
+	2. [Transmit ($)](http://panic.com/transmit/)：一个Mac OS X 上FTP客户端，有着非常漂亮的用户界面和有用的功能。
+	
+* 参考文章
+	1. [iOS开发工具](http://www.cocoachina.com/newbie/basic/2014/0417/8187.html): "这是我们多篇iOS开发工具系列篇中的一篇，此前的文章比如：那些不能错过的Xcode插件，iOS开发者有价值的工具集，iOS/OS X开发：各种工具快到碗里来！，App原型设计工具使用心得（上）& App原型设计工具使用心得（下），你用哪种工具进行iOS app自动化功能测试？，iOS 开发者必知的 75 个工具" By @CocoaChina
+	
+	
 ---
 ## Swift教程
 * 苹果官方
