@@ -61,7 +61,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 	
 ## 常用工具
 * 开发工具
-	1. [Xcode 6 beta 2](http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg): 苹果应用集成开发环境。支持c/c++, Objective C, Swift等。没有开发者帐号的在[百度网盘](http://pan.baidu.com/s/1c0Bypby)(提取码:va1y)下载。
+	1. [Xcode 6 beta 2](http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg): 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。没有开发者帐号的在[百度网盘](http://pan.baidu.com/s/1c0Bypby)(提取码:va1y)下载。
 	2. [Textmate](http://macromates.com/)：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
 	3. [Mou](http://mouapp.com/)：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。
 	4. [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
