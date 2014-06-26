@@ -80,7 +80,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 	
 * 参考文章
 	1. [iOS开发工具](http://www.cocoachina.com/newbie/basic/2014/0417/8187.html): "这是我们多篇iOS开发工具系列篇中的一篇，此前的文章比如：那些不能错过的Xcode插件，iOS开发者有价值的工具集，iOS/OS X开发：各种工具快到碗里来！，App原型设计工具使用心得（上）& App原型设计工具使用心得（下），你用哪种工具进行iOS app自动化功能测试？，iOS 开发者必知的 75 个工具" By @CocoaChina
-	
+
 	
 ---
 ## Swift教程
@@ -105,11 +105,16 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 ---
 ## Swift项目
 ### 1. 实用类库
+
+ 以下实用类库仅做为快速参考，更多实用类库需求，可以去这里[(Swift toolbox is a community-supported catalog 
+of iOS and OSX libraries)](http://www.swifttoolbox.io/), 这个网站提供了GitHub开源社区中优质Swift资源库的查询服务。 
+
 * [Dollar](https://github.com/ankurp/Dollar.swift): 尤其在Array和Dictionary的支持上（实现类库仅一个Dollar.swift文件）。用过Javascript版的Lo-Dash或underscore就知道其实用程度。它是一套函数化编程的工具库。另一个类似的更完整的版本是[ExSwift](https://github.com/pNre/ExSwift)，它的实现基于对象化扩展的。
 * [ExSwift](https://github.com/pNre/ExSwift): 实用类扩展库。另一个Lo-Dash或underscore的Swift版本实现，相对于Dollar.swift，此版本有更完整的API实现。包括了对Array, Int, String, Float, Range, Dictionary, NSArray的扩展及其它实用方法。完全遵循面向对象的扩展原则。
 * [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
 * [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent): 一个简单、小巧、实用的HTTP请求Swift语言实现类（仅一个Agent.swift类）
 * [lingoer/SwiftyJSON](https://github.com/lingoer/SwiftyJSON):这是解析JSON字符串封装类。实现功能与Javascript中的JSON.parse相近，使用方便。
+* [owensd/json-swift](https://github.com/owensd/json-swift): 功能与Swifty几乎一致，使用上要更方便。
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法" By [lingoer](https://github.com/lingoer)
 * [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
