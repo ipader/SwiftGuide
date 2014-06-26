@@ -107,7 +107,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 ### 1. 实用类库
 
  以下实用类库仅做为快速参考，更多实用类库需求，可以去这里[(Swift toolbox is a community-supported catalog 
-of iOS and OSX libraries)](http://www.swifttoolbox.io/), 这个网站提供了GitHub开源社区中优质Swift资源库的查询服务。 
+of iOS and OSX libraries)](http://www.swifttoolbox.io/), 这个网站收藏了GitHub开源社区中优质Swift资源库，并提供了分类及查询服务。网站风格清新可人。
 
 * [Dollar](https://github.com/ankurp/Dollar.swift): 尤其在Array和Dictionary的支持上（实现类库仅一个Dollar.swift文件）。用过Javascript版的Lo-Dash或underscore就知道其实用程度。它是一套函数化编程的工具库。另一个类似的更完整的版本是[ExSwift](https://github.com/pNre/ExSwift)，它的实现基于对象化扩展的。
 * [ExSwift](https://github.com/pNre/ExSwift): 实用类扩展库。另一个Lo-Dash或underscore的Swift版本实现，相对于Dollar.swift，此版本有更完整的API实现。包括了对Array, Int, String, Float, Range, Dictionary, NSArray的扩展及其它实用方法。完全遵循面向对象的扩展原则。
