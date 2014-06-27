@@ -63,7 +63,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜欢迎开�
 * 开发工具
 	1. [Xcode 6 beta 2](http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg): 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。没有开发者帐号的在[百度网盘](http://pan.baidu.com/s/1c0Bypby)(提取码:va1y)下载。
 	2. [Textmate](http://macromates.com/)：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
-	3. [Mou](http://mouapp.com/)：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。
+	3. [Mou](http://mouapp.com/))：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：[罗晨](http://chenluois.com/)
 	4. [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
 	
 * 代码管理
@@ -162,6 +162,7 @@ __
 
 ### 1. 文章精选
 * [谈谈 iOS 8 和 OS X 10.10 的 Extension](http://imtx.me/archives/1898.html): "我个人认为这是 iOS 和 OS X 发展至今非常具有里程碑意义的一处改进，甚至比 UI 上的改变重要的多。我想简单地谈一下为何 Extensions 这么重要。" By [@图拉鼎](http://weibo.com/tualatrix)
+* [App Extensions学习笔记](http://wangzz.github.io/blog/2014/06/23/wwdc2014zhi-app-extensionsxue-xi-bi-ji/): "系统中支持extension的区域，extension的类别也是据此区分的，iOS上共有Today,Share,Action,Photo,Editing,Storage Provider,Custom keyboard几种，其中Today中的extension又被称为widget" By [@foogry](http://weibo.com/foogry)
 
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
