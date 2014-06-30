@@ -1,7 +1,7 @@
 //
 //  GSView.swift
 //  Apple IIGS style painting
-//  1.3
+//  1.4
 //
 //  Created by Lim Thye Chean on 05/06/14.
 //  Copyright (c) 2014年 Virtual GS. All rights reserved.
@@ -39,11 +39,11 @@ var pixelHeight = 0
 var refreshTime:Double = 0  // Number of seconds to next refresh, set to zero to have no refresh
 
 class GSView: UIView {
-    init(frame screen: CGRect) {
+    init(frame screen:CGRect) {
         super.init(frame: screen)
     }
     
-    init(coder aDecoder: NSCoder!) {
+    init(coder aDecoder:NSCoder!) {
         super.init(coder: aDecoder)
         
         screenWidth = UIScreen.mainScreen().bounds.size.width
@@ -58,17 +58,17 @@ class GSView: UIView {
         setup()
         
         if refreshTime > 0 {
-           NSTimer.scheduledTimerWithTimeInterval(refreshTime, target: self, selector: Selector("setNeedsDisplay"), userInfo: nil, repeats: true)
+           NSTimer.scheduledTimerWithTimeInterval(refreshTime, target:self, selector:Selector("setNeedsDisplay"), userInfo:nil, repeats:true)
         }
     }
     
-    override func drawRect(screen: CGRect) {
+    override func drawRect(screen:CGRect) {
         main()
     }
     
     // Handle gesture
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches:NSSet, withEvent event:UIEvent) {
         if touches.anyObject() {
             for touch:AnyObject in touches {
                 let location = touch.locationInView(self)
@@ -79,7 +79,7 @@ class GSView: UIView {
         }
     }
     
-    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesMoved(touches:NSSet, withEvent event:UIEvent) {
         if touches.anyObject() {
             for touch:AnyObject in touches {
                 let location = touch.locationInView(self)
@@ -90,7 +90,7 @@ class GSView: UIView {
         }
     }
     
-    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesEnded(touches:NSSet, withEvent event:UIEvent) {
         if touches.anyObject() {
             for touch:AnyObject in touches {
                 let location = touch.locationInView(self)
@@ -121,8 +121,8 @@ func drawLine(x1:Int, y1:Int, #to:Int, y2:Int, size:Int=1) {
     var path = UIBezierPath()
     
     path.lineWidth = CGFloat(size);
-    path.moveToPoint(CGPointMake(CGFloat(x1), CGFloat(y1)))
-    path.addLineToPoint(CGPointMake(CGFloat(to), CGFloat(y2)))
+    path.moveToPoint(CGPoint(x: CGFloat(x1), y: CGFloat(y1)))
+    path.addLineToPoint(CGPoint(x: CGFloat(to), y: CGFloat(y2)))
     path.closePath()
     path.stroke()
 }
@@ -136,13 +136,11 @@ func frameRect(x:Int, y:Int, #width:Int, #height:Int) {
 }
 
 func paintCircle(x:Int, y:Int, #radius:Int) {
-    UIBezierPath(arcCenter:CGPointMake(CGFloat(x), CGFloat(y)), radius:CGFloat(radius),
-        startAngle:CGFloat(0), endAngle:6.29, clockwise:true).fill()
+    UIBezierPath(arcCenter:CGPoint(x:CGFloat(x), y:CGFloat(y)), radius:CGFloat(radius), startAngle:CGFloat(0), endAngle:6.29, clockwise:true).fill()
 }
 
 func frameCircle(x:Int, y:Int, #radius:Int) {
-    UIBezierPath(arcCenter:CGPointMake(CGFloat(x), CGFloat(y)), radius:CGFloat(radius),
-        startAngle:CGFloat(0), endAngle:6.29, clockwise:true).stroke()
+    UIBezierPath(arcCenter:CGPoint(x:CGFloat(x), y:CGFloat(y)), radius:CGFloat(radius), startAngle:CGFloat(0), endAngle:6.29, clockwise:true).stroke()
 }
 
 func drawImage(file:String, x:Int, y:Int) {
@@ -152,6 +150,11 @@ func drawImage(file:String, x:Int, y:Int) {
 
 func drawImage(file:String, x:Int, y:Int, #width:Int, #height:Int) {
     UIImage(named:file).drawInRect(CGRect(x:CGFloat(x), y:CGFloat(y), width:CGFloat(width), height:CGFloat(height)))
+}
+
+func drawText(str:String, x:Int, y:Int, #size:Int) {
+    let text:NSString = str
+    text.drawAtPoint(CGPoint(x:CGFloat(x), y:CGFloat(y)), withFont:UIFont.systemFontOfSize(CGFloat(size)))
 }
 
 /**
@@ -186,7 +189,11 @@ func plotRect(x:Int, y:Int, #width:Int, #height:Int) {
     Graphics routines
 **/
 
-// Set color
+// Get/Set color
+
+func getColor(color:Int) -> UIColor {
+    return colors[color]
+}
 
 func setColor(color:Int) {
     colors[color].setFill()
@@ -198,8 +205,19 @@ func setColor(color:UIColor) {
     color.setStroke()
 }
 
+// Post notification
+
+func postNotification(message:String) {
+    NSNotificationCenter.defaultCenter().postNotificationName(message, object: nil)
+
+}
+
 // refresh
 
 func refresh(#rate:Int) {
     refreshTime = 1 / Double(rate)
 }
+
+
+
+

@@ -9,8 +9,8 @@ import UIKit
 class Picture {
     let width = 240
     let height = 150
-    let name: String
-    var x, y, speed: Int
+    let name:String
+    var x, y, speed:Int
     
     init(file:String) {
         name = file
@@ -52,6 +52,9 @@ func setup() {
 
 func main() {
     drawImage("background.jpg", 0, 0, width:WIDTH, height:HEIGHT)
+    
+    setColor(WHITE)
+    drawText("GSwift", 10, 10, size:32)
     
     for pic in pictures {
         pic.move()
@@ -148,7 +151,15 @@ func touchUp(x:Int, y:Int) {}
 
     func touchUp(x:Int, y:Int) {}
 
+    /**
+        Text Demo
+    **/
 
+    setColor(WHITE)
+
+    for i in 1...10 {
+        drawText("GSwift", 50 * i, 50 * i, size:32 + i * 4)
+    }
 
     /**
         Hires Demo
