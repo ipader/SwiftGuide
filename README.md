@@ -128,6 +128,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [Swift版的知乎日报](https://github.com/jxd001/Swift-ZhihuDaily): 学习一门新语言，光看是没有用的，想要快速的掌握它，就得投入到真实项目的开发中，仿照@YANGReal 的糗事百科，做了一个Swift版的知乎日报
 * [Swift RSS Sample](https://github.com/wantedly/swift-rss-sample): 用Swift语言开发的RSS阅读器
 * [Swift版PM2.5的例子](https://github.com/sxyx2008/Swift-PM25): 一个很好的Swift与Objective C协同工作GitHub开源项目。用到的开源类库有[TFHpple](https://github.com/topfunky/hpple): 以XPath方式解析HTML，[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift): 使用Swift写的AlertView SVProgressHUD 进度条 By [@荧星诉语](http://weibo.com/qq184675420)
+* [lexrus/LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel): 实现文字飘入飘出的效果。效果非常赞！
 
 
 ### 3. 完整项目
