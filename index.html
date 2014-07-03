@@ -188,6 +188,7 @@ sup {
 <a href="http://www.swiftguide.cn">在线版(中文) (By @Swift中文翻译组)</a> ｜
 <a href="http://vdisk.weibo.com/s/EhsPPzRRQ5CZ/1402621206">PDF版 (By @CocoaChina)</a> ｜
 <a href="http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000">百度阅读版 (By 小岂子)</a></p></li>
+<li><p><a href="http://swiftist.org/topics/165">《Swift 编程风格指南》</a>(译文来自 <a href="swiftist.com">swiftist.com</a>): 本风格指南的目标是让Swift代码更简洁、可读更强。 英文原版：<a href="https://github.com/raywenderlich/swift-style-guide">《The Official raywenderlich.com Swift Style Guide》</a></p></li>
 </ul>
 
 
@@ -250,7 +251,7 @@ sup {
 <ol>
 <li> <a href="http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg">Xcode 6 beta 2</a>: 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。没有开发者帐号的在<a href="http://pan.baidu.com/s/1c0Bypby">百度网盘</a>(提取码:va1y)下载。</li>
 <li> <a href="http://macromates.com/">Textmate</a>：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经<a href="https://github.com/textmate/textmate">开源</a></li>
-<li> <a href="http://mouapp.com/">Mou</a>：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。</li>
+<li> <a href="http://mouapp.com/">Mou</a>)：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：<a href="http://chenluois.com/">罗晨</a></li>
 <li> <a href="http://www.sublimetext.com/">Sublime Text ($)</a>：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。</li>
 </ol>
 </li>
@@ -294,7 +295,7 @@ sup {
 
 <ol>
 <li> <a href="https://developer.apple.com/wwdc/resources/sample-code/">示例代码</a>: "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By <a href="http://weibo.com/lancy1014">@晨钰Lancy</a></li>
-<li> Swift入门(视频翻译 By <a href="http://weibo.com/zhaozhecleric">@赵哲A</a>): <a href="http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html">A001.01</a>, <a href="http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html">A001.02</a>, <a href="http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html">A001.03</a>： WWDC 2014官方Session 402视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。</li>
+<li> Swift入门(视频翻译 By <a href="http://weibo.com/zhaozhecleric">@赵哲A</a>): <a href="http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html">A001.01</a>, <a href="http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html">A001.02</a>, <a href="http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html">A001.03</a>, <a href="http://v.youku.com/v_show/id_XNzMxODgxNDM2.html">A001.04</a>： WWDC 2014官方Session 402视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。</li>
 </ol>
 </li>
 <li><a href="https://github.com/nettlep/learn-swift">nettlep/learn-swift</a>: 学习《Swift Programming Language》的同时，配合运行这些playgrounds，对于快速掌握Swift最合适不过了.</li>
@@ -320,12 +321,16 @@ sup {
 
 <h3>1. 实用类库</h3>
 
+<p> 以下实用类库仅做为快速参考，更多实用类库需求，可以去这里<a href="http://www.swifttoolbox.io/">(Swift toolbox is a community-supported catalog
+of iOS and OSX libraries)</a> (By <a href="https://www.facebook.com/xpizzle">Adam Leonard</a> from <a href="[http://swiftcast.tv">swiftcast.tv</a>), 这个网站收藏了GitHub开源社区中优质Swift资源库，并提供了分类及查询服务。网站风格清新可人。swifttoolbox.io By</p>
+
 <ul>
 <li><a href="https://github.com/ankurp/Dollar.swift">Dollar</a>: 尤其在Array和Dictionary的支持上（实现类库仅一个Dollar.swift文件）。用过Javascript版的Lo-Dash或underscore就知道其实用程度。它是一套函数化编程的工具库。另一个类似的更完整的版本是<a href="https://github.com/pNre/ExSwift">ExSwift</a>，它的实现基于对象化扩展的。</li>
 <li><a href="https://github.com/pNre/ExSwift">ExSwift</a>: 实用类扩展库。另一个Lo-Dash或underscore的Swift版本实现，相对于Dollar.swift，此版本有更完整的API实现。包括了对Array, Int, String, Float, Range, Dictionary, NSArray的扩展及其它实用方法。完全遵循面向对象的扩展原则。</li>
 <li><a href="https://github.com/FahimF/SQLiteDB">SQLiteDB in Swift</a>: "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."</li>
 <li><a href="https://github.com/hallas/agent">Minimalistic Swift HTTP request agent for iOS and OS X</a>: 一个简单、小巧、实用的HTTP请求Swift语言实现类（仅一个Agent.swift类）</li>
 <li><a href="https://github.com/lingoer/SwiftyJSON">lingoer/SwiftyJSON</a>:这是解析JSON字符串封装类。实现功能与Javascript中的JSON.parse相近，使用方便。</li>
+<li><a href="https://github.com/owensd/json-swift">owensd/json-swift</a>: 功能与Swifty几乎一致，使用上要更方便。</li>
 <li><a href="https://github.com/mattdonnelly/Swifter">A Twitter framework for iOS &amp; OS X written in Swift</a>: 一套很完整的Twitter访问框架类库，支持iOS/OS X</li>
 <li><a href="https://github.com/lingoer/SwiftWeiboKit">SwiftWeiboKit</a>: "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法" By <a href="https://github.com/lingoer">lingoer</a></li>
 <li><a href="https://github.com/yeahdongcn/RSBarcodes_Swift">RSBarcodes_Swift</a>: "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By <a href="http://weibo.com/r0ckstar">@yeahdongcn</a> Swift语言版二维码识别及生成类库。</li>
@@ -343,6 +348,7 @@ sup {
 <li><a href="https://github.com/jxd001/Swift-ZhihuDaily">Swift版的知乎日报</a>: 学习一门新语言，光看是没有用的，想要快速的掌握它，就得投入到真实项目的开发中，仿照@YANGReal 的糗事百科，做了一个Swift版的知乎日报</li>
 <li><a href="https://github.com/wantedly/swift-rss-sample">Swift RSS Sample</a>: 用Swift语言开发的RSS阅读器</li>
 <li><a href="https://github.com/sxyx2008/Swift-PM25">Swift版PM2.5的例子</a>: 一个很好的Swift与Objective C协同工作GitHub开源项目。用到的开源类库有<a href="https://github.com/topfunky/hpple">TFHpple</a>: 以XPath方式解析HTML，<a href="https://github.com/vikmeup/SCLAlertView-Swift">SCLAlertView</a>: 使用Swift写的AlertView SVProgressHUD 进度条 By <a href="http://weibo.com/qq184675420">@荧星诉语</a></li>
+<li><a href="https://github.com/lexrus/LTMorphingLabel">lexrus/LTMorphingLabel</a>: 实现文字飘入飘出的效果。效果非常赞！</li>
 </ul>
 
 
@@ -394,6 +400,7 @@ __</p>
 
 <ul>
 <li><a href="http://imtx.me/archives/1898.html">谈谈 iOS 8 和 OS X 10.10 的 Extension</a>: "我个人认为这是 iOS 和 OS X 发展至今非常具有里程碑意义的一处改进，甚至比 UI 上的改变重要的多。我想简单地谈一下为何 Extensions 这么重要。" By <a href="http://weibo.com/tualatrix">@图拉鼎</a></li>
+<li><a href="http://wangzz.github.io/blog/2014/06/23/wwdc2014zhi-app-extensionsxue-xi-bi-ji/">App Extensions学习笔记</a>: "系统中支持extension的区域，extension的类别也是据此区分的，iOS上共有Today,Share,Action,Photo,Editing,Storage Provider,Custom keyboard几种，其中Today中的extension又被称为widget" By <a href="http://weibo.com/foogry">@foogry</a></li>
 </ul>
 
 
