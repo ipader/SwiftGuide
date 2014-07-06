@@ -33,5 +33,13 @@
 * paintCircle
 * ...
 
+### 2. GSwift-2
+GSwift 2 改变了程序架构，让其他 Swift 软件可以直接使用。绘图方面加入了渐变色彩。里头有一些展示程序方便初学者学习。
+
+主要改变：1）用 Storyboard 来适配 iPhone 和 iPad，2）展示如何用自定义的 UIView 来继承 GSView 绘图程序，3）用 UIKit 自身的 init() 和 drawRect() 函数来替代之前的 setup() 和 main() 函数。GSView 现在可以使用在任何项目自定义的 UIView 上。
+
+![截屏](GSwift-2/screenshot.png)
+
 更详细功能参见程序库
+
 
