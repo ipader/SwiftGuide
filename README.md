@@ -149,6 +149,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
 * [objc.io](http://objc.io)([中译版 By @onevcat 及其朋友们](http://objccn.io)): "关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
 * [iOS Dev Weekly](https://iosdevweekly.com/): 收录一周以来iOS开发资讯链接，并于周五发布。由[Dave Verwer](http://www.twitter.com/daveverwer)创办，他是一位iPhone和iPad开发者以及培训师。
+* [Appcoda.com](http://appcoda.com):质量很高的一个iOS开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触iOS开发的新手学习。
 
 
 ---
@@ -199,3 +200,4 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 	1. [次时代交互原型神器Origami档案](http://www.csdn.net/article/2014-06-09/2820131): "随着iOS 7的推出，扁平化和极简主义设计风格在移动互联网领域流行起来，App动效越来越成为了决定App气质的重要因素，原型的动态保真度似乎成为了阻碍设计师发挥想象力的一道门槛。传统的以点按为主的App设计，逐渐演变成为大量手势交互，这使得Axure类工具表现手势交互显得心有余而力不足。基于QC的Origami应运而生。"
 	2. [用 Quartz Composer 和 Origami 制作一个简单的按钮动画(译文)](https://github.com/nixzhu/dev-blog/blob/master/2014-06-22-quartz-composer-and-origami-tutorial-button-animation.md): "结识了 QC 和 Origami 之后，我就能用很短的时间制作出这个动画的原型。我爱上了 QC 和 Origami —— 我希望你在使用它们之后，也会爱上它们。同时，我十二分地感谢 Facebook 创造了 Origami，以及 Apple 创造了 Quartz Composer。"  By [@nixzhu](http://weibo.com/nixzhu)
 
+* [WWDC 2014 PDF 及session 视频下载脚本](http://www.iwangke.me/2014/06/07/wwdc-2014-download-script/):一段下载WWDC2014 全部PDF 和Session 的终端脚本。
