@@ -16,6 +16,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html),
 [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
 
+
 ### 2. [Swift Programming Language](https://developer.apple.com/swift/) 
 
 * 苹果官方文档：
@@ -26,6 +27,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQ5CZ/1402621206) ｜ 
 [百度阅读版 (By 小岂子)](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
 
+* _** [Swift苹果官方博客](https://developer.apple.com/swift/blog/)："值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。" **_
 * _**[Swift 编程风格指南](http://swiftist.org/topics/165)(译文来自 [swiftist.com](swiftist.com)): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) **_
 * _**[《The Swift Programming Language》读簿](http://hawstein.com/posts/make-thiner-tspl.html): "读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。**_
 
@@ -65,7 +67,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 	
 ## 常用工具
 * 开发工具
-	1. [Xcode 6 beta 2](http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg): 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。没有开发者帐号的在[百度网盘](http://pan.baidu.com/s/1c0Bypby)(提取码:va1y)下载。[Xcode 6 beta 3下载](http://pan.baidu.com/s/1hG5bg)
+	1. [Xcode 6 beta 2](http://adcdownload.apple.com/Developer_Tools/xcode_6_beta_2_i8z2ly/xcode_6_beta_2.dmg): 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。没有开发者帐号的在[百度网盘](http://pan.baidu.com/s/1c0Bypby)(提取码:va1y)下载。_** [Xcode 6 beta 3下载](https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/xcode_6_beta_3_lpw27r/xcode_6_beta_3.dmg)（已经可以直接苹果官网下载）**_
 	2. [Textmate](http://macromates.com/)：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
 	3. [Mou](http://mouapp.com/))：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：[罗晨](http://chenluois.com/)
 	4. [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
