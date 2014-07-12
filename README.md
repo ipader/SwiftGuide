@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-7-10（_**着重＋斜体**_为最近加入或更新条目）</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-7-12（_**着重＋斜体**_为最近加入或更新条目）</span>
 
 ## Swift文档
 
@@ -28,8 +28,8 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [百度阅读版 (By 小岂子)](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
 
 * _** [Swift苹果官方博客](https://developer.apple.com/swift/blog/)："值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。" **_
-* _**[Swift 编程风格指南](http://swiftist.org/topics/165)(译文来自 [swiftist.com](swiftist.com)): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) **_
-* _**[《The Swift Programming Language》读簿](http://hawstein.com/posts/make-thiner-tspl.html): "读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。**_
+* [Swift 编程风格指南](http://swiftist.org/topics/165)(译文来自 [swiftist.com](swiftist.com)): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) 
+* [《The Swift Programming Language》读簿](http://hawstein.com/posts/make-thiner-tspl.html): "读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。
 
 ### 3. Using Swift with Cocoa and Objective-C
 * 苹果官方文档：[在线版(英文)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
@@ -39,7 +39,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * [Swift Cheat Sheet(PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_3.pdf): 形式以代码先行，极简、有效地Swift语言快速学习指南
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift): 相对于Swift Cheat Sheet带了不少说明，但整个文档不显啰嗦，可读性强
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq): Raywenderlich的Swift语言FAQ说清楚了很多问题。这份FAQ确实浅显易读，初学者不可或缺好文章！
-* _**[Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：了解使用String的更高级技巧（尤其在Unicode的使用上）。文章中作者附上了示列代码在Playground项目中，似乎Swift开发者们已经慢慢地习惯了结合playground讲授Swift使用小技巧及语言特性。**_
+* [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：了解使用String的更高级技巧（尤其在Unicode的使用上）。文章中作者附上了示列代码在Playground项目中，似乎Swift开发者们已经慢慢地习惯了结合playground讲授Swift使用小技巧及语言特性。
 * 与其它语言对比表: 
 [C vs. Go vs. Swift](http://t.cn/hDwCeY),
 [C# vs. Swift](http://t.cn/RvSOQaN),
@@ -95,10 +95,10 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 	2. Swift入门(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)： WWDC 2014官方Session 402视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。
 	3. _**Swift进阶(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html)... WWDC 2014官方Session 403视频翻译。**_
 * [nettlep/learn-swift](https://github.com/nettlep/learn-swift): 学习《Swift Programming Language》的同时，配合运行这些playgrounds，对于快速掌握Swift最合适不过了.
-* _**[The Swift Programming Language: Solutions to Experiments](http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments) ([译文](http://www.cocoachina.com/applenews/devnews/2014/0703/9022.html)): "读了它的第一章节“Swift初见（A Swift Tour）”，有各种各样的试验需要你去“解决”用来阐述指南中示例的代码问题。苹果并没有给我们提供相关的实际解决方案，所以在此列出了我们想到的一些。" **_
+* [The Swift Programming Language: Solutions to Experiments](http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments) ([译文](http://www.cocoachina.com/applenews/devnews/2014/0703/9022.html)): "读了它的第一章节“Swift初见（A Swift Tour）”，有各种各样的试验需要你去“解决”用来阐述指南中示例的代码问题。苹果并没有给我们提供相关的实际解决方案，所以在此列出了我们想到的一些。" 
 * [Swift Reference Playground](https://github.com/hackswift/swift-reference-pg)/[Swift Operators Playground](https://github.com/hackswift/swift-operators-pg): "Swift Reference is a handy playground file that can be used when you are starting to learn swift.It covers the basic syntax definitions and different ways to use" 初学Swift语言的同学一定先玩玩这个，可以让您更快感性的了解Swift语言语法、操作符及语言新特点（代码涵盖地比较完整）。
-* _**[VirtualGS教程](http://blog.sina.com.cn/virtualgs) [(By @林泰前)](http://weibo.com/limtc): 几十年的老程序员，资深的iOS开发工程师，把自己儿子培养成苹果应用商店最年少的应用开发者，哪里能找到这样优质的编程老师？ 教程包括《How to》系列连载和《图形编程》示例项目**_
-* _**[Swift Weather APP](http://www.imooc.com/view/149):“林永坚老师将带领大家使用Swift语言开发一个完整的天气 iOS APP。同时大家能够学习到Interface Builder、CocoaPods、Core Location、AFNetworking的使用，以及如何通过Swift调用Objective-C组件”**_
+* [VirtualGS教程](http://blog.sina.com.cn/virtualgs) [(By @林泰前)](http://weibo.com/limtc): 几十年的老程序员，资深的iOS开发工程师，把自己儿子培养成苹果应用商店最年少的应用开发者，哪里能找到这样优质的编程老师？ 教程包括《How to》系列连载和《图形编程》示例项目
+* [Swift Weather APP](http://www.imooc.com/view/149):“林永坚老师将带领大家使用Swift语言开发一个完整的天气 iOS APP。同时大家能够学习到Interface Builder、CocoaPods、Core Location、AFNetworking的使用，以及如何通过Swift调用Objective-C组件”
 * [Developing iOS 8 Apps Using Swift (I) – Animations, Audio, and Custom Table View Cells](http://jamesonquave.com/blog/developing-ios-8-apps-using-swift-animations-audio-and-custom-table-view-cells/): "这个教程大概7篇blog，一步步讲解了一个『itunes music search app』的制作对于async http, api delegate, 异步图片，动画，代码分层，interface builder都做了清晰的介绍。" By [gaohailang](https://github.com/gaohailang)
 * [Replicating Twitter’s bird zoom startup animation (in Swift!)](http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation) ([源代码](https://github.com/rounak/TwitterBirdAnimation)): 这是一个有关用Swift开发简单动画效果的编程示例，示例开发灵感来源于近期的Twitter iOS版小鸟启动动画。
 * [WWDC2014 详解OSX/iOS8/Swift语言](http://www.jikexueyuan.com/study/89.html): "极客学院全国首发课程，详解OSX/iOS8新特性/崭新编程语言Swift！极客学院团队通宵录制、上传，只为在这一刻把最新最实战的课程呈现给开发者"
@@ -109,6 +109,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
 * [LTBouncyPlaceholder代码解读](https://github.com/nixzhu/dev-blog/blob/master/2014-06-12-LTBouncyPlaceholder.md): "我希望你已经下载了 LTBouncyPlaceholder 的 Demo ，用 Xcode 6 打开并编译、运行，然后在界面中显示的几个 UITextField 里输入一些文字来体验这个扩展。看到 Placeholder 的动画了吗？" By [nixzhu](http://weibo.com/nixzhu)
 * [从零开始学Swift计时器App开发](http://swiftist.org/topics/96)（[源代码](https://github.com/lifedim/SwiftCasts/tree/master/001_swift_counter/SwiftCounter)）: "通过完成此教程，我对Swift语言的理解也更进了一步。Swift是一门全新的语言，作为开发者，我们需要不断加深对这门语言的理解，并灵活使用语言提供的特性来编程。..."  by [@李洁信](http://weibo.com/u/1780854425) 
+* _**[How to build a nice Hamburger Button](http://robb.is/working-on/a-hamburger-button-transition/): 小小的按钮，无论在设计上，还是代码上，都进行了精雕细琢。期待作者能尽早发布更完整的Hamburger Buttons. [robb/hamburger-button](https://github.com/robb/hamburger-button)**_
 * [使用 Swift 和 AVOSCloud 构建 iOS 应用](https://blog.avoscloud.com/1407/):"使用 AVOSCloud SDK 和 Swift 构建 iOS 应用 | AVOS Cloud Blog" By [@AVOS江宏](http://weibo.com/lazyseq) ｜ 这就是业界的速度，先机才是致胜法宝。
 
 ---
@@ -123,9 +124,9 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
 * [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent): 一个简单、小巧、实用的HTTP请求Swift语言实现类（仅一个Agent.swift类）
 * [lingoer/SwiftyJSON](https://github.com/lingoer/SwiftyJSON):这是解析JSON字符串封装类。实现功能与Javascript中的JSON.parse相近，使用方便。
-* _**[lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。**_
+* [lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。
 * [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法"
-* _**[daltoniam/SwiftHTTP](https://github.com/daltoniam/SwiftHTTP): Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.感兴趣的可以看看代码，比较与lingoer/GRequest差别。**_ 
+* [daltoniam/SwiftHTTP](https://github.com/daltoniam/SwiftHTTP): Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.感兴趣的可以看看代码，比较与lingoer/GRequest差别。
 * [owensd/json-swift](https://github.com/owensd/json-swift): 功能与Swifty几乎一致，使用上要更方便。
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
@@ -133,13 +134,14 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [vikmeup/SCLAlertView-Swift](https://github.com/vikmeup/SCLAlertView-Swift): 动画效果弹出框封装库（管理于CocoaPods），使用也足够方便。试着运行了一下，效果还不错。
 
 ### 2. 示例项目
-* _**[VirtualGS教程示例](https://github.com/ipader/SwiftGuide/tree/master/VirtualGS): 以下示例程序来源于林泰前老师[微博](http://weibo.com/limtc)或[博客](http://blog.sina.com.cn/virtualgs)发布，为方便大家学习Swift编程，有幸获得林老师的准许在这里发布。**_
+* [VirtualGS教程示例](https://github.com/ipader/SwiftGuide/tree/master/VirtualGS): 以下示例程序来源于林泰前老师[微博](http://weibo.com/limtc)或[博客](http://blog.sina.com.cn/virtualgs)发布，为方便大家学习Swift编程，有幸获得林老师的准许在这里发布。
 * [Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift): "实在忍不了Swift的数字计算时候的好麻烦的强制转换了，重载了一下加减乘除之类的操作符，这样就不用显式地转换类型了...（对于像我这样现在连补全都没有的孩子来说，能省好多时间啊- -）" By [@onevcat](http://weibo.com/onevcat)
 * [An app to list the available fonts on iOS](https://github.com/roadfire/SwiftFonts): 用Swift语言调用UIKit，列出设备内所有字体名称的小程序。
 * [Swift版的知乎日报](https://github.com/jxd001/Swift-ZhihuDaily): 学习一门新语言，光看是没有用的，想要快速的掌握它，就得投入到真实项目的开发中，仿照@YANGReal 的糗事百科，做了一个Swift版的知乎日报
 * [Swift RSS Sample](https://github.com/wantedly/swift-rss-sample): 用Swift语言开发的RSS阅读器
 * [Swift版PM2.5的例子](https://github.com/sxyx2008/Swift-PM25): 一个很好的Swift与Objective C协同工作GitHub开源项目。用到的开源类库有[TFHpple](https://github.com/topfunky/hpple): 以XPath方式解析HTML，[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift): 使用Swift写的AlertView SVProgressHUD 进度条 By [@荧星诉语](http://weibo.com/qq184675420)
 * [lexrus/LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel): 实现文字飘入飘出的效果。效果非常赞！
+* _**[practicalswift/Pythonic.swift](http://t.cn/RveAZ53): 用Swift语言实现Python标准库的一部分。然后，用Swift写一段Python风格的程序，这是Python程序员想要的吗？相信这不过是一个实验，以此说明Swift语言的多变性、动态性的能力。**_
 * [rafaelconde/ios8-ui-kit](https://github.com/rafaelconde/ios8-ui-kit): IOS 8 UI KIT + FOR SKETCH — 最新IOS8免费设计资源
 
 
@@ -149,12 +151,13 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 
 ---
 ## 推荐网站
+* _**[ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux):作者(Karol Mazur)将Apple Developer Forums上有关Swift特性及变更讨论(包括beta 3)分类汇总并更新到Github，从而，具有极强的可读性。其中，不乏有Chris Lattner的讨论文章。**_
 * [raywenderlich.com](http://www.raywenderlich.com/)([中文版](http://www.raywenderlich.com/zh-hans/)): 由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。近期第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/)): 著名开源作者[Matt Thompson](https://github.com/mattt)创建的开发技术博客网站，他开发了[AFNetworking](https://github.com/afnetworking/afnetworking)网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709) By [@程序员付恒](http://weibo.com/fallhunter)
 * [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
 * [objc.io](http://objc.io)([中译版 By @onevcat 及其朋友们](http://objccn.io)): "关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
 * [iOS Dev Weekly](https://iosdevweekly.com/): 收录一周以来iOS开发资讯链接，并于周五发布。由[Dave Verwer](http://www.twitter.com/daveverwer)创办，他是一位iPhone和iPad开发者以及培训师。
-* [Appcoda.com](http://appcoda.com):质量很高的一个iOS开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触iOS开发的新手学习。
+* _**[Appcoda.com](http://appcoda.com):质量很高的一个iOS开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触iOS开发的新手学习。**_
 
 
 ---
@@ -190,6 +193,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [外媒评论：苹果公司Swift语言将改变一切](http://tech.sina.com.cn/it/apple/2014-06-09/08499425442.shtml): 美国财经网站Motley Fool针对Swift比较中性的一篇评论文章，因此目标读者是非技术人员，可读性还不错。
 * [苹果新贵 Swift 之前世今生(池建强)](http://weibo.com/p/1001603720039017670032): 这篇文章故事性很强，不过，的确把前世今生、来龙去脉交待了一遍，适合刚开始了解swift语言的程序员。
 * [WWDC 2014: 给第三方开发者的情书(Qdaily 李如一)](http://qdaily.com/display/articles/1002): "iOS 和 Mac 上的御用语言 Objective-C 可以追溯至 NeXT 时代，换言之，它已经有超过二十年的历史。Swift 作为苹果发明的编程语言，也继承了苹果产品的传统"
+* _**[苹果发布Xcode 6 Beta 3，Swift迎来重大更新！](http://www.csdn.net/article/2014-07-08/2820566-swift-receives-significant-update):"苹果在面向开发者推送iOS 8 Beta 3以及OS X Yosemite的第三个预览版的同时，也发布了全新的Xcode 6 Beta 3，并对Swift语言进行了大幅改进。新版Swift修正了许多开发者提出的请求，尤其是对数组进行了重新设计。" 扩展阅读[《Swift 在 Beta3 中的变化》](http://andelf.github.io/blog/2014/07/08/swift-beta3-changes/) **_
 * [Swift中文翻译组](http://weibo.com/swiftguide): 近30人9天协作完成翻译近670页的英文文档
 	1. [协同写作的力量——中国开发者9天完成《Swift语言》中文版](http://www.36kr.com/p/212811.html): "详细介绍了GitHub上开源翻译《Swift语言》这个开完项目，发起者是一个90后的大学生，整个翻译团队在9天内完成了近670页的Swift语言文档翻译工作。" By 36Kr
 	2. [翻译暂时告一段落 写点感想吧](http://swiftist.org/topics/44) : "现在翻译已经告一段落，感觉这段时间的效率真是高的可怕，也许是因为一种成就感，或许带了那么一点功利心（我想每个人或多或少的都会有一点吧）。" By [@CoverXiT](http://weibo.com/u/3969796349)
