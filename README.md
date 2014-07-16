@@ -183,6 +183,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [App Extensions学习笔记](http://wangzz.github.io/blog/2014/06/23/wwdc2014zhi-app-extensionsxue-xi-bi-ji/): "系统中支持extension的区域，extension的类别也是据此区分的，iOS上共有Today,Share,Action,Photo,Editing,Storage Provider,Custom keyboard几种，其中Today中的extension又被称为widget" By [@foogry](http://weibo.com/foogry)
 * _** [详解 iOS 8 的动作扩展](http://sspai.com/26016): "动作扩展的出现，意味着用户能在应用程序间的切换上花更少的时间和精力，这是相当大的进步。" 译文作者: [@米斯特苹果](http://weibo.com/210100461), 原文:[《Action extensions in iOS 8: Explained》](http://www.imore.com/action-extensions-ios-8-explained) **_
 * _**[苹果iBeacon让智能家居走进现实](http://digi.tech.qq.com/a/20140715/008974.htm): "iBeacon最初发布的时候是一个协议，苹果希望利用这一协议取代NFC技术。iBeacon技术则可以利用支持该技术的设备创建一个信号区域，相当于实现了地理围栏的功能，当其他支持iBeacon技术的设备如手机进入这一区域时，对应的应用程序就会自动连接这一区域的信号网络，或者对用户进行提示"**_
+* _**[Android L/iOS8/WP8.1到底谁抄了谁？](http://soft.zol.com.cn/465/4659548_all.html): "我们发现在三场发布会上都听到了观众这样的声音：“无耻抄袭！抄了谁谁谁的！！”，这种事情似乎说也说不清，所以我们决定把这三个新系统放到一起来看看，然后再下结论。" **_
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
 
@@ -196,6 +197,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [苹果新贵 Swift 之前世今生(池建强)](http://weibo.com/p/1001603720039017670032): 这篇文章故事性很强，不过，的确把前世今生、来龙去脉交待了一遍，适合刚开始了解swift语言的程序员。
 * [WWDC 2014: 给第三方开发者的情书(Qdaily 李如一)](http://qdaily.com/display/articles/1002): "iOS 和 Mac 上的御用语言 Objective-C 可以追溯至 NeXT 时代，换言之，它已经有超过二十年的历史。Swift 作为苹果发明的编程语言，也继承了苹果产品的传统"
 * _**[苹果发布Xcode 6 Beta 3，Swift迎来重大更新！](http://www.csdn.net/article/2014-07-08/2820566-swift-receives-significant-update):"苹果在面向开发者推送iOS 8 Beta 3以及OS X Yosemite的第三个预览版的同时，也发布了全新的Xcode 6 Beta 3，并对Swift语言进行了大幅改进。新版Swift修正了许多开发者提出的请求，尤其是对数组进行了重新设计。" 扩展阅读[《Swift 在 Beta3 中的变化》](http://andelf.github.io/blog/2014/07/08/swift-beta3-changes/) **_
+* _**[《连线：为什么苹果Swift语言将会迅速普及》](http://tech.163.com/14/0715/20/A17J8UFT000915BD.html)：为苹果硬件开发了15年软件产品的麦克·艾什（Mike Ash）相信，苹果最终会将Swift开源，而且他也相信该语言会在苹果的控制之外发展壮大——因为该语言的开发者拉特纳有着很深的开源情节。“有他在掌舵，我觉得他会做出正确的选择”。原文：[Why Apple’s Swift Language Will Instantly Remake Computer Programming](http://www.wired.com/2014/07/apple-swift/)**_
 * [Swift中文翻译组](http://weibo.com/swiftguide): 近30人9天协作完成翻译近670页的英文文档
 	1. [协同写作的力量——中国开发者9天完成《Swift语言》中文版](http://www.36kr.com/p/212811.html): "详细介绍了GitHub上开源翻译《Swift语言》这个开完项目，发起者是一个90后的大学生，整个翻译团队在9天内完成了近670页的Swift语言文档翻译工作。" By 36Kr
 	2. [翻译暂时告一段落 写点感想吧](http://swiftist.org/topics/44) : "现在翻译已经告一段落，感觉这段时间的效率真是高的可怕，也许是因为一种成就感，或许带了那么一点功利心（我想每个人或多或少的都会有一点吧）。" By [@CoverXiT](http://weibo.com/u/3969796349)
