@@ -155,7 +155,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 
 ---
 ## 推荐网站
-* _**[ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux):作者(Karol Mazur)将Apple Developer Forums上有关Swift特性、缺陷及变更讨论分类汇总并更新到Github，具有很好的可读性。从中可以一窥Swift缺陷及未来潜在地变化。最关键地是有Chris Lattner及核心团队答疑解惑。**_
+* [ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux):作者(Karol Mazur)将Apple Developer Forums上有关Swift特性、缺陷及变更讨论分类汇总并更新到Github，具有很好的可读性。从中可以一窥Swift缺陷及未来潜在地变化。最关键地是有Chris Lattner及核心团队答疑解惑。
 * [raywenderlich.com](http://www.raywenderlich.com/)([中文版](http://www.raywenderlich.com/zh-hans/)): 由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。近期第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/)): 著名开源作者[Matt Thompson](https://github.com/mattt)创建的开发技术博客网站，他开发了[AFNetworking](https://github.com/afnetworking/afnetworking)网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709) By [@程序员付恒](http://weibo.com/fallhunter)
 * [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
@@ -183,7 +183,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 ### 1. 文章精选
 * [谈谈 iOS 8 和 OS X 10.10 的 Extension](http://imtx.me/archives/1898.html): "我个人认为这是 iOS 和 OS X 发展至今非常具有里程碑意义的一处改进，甚至比 UI 上的改变重要的多。我想简单地谈一下为何 Extensions 这么重要。" By [@图拉鼎](http://weibo.com/tualatrix)
 * [App Extensions学习笔记](http://wangzz.github.io/blog/2014/06/23/wwdc2014zhi-app-extensionsxue-xi-bi-ji/): "系统中支持extension的区域，extension的类别也是据此区分的，iOS上共有Today,Share,Action,Photo,Editing,Storage Provider,Custom keyboard几种，其中Today中的extension又被称为widget" By [@foogry](http://weibo.com/foogry)
-* _** [详解 iOS 8 的动作扩展](http://sspai.com/26016): "动作扩展的出现，意味着用户能在应用程序间的切换上花更少的时间和精力，这是相当大的进步。" 译文作者: [@米斯特苹果](http://weibo.com/210100461), 原文:[《Action extensions in iOS 8: Explained》](http://www.imore.com/action-extensions-ios-8-explained) **_
+* [详解 iOS 8 的动作扩展](http://sspai.com/26016): "动作扩展的出现，意味着用户能在应用程序间的切换上花更少的时间和精力，这是相当大的进步。" 译文作者: [@米斯特苹果](http://weibo.com/210100461), 原文:[《Action extensions in iOS 8: Explained》](http://www.imore.com/action-extensions-ios-8-explained)
 * _**[苹果iBeacon让智能家居走进现实](http://digi.tech.qq.com/a/20140715/008974.htm): "iBeacon最初发布的时候是一个协议，苹果希望利用这一协议取代NFC技术。iBeacon技术则可以利用支持该技术的设备创建一个信号区域，相当于实现了地理围栏的功能，当其他支持iBeacon技术的设备如手机进入这一区域时，对应的应用程序就会自动连接这一区域的信号网络，或者对用户进行提示"**_
 * _**[Android L/iOS8/WP8.1到底谁抄了谁？](http://soft.zol.com.cn/465/4659548_all.html): "我们发现在三场发布会上都听到了观众这样的声音：“无耻抄袭！抄了谁谁谁的！！”，这种事情似乎说也说不清，所以我们决定把这三个新系统放到一起来看看，然后再下结论。" **_
 * _**[Google开源字体Noto Sans CJK简介](http://weibo.com/1418521581/BdXqMkHbq#_rnd1405693766206)(By [@洋气书生](http://weibo.com/ben7th)): 这篇Noto Sans CJK(CJK: Chinese, Japan, Korean)字体普及文章简单、直接、专业，且易于理解。作者友善地提供了一份[本地下载](http://pan.baidu.com/s/1mg9M8Gg)，赞一个！P.S. 毫无疑问，新版Android上会很快支持，iOS/Mac/Windows上也会尽快缺省支持吗？**_
@@ -193,7 +193,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
 
 ### 3. 安全控制
-* [Back to Mac - XPC by objc.io](http://objccn.io/issue-14-4/): XPC 是 OS X 下的一种 IPC (进程间通信) 技术, 它实现了权限隔离, 使得 App Sandbox 更加完备。 
+* _**[Back to Mac - XPC by objc.io](http://objccn.io/issue-14-4/): XPC 是 OS X 下的一种 IPC (进程间通信) 技术, 它实现了权限隔离, 使得 App Sandbox 更加完备。**_ 
 
 ---
 ## 媒体文章
