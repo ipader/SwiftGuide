@@ -189,6 +189,8 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
 
+### 3. 安全控制
+* [Back to Mac - XPC by objc.io](http://objccn.io/issue-14-4/): XPC 是 OS X 下的一种 IPC (进程间通信) 技术, 它实现了权限隔离, 使得 App Sandbox 更加完备。 
 
 ---
 ## 媒体文章
