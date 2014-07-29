@@ -178,6 +178,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [InfoQ《学习苹果Swift语言的一些在线资源(英文)》](http://www.infoq.com/cn/news/2014/06/apple-swift-learning-resources)
 * [刘兰涛《Swift学习资源》](https://github.com/Lax/iOS-Swift-Demos/wiki) By [@懒桃儿吃桃儿](http://weibo.com/u/1653644220)
 * [InfoQ《苹果发布Swift编程语言-iOS移动开发周报》](http://www.infoq.com/cn/news/2014/06/ios-mobile-weekly): By [@唐巧_boy](http://weibo.com/tangqiaoboy)
+* _**[learnswift.tips](http://www.learnswift.tips/): 国外主流Swift学习资源集合。**_
 
 ---
 
