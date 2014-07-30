@@ -181,6 +181,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [InfoQ《苹果发布Swift编程语言-iOS移动开发周报》](http://www.infoq.com/cn/news/2014/06/ios-mobile-weekly): By [@唐巧_boy](http://weibo.com/tangqiaoboy)
 * _**[learnswift.tips](http://www.learnswift.tips/): 国外主流Swift学习资源集合。**_
 * [Awesome iOS](https://github.com/vsouza/awesome-ios): 一个iOS的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
+* [iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。
+
 
 ---
 
