@@ -134,6 +134,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。
 * [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法"
 * [daltoniam/SwiftHTTP](https://github.com/daltoniam/SwiftHTTP): Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.感兴趣的可以看看代码，比较与lingoer/GRequest差别。
+* _**[Alamofire/Alamofire](https://github.com/Alamofire/Alamofire): mattt 用 Swift 做了个网络请求和相关的小封装。By [Mattt Thompson ](https://github.com/mattt)**_
 * [owensd/json-swift](https://github.com/owensd/json-swift): 功能与Swifty几乎一致，使用上要更方便。
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
@@ -181,7 +182,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [InfoQ《苹果发布Swift编程语言-iOS移动开发周报》](http://www.infoq.com/cn/news/2014/06/ios-mobile-weekly): By [@唐巧_boy](http://weibo.com/tangqiaoboy)
 * _**[learnswift.tips](http://www.learnswift.tips/): 国外主流Swift学习资源集合。**_
 * [Awesome iOS](https://github.com/vsouza/awesome-ios): 一个iOS的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
-* [iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。
+* _**[iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。**_
 
 
 ---
