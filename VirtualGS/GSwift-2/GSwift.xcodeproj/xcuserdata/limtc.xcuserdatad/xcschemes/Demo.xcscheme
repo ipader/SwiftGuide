@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "939B0F8C19666A5F0018279C"
-               BuildableName = "Demo.app"
+               BuildableName = "GSwift.app"
                BlueprintName = "GSwift"
                ReferencedContainer = "container:GSwift.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "939B0FA019666A5F0018279C"
-               BuildableName = "DemoTests.xctest"
+               BuildableName = "GSwiftTests.xctest"
                BlueprintName = "GSwiftTests"
                ReferencedContainer = "container:GSwift.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "939B0F8C19666A5F0018279C"
-            BuildableName = "Demo.app"
+            BuildableName = "GSwift.app"
             BlueprintName = "GSwift"
             ReferencedContainer = "container:GSwift.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "939B0F8C19666A5F0018279C"
-            BuildableName = "Demo.app"
+            BuildableName = "GSwift.app"
             BlueprintName = "GSwift"
             ReferencedContainer = "container:GSwift.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "939B0F8C19666A5F0018279C"
-            BuildableName = "Demo.app"
+            BuildableName = "GSwift.app"
             BlueprintName = "GSwift"
             ReferencedContainer = "container:GSwift.xcodeproj">
          </BuildableReference>

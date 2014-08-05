@@ -1,6 +1,6 @@
 //
 //  GSwift - Apple IIGS style painting
-//  2.0
+//  2.1
 //
 //  Created by Lim Thye Chean on 05/06/14.
 //  Copyright (c) 2014年 Virtual GS. All rights reserved.
@@ -34,9 +34,11 @@ var screenWidth:CGFloat = 1024
 var screenHeight:CGFloat = 768
 var pixelWidth = 0
 var pixelHeight = 0
+var textColor = UIColor.blackColor()
+var poly:UIBezierPath?
 
 class GSView: UIView {
-    init(coder aDecoder:NSCoder!) {
+    required init(coder aDecoder:NSCoder!) {
         super.init(coder: aDecoder)
         
         screenWidth = UIScreen.mainScreen().bounds.size.width
@@ -54,11 +56,19 @@ class GSView: UIView {
         HEIGHT = Int(screen.height)
     }
     
-    // refresh
+    // refresh screen
     
     func refresh(#rate:Int) {
         let refreshTime = 1 / Double(rate)
         NSTimer.scheduledTimerWithTimeInterval(refreshTime, target:self, selector:Selector("setNeedsDisplay"), userInfo:nil, repeats:true)
+    }
+    
+    func update() {
+        setNeedsDisplay()
+    }
+    
+    func update(#x:Int, y:Int, width:Int, height:Int) {
+        setNeedsDisplayInRect(CGRect(origin:CGPoint(x:CGFloat(x), y:CGFloat(y)), size:CGSize(width:CGFloat(width), height:CGFloat(height))))
     }
 }
 
@@ -100,10 +110,29 @@ func drawLine(x1:Int, y1:Int, #to:Int, y2:Int, size:Int=1) {
     var path = UIBezierPath()
     
     path.lineWidth = CGFloat(size);
-    path.moveToPoint(CGPoint(x: CGFloat(x1), y: CGFloat(y1)))
-    path.addLineToPoint(CGPoint(x: CGFloat(to), y: CGFloat(y2)))
+    path.moveToPoint(CGPoint(x:CGFloat(x1), y:CGFloat(y1)))
+    path.addLineToPoint(CGPoint(x:CGFloat(to), y:CGFloat(y2)))
     path.closePath()
     path.stroke()
+}
+
+func openPoly(size:Int=1) {
+    poly = UIBezierPath()
+    poly!.lineWidth = CGFloat(size);
+}
+
+func moveTo(x:Int, y:Int) {
+    poly!.moveToPoint(CGPoint(x: CGFloat(x), y: CGFloat(y)))
+}
+
+func addLine(x:Int, y:Int) {
+    poly!.addLineToPoint(CGPoint(x: CGFloat(x), y: CGFloat(y)))
+    poly!.moveToPoint(CGPoint(x: CGFloat(x), y: CGFloat(y)))
+}
+
+func closePoly() {
+    poly!.closePath()
+    poly!.stroke()
 }
 
 func paintRect(x:Int, y:Int, #width:Int, #height:Int) {
@@ -182,12 +211,16 @@ func drawImage(file:String, x:Int, y:Int, #width:Int, #height:Int) {
 
 func drawText(str:String, x:Int, y:Int, #size:Int) {
     let text:NSString = str
-    text.drawAtPoint(CGPoint(x:CGFloat(x), y:CGFloat(y)), withFont:UIFont.systemFontOfSize(CGFloat(size)))
+    let attrs = [NSFontAttributeName:UIFont.systemFontOfSize(CGFloat(size)), NSForegroundColorAttributeName:textColor]
+    
+    text.drawAtPoint(CGPoint(x:CGFloat(x), y:CGFloat(y)), withAttributes:attrs)
 }
 
 func drawText(str:String, x:Int, y:Int, #font:String, #size:Int) {
     let text:NSString = str
-    text.drawAtPoint(CGPoint(x:CGFloat(x), y:CGFloat(y)), withFont:UIFont(name:font, size:CGFloat(size)))
+    let attrs = [NSFontAttributeName:UIFont(name:font, size:CGFloat(size)), NSForegroundColorAttributeName:textColor]
+
+    text.drawAtPoint(CGPoint(x:CGFloat(x), y:CGFloat(y)), withAttributes:attrs)
 }
 
 /**
@@ -235,11 +268,13 @@ func getColor(#red:Float, #green:Float, #blue:Float) -> UIColor {
 func setColor(color:Int) {
     colors[color].setFill()
     colors[color].setStroke()
+    textColor = colors[color]
 }
 
 func setColor(color:UIColor) {
     color.setFill()
     color.setStroke()
+    textColor = color
 }
 
 func setColor(#red:Float, #green:Float, #blue:Float) {
@@ -247,6 +282,12 @@ func setColor(#red:Float, #green:Float, #blue:Float) {
     
     color.setFill()
     color.setStroke()
+}
+
+// Localized string
+
+func localizedString(str:String) -> String {
+    return NSLocalizedString(str, comment:"")
 }
 
 // Post notification

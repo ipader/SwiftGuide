@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
     <scenes>
         <!--View Controller - Apple IIGS-->
@@ -43,13 +43,31 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
-                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                        <viewControllerLayoutGuide type="top" id="YC9-1S-hHv"/>
+                        <viewControllerLayoutGuide type="bottom" id="OVz-Ez-DZ2"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW" customClass="SpaceView" customModule="GSwift" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="fCP-k0-d7r">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space.png" translatesAutoresizingMaskIntoConstraints="NO" id="YmF-zq-4ac">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wsV-Ub-j85" customClass="SpaceView" customModule="GSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YmF-zq-4ac" firstAttribute="leading" secondItem="wsV-Ub-j85" secondAttribute="leading" id="54b-ZB-lac"/>
+                            <constraint firstItem="YmF-zq-4ac" firstAttribute="top" secondItem="fCP-k0-d7r" secondAttribute="top" id="KCU-yX-Tyb"/>
+                            <constraint firstAttribute="trailing" secondItem="wsV-Ub-j85" secondAttribute="trailing" id="Kc0-ca-4DN"/>
+                            <constraint firstAttribute="bottom" secondItem="wsV-Ub-j85" secondAttribute="bottom" id="OSP-OC-gDm"/>
+                            <constraint firstItem="OVz-Ez-DZ2" firstAttribute="top" secondItem="YmF-zq-4ac" secondAttribute="bottom" id="bZv-G9-QPs"/>
+                            <constraint firstItem="wsV-Ub-j85" firstAttribute="top" secondItem="fCP-k0-d7r" secondAttribute="top" id="dPD-lR-a8t"/>
+                            <constraint firstItem="wsV-Ub-j85" firstAttribute="leading" secondItem="fCP-k0-d7r" secondAttribute="leading" id="k1s-Z8-ZKU"/>
+                            <constraint firstItem="wsV-Ub-j85" firstAttribute="trailing" secondItem="YmF-zq-4ac" secondAttribute="trailing" id="oOx-gu-S88"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -95,6 +113,7 @@
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="ns8-Jp-cUc" kind="relationship" relationship="viewControllers" id="BkA-G1-WoW"/>
                         <segue destination="zau-c4-xE8" kind="relationship" relationship="viewControllers" id="6wU-pA-xzs"/>
+                        <segue destination="Zlv-H6-Hsc" kind="relationship" relationship="viewControllers" id="WLo-Be-Vqh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -122,10 +141,32 @@
             </objects>
             <point key="canvasLocation" x="3620" y="1264"/>
         </scene>
+        <!--View Controller - Paint-->
+        <scene sceneID="NcN-kK-JGM">
+            <objects>
+                <viewController id="Zlv-H6-Hsc" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5KY-4u-Yfa"/>
+                        <viewControllerLayoutGuide type="bottom" id="wdD-CY-ZWh"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="M0o-jj-6pk" customClass="PaintView" customModule="GSwift" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Paint" image="first" id="9z4-yn-kc0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4QQ-QV-PdL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3042" y="1834"/>
+        </scene>
     </scenes>
     <resources>
         <image name="background.jpg" width="1024" height="768"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
+        <image name="space.png" width="1024" height="768"/>
     </resources>
 </document>

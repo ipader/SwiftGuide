@@ -40,19 +40,19 @@ class Picture {
     }
 }
 
-var pictures = Picture[]()
+var pictures = [Picture]()
 
 class GSPicsView: GSView {
     
     // Setup
     
-    init(coder aDecoder:NSCoder!) {
+    required init(coder aDecoder:NSCoder!) {
         super.init(coder: aDecoder)
 
         refresh(rate:30)
         
         for name in ["flower.jpg", "fruits.jpg", "girl.jpg", "pam.jpg", "redhood.jpg", "taj.jpg"] {
-            pictures += Picture(file:name)
+            pictures.append(Picture(file:name))
         }
     }
     
@@ -61,7 +61,7 @@ class GSPicsView: GSView {
     override func drawRect(screen:CGRect) {
         super.drawRect(screen)
         
-        setColor(WHITE)
+        setColor(LIGHTBLUE)
         drawText("GSwift", 10, 10, size:32)
         
         for pic in pictures {

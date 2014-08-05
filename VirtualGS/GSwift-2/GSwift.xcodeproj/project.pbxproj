@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9389DC6619682ADF0048416A /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 9389DC6519682ADF0048416A /* apple.png */; };
 		939B0F9319666A5F0018279C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B0F9219666A5F0018279C /* AppDelegate.swift */; };
 		939B0F9519666A5F0018279C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B0F9419666A5F0018279C /* ViewController.swift */; };
 		939B0F9A19666A5F0018279C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939B0F9819666A5F0018279C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		93D0C68119668C6B00828ADE /* taj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93D0C67819668C6B00828ADE /* taj.jpg */; };
 		93D0C68219668C6B00828ADE /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D0C67919668C6B00828ADE /* ship.png */; };
 		93D0C68319668C6B00828ADE /* space.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D0C67A19668C6B00828ADE /* space.png */; };
+		93DDFD5A1967FD5200B9A9BE /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDFD591967FD5200B9A9BE /* PaintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9389DC6519682ADF0048416A /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		939B0F8D19666A5F0018279C /* GSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B0F9119666A5F0018279C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		939B0F9219666A5F0018279C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 		93D0C67819668C6B00828ADE /* taj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taj.jpg; sourceTree = "<group>"; };
 		93D0C67919668C6B00828ADE /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
 		93D0C67A19668C6B00828ADE /* space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space.png; sourceTree = "<group>"; };
+		93DDFD591967FD5200B9A9BE /* PaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +107,12 @@
 		939B0F8F19666A5F0018279C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				93D0C66719668C2100828ADE /* GSPicsView.swift */,
 				93D0C66819668C2100828ADE /* GSView.swift */,
+				93D0C66719668C2100828ADE /* GSPicsView.swift */,
+				93D0C66B19668C2100828ADE /* SpaceView.swift */,
 				93D0C66919668C2100828ADE /* HiresView.swift */,
 				93D0C66A19668C2100828ADE /* LoresView.swift */,
-				93D0C66B19668C2100828ADE /* SpaceView.swift */,
+				93DDFD591967FD5200B9A9BE /* PaintView.swift */,
 				939B0F9419666A5F0018279C /* ViewController.swift */,
 				939B0F9219666A5F0018279C /* AppDelegate.swift */,
 				939B0F9819666A5F0018279C /* Main.storyboard */,
@@ -122,6 +127,7 @@
 			children = (
 				93D0C67119668C6B00828ADE /* gspics */,
 				93D0C67919668C6B00828ADE /* ship.png */,
+				9389DC6519682ADF0048416A /* apple.png */,
 				93D0C67A19668C6B00828ADE /* space.png */,
 				939B0F9119666A5F0018279C /* Info.plist */,
 			);
@@ -208,6 +214,7 @@
 				TargetAttributes = {
 					939B0F8C19666A5F0018279C = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 597EADP8GG;
 					};
 					939B0FA019666A5F0018279C = {
 						CreatedOnToolsVersion = 6.0;
@@ -249,6 +256,7 @@
 				93D0C68119668C6B00828ADE /* taj.jpg in Resources */,
 				93D0C68319668C6B00828ADE /* space.png in Resources */,
 				93D0C67D19668C6B00828ADE /* fruits.jpg in Resources */,
+				9389DC6619682ADF0048416A /* apple.png in Resources */,
 				93D0C68019668C6B00828ADE /* redhood.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D0C67019668C2100828ADE /* SpaceView.swift in Sources */,
+				93DDFD5A1967FD5200B9A9BE /* PaintView.swift in Sources */,
 				93D0C66D19668C2100828ADE /* GSView.swift in Sources */,
 				939B0F9319666A5F0018279C /* AppDelegate.swift in Sources */,
 				939B0F9519666A5F0018279C /* ViewController.swift in Sources */,
@@ -324,7 +333,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -344,6 +354,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "F746BEBE-C713-4984-9FBE-AF21C97F8246";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,7 +378,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -380,6 +392,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "F746BEBE-C713-4984-9FBE-AF21C97F8246";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -391,9 +404,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = GSwift;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -402,9 +418,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = GSwift;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

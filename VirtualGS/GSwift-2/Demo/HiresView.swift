@@ -33,7 +33,7 @@ class HiresView: GSView {
         
         // Draw stars
         
-        for i in 0..100 {
+        for i in 0...99 {
             setColor(red:Float(random() % 255) / 255, green:Float(random() % 255) / 255, blue:Float(random() % 255) / 255)
             paintCircle(random() % WIDTH, random() % HEIGHT, radius:2)
         }
@@ -43,7 +43,7 @@ class HiresView: GSView {
         let width = WIDTH - 100
         let height = HEIGHT - 80
         
-        for i in 0..3 {
+        for i in 0...2 {
             
             // Paint rectangles
             
