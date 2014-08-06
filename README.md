@@ -27,7 +27,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQ5CZ/1402621206) ｜ 
 [百度阅读版 (By 小岂子)](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
 
-* [Swift苹果官方博客](https://developer.apple.com/swift/blog/)："值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。" 来自[@devtalking](http://weibo.com/jacefu) 翻译的镜像中译文如下：
+* [Swift苹果官方博客](https://developer.apple.com/swift/blog/)："值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。" 来自[@devtalking](http://weibo.com/jacefu) 翻译的镜像[中译文](#swiftblog)如下：
 
 	译文 | 原文 
 ------------ | ------------- 
