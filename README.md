@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-8-2（_**着重＋斜体**_为最近加入或更新条目）</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-8-9（_**着重＋斜体**_为最近加入或更新条目）</span>
 
 ## Swift文档
 
@@ -50,8 +50,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * _**中文镜像（By [@DevTalking](http://weibo.com/jacefu)）**_
 
 	译文 | 原文 
------------- | -------------
-[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/) | [Balloons](https://developer.apple.com/swift/blog/?id=9)
+------------ | ------------- 
 [在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | [Boolean](https://developer.apple.com/swift/blog/?id=8) 
 [Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)|[Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
 [在Swift中使用C语言的指针](http://www.devtalking.com/articles/swift-c-pointer/) | [Interacting with C Pointers](https://developer.apple.com/swift/blog/?id=6)
