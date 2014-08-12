@@ -51,6 +51,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 	译文 | 原文 
 ------------ | ------------- 
+[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/) | [Balloons](https://developer.apple.com/swift/blog/?id=9)
 [在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | [Boolean](https://developer.apple.com/swift/blog/?id=8) 
 [Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)|[Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
 [在Swift中使用C语言的指针](http://www.devtalking.com/articles/swift-c-pointer/) | [Interacting with C Pointers](https://developer.apple.com/swift/blog/?id=6)
