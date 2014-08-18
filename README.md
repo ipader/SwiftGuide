@@ -1,5 +1,6 @@
-Swift语言指南
+<center style="background: #666;color: whitesmoke;">Swift语言指南
 ===
+<img src="sl-logo_1.0.png" width="120px" style="float:right"/> 
 这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
@@ -54,6 +55,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 	译文 | 原文 
 ------------ | ------------- 
+_**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/)**_ | _**[Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)**_
 _**[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/)**_ | _**[Balloons](https://developer.apple.com/swift/blog/?id=9)**_
 [在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | [Boolean](https://developer.apple.com/swift/blog/?id=8) 
 [Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)|[Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
