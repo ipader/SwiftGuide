@@ -29,7 +29,7 @@ class PaintView: GSView {
     
     // Setup
     
-    required init(coder aDecoder:NSCoder!) {
+    required init(coder aDecoder:NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -93,7 +93,7 @@ class PaintView: GSView {
     // Handle touches
     
     override func touchesBegan(touches:NSSet, withEvent event:UIEvent) {
-        if touches.anyObject() {
+        if touches.anyObject() as? UITouch != nil {
             if touches.count > 1 {
                 draw = false
                 points.removeAll()
@@ -115,7 +115,7 @@ class PaintView: GSView {
     }
 
     override func touchesMoved(touches:NSSet, withEvent event:UIEvent) {
-        if touches.anyObject() {
+        if touches.anyObject() as? UITouch != nil {
             if touches.count > 1 {
                 draw = false
                 points.removeAll()

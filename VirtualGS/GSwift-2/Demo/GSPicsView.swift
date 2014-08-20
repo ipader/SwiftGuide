@@ -46,7 +46,7 @@ class GSPicsView: GSView {
     
     // Setup
     
-    required init(coder aDecoder:NSCoder!) {
+    required init(coder aDecoder:NSCoder) {
         super.init(coder: aDecoder)
 
         refresh(rate:30)
@@ -72,7 +72,7 @@ class GSPicsView: GSView {
     // Handle gesture
     
     override func touchesBegan(touches:NSSet, withEvent event:UIEvent) {
-        if touches.anyObject() {
+        if touches.anyObject() as? UITouch != nil {
             for touch:AnyObject in touches {
                 let location = touch.locationInView(self)
                 let x = Int(location.x)

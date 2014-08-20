@@ -48,7 +48,7 @@ class SpaceView: GSView {
     
     // Setup
     
-    required init(coder aDecoder:NSCoder!) {
+    required init(coder aDecoder:NSCoder) {
         super.init(coder: aDecoder)
 
         for i in 0...99 {
@@ -73,7 +73,7 @@ class SpaceView: GSView {
     // Handle touches
     
     override func touchesBegan(touches:NSSet, withEvent event:UIEvent) {
-        if touches.anyObject() {
+        if touches.anyObject() as? UITouch != nil {
             for touch:AnyObject in touches {
                 let location = touch.locationInView(self)
                 let x = Int(location.x)
@@ -86,7 +86,7 @@ class SpaceView: GSView {
     }
     
     override func touchesMoved(touches:NSSet, withEvent event:UIEvent) {
-        if touches.anyObject() {
+        if touches.anyObject() as? UITouch != nil {
             for touch:AnyObject in touches {
                 let location = touch.locationInView(self)
                 let x = Int(location.x)

@@ -38,7 +38,7 @@ var textColor = UIColor.blackColor()
 var poly:UIBezierPath?
 
 class GSView: UIView {
-    required init(coder aDecoder:NSCoder!) {
+    required init(coder aDecoder:NSCoder) {
         super.init(coder: aDecoder)
         
         screenWidth = UIScreen.mainScreen().bounds.size.width
