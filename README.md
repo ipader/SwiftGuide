@@ -46,6 +46,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 ------------ | ------------- 
 [应用扩展如何工作](http://www.devtalking.com/articles/understand-how-an-extension-works/) | [Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2)
 [开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
+[APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
 
 ### 5. [Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/)
 "值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
@@ -54,6 +55,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 	译文 | 原文 
 ------------ | ------------- 
+_**[Swift中的访问控制与protected](http://www.devtalking.com/articles/access-control-and-protected/)**_ | _**[Access Control and protected](https://developer.apple.com/swift/blog/?id=11)**_
 _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/)**_ | _**[Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)**_
 _**[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/)**_ | _**[Balloons](https://developer.apple.com/swift/blog/?id=9)**_
 [在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | [Boolean](https://developer.apple.com/swift/blog/?id=8) 
