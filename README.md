@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-8-15（_**着重＋斜体**_为最近加入或更新条目）</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-8-24（_**着重＋斜体**_为最近加入或更新条目）</span>
 
 ## Swift文档
 
@@ -28,8 +28,8 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [百度阅读版 (By 小岂子)](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
 
 * [Basic Operators - Nil Coalescing Operator](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-XID_109)解读 
-	1. _**[Swift中Nil Coalescing运算符的使用技巧](http://www.devtalking.com/articles/swift-nil-coalescing/)	By [@DevTalking](http://weibo.com/jacefu)**_
-	2. _**[Swift’s Nil Coalescing Operator In Xcode 6 Beta 5](http://jamesonquave.com/blog/swifts-nil-coaelescing-operator-in-xcode-6-beta-5/) By [Jameson Quave](http://jamesonquave.com/)**_	
+	1. [Swift中Nil Coalescing运算符的使用技巧](http://www.devtalking.com/articles/swift-nil-coalescing/)	By [@DevTalking](http://weibo.com/jacefu)
+	2. [Swift’s Nil Coalescing Operator In Xcode 6 Beta 5](http://jamesonquave.com/blog/swifts-nil-coaelescing-operator-in-xcode-6-beta-5/) By [Jameson Quave](http://jamesonquave.com/)
 * [Swift 编程风格指南](http://swiftist.org/topics/165)(译文来自 [swiftist.org](http://swiftist.org)): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) 
 * [《The Swift Programming Language》读簿](http://hawstein.com/posts/make-thiner-tspl.html): "读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。
 
@@ -57,7 +57,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 ------------ | ------------- 
 _**[Swift中的访问控制与protected](http://www.devtalking.com/articles/access-control-and-protected/)**_ | _**[Access Control and protected](https://developer.apple.com/swift/blog/?id=11)**_
 _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/)**_ | _**[Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)**_
-_**[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/)**_ | _**[Balloons](https://developer.apple.com/swift/blog/?id=9)**_
+[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/) | [Balloons](https://developer.apple.com/swift/blog/?id=9)
 [在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | [Boolean](https://developer.apple.com/swift/blog/?id=8) 
 [Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)|[Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
 [在Swift中使用C语言的指针](http://www.devtalking.com/articles/swift-c-pointer/) | [Interacting with C Pointers](https://developer.apple.com/swift/blog/?id=6)
@@ -77,7 +77,7 @@ _**[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/
 * [Objective-C开发者对Swift亮点的点评](http://blog.jobbole.com/71250/): 这篇译文确实不错，含括了常见的亮点。尽管对于Swift相较于Objective C的亮点描述还不够全面，对初学者很受用。[原文在此](http://www.raywenderlich.com/73997/swift-language-highlights)
 * [开启iOS/Mac开发之旅，过来人告诉你16件事 (译文来自@CocoaChina)](http://www.cocoachina.com/applenews/devnews/2013/0930/7091.html):"我曾向iOS开发者推荐了[《Twitter上最值得关注的30个人》](http://www.appdesignvault.com/inspiration-35/)，收到了不少开发者的反馈，受此鼓舞，我向知名iOS开发者和设计师询问了这样一个问题--回到你开始iOS/Mac app开发的时候，你以现在的角度会给“最初的你”哪些建议。"  译文来自，英文原文[《13 Things You Must Know When Starting Out in iOS/Mac Development》](http://www.appdesignvault.com/start-advice/)
 * [74个Swift标准库](http://practicalswift.com/2014/06/14/the-swift-standard-library-list-of-built-in-functions/) ([译文](http://swiftist.org/topics/126)): Swift包含了74个内置函数，但在The Swift Programming Langage一书中只介绍了其中的7个，其它的都没有在文档中体现。"文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果。我测试了好多个都能用，而且Xcode还会给出语法提示：）" by [@李洁信](http://weibo.com/u/1780854425) 
-* _**[ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：这个项目分享了Swift编程中如何使用常用设计模式。作者提供的Playground示例及常用设计模式的简单介绍。**_
+* [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：这个项目分享了Swift编程中如何使用常用设计模式。作者提供的Playground示例及常用设计模式的简单介绍。
 * [马上着手开发 iOS 应用程序 (Start Developing iOS Apps Today)](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html#//apple_ref/doc/uid/TP40012668): 来自苹果官方文档
 
 
@@ -166,8 +166,9 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。
 * [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法"
 * [daltoniam/SwiftHTTP](https://github.com/daltoniam/SwiftHTTP): Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.感兴趣的可以看看代码，比较与lingoer/GRequest差别。
-* [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire): mattt 用 Swift 做了个网络请求和相关的小封装。By [Mattt Thompson ](https://github.com/mattt)
-* _**[mattt/Euler](https://github.com/mattt/Euler)：mattt大神用Swift新写的自定义数学逻辑运算符，充分发挥Swift的优势特性。这样写是否很数学、很逻辑？ ~0⊻1, ∛27÷3±5, ∑[3,1,2]×2 , [1,2,3] ⋅ [4,3,3] ∌ 8, ∛27 ≤ 4 [Swift Operators](http://nshipster.com/swift-operators/) By [Mattt Thompson ](https://github.com/mattt)**_
+* [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire): mattt 用 Swift 做了个网络请求和相关的小封装。By [Mattt Thompson ](https://github.com/mattt) 
+* _**[AshFurrow/Moya](https://github.com/AshFurrow/Moya): 如果你需要[如此功能](https://github.com/artsy/eidolon/issues/9)的Swift网络API，可以考虑使用它。它基于Alamofire, swfitz等优秀开源类实现。**_
+* [mattt/Euler](https://github.com/mattt/Euler)：mattt大神用Swift新写的自定义数学逻辑运算符，充分发挥Swift的优势特性。这样写是否很数学、很逻辑？ ~0⊻1, ∛27÷3±5, ∑[3,1,2]×2 , [1,2,3] ⋅ [4,3,3] ∌ 8, ∛27 ≤ 4 [Swift Operators](http://nshipster.com/swift-operators/) By [Mattt Thompson ](https://github.com/mattt)
 * [owensd/json-swift](https://github.com/owensd/json-swift): 功能与Swifty几乎一致，使用上要更方便。
 * [aschuch/AwesomeCache](https://github.com/aschuch/AwesomeCache)：Swift语言写的高效能缓存对象存储及管理，定义及使用简单、易于理解。支持为每个Cache对象设定缓存有效期。
 * [railsware/Sleipnir](https://github.com/railsware/Sleipnir)：一个基于Swift的行为驱动开发框架(BDD-style framework)。API安装，示例及说明相对比较齐全。
@@ -191,6 +192,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [practicalswift/Pythonic.swift](http://t.cn/RveAZ53): 用Swift语言实现Python标准库的一部分。然后，用Swift写一段Python风格的程序，这是Python程序员想要的吗？相信这不过是一个实验，以此说明Swift语言的多变性、动态性的能力。
 * [AshRobinson/GoogleWearAlert](https://github.com/AshRobinson/GoogleWearAlert): Swift语言实现模拟Google Wear风格Alert窗口。
 * [rafaelconde/ios8-ui-kit](https://github.com/rafaelconde/ios8-ui-kit): IOS 8 UI KIT + FOR SKETCH — 最新IOS8免费设计资源
+* _**[gemtot/iBeacon](https://github.com/gemtot/iBeacon): Swift版iBeacon简单项目（支持最新Beta 6编译）。感兴趣的同学可以学习一下。有关于Passbook应用及Passkit框架编程知识这里有一篇网友较早发布的[《iOS 6 - PassKit编程指南》](http://blog.csdn.net/eqera/article/details/8136880)**_
 
 
 ### 3. 完整项目
@@ -238,6 +240,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
+* _**[indragiek/Unzip](https://github.com/indragiek/Unzip): 浏览ZIP文件的iOS 8 Action扩展。**_
 
 ### 3. 安全控制
 * [Back to Mac - XPC by objc.io](http://objccn.io/issue-14-4/): XPC 是 OS X 下的一种 IPC (进程间通信) 技术, 它实现了权限隔离, 使得 App Sandbox 更加完备。
