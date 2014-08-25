@@ -102,7 +102,7 @@ _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swif
 	
 ## 常用工具
 * 开发工具
-	1. [Xcode 6 beta 4下载](https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/xcode_6_beta_4_o2p8fz/xcode_6_beta_4.dmg): 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。不用购买开发者计划，直接下载。[Xcode 6 beta 4 release notes](http://adcdownload.apple.com//Developer_Tools/xcode_6_beta_4_o2p8fz/xcode_6_beta_4_release_notes.pdf)
+	1. [Xcode 6 beta下载](https://developer.apple.com/swift/resources/): 苹果应用集成开发环境。支持C/C++, Objective C, Swift等。不用购买开发者计划，直接下载。
 	2. [Textmate](http://macromates.com/)：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
 	3. [Mou](http://mouapp.com/)：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：[罗晨](http://chenluois.com/)
 	4. [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
@@ -128,7 +128,7 @@ _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swif
 * 苹果官方
 	1. [示例代码](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
 	2. Swift入门(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)： WWDC 2014官方Session 402视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。
-	3. Swift进阶(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841) WWDC 2014官方Session 403视频翻译。
+	3. Swift进阶(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), _**[A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)**_ WWDC 2014官方Session 403视频翻译。
 	4. [Testing with Xcode](https://github.com/CocoaChinaTranslationTeam/TestingWithXcodeDocsCN): 本文的目的在于让测试成为你软件开发的重要组成部分，并使测试更方便并易于使用。	
 * [nettlep/learn-swift](https://github.com/nettlep/learn-swift): 学习《Swift Programming Language》的同时，配合运行这些playgrounds，对于快速掌握Swift最合适不过了.
 * [The Swift Programming Language: Solutions to Experiments](http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments) ([译文](http://www.cocoachina.com/applenews/devnews/2014/0703/9022.html)): "读了它的第一章节“Swift初见（A Swift Tour）”，有各种各样的试验需要你去“解决”用来阐述指南中示例的代码问题。苹果并没有给我们提供相关的实际解决方案，所以在此列出了我们想到的一些。" 
