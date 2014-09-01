@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-8-24（_**着重＋斜体**_为最近加入或更新条目）</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-8-31（_**着重＋斜体**_为最近加入或更新条目）</span>
 
 ## Swift文档
 
@@ -47,6 +47,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [应用扩展如何工作](http://www.devtalking.com/articles/understand-how-an-extension-works/) | [Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2)
 [开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
 [APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
+_**[常见问题的处理方案](http://www.devtalking.com/articles/handling-common-scenarios/) **_| [Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
 
 ### 5. [Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/)
 "值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
@@ -55,8 +56,9 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 	译文 | 原文 
 ------------ | ------------- 
-_**[Swift中的访问控制与protected](http://www.devtalking.com/articles/access-control-and-protected/)**_ | _**[Access Control and protected](https://developer.apple.com/swift/blog/?id=11)**_
-_**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/)**_ | _**[Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)**_
+_**[Swift中Optional类型的使用案例分析：valuesForKeys](http://www.devtalking.com/articles/optionals-case-study/)**_ | _**[Optionals Case Study: valuesForKeys](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)**_
+[Swift中的访问控制与protected](http://www.devtalking.com/articles/access-control-and-protected/) | [Access Control and protected](https://developer.apple.com/swift/blog/?id=11)
+[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/) | [Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)
 [WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/) | [Balloons](https://developer.apple.com/swift/blog/?id=9)
 [在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | [Boolean](https://developer.apple.com/swift/blog/?id=8) 
 [Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)|[Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
@@ -79,7 +81,6 @@ _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swif
 * [74个Swift标准库](http://practicalswift.com/2014/06/14/the-swift-standard-library-list-of-built-in-functions/) ([译文](http://swiftist.org/topics/126)): Swift包含了74个内置函数，但在The Swift Programming Langage一书中只介绍了其中的7个，其它的都没有在文档中体现。"文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果。我测试了好多个都能用，而且Xcode还会给出语法提示：）" by [@李洁信](http://weibo.com/u/1780854425) 
 * [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：这个项目分享了Swift编程中如何使用常用设计模式。作者提供的Playground示例及常用设计模式的简单介绍。
 * [马上着手开发 iOS 应用程序 (Start Developing iOS Apps Today)](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html#//apple_ref/doc/uid/TP40012668): 来自苹果官方文档
-
 
 ### 7. 相关文档
 * WWDC 2014
@@ -128,8 +129,15 @@ _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swif
 * 苹果官方
 	1. [示例代码](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
 	2. Swift入门(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)： WWDC 2014官方Session 402视频翻译。讲得很细致，口齿清晰，英语发音准确，声音非常好听。
-	3. Swift进阶(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), _**[A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)**_ WWDC 2014官方Session 403视频翻译。
+	3. Swift进阶(视频翻译 By [@赵哲A](http://weibo.com/zhaozhecleric)): [A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841) WWDC 2014官方Session 403视频翻译。
 	4. [Testing with Xcode](https://github.com/CocoaChinaTranslationTeam/TestingWithXcodeDocsCN): 本文的目的在于让测试成为你软件开发的重要组成部分，并使测试更方便并易于使用。	
+* [raywenderlich.com](http://www.raywenderlich.com/): 由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。
+
+	译文（译者） | 原文 | 备注
+------------ | ------------- | ------------- 
+_**[如何用 Swift 语言构建一个自定控件](http://beyondvincent.com/blog/2014/08/28/How-To-Make-a-Custom-Control-in-Swift/)（[@BeyondVincent](http://weibo.com/beyondvincent)）**_ | [How To Make a Custom Control in Swift](http://www.raywenderlich.com/76433/how-to-make-a-custom-control-swift) | 
+_**UIKit重力学[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1/), [二](http://www.devtalking.com/articles/swift-uikit-dynamics-2/)（[@DevTalking](http://weibo.com/jacefu)）**_ | [UIKit Dynamics Tutorial in Swift](http://www.raywenderlich.com/76147/uikit-dynamics-tutorial-swift) | 原文中并没有动态效果图片，译文中有
+
 * [nettlep/learn-swift](https://github.com/nettlep/learn-swift): 学习《Swift Programming Language》的同时，配合运行这些playgrounds，对于快速掌握Swift最合适不过了.
 * [The Swift Programming Language: Solutions to Experiments](http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments) ([译文](http://www.cocoachina.com/applenews/devnews/2014/0703/9022.html)): "读了它的第一章节“Swift初见（A Swift Tour）”，有各种各样的试验需要你去“解决”用来阐述指南中示例的代码问题。苹果并没有给我们提供相关的实际解决方案，所以在此列出了我们想到的一些。" 
 * [Swift Reference Playground](https://github.com/hackswift/swift-reference-pg)/[Swift Operators Playground](https://github.com/hackswift/swift-operators-pg): "Swift Reference is a handy playground file that can be used when you are starting to learn swift.It covers the basic syntax definitions and different ways to use" 初学Swift语言的同学一定先玩玩这个，可以让您更快感性的了解Swift语言语法、操作符及语言新特点（代码涵盖地比较完整）。
@@ -157,6 +165,15 @@ _**[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swif
  以下实用类库仅做为快速参考，更多实用类库需求，可以去这里[(Swift toolbox is a community-supported catalog 
 of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https://www.facebook.com/xpizzle) from [swiftcast.tv]([http://swiftcast.tv)), 这个网站收藏了GitHub开源社区中优质Swift资源库，并提供了分类及查询服务。
 
+* [Mattt Thompson ](https://github.com/mattt): 著名开源作者，开发了知名的[AFNetworking](https://github.com/afnetworking/afnetworking)网络库。也是知名开发博客[NSHipster](http://shipster.com/)网站主。
+
+	类库 | 相关文章 | 备注
+------------ | ------------- | ------------- 
+[Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) | [Alamofire](http://nshipster.com/alamofire/)| 网络请求和相关的封装
+[mattt/Euler](https://github.com/mattt/Euler) | [Swift Operators](http://nshipster.com/swift-operators/) | 这样写是否很数学、很逻辑？∛27÷3±5, ∑[3,1,2], ~0⊻1
+_**[mattt/Surge](https://github.com/mattt/Surge)**_ || 基于苹果Accelerate高性能计算框架库，计算效率提升惊人
+_**[mattt/Literally](https://github.com/mattt/Literally)**_|[Swift Literal Convertibles](http://nshipster.com/swift-literal-convertible/)| 常用数据类型的使用及转换工具库
+
 * [Dollar](https://github.com/ankurp/Dollar.swift): 尤其在Array和Dictionary的支持上（实现类库仅一个Dollar.swift文件）。用过Javascript版的Lo-Dash或underscore就知道其实用程度。它是一套函数化编程的工具库。另一个类似的更完整的版本是[ExSwift](https://github.com/pNre/ExSwift)，它的实现基于对象化扩展的。
 * [ExSwift](https://github.com/pNre/ExSwift): 实用类扩展库。另一个Lo-Dash或underscore的Swift版本实现，相对于Dollar.swift，此版本有更完整的API实现。包括了对Array, Int, String, Float, Range, Dictionary, NSArray的扩展及其它实用方法。完全遵循面向对象的扩展原则。
 * [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
@@ -166,9 +183,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。
 * [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法"
 * [daltoniam/SwiftHTTP](https://github.com/daltoniam/SwiftHTTP): Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.感兴趣的可以看看代码，比较与lingoer/GRequest差别。
-* [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire): mattt 用 Swift 做了个网络请求和相关的小封装。By [Mattt Thompson ](https://github.com/mattt) 
-* _**[AshFurrow/Moya](https://github.com/AshFurrow/Moya): 如果你需要[如此功能](https://github.com/artsy/eidolon/issues/9)的Swift网络API，可以考虑使用它。它基于Alamofire, swfitz等优秀开源类实现。**_
-* [mattt/Euler](https://github.com/mattt/Euler)：mattt大神用Swift新写的自定义数学逻辑运算符，充分发挥Swift的优势特性。这样写是否很数学、很逻辑？ ~0⊻1, ∛27÷3±5, ∑[3,1,2]×2 , [1,2,3] ⋅ [4,3,3] ∌ 8, ∛27 ≤ 4 [Swift Operators](http://nshipster.com/swift-operators/) By [Mattt Thompson ](https://github.com/mattt)
+* [AshFurrow/Moya](https://github.com/AshFurrow/Moya): 如果你需要[如此功能](https://github.com/artsy/eidolon/issues/9)的Swift网络API，可以考虑使用它。它基于Alamofire, swfitz等优秀开源类实现。
 * [owensd/json-swift](https://github.com/owensd/json-swift): 功能与Swifty几乎一致，使用上要更方便。
 * [aschuch/AwesomeCache](https://github.com/aschuch/AwesomeCache)：Swift语言写的高效能缓存对象存储及管理，定义及使用简单、易于理解。支持为每个Cache对象设定缓存有效期。
 * [railsware/Sleipnir](https://github.com/railsware/Sleipnir)：一个基于Swift的行为驱动开发框架(BDD-style framework)。API安装，示例及说明相对比较齐全。
@@ -192,7 +207,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [practicalswift/Pythonic.swift](http://t.cn/RveAZ53): 用Swift语言实现Python标准库的一部分。然后，用Swift写一段Python风格的程序，这是Python程序员想要的吗？相信这不过是一个实验，以此说明Swift语言的多变性、动态性的能力。
 * [AshRobinson/GoogleWearAlert](https://github.com/AshRobinson/GoogleWearAlert): Swift语言实现模拟Google Wear风格Alert窗口。
 * [rafaelconde/ios8-ui-kit](https://github.com/rafaelconde/ios8-ui-kit): IOS 8 UI KIT + FOR SKETCH — 最新IOS8免费设计资源
-* _**[gemtot/iBeacon](https://github.com/gemtot/iBeacon): Swift版iBeacon简单项目（支持最新Beta 6编译）。感兴趣的同学可以学习一下。有关于Passbook应用及Passkit框架编程知识这里有一篇网友较早发布的[《iOS 6 - PassKit编程指南》](http://blog.csdn.net/eqera/article/details/8136880)**_
+* [gemtot/iBeacon](https://github.com/gemtot/iBeacon): Swift版iBeacon简单项目（支持最新Beta 6编译）。感兴趣的同学可以学习一下。有关于Passbook应用及Passkit框架编程知识这里有一篇网友较早发布的[《iOS 6 - PassKit编程指南》](http://blog.csdn.net/eqera/article/details/8136880)
 
 
 ### 3. 完整项目
@@ -209,6 +224,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [iOS Dev Weekly](https://iosdevweekly.com/): 收录一周以来iOS开发资讯链接，并于周五发布。由[Dave Verwer](http://www.twitter.com/daveverwer)创办，他是一位iPhone和iPad开发者以及培训师。
 * [Appcoda.com](http://appcoda.com):质量很高的一个iOS开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触iOS开发的新手学习。
 * [中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN): By [@唐巧_body](http://weibo.com/tangqiaoboy)
+* [devtalking.com](http://www.devtalking.com/): 高产的中译博客。翻译了官方博客Swift Blog - Apple Developer,《App Extension Programming Guide》。参与翻译了《Swift Programming Language》等。
+
 
 ---
 ## 资源合集
@@ -240,7 +257,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
-* _**[indragiek/Unzip](https://github.com/indragiek/Unzip): 浏览ZIP文件的iOS 8 Action扩展。**_
+* [indragiek/Unzip](https://github.com/indragiek/Unzip): 浏览ZIP文件的iOS 8 Action扩展。
 
 ### 3. 安全控制
 * [Back to Mac - XPC by objc.io](http://objccn.io/issue-14-4/): XPC 是 OS X 下的一种 IPC (进程间通信) 技术, 它实现了权限隔离, 使得 App Sandbox 更加完备。
