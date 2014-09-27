@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-9-22（_**着重＋斜体**_为最近加入或更新条目）</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-9-27（_**着重＋斜体**_为最近加入或更新条目）</span>
 
 ## Swift文档
 
@@ -101,7 +101,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * [Top 5 iOS 7 Animations](http://www.raywenderlich.com/73286/top-5-ios-7-animations): iOS 7 排名前5的动画效果预览。谁能解读一下到这些动画效果对应的程序库、或找到对应或相近开源代码分享吗？（Swift版本更佳，OBJC也可以）
 	1. [IFTTT/JazzHands](https://github.com/IFTTT/JazzHands): Flickr开始界面动画类似效果，OBJC版本实现程序库。
 * [An analysis of sorts between Objective-C and Swift](http://www.jessesquires.com/apples-to-apples-part-two/)："Swift 到底比 Objective-C 快多少？结论是：6倍以上（仅排序测试） 。 [这里](https://mikeash.com/pyblog/friday-qa-2014-07-04-secrets-of-swifts-speed.html)有为什么快的原因" By [@图拉鼎](http://weibo.com/tualatrix) 
-* _**[iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)(译者：[@小雪-Joanna](http://weibo.com/wileam))：关于iPhone6屏幕渲染的归纳。建议新手脑补一下这部分知识。原文：[iPhone 6 Screens Demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified) **_
+* [iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)(译者：[@小雪-Joanna](http://weibo.com/wileam))：关于iPhone6屏幕渲染的归纳。建议新手脑补一下这部分知识。原文：[iPhone 6 Screens Demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 	
 ## 常用工具
 * 开发工具
@@ -137,18 +137,23 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 	译文 | 译者 |原文 | 来源 
 ------------ | ------------ | ------------- | -------------  
-_**[iOS8 Day-by-Day :: Day2 :: 分享应用扩展](http://www.devtalking.com/articles/ios8-day-by-day-day2-sharing-extension/)**_|[@DevTalking](http://weibo.com/jacefu)|[iOS8 Day-by-Day :: Day 2 :: Sharing Extension](http://www.shinobicontrols.com/blog/posts/2014/07/21/ios8-day-by-day-day-2-sharing-extension)|[shinobicontrols](http://www.shinobicontrols.com/)
+_**[Web工程师和设计师必须要知道的iOS 8的十个变化](http://www.jianshu.com/p/e82eee3d9228)**_|[@罗罗磊磊](http://weibo.com/foru17)|[iOS 8 and iPhone 6 for web developers and designers: next evolution for Safari and native webapps](http://www.mobilexweb.com/blog/safari-ios8-iphone6-web-developers-designers)|[mobilexweb](http://www.mobilexweb.com/)
+_**[如何在Swift中创建Action扩展](http://www.devtalking.com/articles/how-to-create-action-extension/)**_|[@DevTalking](http://weibo.com/jacefu)|[Action Extension in Swift](http://nsnerd.co/action-extension-in-swift/)|[nsnerd.co](http://nsnerd.co/)
+[iOS8 Day-by-Day :: Day2 :: 分享应用扩展](http://www.devtalking.com/articles/ios8-day-by-day-day2-sharing-extension/)|[@DevTalking](http://weibo.com/jacefu)|[iOS8 Day-by-Day :: Day 2 :: Sharing Extension](http://www.shinobicontrols.com/blog/posts/2014/07/21/ios8-day-by-day-day-2-sharing-extension)|[shinobicontrols](http://www.shinobicontrols.com/)
 [Swift 的强大之处](http://objccn.io/issue-16-1/)|[李子轩](http://cn.gohoopster.com)|[The Power of Swift](http://www.objc.io/issue-16/power-of-swift.html)|[objc.io](http://objc.io)
-_**[结构体和值类型](http://objccn.io/issue-16-2/)**_|[@Onetaway](http://weibo.com/onetaway)|[A Warm Welcome to Structs and Value Types](http://www.objc.io/issue-16/swift-classes-vs-structs.html)|[objc.io](http://objc.io)
-_**[Swift方法的多面性](http://objccn.io/issue-16-3/)**_|[@唯木念](http://weibo.com/u/1709283185)|[The Many Faces of Swift Functions](http://www.objc.io/issue-16/swift-functions.html)|[objc.io](http://objc.io)
+[结构体和值类型](http://objccn.io/issue-16-2/)|[@Onetaway](http://weibo.com/onetaway)|[A Warm Welcome to Structs and Value Types](http://www.objc.io/issue-16/swift-classes-vs-structs.html)|[objc.io](http://objc.io)
+[Swift方法的多面性](http://objccn.io/issue-16-3/)|[@唯木念](http://weibo.com/u/1709283185)|[The Many Faces of Swift Functions](http://www.objc.io/issue-16/swift-functions.html)|[objc.io](http://objc.io)
 [Swift 的函数式 API](http://objccn.io/issue-16-4/)|[@请叫我汪二](http://weibo.com/small1030light)|[Functional APIs with Swift](http://www.objc.io/issue-16/functional-swift-apis.html)|[objc.io](http://objc.io)
-_**[Playground快速原型制](http://objccn.io/issue-16-5/)**_|[Programmer.Du](http://www.codingtime.info)|[Rapid Prototyping in Swift Playgrounds](http://www.objc.io/issue-16/rapid-prototyping-in-swift-playgrounds.html)|[objc.io](http://objc.io)
+[Playground快速原型制](http://objccn.io/issue-16-5/)|[Programmer.Du](http://www.codingtime.info)|[Rapid Prototyping in Swift Playgrounds](http://www.objc.io/issue-16/rapid-prototyping-in-swift-playgrounds.html)|[objc.io](http://objc.io)
 [在Swift中自定义下标](http://www.devtalking.com/articles/custom-subscripts-in-swift/)|[@DevTalking](http://weibo.com/jacefu)|[Custom Subscripts in Swift](http://www.codingexplorer.com/custom-subscripts-swift)|[codingexplorer](http://www.codingexplorer.com/)
 [如何用 Swift 语言构建一个自定控件](http://beyondvincent.com/blog/2014/08/28/How-To-Make-a-Custom-Control-in-Swift/)|[@BeyondVincent](http://weibo.com/beyondvincent)| [How To Make a Custom Control in Swift](http://www.raywenderlich.com/76433/how-to-make-a-custom-control-swift) | [raywenderlich](http://www.raywenderlich.com/)|
 UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1/), [二](http://www.devtalking.com/articles/swift-uikit-dynamics-2/)） |[@DevTalking](http://weibo.com/jacefu)| [UIKit Dynamics Tutorial in Swift](http://www.raywenderlich.com/76147/uikit-dynamics-tutorial-swift) |[raywenderlich](http://www.raywenderlich.com/)
 [Swift中的延迟加载](http://swiftist.org/topics/129)|[@Swiftist](http://weibo.com/u/5171245144)|[Lazy Initialization with Swift](http://mikebuss.com/2014/06/22/lazy-initialization-swift/)|[mikebuss](http://mikebuss.com/)
 [The Swift Programming Language: 实验项目相关解决方案](http://www.cocoachina.com/applenews/devnews/2014/0703/9022.html)|[@CocoaChina](http://weibo.com/cocoachina)|[The Swift Programming Language: Solutions to Experiments](http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments)|[swiftcast.tv](http://www.swiftcast.tv/)
 
+* _**[S008 - iOS 应用基础](http://v.youku.com/v_show/id_XNzg4MDM0NDgw.html?f=22866104)： 教程对于最基础的UI编程讲得特别细，时有反复强调Swift基础特性。个人感觉这个适合无iOS UI编程经验的同学，甚至也适合无Swift基础的同学。By [@赵哲A(](http://weibo.com/zhaozhecleric)**_
+* _**[Getting Your App Ready for iOS 8](http://www.sitepoint.com/getting-app-ready-ios-8/)：让你的应用程序适配iOS 8，这篇文章总结的比较完整。 By [@Janselz](http://weibo.com/517433742)**_
+* _**[VectorPDFSupportTest](https://github.com/0dayZh/VectorPDFSupportTest)："Xcode 6 支持 vector PDF 来支持多尺寸的图片，虽然是伪矢量图，但我还是写了点东西来把这东西说清楚。" By [@你全家都快到碗里来](http://weibo.com/chinawangchen) **_
 * [nettlep/learn-swift](https://github.com/nettlep/learn-swift): 学习《Swift Programming Language》的同时，配合运行这些playgrounds，对于快速掌握Swift最合适不过了.
 * [Swift Reference Playground](https://github.com/hackswift/swift-reference-pg)/[Swift Operators Playground](https://github.com/hackswift/swift-operators-pg): "Swift Reference is a handy playground file that can be used when you are starting to learn swift.It covers the basic syntax definitions and different ways to use" 初学Swift语言的同学一定先玩玩这个，可以让您更快感性的了解Swift语言语法、操作符及语言新特点（代码涵盖地比较完整）。
 * [ShinobiControls/iOS8-day-by-day](https://github.com/ShinobiControls/iOS8-day-by-day)：追剧iOS 8开发，文章几乎篇篇带示例项目。iOS 8开发者进阶必备！
@@ -165,7 +170,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [从零开始学Swift计时器App开发](http://swiftist.org/topics/96)（[源代码](https://github.com/lifedim/SwiftCasts/tree/master/001_swift_counter/SwiftCounter)）: "通过完成此教程，我对Swift语言的理解也更进了一步。Swift是一门全新的语言，作为开发者，我们需要不断加深对这门语言的理解，并灵活使用语言提供的特性来编程。..."  by [@李洁信](http://weibo.com/u/1780854425) 
 * [How to build a nice Hamburger Button](http://robb.is/working-on/a-hamburger-button-transition/): 小小的按钮，无论在设计上，还是代码上，都进行了精雕细琢。期待作者能尽早发布更完整的Hamburger Buttons. 源码：[robb/hamburger-button](https://github.com/robb/hamburger-button)
 * [Hamburger Button Animation](http://holko.pl/2014/07/15/hamburger-button-animation/): 又一个实用的Hamburger Button。另外，看了作者的[博客](http://holko.pl/)，感觉他对iOS Animation编程非常有经验，强烈推荐关注。源码：[fastred/HamburgerButton](https://github.com/fastred/HamburgerButton) 
-* _**[在Playground中添加说明文档](http://www.devtalking.com/articles/create-documentation-in-playground/)：教你如何在Playground中添加说明文档。By [@DevTalking](http://weibo.com/jacefu)**_
+* [在Playground中添加说明文档](http://www.devtalking.com/articles/create-documentation-in-playground/)：教你如何在Playground中添加说明文档。By [@DevTalking](http://weibo.com/jacefu)
 * [使用 Swift 和 AVOSCloud 构建 iOS 应用](https://blog.avoscloud.com/1407/):"使用 AVOSCloud SDK 和 Swift 构建 iOS 应用 | AVOS Cloud Blog" By [@AVOS江宏](http://weibo.com/lazyseq) ｜ 这就是业界的速度，先机才是致胜法宝。
 
 ---
@@ -189,15 +194,15 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
 * [Realm - a mobile database](http://realm.io/): Realm主打移动数据库。除了更轻量，甚至还可以应用到可穿戴。低耦、面向对象的设计风格也是非常亮丽的。
 * [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent): 一个简单、小巧、实用的HTTP请求Swift语言实现类（仅一个Agent.swift类）
-* [lingoer/SwiftyJSON](https://github.com/lingoer/SwiftyJSON):这是解析JSON字符串封装类。实现功能与Javascript中的JSON.parse相近，使用方便。
+* [lingoer/SwiftyJSON](https://github.com/lingoer/SwiftyJSON):这是解析JSON字符串封装类。实现功能与Javascript中的JSON.parse相近，使用方便。By [@lingoer](http://weibo.com/u/1671421905)
 * [lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。
 * [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法"
 * [daltoniam/SwiftHTTP](https://github.com/daltoniam/SwiftHTTP): Thin wrapper around NSURLSession in swift. Simplifies HTTP requests.感兴趣的可以看看代码，比较与lingoer/GRequest差别。
 * [AshFurrow/Moya](https://github.com/AshFurrow/Moya): 如果你需要[如此功能](https://github.com/artsy/eidolon/issues/9)的Swift网络API，可以考虑使用它。它基于Alamofire, swfitz等优秀开源类实现。
 * [BjornRuud/Swiftache](https://github.com/BjornRuud/Swiftache): Mustache的Swift语言实现版本。
-* _**[typelift/Basis](https://github.com/typelift/Basis)：这个实用类库支持范围很宽范，封装主要以简化及方便调用系统API为主，使程序代码看上去更优雅。遗憾地是，目前作者并没有提供API文档或示例代码，对于初学者使用会额外带来一点点学习成本。**_
-* _**[nerdyc/Squeal](https://github.com/nerdyc/Squeal)：一套非常完善的SQLite数据库访问API，无论建库，建表，CRUD等常用数据库操作命令都进行了很好的封装，另外，版本管理、事务管理、并发管理、命令执行及Prepare Statement等都提供相应支持。它是一套不可多得的SQLite管理访问库。**_
-* _**[Haneke/HanekeSwift](https://github.com/Haneke/HanekeSwift)：貌似这个轻量地带缓存图片组件还不错。主要功能包括图片二级缓存、异步加载、后台执行、自动缩放等。感兴趣的同学可以试用一下。**_
+* [typelift/Basis](https://github.com/typelift/Basis)：这个实用类库支持范围很宽范，封装主要以简化及方便调用系统API为主，使程序代码看上去更优雅。遗憾地是，目前作者并没有提供API文档或示例代码，对于初学者使用会额外带来一点点学习成本。
+* [nerdyc/Squeal](https://github.com/nerdyc/Squeal)：一套非常完善的SQLite数据库访问API，无论建库，建表，CRUD等常用数据库操作命令都进行了很好的封装，另外，版本管理、事务管理、并发管理、命令执行及Prepare Statement等都提供相应支持。它是一套不可多得的SQLite管理访问库。
+* [Haneke/HanekeSwift](https://github.com/Haneke/HanekeSwift)：貌似这个轻量地带缓存图片组件还不错。主要功能包括图片二级缓存、异步加载、后台执行、自动缩放等。感兴趣的同学可以试用一下。
 * [aleclarson/emitter-kit](https://github.com/aleclarson/emitter-kit):用EmitterKit代替NSNotificationCenter。这个库貌似短小、精悍、实用的样子。更重要是语法精练。
 * [owensd/json-swift](https://github.com/owensd/json-swift): 功能与Swifty几乎一致，使用上要更方便。
 * [aschuch/AwesomeCache](https://github.com/aschuch/AwesomeCache)：Swift语言写的高效能缓存对象存储及管理，定义及使用简单、易于理解。支持为每个Cache对象设定缓存有效期。
@@ -205,6 +210,12 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [hubertr/Swell](https://github.com/hubertr/Swell)： 同时支持Swift和OBJC的Log实用类。喜欢Log4j风格的日志管理类的同学可以收入。
 * [A Twitter framework for iOS & OS X written in Swift](https://github.com/mattdonnelly/Swifter): 一套很完整的Twitter访问框架类库，支持iOS/OS X
 * [RSBarcodes_Swift](https://github.com/yeahdongcn/RSBarcodes_Swift): "RSBarcodes allows you to read 1D and 2D barcodes using metadata scanning capabilities introduced with iOS 7 and generate the same set of barcode images for displaying and sharing." By [@yeahdongcn](http://weibo.com/r0ckstar) Swift语言版二维码识别及生成类库。
+* _**[jcavar/refresher](https://github.com/jcavar/refresher)：一个常用的下拉即刷新列表工具类，提供开放接口定制刷新动态变换效果。**_
+* _**[SugarRecord/SugarRecord](https://github.com/SugarRecord/SugarRecord)：相对于SQL，CoreData可以更方便、高效存储数据，而SugarRecord类库可以让你更方便的使用CoreData，同时作者已经封装好iCloud，使你的应用开发更如虎添翼。**_
+* _**[ariok/BWWalkthrough](https://github.com/ariok/BWWalkthrough)：让你的页面切换动起来，示例效果杠杠的。作者还提供了比较完整的开发文档及示例解说。**_
+* _**[inamiy/SwiftTask](https://github.com/inamiy/SwiftTask)： 一个很标准的任务及其生命周期管理类库。作者还附上了一个基于Alamofire库完成的网络文件下载的任务管理示例。**_
+* _**[inamiy/SwiftState](https://github.com/inamiy/SwiftState)：Swift版本State Machine，这是SwiftTask的姐妹篇。开发过Workflow类应用的同学有没有很亲切。**_
+* _**[gfx/Swift-JsonSerializer](https://github.com/gfx/Swift-JsonSerializer)：JSON解析又多了一种选择。**_
 * [robb/Cartography](https://github.com/robb/Cartography): Set up your Auto Layout constraints declaratively. 这是有关自动布局约束一个实用的Swift项目，代码看似简单清晰，不过由于设计巧妙，还是邀请一位有经验iOS的程序员解读一下吧，该任务认领来[这里](http://t.cn/Rvl7kBd)。
 * [vikmeup/SCLAlertView-Swift](https://github.com/vikmeup/SCLAlertView-Swift): 动画效果弹出框封装库（管理于CocoaPods），使用也足够方便。试着运行了一下，效果还不错。
 * [onevcat/VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)：快捷注释Xcode插件。By [@onevcat](http://weibo.com/onevcat)
@@ -227,6 +238,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [iluuu1994/Pathfinder](https://github.com/iluuu1994/Pathfinder)：一个有趣的算法类项目。虽然目前只是个演示项目，不过，作者有计划加入更多算法优化程序，同时，也有计划支持3D地图。
 * [mathewsanders/Animated-Transitions-Swift-Tutorial](https://github.com/mathewsanders/Animated-Transitions-Swift-Tutorial): 结合Xcode开发步聚介绍如何开发动画过渡Prototyping Animatted Transition in Swift(Part I)](http://mathewsanders.com/custom-menu-transitions-in-swift/) 
 * [mathewsanders/Custom-Menu-Transition-Swift-Tutorial](https://github.com/mathewsanders/Custom-Menu-Transition-Swift-Tutorial): 结合Xcode开发步聚介绍如何开发动画过渡Transition in Swift(Part II)](http://mathewsanders.com/custom-menu-transitions-in-swift/)  
+* _**[vandadnp/iOS-8-Swift-Programming-Cookbook](https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook)：来自《 O'Reilly's iOS 8 Swift Programming Cookbook》的配套示例。书买不买另说，如此即时、完整、丰富的新书示例项目真不多见。悟性好的同学，开发时参考一下示例是不是就不用买书了？**_
 
 ### 3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift): 用Swift语言实现的 FlappyBird
