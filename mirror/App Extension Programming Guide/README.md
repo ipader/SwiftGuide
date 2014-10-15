@@ -1,4 +1,4 @@
-应用扩展编程指南（App Extension Programming Guide）
+应用扩展编程指南
 ===
 这是苹果官方文档《[App Extension Programming Guide](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html)》的非官方中文镜像。译文均网友翻译。这里仅记录文章链接。
 
