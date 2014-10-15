@@ -38,16 +38,27 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * 爱好者翻译版：[在线版(中文) (By @CocoaChina)](https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md)｜[PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQHNd/1402648326)
 
 ### 4. [App Extension Programming Guide](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214)
-官方文章讲得清楚透彻。Extension是应用互联的重要基础，也是iOS/OS X开放的第一步。
 
-* 中文镜像（By [@DevTalking](http://weibo.com/jacefu)）
+* 应用扩展要点（App Extension Essentials）
 
-	译文 | 原文 
------------- | ------------- 
-[应用扩展如何工作](http://www.devtalking.com/articles/understand-how-an-extension-works/) | [Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2)
-[开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
-[APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
-[常见问题的处理方案](http://www.devtalking.com/articles/handling-common-scenarios/) | [Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
+	译文 | 译者 | 原文
+------------ | ------------- | ------------- 
+[应用扩展如何工作](http://www.devtalking.com/articles/understand-how-an-extension-works/) | [@DevTalking](http://weibo.com/jacefu) | [Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2)
+[开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | [@DevTalking](http://weibo.com/jacefu) | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
+[APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | [@DevTalking](http://weibo.com/jacefu) | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
+[常见问题的处理方案](http://www.devtalking.com/articles/handling-common-scenarios/) | [@DevTalking](http://weibo.com/jacefu) | [Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
+
+* 应用扩展类型（App Extension Types）
+
+	译文 | 译者 | 原文
+------------ | ------------- | ------------- 
+[Today](http://www.cocoachina.com/ios/20140904/9527.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Today](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/NotificationCenter.html#//apple_ref/doc/uid/TP40014214-CH11-SW1)
+[Share](http://www.cocoachina.com/ios/20140923/9728.html)|[张国鹏](http://blog.csdn.net/guopengzhang/article)|[Share](http://www.cocoachina.com/ios/20140923/9728.html)
+[Action](http://www.cocoachina.com/ios/20140929/9800.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Action](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Services.html#//apple_ref/doc/uid/TP40014214-CH13-SW1)
+[照片编辑]()|[@CocoaChina](http://weibo.com/cocoachina)|[Photo Editing]()
+[Finder同步](http://www.jianshu.com/p/359e064ffe20)|[@寂幻森林](http://weibo.com/u/3227937731)|[Finder Sync](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Finder.html#//apple_ref/doc/uid/TP40014214-CH15-SW1)
+[文档提供](http://www.jianshu.com/p/2f45696b812b)|[@寂幻森林](http://weibo.com/u/3227937731)|[Document Provider](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/FileProvider.html#//apple_ref/doc/uid/TP40014214-CH18-SW1)
+[第三方输入法](http://www.jianshu.com/p/987dfa9f3baf)|[@寂幻森林](http://weibo.com/u/3227937731)|[Custom Keyboard](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW7)
 
 ### 5. [Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/)
 "值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
