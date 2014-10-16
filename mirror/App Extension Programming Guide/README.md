@@ -16,10 +16,10 @@
 [Today](http://www.cocoachina.com/ios/20140904/9527.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Today](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/NotificationCenter.html#//apple_ref/doc/uid/TP40014214-CH11-SW1)
 [Share](http://www.cocoachina.com/ios/20140923/9728.html)|[张国鹏](http://blog.csdn.net/guopengzhang/article)|[Share](http://www.cocoachina.com/ios/20140923/9728.html)
 [Action](http://www.cocoachina.com/ios/20140929/9800.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Action](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Services.html#//apple_ref/doc/uid/TP40014214-CH13-SW1)
-[照片编辑]()|[@CocoaChina](http://weibo.com/cocoachina)|[Photo Editing]()
-[Finder同步](http://www.jianshu.com/p/359e064ffe20)|[@寂幻森林](http://weibo.com/u/3227937731)|[Finder Sync](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Finder.html#//apple_ref/doc/uid/TP40014214-CH15-SW1)
-[文档提供](http://www.jianshu.com/p/2f45696b812b)|[@寂幻森林](http://weibo.com/u/3227937731)|[Document Provider](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/FileProvider.html#//apple_ref/doc/uid/TP40014214-CH18-SW1)
-[第三方输入法](http://www.jianshu.com/p/987dfa9f3baf)|[@寂幻森林](http://weibo.com/u/3227937731)|[Custom Keyboard](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW7)
+[照片编辑](http://www.cocoachina.com/ios/20141015/9918.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Photo Editing]()
+[Finder同步](http://www.jianshu.com/p/359e064ffe20)|[星夜暮晨](http://weibo.com/u/3227937731)|[Finder Sync](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Finder.html#//apple_ref/doc/uid/TP40014214-CH15-SW1)
+[文档提供](http://www.jianshu.com/p/2f45696b812b)|[星夜暮晨](http://weibo.com/u/3227937731)|[Document Provider](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/FileProvider.html#//apple_ref/doc/uid/TP40014214-CH18-SW1)
+[第三方输入法](http://www.jianshu.com/p/987dfa9f3baf)|[星夜暮晨](http://weibo.com/u/3227937731)|[Custom Keyboard](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW7)
 
 
 
