@@ -193,7 +193,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
 * [LTBouncyPlaceholder代码解读](https://github.com/nixzhu/dev-blog/blob/master/2014-06-12-LTBouncyPlaceholder.md): "我希望你已经下载了 LTBouncyPlaceholder 的 Demo ，用 Xcode 6 打开并编译、运行，然后在界面中显示的几个 UITextField 里输入一些文字来体验这个扩展。看到 Placeholder 的动画了吗？" By [nixzhu](http://weibo.com/nixzhu)
 * [从零开始学Swift计时器App开发](http://swiftist.org/topics/96)（[源代码](https://github.com/lifedim/SwiftCasts/tree/master/001_swift_counter/SwiftCounter)）: "通过完成此教程，我对Swift语言的理解也更进了一步。Swift是一门全新的语言，作为开发者，我们需要不断加深对这门语言的理解，并灵活使用语言提供的特性来编程。..."  by [@李洁信](http://weibo.com/u/1780854425) 
-* _**[如何用Swift写UIDynamic](http://www.starming.com/index.php?v=index&view=46)：如何用Swift写UIDynamic。代码虽短，功能性完整。可读性也很赞！By [@戴铭](http://weibo.com/allstarming)**__
+* _**[如何用Swift写UIDynamic](http://www.starming.com/index.php?v=index&view=46)：如何用Swift写UIDynamic。代码虽短，功能性完整。可读性也很赞！By [@戴铭](http://weibo.com/allstarming)**_
 * _**[Swift System Version Checking](http://nshipster.com/swift-system-version-checking/)：介绍使用Swift语言检测操作系统版本的方法。 By [Mattt Thompson ](https://github.com/mattt) **_
 * _**[Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。**_
 * [How to build a nice Hamburger Button](http://robb.is/working-on/a-hamburger-button-transition/): 小小的按钮，无论在设计上，还是代码上，都进行了精雕细琢。期待作者能尽早发布更完整的Hamburger Buttons. 源码：[robb/hamburger-button](https://github.com/robb/hamburger-button)
