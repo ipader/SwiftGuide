@@ -4,7 +4,7 @@
 
 
 译文 | 译者 | 原文
------------- | ------------- 
+------------ | ------------- | -------------
 _**[可失败构造器](http://www.devtalking.com/articles/failable-initializers/)**_|[@DevTalking](http://weibo.com/jacefu) |[Failable Initializers](https://developer.apple.com/swift/blog/?id=17)
 －|-|[Building Your First Swift App Video](https://developer.apple.com/swift/blog/?id=16)
 [通过Playground展示一些编码模式](http://www.devtalking.com/articles/patterns-playground/)|[@DevTalking](http://weibo.com/jacefu) | [Patterns Playground](https://developer.apple.com/swift/blog/?id=13)
