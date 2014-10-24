@@ -1,54 +1,44 @@
-Swift语言指南
+Hướng dẫn lập trình ngôn ngữ Swift
 ===
-这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。
+Hướng dẫn này tập hợp các tài nguyên chính thống để học tập ngôn ngữ Swift。
 
-GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
+GitHub: [SwiftGuide](https://github.com/anhntsi/SwiftGuide)
 
-
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-10-20（_**着重＋斜体**_为最近加入或更新条目）</span>
-
-## Swift文档
+## Swift Document
 
 ### 1. [Welcome to Swift](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html)
 
-苹果针对Swift开发者官方文档入口。其中包括：
-[Swift概括](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html),
+Tài liệu chính thống của apple cho các lập trình viên muốn làm quen với ngôn ngữ swift. Nó bao gồm：
+[Swift summarize](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html),
 [Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html),
 [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
 
 
 ### 2. [Swift Programming Language](https://developer.apple.com/swift/) 
 
-* 苹果官方文档：
-[在线版(英文)](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html) [iBooks版(英文)](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11)
+* Tài liệu của apple：
+[Online Version](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html) [iBooks](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11)
 
-* 爱好者翻译版：
-[在线版(中文) (By @Swift中文翻译组)](http://www.swiftguide.cn) ｜
-[PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQ5CZ/1402621206) ｜ 
-[百度阅读版 (By 小岂子)](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
-
-* [Basic Operators - Nil Coalescing Operator](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-XID_109)解读 
+* [Basic Operators - Nil Coalescing Operator](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-XID_109)giải thích 
 	1. [Swift中Nil Coalescing运算符的使用技巧](http://www.devtalking.com/articles/swift-nil-coalescing/)	By [@DevTalking](http://weibo.com/jacefu)
 	2. [Swift’s Nil Coalescing Operator In Xcode 6 Beta 5](http://jamesonquave.com/blog/swifts-nil-coaelescing-operator-in-xcode-6-beta-5/) By [Jameson Quave](http://jamesonquave.com/)
-* [Swift 编程风格指南](http://swiftist.org/topics/165)(译文来自 [swiftist.org](http://swiftist.org)): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) 
-* [《The Swift Programming Language》读簿](http://hawstein.com/posts/make-thiner-tspl.html): "读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。
+* Swift programming style guide: [《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) 
 
 ### 3. Using Swift with Cocoa and Objective-C
-* 苹果官方文档：[在线版(英文)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216) [iBooks版(英文)](https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11&ls=1)
-* 爱好者翻译版：[在线版(中文) (By @CocoaChina)](https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md)｜[PDF版 (By @CocoaChina)](http://vdisk.weibo.com/s/EhsPPzRRQHNd/1402648326)
+* Apple's official documentation：[Online Version(Tiếng anh)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216) [iBooks(Tiếng anh)](https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11&ls=1)
 
 ### 4. [App Extension Programming Guide](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214)
 
-* 应用扩展要点（App Extension Essentials）
+* App Extension Essentials
 
-	译文 | 译者 | 原文
------------- | ------------- | ------------- 
-[应用扩展如何工作](http://www.devtalking.com/articles/understand-how-an-extension-works/) | [@DevTalking](http://weibo.com/jacefu) | [Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2)
-[开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | [@DevTalking](http://weibo.com/jacefu) | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
-[APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | [@DevTalking](http://weibo.com/jacefu) | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
-[常见问题的处理方案](http://www.devtalking.com/articles/handling-common-scenarios/) | [@DevTalking](http://weibo.com/jacefu) | [Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
+	Tham khảo |
+	------------- |
+	[Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2) | 
+	[Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1) | 
+	[App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1) | 
+	[Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1) |
 
-* 应用扩展类型（App Extension Types）
+* App Extension Types
 
 	译文 | 译者 / 校对 | 原文
 ------------ | ------------- | ------------- 
