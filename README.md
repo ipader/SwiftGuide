@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-10-27，更新内容详见[《2014-10-27收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-10-27.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-11-3，更新内容详见[《2014-11-3收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-11-03.md)</span> 
 
 
 ## Swift文档
@@ -125,6 +125,12 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * [An analysis of sorts between Objective-C and Swift](http://www.jessesquires.com/apples-to-apples-part-two/)："Swift 到底比 Objective-C 快多少？结论是：6倍以上（仅排序测试） 。 [这里](https://mikeash.com/pyblog/friday-qa-2014-07-04-secrets-of-swifts-speed.html)有为什么快的原因" By [@图拉鼎](http://weibo.com/tualatrix) 
 * [iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)(译者：[@小雪-Joanna](http://weibo.com/wileam))：关于iPhone6屏幕渲染的归纳。建议新手脑补一下这部分知识。原文：[iPhone 6 Screens Demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
 * [10 Swift IOS open-source projects you cannot ignore](https://medium.com/swift-programming/15-swift-ios-open-source-projects-you-cannot-ignore-6bd4ac37d7dd)：10大不能错过的#Swift#开源项目。P.S. 本指南都有收录。
+* iPhone6 & 6 Plus 尽寸适配说明
+	* [iPhone6 & 6 Plus 视觉设计适配说明](http://www.ui.cn/project.php?id=30159) 作者：[@英小俊](http://weibo.com/dulinme)
+	* [iPhone6和iPhone6 plus的iOS8设计尺寸参考指南](http://www.cssway.org/news_show.asp?id=288&classid=3) 作者：[@芒果道长](http://www.weibo.com/u/1797152462)
+* [iOS 5+ 设备一览](http://jamesdempsey.net/ios-device-summary/)：作者的意图是通过这样一张直观的图，指导选择相对合理的设备组合进行开发和测试。[PDF版本](http://tapas-software.net/img/ios_device_summary.pdf)
+* [超越Objective-C，超越Swift](http://idlelife.org/archives/774)：很有趣的作者，除了对Swift有比较专业地概括式理解，还从应用的纬度对新语言提出了自己的要求。比如：自动持久化，自动RESTful API，有表现力的触发器和响应，所见即所得的UI编辑等。译者：[@pockry](http://weibo.com/pockry) 原文：[Beyond Objective-C, Beyond Swift](http://blog.jaredsinclair.com/post/98402624705/beyond-objective-c-beyond-swift)
+
 	
 ## 常用工具
 * 开发工具
@@ -202,6 +208,8 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [为iPhone6设计自适应布局](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)（[一](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)、[二](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-2/)） ："当你们学习完这篇文章后，你们应该会比较自如的使用 storyboard、constaints、size classes 这三个Apple在Xcode里提供的工具，去探索和构建巧妙的自适应布局。" 译者：[@DevTalking](http://weibo.com/jacefu) 原文：[ADAPTIVE LAYOUTS FOR iPHONE 6](http://mathewsanders.com/designing-adaptive-layouts-for-iphone-6-plus/)
 * [iOS App集成Apple Pay教程](http://idlelife.org/archives/755)："Apple Pay还给开发者带来了处理支付的新渠道，用户将期望在应用中使用它，因为它将验证和交易极端简化，仅需手指轻轻一触即可完成。如果应用里面有涉及到交易，开发者很有必要集成Apple Pay。那么如何将Apple Pay功能集成到你的应用里呢？" 可惜Demo是Objective-C版本的。 译者：[@pockry](http://weibo.com/pockry) 原文：[Integrating Your iOS App with Apple Pay](http://java.dzone.com/articles/integrating-your-ios-app-apple)
 * [WWDC 2014 Session笔记 - 可视化开发，IB 的新时代](http://onevcat.com/2014/10/ib-customize-view/)："通过一个简单例子介绍了 Xcode 6 的 IB 中自定义 view 的基本使用。" 作者：[@onevcat](http://weibo.com/onevcat) 
+* [CMDevice​Motion](http://nshipster.com/cmdevicemotion/)：一篇关于CMDevice​Motion类解读及使用方法的文章。对于iPhone三轴陀螺仪和加速感应器，以及M7/M8协处理器，核心运动框架（The Core Motion framework）提供了完整的API支持。然而文章更重要的意义是启发开发者重视感应器，并结合场景开发新颖好玩的应用。
+* [如何在Swift中运用Text Kit框架](http://www.devtalking.com/articles/text-kit-tutorial-in-swift-1/) : “现在iOS8发布了，在文本渲染方面在延续了之前强大功能的基础上，又提升了其易用性。” 译者：[@DevTalking](http://weibo.com/jacefu)  原文：[Text Kit Tutorial in Swift](http://www.raywenderlich.com/77092/text-kit-tutorial-swift)
 
 ## 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -213,6 +221,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [WWDC14 Session 402 学习笔记](http://blog.txx.im/blog/2014/06/07/wwdc14-session-402/) By [@糖炒小虾_txx](http://weibo.com/rpplusplus)
 * [Swift与Objective-C混编高级教程之混编框架的创建和调用](http://blog.sina.com.cn/s/blog_877e9c3c0101sexl.html)
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
+* [Don’t Miss These Navigation Bar Interactions in iOS8](http://natashatherobot.com/navigation-bar-interactions-ios8/)：iOS8新方法，像Safari那样滑动时自动隐藏navigation。
 
 ---
 ## Swift项目
@@ -244,6 +253,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [Hearst-DD/ObjectMapper](https://github.com/Hearst-DD/ObjectMapper)：对象与JSON互转实用类库。需要的同学可以收一下。
 	* [DaveWoodCom/XCGLogger](https://github.com/DaveWoodCom/XCGLogger) ： 这是一款功能比较健全日志输出框架（Log4Swift）。之前推荐过一款类似的 hubertr/Swell，但它的功能明显没有这款强大。
 	* [isair/JSONHelper](https://github.com/air/JSONHelper) ：又一款JSON转对象类库，算上，lingoer/SwiftyJSON，owensd/json-swift，gfx/Swift-JsonSerializer，已经有四款了。同学们根据喜好及需求，择优使用吧。
+	* [kylef/Stencil](https://github.com/kylef/Stencil)：通过在模板中支持if, for, ifnot 等语法标签，实现更强大、更灵活的数据及格式输出。
+	* [kylef/PathKit](https://github.com/kylef/PathKit)： 简单、实用的文件路径操作类，常用功能一个也不少。
 	
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
@@ -273,6 +284,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [inamiy/SwiftTask](https://github.com/inamiy/SwiftTask)： 一个很标准的任务及其生命周期管理类库。作者还附上了一个基于Alamofire库完成的网络文件下载的任务管理示例。
 	* [inamiy/SwiftState](https://github.com/inamiy/SwiftState)：Swift版本State Machine，这是SwiftTask的姐妹篇。开发过Workflow类应用的同学有没有很亲切。
 	* [colemancda/NetworkObjects](https://github.com/colemancda/NetworkObjects)：基于Swift的轻量版HttpServer框架，可以做为iOS/OS X分布式对象的替代。可惜缺少演示或示例代码。
+	* [Masonry/Snappy](https://github.com/Masonry/Snappy)：一个基于AutoLayout封装，语法简洁的轻量级布局框架。当然，用代码还是storyboard，全凭开发者喜好。若偏好可视化自动布局，@DevTalking 的两篇译文值得参考[《Swift自适应布局教程》](http://www.devtalking.com/articles/adaptive-layout-1/)和[《为iPhone6设计自适应布局》](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)。
 * UI组件
 	* [jcavar/refresher](https://github.com/jcavar/refresher)：一个常用的下拉即刷新列表工具类，提供开放接口定制刷新动态变换效果。
 	* [ariok/BWWalkthrough](https://github.com/ariok/BWWalkthrough)：让你的页面切换动起来，示例效果杠杠的。作者还提供了比较完整的开发文档及示例解说。
@@ -280,6 +292,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [varshylmobile/MapManager](https://github.com/varshylmobile/MapManager):地图管理封装库（默认支持Google和Apple地图服务）。
 	* [varshylmobile/LocationManage](https://github.com/varshylmobile/LocationManage)：位置管理封装库（默认支持Google和Apple地图服务）。
 	* [ortuman/SwiftForms](https://github.com/ortuman/SwiftForms)：这个表单递交库简单实用，支持主要数据类型及定制。快速开发利器。
+	* [kentya6/KYCircularProgress](https://github.com/kentya6/KYCircularProgress)：这个进程条类库实现及使用都很简单，支持进程路径的定制，灵活方便。
 	
 ### 2. 示例项目
 * [VirtualGS教程示例](https://github.com/ipader/SwiftGuide/tree/master/VirtualGS): 以下示例程序来源于林泰前老师[微博](http://weibo.com/limtc)或[博客](http://blog.sina.com.cn/virtualgs)发布，为方便大家学习Swift编程，有幸获得林老师的准许在这里发布。
@@ -349,7 +362,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [苹果iBeacon让智能家居走进现实](http://digi.tech.qq.com/a/20140715/008974.htm): "iBeacon最初发布的时候是一个协议，苹果希望利用这一协议取代NFC技术。iBeacon技术则可以利用支持该技术的设备创建一个信号区域，相当于实现了地理围栏的功能，当其他支持iBeacon技术的设备如手机进入这一区域时，对应的应用程序就会自动连接这一区域的信号网络，或者对用户进行提示"
 * [Android L/iOS8/WP8.1到底谁抄了谁？](http://soft.zol.com.cn/465/4659548_all.html): "我们发现在三场发布会上都听到了观众这样的声音：“无耻抄袭！抄了谁谁谁的！！”，这种事情似乎说也说不清，所以我们决定把这三个新系统放到一起来看看，然后再下结论。" 
 * [Google开源字体Noto Sans CJK简介](http://weibo.com/1418521581/BdXqMkHbq#_rnd1405693766206)(By [@洋气书生](http://weibo.com/ben7th)): 这篇Noto Sans CJK(CJK: Chinese, Japan, Korean)字体普及文章简单、直接、专业，且易于理解。作者友善地提供了一份[本地下载](http://pan.baidu.com/s/1mg9M8Gg)，赞一个！P.S. 毫无疑问，新版Android上会很快支持，iOS/Mac/Windows上也会尽快缺省支持吗？
-
+* [iOS 8 与 OS X 10.10 间的自由联动：Handoff 使用详解](http://sspai.com/27277)：有关如何开启和使用Handoff，文章做了比较详细的介绍，并以Safari为例进行了使用说明。作者([@iTumbledSea](http://weibo.com/kitevolant))撰写此文的英文参考[《How to use Handoff with iOS 8 and Yosemite》](http://www.macworld.com/article/2825972/how-to-use-handoff-with-ios-8-and-yosemite.html)
 
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
