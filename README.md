@@ -5,7 +5,7 @@ Swift语言指南
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-11-3，更新内容详见[《2014-11-3收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-11-03.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-11-10，更新内容详见[《2014-11-10收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-11-10.md)</span> 
 
 
 ## Swift文档
@@ -210,6 +210,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [WWDC 2014 Session笔记 - 可视化开发，IB 的新时代](http://onevcat.com/2014/10/ib-customize-view/)："通过一个简单例子介绍了 Xcode 6 的 IB 中自定义 view 的基本使用。" 作者：[@onevcat](http://weibo.com/onevcat) 
 * [CMDevice​Motion](http://nshipster.com/cmdevicemotion/)：一篇关于CMDevice​Motion类解读及使用方法的文章。对于iPhone三轴陀螺仪和加速感应器，以及M7/M8协处理器，核心运动框架（The Core Motion framework）提供了完整的API支持。然而文章更重要的意义是启发开发者重视感应器，并结合场景开发新颖好玩的应用。
 * [如何在Swift中运用Text Kit框架](http://www.devtalking.com/articles/text-kit-tutorial-in-swift-1/) : “现在iOS8发布了，在文本渲染方面在延续了之前强大功能的基础上，又提升了其易用性。” 译者：[@DevTalking](http://weibo.com/jacefu)  原文：[Text Kit Tutorial in Swift](http://www.raywenderlich.com/77092/text-kit-tutorial-swift)
+* [Swift中的函数柯里化(Function Currying)](http://idlelife.org/archives/825)：柯里化提供了强大的动态函数创建方法，也是动态语言重要组成部分。译文有关柯里化使用方法及应用场景讲解的很清楚。"Swift的各种特性已经被很多人研究过，但有一个特性只有较少人提及，那就是函数柯里化。本文将试图覆盖柯里化函数的基本知识点和一些可能的使用场景，希望对你了解Swift中的函数柯里化有所帮助。" 译者：[@pockry](http://weibo.com/pockry) 原文：[《Swift Function Currying》](http://blog.xebia.com/2014/11/06/swift-function-currying/)
 
 ## 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -222,6 +223,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [Swift与Objective-C混编高级教程之混编框架的创建和调用](http://blog.sina.com.cn/s/blog_877e9c3c0101sexl.html)
 * [SwiftSingleton](https://github.com/hpique/SwiftSingleton): 三种方法介绍了Swift中Singleton的写法
 * [Don’t Miss These Navigation Bar Interactions in iOS8](http://natashatherobot.com/navigation-bar-interactions-ios8/)：iOS8新方法，像Safari那样滑动时自动隐藏navigation。
+* [Beginning iOS 8 Programming with Swift 读书笔记](https://github.com/sxyx2008/DevArticles/issues/26)：点滴都是经验，也是日日夜夜与汗水的交织。好笔记！作者：[@荧星诉语](http://weibo.com/qq184675420)
 
 ---
 ## Swift项目
@@ -255,13 +257,16 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [isair/JSONHelper](https://github.com/air/JSONHelper) ：又一款JSON转对象类库，算上，lingoer/SwiftyJSON，owensd/json-swift，gfx/Swift-JsonSerializer，已经有四款了。同学们根据喜好及需求，择优使用吧。
 	* [kylef/Stencil](https://github.com/kylef/Stencil)：通过在模板中支持if, for, ifnot 等语法标签，实现更强大、更灵活的数据及格式输出。
 	* [kylef/PathKit](https://github.com/kylef/PathKit)： 简单、实用的文件路径操作类，常用功能一个也不少。
-	
+	* [thoughtbot/Argo](https://github.com/thoughtbot/Argo)：一个带有实战说明的JSON解析方案及类库。
+* 图片
+	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
+	* [kaishin/gifu](https://github.com/kaishin/gifu)：高性能GIF显示类库Swift版本。
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
 	* [Realm - a mobile database](http://realm.io/): Realm主打移动数据库。除了更轻量，甚至还可以应用到可穿戴。低耦、面向对象的设计风格也是非常亮丽的。
-	* [BjornRuud/Swiftache](https://github.com/BjornRuud/Swiftache): Mustache的Swift语言实现版本。
 	* [nerdyc/Squeal](https://github.com/nerdyc/Squeal)：一套非常完善的SQLite数据库访问API，无论建库，建表，CRUD等常用数据库操作命令都进行了很好的封装，另外，版本管理、事务管理、并发管理、命令执行及Prepare Statement等都提供相应支持。它是一套不可多得的SQLite管理访问库。
 	* [stephencelis/SQLite.swift](https://github.com/stephencelis)：简单、轻量，或是使用上最SQL的SQLite封装库。
+	* [BjornRuud/Swiftache](https://github.com/BjornRuud/Swiftache): Mustache的Swift语言实现版本。
 	* [Haneke/HanekeSwift](https://github.com/Haneke/HanekeSwift)：貌似这个轻量地带缓存图片组件还不错。主要功能包括图片二级缓存、异步加载、后台执行、自动缩放等。感兴趣的同学可以试用一下。
 	* [SugarRecord/SugarRecord](https://github.com/SugarRecord/SugarRecord)：相对于SQL，CoreData可以更方便、高效存储数据，而SugarRecord类库可以让你更方便的使用CoreData，同时作者已经封装好iCloud，使你的应用开发更如虎添翼。
 	*  [michaelarmstrong/SuperRecord](https://github.com/michaelarmstrong/SuperRecord) ： Swift版CoreData框架扩展类库。相对于同类型CoreData框架库SugarRecord/SugarRecord http://t.cn/RhYLS4n ，SuperRecord要简单、轻量得多。很棒的快速开发类库。
@@ -293,6 +298,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [varshylmobile/LocationManage](https://github.com/varshylmobile/LocationManage)：位置管理封装库（默认支持Google和Apple地图服务）。
 	* [ortuman/SwiftForms](https://github.com/ortuman/SwiftForms)：这个表单递交库简单实用，支持主要数据类型及定制。快速开发利器。
 	* [kentya6/KYCircularProgress](https://github.com/kentya6/KYCircularProgress)：这个进程条类库实现及使用都很简单，支持进程路径的定制，灵活方便。
+	* [coolbeet/CBStoreHouseRefreshControl](https://github.com/coolbeet/CBStoreHouseRefreshControl)：这个下拉刷新库，提供完全可定制进度变换效果，且极具艺术感。建议有能力的同学把Objective-C版本改写为Swift版本。
+	* [kevinzhow/PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift)：PNChart的Swift版实现。PNChart http://t.cn/zRWXJCZ 是饼图、折线图、柱状图等常用可视化图表工具类库。开发者：[@周楷雯Kevin](http://weibo.com/kevinzhow)
 	
 ### 2. 示例项目
 * [VirtualGS教程示例](https://github.com/ipader/SwiftGuide/tree/master/VirtualGS): 以下示例程序来源于林泰前老师[微博](http://weibo.com/limtc)或[博客](http://blog.sina.com.cn/virtualgs)发布，为方便大家学习Swift编程，有幸获得林老师的准许在这里发布。
@@ -319,6 +326,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [FlappySwift](https://github.com/fullstackio/FlappySwift): 用Swift语言实现的 FlappyBird
 * [天气预报iOS项目](https://github.com/JakeLin/SwiftWeather): 新界面还不错，简单，还带点卡通的味道
 * [tnantoka/edhita](https://github.com/tnantoka/edhita)：edhita是一款用Swift重写并完全开源的文本编辑器。AppStore上已经有更新版下载。试用后感觉还不错。它甚至支持Markdown, HTML等文件编辑后的预览显示。 
+* [jurre/TravisToday](https://github.com/jurre/TravisToday)：一个功能相对完整的服务于Travis CI系统的OS X应用扩展Today项目案例。
 
 ### 4. 需求文档
 * [Some ideas for projects in Swift](http://chris.eidhof.nl/posts/swift-ideas.html): “正在造轮子的不妨看看~” By [Chris Eidhof](http://chris.eidhof.nl/)(creator of objc.io)
@@ -348,6 +356,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [learnswift.tips](http://www.learnswift.tips/): 国外主流Swift学习资源集合。
 * [Awesome iOS](https://github.com/vsouza/awesome-ios): 一个iOS的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
 * [iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。
+* [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的Swift资源列表（有持续更新）。
 
 
 ---
@@ -363,6 +372,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [Android L/iOS8/WP8.1到底谁抄了谁？](http://soft.zol.com.cn/465/4659548_all.html): "我们发现在三场发布会上都听到了观众这样的声音：“无耻抄袭！抄了谁谁谁的！！”，这种事情似乎说也说不清，所以我们决定把这三个新系统放到一起来看看，然后再下结论。" 
 * [Google开源字体Noto Sans CJK简介](http://weibo.com/1418521581/BdXqMkHbq#_rnd1405693766206)(By [@洋气书生](http://weibo.com/ben7th)): 这篇Noto Sans CJK(CJK: Chinese, Japan, Korean)字体普及文章简单、直接、专业，且易于理解。作者友善地提供了一份[本地下载](http://pan.baidu.com/s/1mg9M8Gg)，赞一个！P.S. 毫无疑问，新版Android上会很快支持，iOS/Mac/Windows上也会尽快缺省支持吗？
 * [iOS 8 与 OS X 10.10 间的自由联动：Handoff 使用详解](http://sspai.com/27277)：有关如何开启和使用Handoff，文章做了比较详细的介绍，并以Safari为例进行了使用说明。作者([@iTumbledSea](http://weibo.com/kitevolant))撰写此文的英文参考[《How to use Handoff with iOS 8 and Yosemite》](http://www.macworld.com/article/2825972/how-to-use-handoff-with-ios-8-and-yosemite.html)
+* [Web Apps](http://ignorethecode.net/blog/2014/11/04/web_apps/)：这篇新鲜文章较全面论述了Native应用和Web应用。有关Native应用和Web应用，最近争论渐少，原因应该有两点：1. 无论Apple还是Google，Native应用才是其生态的基础，过于激进推动，将损害其固有商业利益。而微软的话语权严重受阻于移动系统的发展；2. 基于Web View的混合应用基本满足应用跨平台性 。
 
 ### 2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource): 通过iOS 8 Extension实现让Web工程师喜欢的"显示网页源代码"。
