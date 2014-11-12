@@ -393,7 +393,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 * [外媒评论：苹果公司Swift语言将改变一切](http://tech.sina.com.cn/it/apple/2014-06-09/08499425442.shtml): 美国财经网站Motley Fool针对Swift比较中性的一篇评论文章，因此目标读者是非技术人员，可读性还不错。
 * [苹果新贵 Swift 之前世今生(池建强)](http://weibo.com/p/1001603720039017670032): 这篇文章故事性很强，不过，的确把前世今生、来龙去脉交待了一遍，适合刚开始了解swift语言的程序员。
 * [WWDC 2014: 给第三方开发者的情书(Qdaily 李如一)](http://qdaily.com/display/articles/1002): "iOS 和 Mac 上的御用语言 Objective-C 可以追溯至 NeXT 时代，换言之，它已经有超过二十年的历史。Swift 作为苹果发明的编程语言，也继承了苹果产品的传统"
-* [苹果发布Xcode 6 Beta 3，Swift迎来重大更新！](http://www.csdn.net/article/2014-07-08/2820566-swift-receives-significant-update):"苹果在面向开发者推送iOS 8 Beta 3以及OS X Yosemite的第三个预览版的同时，也发布了全新的Xcode 6 Beta 3，并对Swift语言进行了大幅改进。新版Swift修正了许多开发者提出的请求，尤其是对数组进行了重新设计。" 扩展阅读[《Swift 在 Beta3 中的变化》](http://andelf.github.io/blog/2014/07/08/swift-beta3-changes/)
+* [苹果发布Xcode 6 Beta 3，Swift迎来重大更新！](http://www.csdn.net/article/2014-07-08/2820566-swift-receives-significant-update):"苹果在面向开发者推送iOS 8 Beta 3以及OS X Yosemite的第三个预览版的同时，也发布了全新的Xcode 6 Beta 3，并对Swift语言进行了大幅改进。新版Swift修正了许多开发者提出的请求，尤其是对数组进行了重新设计。" 作者：[@唐门教主](http://weibo.com/txydonyin) 扩展阅读[《Swift 在 Beta3 中的变化》](http://andelf.github.io/blog/2014/07/08/swift-beta3-changes/)
 * [《连线：为什么苹果Swift语言将会迅速普及》](http://tech.163.com/14/0715/20/A17J8UFT000915BD.html)：为苹果硬件开发了15年软件产品的麦克·艾什（Mike Ash）相信，苹果最终会将Swift开源，而且他也相信该语言会在苹果的控制之外发展壮大——因为该语言的开发者拉特纳有着很深的开源情节。“有他在掌舵，我觉得他会做出正确的选择”。原文：[Why Apple’s Swift Language Will Instantly Remake Computer Programming](http://www.wired.com/2014/07/apple-swift/)
 * [Swift中文翻译组](http://weibo.com/swiftguide): 近30人9天协作完成翻译近670页的英文文档
 	1. [协同写作的力量——中国开发者9天完成《Swift语言》中文版](http://www.36kr.com/p/212811.html): "详细介绍了GitHub上开源翻译《Swift语言》这个开完项目，发起者是一个90后的大学生，整个翻译团队在9天内完成了近670页的Swift语言文档翻译工作。" By 36Kr
