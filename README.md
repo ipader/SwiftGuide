@@ -66,6 +66,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 译文 | 译者 | 原文
 ------------ | ------------- | ------------- 
+[Swift REPL入门介绍](http://idlelife.org/archives/842)|[@pockry](http://weibo.com/pockry)|[Introduction to the Swift REPL](https://developer.apple.com/swift/blog/?id=18)
 [可失败构造器](http://www.devtalking.com/articles/failable-initializers/)|[@DevTalking](http://weibo.com/jacefu) |[Failable Initializers](https://developer.apple.com/swift/blog/?id=17)
 －|-|[Building Your First Swift App Video](https://developer.apple.com/swift/blog/?id=16)
 [通过Playground展示一些编码模式](http://www.devtalking.com/articles/patterns-playground/)|[@DevTalking](http://weibo.com/jacefu) | [Patterns Playground](https://developer.apple.com/swift/blog/?id=13)
