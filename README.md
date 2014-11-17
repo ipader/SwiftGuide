@@ -261,6 +261,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [kylef/Stencil](https://github.com/kylef/Stencil)：通过在模板中支持if, for, ifnot 等语法标签，实现更强大、更灵活的数据及格式输出。
 	* [kylef/PathKit](https://github.com/kylef/PathKit)： 简单、实用的文件路径操作类，常用功能一个也不少。
 	* [thoughtbot/Argo](https://github.com/thoughtbot/Argo)：一个带有实战说明的JSON解析方案及类库。
+	* [typelift/swiftz](https://github.com/typelift/swiftz)： 一个帮助实现函数式编程的类库，定义了一系列相应的数据结构。
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
 	* [kaishin/gifu](https://github.com/kaishin/gifu)：高性能GIF显示类库Swift版本。
