@@ -6,8 +6,6 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-11-24，更新内容详见[《2014-11-24收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-11-24.md)</span> 
 
-_**[特别推荐](#Apple-Watch)**_
-
 ## Swift文档
 
 ### 1. [Welcome to Swift](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html)
