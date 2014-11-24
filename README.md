@@ -45,7 +45,6 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 ## <a id="swift_doc"></a>Swift文档
 
 ### <a id="welcome"></a>1. [Welcome to Swift](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html)
-
 苹果针对Swift开发者官方文档入口。其中包括：
 [Swift概括](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html),
 [Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html),
