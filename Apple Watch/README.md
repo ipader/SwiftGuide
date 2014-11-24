@@ -12,6 +12,7 @@
 4. [Watch项目](#watch_projects)
 5. [媒体文章](#watch_news)
 
+---
 ### <a id="watch_doc"></a>1. 文档 
 * <a id="watchkit_guide"></a>[WatchKit Programming Guide](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html)
 

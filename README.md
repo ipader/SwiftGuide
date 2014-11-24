@@ -41,6 +41,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 	* [媒体文章](#watch_news)
 * [其它相关](#related_others)
 
+---
 
 ## <a id="swift_doc"></a>Swift文档
 
