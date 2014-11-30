@@ -4,7 +4,7 @@ Swift语言指南
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-11-24，更新内容详见[《2014-11-24收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-11-24.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-11-30，更新内容详见[《2014-11-30收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-11-30.md)</span> 
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -199,6 +199,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [使用 Swift 构建自定义（且“可设计”的）控件](https://github.com/nixzhu/dev-blog/blob/master/2014-11-20-build-custom-control-in-swift.md)："使用 Swift 构建自定义（且“可设计”的）控件。喜欢别人发布的自定义控件？那设计并实现自定义控件需要几步呢？只要三步。读了本教程，你就可以实现任何你想要的自定义控件。" 译者：[@nixzhu](http://weibo.com/nixzhu)，原文[How to building a custom and designabl control in swift](http://www.thinkandbuild.it/building-a-custom-and-designabl-control-in-swift/)
 * [UIPrint​Interaction​Controller](http://nshipster.com/uiprintinteractioncontroller/)：文章介绍了如何格式化打印内容及相关打印定制技巧或控制技术。或许，在如今移动及数子化时代，打印已经被许多人所忽视。无论如何，对于传统行业，需求仍然是切实存在的，因此，这是一篇难得好文章。
 * [在iOS 8 SDK中使用Touch ID API － Part I](http://www.cocoachina.com/ios/20141114/10222.html), [Part II](http://www.cocoachina.com/ios/20141114/10223.html)：译文详述了如何在一款笔记编辑应用程序中集成iOS 8 SDK中Touch ID API，包括上下两个部分，在开发过程中使用了Swift语言。
+* [Core Data 版本迁移经验总结](http://chun.tips/blog/2014/11/28/core-data-ban-ben-qian-yi-jing-yan-zong-jie/)：版本升级是必备经验。文章或许还不够全面，但都是作者点滴经验，非常难得。对于进阶开发的同学文档《[Core Data Model Versioning and Data Migration Programming Guide](https://developer.apple.com/library/ios/documentation/cocoa/conceptual/CoreDataVersioning/Articles/Introduction.html)》是必读的，参考文章《[自定义 Core Data 迁移](http://objccn.io/issue-4-7/)》也值得收录。作者：[@Chun_iOS](http://weibo.com/junbbcom)
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -241,6 +242,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [iOS 5+ 设备一览](http://jamesdempsey.net/ios-device-summary/)：作者的意图是通过这样一张直观的图，指导选择相对合理的设备组合进行开发和测试。[PDF版本](http://tapas-software.net/img/ios_device_summary.pdf)
 * [超越Objective-C，超越Swift](http://idlelife.org/archives/774)：很有趣的作者，除了对Swift有比较专业地概括式理解，还从应用的纬度对新语言提出了自己的要求。比如：自动持久化，自动RESTful API，有表现力的触发器和响应，所见即所得的UI编辑等。译者：[@pockry](http://weibo.com/pockry) 原文：[Beyond Objective-C, Beyond Swift](http://blog.jaredsinclair.com/post/98402624705/beyond-objective-c-beyond-swift)
 * [Some ideas for projects in Swift](http://chris.eidhof.nl/posts/swift-ideas.html): “正在造轮子的不妨看看~” By [Chris Eidhof](http://chris.eidhof.nl/)(creator of objc.io)
+* [iOS设计指南](http://www.ui.cn/project.php?id=32167)(译者：shengbanx)：非官方文档，不过原文《[The iOS Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS Human Interface Guidelines》进行解读介绍。非常值得收藏。原作者Ivo Mynttinen，是一位来自德国的年轻UI设计师。其个人博客网站也值得同学们收录：[ivomynttinen.com](http://ivomynttinen.com)
 
 ---
 ## <a id="swift_projects"></a>Swift项目
@@ -277,6 +279,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [kylef/PathKit](https://github.com/kylef/PathKit)： 简单、实用的文件路径操作类，常用功能一个也不少。
 	* [thoughtbot/Argo](https://github.com/thoughtbot/Argo)：一个带有实战说明的JSON解析方案及类库。
 	* [typelift/swiftz](https://github.com/typelift/swiftz)： 一个帮助实现函数式编程的类库，定义了一系列相应的数据结构。
+	* [dongri/OAuthSwift](https://github.com/dongri/OAuthSwift)：Swift版OAuth(1/2)授权类库。对于作者提供的API，看着舒服，用着方便。
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
 	* [kaishin/gifu](https://github.com/kaishin/gifu)：高性能GIF显示类库Swift版本。
@@ -326,6 +329,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [coolbeet/CBStoreHouseRefreshControl](https://github.com/coolbeet/CBStoreHouseRefreshControl)：这个下拉刷新库，提供完全可定制进度变换效果，且极具艺术感。建议有能力的同学把Objective-C版本改写为Swift版本。
 	* [kevinzhow/PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift)：PNChart的Swift版实现。PNChart http://t.cn/zRWXJCZ 是饼图、折线图、柱状图等常用可视化图表工具类库。开发者：[@周楷雯Kevin](http://weibo.com/kevinzhow)
 	* [codestergit/SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS)：该弹窗控件设计简单直接，功能完整，动画效果恰如其分。实在不可多得，必须收录。
+	* [Ramotion/animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)：一款灵动的动画标签栏类库。可在storyboard中直接使用，非常方便。Demo效果非常漂亮。连续三天GitHub分类排名第一，且迅速过600星。它的代码并非复杂或特别，相信大家中意它的还是其设计感。
 	
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
@@ -348,6 +352,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [mathewsanders/Custom-Menu-Transition-Swift-Tutorial](https://github.com/mathewsanders/Custom-Menu-Transition-Swift-Tutorial): 结合Xcode开发步聚介绍如何开发动画过渡Transition in Swift(Part II)](http://mathewsanders.com/custom-menu-transitions-in-swift/)  
 * [vandadnp/iOS-8-Swift-Programming-Cookbook](https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook)：来自《 O'Reilly's iOS 8 Swift Programming Cookbook》的配套示例。书买不买另说，如此即时、完整、丰富的新书示例项目真不多见。悟性好的同学，开发时参考一下示例是不是就不用买书了？
 * [ide/UIVisualEffects](https://github.com/ide/UIVisualEffects)：Swift实现模糊化等视觉效果示例代码。代码详见[这里](https://github.com/ide/UIVisualEffects/blob/master/UIVisualEffects/ViewController.swift)
+* [sxyx2008/FoodPin](https://github.com/sxyx2008/FoodPin)：如此完整的Swift示例项目，可以帮助学习到不少Swift编程技巧。"用Swift写的一个功能比较完善的App，参照Beginning iOS 8 Programming with Swift一书。功能比较完善。AutoLayout、Core Animation、Core Data、国际化等。" By [@荧星诉语](http://weibo.com/qq184675420) 
 
 
 ### <a id="projects"></a>3. 完整项目
@@ -355,11 +360,13 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [天气预报iOS项目](https://github.com/JakeLin/SwiftWeather): 新界面还不错，简单，还带点卡通的味道
 * [tnantoka/edhita](https://github.com/tnantoka/edhita)：edhita是一款用Swift重写并完全开源的文本编辑器。AppStore上已经有更新版下载。试用后感觉还不错。它甚至支持Markdown, HTML等文件编辑后的预览显示。 
 * [jurre/TravisToday](https://github.com/jurre/TravisToday)：一个功能相对完整的服务于Travis CI系统的OS X应用扩展Today项目案例。
+* [stakes/Frameless](https://github.com/stakes/Frameless)：一款基于WKWebView的最小化全屏浏览器，主要功能是方便开发者采用HTML5做原型设计或App发布。对于测试工程师或喜欢极简、全屏浏览用户，可以直接在[AppStore下载](https://itunes.apple.com/us/app/id933580264)使用。
 
 ---
 ## <a id="recomm_sites"></a>Swift网站
 * [ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux):作者(Karol Mazur)将Apple Developer Forums上有关Swift特性、缺陷及变更讨论分类汇总并更新到Github，具有很好的可读性。从中可以一窥Swift缺陷及未来潜在地变化。最关键地是有Chris Lattner及核心团队答疑解惑。
 * [raywenderlich.com](http://www.raywenderlich.com/)([中文版](http://www.raywenderlich.com/zh-hans/)): 由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。近期第一时间出了[三本Swift新书](http://www.raywenderlich.com/74832/three-new-swift-books)。
+* [Natasha The Robot](http://natashatherobot.com/)： 时髦码农不容错过的Swift开发实战教程类网站。为了简化学习复杂性，每一篇文章涵盖技术点单一又独立，配以开发步骤、运行结果以及代码等标准方式教授。难能可贵的是，它往往出品"追剧式"（最新开发特性或API跟进式）教程，实在是开发者必藏精品网站。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/)): 著名开源作者[Matt Thompson](https://github.com/mattt)创建的开发技术博客网站，他开发了[AFNetworking](https://github.com/afnetworking/afnetworking)网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709) By [@程序员付恒](http://weibo.com/fallhunter)
 * [jamesonquave.com](http://jamesonquave.com/blog/): 移动开发者，优秀个人博客（近期文章同样关注于Swift语言，写得很优质）。同时他将于8/30发布一本新书[《Developing iOS 8 Apps in Swift》](http://jamesonquave.com/swiftebook/) (Learn To Make Real World iOS 8 Apps)及视频教程。
 * [objc.io](http://objc.io)([中译版 By @onevcat 及其朋友们](http://objccn.io)): "关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
@@ -446,6 +453,7 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 	4. [雨燕Swift](http://swiftist.org/topics/81): "...我做翻译这件事的目的其实挺自私的，没想改变世界，没想着跟世界同步，没想干什么轰轰烈烈的大事。... 我是Aminby，和大多数程序员一样默默无闻地用国内外先进的技术或解决方案为工作忙活着的普通人。" By [@老白经aminby](http://weibo.com/aminby)
 * [蒂姆·库克的苹果](http://my.txtshare.in/article/da01660222c4603f3ff9fd86dfe5bff6/?from=timeline&isappinstalled=0): "当库克走向舞台左侧的暗处时，气氛一时变得神秘起来。这时苹果软件工程负责人克莱格·费德里西(Craig Federighi)快步走上台。他和库克插肩而过，走到聚光灯下，向大家介绍这款新品。它不是一款新的消费产品，而是一套名为“开发工具包”的软件工具，可以帮助开发人员开发出更好的应用。这个世界上的其他人可能会对此打哈欠，但开发者们站起身，兴奋地叫嚷起来。"
 * [苹果 A8X 芯片难逢敌手！英特尔、高通、三星纷纷落败](http://www.macgg.com/archives/30618.html)：回想当年乔布斯团队从iPad开始，毅然选择自己设计基于ARM架构的A4芯片，无论在iPhone/iPad系列产品快速演变还是商业上，都获得了罕见的收获。从CPU革命延伸到如今开发语言Swift，奠定了其庞大生态环境内基础软、硬件坚实的基础。未来的苹果显然更值得期待。
+* [新视频透露了苹果都不知道的iPhone隐藏技能](http://www.macgg.com/archives/31080.html)："iPhone的性能和扩展是否已经超乎苹果的想象？近日国外网友 Ivo Leko 利用iPhone上多项传感器用于完成实时的磁铁位置追踪演示。"
 
 ---
 ## <a id="apple_watch"></a>[Apple Watch指南](https://developer.apple.com/watchkit/)
@@ -499,16 +507,19 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 	* [Apple WatchKit 初探](http://onevcat.com/2014/11/watch-kit/)："随着今天凌晨 Apple 发布了第一版的 Watch Kit 的 API，对于开发者来说，这款新设备的一些更详细的信息也算是逐渐浮出水面。可以说第一版的 WatchKit 开放的功能总体还是令人满意的。Apple 在承诺逐渐开放的方向上继续前进。By [@onevcat](http://weibo.com/onevcat)"
 	* [RayWenderlich － WatchKit初探](http://www.devtalking.com/articles/watchkit-initial-impressions/)（译者：[@DevTalking](http://weibo.com/jacefu)，原文：[WatchKit Initial Impressions](http://www.raywenderlich.com/89473/watchkit-initial-impressions)）："Raywenderlich对WatchKit第一版的评价：1.不简单的只是App extension;2.Watch负责视图，iPhone运行控制器和模型;3.新的layout方式;4.强大的快览和通知;5.动画不原生支持。By [@WatchKit开发](http://weibo.com/twios)"。
 	* [Apple Watch 开发者套件 WatchKit 发布后，你需要知道这些](http://www.36kr.com/p/217095.html)："Apple 上线了供 Apple Watch 开发者使用的开发工具 WatchKit。从这款工具和相关文档中，The Verge 发现了一些重要细节。By [@36氪](http://weibo.com/wow36kr)"
+	* WatchKit快速入门两篇：《[使用WatchKit前需要先了解的几件事](http://www.imore.com/what-you-need-know-about-watchkit)》和《[如何新建一个“Hello World” WatchKit应用](http://natashatherobot.com/hello-world-watchkit-app/)》。两篇文章一起组成WatchKit应用快速开发入门参考。
 * <a id="watch_courses_featured"></a>教程精选
 	* [Apple Watch Tutorial - Learn How to Make a Simple Apple Watch App](http://v.youku.com/v_show/id_XODMwNjkwNzI0.html)：50分钟入门级开发视频。可惜Youku上的版本不够清晰。By [@36氪](http://weibo.com/wow36kr) 《[如何正确开发一款Apple Watch应用？](http://www.36kr.com/p/217141.html)》
 	* [用帧动画做AppleWatch小游戏](http://taiw8.lofter.com/post/1cc96c67_3c2a931)："WatchKit已经发布了2天，先行者们已经进行了探索并发表了总览性的文章去帮助引导开发者。..." By [@WatchKit开发](http://weibo.com/twios)
 
 ### <a id="watch_projects"></a>4. Watch项目
 * [saigyoji205/Map_For_AppleWatch](https://github.com/saigyoji205/Map_For_AppleWatch)：一个简单的WatchKit地图示例应用扩展。
+* [frosty/Flipbook](https://github.com/frosty/Flipbook)："Flipbook是一个能录制iPhone上UIView动画生成帧动画序列并传输给AppleWatch以供直接播放的工具。By [@WatchKit开发](http://weibo.com/twios)"
 
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新Apple Watch身上小试身手时，iOS开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出WatchKit开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
 * [Apple Watch需求被低估](http://www.chinadaily.com.cn/hqcj/xfly/2014-11-21/content_12755012.html)："大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。"
+* [苹果 Apple Watch 的杀手级特性](http://www.feng.com/apple/news/2014-11-28/Apple-Apple-Watch-killer-feature-the-convenient-and-simple_601272.shtml)："方便简单：目前我们已经了解了很多关于Apple Watch的功能以及特性，但是了解了这些你是否会产生这么一种感觉：我的生活需要Apple Watch？其实这种感觉并不强烈吧。" 文章短，且论述平实，适合大众阅读。 
 
 ## <a id="related_others"></a>其它相关
 * [VM10装Mac OS X 10.9.3及更新到Mac OS X 10.10](http://wang9262.github.io/blog/2014/06/06/install-mac-os-x-10-dot-10-by-vmare/): "嗯，我写的。屌丝学生党买不起Mac，只能在黑苹果和虚拟机上先折腾会了。" By [@Vong_HUST](http://weibo.com/VongLo) 
@@ -517,4 +528,5 @@ _开放平台相对于Swift语言更具战略意义，这是开发者不得不�
 	2. [用 Quartz Composer 和 Origami 制作一个简单的按钮动画(译文)](https://github.com/nixzhu/dev-blog/blob/master/2014-06-22-quartz-composer-and-origami-tutorial-button-animation.md): "结识了 QC 和 Origami 之后，我就能用很短的时间制作出这个动画的原型。我爱上了 QC 和 Origami —— 我希望你在使用它们之后，也会爱上它们。同时，我十二分地感谢 Facebook 创造了 Origami，以及 Apple 创造了 Quartz Composer。"  By [@nixzhu](http://weibo.com/nixzhu)
 * [10 个 Safari for iOS 8 的实用小技巧](http://sspai.com/27367)："继上回 7 个 Safari for Mac 实用技巧之后，这次来介绍 10 个 Safari for iOS 8 的小技巧，相信一定有你可能还不知道的使用新姿势。by [@子不语Rex](http://weibo.com/u/2886498704) " 本身的细节，外加应用扩展，组合成更强大的Safari浏览器。
 * [WWDC 2014 PDF 及session 视频下载脚本](http://www.iwangke.me/2014/06/07/wwdc-2014-download-script/):一段下载WWDC2014 全部PDF 和Session 的终端脚本。
+* [cesards/AndroidElementals](https://github.com/cesards/AndroidElementals)："分类整理了GitHub上常用的Android Library和Open Project，整理的结构目录很清晰，找起来很方便。By [@Vanilla_Alan](http://weibo.com/u/2101388255)"
 
