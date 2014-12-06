@@ -60,9 +60,13 @@
 	* [Apple WatchKit 初探](http://onevcat.com/2014/11/watch-kit/)："随着今天凌晨 Apple 发布了第一版的 Watch Kit 的 API，对于开发者来说，这款新设备的一些更详细的信息也算是逐渐浮出水面。可以说第一版的 WatchKit 开放的功能总体还是令人满意的。Apple 在承诺逐渐开放的方向上继续前进。By [@onevcat](http://weibo.com/onevcat)"
 	* [RayWenderlich － WatchKit初探](http://www.devtalking.com/articles/watchkit-initial-impressions/)（译者：[@DevTalking](http://weibo.com/jacefu)，原文：[WatchKit Initial Impressions](http://www.raywenderlich.com/89473/watchkit-initial-impressions)）："Raywenderlich对WatchKit第一版的评价：1.不简单的只是App extension;2.Watch负责视图，iPhone运行控制器和模型;3.新的layout方式;4.强大的快览和通知;5.动画不原生支持。By [@WatchKit开发](http://weibo.com/twios)"。
 	* [Apple Watch 开发者套件 WatchKit 发布后，你需要知道这些](http://www.36kr.com/p/217095.html)："Apple 上线了供 Apple Watch 开发者使用的开发工具 WatchKit。从这款工具和相关文档中，The Verge 发现了一些重要细节。By [@36氪](http://weibo.com/wow36kr)"
+	* WatchKit快速入门两篇：《[使用WatchKit前需要先了解的几件事](http://www.imore.com/what-you-need-know-about-watchkit)》和《[如何新建一个“Hello World” WatchKit应用](http://natashatherobot.com/hello-world-watchkit-app/)》。两篇文章一起组成WatchKit应用快速开发入门参考。
+	* [为Apple Watch进行设计的五点原则](http://www.beforweb.com/node/624)：文章提及的五个设计角度分别是：1. 个人化；2. 快速、轻量的人机互动；3. Glances、Short Look与Long Look；4. 按压(Force Touch)；5. 配色。译者：[@BeForWeb](http://weibo.com/beforweb)  原文：[Things to know when Designing for the Apple Watch](https://medium.com/universal-mind/5-things-to-know-when-designing-for-the-apple-watch-a5c8ce7633b7)
+	* [Mattt Thompson - Watch​Kit](http://nshipster.com/watchkit/)：官方开发资源（尤其『视频Getting Started』，文档《Apple Watch人机交互指南》和《WatchKit编程指南》，以及「示例代码」）毫无意外做为文章优先推荐。当然，做为经验丰富的开发者，他还额外给出了WatchKit和UIKit惊人相似的对照表及核心API说明。
 * <a id="watch_courses_featured"></a>教程精选
 	* [Apple Watch Tutorial - Learn How to Make a Simple Apple Watch App](http://v.youku.com/v_show/id_XODMwNjkwNzI0.html)：50分钟入门级开发视频。可惜Youku上的版本不够清晰。By [@36氪](http://weibo.com/wow36kr) 《[如何正确开发一款Apple Watch应用？](http://www.36kr.com/p/217141.html)》
 	* [用帧动画做AppleWatch小游戏](http://taiw8.lofter.com/post/1cc96c67_3c2a931)："WatchKit已经发布了2天，先行者们已经进行了探索并发表了总览性的文章去帮助引导开发者。..." By [@WatchKit开发](http://weibo.com/twios)
+	* [WatchKit Storyboard攻略（一）](http://weibo.com/p/1001603783085996013229)："目前的WatchKit只有用户界面的渲染是靠AppleWatch进行，本文的目的主要在于探索WatchKit界面部分的功能开发与小技巧，内容层次上偏基础。By [@WatchKit开发](http://weibo.com/twios)"
 
 ### <a id="watch_projects"></a>4. Watch项目
 * [saigyoji205/Map_For_AppleWatch](https://github.com/saigyoji205/Map_For_AppleWatch)：一个简单的WatchKit地图示例应用扩展。
