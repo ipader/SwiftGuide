@@ -79,9 +79,9 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 	译文 | 译者 | 原文
 ------------ | ------------- | ------------- 
 [应用扩展如何工作](http://www.devtalking.com/articles/understand-how-an-extension-works/) | [@DevTalking](http://weibo.com/jacefu) | [Understand How an Extension Works](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2)
-[开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | [@DevTalking](http://weibo.com/jacefu) | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
-[APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | [@DevTalking](http://weibo.com/jacefu) | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
-[常见问题的处理方案](http://www.devtalking.com/articles/handling-common-scenarios/) | [@DevTalking](http://weibo.com/jacefu) | [Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
+[开发应用扩展](http://www.devtalking.com/articles/creating-an-app-extension/) | - | [Creating an App Extension](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
+[APP扩展提高你的应用影响力](http://www.devtalking.com/articles/app-extensions-increase-your-impact/) | - | [App Extensions Increase Your Impact](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
+[常见问题的处理方案](http://www.devtalking.com/articles/handling-common-scenarios/) | - | [Handling Common Scenarios](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
 
 * 应用扩展类型（App Extension Types）
 
@@ -90,10 +90,10 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 [Today](http://www.cocoachina.com/ios/20140904/9527.html)|[@CocoaChina](http://weibo.com/cocoachina) / [唧唧歪歪](http://weibo.com/p/1005051710992635)|[Today](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/NotificationCenter.html#//apple_ref/doc/uid/TP40014214-CH11-SW1)
 [Share](http://www.cocoachina.com/ios/20140923/9728.html)|[@CocoaChina](http://weibo.com/cocoachina) / [张国鹏](http://blog.csdn.net/guopengzhang/article)|[Share](http://www.cocoachina.com/ios/20140923/9728.html)
 [Action](http://www.cocoachina.com/ios/20140929/9800.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Action](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Services.html#//apple_ref/doc/uid/TP40014214-CH13-SW1)
-[照片编辑](http://www.cocoachina.com/ios/20141015/9918.html)|[@CocoaChina](http://weibo.com/cocoachina)|[Photo Editing]()
+[照片编辑](http://www.cocoachina.com/ios/20141015/9918.html)| - |[Photo Editing](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Photos.html)
 [Finder同步](http://www.jianshu.com/p/359e064ffe20)|[@星夜暮晨](http://weibo.com/u/3227937731)|[Finder Sync](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Finder.html#//apple_ref/doc/uid/TP40014214-CH15-SW1)
-[文档提供](http://www.jianshu.com/p/2f45696b812b)|[@星夜暮晨](http://weibo.com/u/3227937731)|[Document Provider](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/FileProvider.html#//apple_ref/doc/uid/TP40014214-CH18-SW1)
-[第三方输入法](http://www.jianshu.com/p/987dfa9f3baf)|[@星夜暮晨](http://weibo.com/u/3227937731)|[Custom Keyboard](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW7)
+[文档提供](http://www.jianshu.com/p/2f45696b812b)| - |[Document Provider](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/FileProvider.html#//apple_ref/doc/uid/TP40014214-CH18-SW1)
+[第三方输入法](http://www.jianshu.com/p/987dfa9f3baf)| - |[Custom Keyboard](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW7)
 
 ### <a id="swift_blog"></a>5. [Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/)
 "值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
@@ -102,16 +102,16 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 ------------ | ------------- | ------------- 
 [Swift REPL入门介绍](http://idlelife.org/archives/842)|[@pockry](http://weibo.com/pockry)|[Introduction to the Swift REPL](https://developer.apple.com/swift/blog/?id=18)
 [可失败构造器](http://www.devtalking.com/articles/failable-initializers/)|[@DevTalking](http://weibo.com/jacefu) |[Failable Initializers](https://developer.apple.com/swift/blog/?id=17)
-－|-|[Building Your First Swift App Video](https://developer.apple.com/swift/blog/?id=16)
+－|N/A|[Building Your First Swift App Video](https://developer.apple.com/swift/blog/?id=16)
 [通过Playground展示一些编码模式](http://www.devtalking.com/articles/patterns-playground/)|[@DevTalking](http://weibo.com/jacefu) | [Patterns Playground](https://developer.apple.com/swift/blog/?id=13)
-[Swift中Optional类型的使用案例分析：valuesForKeys](http://www.devtalking.com/articles/optionals-case-study/) |[@DevTalking](http://weibo.com/jacefu) | [Optionals Case Study: valuesForKeys](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
-[Swift中的访问控制与protected](http://www.devtalking.com/articles/access-control-and-protected/) | [@DevTalking](http://weibo.com/jacefu) | [Access Control and protected](https://developer.apple.com/swift/blog/?id=11)
-[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/) | [@DevTalking](http://weibo.com/jacefu) | [Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)
-[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/) | [@DevTalking](http://weibo.com/jacefu) | [Balloons](https://developer.apple.com/swift/blog/?id=9)
-[在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) |[@DevTalking](http://weibo.com/jacefu) |  [Boolean](https://developer.apple.com/swift/blog/?id=8) 
-[Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)|[@DevTalking](http://weibo.com/jacefu) | [Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
-[在Swift中使用C语言的指针](http://www.devtalking.com/articles/swift-c-pointer/) | [@DevTalking](http://weibo.com/jacefu) | [Interacting with C Pointers](https://developer.apple.com/swift/blog/?id=6)
-*[Swift新特性 -- 访问控制](http://www.devtalking.com/articles/swift-access-control/)(文档版)|[@DevTalking](http://weibo.com/jacefu) | [Access Control](https://developer.apple.com/swift/blog/?id=5)
+[Swift中Optional类型的使用案例分析：valuesForKeys](http://www.devtalking.com/articles/optionals-case-study/) | - | [Optionals Case Study: valuesForKeys](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1)
+[Swift中的访问控制与protected](http://www.devtalking.com/articles/access-control-and-protected/) | - | [Access Control and protected](https://developer.apple.com/swift/blog/?id=11)
+[Swift中的值类型和参照类型](http://www.devtalking.com/articles/swift-value-and-reference-types/) | - | [Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)
+[WWDC2014大会中的Playground大炮气球示例](http://www.devtalking.com/articles/swift-balloon/) | - | [Balloons](https://developer.apple.com/swift/blog/?id=9)
+[在Swift中构建布尔类型](http://www.devtalking.com/articles/swift-boolean/) | - |  [Boolean](https://developer.apple.com/swift/blog/?id=8) 
+[Swift中的文件和初始化](http://www.devtalking.com/articles/files-and-initialization/)| - | [Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
+[在Swift中使用C语言的指针](http://www.devtalking.com/articles/swift-c-pointer/) | - | [Interacting with C Pointers](https://developer.apple.com/swift/blog/?id=6)
+*[Swift新特性 -- 访问控制](http://www.devtalking.com/articles/swift-access-control/)(文档版)| - | [Access Control](https://developer.apple.com/swift/blog/?id=5)
 
 ### <a id="ios_ui_guide"></a>6. iOS Human Interface Guidelines
 * 苹果官方文档：[在线版(英文)](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1), [iBooks版(英文)](https://itunes.apple.com/us/book/ios-human-interface-guidelines/id877942287?mt=11)
@@ -120,7 +120,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 	译文 | 译者 | 原文
 ------------ | ------------- | -------------
 [UI设计基础](http://isux.tencent.com/ios8-human-interface-guidelines.html) |[@腾讯ISUX](http://weibo.com/txisux)| [Designing for iOS](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)
-[设计策略](http://isux.tencent.com/ios8-human-interface-guidelines-design-strategies.html) |[@腾讯ISUX](http://weibo.com/txisux)| [Design Principles](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1) 
+[设计策略](http://isux.tencent.com/ios8-human-interface-guidelines-design-strategies.html) | - | [Design Principles](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1) 
 
 * iOS 7人机交互指南（旧版）：[中译汇总](http://www.cocoachina.com/industry/20130628/6502.html)
 	
