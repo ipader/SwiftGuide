@@ -30,6 +30,7 @@
 [通知 - 自定义通知界面](http://www.jianshu.com/p/a2e26233868a)|-|[Notifications - Custom Notification Interfaces](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/CustomzingthePushNotificationInterface.html#//apple_ref/doc/uid/TP40014969-CH6-SW1)
 
 * <a id="watch_ui_guide"></a>[Apple Watch Human Interface Guidelines](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/index.html)
+	* [中译在线版](http://beforweb.com/node/596) By [@BeForWeb](http://weibo.com/beforweb) 
 	* [中译PDF版](http://vdisk.weibo.com/s/yWUvUXSZiJFiv) By [@微博UDC-M](http://weibo.com/uiteam) 
 	* [中译在线版](http://www.cocoachina.com/design/20141125/10314.html) By [@CocoaChina](http://weibo.com/cocoachina)
 
