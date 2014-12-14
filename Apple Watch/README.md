@@ -64,14 +64,20 @@
 	* WatchKit快速入门两篇：《[使用WatchKit前需要先了解的几件事](http://www.imore.com/what-you-need-know-about-watchkit)》和《[如何新建一个“Hello World” WatchKit应用](http://natashatherobot.com/hello-world-watchkit-app/)》。两篇文章一起组成WatchKit应用快速开发入门参考。
 	* [为Apple Watch进行设计的五点原则](http://www.beforweb.com/node/624)：文章提及的五个设计角度分别是：1. 个人化；2. 快速、轻量的人机互动；3. Glances、Short Look与Long Look；4. 按压(Force Touch)；5. 配色。译者：[@BeForWeb](http://weibo.com/beforweb)  原文：[Things to know when Designing for the Apple Watch](https://medium.com/universal-mind/5-things-to-know-when-designing-for-the-apple-watch-a5c8ce7633b7)
 	* [Mattt Thompson - Watch​Kit](http://nshipster.com/watchkit/)：官方开发资源（尤其『视频Getting Started』，文档《Apple Watch人机交互指南》和《WatchKit编程指南》，以及「示例代码」）毫无意外做为文章优先推荐。当然，做为经验丰富的开发者，他还额外给出了WatchKit和UIKit惊人相似的对照表及核心API说明。
+	* [觉知性，Apple Watch的杀手级特性](http://beforweb.com/node/628)：“随时随地以最小的成本提供觉知性。对时间的觉知，对自己健康状况的觉知，对朋友和爱人即时状况的觉知，对将来由开发者们带来的无论什么东西的觉知” 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文: [
+Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlbrugge/awareness-the-killer-feature-of-the-apple-watch-cb929c12821d)
 * <a id="watch_courses_featured"></a>教程精选
 	* [Apple Watch Tutorial - Learn How to Make a Simple Apple Watch App](http://v.youku.com/v_show/id_XODMwNjkwNzI0.html)：50分钟入门级开发视频。可惜Youku上的版本不够清晰。By [@36氪](http://weibo.com/wow36kr) 《[如何正确开发一款Apple Watch应用？](http://www.36kr.com/p/217141.html)》
 	* [用帧动画做AppleWatch小游戏](http://taiw8.lofter.com/post/1cc96c67_3c2a931)："WatchKit已经发布了2天，先行者们已经进行了探索并发表了总览性的文章去帮助引导开发者。..." By [@WatchKit开发](http://weibo.com/twios)
 	* [WatchKit Storyboard攻略（一）](http://weibo.com/p/1001603783085996013229)："目前的WatchKit只有用户界面的渲染是靠AppleWatch进行，本文的目的主要在于探索WatchKit界面部分的功能开发与小技巧，内容层次上偏基础。By [@WatchKit开发](http://weibo.com/twios)"
+	* [WatchKit Storyboard攻略（二）](http://weibo.com/p/1001603787367470257327)："主要针对第二类视图界面也就是Glance（瞥览）进行示例介绍，编写之际恰逢WatchKit beta2的更新，因此也将顺便介绍有关更新内容。By [@WatchKit开发](http://weibo.com/twios)"
+	* [WatchKit: Open Your iOS App From The Watch](http://natashatherobot.com/watchkit-open-ios-app-from-watch/)：如何通过WatchKit启动它的宿主iPhone中的iOS应用。
 
 ### <a id="watch_projects"></a>4. Watch项目
 * [saigyoji205/Map_For_AppleWatch](https://github.com/saigyoji205/Map_For_AppleWatch)：一个简单的WatchKit地图示例应用扩展。
+* [frosty/Flipbook](https://github.com/frosty/Flipbook)："Flipbook是一个能录制iPhone上UIView动画生成帧动画序列并传输给AppleWatch以供直接播放的工具。By [@WatchKit开发](http://weibo.com/twios)"
 
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新Apple Watch身上小试身手时，iOS开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出WatchKit开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
 * [Apple Watch需求被低估](http://www.chinadaily.com.cn/hqcj/xfly/2014-11-21/content_12755012.html)："大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。"
+* [苹果 Apple Watch 的杀手级特性](http://www.feng.com/apple/news/2014-11-28/Apple-Apple-Watch-killer-feature-the-convenient-and-simple_601272.shtml)："方便简单：目前我们已经了解了很多关于Apple Watch的功能以及特性，但是了解了这些你是否会产生这么一种感觉：我的生活需要Apple Watch？其实这种感觉并不强烈吧。" 文章短，且论述平实，适合大众阅读。 
