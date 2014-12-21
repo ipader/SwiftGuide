@@ -4,7 +4,7 @@ Swift语言指南
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-12-14，更新内容详见[《2014-12-14收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-12-14.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-12-21，更新内容详见[《2014-12-21收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-12-21.md)</span> 
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -24,6 +24,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 	* [类库](#open_api)
 	* [示例项目](#examples)
 	* [完整项目](#projects)
+	* [项目评测](#project_reviews)	
 * [Swift网站](#recomm_sites)
 * [相关工具](#tools)
 * [开放平台](#open_platform)
@@ -100,7 +101,8 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 译文 | 译者 | 原文
 ------------ | ------------- | ------------- 
-[Swift REPL入门介绍](http://idlelife.org/archives/842)|[@pockry](http://weibo.com/pockry)|[Introduction to the Swift REPL](https://developer.apple.com/swift/blog/?id=18)
+[Swift中的NSMethodSignature怎么了？](http://idlelife.org/archives/910)|[@pockry](http://weibo.com/pockry)|[ What Happened to NSMethodSignature?](https://developer.apple.com/swift/blog/?id=19)
+[Swift REPL入门介绍](http://idlelife.org/archives/842)| - |[Introduction to the Swift REPL](https://developer.apple.com/swift/blog/?id=18)
 [可失败构造器](http://www.devtalking.com/articles/failable-initializers/)|[@DevTalking](http://weibo.com/jacefu) |[Failable Initializers](https://developer.apple.com/swift/blog/?id=17)
 －|N/A|[Building Your First Swift App Video](https://developer.apple.com/swift/blog/?id=16)
 [通过Playground展示一些编码模式](http://www.devtalking.com/articles/patterns-playground/)|[@DevTalking](http://weibo.com/jacefu) | [Patterns Playground](https://developer.apple.com/swift/blog/?id=13)
@@ -203,6 +205,9 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [在iOS 8 SDK中使用Touch ID API － Part I](http://www.cocoachina.com/ios/20141114/10222.html), [Part II](http://www.cocoachina.com/ios/20141114/10223.html)：译文详述了如何在一款笔记编辑应用程序中集成iOS 8 SDK中Touch ID API，包括上下两个部分，在开发过程中使用了Swift语言。
 * [Core Data 版本迁移经验总结](http://chun.tips/blog/2014/11/28/core-data-ban-ben-qian-yi-jing-yan-zong-jie/)：版本升级是必备经验。文章或许还不够全面，但都是作者点滴经验，非常难得。对于进阶开发的同学文档《[Core Data Model Versioning and Data Migration Programming Guide](https://developer.apple.com/library/ios/documentation/cocoa/conceptual/CoreDataVersioning/Articles/Introduction.html)》是必读的，参考文章《[自定义 Core Data 迁移](http://objccn.io/issue-4-7/)》也值得收录。作者：[@Chun_iOS](http://weibo.com/junbbcom)
 * [objc.io - Games专题（译文）](http://objccn.io/issue-18/)：对于致力于游戏开发的同学，相信本专题就是年前最大的福利了。而对于未开始游戏开发或其它领域开发的同学，这个专题所涵盖的人机交互设计，GPU编程，基于OpenGL的3D图形及动画编程，高效多点互联编程，多媒体音效编程同样是不可多得的学习盛宴。
+* [Introduction To SceneKit(Part I](http://www.weheartswift.com/introduction-scenekit-part-1/), [Part 2](http://www.weheartswift.com/introduction-scenekit-part-2/)): 从最简单的示例引导式介绍SceneKit的使用及更高级功能编程实战。这是一篇非常用心、专业的SceneKit教程。P.S. SceneKit是官方提供给开发者编写3D游戏及3D互动应用功能强大的编程框架及类库。By [WeHeartSwift.com](http://www.weheartswift.com/)
+* [Natasha The Robot - WatchKit: A Quick Reply](http://natashatherobot.com/watchkit-a-quick-reply/)：这是娜塔莎网站上提供的一篇iOS与WatchKit简单通讯及相互控制教程。供学习参考。
+* [NSHipster - NSUndo​Manager](http://nshipster.com/nsundomanager/)：本文分别结合Swift/Objective-C代码示例讲解UndoManager的使用。
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -246,7 +251,10 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [iOS 5+ 设备一览](http://jamesdempsey.net/ios-device-summary/)：作者的意图是通过这样一张直观的图，指导选择相对合理的设备组合进行开发和测试。[PDF版本](http://tapas-software.net/img/ios_device_summary.pdf)
 * [超越Objective-C，超越Swift](http://idlelife.org/archives/774)：很有趣的作者，除了对Swift有比较专业地概括式理解，还从应用的纬度对新语言提出了自己的要求。比如：自动持久化，自动RESTful API，有表现力的触发器和响应，所见即所得的UI编辑等。译者：[@pockry](http://weibo.com/pockry) 原文：[Beyond Objective-C, Beyond Swift](http://blog.jaredsinclair.com/post/98402624705/beyond-objective-c-beyond-swift)
 * [Some ideas for projects in Swift](http://chris.eidhof.nl/posts/swift-ideas.html): “正在造轮子的不妨看看~” By [Chris Eidhof](http://chris.eidhof.nl/)(creator of objc.io)
+* [设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)：原文作者做为视觉设计师，讲述了采用Interface Builder和Storyboard与开发小组协同工作的故事。虽然只是一个4人小团队，但清晰的分工协作，使项目有序高效进展。Xcode也让视觉设计师及UX设计师有机会分担部分前端开发工作。来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文: [Blurring the lines between design and code](http://ustwo.com/blog/the-billogram-story/)
 * [iOS设计指南](http://www.ui.cn/project.php?id=32167)(译者：shengbanx)：非官方文档，不过原文《[The iOS Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS Human Interface Guidelines》进行解读介绍。非常值得收藏。原作者Ivo Mynttinen，是一位来自德国的年轻UI设计师。其个人博客网站也值得同学们收录：[ivomynttinen.com](http://ivomynttinen.com)
+* [IBM Design Language](http://www.ibm.com/design/language/)："Living Language
+A shared vocabulary for design。Explore the guidelines for making delightful products and enlightening experiences."
 
 ---
 ## <a id="swift_projects"></a>Swift项目
@@ -374,6 +382,10 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [jurre/TravisToday](https://github.com/jurre/TravisToday)：一个功能相对完整的服务于Travis CI系统的OS X应用扩展Today项目案例。
 * [stakes/Frameless](https://github.com/stakes/Frameless)：一款基于WKWebView的最小化全屏浏览器，主要功能是方便开发者采用HTML5做原型设计或App发布。对于测试工程师或喜欢极简、全屏浏览用户，可以直接在[AppStore下载](https://itunes.apple.com/us/app/id933580264)使用。
 * [mozilla/firefox-ios](https://github.com/mozilla/firefox-ios)：Swift写的iOS版Firefox。P.S. 第三方库用到了Alamofire, Snappy, swift-json等，内置阅读器还使用了Readability。
+* [lexrus/VPNOn](https://github.com/lexrus/VPNOn)：一款驻在通知中心内的基于Today扩展的VPN开关应用。
+
+### <a id="project_reviews"></a>3. 项目评测
+* [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是#Workflow#了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
 
 ---
 ## <a id="recomm_sites"></a>Swift网站
