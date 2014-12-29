@@ -429,6 +429,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 ### 2. 代码管理
 * [GitHub](http://github.com/)：声望日盛的资源分享之地。
 * [GitHub for Mac](https://mac.github.com/)：一个设计的非常美观的git客户端，不能取代你从命令行获得的所有功能，但使用起来非常简单。
+* [GitCafe](http://gitcafe.com)：GitCafe is a source code hosting service based on version control system Git。国内的代码托管服务，基于 Git，值得一提的是最近也推出了和 GitHub Pages 类似的服务 Gitcafe Pages。因为是在国内，所以相比较 GitHub 有速度优势，在网络环境差的情况下也许可以作为 GitHub 的备用。
+* [Bitbucket](https://bitbucket.org/)：国外的代码托管服务，不同于 GitHub 的是，Bitbucket 可以免费建立 private 项目。
 * [Git](http://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看免费电子书籍。
 
 ### 3. Xcode插件
