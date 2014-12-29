@@ -223,7 +223,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [为大屏手机而设计](http://beforweb.com/node/589)：用了一个简单例子讲解了大屏手机基本的可操作性。总之，无论屏幕有多大，轻易放弃单手操作是不明智的。
 * [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：列举了很多用Swift实现的程序设计模式。
 * [用Swift的函数式编程解决硬币问题](http://idlelife.org/archives/896)：作者的算法实现简单又巧妙，关键是充分利用到了Swift语法的精妙之处。项目：[ijoshsmith/break-a-dollar]( https://github.com/ijoshsmith/break-a-dollar)。"要破开一美元的方法一共有293种之多。也就是说，如果有人给你一美元换零钱，你可以给他293种不同的硬币组合。第二天，我开始思考如何编写代码来破开任意数量的金钱，本文总结了解开这个谜题的两种实现方式。" 译者：[@pockry](http://weibo.com/pockry)）
-* [盘点开发者最喜爱的Swift技巧](http://www.csdn.net/article/2014-12-25/2823312-favorite-swift-tips-and-tricks)：文章首推Natasha The Robot博主Natasha Murashev独门Swift秘籍，还有objc.io博主Chris Eidhof着力推荐的独具特色的Swift版Quicksort，还有... 还是请同学们细细品读文章吧。原文：[Favorite Swift Tips & Tricks of 2014](http://realm.io/news/favorite-swift-tips-and-tricks-of-2014/)
+* [盘点开发者最喜爱的Swift技巧](http://www.csdn.net/article/2014-12-25/2823312-favorite-swift-tips-and-tricks)：文章首推Natasha The Robot博主Natasha Murashev独门Swift秘籍，还有objc.io博主Chris Eidhof着力推荐的独具特色的Swift版Quicksort，还有... 还是请同学们细细品读文章吧。译者：[@唐门教主](http://weibo.com/u/2019731997)，原文：[Favorite Swift Tips & Tricks of 2014](http://realm.io/news/favorite-swift-tips-and-tricks-of-2014/)
 * [iOS二维码扫描,你需要注意的两件事](http://blog.cnbluebox.com/blog/2014/08/26/ioser-wei-ma-sao-miao/)：相对于ZBar或ZXing，AVFoundation无论在扫描灵敏度和性能上来说都是最优的，所以毫无疑问我们应该切换到AVFoundation，需要兼容IOS6或之前的版本可以用zbar或zxing代替。
 
 ### <a id="related_doc"></a>5. 相关文档
