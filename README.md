@@ -355,7 +355,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [Ramotion/animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)：一款灵动的动画标签栏类库。可在storyboard中直接使用，非常方便。Demo效果非常漂亮。连续三天GitHub分类排名第一，且迅速过600星。它的代码并非复杂或特别，相信大家中意它的还是其设计感。
 	* [Ramotion/paper-switch](https://github.com/Ramotion/paper-switch)：类库实现了当Switch组件开/关切换时，平滑过渡到父视图的变换效果功能（核心类继承了UISwitch）。P.S. 该开发者也是这几天热门项目 Ramotion/animated-tab-bar 的作者。
 	* [FahimF/FloatLabelFields](https://github.com/FahimF/FloatLabelFields)： 基于"[Float Label Pattern](http://mattdsmith.com/float-label-pattern/)"的内嵌浮动标签输入效果Swift版实现类库。
-	* [cemolcay/ReorderableGridView](https://github.com/cemolcay/ReorderableGridView)：可以拖拽排列Grid框格的UI组件。功能说明完整，使用方便，应该是一个不错的UI"轮子"。
+	* [cemolcay/ReorderableGridView](https://github.com/cemolcay/ReorderableGridView-Swift)：可以拖拽排列Grid框格的UI组件。功能说明完整，使用方便，应该是一个不错的UI"轮子"。
+	* [zhxnlai/ZLBalancedFlowLayout](https://github.com/zhxnlai/ZLBalancedFlowLayout)：一个通过调整cell大小来利用空间的UICollectionViewFlowLayout子类。
 	
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
