@@ -77,6 +77,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [用帧动画做AppleWatch小游戏](http://taiw8.lofter.com/post/1cc96c67_3c2a931)："WatchKit已经发布了2天，先行者们已经进行了探索并发表了总览性的文章去帮助引导开发者。..." By [@WatchKit开发](http://weibo.com/twios)
 	* [WatchKit Storyboard攻略（一）](http://weibo.com/p/1001603783085996013229)："目前的WatchKit只有用户界面的渲染是靠AppleWatch进行，本文的目的主要在于探索WatchKit界面部分的功能开发与小技巧，内容层次上偏基础。By [@WatchKit开发](http://weibo.com/twios)"
 	* [WatchKit Storyboard攻略（二）](http://weibo.com/p/1001603787367470257327)："主要针对第二类视图界面也就是Glance（瞥览）进行示例介绍，编写之际恰逢WatchKit beta2的更新，因此也将顺便介绍有关更新内容。By [@WatchKit开发](http://weibo.com/twios)"
+	* [WatchKit Storyboard攻略（三）](http://weibo.com/p/1001603792803355322322)："这是WatchKitStoryboard攻略的第三篇，重点自然是Notification（通知）视图这一部分的内容。By [@WatchKit开发](http://weibo.com/twios)" 
 	* [WatchKit: Open Your iOS App From The Watch](http://natashatherobot.com/watchkit-open-ios-app-from-watch/)：如何通过WatchKit启动它的宿主iPhone中的iOS应用。
 
 ### <a id="watch_projects"></a>4. Watch项目

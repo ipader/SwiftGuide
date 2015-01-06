@@ -4,7 +4,7 @@ Swift语言指南
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2014-12-28，更新内容详见[《2014-12-28收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2014-12-28.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-4，更新内容详见[《2015-1-4收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-04.md)</span> 
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -207,6 +207,8 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [objc.io - Games专题（译文）](http://objccn.io/issue-18/)：对于致力于游戏开发的同学，相信本专题就是年前最大的福利了。而对于未开始游戏开发或其它领域开发的同学，这个专题所涵盖的人机交互设计，GPU编程，基于OpenGL的3D图形及动画编程，高效多点互联编程，多媒体音效编程同样是不可多得的学习盛宴。
 * [Introduction To SceneKit(Part I](http://www.weheartswift.com/introduction-scenekit-part-1/), [Part 2](http://www.weheartswift.com/introduction-scenekit-part-2/)): 从最简单的示例引导式介绍SceneKit的使用及更高级功能编程实战。这是一篇非常用心、专业的SceneKit教程。P.S. SceneKit是官方提供给开发者编写3D游戏及3D互动应用功能强大的编程框架及类库。By [WeHeartSwift.com](http://www.weheartswift.com/)
 * [NSHipster - NSUndo​Manager](http://nshipster.com/nsundomanager/)：本文分别结合Swift/Objective-C代码示例讲解UndoManager的使用。
+* [怎样在Xcode 6中使用矢量图形](http://www.beforweb.com/node/633)："苹果在Xcode 6当中给我们带来了一些很棒的工具用以管理图形资源，它们可以帮我们从容的应对未来的iOS设备,例如基于PDF图形文件自动生成各种规格的图片资源..." 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文：[Using Vector Images in Xcode 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)	
+* [5 Can’t-Miss Lessons from the Functional Swift Conference](http://natashatherobot.com/functional-swift-conference/)：娜塔莎博主继续不遗余力的推荐的函数式编程。
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -257,6 +259,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [Natasha The Robot - Holiday Reading: Functional Programming](http://natashatherobot.com/reading-functional-programming/)： http://t.cn/RzsyLqS : 考虑到在写Swift代码时，越来越多的使用函数式编程思想，圣诞节期间，娜塔莎网站特意精选了一份可以更深入理解函数式编程的阅读书单。书单主要以有函数式编程语言著称的Haskel为主要参考。
 * [IBM Design Language](http://www.ibm.com/design/language/)："Living Language
 A shared vocabulary for design。Explore the guidelines for making delightful products and enlightening experiences."
+* [怎样从Sketch向Xcode自动导出图形资源](http://www.beforweb.com/node/647)："App设计开发的整个流程中会包含很多重复性的工作，例如在Sketch当中修改设计，重新导出，然后将更新后的图形资源移入Xcode，并再次运行项目以查看实际效果。而通过SketchTool配合Xcode，这些都可以自动化完成..." 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文: [Automatically Exporting Assets from Sketch into Xcode](http://mdznr.roon.io/automatically-exporting-assets-from-sketch-into-xcode)
 
 ---
 ## <a id="swift_projects"></a>Swift项目
@@ -380,6 +383,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [vandadnp/iOS-8-Swift-Programming-Cookbook](https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook)：来自《 O'Reilly's iOS 8 Swift Programming Cookbook》的配套示例。书买不买另说，如此即时、完整、丰富的新书示例项目真不多见。悟性好的同学，开发时参考一下示例是不是就不用买书了？
 * [ide/UIVisualEffects](https://github.com/ide/UIVisualEffects)：Swift实现模糊化等视觉效果示例代码。代码详见[这里](https://github.com/ide/UIVisualEffects/blob/master/UIVisualEffects/ViewController.swift)
 * [sxyx2008/FoodPin](https://github.com/sxyx2008/FoodPin)：如此完整的Swift示例项目，可以帮助学习到不少Swift编程技巧。"用Swift写的一个功能比较完善的App，参照Beginning iOS 8 Programming with Swift一书。功能比较完善。AutoLayout、Core Animation、Core Data、国际化等。" By [@荧星诉语](http://weibo.com/qq184675420) 
+* [PhotoBrowser](https://github.com/MoZhouqi/PhotoBrowser)："展示Instagram授权用户发布的照片的App，参考了Ray Wenderlich的Alamofire教程，还用了SwiftyJSON和FastImageCache。" By [@Kyrrr](http://weibo.com/u/2626996387)
 
 
 ### <a id="projects"></a>3. 完整项目
@@ -390,6 +394,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [stakes/Frameless](https://github.com/stakes/Frameless)：一款基于WKWebView的最小化全屏浏览器，主要功能是方便开发者采用HTML5做原型设计或App发布。对于测试工程师或喜欢极简、全屏浏览用户，可以直接在[AppStore下载](https://itunes.apple.com/us/app/id933580264)使用。
 * [mozilla/firefox-ios](https://github.com/mozilla/firefox-ios)：Swift写的iOS版Firefox。P.S. 第三方库用到了Alamofire, Snappy, swift-json等，内置阅读器还使用了Readability。
 * [lexrus/VPNOn](https://github.com/lexrus/VPNOn)：一款驻在通知中心内的基于Today扩展的VPN开关应用。
+* [victor/whereami](https://github.com/victor/whereami)：一款用Swift语言写的通过命令行获得当前设备地理位置程序。虽然很简单，不过，实用性及学习性俱佳。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是#Workflow#了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
@@ -558,6 +563,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [用帧动画做AppleWatch小游戏](http://taiw8.lofter.com/post/1cc96c67_3c2a931)："WatchKit已经发布了2天，先行者们已经进行了探索并发表了总览性的文章去帮助引导开发者。..." By [@WatchKit开发](http://weibo.com/twios)
 	* [WatchKit Storyboard攻略（一）](http://weibo.com/p/1001603783085996013229)："目前的WatchKit只有用户界面的渲染是靠AppleWatch进行，本文的目的主要在于探索WatchKit界面部分的功能开发与小技巧，内容层次上偏基础。By [@WatchKit开发](http://weibo.com/twios)"
 	* [WatchKit Storyboard攻略（二）](http://weibo.com/p/1001603787367470257327)："主要针对第二类视图界面也就是Glance（瞥览）进行示例介绍，编写之际恰逢WatchKit beta2的更新，因此也将顺便介绍有关更新内容。By [@WatchKit开发](http://weibo.com/twios)"
+	* [WatchKit Storyboard攻略（三）](http://weibo.com/p/1001603792803355322322)："这是WatchKitStoryboard攻略的第三篇，重点自然是Notification（通知）视图这一部分的内容。By [@WatchKit开发](http://weibo.com/twios)" 
 	* [WatchKit: Open Your iOS App From The Watch](http://natashatherobot.com/watchkit-open-ios-app-from-watch/)：如何通过WatchKit启动它的宿主iPhone中的iOS应用。
 
 ### <a id="watch_projects"></a>4. Watch项目
@@ -570,6 +576,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [苹果 Apple Watch 的杀手级特性](http://www.feng.com/apple/news/2014-11-28/Apple-Apple-Watch-killer-feature-the-convenient-and-simple_601272.shtml)："方便简单：目前我们已经了解了很多关于Apple Watch的功能以及特性，但是了解了这些你是否会产生这么一种感觉：我的生活需要Apple Watch？其实这种感觉并不强烈吧。" 文章短，且论述平实，适合大众阅读。 
 
 ## <a id="related_others"></a>其它相关
+* [Workflow 教程 － 如何上手 Workflow](http://jbguide.me/2014/12/30/getting-started-with-workflow/)："Workflow 就像格莱美开奖前数月发售的一张钻石专辑,横空出世一鸣惊人,年终登上了各大媒体的最佳 App 榜。这篇文章用了一个实用的例子,介绍了 Workflow 里从简单到中等的一系列动作,相信会给没有头绪的你不少灵感。" 作者：[@JailbreakHum](http://weibo.com/jailbreakhum)
 * [VM10装Mac OS X 10.9.3及更新到Mac OS X 10.10](http://wang9262.github.io/blog/2014/06/06/install-mac-os-x-10-dot-10-by-vmare/): "嗯，我写的。屌丝学生党买不起Mac，只能在黑苹果和虚拟机上先折腾会了。" By [@Vong_HUST](http://weibo.com/VongLo) 
 * [Origami](http://facebook.github.io/origami/): 快速原型动画开发工具。Origami由Facebook开发Quartz Composer工具库，它使原型开发更容易。参考文章：
 	1. [次时代交互原型神器Origami档案](http://www.csdn.net/article/2014-06-09/2820131): "随着iOS 7的推出，扁平化和极简主义设计风格在移动互联网领域流行起来，App动效越来越成为了决定App气质的重要因素，原型的动态保真度似乎成为了阻碍设计师发挥想象力的一道门槛。传统的以点按为主的App设计，逐渐演变成为大量手势交互，这使得Axure类工具表现手势交互显得心有余而力不足。基于QC的Origami应运而生。"
