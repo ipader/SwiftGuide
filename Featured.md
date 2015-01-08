@@ -17,7 +17,7 @@
 ### <a id="wheel"></a>“轮子”
 * <a id="tools"></a>工具类
 	
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)|[tangplin](https://github.com/tangplin), [lingoer](https://github.com/lingoer)|GitHub上最为开发者认可的JSON解析类
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift版Lo-Dash(或underscore)函数式工具库
@@ -31,21 +31,21 @@
 
 * <a id="storage"></a>存储类
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)|[Stephen Celis](http://stephencelis.com)|简单、轻量，使用上最SQL的SQLite封装库
 [Realm](https://github.com/realm/realm-cocoa)|[Realm](http://realm.io)|志向代替Core Data和SQLite的移动数据库
 
 * <a id="network"></a>网络类
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [Alamofire](https://github.com/Alamofire/Alamofire) |[Mattt Thompson](https://github.com/mattt)|著名的AFNetworking网络基础库Swift语言版
 [starscream](https://github.com/daltoniam/starscream)|[Dalton](http://daltoniam.com)|WebSocket客户端类库
 
 * <a id="pictures"></a>图片类
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
 [ImageScout](https://github.com/kaishin/ImageScout) |[Reda Lemeden](http://redalemeden.com)|最小网络代价获得图片大小及类型
 [DominantColor](https://github.com/indragiek/DominantColor)|[Indragie Karunaratne](http://indragie.com)|提取图片主色示例项目
@@ -54,7 +54,7 @@
 
 * <a id="interfaces"></a>界面类
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库，storyboard中使用
 [SwiftForms](https://github.com/ortuman/SwiftForms)|[Ángel Ortuño](https://github.com/ortuman)|表单递交库，快速开发利器
@@ -68,7 +68,7 @@
 
 * <a id="framework"></a>框架类
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)|[facebook](https://github.com/facebook/)|提供界面的高流畅性切换及更灵敏的响应
 [Cartography](https://github.com/robb/Cartography)|[Robert Böhnke](http://robb.is)|基于代码级的自动布局封装框架
@@ -78,18 +78,18 @@
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)|[Lex Tang](http://weibo.com/lexrus)|特赞的文字飘入飘出效果
 [AEXML](https://github.com/tadija/AEXML)|[Marko Tadić](https://github.com/tadija)|简单又易于的XML解析类及示例
 [whereami](https://github.com/victor/whereami)|[Victor Jalencas](http://victor.sh)|通过命令行获得当前设备地理位置
 [Design-Patterns](https://github.com/ochococo/Design-Patterns-In-Swift)|[Oktawian Chojnacki](https://github.com/ochococo)|如何使用常用设计模式及示例
 [HamburgerButton-Menu/Close](https://github.com/robb/hamburger-button)|[Robert Böhnke](http://robb.is)|无论[设计](http://robb.is/working-on/a-hamburger-button-transition/)还是代码，都进行了精雕细琢
-[HamburgerButton-Menu/Back](https://github.com/fastred/HamburgerButton)|[Arkadiusz Holko](http://holko.pl/)|对应[博文](http://holko.pl/2014/07/15/hamburger-button-animation/)可知，作者动画开发经验相当丰富
+[HamburgerButton-Menu/Back](https://github.com/fastred/HamburgerButton)|[Arkadiusz Holko](http://holko.pl/)|对应[博文](http://holko.pl/2014/07/15/hamburger-button-animation/)可知，开发者动画开发经验相当丰富
 
 * <a id="projects"></a>完整应用
 
-	项目 | 作者 | 备注
+	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [edhita](https://github.com/tnantoka/edhita)|[Tatsuya Tobioka](http://blog.tnantoka.com/)|支持Markdown, HTML预览的文本编辑器
 [firefox-ios](https://github.com/mozilla/firefox-ios)|[Mozilla](https://github.com/mozilla)|来自Mozilla开发团队大型纯Swift项目
