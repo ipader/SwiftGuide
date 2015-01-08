@@ -80,7 +80,7 @@
 
 	项目 | 作者 | 备注
 ------------ | ------------- | -------------
-[LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)|[Lex Tang](http://lextang.com/)|特赞的文字飘入飘出效果
+[LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)|[Lex Tang](http://weibo.com/lexrus)|特赞的文字飘入飘出效果
 [AEXML](https://github.com/tadija/AEXML)|[Marko Tadić](https://github.com/tadija)|简单又易于的XML解析类及示例
 [whereami](https://github.com/victor/whereami)|[Victor Jalencas](http://victor.sh)|通过命令行获得当前设备地理位置
 [Design-Patterns](https://github.com/ochococo/Design-Patterns-In-Swift)|[Oktawian Chojnacki](https://github.com/ochococo)|如何使用常用设计模式及示例
@@ -94,4 +94,4 @@
 [edhita](https://github.com/tnantoka/edhita)|[Tatsuya Tobioka](http://blog.tnantoka.com/)|支持Markdown, HTML预览的文本编辑器
 [firefox-ios](https://github.com/mozilla/firefox-ios)|[Mozilla](https://github.com/mozilla)|来自Mozilla开发团队大型纯Swift项目
 [SwiftWeather](https://github.com/JakeLin/SwiftWeather)|[Jake Lin](http://weibo.com/yongjianlin/)|清新淡雅持续改进天气预报项目
-[VPNOn](https://github.com/lexrus/VPNOn)|[Lex Tang](http://lextang.com/)|驻在通知中心内的VPN开关应用	
+[VPNOn](https://github.com/lexrus/VPNOn)|[Lex Tang](http://weibo.com/lexrus)|驻在通知中心内的VPN开关应用	
