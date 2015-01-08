@@ -1,6 +1,6 @@
 ## Swift开源项目精选
 
->站在个人的角度，将2014年Swift开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你帮助和补充，共同参与。
+>站在个人的角度，将2014年Swift开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -50,7 +50,7 @@
 [ImageScout](https://github.com/kaishin/ImageScout) |[Reda Lemeden](http://redalemeden.com)|最小网络代价获得图片大小及类型
 [DominantColor](https://github.com/indragiek/DominantColor)|[Indragie Karunaratne](http://indragie.com)|提取图片主色示例项目
 [gifu](https://github.com/kaishin/gifu)|[Reda Lemeden](http://redalemeden.com)|高性能GIF显示类库
-[HanekeSwift](https://github.com/Haneke/HanekeSwift)|[Haneke](https://github.com/Haneke)|轻量地带缓高性能图片加载组件
+[HanekeSwift](https://github.com/Haneke/HanekeSwift)|[Haneke](https://github.com/Haneke)|轻量带缓存高性能图片加载组件
 
 * <a id="interfaces"></a>界面类
 
@@ -83,7 +83,7 @@
 [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)|[Lex Tang](http://lextang.com/)|特赞的文字飘入飘出效果
 [AEXML](https://github.com/tadija/AEXML)|[Marko Tadić](https://github.com/tadija)|简单又易于的XML解析类及示例
 [whereami](https://github.com/victor/whereami)|[Victor Jalencas](http://victor.sh)|通过命令行获得当前设备地理位置
-
+[Design-Patterns](https://github.com/ochococo/Design-Patterns-In-Swift)||如何使用常用设计模式及示例
 * <a id="projects"></a>完整应用
 
 	项目 | 作者 | 备注
