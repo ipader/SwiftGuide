@@ -6,6 +6,8 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-4，更新内容详见[《2015-1-4收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-04.md)</span> 
 
+>P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，希望大家喜欢。
+
 ## 目录
 * [Swift文档](#swift_doc)
 	* [Welcome to Swift](#welcome) 
@@ -377,7 +379,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [gemtot/iBeacon](https://github.com/gemtot/iBeacon): Swift版iBeacon简单项目（支持最新Beta 6编译）。感兴趣的同学可以学习一下。有关于Passbook应用及Passkit框架编程知识这里有一篇网友较早发布的[《iOS 6 - PassKit编程指南》](http://blog.csdn.net/eqera/article/details/8136880)
 * [evnaz/ENSwiftSideMenu](https://github.com/evnaz/ENSwiftSideMenu)：一个简单的Slide侧拉菜单实现。使用很方便：sideMenu = SideMenu(sourceView: self.view, menuData: ["UIDynamics", "UIGestures", "UIBlurEffect"])
 * [iluuu1994/Pathfinder](https://github.com/iluuu1994/Pathfinder)：一个有趣的算法类项目。虽然目前只是个演示项目，不过，作者有计划加入更多算法优化程序，同时，也有计划支持3D地图。
-* [KhaosT/HomeKit-Demo]((https://github.com/KhaosT/HomeKit-Demo) ：HomeKit演示项目，可以与HomeKit模拟器协同工作。由此进一步思考：HomeKit配合iBeacon、蓝牙，甚至更具DIY潜力的树莓派(Raspberry Pi)组成未来家居智控中心，这个方向上的开发潜力巨大。感兴趣的同学可以关注一下。
+* [KhaosT/HomeKit-Demo](https://github.com/KhaosT/HomeKit-Demo) ：HomeKit演示项目，可以与HomeKit模拟器协同工作。由此进一步思考：HomeKit配合iBeacon、蓝牙，甚至更具DIY潜力的树莓派(Raspberry Pi)组成未来家居智控中心，这个方向上的开发潜力巨大。感兴趣的同学可以关注一下。
 * [mathewsanders/Animated-Transitions-Swift-Tutorial](https://github.com/mathewsanders/Animated-Transitions-Swift-Tutorial): 结合Xcode开发步聚介绍如何开发动画过渡Prototyping Animatted Transition in Swift(Part I)](http://mathewsanders.com/custom-menu-transitions-in-swift/) 
 * [mathewsanders/Custom-Menu-Transition-Swift-Tutorial](https://github.com/mathewsanders/Custom-Menu-Transition-Swift-Tutorial): 结合Xcode开发步聚介绍如何开发动画过渡Transition in Swift(Part II)](http://mathewsanders.com/custom-menu-transitions-in-swift/)  
 * [vandadnp/iOS-8-Swift-Programming-Cookbook](https://github.com/vandadnp/iOS-8-Swift-Programming-Cookbook)：来自《 O'Reilly's iOS 8 Swift Programming Cookbook》的配套示例。书买不买另说，如此即时、完整、丰富的新书示例项目真不多见。悟性好的同学，开发时参考一下示例是不是就不用买书了？
