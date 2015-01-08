@@ -414,7 +414,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [Appcoda.com](http://appcoda.com):质量很高的一个iOS开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触iOS开发的新手学习。
 * [中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN): By [@唐巧_body](http://weibo.com/tangqiaoboy)
 * [devtalking.com](http://www.devtalking.com/): 高产的中译博客。翻译了官方博客Swift Blog - Apple Developer,《App Extension Programming Guide》。参与翻译了《Swift Programming Language》等。
-* <a id="recomm_resources"></a>资源合集：以下是其它开发者社区或Swift爱好者整理的有关Swift语言学习的资源列表。
+* **<a id="recomm_resources"></a>资源合集：以下是其它开发者社区或Swift爱好者整理的有关Swift语言学习的资源列表。**
 	* [码农周刊《Swift 特刊》](http://weekly.manong.io/issues/33?ref=swift)
 	* [CocoaChina《Swift新手入门汇集帖》](http://www.cocoachina.com/bbs/read.php?tid=204512)
 	* [CSDN_CODE《Swift编程语言资料大合集》](http://code.csdn.net/news/2820075)
@@ -424,7 +424,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [Awesome iOS](https://github.com/vsouza/awesome-ios): 一个iOS的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
 	* [iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。
 	* [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的Swift资源列表（有持续更新）。
-
+	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。这对于开发者拓展学习范围非常有益。
 ---
 ## <a id="tools"></a>相关工具
 ### 1. 开发工具
