@@ -87,8 +87,6 @@
 [HamburgerButton-Menu/Close](https://github.com/robb/hamburger-button)|[Robert Böhnke](http://robb.is)|无论[设计](http://robb.is/working-on/a-hamburger-button-transition/)还是代码，都进行了精雕细琢
 [HamburgerButton-Menu/Back](https://github.com/fastred/HamburgerButton)|[Arkadiusz Holko](http://holko.pl/)|对应[博文](http://holko.pl/2014/07/15/hamburger-button-animation/)可知，作者经验相当丰富
 
-[hamburger-button](https://github.com/robb/hamburger-button)||
-
 * <a id="projects"></a>完整应用
 
 	项目 | 作者 | 备注
