@@ -6,7 +6,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-4，更新内容详见[《2015-1-4收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-04.md)</span> 
 
->P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，希望大家喜欢。
+>P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，顺带短文一篇《[致Swift开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》，希望大家喜欢。
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -424,7 +424,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [Awesome iOS](https://github.com/vsouza/awesome-ios): 一个iOS的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
 	* [iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。
 	* [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的Swift资源列表（有持续更新）。
-	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。这对于开发者拓展学习范围非常有益。
+	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
 ---
 ## <a id="tools"></a>相关工具
 ### 1. 开发工具
