@@ -4,7 +4,7 @@ Swift语言指南
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-4，更新内容详见[《2015-1-4收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-04.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-11，更新内容详见[《2015-1-11收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-11.md)</span> 
 
 >P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，顺带短文一篇《[致Swift开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》，希望大家喜欢。
 
@@ -211,6 +211,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [NSHipster - NSUndo​Manager](http://nshipster.com/nsundomanager/)：本文分别结合Swift/Objective-C代码示例讲解UndoManager的使用。
 * [怎样在Xcode 6中使用矢量图形](http://www.beforweb.com/node/633)："苹果在Xcode 6当中给我们带来了一些很棒的工具用以管理图形资源，它们可以帮我们从容的应对未来的iOS设备,例如基于PDF图形文件自动生成各种规格的图片资源..." 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文：[Using Vector Images in Xcode 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)	
 * [5 Can’t-Miss Lessons from the Functional Swift Conference](http://natashatherobot.com/functional-swift-conference/)：娜塔莎博主继续不遗余力的推荐的函数式编程。
+* [Mattt Thompson － Cocoa之死](http://www.cocoachina.com/swift/20150107/10858.html)："Cocoa，作为一个包含大多数工作在Objective-C语言上必要的基本库的集合，和CoreData，已经成为了Objective-C的事实标准。而Cocoa Touch基本上就是用UIKit更换掉AppKit的Cocoa，而且它也经常用来和Cocoa放在一起，来指代在iOS上的工作的系统框架。" 来源：[@CocoaChina](http://weibo.com/u/1659808677)，译者：xiaoying，原文：[The Death of Cocoa](http://nshipster.com/the-death-of-cocoa/)
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -254,6 +255,7 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 	* [iPhone6 & 6 Plus 视觉设计适配说明](http://www.ui.cn/project.php?id=30159) 作者：[@英小俊](http://weibo.com/dulinme)
 	* [iPhone6和iPhone6 plus的iOS8设计尺寸参考指南](http://www.cssway.org/news_show.asp?id=288&classid=3) 作者：[@芒果道长](http://www.weibo.com/u/1797152462)
 * [iOS 5+ 设备一览](http://jamesdempsey.net/ios-device-summary/)：作者的意图是通过这样一张直观的图，指导选择相对合理的设备组合进行开发和测试。[PDF版本](http://tapas-software.net/img/ios_device_summary.pdf)
+* [SwiftDoc.org](http://[SwiftDoc.org)：自动生成的 Swift 在线文档。
 * [超越Objective-C，超越Swift](http://idlelife.org/archives/774)：很有趣的作者，除了对Swift有比较专业地概括式理解，还从应用的纬度对新语言提出了自己的要求。比如：自动持久化，自动RESTful API，有表现力的触发器和响应，所见即所得的UI编辑等。译者：[@pockry](http://weibo.com/pockry) 原文：[Beyond Objective-C, Beyond Swift](http://blog.jaredsinclair.com/post/98402624705/beyond-objective-c-beyond-swift)
 * [Some ideas for projects in Swift](http://chris.eidhof.nl/posts/swift-ideas.html): “正在造轮子的不妨看看~” By [Chris Eidhof](http://chris.eidhof.nl/)(creator of objc.io)
 * [设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)：原文作者做为视觉设计师，讲述了采用Interface Builder和Storyboard与开发小组协同工作的故事。虽然只是一个4人小团队，但清晰的分工协作，使项目有序高效进展。Xcode也让视觉设计师及UX设计师有机会分担部分前端开发工作。来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文: [Blurring the lines between design and code](http://ustwo.com/blog/the-billogram-story/)
@@ -262,6 +264,10 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [IBM Design Language](http://www.ibm.com/design/language/)："Living Language
 A shared vocabulary for design。Explore the guidelines for making delightful products and enlightening experiences."
 * [怎样从Sketch向Xcode自动导出图形资源](http://www.beforweb.com/node/647)："App设计开发的整个流程中会包含很多重复性的工作，例如在Sketch当中修改设计，重新导出，然后将更新后的图形资源移入Xcode，并再次运行项目以查看实际效果。而通过SketchTool配合Xcode，这些都可以自动化完成..." 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文: [Automatically Exporting Assets from Sketch into Xcode](http://mdznr.roon.io/automatically-exporting-assets-from-sketch-into-xcode)
+* [怎样在Xcode 6中使用矢量图形](http://www.beforweb.com/node/633)："苹果在Xcode 6当中给我们带来了一些很棒的工具用以管理图形资源，它们可以帮我们从容的应对未来的iOS设备,例如基于PDF图形文件自动生成各种规格的图片资源..." 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文：[Using Vector Images in Xcode 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)
+* [为什么 iOS 开发不需要 Storyboard](http://idlelife.org/archives/946)（译者：[@pockry](http://weibo.com/pockry)，原文：[The Story of no Storyboard in iOS Development](http://martinnormark.com/the-story-of-no-storyboard-in-ios-development/)）：对于资深开发者或有代码"洁癖者"，storyboard 或许会使其代码及配置相对臃肿或不必要的麻烦。即便如此，仍有使用程度及是否用好的问题。而对于大多数开发者，storyboard对于快速开发所带来直接的价值不可抹灭。以及另一故事《[设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)》对于团队协同开发带来的积极影响。
+* [致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)：“自 2014 年 6 月苹果发布 Swift 以来，本微博通过跟踪、归纳、汇总持续更新《Swift 语言指南》已经半年有余。由于个人力量绵薄，充其量它能让初学者快速索引到有用学习资源，而对于 Swift 进阶开发者，显然是远远不够的...”
+* [Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：“站在个人的角度，将2014年Swift开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你帮助和补充，共同参与。”
 
 ---
 ## <a id="swift_projects"></a>Swift项目
@@ -303,11 +309,15 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [tadija/AEXML](https://github.com/tadija/AEXML)：简单又易于使用的XML解析类。作者提供了完整的示例程序。
 	* [duemunk/Async](https://github.com/duemunk/Async)：一个后台执行代码封装库，它可以让你的后台代码封装语法更简洁。
 	* [jquave/EasyCast](https://github.com/jquave/EasyCast)：这是一个自动强制转换操作符左右类型及常用数学函数参数类型无障碍使用的类库。[@onevcat](http://weibo.com/onevcat)几个月前也写过类似功能库 [onevcat/Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift)，不过，停滞更新很久了。
+	* [ArtSabintsev/Siren](https://github.com/ArtSabintsev/Siren)：当应用更新时，通知用户并提供App Store链接供用户更新的开源库。P.S. 该开发者也曾提供Objectvie-C语言版[ArtSabintsev/Harpy](https://github.com/ArtSabintsev/Harpy)。
+
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
 	* [kaishin/gifu](https://github.com/kaishin/gifu)：高性能GIF显示类库Swift版本。
 	* [indragiek/DominantColor](https://github.com/indragiek/DominantColor)：采用YUV色域编码规则及K均值聚类算法提取图片代表色开源项目。很实用，很赞！
 	* [iSame7/Panoramic](https://github.com/iSame7/Panoramic)：该项目通过Core Motion实现了变换角度移动手机时，使图片显示产生对应位置及角度的变换。从而达到了具有现场感的图片浏览功能。
+	* [gavinbunney/Toucan](https://github.com/gavinbunney/Toucan)：小而美的图片变换及处理类(支持：resize, clip, crop, scale, Ellipse Mask, Rounded Rect Mask, Image Mask)。功能略有超预期的感觉。
+
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB): "This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
 	* [Realm - a mobile database](http://realm.io/): Realm主打移动数据库。除了更轻量，甚至还可以应用到可穿戴。低耦、面向对象的设计风格也是非常亮丽的。
@@ -328,6 +338,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [aleclarson/emitter-kit](https://github.com/aleclarson/emitter-kit):用EmitterKit代替NSNotificationCenter。这个库貌似短小、精悍、实用的样子。更重要是语法精练。
 	* [daltoniam/starscream](https://github.com/daltoniam/starscream)：Swift版本WebSocket客户端类库，支持iOS/OS X 。 使用方便，跨平台开发不可或缺的"轮子"。
 	* [shuoli84/SocketIOCocoa](https://github.com/shuoli84/SocketIOCocoa)：又一款WebSocket实用客户端类库，作者提供了详细的测试用例可以做为[示例代码](https://github.com/shuoli84/SocketIOCocoa/blob/master/SocketIOCocoaTests/SocketIOTests.swift)使用。
+	* [marcelofabri/BigBrother](https://github.com/marcelofabri/BigBrother)：网络请求活动状态监视器类。由于 Alamofire 库并无此项特性，因此它可以做为 Alamofire 的一个扩展功能。
 
 * 社交网络
 	* [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit): "封装了整个OAuth2.0的授权流程,并提供了几个简便易用的请求方法"
@@ -345,6 +356,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [nghialv/MaterialKit](https://github.com/nghialv/MaterialKit)：Swift版Google Material Design组件库。虽然个人并不推荐在iOS平台上使用非iOS风格界面，不过，对于Android强迫症“患者”，多一种选择也是友好的。顺带附上Google提供的开源[Material Design图标集](https://github.com/google/material-design-icons)，可以一起收入。
 	* [facebook/AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)：它是由Facebook开发并用于其Paper应用的iOS UI框架，它主要解决问题是提供界面的高流畅性切换及更灵敏的响应，解决思路是将部分UI渲染及复杂计算交由独立于主线程的处理程序负责。中译教程《[AsyncDisplayKit 教程 - 达到 60 FPS 的滚动帧率](https://github.com/nixzhu/dev-blog/blob/master/2014-11-22-asyncdisplaykit-tutorial-achieving-60-fps-scrolling.md) By [@nixzhu](http://weibo.com/nixzhu)》，教程原文《[AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling](http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling)》。
 	* [mutualmobile/MMWormhole](https://github.com/mutualmobile/MMWormhole)：提供了iOS应用与扩展之间的消息传递，其最有价值之处当属iPhone与Watch间的消息传递，从而实现相互操控的功能。
+	* [Thomvis/BrightFutures](https://github.com/Thomvis/BrightFutures)：漫长或复杂计算由独立线程异步来完成。
 	
 * UI组件
 	* [jcavar/refresher](https://github.com/jcavar/refresher)：一个常用的下拉即刷新列表工具类，提供开放接口定制刷新动态变换效果。
@@ -425,6 +437,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [iOS Developer Tips](http://iosdevelopertips.com/): 还是有关iOS的开发资源及文章合集。
 	* [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的Swift资源列表（有持续更新）。
 	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
+
 ---
 ## <a id="tools"></a>相关工具
 ### 1. 开发工具
@@ -433,6 +446,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [Mou](http://mouapp.com/)：OS X上一款Markdown的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：[罗晨](http://chenluois.com/)
 * [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
 * [RunSwift](http://www.runswiftlang.com/):正在犹豫是否入手苹果电脑开始一段Swift编程旅程的同学们，或仅仅为了试验一段简单Swift代码又懒得打开Xcode，可以试试这款Web版Swift编译环境RunSwift。
+* [InfinitApps - Bezel](http://infinitapps.com/bezel)：“嫌 Xcode 6 目前提供的 Watch 模拟器不够直观？Bezel 是一个用于视觉预览 WatchKit 所开发程序效果的小工具，前提是你安装了 xScope 软件（Mac端）或 xScopeMirror（iPhone端）。 By [@WatchKit开发](http://weibo.com/twios)”
 
 ### 2. 代码管理
 * [GitHub](http://github.com/)：声望日盛的资源分享之地。
