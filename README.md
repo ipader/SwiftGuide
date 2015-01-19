@@ -4,9 +4,9 @@ Swift语言指南
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-11，更新内容详见[《2015-1-11收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-11.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-18，更新内容详见[《2015-1-18收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-18.md)</span> 
 
->P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，顺带短文一篇《[致Swift开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》，希望大家喜欢。
+>P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift 开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，顺带短文一篇《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》，希望大家喜欢。
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -212,6 +212,9 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [怎样在Xcode 6中使用矢量图形](http://www.beforweb.com/node/633)："苹果在Xcode 6当中给我们带来了一些很棒的工具用以管理图形资源，它们可以帮我们从容的应对未来的iOS设备,例如基于PDF图形文件自动生成各种规格的图片资源..." 来源：[@BeForWeb](http://weibo.com/beforweb) 译者: [@C7210](http://weibo.com/c7210) 原文：[Using Vector Images in Xcode 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)	
 * [5 Can’t-Miss Lessons from the Functional Swift Conference](http://natashatherobot.com/functional-swift-conference/)：娜塔莎博主继续不遗余力的推荐的函数式编程。
 * [Mattt Thompson － Cocoa之死](http://www.cocoachina.com/swift/20150107/10858.html)："Cocoa，作为一个包含大多数工作在Objective-C语言上必要的基本库的集合，和CoreData，已经成为了Objective-C的事实标准。而Cocoa Touch基本上就是用UIKit更换掉AppKit的Cocoa，而且它也经常用来和Cocoa放在一起，来指代在iOS上的工作的系统框架。" 来源：[@CocoaChina](http://weibo.com/u/1659808677)，译者：xiaoying，原文：[The Death of Cocoa](http://nshipster.com/the-death-of-cocoa/)
+* [Mattt Thompson － 新年之际，盘点一些APP开发技巧](http://www.cocoachina.com/ios/20150114/10912.html)：盘点了来自不同开发者的编程技巧或 Tips，相比以往 Mattt 文章，本文内容或许略显琐碎，不过，做为学习参考，尤其还能发现几位有经验iOS开发者还是很值得的。原文：[Reader Submissions - New Year's 2015](http://nshipster.com/new-years-2015/)，作者：[Mattt Thompson](http://nshipster.com/authors/mattt-thompson/)，译者：培子，校对蓝魂
+* [iOS 8 Handoff 开发指南](http://www.cocoachina.com/ios/20150115/10926.html)：“本文通过一个包含不同功能的联系人示例工程详细讲述了如何进行 Handoff 开发，以及需要注意的地方。” 译者[@_HuaQiao](http://weibo.com/u/2509273763))，原文：[Working with Handoff in iOS 8](http://www.appcoda.com/handoff/)
+* [在iOS8创建一个交互性强的本地通知](http://www.cocoachina.com/ios/20150112/10901.html)：“iOS 8里，通知加入了新特性。开发者可以指定用户可触发的具体的动作（actions），而且甚至不用启动App也可以处理这个通知。本文详细讲解了如何开发一个互动性强的本地通知，带示例项目。” 原文：[Creating Interactive Local Notifications in iOS 8 ](http://www.appcoda.com/local-notifications-ios8/)。为方便同学们实验使用，译者 [@iBenjamin_Go](http://weibo.com/u/2771490773) 还将 DropBox 上的示例移至GitHub: [ShoppingAlertFinal](https://github.com/iBenjamin/ShoppingAlertFinal)
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建Today扩展时可能碰到的一些问题。
@@ -230,6 +233,8 @@ UIKit重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-1
 * [用Swift的函数式编程解决硬币问题](http://idlelife.org/archives/896)：作者的算法实现简单又巧妙，关键是充分利用到了Swift语法的精妙之处。项目：[ijoshsmith/break-a-dollar]( https://github.com/ijoshsmith/break-a-dollar)。"要破开一美元的方法一共有293种之多。也就是说，如果有人给你一美元换零钱，你可以给他293种不同的硬币组合。第二天，我开始思考如何编写代码来破开任意数量的金钱，本文总结了解开这个谜题的两种实现方式。" 译者：[@pockry](http://weibo.com/pockry)）
 * [盘点开发者最喜爱的Swift技巧](http://www.csdn.net/article/2014-12-25/2823312-favorite-swift-tips-and-tricks)：文章首推Natasha The Robot博主Natasha Murashev独门Swift秘籍，还有objc.io博主Chris Eidhof着力推荐的独具特色的Swift版Quicksort，还有... 还是请同学们细细品读文章吧。译者：[@唐门教主](http://weibo.com/u/2019731997)，原文：[Favorite Swift Tips & Tricks of 2014](http://realm.io/news/favorite-swift-tips-and-tricks-of-2014/)
 * [iOS二维码扫描,你需要注意的两件事](http://blog.cnbluebox.com/blog/2014/08/26/ioser-wei-ma-sao-miao/)：相对于ZBar或ZXing，AVFoundation无论在扫描灵敏度和性能上来说都是最优的，所以毫无疑问我们应该切换到AVFoundation，需要兼容IOS6或之前的版本可以用zbar或zxing代替。
+* [Swift90Days - iOS 中的设计模式 (Swift 版本) 1/2](http://segmentfault.com/blog/callmewhy/1190000002479108)：文章基于开发应用潜在使用到的设计模式进行论述，与实战结合可以让学习者印象深刻。当然，还可以结合另一个更直接介绍设计模式开源项目 [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) 进行学习。纠正：严格的说，作者将MVC归到设计模式内并不合适，它是更上层的框架结构。原文：[Introducing iOS Design Patterns in Swift – Part 1/2 ](http://www.raywenderlich.com/86477/introducing-ios-design-patterns-in-swift-part-1)，译者：[@请叫我汪二](http://weibo.com/small1030light)
+* [Mutating Functions in Swift Structs](http://natashatherobot.com/mutating-functions-swift-structs/) ：Mutating Functions（变异方法）在结构中应用的简明教程。当然，如何需要进一步了解Swift语言中「方法」的特性，可以直接参考『[Swift语言编程 － 方法](http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/chapter2/11_Methods.html)』章节介绍	
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -268,6 +273,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [为什么 iOS 开发不需要 Storyboard](http://idlelife.org/archives/946)（译者：[@pockry](http://weibo.com/pockry)，原文：[The Story of no Storyboard in iOS Development](http://martinnormark.com/the-story-of-no-storyboard-in-ios-development/)）：对于资深开发者或有代码"洁癖者"，storyboard 或许会使其代码及配置相对臃肿或不必要的麻烦。即便如此，仍有使用程度及是否用好的问题。而对于大多数开发者，storyboard对于快速开发所带来直接的价值不可抹灭。以及另一故事《[设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)》对于团队协同开发带来的积极影响。
 * [致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)：“自 2014 年 6 月苹果发布 Swift 以来，本微博通过跟踪、归纳、汇总持续更新《Swift 语言指南》已经半年有余。由于个人力量绵薄，充其量它能让初学者快速索引到有用学习资源，而对于 Swift 进阶开发者，显然是远远不够的...”
 * [Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：“站在个人的角度，将2014年Swift开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你帮助和补充，共同参与。”
+* [objc.io - Infinite Things to Learn](http://www.objc.io/issue-20/natasha-murashev.html)：通过这篇访谈，你可以了解 natashatherobot.com 博主娜塔莎同学 iOS 学习及"星"路历程。因为有她的不断的学习、分享，无限的开发兴趣，才让我们发现这个与 Swift 同步成长的优秀 Swift 教程类博客网站。
 
 ---
 ## <a id="swift_projects"></a>Swift项目
@@ -310,6 +316,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [duemunk/Async](https://github.com/duemunk/Async)：一个后台执行代码封装库，它可以让你的后台代码封装语法更简洁。
 	* [jquave/EasyCast](https://github.com/jquave/EasyCast)：这是一个自动强制转换操作符左右类型及常用数学函数参数类型无障碍使用的类库。[@onevcat](http://weibo.com/onevcat)几个月前也写过类似功能库 [onevcat/Easy-Cal-Swift](https://github.com/onevcat/Easy-Cal-Swift)，不过，停滞更新很久了。
 	* [ArtSabintsev/Siren](https://github.com/ArtSabintsev/Siren)：当应用更新时，通知用户并提供App Store链接供用户更新的开源库。P.S. 该开发者也曾提供Objectvie-C语言版[ArtSabintsev/Harpy](https://github.com/ArtSabintsev/Harpy)。
+	* [kishikawakatsumi/KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)：这套Keychain管理比较完整。支持本地应用，网络应用，以及与Touch ID的集成应用。
+	* [nori0620/SwiftFilePath](https://github.com/nori0620/SwiftFilePath)：功能强大的文件及路径管理封装类库。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -374,6 +382,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [FahimF/FloatLabelFields](https://github.com/FahimF/FloatLabelFields)： 基于"[Float Label Pattern](http://mattdsmith.com/float-label-pattern/)"的内嵌浮动标签输入效果Swift版实现类库。
 	* [cemolcay/ReorderableGridView](https://github.com/cemolcay/ReorderableGridView-Swift)：可以拖拽排列Grid框格的UI组件。功能说明完整，使用方便，应该是一个不错的UI"轮子"。
 	* [zhxnlai/ZLBalancedFlowLayout](https://github.com/zhxnlai/ZLBalancedFlowLayout)：一个通过调整cell大小来利用空间的UICollectionViewFlowLayout子类。
+	* [uacaps/PageMenu](https://github.com/uacaps/PageMenu)：分页式菜单控制及动态页视图切换。这款控件比较实用，且提供 CocoaPods 安装。
+	* [Jan0707/SwiftColorArt](https://github.com/Jan0707/SwiftColorArt)：根据图片色系决定所在界面背景色及字体显示颜色。类库及示例代码也很简洁且易于使用。这样的项目真的带给我惊艳。何况，该开发者备注了这是他的第一个Swift项目。
 	
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
