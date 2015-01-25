@@ -4,9 +4,9 @@ Swift语言指南
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-25，更新内容详见[《2015-1-25收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-25.md)</span> 
+> 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
->P.S. 考虑到本文档内项目收录部分过于杂碎，因此，借2014年结束之季，额外整理了一份《[Swift 开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》，顺带短文一篇《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》，希望大家喜欢。
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-1-25，更新内容详见[《2015-1-25收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-01-25.md)</span> 
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -284,6 +284,8 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 
 ---
 ## <a id="swift_projects"></a>Swift项目
+> 考虑到本文档内项目收录部分或许过于杂碎，因此，站在个人的角度，额外整理了一份[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)，做已收录项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
+
 ### <a id="open_api"></a>1. 实用类库
 
 > 以下实用类库做为快速参考，更多实用类库需求，也可以去这里[(Swift toolbox is a community-supported catalog 
