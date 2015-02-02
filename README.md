@@ -408,7 +408,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [rhcad/ShapeAnimation-Swift](https://github.com/rhcad/ShapeAnimation-Swift)：功能强大、使用简单的矢量动画框架。支持多层级，多形状，渐变以及各种常见的动画变化效果。绘图核心基于该作者另一个近期很火的开源项目 [schwa/SwiftGraphics](https://github.com/schwa/SwiftGraphics)。
 	* [raulriera/TextFieldEffects](https://github.com/raulriera/TextFieldEffects)：具有不同输入风格及变化效果的标签和文本框组件库。它的原型来自 [codrops](http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/) 的 JS/CSS 项目。P.S. 我曾经还推荐过另一款基于 "Float Label Pattern" 风格类似项目 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)，与之一样优秀。
 	* [MengTo/Spring](https://github.com/MengTo/Spring)：不仅具有极简制作动画的 API ，还提供 Demo 界面调试动画效果，并生成相应代码。建议同学们在 Xcode 中运行体验一次，相信这个开源项目足够让你惊艳。已将其收入《[Swift 开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》。
-	* [icanzilb/SwiftSpinner](https://github.com/)：这个图文结合进程条功能完整，整体效果还很酷。当然，使用也很简单。值得收录。
+	* [icanzilb/SwiftSpinner](https://github.com/icanzilb/SwiftSpinner)：这个图文结合进程条功能完整，整体效果还很酷。当然，使用也很简单。值得收录。
 	
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
