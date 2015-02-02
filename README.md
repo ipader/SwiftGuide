@@ -1,12 +1,13 @@
-Swift语言指南
+<center style="background: #666;color: whitesmoke;">Swift语言指南
 ===
+<img src="sl-logo_1.0.png" width="120px" style="float:right"/> 
 这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。
 
 GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-2-2，更新内容详见[《2015-2-2收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-02－02.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-2-1，更新内容详见[《2015-2-1收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-02－01.md)</span> 
 
 ## 目录
 * [Swift文档](#swift_doc)
