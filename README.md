@@ -6,7 +6,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-2-1，更新内容详见[《2015-2-1收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-02-01.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-2-8，更新内容详见[《2015-2-8收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-02-08.md)</span> 
 
 ## 目录
 * [Swift文档](#swift_doc)
@@ -286,6 +286,8 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [提前关于 React Native 的一些介绍](http://segmentfault.com/blog/jiyinyiyong/1190000002523389)：“Hacker News 上有人稍微描述了下, 我给翻译了一下. 简单说就是这项技术对于浏览器来说推进了一大步, 但是别期待太高, 只是个开发方案而已. 分享自 @SegmentFault”。作者：[@题叶](http://weibo.com/jiyinyiyong) ｜ P.S. 若能再找到一份有关 React Native 性能、资源占用、耗能方面的评测文章，就更完美了。
 * [OS X 10.10 Yosemite: The Ars Technica Review](http://arstechnica.com/apple/2014/10/os-x-10-10/22/)：“看了这篇从 CPU 指令集、编译器来剖析 Swift 的文章，对其的设计越来越肯定了。简单的说，它是一门使用 High Level 语言的语法及特性，同时仍有 Low Level 效能的一门语言。好久没看这么低层的文章了，过瘾！”。来源：[@图拉鼎](http://weibo.com/tualatrix)
 * [如何给苹果提交bug或功能需求？](http://idlelife.org/archives/950)：“对于这个问题，好像国内还没有人写过，我觉得随着中国对苹果越来越重要，中国的苹果开发者也有必要站出来，和苹果多多交流沟通，不仅仅是对自己，也对改进中国区的苹果生态圈是有帮助的”。作者：[@pockry](http://weibo.com/pockry)
+* [New Apple Photos app contains ‘UXKit’ framework](http://sixcolors.com/post/2015/02/new-apple-photos-app-contains-uxkit-framework/)：“苹果已经移植 UIKit 到 Mac 了，叫做 UXKit，目前仍然未对开发者开放。新版本的 Photo 软件就用 UXKit 编写，相信在 WWDC 会正式推出－到时开发者会有一个接近统一的 iOS/Mac 开发平台。” By [@林泰前]()
+* [让用户在输入密码时看到明文吧](http://www.beforweb.com/node/658)：文章分析很全面，论述了各大公司在明文和遮罩间如何找平衡，作者列举了微软、Adobe、Twitter、LinkedIn、PayPal、Amazon 等大公司解决之道，结果是若仍采用密码方式，均非全平台最佳解决方案。最终只有借助 Touch ID （指纹）或其它可识别身份特征才是终极解决之道。
 
 ---
 ## <a id="swift_projects"></a>Swift项目
@@ -356,6 +358,8 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [aschuch/AwesomeCache](https://github.com/aschuch/AwesomeCache)：Swift语言写的高效能缓存对象存储及管理，定义及使用简单、易于理解。支持为每个Cache对象设定缓存有效期。
 	* [daltoniam/Skeets](https://github.com/daltoniam/Skeets)：网络图片的获取、缓存及显示类库，支持缓存的清理及时效性管理。
 	* [evermeer/EVCloudKitDao](https://github.com/evermeer/EVCloudKitDao)：一套使用CloudKit简单封装库。作者还提供了示例项目及程序供开发者参考使用。
+	* [andrelind/Breeze](https://github.com/andrelind/Breeze)：轻量 CoreData 管理封装库。支持 iCloud 。
+
 * 远程访问
 	* [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent): 一个简单、小巧、实用的HTTP请求Swift语言实现类（仅一个Agent.swift类）
 	* [lingoer/GRequest](https://github.com/lingoer/GRequest):"@李洁信：个人认为AFNetworking这种较重的第三方网络库将逐渐淡出舞台，而像楼主这种基于NSURLSession并充分利用Swift特性写出来的小而美的库会受到更多人的青睐！" 作者解读[《GRequest for HTTP Request》](http://swiftist.org/topics/178)。
@@ -383,6 +387,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [facebook/AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)：它是由Facebook开发并用于其Paper应用的iOS UI框架，它主要解决问题是提供界面的高流畅性切换及更灵敏的响应，解决思路是将部分UI渲染及复杂计算交由独立于主线程的处理程序负责。中译教程《[AsyncDisplayKit 教程 - 达到 60 FPS 的滚动帧率](https://github.com/nixzhu/dev-blog/blob/master/2014-11-22-asyncdisplaykit-tutorial-achieving-60-fps-scrolling.md) By [@nixzhu](http://weibo.com/nixzhu)》，教程原文《[AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling](http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling)》。
 	* [mutualmobile/MMWormhole](https://github.com/mutualmobile/MMWormhole)：提供了iOS应用与扩展之间的消息传递，其最有价值之处当属iPhone与Watch间的消息传递，从而实现相互操控的功能。
 	* [Thomvis/BrightFutures](https://github.com/Thomvis/BrightFutures)：漫长或复杂计算由独立线程异步来完成。
+	* [Khan/Prototope](https://github.com/Khan/Prototope)：虽然看不懂这套用户交互层面的轻量级原型框架用处在哪里（哪位同学能给俺提示一下）？不过，作者将这套框架的 Swift API完整桥接为 JS 接口倒是很有意思。
 	
 * UI组件
 	* [jcavar/refresher](https://github.com/jcavar/refresher)：一个常用的下拉即刷新列表工具类，提供开放接口定制刷新动态变换效果。
@@ -409,6 +414,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [raulriera/TextFieldEffects](https://github.com/raulriera/TextFieldEffects)：具有不同输入风格及变化效果的标签和文本框组件库。它的原型来自 [codrops](http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/) 的 JS/CSS 项目。P.S. 我曾经还推荐过另一款基于 "Float Label Pattern" 风格类似项目 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)，与之一样优秀。
 	* [MengTo/Spring](https://github.com/MengTo/Spring)：不仅具有极简制作动画的 API ，还提供 Demo 界面调试动画效果，并生成相应代码。建议同学们在 Xcode 中运行体验一次，相信这个开源项目足够让你惊艳。已将其收入《[Swift 开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》。
 	* [icanzilb/SwiftSpinner](https://github.com/icanzilb/SwiftSpinner)：这个图文结合进程条功能完整，整体效果还很酷。当然，使用也很简单。值得收录。
+	* [michaelbabiy/RMParallax](https://github.com/ichaelbabiy/RMParallax)：在应用启动时，提供简单帮助向导步骤的界面组件及示例程序。
 	
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/): "比起GitHub上的开源项目来说，官方的代码我觉得是更有参考价值的，比如Session 406的代码，Lister，就用一个Swift实现的包含OSX和iOS的" By [@晨钰Lancy](http://weibo.com/lancy1014)
@@ -438,6 +444,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [gcollazo/mongodbapp](https://github.com/gcollazo/mongodbapp)：实现在Mac系统菜单栏上快捷启动/停止 MongoDB 的 Swift 项目。代码简单、易读，且核心代码全部在 [AppDelegate.swift](https://github.com/gcollazo/mongodbapp/blob/master/MongoDB/AppDelegate.swift)
 * [441088327/SYKeyboardTextField](https://github.com/441088327/SYKeyboardTextField)：“开源一个我自己写的键盘附随输入框，为Swift做些贡献”。 作者：[@余书懿](http://weibo.com/ysy441088327)
 * [dasdom/BreakOutToRefresh](https://github.com/dasdom/BreakOutToRefresh)：下拉加载刷新时，嵌入了用 SpriteKit 框架写的有趣的小游戏播放页。P.S. 此例中作者嵌入的或许并没有让你耳目一新，甚至感到有点牵强，不过，若嵌入更合适的呢？
+* [eleks/rnd-apple-watch-tesla](https://github.com/eleks/rnd-apple-watch-tesla)：Apple Watch 操作 Tesla 汽车。可惜是 Objective C 版本的，否则，Swift 同学又是一次很好的学习机会。
 
 ### <a id="projects"></a>3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift): 用Swift语言实现的 FlappyBird
@@ -448,6 +455,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [mozilla/firefox-ios](https://github.com/mozilla/firefox-ios)：Swift写的iOS版Firefox。P.S. 第三方库用到了Alamofire, Snappy, swift-json等，内置阅读器还使用了Readability。
 * [lexrus/VPNOn](https://github.com/lexrus/VPNOn)：一款驻在通知中心内的基于Today扩展的VPN开关应用。
 * [victor/whereami](https://github.com/victor/whereami)：一款用Swift语言写的通过命令行获得当前设备地理位置程序。虽然很简单，不过，实用性及学习性俱佳。
+* [Ahmed-Ali/RealmObjectEditor](https://github.com/Ahmed-Ali/RealmObjectEditor)：Realm数据库 Swift 版开源编辑器。提供针对实体，属性及关系的编辑功能，完成后可以将实体结构导出为Swift, Objective-C 或 Java 类模型。非常实用。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是#Workflow#了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
@@ -632,6 +640,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [Apple Watch需求被低估](http://www.chinadaily.com.cn/hqcj/xfly/2014-11-21/content_12755012.html)："大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。"
 * [苹果 Apple Watch 的杀手级特性](http://www.feng.com/apple/news/2014-11-28/Apple-Apple-Watch-killer-feature-the-convenient-and-simple_601272.shtml)："方便简单：目前我们已经了解了很多关于Apple Watch的功能以及特性，但是了解了这些你是否会产生这么一种感觉：我的生活需要Apple Watch？其实这种感觉并不强烈吧。" 文章短，且论述平实，适合大众阅读。 
 * [沃兹：Apple Watch 将改变世界](http://tech.ifeng.com/a/20150201/40966490_0.shtml)：“手表会改变世界。每个人都会说很多人都在做智能手表。但是谁把它做的好了呢？苹果其实很多时候都站在风口浪尖的地方。每个人都会说很多人都在做智能手表。但是谁把它做的好了呢？我用过智能手表，但是每次我用完之后都很不喜欢，马上就不用了。只有苹果让我觉得好用” 来源 [@林泰前](http://weibo.com/limtc)
+* [当特斯拉有了 Apple Watch 应用](http://www.ifanr.com/489113)：“第三方开发商 Eleks Labs 就为特斯拉开发了一款 Apple Watch 应用。这款应用可以让用户通过手表控制特斯拉 Model S，包括上锁、解锁、调节车内不同区域的温度、开启大灯、定位……此外，宣传视频中还可以看到，应用能查看车辆电量、里程等信息。”
 
 ## <a id="related_others"></a>其它相关
 * [Workflow 教程 － 如何上手 Workflow](http://jbguide.me/2014/12/30/getting-started-with-workflow/)："Workflow 就像格莱美开奖前数月发售的一张钻石专辑,横空出世一鸣惊人,年终登上了各大媒体的最佳 App 榜。这篇文章用了一个实用的例子,介绍了 Workflow 里从简单到中等的一系列动作,相信会给没有头绪的你不少灵感。" 作者：[@JailbreakHum](http://weibo.com/jailbreakhum)
