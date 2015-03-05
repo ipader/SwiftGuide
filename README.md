@@ -68,7 +68,7 @@ GitHub: [ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[
 * [Basic Operators - Nil Coalescing Operator](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-XID_109)解读 
 	1. [Swift中Nil Coalescing运算符的使用技巧](http://www.devtalking.com/articles/swift-nil-coalescing/)	By [@DevTalking](http://weibo.com/jacefu)
 	2. [Swift’s Nil Coalescing Operator In Xcode 6 Beta 5](http://jamesonquave.com/blog/swifts-nil-coaelescing-operator-in-xcode-6-beta-5/) By [Jameson Quave](http://jamesonquave.com/)
-* [Swift 编程风格指南](http://swiftist.org/topics/165)(译文来自 [swiftist.org](http://swiftist.org)): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) 
+* [Swift 编程风格指南](http://letsswift.com/2014/07/swift-style-guide/): 本风格指南的目标是让Swift代码更简洁、可读更强。 原文：[《The Official raywenderlich.com Swift Style Guide》](https://github.com/raywenderlich/swift-style-guide) 
 * [《The Swift Programming Language》读簿](http://hawstein.com/posts/make-thiner-tspl.html): "读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。
 
 ### <a id="using_swift"></a>3. Using Swift with Cocoa and Objective-C
