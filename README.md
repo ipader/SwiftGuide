@@ -1,6 +1,5 @@
 Swift 语言指南
 ===
-<img src="sl-logo_1.0.png" width="120px" style="float:right"/> 
 这份指南汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。
 
 GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
