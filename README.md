@@ -139,7 +139,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 ### <a id="getting_started"></a>2. 快速入门
 * [Swift Cheat Sheet (PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_3.pdf)：形式以代码先行，极简、有效地 Swift 语言快速学习指南。另一个更新版本：[iOS8 Swift Cheat Sheet and Quick Reference Guide](http://swift-cheatsheet.co.uk/)
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift)：相对于 Swift Cheat Sheet 带了不少说明，但整个文档不显啰嗦，可读性强
-* [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq)： Raywenderlich 的 Swift 语言FAQ说清楚了很多问题。这份FAQ确实浅显易读，初学者不可或缺好文章！
+* [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq)： Raywenderlich 的 Swift 语言FAQ说清楚了很多问题。这份 FAQ 确实浅显易读，初学者不可或缺好文章！
 * [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：了解使用 String 的更高级技巧（尤其在Unicode的使用上）。文章中作者附上了示列代码在 Playground 项目中，似乎 Swift 开发者们已经慢慢地习惯了结合 playground 讲授 Swift 使用小技巧及语言特性。
 * 与其它语言对比表：
 	[C vs. Go vs. Swift](http://t.cn/hDwCeY),
