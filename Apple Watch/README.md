@@ -81,11 +81,13 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [WatchKit Storyboard攻略（二）](http://weibo.com/p/1001603787367470257327)："主要针对第二类视图界面也就是Glance（瞥览）进行示例介绍，编写之际恰逢WatchKit beta2的更新，因此也将顺便介绍有关更新内容。By [@WatchKit开发](http://weibo.com/twios)"
 	* [WatchKit Storyboard攻略（三）](http://weibo.com/p/1001603792803355322322)："这是WatchKitStoryboard攻略的第三篇，重点自然是Notification（通知）视图这一部分的内容。By [@WatchKit开发](http://weibo.com/twios)" 
 	* [WatchKit: Open Your iOS App From The Watch](http://natashatherobot.com/watchkit-open-ios-app-from-watch/)：如何通过WatchKit启动它的宿主iPhone中的iOS应用。
+	* [WatchKit Tutorial with Swift: Tables and Network Requests](http://www.raywenderlich.com/96589/watchkit-tutorial-swift-tables-network-requests)：“Raywenderlich这篇关于WatchKit Table和网络请求的教程好详细，例子是实时获取比特币莱特币和狗币的最新价格，虽是英文但是图多啊！By [@WatchKit开发](http://weibo.com/twios)” 
+	*  Watch 开发讲座两份：[Architecting Your App for the Apple Watch ](http://realm.io/news/architecting-app-apple-watch-natashatherobot/) by [NatashaTheRobot](http://natashatherobot.com/), [Building WatchKit Apps in Swift](http://realm.io/news/building-watchkit-apps-swift/) by [Ben Morrow](https://github.com/happywatch)
 
 ### <a id="watch_projects"></a>4. Watch项目
 * [saigyoji205/Map_For_AppleWatch](https://github.com/saigyoji205/Map_For_AppleWatch)：一个简单的WatchKit地图示例应用扩展。
 * [frosty/Flipbook](https://github.com/frosty/Flipbook)："Flipbook是一个能录制iPhone上UIView动画生成帧动画序列并传输给AppleWatch以供直接播放的工具。By [@WatchKit开发](http://weibo.com/twios)"
-
+* [WatchApps](http://watchaware.com/watch-apps)：“可交互的演示网站, 和 Apple Watch 应用开发者合作, 利用 Javascript 和动态 PNG, 以及来自视频, 真机屏幕截图等素材, 让大家预览 Apple Watch 上热门应用的使用体验, 包括应用界面, Glance 一瞥界面, 通知界面。” By [@苹果网](http://weibo.com/macx)
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新Apple Watch身上小试身手时，iOS开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出WatchKit开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
 * [Apple Watch需求被低估](http://www.chinadaily.com.cn/hqcj/xfly/2014-11-21/content_12755012.html)："大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。大摩分析师凯蒂·霍伯特(Katy Huberty)表示，投资者还低估了苹果即将发布的智能手表AppleWatch的市场需求量。"
