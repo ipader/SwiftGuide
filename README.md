@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-3-8，更新内容详见[《2015-3-15 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-03-15.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-3-15，更新内容详见[《2015-3-15 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-03-15.md)</span> 
 
 ## 目录
 * [Swift 文档](#swift_doc)
