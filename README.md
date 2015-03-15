@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-3-8，更新内容详见[《2015-3-8 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-03-08.md)</span> 
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-3-8，更新内容详见[《2015-3-15 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-03-15.md)</span> 
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -294,6 +294,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [“Silver”](http://elementscompiler.com/elements/silver/)：“用 Swift 开发 Android 程序，还有 .net Windows 程序， 除了 Apportable，又来了一个“Silver”。 学会 Swift，iOS，Android，Windows 全拿下！By [@蒋涛CSDN](http://weibo.com/csdncto)” 良好的编译架构成就非凡的 Swift 语言。
 * [Apple 最成功的产品是 Jonathan Ive？](http://www.hidecloud.com/blog/2015/02/25/profile-of-jonathan-ive.html)：译文节选自《[The Shape of Things to Come](http://www.newyorker.com/magazine/2015/02/23/shape-things-come)》，可以让我们更多地了解 Jonathan Ive 。
 * [iOS 开发知识与能力体系](http://photo.weibo.com/1994161947/wbphotos/large/mid/3817767209953758/pid/76dc7f1bgw1epx5lszta3j214024q4dt)：站在个人经验的角度，能整理出如此清晰、明细思维导图，非常赞。P.S. 编程语言部分若能补上 Swift 就更好了。在设计环节，建议补上设计方法及设计实践分支。By [@李锦发](http://weibo.com/jinfali)
+* [15 项 Force Click 特性](http://www.feng.com/apple/macbook/2015-03-13/15-2015-macbook-hidden-Force-Click-properties_609684.shtml)：“MacBook 和 13 英寸 Retina MacBook Pro 均配备了新的 Force Touch 触控板，给 OS X 中的某些应用增加新的特性。10.10.3 Yosemite 系统测试版已经包括了 Force Touch 的 API（开发者界面）。”
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -344,6 +345,9 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [beltex/SMCKit](https://github.com/beltex/SMCKit)：Mac 系统管理控制器 SMC（System Management Controller）Swift 语言版封装库。通过该类库，简单的几行代码就可知 CPU 温度，风扇转速，电池状态等硬件状态或活动状态。
 	* [radex/SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults)：轻量级数据存储类 NSUserDefaults 扩展类，它使类型数据访问和存储更为便捷、直观。
 	* [akosma/SwiftMoment](https://github.com/akosma/SwiftMoment)：时间和日历函数封装库，也是经典的 [moment.js](http://momentjs.com/) 的 Swift 语言版本实现。
+	* [imaginary-cloud/CameraManager](https://github.com/imaginary-cloud/CameraManager)：相机管理封装类库。看着极好用的样子。
+	* [yannickl/QRCodeReader.swift](https://github.com/yannickl/QRCodeReader.swift)：一款简单的 QR 二维码阅读组件及示例，提供前后相机切换功能。
+	* [aaronabentheuer/AAFaceDetection](https://github.com/aaronabentheuer/AAFaceDetection)：简单、实用的面部识别封装库。虽然该技术从 iOS 5 发展，不过真正有趣的应用还不多。例如：在视频直播中可以检测观众情感（微笑或眨眼），或注意力（看着屏幕或没有）。因此，作者对其抱以很高的期待，并已经着手开发实验室类大项目。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -375,7 +379,9 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [aleclarson/emitter-kit](https://github.com/aleclarson/emitter-kit):用 EmitterKit 代替 NSNotificationCenter。这个库貌似短小、精悍、实用的样子。更重要是语法精练。
 	* [daltoniam/starscream](https://github.com/daltoniam/starscream)：Swift 版本 WebSocket 客户端类库，支持 iOS/OS X 。 使用方便，跨平台开发不可或缺的“轮子”。
 	* [shuoli84/SocketIOCocoa](https://github.com/shuoli84/SocketIOCocoa)：又一款 WebSocket 实用客户端类库，作者提供了详细的测试用例可以做为[示例代码](https://github.com/shuoli84/SocketIOCocoa/blob/master/SocketIOCocoaTests/SocketIOTests.swift)使用。
+	* [socketio/socket.io-client-swift](https://github.com/socketio/socket.io-client-swift)：WebSockect 客户端类库。开放的通讯协议，有利于构建强大地跨平台应用。
 	* [marcelofabri/BigBrother](https://github.com/marcelofabri/BigBrother)：网络请求活动状态监视器类。由于 Alamofire 库并无此项特性，因此它可以做为 Alamofire 的一个扩展功能。
+	* [ishkawa/APIKit](https://github.com/ishkawa/APIKit)：为不同来源或类型 Web 服务，提供安全地可定制化网络请求 API 的基础类库。很好的面向对象设计思路实例。
 
 * 社交网络
 	* [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit)："封装了整个 OAuth 2.0 的授权流程,并提供了几个简便易用的请求方法"
@@ -429,6 +435,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [pixyzehn/MediumScrollFullScreen](https://github.com/pixyzehn/MediumScrollFullScreen)：上下滚动时，全屏显示内容，并自然消隐上下菜单。由此项目感知，作者是一位很注重细节的开发者，[他](https://github.com/pixyzehn)的另外几个菜单类项目也都不错，值得参考，比如：PathMenu, MediumMenu 等。
 	* [MoZhouqi/KMPlaceholderTextView](https://github.com/MoZhouqi/KMPlaceholderTextView)：可显示多行 placeholder 的 textView，实现逻辑简单、巧妙。
 	* [prine/ROStorageBar](https://github.com/prine/ROStorageBar)：存储器使用情况指示条组件，显示参数丰富，易于使用。开始以为它也包含了计算功能，可惜并没有，只是一个纯界面的小组件。不过，仍然有一定的实用性。
+	* [Yalantis/Persei](https://github.com/Yalantis/Persei)：动画隐藏或显示顶部菜单支持库及示例项目。P.S. Yalantis 这个开发商，在 GitHub 上展示开发能力，Dribbble 上展示交互设计能力，并在 Behance 推广项目。整体展现了其出众的软件过程管理及综合开发实力。非常值得国内开发者学习。
+	* [KyleGoddard/KGFloatingDrawer](https://github.com/KyleGoddard/KGFloatingDrawer)：一款适合于大屏手机或平板的浮动抽屉式导航界面组件。效果很赞。
 
 * 测试相关
 	* [kylef/Mockingjay](https://github.com/kylef/Mockingjay)：在单元测试时，模拟匹配条件的任意 HTTP 请求，该类库集成于 XCTest 框架内。是一套不可多得的快速开发工具库。
@@ -465,6 +473,10 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [eleks/rnd-apple-watch-tesla](https://github.com/eleks/rnd-apple-watch-tesla)：Apple Watch 操作 Tesla 汽车。可惜是 Objective C 版本的，否则，Swift 同学又是一次很好的学习机会。
 * [kenshin03/Cherry](https://github.com/kenshin03/Cherry)：定时器应用，功能包括在手表上新建活动，启动/停止活动，持久化活动数据在 iPhone，在 Glances 中查看活动状态并可直接切换至该应用。P.S. 该应用由作者之前开发的 Objective-C 项目采用 Swift 重写后获得。
 * [slazyk/SINQ](https://github.com/slazyk/SINQ)：该项目把来自 C#和VB 的 LINQ 集成查询功能吸收了进来。是不是又一次证明了 Swift 吸纳各语言精华的能力很强大，是不是又一次向"大一统"的编程/编译环境迈进了一步？
+* [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。
+* [MengTo/DesignerNewsApp](https://github.com/MengTo/DesignerNewsApp)：一款针对 Designer News 网站的完整 iOS 应用，最具特色地是开发者对动画技术得心应手的应用。P.S. 该开发者发布过一套非常完整、实用的优秀动画封装库及演示工具 [Spring](http://weibo.com/5167456916/C2l95BHar)。
+* [MoZhouqi/VoiceMemos](https://github.com/MoZhouqi/VoiceMemos)：“语音笔记本应用。用到了一些 iOS 8 新技术，比如 UISplitViewController、UISearchController、UIAlertController、自定义 Presentations、可视化开发，还有一些语音相关的用法。界面开发的新技术介绍可以参考 [@onevcat](http//weibo.com/onevcat) 的 [这个帖子](http://onevcat.com/2014/07/ios-ui-unique/)”。
+* [schwa/TimingFunctionEditor](https://github.com/schwa/TimingFunctionEditor)：贝塞尔曲线编辑器，编辑后可以预览或拷贝代码片段直接使用。P.S. 该项目采用更简单的依赖管理器 [Carthage](https://github.com/Carthage/Carthage)。
 
 ### <a id="projects"></a>3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift)：用 Swift 语言实现的 FlappyBird
@@ -477,6 +489,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [victor/whereami](https://github.com/victor/whereami)：一款用 Swift 语言写的通过命令行获得当前设备地理位置程序。虽然很简单，不过，实用性及学习性俱佳。
 * [Ahmed-Ali/RealmObjectEditor](https://github.com/Ahmed-Ali/RealmObjectEditor)：Realm 数据库 Swift 版开源编辑器。提供针对实体，属性及关系的编辑功能，完成后可以将实体结构导出为 Swift, Objective-C 或 Java 类模型。非常实用。
 * [jpsim/DeckRocket](https://github.com/jpsim/DeckRocket)：在相同 WiFi 网络环境内，通过 iPhone 控制并播放 Mac 中的 PDF 文档。ft 编译器崩溃的测试用例。这是一个疯狂又非常有意义的开源项目。可以定期关注一下。P.S. 该开源项目作者最新提示：Xcode 6.3 beta 与 Swift 1.2 已修复了其已发现编译器崩溃级缺陷的 83%。
+* [Carthage/Carthage](https://github.com/Carthage/Carthage)：更简单的方式来管理 Cocoa 第三方框架。有了 CocoaPods 为何还要使用 Carthage，作者在 README.md（[中译](http://www.cocoachina.com/ios/20141204/10528.html)） 已经做了充分说明。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是 #Workflow# 了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
@@ -505,6 +518,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [iOS Developer Tips](http://iosdevelopertips.com/)：还是有关 iOS 的开发资源及文章合集。
 	* [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的 Swift 资源列表（有持续更新）。
 	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
+	* [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
 
 ---
 ## <a id="tools"></a>相关工具
@@ -654,11 +668,13 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [WatchKit: Open Your iOS App From The Watch](http://natashatherobot.com/watchkit-open-ios-app-from-watch/)：如何通过 WatchKit 启动它的宿主 iPhone 中的 iOS 应用。
 	* [WatchKit Tutorial with Swift: Tables and Network Requests](http://www.raywenderlich.com/96589/watchkit-tutorial-swift-tables-network-requests)：“Ray Wenderlich 这篇关于 WatchKit Table 和网络请求的教程好详细，例子是实时获取比特币莱特币和狗币的最新价格，虽是英文但是图多啊！By [@WatchKit开发](http://weibo.com/twios)” 
 	*  Watch 开发讲座两份：[Architecting Your App for the Apple Watch ](http://realm.io/news/architecting-app-apple-watch-natashatherobot/) by [NatashaTheRobot](http://natashatherobot.com/), [Building WatchKit Apps in Swift](http://realm.io/news/building-watchkit-apps-swift/) by [Ben Morrow](https://github.com/happywatch)
+	* [WatchKit 数据共享 － 谨慎使用 NSFileCoordinator 和 NSFilePresenter](http://natashatherobot.com/watchkit-nsfilecoordinator-nsfilepresenter/)：Natasha 教你如何深入理解 iOS 与 WatchKit 应用数据共享问题，并采用最有效方法开发，以避免陷入坑中。 P.S. 话说这位俄国妹子学习方法及能力真得很强，非常值得同学们学习。
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [saigyoji205/Map_For_AppleWatch](https://github.com/saigyoji205/Map_For_AppleWatch)：一个简单的WatchKit地图示例应用扩展。
 * [frosty/Flipbook](https://github.com/frosty/Flipbook)："Flipbook 是一个能录制 iPhone 上 UIView 动画生成帧动画序列并传输给 Apple Watch 以供直接播放的工具。By [@WatchKit开发](http://weibo.com/twios)"
 * [WatchApps](http://watchaware.com/watch-apps)：“可交互的演示网站, 和 Apple Watch 应用开发者合作, 利用 Javascript 和动态 PNG, 以及来自视频, 真机屏幕截图等素材, 让大家预览 Apple Watch 上热门应用的使用体验, 包括应用界面, Glance 一瞥界面, 通知界面。” By [@苹果网](http://weibo.com/macx)
+* [Apple Watch 的 5 个产品思路畅想](http://www.beforweb.com/node/689)：“接下来的几年会很有意思，数字产品的体验模式正朝着多平台的方向迅速进化着，每一类设备都在开疆破土。我（英文原文作者）整理了五个类型的产品思路，或是说畅想，在 Apple Watch 即将正式上市的前夕，与大家做以分享和探讨...”
 
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新 Apple Watch 身上小试身手时，iOS 开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出 WatchKit 开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
