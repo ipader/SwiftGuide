@@ -137,7 +137,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 * [Testing with Xcode](https://github.com/CocoaChinaTranslationTeam/TestingWithXcodeDocsCN)：本文的目的在于让测试成为你软件开发的重要组成部分，并使测试更方便并易于使用。
 
 ### <a id="getting_started"></a>2. 快速入门
-* [Developing IOS 8 Apps With Swift](https://itunes.apple.com/cn/course/developing-ios-8-apps-swift/id961180099): 斯坦福大学公开课 ItunesU链接. 另附中文字幕链接[Developing iOS 8 Apps with Swift(斯坦福大学公开课：iOS 8开发)](http://www.swiftv.cn/course/i7ahl5gn)
+* [Developing IOS 8 Apps With Swift](https://itunes.apple.com/cn/course/developing-ios-8-apps-swift/id961180099)：斯坦福大学公开课 ItunesU 链接。另附中文字幕视频链接 [斯坦福大学公开课：iOS 8 开发](http://www.swiftv.cn/course/i7ahl5gn)。By [suffering](https://github.com/suffering)
 * [Swift Cheat Sheet (PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_3.pdf)：形式以代码先行，极简、有效地 Swift 语言快速学习指南。另一个更新版本：[iOS8 Swift Cheat Sheet and Quick Reference Guide](http://swift-cheatsheet.co.uk/)
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift)：相对于 Swift Cheat Sheet 带了不少说明，但整个文档不显啰嗦，可读性强
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq)： Raywenderlich 的 Swift 语言FAQ说清楚了很多问题。这份 FAQ 确实浅显易读，初学者不可或缺好文章！
