@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-3-11，最近收录项目 SwiftMoment，MotionKit，Jetstream，RMParallax，WatchKit-Apps，详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-3-22，最近收录项目 LineChart，KSTokenView，GearRefreshControl，Versions，CarlosButron - Examples，详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
