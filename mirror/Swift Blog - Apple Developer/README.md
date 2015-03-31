@@ -1,6 +1,6 @@
 [Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/)
 ===
-"值得一提的是，Swift博客是苹果官方网站的第一个blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
+"值得一提的是，Swift 博客是苹果官方网站的第一个 Blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
 
 
 译文 | 译者 | 原文
@@ -9,7 +9,7 @@
 [Swift Nullability and Objective-C](http://blog.csdn.net/zhangao0086/article/details/44409913)|[Bannings](https://github.com/zhangao0086)|[Nullability and Objective-C](https://developer.apple.com/swift/blog/?id=25)
 -|N/A|[New Playgrounds](https://developer.apple.com/swift/blog/?id=24)
 -|N/A|[The as! Operator](https://developer.apple.com/swift/blog/?id=23)
-[Swift 1.2 和 Xcode 6.3 beta](http://www.csdn.net/article/2015-03-06/2824131-xcode-6-3-beta-2)|[老码团队](http://weibo.com/oldcoder)|[Swift 1.2 and Xcode 6.3 beta](https://developer.apple.com/swift/blog/?id=22)
+[Swift 1.2 和 Xcode 6.3 beta](http://www.csdn.net/article/2015-03-06/2824131-xcode-6-3-beta-2)|[@老码团队](http://weibo.com/oldcoder)|[Swift 1.2 and Xcode 6.3 beta](https://developer.apple.com/swift/blog/?id=22)
 -|N/A|[New Swift Development Courses Available on iTunes U](https://developer.apple.com/swift/blog/?id=21)
 [Swift REPL：一切皆可重定义](http://www.cocoachina.com/ios/20150212/11147.html)|[@MichealGeng](http://weibo.com/MichealGeng)|[Redefining Everything with the Swift REPL](https://developer.apple.com/swift/blog/?id=20)
 [Swift 中的 NSMethodSignature 怎么了？](http://idlelife.org/archives/910)|[@pockry](http://weibo.com/pockry)|[ What Happened to NSMethodSignature?](https://developer.apple.com/swift/blog/?id=19)
