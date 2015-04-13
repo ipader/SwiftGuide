@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-5，更新内容详见[《2015-4-5 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-04-05.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-12，更新内容详见[《2015-4-12 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-04-12.md)</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -259,6 +259,8 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [iOS 二维码扫描,你需要注意的两件事](http://blog.cnbluebox.com/blog/2014/08/26/ioser-wei-ma-sao-miao/)：相对于 ZBar 或  ZXing，AVFoundation 无论在扫描灵敏度和性能上来说都是最优的，所以毫无疑问我们应该切换到 AVFoundation，需要兼容 iOS 6 或之前的版本可以用 zbar 或 zxing 代替。
 * [Swift90Days - iOS 中的设计模式（Swift 版本）1/2](http://segmentfault.com/blog/callmewhy/1190000002479108)：文章基于开发应用潜在使用到的设计模式进行论述，与实战结合可以让学习者印象深刻。当然，还可以结合另一个更直接介绍设计模式开源项目 [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) 进行学习。纠正：严格的说，作者将 MVC 归到设计模式内并不合适，它是更上层的框架结构。原文：[Introducing iOS Design Patterns in Swift – Part 1/2 ](http://www.raywenderlich.com/86477/introducing-ios-design-patterns-in-swift-part-1)，译者：[@请叫我汪二](http://weibo.com/small1030light)
 * [Mutating Functions in Swift Structs](http://natashatherobot.com/mutating-functions-swift-structs/) ：Mutating Functions（变异方法）在结构中应用的简明教程。当然，如何需要进一步了解Swift 语言中「方法」的特性，可以直接参考『[Swift 语言编程 － 方法](http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/chapter2/11_Methods.html)』章节介绍
+* [生成自适应图表图片的秘密](https://github.com/nixzhu/dev-blog/blob/master/2015-04-08-adaptive-chart.md)：局促的空间（  Watch）内如何优雅地显示完整柱状图？作者不仅有效地解决了问题，同时，其思考过程在文章中也一览无余。好文章（非程序员勿入）。示例项目 [AdaptiveChartDemo](https://github.com/nixzhu/AdaptiveChartDemo)
+
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -317,6 +319,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [Facebook Paper使用的第三方库](http://blog.txx.im/blog/2014/02/11/facebook-paper-used-3rd/)：这对于开发一版 iOS 商业应用意义重大。By [@糖炒小虾_txx](http://weibo.com/rpplusplus) 
 * [一些国外知名app用到的 iOS 第三方框架](http://www.jianshu.com/p/c5b0eb58b878)：针对 Paper 第三方库的补充非常赞。当然，这其中 [@糖炒小虾_txx](http://weibo.com/rpplusplus) 的[『Facebook Paper使用的第三方库』](http://blog.txx.im/blog/2014/02/11/facebook-paper-used-3rd/) 是点睛之笔。
 * [念叨 - 关于Sketch、Origami、Swift及Apple Watch](http://www.beforweb.com/node/697)：念叨得不错，文章标题或许取『与 Sketch 相关的那点事』更好。
+* [『Objective-C GitHub 排名前 100 项目简介』](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md)
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -376,6 +379,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [nghialv/Transporter](https://github.com/nghialv/Transporter)：短小、精悍、易用的多文件（并发或顺序）上传和下载传输库。还支持后台运行、传输进程跟踪、暂停/续传/取消/重试控制等功能。
 	* [krzyzanowskim/CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)：纯 Swift 版 Crypto 算法及相关功能类库。是一套易用、易扩展、完整、不可或缺的功能库。
 	* [nomothetis/SemverKit](https://github.com/nomothetis/SemverKit)：针对符合『语义化版本规范 2.0.0』版本号的解析、比较运算类库。不仅支持 Major, Minor, Patch，还支持 Alpha 和 Beta 预发布版本，以及相应地递增运算扩展。
+	* [harlanhaskins/Punctual.swift](https://github.com/harlanhaskins/Punctual.swift)：通过一系列基础数据类型扩展，使日期访问及操作更加自然语言化。若没有动态语言化地超强扩展及定制能力，如此优雅的日期操作是无法实现的。
+	* [ayanonagon/Parsimmon](https://github.com/ayanonagon/Parsimmon)：小而美的语言学类库封装工具包。提供分词、标记词性、词形归并、朴素贝页斯分类、决策树等自然语言分析小工具。P.S. 英语分词效果好于中文，感兴趣的同学可以针对中文做一些优化开发。参考译文 [NSHipster - NSLinguistic​Tagger](http://nshipster.cn/nslinguistictagger/)
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -387,6 +392,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB)："This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
+	* [Alecrim/AlecrimCoreData](https://github.com/Alecrim/AlecrimCoreData)：更容易地访问 CoreData 对象封装类库。除了 CRUD，还提供指针定位，强大的排序、筛选，异步数据获取，以及独立线程后台存取数据。
 	* [Realm - a mobile database](http://realm.io/)：Realm主打移动数据库。除了更轻量，甚至还可以应用到可穿戴。低耦、面向对象的设计风格也是非常亮丽的。
 	* [nerdyc/Squeal](https://github.com/nerdyc/Squeal)：一套非常完善的 SQLite 数据库访问 API，无论建库，建表，CRUD 等常用数据库操作命令都进行了很好的封装，另外，版本管理、事务管理、并发管理、命令执行及 Prepare Statement 等都提供相应支持。它是一套不可多得的SQLite管理访问库。
 	* [stephencelis/SQLite.swift](https://github.com/stephencelis)：简单、轻量，或是使用上最 SQL 的 SQLit e封装库。
@@ -479,6 +485,12 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [knutigro/COBezierTableView](https://github.com/knutigro/COBezierTableView)：通过编辑 Bezier 曲线四点位置设置 TableView 内 Cell 及对应按扭位置。实验效果很赞。#为开源点赞#
 	* [szk-atmosphere/SAHistoryNavigationViewController](https://github.com/szk-atmosphere/SAHistoryNavigationViewController)：通过继承 UIViewController 并扩展 UICollectionView，UINavigationController，NSLayoutConstraint 等界面及布局控制核心类，应用内模拟实现 iOS 任务管理界面及切换组件。
 	* [szk-atmosphere/SABlurImageView](https://github.com/szk-atmosphere/SABlurImageView)：支持渐变动画效果的图像模糊化类库。P.S. 与前几天推存类库 SAHistoryNavigationViewController 是同一位作者。
+	* [cocoatoucher/AIFlatSwitch](https://github.com/cocoatoucher/AIFlatSwitch)：一款带平滑过渡动画的 Switch 组件类。记得之前收录过两款相同风格的 [Hamburger - Menu/Close](https://github.com/robb/hamburger-button) 和 [Hamburger - Menu/Back](https://github.com/fastred/HamburgerButton)。都是精细之作。
+	* [GabrielAlva/Swift-Prompts](https://github.com/GabrielAlva/Swift-Prompts)：一款漂亮、实用的提示弹窗。使用简单，参数定制完整，还支持窗口拖拽操作。
+	* [inFullMobile/WobbleView](https://github.com/inFullMobile/WobbleView)：当界面组件过渡时，带波纹摆动效果的组件扩展实现类及示例项目。
+	* [cjwirth/RichEditorView](https://github.com/cjwirth/RichEditorView)：一套可定制富文本编辑器组件及示例。功能完整、代码简练、实现逻辑巧妙（编辑器核心与 WebView 结合，采用 HTML5 contentEditable 编辑模式，执行JS 配套命令 execCommand 实现富文本编辑功能）。
+	* [SemperIdem/MKMapView-Extension](https://github.com/SemperIdem/MKMapView-Extension)：“在用 	MapKit 的时候发现MKMapView缺少了极其重要的 ZoomLevel 这一个功能，因此便参照了网上的一些OC例程写了一个Swift版本的扩展，允许开发者获取当前地图的缩放级别和设置缩放级别。By [@星夜暮晨](http://weibo.com/moonisky)”。
+
 
 * 测试相关
 	* [kylef/Mockingjay](https://github.com/kylef/Mockingjay)：在单元测试时，模拟匹配条件的任意 HTTP 请求，该类库集成于 XCTest 框架内。是一套不可多得的快速开发工具库。
@@ -523,6 +535,9 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [CarlosButron/Swift](https://github.com/CarlosButron/Swift)：60 多个 Swift 示例项目及代码集锦，技术及品类几乎涉足方方面面。
 * [lizyyy/Homeoff](https://github.com/lizyyy/Homeoff)：“用swift写了一个模仿Launcher通知中心快捷方式的应用。支持 20 个应用，并增加了一个返回到桌面来解放Home键的功能 By [@Swift攻略](http://weibo.com/u/2028497043)”。
 * [MakeZL/ZLSwiftRefresh](https://github.com/MakeZL/ZLSwiftRefresh)：下拉刷新/上拉加载组件扩展及示例。“支持自定义动画，集成简单，兼容 UITableView，CollectionView，ScrollView，WebView”。
+* [philcn/Auto-Layout-Showcase](https://github.com/philcn/Auto-Layout-Showcase)：几项常用自动布局技巧示例代码及演示。搭建简单应用够使了。
+* [FlexMonkey/MetalParticles](https://github.com/FlexMonkey/MetalParticles)：超强计算、极致渲染，发挥 GPU 最高效能 Metal 框架演示项目。P.S. Metal 框架是并驾于 OpenGL ES 的底层图形计算接口。相比于 OpenGL，它甚至更底层、更接近 GPU。它是需求超强计算及渲染性能要求的游
+戏平台不二之选。
 
 ### <a id="projects"></a>3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift)：用 Swift 语言实现的 FlappyBird
@@ -739,6 +754,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [沃兹：Apple Watch 将改变世界](http://tech.ifeng.com/a/20150201/40966490_0.shtml)：“手表会改变世界。每个人都会说很多人都在做智能手表。但是谁把它做的好了呢？苹果其实很多时候都站在风口浪尖的地方。每个人都会说很多人都在做智能手表。但是谁把它做的好了呢？我用过智能手表，但是每次我用完之后都很不喜欢，马上就不用了。只有苹果让我觉得好用” 来源 [@林泰前](http://weibo.com/limtc)
 * [当特斯拉有了 Apple Watch 应用](http://www.ifanr.com/489113)：“第三方开发商 Eleks Labs 就为特斯拉开发了一款 Apple Watch 应用。这款应用可以让用户通过手表控制特斯拉 Model S，包括上锁、解锁、调节车内不同区域的温度、开启大灯、定位……此外，宣传视频中还可以看到，应用能查看车辆电量、里程等信息。”
 * [Apple Watch 究竟有啥用？首批 60 款应用告诉你](http://www.leikeji.com/article?1986)：嗯，很全。同学们在开发  Watch 应用之前先补补功课、随随主流或找找灵感，避免闭门造车。
+* [独家视频：Apple Watch开箱](http://video.sina.com.cn/p/tech/mobile/n/v/2015-04-08/200164813761.html)：“上一条是[图文版详细评测](http://tech.sina.com.cn/mobile/n/apple/2015-04-08/200110024828.shtml)，我们还准备了一短视频，快速介绍Apple Watch和两款表带开箱过程，并介绍它的主要的功能点。只此一家，别处没有。” By [@苹果汇](http://weibo.com/appleus)
 
 ## <a id="related_others"></a>其它相关
 * [Workflow 教程 － 如何上手 Workflow](http://jbguide.me/2014/12/30/getting-started-with-workflow/)："Workflow 就像格莱美开奖前数月发售的一张钻石专辑,横空出世一鸣惊人,年终登上了各大媒体的最佳 App 榜。这篇文章用了一个实用的例子,介绍了 Workflow 里从简单到中等的一系列动作,相信会给没有头绪的你不少灵感。" 作者：[@JailbreakHum](http://weibo.com/jailbreakhum)

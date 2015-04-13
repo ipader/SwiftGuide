@@ -93,3 +93,4 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [沃兹：Apple Watch 将改变世界](http://tech.ifeng.com/a/20150201/40966490_0.shtml)：“手表会改变世界。每个人都会说很多人都在做智能手表。但是谁把它做的好了呢？苹果其实很多时候都站在风口浪尖的地方。每个人都会说很多人都在做智能手表。但是谁把它做的好了呢？我用过智能手表，但是每次我用完之后都很不喜欢，马上就不用了。只有苹果让我觉得好用” 来源 [@林泰前](http://weibo.com/limtc)
 * [当特斯拉有了 Apple Watch 应用](http://www.ifanr.com/489113)：“第三方开发商 Eleks Labs 就为特斯拉开发了一款 Apple Watch 应用。这款应用可以让用户通过手表控制特斯拉 Model S，包括上锁、解锁、调节车内不同区域的温度、开启大灯、定位……此外，宣传视频中还可以看到，应用能查看车辆电量、里程等信息。”
 * [Apple Watch 究竟有啥用？首批 60 款应用告诉你](http://www.leikeji.com/article?1986)：嗯，很全。同学们在开发  Watch 应用之前先补补功课、随随主流或找找灵感，避免闭门造车。
+* [独家视频：Apple Watch开箱](http://video.sina.com.cn/p/tech/mobile/n/v/2015-04-08/200164813761.html)：“上一条是[图文版详细评测](http://tech.sina.com.cn/mobile/n/apple/2015-04-08/200110024828.shtml)，我们还准备了一短视频，快速介绍Apple Watch和两款表带开箱过程，并介绍它的主要的功能点。只此一家，别处没有。” By [@苹果汇](http://weibo.com/appleus)
