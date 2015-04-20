@@ -1,0 +1,19 @@
+## Swift 文章精选
+>站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
+
+### 教程和指南
+* [Alamofire - 1. 基础教程](http://www.jianshu.com/p/f1208b5e42d9)，[2. 进阶教程](http://www.jianshu.com/p/30599f64a09c)：该系列教程通过示例项目分步骤详细介绍了 Alamofire 网络库的使用技巧。Alamofire 是 Mattt Thompson 为其著名的 AFNetworking 采用 Swift 重写的网络库。来源：Ray Wenderlich，作者：Essan Parto，译者：[@星夜暮晨](http://weibo.com/u/3227937731)
+* [如何用 Swift 语言构建一个自定控件](http://beyondvincent.com/2014/08/28/2014-08-27-How-To-Make-a-Custom-Control-in-Swift/)：本文通过讲解如何编写一款两端都可以滑动（以获取最大值及最小值）的 RangeSlider 自定义控件（功能相当于两个 UISlider），让初学者真正地理解其开发步骤和方法，体验其中乐趣。来源：Ray Wenderlich，译者：[@BeyondVincent](http://weibo.com/beyondvincent)
+* [为 iPhone 6 设计自适应布局](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)（[一](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)、[二](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-2/)） ："当你们学习完这篇文章后，你们应该会比较自如的使用 storyboard、constraints、size classes 这三个 Apple 在 Xcode 里提供的工具，去探索和构建巧妙的自适应布局"。原文：[ADAPTIVE LAYOUTS FOR iPHONE 6](http://mathewsanders.com/designing-adaptive-layouts-for-iphone-6-plus/)，译者：[@DevTalking](http://weibo.com/jacefu) 
+* [如何在 Swift 中创建 Action 扩展](http://www.devtalking.com/articles/how-to-create-action-extension/)：通过一个简单的 Action 扩展教你如何将 Safari 中拷贝的文本读入 Note 应用中。开发步骤很清晰，并提供完整示例项目代码 https://github.com/jorjuela33/NoteApp。虽然它"只是一个简单的Aciton扩展的例子，但我们可以由此延伸出更多有用、有创意的功能"。 译者：[@DevTalking](http://weibo.com/jacefu)
+* [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：深入了解使用 String 的更高级技巧（尤其在 Unicode 的使用上）。为了更直观理解示例代码运行状态，作者附上了与本文几乎完全一致的 Playground 项目下载。P.S. 如今 Playground 已经成为讲授 Swift 使用小技巧及语言特性必备。
+* [iOS设计指南](http://www.ui.cn/project.php?id=32167)：非官方文档，不过原文《[The iOS Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS Human Interface Guidelines》进行解读介绍。非常值得收藏。原作者 Ivo Mynttinen，是一位来自德国的年轻 UI 设计师。其个人博客网站也值得同学们收录：[ivomynttinen.com](http://ivomynttinen.com)。译者：[@shengbanx](http://weibo.com/banxing1)
+
+### 经验和评论
+* [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
+* [盘点开发者最喜爱的Swift技巧](http://www.csdn.net/article/2014-12-25/2823312-favorite-swift-tips-and-tricks)：文章首推新起之秀 natashatherobot.com 博主 Natasha Murashev 独门 Swift 秘籍，还有 objc.io 博主 Chris Eidhof 着力推荐的独具特色的 Swift 版 Quicksort，还有... 还是请同学们细细品读文章吧。原文：[Favorite Swift Tips & Tricks of 2014](http://realm.io/news/favorite-swift-tips-and-tricks-of-2014/)，来源：Realm，译者：[@唐门教主](http://weibo.com/u/2019731997)
+* [设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)：原文作者做为视觉设计师，讲述了采用 Interface Builder 和 Storyboard 与开发小组协同工作的故事。虽然只是一个4人小团队，但清晰的分工协作，使项目有序高效进展。Xcode也让视觉设计师及UX设计师有机会分担部分前端开发工作。原文: [Blurring the lines between design and code](http://ustwo.com/blog/the-billogram-story/)，来源：[@BeForWeb](http://weibo.com/beforweb)，译者: [@C7210](http://weibo.com/c7210) 
+* [#objc中国# － Issue 20](http://objccn.io/issue-20/)：“三位传奇开发者的访谈，很有意思。天才少年 Andy Matuschak [《终身学习的一代人》](http://objccn.io/issue-20-1/)  两次创业 Loren Brichter [《让东西变得不那么糟》](http://objccn.io/issue-20-2/) 以及前 FBI 的俄国妹子 Natasha Murashev [《学无止境》](http://objccn.io/issue-20-3/)。简直篇篇精彩。By [@onevcat](http://weibo.com/onevcat)”。Natasha Murashev 的访谈故事对于学习 Swift 的同学比较励志。
+* [Objective-C 开发者对 Swift 亮点的点评](http://blog.jobbole.com/71250/)：这篇文章涵盖了 Swift 典型亮点，或许描述还不够全面，不过，对初学者应该已经很受用了。P.S. 提醒：由于本文写于 Swift 刚发布时，因此版本关系可能会有个别点不精准。来源：Ray Wenderlich，译者：[@午后的小甜点](http://weibo.com/u/3178558825)
+* [Cocoa 之死](http://nshipster.cn/the-death-of-cocoa/)（Mattt Thompson），[Cocoa 永生](http://nshipster.cn/long-live-cocoa/)（Nate Cook）：
+两篇貌似矛盾，其实并非如此，后一篇溢美 Cocoa 辉煌过去及成就，实则告诉大家它更为 Swift 的亮相铺平了道路，使其一出世开发者就有优秀工具库可用。作者也预言未来会有更好的继任者。来源：NSHipster，译者：[@李乐佳](http://weibo.com/leelejia)
