@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-12，更新内容详见[《2015-4-12 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-04-12.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-19，更新内容详见[《2015-4-19 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-04-19.md)</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -239,6 +239,11 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [玩儿转 Swift](http://www.imooc.com/view/127)：粗略听了一下，发现[@刘宇波bobo](http://weibo.com/liuyubobobo)的这套 Swift 基础视频课程也比较适合初学者。PPT 及 示例代码显示很清晰。
 * [NSHipster - IBInspectable / IBDesignable](http://nshipster.cn/ibinspectable-ibdesignable/)：通过两者的配合，配置 NIB，XIB 或 storyboard 实例中的键值，所见即所得修改界面元素显示属性。尽管这样开发方式对于程序员来讲，并非那么地不可或缺。然而，对于设计师或美工来讲，则可以更多地参与界面开发，以有效提高实施效率。
 * [Swifty - Learn to code in Swift!](https://itunes.apple.com/us/app/swifty-learn-to-code-in-swift!/id886315617)：“这款叫 Swifty 的 iOS 应用可以模拟 Swift 代码环境，不知道实际效果如何？ By [@JailJT_MBlog](http://weibo.com/jailjumpt)”。虽然只是基础语法为主。不过这款应用能首先切入移动端教授 Swift 编程知识，还是很有意义的项目。
+* [diwu/LeetCode-Solutions-in-Swift](https://github.com/diwu/LeetCode-Solutions-in-Swift)：LeetCode 的 Swift 语言版解题方案。需要面试人的同学可以收录，被面试的同学则要补补功课了。P.S. 虽然相对于 LeetCode 题库完成比例还不高，不过，正好可以学着用 Swift 语言练练手。作者：[@diwup](http://weibo.com/diwup)
+* [lexrus/LeetCode.swift](https://github.com/lexrus/LeetCode.swift)：[@汤圣罡](http://weibo.com/lexrus) 版 LeetCode 算法解题方案。
+* [objc.io #23 Video － Core Image 和视频](http://objccn.io/issue-23-2/)：本文介绍如何通过 Core Image 框架结合视频信息进行应景渲染，从而让视频表现出各种奇妙效果。译者：[@高考这件尛事](http://weibo.com/yuanjingkeji) P.S. 上上期（#21 Photo）着重于介绍图片的处理，本期又专注于介绍视频处理。objc 真是一个懂开发者的好网站。
+* Auto Layout 使用心得（[1. 初体验](http://lvwenhan.com/ios/430.html)；[2. 实现三等分](http://lvwenhan.com/ios/431.html)；[3. 自定义 cell 并使用 Auto Layout](http://lvwenhan.com/ios/441.html)；4. [22 行代码实现拖动回弹](http://lvwenhan.com/ios/442.html)；[5. 根据文字、图片自动计算 UITableViewCell 高度](http://lvwenhan.com/ios/449.html)）：这是我见过最为细致入微介绍自动布局及快速入门的中文教程。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)。
+* 再造 “手机QQ” 侧滑菜单（[1. 实现侧滑效果](http://lvwenhan.com/ios/445.html)；[2. 高仿左视图](http://lvwenhan.com/ios/446.html)；[3. 视图联动](http://lvwenhan.com/ios/447.html)）：通过简单直接的代码，实现了完整的动画效果。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)，示例项目：[SwiftSideslipLikeQQ](https://github.com/johnlui/SwiftSideslipLikeQQ)
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建 Today 扩展时可能碰到的一些问题。
@@ -389,6 +394,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [iSame7/Panoramic](https://github.com/iSame7/Panoramic)：该项目通过 Core Motion 实现了变换角度移动手机时，使图片显示产生对应位置及角度的变换。从而达到了具有现场感的图片浏览功能。
 	* [gavinbunney/Toucan](https://github.com/gavinbunney/Toucan)：小而美的图片变换及处理类（支持：resize, clip, crop, scale, Ellipse Mask, Rounded Rect Mask, Image Mask）。功能略有超预期的感觉。
 	* [schwa/SwiftGraphics](https://github.com/schwa/SwiftGraphics)：一个易学、易用的绘图工具库封装。作者很勤劳，项目正在持续更新中。
+	* [contentful-labs/Concorde](https://github.com/contentful-labs/Concorde)：一个可用于下载和解码渐进式 JPEG 的库。特定场合很有用。类库的调用方法也很自然、方便。
 
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB)："This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
@@ -490,6 +496,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [inFullMobile/WobbleView](https://github.com/inFullMobile/WobbleView)：当界面组件过渡时，带波纹摆动效果的组件扩展实现类及示例项目。
 	* [cjwirth/RichEditorView](https://github.com/cjwirth/RichEditorView)：一套可定制富文本编辑器组件及示例。功能完整、代码简练、实现逻辑巧妙（编辑器核心与 WebView 结合，采用 HTML5 contentEditable 编辑模式，执行JS 配套命令 execCommand 实现富文本编辑功能）。
 	* [SemperIdem/MKMapView-Extension](https://github.com/SemperIdem/MKMapView-Extension)：“在用 	MapKit 的时候发现MKMapView缺少了极其重要的 ZoomLevel 这一个功能，因此便参照了网上的一些OC例程写了一个Swift版本的扩展，允许开发者获取当前地图的缩放级别和设置缩放级别。By [@星夜暮晨](http://weibo.com/moonisky)”。
+	* [didierbrun/DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)：基于路径模型的手势识别工具（仅一个核心类）。妙处在于作者通过示例项目设置好 A-Z 字母的路径模型后，可以进行相应的手写识别。尽管它可能无法替代专业的手写识别输入，不过对于普通的手势识别还是搓搓有余了。
+	* [Yalantis/GuillotineMenu](https://github.com/Yalantis/GuillotineMenu)：正如其项目名字一样，这是一款极具创意及突破精神的动画演示项目。P.S. 这家公司（Yalantis）做动画，尤其界面特效出神入化。且 iOS / Android 通吃。
 
 
 * 测试相关
@@ -592,6 +600,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X 上另一款非常受欢迎的轻量级，可高度自定义的编辑器。
 * [RunSwift](http://www.runswiftlang.com/):正在犹豫是否入手苹果电脑开始一段 Swift 编程旅程的同学们，或仅仅为了试验一段简单 Swift 代码又懒得打开 Xcode，可以试试这款 Web 版 Swift 编译环境 RunSwift。
 * [InfinitApps - Bezel](http://infinitapps.com/bezel)：“嫌 Xcode 6 目前提供的 Watch 模拟器不够直观？Bezel 是一个用于视觉预览 WatchKit 所开发程序效果的小工具，前提是你安装了 xScope 软件（Mac端）或 xScopeMirror（iPhone端）。 By [@WatchKit开发](http://weibo.com/twios)”
+* [Markdown -> Playground](https://github.com/jas/playground)：该开源项目可将内含有 Swift 代码的 Markdown 自动转换为 Xcode Playgrounds 文件。喜欢用 Markdown 编辑的同学很激动吧。P.S. 这款工具写于 NodeJS，原因作者有交待。
 
 ### 2. 代码管理
 * [GitHub](http://github.com/)：声望日盛的资源分享之地。
@@ -638,6 +647,7 @@ _开放平台相对于 Swift 语言更具战略意义，这是开发者不得不
 
 ### <a id="open_utilities"></a>3. 实用资源
 * [google/material-design-icons](https://github.com/google/material-design-icons) ：对于喜欢 Material Design 风格的同学，这是难得好资源。Google 提供了极为完整的各种图标（包含 iOS 各种精度及 SVG）设计资源。
+* [全唐诗数据库](https://github.com/hxgdzyuyi/tang_poetry)：SQLite 数据库脚本。
 
 ---
 ## 媒体文章
@@ -738,6 +748,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [WatchKit 数据共享 － 谨慎使用 NSFileCoordinator 和 NSFilePresenter](http://natashatherobot.com/watchkit-nsfilecoordinator-nsfilepresenter/)：Natasha 教你如何深入理解 iOS 与 WatchKit 应用数据共享问题，并采用最有效方法开发，以避免陷入坑中。 P.S. 话说这位俄国妹子学习方法及能力真得很强，非常值得同学们学习。
 	* [WatchKit FAQ](http://www.cocoachina.com/ios/20150323/11396.html)：“翻译自 Raywenderlich 的一篇译文，这篇WatchKit FAQ解答了一系列在社区、Twitter、邮件以及Stack Overflow上问的比较频繁的问题，包括基础问题，进阶问题、动画、调试和单元测试以及货币化的一些问题（译者:YueWang） By [@CocoaChina](http://weibo.com/cocoachina)”。
 	* [Apple Watch平台认知与产品设计](http://www.beforweb.com/node/695)：长文。引子部分略显拖沓， Watch 交互设计介绍及应用场景探讨部分值得一读。个人感觉，仅供参考。
+	* [在 WatchKit 应用里使用 Realm 的教程](https://realm.io/news/tutorial-sharing-data-between-watchkit-and-your-app/)：是一份很完整的教程。文章附了[完整示例代码](https://github.com/FancyPixel/done-swift)。 P.S. Realm 是志向代替 Core Data 和 SQLite 的移动数据库，它的特点是轻量、低耦、面向对象。
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。

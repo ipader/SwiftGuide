@@ -77,6 +77,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [WatchKit 数据共享 － 谨慎使用 NSFileCoordinator 和 NSFilePresenter](http://natashatherobot.com/watchkit-nsfilecoordinator-nsfilepresenter/)：Natasha 教你如何深入理解 iOS 与 WatchKit 应用数据共享问题，并采用最有效方法开发，以避免陷入坑中。 P.S. 话说这位俄国妹子学习方法及能力真得很强，非常值得同学们学习。
 	* [WatchKit FAQ](http://www.cocoachina.com/ios/20150323/11396.html)：“翻译自 Raywenderlich 的一篇译文，这篇WatchKit FAQ解答了一系列在社区、Twitter、邮件以及Stack Overflow上问的比较频繁的问题，包括基础问题，进阶问题、动画、调试和单元测试以及货币化的一些问题（译者:YueWang） By [@CocoaChina](http://weibo.com/cocoachina)”。
 	* [Apple Watch平台认知与产品设计](http://www.beforweb.com/node/695)：长文。引子部分略显拖沓， Watch 交互设计介绍及应用场景探讨部分值得一读。个人感觉，仅供参考。
+	* [在 WatchKit 应用里使用 Realm 的教程](https://realm.io/news/tutorial-sharing-data-between-watchkit-and-your-app/)：是一份很完整的教程。文章附了[完整示例代码](https://github.com/FancyPixel/done-swift)。 P.S. Realm 是志向代替 Core Data 和 SQLite 的移动数据库，它的特点是轻量、低耦、面向对象。
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。
