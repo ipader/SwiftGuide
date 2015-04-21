@@ -42,6 +42,7 @@
 [SemverKit](https://github.com/nomothetis/SemverKit)|[Alexandros Salazar](https://github.com/nomothetis)|基于语义化版本规范 2.0.0 版本号的解析类库
 [Punctual.swift](https://github.com/harlanhaskins/Punctual.swift)|[Harlan](https://github.com/harlanhaskins)|日期访问及操作更加自然语言化
 [Parsimmon](https://github.com/ayanonagon/Parsimmon)|[Ayaka Nonaka](https://github.com/ayanonagon)|小而美的自然语言分析工具包，参考 [NSLinguistic​Tagger](http://nshipster.cn/nslinguistictagger/)
+[SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类
 
 * <a id="storage"></a>存储类
 
