@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-19，最近收录项目 LeetCode-Solutions-in-Swift，Concorde，DBPathRecognizer，GuillotineMenu, SwiftPriorityQueue 等 5 个，合计已收录 86 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-26，最近收录项目 Result, SwiftPriorityQueue, Project-RainMan 等 3 个，合计已收录 89 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -43,6 +43,8 @@
 [Punctual.swift](https://github.com/harlanhaskins/Punctual.swift)|[Harlan](https://github.com/harlanhaskins)|日期访问及操作更加自然语言化
 [Parsimmon](https://github.com/ayanonagon/Parsimmon)|[Ayaka Nonaka](https://github.com/ayanonagon)|小而美的自然语言分析工具包，参考 [NSLinguistic​Tagger](http://nshipster.cn/nslinguistictagger/)
 [SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类
+[Result](https://github.com/antitypical/Result)|[Antitypical](https://github.com/antitypical)|精巧实用的 success/failure 小类库
+[SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类（二进制堆）
 
 * <a id="storage"></a>存储类
 
@@ -134,6 +136,7 @@
 [LayerPlayer](https://github.com/scotteg/LayerPlayer)|[Scott Gardner](https://github.com/scotteg)|全面展示核心动画 API 示例项目
 [COBezierTableView](https://github.com/knutigro/COBezierTableView)|[Knut Inge Grosland](https://github.com/knutigro)|编辑 Bezier 曲线四点位置设置及动画演示
 [MetalParticles](https://github.com/FlexMonkey/MetalParticles)|[simon gladman](https://github.com/FlexMonkey)|超强计算、极致渲染，发挥 GPU 最高效能 Metal 示例项目
+[Project-RainMan](https://github.com/Mav3r1ck/Project-RainMan)|[Aaron](https://github.com/Mav3r1ck)|采用 Forcast.io API 的天气预报应用
 
 * <a id="projects"></a>完整应用
 
