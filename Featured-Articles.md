@@ -25,6 +25,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [面向轨道编程 - Swift 中的异常处理](http://blog.callmewhy.com/2015/04/20/error-handling-in-swift/)：学习笔记。轨道方案巧妙又富有成效。作者：[@请叫我汪二](http://weibo.com/small1030light)
 * [使用状态机的好处](https://github.com/nixzhu/dev-blog/blob/master/2015-04-23-state-machine.md)：“你写过最复杂的控件是什么样？它根据用户的操作，是否会有不同的“状态”？了解一点状态机，就易于理清逻辑，能写出可维护性较好的代码”。P.S. 好文。状态机让代码可读性更高了。同时通过对状态的有效管理，加强了应用的健壮性。作者：[@nixzhu](http://weibo.com/nixzhu)
 * Swift 开发经验小技巧：1. [如何正确地定义一个类变量（和类常量）](http://imtx.me/archives/1916.html)；2. [用 Optional 来避免异常指针问题](http://imtx.me/archives/1920.html)；3. [如何用 Swift 思维设计网络请求](http://imtx.me/archives/1921.html)；4. [正确地启用 Logging 机制](http://imtx.me/archives/1924.html)。作者：[@图拉鼎](http://weibo.com/tualatrix)
+* [Swift 中的 UIKit 重力学（一](http://www.devtalking.com/articles/swift-uikit-dynamics-1/)、[二](http://www.devtalking.com/articles/swift-uikit-dynamics-1/)）：通过 UIKit Dynamics 和 Motion Effects 两大利器实现具有重力效应的界面元素教程。来源：Ray Wenderlich，译者：[@DevTalking](http://weibo.com/jacefu)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
