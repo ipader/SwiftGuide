@@ -553,6 +553,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [philcn/Auto-Layout-Showcase](https://github.com/philcn/Auto-Layout-Showcase)：几项常用自动布局技巧示例代码及演示。搭建简单应用够使了。
 * [FlexMonkey/MetalParticles](https://github.com/FlexMonkey/MetalParticles)：超强计算、极致渲染，发挥 GPU 最高效能 Metal 框架演示项目。P.S. Metal 框架是并驾于 OpenGL ES 的底层图形计算接口。相比于 OpenGL，它甚至更底层、更接近 GPU。它是需求超强计算及渲染性能要求的游
 戏平台不二之选。
+* [Mav3r1ck/Project-RainMan](https://github.com/Mav3r1ck/Project-RainMan)：一款很酷的天气预报应用。Forcast.io 提供的天气预报 API 很赞。
 
 ### <a id="projects"></a>3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift)：用 Swift 语言实现的 FlappyBird
