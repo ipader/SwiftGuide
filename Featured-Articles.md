@@ -1,6 +1,9 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。逐步整理中...
 
+### 苹果官方
+* Swift REPL（Read - Eval - Print Loop） － 1. 入门介绍 http://idlelife.org/archives/842，2. 一切皆可重定义 http://www.cocoachina.com/ios/20150212/11147.html：习惯命令行式、解释型语言风格实时预览代码运行结果的同学，这两篇来自苹果官方博客的文章不容错过。译者：@pockry / @MichealGeng
+
 ### 教程和指南
 * [Alamofire - 1. 基础教程](http://www.jianshu.com/p/f1208b5e42d9)，[2. 进阶教程](http://www.jianshu.com/p/30599f64a09c)：该系列教程通过示例项目分步骤详细介绍了 Alamofire 网络库的使用技巧。Alamofire 是 Mattt Thompson 为其著名的 AFNetworking 采用 Swift 重写的网络库。来源：Ray Wenderlich，作者：Essan Parto，译者：[@星夜暮晨](http://weibo.com/u/3227937731)
 * [如何用 Swift 语言构建一个自定控件](http://beyondvincent.com/2014/08/28/2014-08-27-How-To-Make-a-Custom-Control-in-Swift/)：本文通过讲解如何编写一款两端都可以滑动（以获取最大值及最小值）的 RangeSlider 自定义控件（功能相当于两个 UISlider），让初学者真正地理解其开发步骤和方法，体验其中乐趣。来源：Ray Wenderlich，译者：[@BeyondVincent](http://weibo.com/beyondvincent)
@@ -12,12 +15,12 @@
 * [Swift 的函数式 API](http://objccn.io/issue-16-4/)：“一篇质量非常高的译文，用很简明的例子从基础开始阐述了 Swift 中函数式 API 的思想。这是一片 Swift 带来的新天地，真心推荐一看。By [@onevcat](http://weibo.com/onevcat) ”。译者：[@请叫我汪二](http://weibo.com/small1030light)
 * [CMDevice​Motion](http://segmentfault.com/a/1190000002400742)：关于传感器框架的解读及使用方法的介绍。让开发者对如何使用三轴陀螺仪、加速感应器、运动协处理器及框架有个基本了解。此外，文章更重要的是启发开发者如何采用传感器结合各种场景开发新颖好玩的应用。来源：[@SegmentFault](http://weibo.com/segmentfault)，译者：Cruise Chan
 * [理解 iOS 8 中的 Photo Editing Extension](http://www.cocoachina.com/ios/20150122/10978.html)：“我们一起来看看怎样制作一个 Photo Editing Extension。由于我们的关注点在创建应用程序扩展而不是写一个完整的应用，我已经创建了一个你们可以下载并且一路跟着做的上手项目...”。来源：AppCoda，译者：[@X140Yu](http://weibo.com/272255634)
+* Swift编程风格指南－[Ray Wenderlich 版](http://letsswift.com/2014/07/swift-style-guide/)，[GitHub 版](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)：编程风格指南的目标是让 Swift 代码更简洁、可读性更强。
 * [iOS设计指南](http://www.ui.cn/project.php?id=32167)：非官方文档，不过原文《[The iOS 
 Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS Human Interface Guidelines》进行解读介绍。非常值得收藏。原作者 Ivo Mynttinen，是一位来自德国的年轻 UI 设计师。其个人博客网站也值得同学们收录：[ivomynttinen.com](http://ivomynttinen.com)。译者：[@shengbanx](http://weibo.com/banxing1)
 * [Facebook React Native 中文教程](http://wiki.jikexueyuan.com/project/react-native/)：“Facebook 在 [React.js Conf 2015 大会](http://conf.reactjs.com/)上推出了基于 JavaScript 的开源框架 [React Native](http://facebook.github.io/react-native/)，本中文教程翻译自 [React Native 官方文档](http://facebook.github.io/react-native/docs/getting-started.html)”。译者：[@极客学院_jikexueyuan](http://weibo.com/jikexueyuan)
 * [Google 地图 SDK 入门教程]()：“在本文中我们将要学习的：①如何在地图上显示用户当前位置②如何定位自定义地址③如何绘制路径④如何在路径中添加中间点（路径点）等”。非常完整、实用的 Google 地图基础教程。完整示例：[google-maps-api-demo](https://github.com/appcoda/google-maps-api-demo)，来源：[AppCoda](http://www.appcoda.com/google-maps-api-tutorial)，译者：[@CocoaChina](http://weibo.com/cocoachina)和[百度智客联盟](http://maker.baidu.com/)共同翻译。
 * Auto Layout 使用心得（[1. 初体验](http://lvwenhan.com/ios/430.html)；[2. 实现三等分](http://lvwenhan.com/ios/431.html)；[3. 自定义 cell 并使用 Auto Layout](http://lvwenhan.com/ios/441.html)；4. [22 行代码实现拖动回弹](http://lvwenhan.com/ios/442.html)；[5. 根据文字、图片自动计算 UITableViewCell 高度](http://lvwenhan.com/ios/449.html)；[6. 制造炫酷的下拉刷新动画](http://lvwenhan.com/ios/450.html)）：细致入微介绍自动布局及快速入门的中文教程。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)。
-
 * 视频教程
 	* [1. 基础篇－使用 Swift 开发 iOS8 应用实战](http://www.imooc.com/view/173)，[2. 进阶篇－Swift Weather APP](http://www.imooc.com/view/149)：实战学习是最有效的编程学习方法。该系列视频教程通过不同的案例，由浅入深地介绍 iOS 应用开发方法。来源：[@慕课网](http://weibo.com/mukewang)，讲师：[@林永坚Jake](http://weibo.com/yongjianlin)
 	*  WWDC 视频：1. Swift 入门（[A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)）；2. Swift 进阶（[A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)）；3. Swift 版本升级补录补丁（[A001.Patch](http://v.youku.com/v_show/id_XNzg1MTM2NDEy.html?f=22361976)，[A002.Patch](http://v.youku.com/v_show/id_XNzg1MTQ2MDY0.html?f=22519841)）。翻译：[@赵哲A](http://weibo.com/zhaozhecleric)
@@ -29,6 +32,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [使用状态机的好处](https://github.com/nixzhu/dev-blog/blob/master/2015-04-23-state-machine.md)：“你写过最复杂的控件是什么样？它根据用户的操作，是否会有不同的“状态”？了解一点状态机，就易于理清逻辑，能写出可维护性较好的代码”。P.S. 好文。状态机让代码可读性更高了。同时通过对状态的有效管理，加强了应用的健壮性。作者：[@nixzhu](http://weibo.com/nixzhu)
 * Swift 开发经验小技巧：1. [如何正确地定义一个类变量（和类常量）](http://imtx.me/archives/1916.html)；2. [用 Optional 来避免异常指针问题](http://imtx.me/archives/1920.html)；3. [如何用 Swift 思维设计网络请求](http://imtx.me/archives/1921.html)；4. [正确地启用 Logging 机制](http://imtx.me/archives/1924.html)。作者：[@图拉鼎](http://weibo.com/tualatrix)
 * [Swift 中的 UIKit 重力学（一](http://www.devtalking.com/articles/swift-uikit-dynamics-1/)、[二](http://www.devtalking.com/articles/swift-uikit-dynamics-1/)）：通过 UIKit Dynamics 和 Motion Effects 两大利器实现具有重力效应的界面元素教程。来源：Ray Wenderlich，译者：[@DevTalking](http://weibo.com/jacefu)
+* [在 iOS8 创建一个交互性强的本地通知](http://www.cocoachina.com/ios/20150112/10901.html)：“iOS 8里，通知加入了新特性。开发者可以指定用户可触发的具体的动作，而且甚至不用启动应用也可以处理这个通知。本文详细讲解了如何开发一个互动性强的本地通知”。附：[完整示例](https://github.com/iBenjamin/ShoppingAlertFinal)，译者：[@iBenjamin_Go](http://weibo.com/u/2771490773)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -41,6 +45,8 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * 三篇优秀的 WatchKit 初探：分别来自 [Ray Wenderlich－WatchKit 初探](http://www.devtalking.com/articles/watchkit-initial-impressions/)（译者：@DevTalking），[Mattt Thompson－WatchKit](http://nshipster.cn/watchkit/)（译者：Bob Liu），[王巍－ Apple WatchKit 初探](http://onevcat.com/2014/11/watch-kit/)（作者：@onevcat）。
 * WatchKit Storyboard攻略：1. [开发基础与小技巧](http://weibo.com/p/1001603783085996013229)；2. [Glance 示例介绍](http://weibo.com/p/1001603787367470257327)；3. [Notification 视图相关](http://weibo.com/p/1001603792803355322322)。作者：[@WatchKit开发](http://weibo.com/twio)
 * [详解Xcode 6的视图调试](http://www.cocoachina.com/ios/20150423/11658.html)：教程非常实用，值得学习。另外，教程选用的开源项目（[jessesquires/JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)）也很经典。来源：Ray Wenderlich，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组
+* [案例学习 - 为Apple Watch简化现有产品的设计思路](http://www.beforweb.com/node/709)：文章讲述了一款导航应用在 Apple Watch 上的设计及思考过程。P.S. 来自 [@BeForWeb](http://weibo.com/beforweb) 的译文学习及思考性很强，目前读者虽然更倾向于产品经理、用户体验设计师或工程师。感兴趣产品体验的开发者，建议多关注。译者：[@C7210](http://weibo.com/c7210)
+* [74 个 Swift 标准库函数](http://letsswift.com/2014/06/74-swift-library-functions/)："Swift 包含了 74 个内置函数，但在 The Swift Programming Langage 一书中只介绍了其中的 7 个，其它的都没有在文档中体现。文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果"。译者：[@李洁信](http://weibo.com/u/1780854425)
 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。

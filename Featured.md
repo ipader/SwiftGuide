@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-26，最近收录项目 Result, SwiftPriorityQueue, Project-RainMan 等 3 个，合计已收录 89 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-5-3，最近收录项目 MarkdownTextView, Timepiece, SingleLineShakeAnimation, Circular-Progress-View, androidtool-mac, X 等 6 个，合计已收录 95 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -41,6 +41,7 @@
 [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)|[Marcin Krzyzanowski](https://github.com/krzyzanowskim)|Crypto 算法及相关功能类库
 [SemverKit](https://github.com/nomothetis/SemverKit)|[Alexandros Salazar](https://github.com/nomothetis)|基于语义化版本规范 2.0.0 版本号的解析类库
 [Punctual.swift](https://github.com/harlanhaskins/Punctual.swift)|[Harlan](https://github.com/harlanhaskins)|日期访问及操作更加自然语言化
+[naoty/Timepiece](https://github.com/naoty/Timepiece)|[Naoto Kaneko](https://github.com/naoty)|日期加减运算、初始设置、变更以及格式解析
 [Parsimmon](https://github.com/ayanonagon/Parsimmon)|[Ayaka Nonaka](https://github.com/ayanonagon)|小而美的自然语言分析工具包，参考 [NSLinguistic​Tagger](http://nshipster.cn/nslinguistictagger/)
 [SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类
 [Result](https://github.com/antitypical/Result)|[Antitypical](https://github.com/antitypical)|精巧实用的 success/failure 小类库
@@ -93,6 +94,7 @@
 [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS)|[Viktor Radchenko](https://github.com/vikmeup)|带动画效果弹窗封装类
 [AnimatedTabBar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库
 [KYCircularProgress](https://github.com/kentya6/KYCircularProgress)|[Kengo YOKOYAMA](https://github.com/kentya6)|简单、实用路径可定进程条
+[Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)|[Wagner Truppel](https://github.com/wltrup)|小而精悍地可定制类似 Apple Watch 圆型进程条组件
 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)|[Fahim Farook](https://github.com/FahimF)|Float Label Pattern 浮动标签输入效果类
 [MapManager](https://github.com/varshylmobile/MapManager)|[Jimmy Jose](https://github.com/varshylmobile)|地图及路径管理封装库
 [LineChart](https://github.com/zemirco/swift-linechart)|[Mirco Zeiss](https://github.com/zemirco)|功能完整、实用的折线图组件
@@ -105,8 +107,10 @@
 [SABlurImageView](https://github.com/szk-atmosphere/SABlurImageView)|[szk-atmosphere](https://github.com/szk-atmosphere)|支持渐变动画效果的图像模糊化类库
 [WobbleView](https://github.com/inFullMobile/WobbleView)|[inFullMobile](https://github.com/inFullMobile)|当界面组件过渡时，带波纹摆动效果的组件扩展
 [RichEditorView](https://github.com/cjwirth/RichEditorView)|[Caesar Wirth](https://github.com/cjwirth)|一套可定制富文本编辑器组件及示例（基于 HTML5）
+[MarkdownTextView](https://github.com/indragiek/MarkdownTextView)|[Indragie Karunaratne](https://github.com/indragiek)|非常轻量、简洁、高效的 Markdown 编辑组件及示例
 [DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)|[Didier Brun](https://github.com/didierbrun)|基于路径模型的手势识别工具
 [GuillotineMenu](https://github.com/Yalantis/GuillotineMenu)|[Yalantis](https://github.com/Yalantis)|极具创意及突破精神的动画演示
+[SingleLineShakeAnimation](https://github.com/haaakon/SingleLineShakeAnimation)|[Håkon Bogen](https://github.com/haaakon)|用一行代码给视图加上抖动效果
 
 * <a id="framework"></a>框架类
 
@@ -119,6 +123,7 @@
 [MotionKit](https://github.com/MHaroonBaig/MotionKit)|[Haroon Baig](https://github.com/MHaroonBaig)|方便使用三轴陀螺仪、加速感应器及磁力仪
 [Jetstream](https://github.com/uber/jetstream-ios)|[Uber](https://github.com/uber)| 支持多用户实时通讯的 MVC 框架
 [JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)|[Jesse Squires](https://github.com/jessesquires)|轻量、易用的通知发送及响应框架类库
+[X](https://github.com/soffes/X)|[Sam Soffes](https://github.com/soffes)|iOS/OS X 平台统一开发类库
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -148,3 +153,4 @@
 [SwiftWeather](https://github.com/JakeLin/SwiftWeather)|[Jake Lin](http://weibo.com/yongjianlin/)|清新淡雅持续改进天气预报项目
 [VPNOn](https://github.com/lexrus/VPNOn)|[Lex Tang](http://weibo.com/lexrus)|驻在通知中心内的 VPN 开关应用	
 [LeetCode-Solutions](https://github.com/diwu/LeetCode-Solutions-in-Swift)|[@diwup](http://weibo.com/diwup)|LeetCode 的 Swift 语言版解题方案
+[androidtool-mac](https://github.com/mortenjust/androidtool-mac)|[Morten Just](https://github.com/mortenjust)|在 Mac 上使用的 Android 工具（一键截屏, 视频录制, APK 安装等）

@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。希望快速找到其中精选文章，可以访问[《Swift 文章精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-4-26，更新内容详见[《2015-4-26 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-04-26.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-5-3，更新内容详见[《2015-5-3 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-05-03.md)</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -244,6 +244,8 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [objc.io #23 Video － Core Image 和视频](http://objccn.io/issue-23-2/)：本文介绍如何通过 Core Image 框架结合视频信息进行应景渲染，从而让视频表现出各种奇妙效果。译者：[@高考这件尛事](http://weibo.com/yuanjingkeji) P.S. 上上期（#21 Photo）着重于介绍图片的处理，本期又专注于介绍视频处理。objc 真是一个懂开发者的好网站。
 * Auto Layout 使用心得（[1. 初体验](http://lvwenhan.com/ios/430.html)；[2. 实现三等分](http://lvwenhan.com/ios/431.html)；[3. 自定义 cell 并使用 Auto Layout](http://lvwenhan.com/ios/441.html)；4. [22 行代码实现拖动回弹](http://lvwenhan.com/ios/442.html)；[5. 根据文字、图片自动计算 UITableViewCell 高度](http://lvwenhan.com/ios/449.html)）：这是我见过最为细致入微介绍自动布局及快速入门的中文教程。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)。
 * 再造 “手机QQ” 侧滑菜单（[1. 实现侧滑效果](http://lvwenhan.com/ios/445.html)；[2. 高仿左视图](http://lvwenhan.com/ios/446.html)；[3. 视图联动](http://lvwenhan.com/ios/447.html)）：通过简单直接的代码，实现了完整的动画效果。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)，示例项目：[SwiftSideslipLikeQQ](https://github.com/johnlui/SwiftSideslipLikeQQ)
+* 在 iOS 应用中添加广告－[添加 iAD 广告](http://blog.csdn.net/li962429707/article/details/45291937)，[添加admob广告](http://blog.csdn.net/li962429707/article/details/45334957)：“实用教程。学自YouTube（一个神奇的网站）”。P.S. 虽然个人不喜欢应用内插广告，不过，作为一个服务类微博，不能任性。
+* [Searching on a Map View in iOS8 with Swift](http://www.ioscreator.com/tutorials/searching-map-view-ios8-swift)：地图上搜索指定区域内的酒店和博物馆并显示的教程及示例。来源：iOScreator，附：[完整示例](https://github.com/ioscreator/ioscreator/tree/master/IOS8SwiftSearchMapTutorial)。 P.S. 话说 iOScreator 教程示例库真多，不信你可以移步[这里看看](https://github.com/ioscreator/ioscreator)。
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建 Today 扩展时可能碰到的一些问题。
@@ -268,6 +270,7 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [面向轨道编程 - Swift 中的异常处理](http://blog.callmewhy.com/2015/04/20/error-handling-in-swift/)：学习笔记。轨道方案巧妙又富有成效。作者：[@请叫我汪二](http://weibo.com/small1030light)
 * [使用状态机的好处](https://github.com/nixzhu/dev-blog/blob/master/2015-04-23-state-machine.md)：“你写过最复杂的控件是什么样？它根据用户的操作，是否会有不同的“状态”？了解一点状态机，就易于理清逻辑，能写出可维护性较好的代码”。P.S. 好文。状态机让代码可读性更高了。同时通过对状态的有效管理，加强了应用的健壮性。作者：[@nixzhu](http://weibo.com/nixzhu)
 * Swift 开发经验小技巧：1. [如何正确地定义一个类变量（和类常量）](http://imtx.me/archives/1916.html)；2. [用 Optional 来避免异常指针问题](http://imtx.me/archives/1920.html)；3. [如何用 Swift 思维设计网络请求](http://imtx.me/archives/1921.html)；4. [正确地启用 Logging 机制](http://imtx.me/archives/1924.html)。作者：[@图拉鼎](http://weibo.com/tualatrix)
+* [用 Swift 实现轻量的属性监听系统](https://github.com/nixzhu/dev-blog/blob/master/2015-04-30-property-listener.md)：“本文的目的是（优雅的）解决“模型的一处修改，UI 要多处更新”的问题。为此，我们会使用一些新技术，在对比中看看它们能给我们带来什么好处”。作者：[@nixzhu](http://weibo.com/nixzhu)
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -327,10 +330,13 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [一些国外知名app用到的 iOS 第三方框架](http://www.jianshu.com/p/c5b0eb58b878)：针对 Paper 第三方库的补充非常赞。当然，这其中 [@糖炒小虾_txx](http://weibo.com/rpplusplus) 的[『Facebook Paper使用的第三方库』](http://blog.txx.im/blog/2014/02/11/facebook-paper-used-3rd/) 是点睛之笔。
 * [念叨 - 关于Sketch、Origami、Swift及Apple Watch](http://www.beforweb.com/node/697)：念叨得不错，文章标题或许取『与 Sketch 相关的那点事』更好。
 * [『Objective-C GitHub 排名前 100 项目简介』](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md)
-* [“My Biggest WatchKit Mistake”](http://realm.io/news/watchkit-mistakes/)：看看国外知名开发者在使用 WatchKit 开发应用时犯过哪些最大的错误。前人的错误及教训就是我们宝贵的经验积累。
+* [“My Biggest WatchKit Mistake”](http://realm.io/news/watchkit-mistakes/)：看看国外知名开发者在使用 WatchKit 开发应用时犯过哪些最大的错误。前人的错误及教训就是我们宝贵的经验积累。[“More WatchKit Mistakes”](http://realm.io/news/more-watchkit-mistakes/)
+* [当你产品上架 AppStore 会遇到 10 个大坑](http://zhuanlan.zhihu.com/100000PM/20010725)：“相信大家一定非常「深恶痛疾」AppStore的一系列产品上架规则。每次产品上架，一定要折腾很久，让人蛋疼。所以特此发起本期沙龙，为大家带来一些经验”。
 * [Swift extension 的三项细节](http://www.andrewcbancroft.com/2015/04/22/3-nuances-of-swift-extensions/)：相对于其它主流面向对象编程语言，Swift extension 访问控制与之有着细微的不同之处。比如同一个.swift 文件中不同类/结构间是可以访问 private 属性值的。而 Java, C# 等不同类间显然不能访问其 private 属性。
 * [Facebook React Native 中文教程](http://wiki.jikexueyuan.com/project/react-native/)：“Facebook 在 [React.js Conf 2015 大会](http://conf.reactjs.com/)上推出了基于 JavaScript 的开源框架 [React Native](http://facebook.github.io/react-native/)，本中文教程翻译自 [React Native 官方文档](http://facebook.github.io/react-native/docs/getting-started.html)”。译者：[@极客学院_jikexueyuan](http://weibo.com/jikexueyuan)
 * [EGOCache 源码解析](http://www.isaced.com/post-268.html)：很专业的解读。话说如此精简、广得人心的 Objective-C 类库，哪位同学抽空把它转为 Swift 吧。
+* [案例学习 - 为Apple Watch简化现有产品的设计思路](http://www.beforweb.com/node/709)：文章讲述了一款导航应用在 Apple Watch 上的设计及思考过程。P.S. 来自 [@BeForWeb](http://weibo.com/beforweb) 的译文学习及思考性很强，目前读者虽然更倾向于产品经理、用户体验设计师或工程师。感兴趣产品体验的开发者，建议多关注。译者：[@C7210](http://weibo.com/c7210)
+* [案例学习 - 为Soundwave设计Watch应用时学到的五件事](http://www.beforweb.com/node/701)：“Soundwave已经在iOS及Android平台上发展了将近两年。我(英文原文作者)最近有幸得到机会，能够为Apple Watch版本的Soundwave进行UI与交互设计，并在这个过程当中学到了一些很关键的东西...”。译者：[@C7210](http://weibo.com/c7210)
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -392,6 +398,10 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [nomothetis/SemverKit](https://github.com/nomothetis/SemverKit)：针对符合『语义化版本规范 2.0.0』版本号的解析、比较运算类库。不仅支持 Major, Minor, Patch，还支持 Alpha 和 Beta 预发布版本，以及相应地递增运算扩展。
 	* [harlanhaskins/Punctual.swift](https://github.com/harlanhaskins/Punctual.swift)：通过一系列基础数据类型扩展，使日期访问及操作更加自然语言化。若没有动态语言化地超强扩展及定制能力，如此优雅的日期操作是无法实现的。
 	* [ayanonagon/Parsimmon](https://github.com/ayanonagon/Parsimmon)：小而美的语言学类库封装工具包。提供分词、标记词性、词形归并、朴素贝页斯分类、决策树等自然语言分析小工具。P.S. 英语分词效果好于中文，感兴趣的同学可以针对中文做一些优化开发。参考译文 [NSHipster - NSLinguistic​Tagger](http://nshipster.cn/nslinguistictagger/)
+	* [soffes/X](https://github.com/soffes/X)：等不及苹果 iOS/OS X 平台统一的开发同学（Sam Soffes），启了一个项目，先将常用类库统一了。该项目刚开始，感兴趣的同学可以考虑参与其中。
+	* [naoty/Timepiece](https://github.com/naoty/Timepiece)：直观（自然语言化）的日期类扩展。它使日期加减运算、初始设置、日期变更以及基于指定格式解析转换变得方便、易读。P.S. 相比前一段时间推荐另一个类似日期库（Punctual.swift O网页链接）功能更丰富。
+	* [macoscope/SwiftyStateMachine](https://github.com/macoscope/SwiftyStateMachine)：应用好状态机，不仅提高程序可维护性，更大大增强了程序健壮性。
+	* [benzguo/MusicKit](https://github.com/benzguo/MusicKit)：一套音乐编辑及创作框架。懂音乐、玩音乐的同学值得拥有。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -401,6 +411,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [gavinbunney/Toucan](https://github.com/gavinbunney/Toucan)：小而美的图片变换及处理类（支持：resize, clip, crop, scale, Ellipse Mask, Rounded Rect Mask, Image Mask）。功能略有超预期的感觉。
 	* [schwa/SwiftGraphics](https://github.com/schwa/SwiftGraphics)：一个易学、易用的绘图工具库封装。作者很勤劳，项目正在持续更新中。
 	* [contentful-labs/Concorde](https://github.com/contentful-labs/Concorde)：一个可用于下载和解码渐进式 JPEG 的库。特定场合很有用。类库的调用方法也很自然、方便。
+	* [FlexMonkey/SnapSwift](https://github.com/FlexMonkey/SnapSwift)：一款 Snapseed 风格滤镜及参数编辑菜单。弹出菜单项后，上下、左右滑动即可调整滤镜参数。
 
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB)："This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
@@ -505,6 +516,10 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [didierbrun/DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)：基于路径模型的手势识别工具（仅一个核心类）。妙处在于作者通过示例项目设置好 A-Z 字母的路径模型后，可以进行相应的手写识别。尽管它可能无法替代专业的手写识别输入，不过对于普通的手势识别还是搓搓有余了。
 	* [Yalantis/GuillotineMenu](https://github.com/Yalantis/GuillotineMenu)：正如其项目名字一样，这是一款极具创意及突破精神的动画演示项目。P.S. 这家公司（Yalantis）做动画，尤其界面特效出神入化。且 iOS / Android 通吃。
 	* [aryaxt/ScrollPager](https://github.com/aryaxt/ScrollPager)：一款小巧、易用的页滚界面组件。结合 storyboard 及滚动视图，轻易实现拖拽页滚功能。
+	* [wltrup/iOS-Swift-Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)：小而精悍地可定制类似 Apple Watch 圆型进程条组件。该组件同时支持代码及 Interface Builder 两种使用方式。
+	* [haaakon/SingleLineShakeAnimation](https://github.com/haaakon/SingleLineShakeAnimation)：用一行代码给视图加上抖动效果。
+	* [indragiek/MarkdownTextView](https://github.com/indragiek/MarkdownTextView)：非常轻量、简洁、高效的 Markdown 编辑组件及示例。这样的开源项目太喜欢了。
+	* [nickoneill/PermissionScope](https://github.com/nickoneill/PermissionScope)：向用户请求 iOS 权限的封装组件。封装库 API 调用非常方便，调用代码也很精简。一个很好的“轮子”，值得收录。
 
 
 * 测试相关
@@ -554,6 +569,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [FlexMonkey/MetalParticles](https://github.com/FlexMonkey/MetalParticles)：超强计算、极致渲染，发挥 GPU 最高效能 Metal 框架演示项目。P.S. Metal 框架是并驾于 OpenGL ES 的底层图形计算接口。相比于 OpenGL，它甚至更底层、更接近 GPU。它是需求超强计算及渲染性能要求的游
 戏平台不二之选。
 * [Mav3r1ck/Project-RainMan](https://github.com/Mav3r1ck/Project-RainMan)：一款很酷的天气预报应用。Forcast.io 提供的天气预报 API 很赞。
+* [kongtomorrow/WatchTransition](https://github.com/kongtomorrow/WatchTransition)：模拟 Apple Watch 上的动画过渡效果。Objective-C 和 Swift 混搭开发学习参考。
 
 ### <a id="projects"></a>3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift)：用 Swift 语言实现的 FlappyBird
@@ -568,6 +584,9 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [jpsim/DeckRocket](https://github.com/jpsim/DeckRocket)：在相同 WiFi 网络环境内，通过 iPhone 控制并播放 Mac 中的 PDF 文档。ft 编译器崩溃的测试用例。这是一个疯狂又非常有意义的开源项目。可以定期关注一下。P.S. 该开源项目作者最新提示：Xcode 6.3 beta 与 Swift 1.2 已修复了其已发现编译器崩溃级缺陷的 83%。
 * [Carthage/Carthage](https://github.com/Carthage/Carthage)：更简单的方式来管理 Cocoa 第三方框架。有了 CocoaPods 为何还要使用 Carthage，作者在 README.md（[中译](http://www.cocoachina.com/ios/20141204/10528.html)） 已经做了充分说明。
 * [artsy/eidolon](https://github.com/artsy/eidolon)：艺术品拍卖的投标亭平台。作者提供了一个[很励志的开发故事](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/)：从商业创意到最终实现。心路历程从不开源到开源，从 Objective-C 到 Swift（去年夏天的事，现在当然是 Swift），以及选择时髦的反应式编程框架 ReactiveCocoa…… 
+* [mortenjust/androidtool-mac](https://github.com/mortenjust/androidtool-mac)：“一款用 Swift 写的可在 Mac 上使用的 Android 工具, 支持一键截屏, 视频录制, APK 安装等功能”。
+* [lexrus/JSCoreDemo](https://github.com/lexrus/JSCoreDemo)：“演示了一下怎样在 Swift 里用 JavaScriptCore 把原生功能桥接给 JS 用，代码少很容易理解”。简单、易懂的基础演示代码。P.S. 希望进阶学习的同学，这里有一个完整项目供参考 [RichEditorView](https://github.com/cjwirth/RichEditorView)：基于 HTML 5 的可定制富文本编辑器组件及示例。
+* [gilesvangruisen/Swift-YouTube-Player](https://github.com/gilesvangruisen/Swift-YouTube-Player)：用不了的同学就当学习吧。或参考并试着写个 Swift-(...)-Player。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是 #Workflow# 了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
