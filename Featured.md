@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-5-3，最近收录项目 MarkdownTextView, Timepiece, SingleLineShakeAnimation, Circular-Progress-View, androidtool-mac, X 等 6 个，合计已收录 95 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-5-10，最近收录项目 FontBlaster, Stargate, KFSwiftImageLoader, JGFlipMenu, ChineseTraditionalColors, ShinpuruLayout, TouchVisualizer 等 7 个，合计已收录 102 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -46,6 +46,7 @@
 [SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类
 [Result](https://github.com/antitypical/Result)|[Antitypical](https://github.com/antitypical)|精巧实用的 success/failure 小类库
 [SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类（二进制堆）
+[FontBlaster](https://github.com/ArtSabintsev/FontBlaster)|[Arthur Ariel Sabintsev](https://github.com/ArtSabintsev)|调用自定义字体封装类
 
 * <a id="storage"></a>存储类
 
@@ -62,6 +63,7 @@
 [Alamofire](https://github.com/Alamofire/Alamofire) |[Mattt Thompson](https://github.com/mattt)|著名的 AFNetworking 络基础库 Swift 语言版
 [starscream](https://github.com/daltoniam/starscream)|[Dalton](http://daltoniam.com)|WebSocket 客户端类库
 [APIKit](https://github.com/ishkawa/APIKit)|[Yosuke Ishikawa](https://github.com/ishkawa)|安全地可定制化网络请求基础类库
+[Stargate](https://github.com/contentful-labs/Stargate)|[contentful-labs](https://github.com/contentful-labs)|通过 iPhone 桥接实现 Mac 与 Watch 的即时通讯
 
 * <a id="pictures"></a>图片类
 
@@ -74,6 +76,7 @@
 [HanekeSwift](https://github.com/Haneke/HanekeSwift)|[Haneke](https://github.com/Haneke)|轻量带缓存高性能图片加载组件
 [SwiftColorArt](https://github.com/Jan0707/SwiftColorArt)|[Jan Gregor Triebel](https://github.com/Jan0707)|图片色系决定界面背景色及字体显示颜色
 [Concorde](https://github.com/contentful-labs/Concorde)|[contentful-labs](https://github.com/contentful-labs)|一个可用于下载和解码渐进式 JPEG 的库
+[KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader)|[Kiavash Faisali](https://github.com/kiavashfaisali)|极高性能、轻量、低功耗网络图片异步加载库
 
 * <a id="interfaces"></a>界面类
 
@@ -111,6 +114,9 @@
 [DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)|[Didier Brun](https://github.com/didierbrun)|基于路径模型的手势识别工具
 [GuillotineMenu](https://github.com/Yalantis/GuillotineMenu)|[Yalantis](https://github.com/Yalantis)|极具创意及突破精神的动画演示
 [SingleLineShakeAnimation](https://github.com/haaakon/SingleLineShakeAnimation)|[Håkon Bogen](https://github.com/haaakon)|用一行代码给视图加上抖动效果
+[JGFlipMenu](https://github.com/ziligy/JGFlipMenu)|[jeff greenberg](https://github.com/ziligy)|Flip 式菜单及其对应动画组件
+[ChineseTraditionalColors](https://github.com/zhxnlai/UIColor-ChineseTraditionalColors)|[Zhixuan Lai](https://github.com/zhxnlai)|中国传统颜色引用 UIColor 扩展
+[ShinpuruLayout](https://github.com/FlexMonkey/ShinpuruLayout)|[simon gladman](https://github.com/FlexMonkey)|通过水平和垂直分组模块实现简单、快速布局的组件库
 
 * <a id="framework"></a>框架类
 
@@ -124,6 +130,7 @@
 [Jetstream](https://github.com/uber/jetstream-ios)|[Uber](https://github.com/uber)| 支持多用户实时通讯的 MVC 框架
 [JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)|[Jesse Squires](https://github.com/jessesquires)|轻量、易用的通知发送及响应框架类库
 [X](https://github.com/soffes/X)|[Sam Soffes](https://github.com/soffes)|iOS/OS X 平台统一开发类库
+[TouchVisualizer](https://github.com/morizotter/TouchVisualizer)|[Morita Naoki](https://github.com/morizotter)|实用的多点触摸可视化组件
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目

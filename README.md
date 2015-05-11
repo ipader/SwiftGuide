@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 开源项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。希望快速找到其中精选文章，可以访问[《Swift 文章精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-5-3，更新内容详见[《2015-5-3 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-05-03.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-5-10，更新内容详见[《2015-5-10 收录周报》](https://github.com/ipader/SwiftGuide/blob/master/weekly/2015-05-10.md)</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -326,7 +326,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [跨平台开发时代的 (再次) 到来？](http://onevcat.com/2015/03/cross-platform/)：过程分析很精彩。然而，在跨平台开发技术仍未明朗之前，虽然作者也无法给出决定性结论。不过，考虑到 NativeScript 及 ReactNative 进取型发展，正如作者最后所讲：“提前学点儿 Javascript 总是不会出错的”。无论如何，文章非常值得一读。作者：[@onevcat](http://weibo.com/onevcat)
 * [关于 URL Scheme 劫持的漏洞](http://drops.wooyun.org/papers/5309)：“面对这个危险，app 暂且能做的很有限，只能检测，问题的主要原因是 URL Scheme 可以被任何 app 随意注册，长远来看需要苹果在这方面能有所改善。By [@你全家都快到碗里来](http://weibo.com/chinawangchen)”。解决方案：[0dayZh/ZDURLSchemeInspector](https://github.com/0dayZh/ZDURLSchemeInspector)
 * [NSHipster - NSCalendar Additions](http://nshipster.com/nscalendar-additions/)：文章介绍了 NSCalendar 及相关功能使用场景，剖解了相对于其它基本数据类型，苹果为具有更高复杂功能要求的日期类型所提供的强大的 API 支持。
-* [Facebook Paper使用的第三方库](http://blog.txx.im/blog/2014/02/11/facebook-paper-used-3rd/)：这对于开发一版 iOS 商业应用意义重大。By [@糖炒小虾_txx](http://weibo.com/rpplusplus) 
+* [Facebook Paper使用的第三方库](http://blog.txx.im/blog/2014/02/11/facebook-paper-used-3rd/)：这对于开发一版 iOS 商业应用意义重大。By [@糖炒小虾_txx](http://weibo.com/rpplusplus)
 * [一些国外知名app用到的 iOS 第三方框架](http://www.jianshu.com/p/c5b0eb58b878)：针对 Paper 第三方库的补充非常赞。当然，这其中 [@糖炒小虾_txx](http://weibo.com/rpplusplus) 的[『Facebook Paper使用的第三方库』](http://blog.txx.im/blog/2014/02/11/facebook-paper-used-3rd/) 是点睛之笔。
 * [念叨 - 关于Sketch、Origami、Swift及Apple Watch](http://www.beforweb.com/node/697)：念叨得不错，文章标题或许取『与 Sketch 相关的那点事』更好。
 * [『Objective-C GitHub 排名前 100 项目简介』](https://github.com/Aufree/trip-to-iOS/blob/master/Top-100.md)
@@ -583,7 +583,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [Ahmed-Ali/RealmObjectEditor](https://github.com/Ahmed-Ali/RealmObjectEditor)：Realm 数据库 Swift 版开源编辑器。提供针对实体，属性及关系的编辑功能，完成后可以将实体结构导出为 Swift, Objective-C 或 Java 类模型。非常实用。
 * [jpsim/DeckRocket](https://github.com/jpsim/DeckRocket)：在相同 WiFi 网络环境内，通过 iPhone 控制并播放 Mac 中的 PDF 文档。ft 编译器崩溃的测试用例。这是一个疯狂又非常有意义的开源项目。可以定期关注一下。P.S. 该开源项目作者最新提示：Xcode 6.3 beta 与 Swift 1.2 已修复了其已发现编译器崩溃级缺陷的 83%。
 * [Carthage/Carthage](https://github.com/Carthage/Carthage)：更简单的方式来管理 Cocoa 第三方框架。有了 CocoaPods 为何还要使用 Carthage，作者在 README.md（[中译](http://www.cocoachina.com/ios/20141204/10528.html)） 已经做了充分说明。
-* [artsy/eidolon](https://github.com/artsy/eidolon)：艺术品拍卖的投标亭平台。作者提供了一个[很励志的开发故事](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/)：从商业创意到最终实现。心路历程从不开源到开源，从 Objective-C 到 Swift（去年夏天的事，现在当然是 Swift），以及选择时髦的反应式编程框架 ReactiveCocoa…… 
+* [artsy/eidolon](https://github.com/artsy/eidolon)：艺术品拍卖的投标亭平台。作者提供了一个[很励志的开发故事](http://artsy.github.io/blog/2014/11/13/eidolon-retrospective/)：从商业创意到最终实现。心路历程从不开源到开源，从 Objective-C 到 Swift（去年夏天的事，现在当然是 Swift），以及选择时髦的反应式编程框架 ReactiveCocoa……
 * [mortenjust/androidtool-mac](https://github.com/mortenjust/androidtool-mac)：“一款用 Swift 写的可在 Mac 上使用的 Android 工具, 支持一键截屏, 视频录制, APK 安装等功能”。
 * [lexrus/JSCoreDemo](https://github.com/lexrus/JSCoreDemo)：“演示了一下怎样在 Swift 里用 JavaScriptCore 把原生功能桥接给 JS 用，代码少很容易理解”。简单、易懂的基础演示代码。P.S. 希望进阶学习的同学，这里有一个完整项目供参考 [RichEditorView](https://github.com/cjwirth/RichEditorView)：基于 HTML 5 的可定制富文本编辑器组件及示例。
 * [gilesvangruisen/Swift-YouTube-Player](https://github.com/gilesvangruisen/Swift-YouTube-Player)：用不了的同学就当学习吧。或参考并试着写个 Swift-(...)-Player。
@@ -749,7 +749,7 @@ _开放平台相对于 Swift 语言更具战略意义，这是开发者不得不
 [图标与图片设计](http://www.uisdc.com/apple-watch-icon-and-image)|[@阿布](http://weibo.com/325808000)|[Icon and Image Design](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/IconandImageSizes.html#//apple_ref/doc/uid/TP40014992-CH16-SW1)
 
 * [WatchKit Development Tips](https://developer.apple.com/watchkit/tips/)
-	* 中译版『[WatchKit开发小窍门](http://www.cocoachina.com/ios/20150319/11368.html)』 By [@CocoaChina](http://weibo.com/cocoachina)：“使用这些小窍门和最佳实践来优化你的 WatchKit 应用 ” 
+	* 中译版『[WatchKit开发小窍门](http://www.cocoachina.com/ios/20150319/11368.html)』 By [@CocoaChina](http://weibo.com/cocoachina)：“使用这些小窍门和最佳实践来优化你的 WatchKit 应用 ”
 
 ### <a id="watch_courses"></a>3. Watch 教程
 * <a id="watch_getting_started"></a>快速入门
@@ -764,7 +764,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [Natasha The Robot - WatchKit: A Quick Reply](http://natashatherobot.com/watchkit-a-quick-reply/)：这是娜塔莎网站上提供的一篇 iOS 与 WatchKit 简单通讯及相互控制教程。供学习参考。
 	* [WatchKit: Building a Simple Guess Game](http://www.appcoda.com/watchkit-introduction-tutorial/)：用 WatchKit 编写一款简单随机猜数字小游戏教程。 步骤很清楚、详细，AppCoda.com 教程质量一如既往的好。来自 [AppCoda.com](http://AppCoda.com)
 	* [Apple Watch 三个月开发的一些收获总结](http://jerryliu.org/ios%20programming/Apple%20Watch-Development-summary/) By [@刘小崽儿_尐瑞rrrrr](http://weibo.com/u/1827525815)
-	
+
 * <a id="watch_courses_featured"></a>教程精选
 	* [Apple Watch Tutorial - Learn How to Make a Simple Apple Watch App](http://v.youku.com/v_show/id_XODMwNjkwNzI0.html)：50 分钟入门级开发视频。可惜 Youku 上的版本不够清晰。By [@36氪](http://weibo.com/wow36kr) 《[如何正确开发一款Apple Watch应用？](http://www.36kr.com/p/217141.html)》
 	* [用帧动画做 AppleWatch 小游戏](http://taiw8.lofter.com/post/1cc96c67_3c2a931)："WatchKit 已经发布了 2 天，先行者们已经进行了探索并发表了总览性的文章去帮助引导开发者。..." By [@WatchKit开发](http://weibo.com/twios)
@@ -806,4 +806,3 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [WWDC 2014 PDF 及session 视频下载脚本](http://www.iwangke.me/2014/06/07/wwdc-2014-download-script/):一段下载 WWDC 2014 全部 PDF  和 Session 的终端脚本。
 * [cesards/AndroidElementals](https://github.com/cesards/AndroidElementals)："分类整理了 GitHub 上常用的 Android Library 和 Open Project，整理的结构目录很清晰，找起来很方便。By [@Vanilla_Alan](http://weibo.com/u/2101388255)"
 * [Brett Terpstra 的 2014 年度最佳 Mac 软件推荐](http://www.waerfa.com/brett-terpstra-top-mac-app-list-from-2014)：“Marked 的作者，Podcaster，独立程序员 Brett Terpstra 近期在自己的博客发布了自评年度最佳名单，涉及了硬件、软件、网络等产品近百项，我们将名单中的 Mac 软件提取出来，向大家介绍一下”。来源：[@Mac玩儿法](http://weibo.com/waerfa)
-
