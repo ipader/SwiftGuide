@@ -168,7 +168,6 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 * [Core Location in i​OS 8](http://nshipster.com/core-location-in-ios-8/)：有关iOS 8核心位置服务介绍。文章从权限、室内位置跟踪、CLVisit 等角度做了较全面的介绍。
 * [NSHipster - Apple Pay](http://nshipster.com/apple-pay/)：继上一期 WatchKit 后，本期 NSHipster 专栏给了 Apple Pay。分别从以下几个主题阐述：1. 获得商户ID；2. 开发第一个收费程序；3. PKPaymentAuthorizationViewControllerDelegate；4. 动态的物流方式及定价。
 
-
 ### <a id="featured_courses"></a>3. 教程精选
 * <a id="featured_trans"></a>中译精选
 
@@ -276,6 +275,7 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * Swift 开发经验小技巧：1. [如何正确地定义一个类变量（和类常量）](http://imtx.me/archives/1916.html)；2. [用 Optional 来避免异常指针问题](http://imtx.me/archives/1920.html)；3. [如何用 Swift 思维设计网络请求](http://imtx.me/archives/1921.html)；4. [正确地启用 Logging 机制](http://imtx.me/archives/1924.html)。作者：[@图拉鼎](http://weibo.com/tualatrix)
 * [用 Swift 实现轻量的属性监听系统](https://github.com/nixzhu/dev-blog/blob/master/2015-04-30-property-listener.md)：“本文的目的是（优雅的）解决“模型的一处修改，UI 要多处更新”的问题。为此，我们会使用一些新技术，在对比中看看它们能给我们带来什么好处”。作者：[@nixzhu](http://weibo.com/nixzhu)
 * iOS 开发 UI 搭建心得：[1. 驾驭 Storyboard](http://lvwenhan.com/ios/452.html)，[2. 善用 xib](http://lvwenhan.com/ios/453.html)。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)
+* [Swift扩展的三个微妙细节](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-4/Swift%E6%89%A9%E5%B1%95%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BE%AE%E5%A6%99%E7%BB%86%E8%8A%82.md)：有关于 extension 细节的较完整说明。推荐不甚了解的开发同学阅读，避免稀里糊涂地使用。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：samw00，原文：[3 Nuances of Swift Extensions](http://www.andrewcbancroft.com/2015/04/22/3-nuances-of-swift-extensions/)
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -344,6 +344,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [案例学习 - 为Soundwave设计Watch应用时学到的五件事](http://www.beforweb.com/node/701)：“Soundwave已经在iOS及Android平台上发展了将近两年。我(英文原文作者)最近有幸得到机会，能够为Apple Watch版本的Soundwave进行UI与交互设计，并在这个过程当中学到了一些很关键的东西...”。译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 关于Watch应用的导航、通知、复杂任务及动效](http://beforweb.com/node/717)： “为Watch设计的过程很有意思，我们必须聚焦在核心体验上，打造最基本最简化的界面及交互，并设计合理的通知机制。对于复杂的功能要考虑通过Handoff完成。此外不要忘记在恰当的地方通过动效来提升交互体验...”。来源：[medium.com](https://medium.com/design-for-wearables/designing-wallaby-for-apple-watch-dd5be371288a)，译者：[@C7210](http://weibo.com/c7210)
 * [智能手表从业者于海东：十句话读懂 Apple Watch 应用设计（一](http://www.leikeji.com/article?2307)、[二](http://www.leikeji.com/article?2308)）：“Apple Watch 应用设计有何玄机？智能手表应用开发者应该注意什么？且看果壳电子软件副总裁于海东万字长文深度解析”。来源：[@雷科技](http://weibo.com/leitech)
+* [2015-2016交互体验趋势](http://mux.baidu.com/?p=8242)：“2015年的移动应用数量增长依然强劲，但是移动交互体验的却在发生着变化。较之去年层出不穷的新颖形式，今年的交互体验趋势中，更多的是某一个方面的体验优化与深耕，而较少有创造性的引领者出现。这说明移动应用在市场在“爆发”后进入了一个新的阶段”。
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -410,6 +411,9 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [macoscope/SwiftyStateMachine](https://github.com/macoscope/SwiftyStateMachine)：应用好状态机，不仅提高程序可维护性，更大大增强了程序健壮性。
 	* [benzguo/MusicKit](https://github.com/benzguo/MusicKit)：一套音乐编辑及创作框架。懂音乐、玩音乐的同学值得拥有。
 	* [ArtSabintsev/FontBlaster](https://github.com/ArtSabintsev/FontBlaster)：调用自定义字体封装类。很实用、很方便。
+	* [phimage/Prephirences](https://github.com/phimage/Prephirences)：这个库可以让开发者更方便管理、读写应用的配置信息。很实用。
+	* [radex/SwiftyTimer](https://github.com/radex/SwiftyTimer)：一个更友好、更简单的时间操作 NSTimer 扩展。P.S. 类似针对日期有 Punctual.swift 和 Timepiece。
+	* [liufan321/SwiftQRCode](https://github.com/liufan321/SwiftQRCode)：简单、实用的 QR Code 扫描识别及生成库。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -449,6 +453,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [marcelofabri/BigBrother](https://github.com/marcelofabri/BigBrother)：网络请求活动状态监视器类。由于 Alamofire 库并无此项特性，因此它可以做为 Alamofire 的一个扩展功能。
 	* [ishkawa/APIKit](https://github.com/ishkawa/APIKit)：为不同来源或类型 Web 服务，提供安全地可定制化网络请求 API 的基础类库。很好的面向对象设计思路实例。
 	* [contentful-labs/Stargate](https://github.com/contentful-labs/Stargate)：通过 iPhone 桥接实现 Mac 与 Watch 的即时通讯。Stargate 通过封装两个优秀的基础类库 MMWormhole 和 PeerKit 实现高效的通讯应用。
+	* [JustHTTP/Just](https://github.com/JustHTTP/Just)：小而美的 HTTP 类。功能简单、直接、完整且健壮性高。
 
 * 社交网络
 	* [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit)："封装了整个 OAuth 2.0 的授权流程,并提供了几个简便易用的请求方法"
@@ -474,6 +479,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [jessesquires/JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)：一款轻量、易用的通知发送及响应框架类库。作者是知名开源项目 JSQMessagesViewController（Objective-C 版即时聊天）的作者 Jesse Squires ，也是一位知名博主，收录过其文章『An analysis of sorts between Objective-C and Swift』。
 	* [morizotter/TouchVisualizer](https://github.com/morizotter/TouchVisualizer)：实用的多点触摸可视化组件。扩展并作用于 UIWindows，结构上提供了简单地针对触摸显示定制，比如触摸点的颜色。这个组件对于需要做应用演示的同学尤其有用。
 	* [FutureKit/FutureKit](https://github.com/FutureKit/FutureKit)：“是一个 100% Swift 实现的 Future/Promises 库，由 Swift Generic 带来的类型安全、由 GCD 带来的线程安全，通过 FutureKit 可以在 iOS/OS X 下灵活玩转 Future/Promises 式编程了”。推荐者：[@图拉鼎](http://weibo.com/tualatrix)
+	* [SwiftBond/Bond](https://github.com/SwiftBond/Bond)：使用简单、易于理解的对象绑定框架。比如：你可以使用代码 textField ->> label 将输入框文本映射到标签中的文字属性，当文本变化时，标签文字随动变化。 真的很方便。
 
 * UI组件
 	* [jcavar/refresher](https://github.com/jcavar/refresher)：一个常用的下拉即刷新列表工具类，提供开放接口定制刷新动态变换效果。
@@ -535,6 +541,10 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [zhxnlai/UIColor-ChineseTraditionalColors](https://github.com/zhxnlai/UIColor-ChineseTraditionalColors)：中国传统颜色引用 UIColor 扩展。“UIColor.桃红()，UIColor.竹青() ...”，如此引用是否感觉亲切多了。P.S. 好的项目，源于用心，技术次之。这位同学已经深谙其道了。
 	* [FlexMonkey/ShinpuruLayout](https://github.com/FlexMonkey/ShinpuruLayout)：通过水平和垂直分组模块实现简单、快速布局的组件库。作者提供了多种不同类型的布局示例。
 	* [ziligy/JGFlipMenu](https://github.com/ziligy/JGFlipMenu)：Flip 式菜单及其对应动画组件。使用也很简单直接 Interface Builder 。赞不赞自己看。
+	* [Draveness/DKChainableAnimationKit](https://github.com/Draveness/DKChainableAnimationKit)：高可读、链式代码风格动画框架库。
+	* [andreamazz/BubbleTransition](https://github.com/andreamazz/BubbleTransition)：以气泡膨胀和缩小的动画效果来显示切换界面。代码实现很简单，效果很突出。
+	* [KittenYang/KYFloatingBubble](https://github.com/KittenYang/KYFloatingBubble)：实现iOS7 Game Center浮动气泡的一种思路。示例代码不多，效果还真得赞。
+	* [i-schuetz/SwiftCharts](https://github.com/i-schuetz/SwiftCharts)：基于层架构设计思想的图表类库。基于层架构，无论定制新的图表类型还是已有图表的叠加，都变得非常的容易。
 
 * 测试相关
 	* [kylef/Mockingjay](https://github.com/kylef/Mockingjay)：在单元测试时，模拟匹配条件的任意 HTTP 请求，该类库集成于 XCTest 框架内。是一套不可多得的快速开发工具库。
@@ -602,6 +612,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [mortenjust/androidtool-mac](https://github.com/mortenjust/androidtool-mac)：“一款用 Swift 写的可在 Mac 上使用的 Android 工具, 支持一键截屏, 视频录制, APK 安装等功能”。
 * [lexrus/JSCoreDemo](https://github.com/lexrus/JSCoreDemo)：“演示了一下怎样在 Swift 里用 JavaScriptCore 把原生功能桥接给 JS 用，代码少很容易理解”。简单、易懂的基础演示代码。P.S. 希望进阶学习的同学，这里有一个完整项目供参考 [RichEditorView](https://github.com/cjwirth/RichEditorView)：基于 HTML 5 的可定制富文本编辑器组件及示例。
 * [gilesvangruisen/Swift-YouTube-Player](https://github.com/gilesvangruisen/Swift-YouTube-Player)：用不了的同学就当学习吧。或参考并试着写个 Swift-(...)-Player。
+* [Imperiopolis/WatchScreenshotMagic](https://github.com/Imperiopolis/WatchScreenshotMagic)：快速生成干净、漂亮的 Apple Watch 截图的实用工具应用。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是 #Workflow# 了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
@@ -688,6 +699,7 @@ _开放平台相对于 Swift 语言更具战略意义，这是开发者不得不
 * [Web Apps](http://ignorethecode.net/blog/2014/11/04/web_apps/)：这篇新鲜文章较全面论述了Native应用和Web应用。有关Native应用和Web应用，最近争论渐少，原因应该有两点：1. 无论Apple还是 Google，Native 应用才是其生态的基础，过于激进推动，将损害其固有商业利益。而微软的话语权严重受阻于移动系统的发展；2. 基于 Web View 的混合应用基本满足应用跨平台性 。
 * [Back to Mac - XPC by objc.io](http://objccn.io/issue-14-4/)：XPC 是 OS X 下的一种 IPC (进程间通信) 技术, 它实现了权限隔离, 使得 App Sandbox 更加完备。
 * [MATERIAL DESIGN设计规范学习心得](http://www.uisdc.com/material-design-learning-experience)：“编者按：自学笔记就该这么做！今天分享[@東門王三](http://weibo.com/loafer117) 同学关于 Material Design 的自学成果，他的学习笔记严谨有序，触类旁通，从 Material Design 到其他系统的设计规范都有所研究，还认真地做了思维导图，同学们可以边学习边借鉴他的自学方法，一举两得呦。By [@优秀网页设计](http://weibo.com/uidesign)”
+* [聊聊移动端跨平台开发的各种技术](http://fex.baidu.com/blog/2015/05/cross-mobile/)：文章研究很全面、很透彻。赞同林老师建议。实在需要时，iOS/WKWebView 和 Android/WebView 可以做为跨平台衔接技术。“[@林泰前](http://weibo.com/limtc)：目前看到对跨平台开发最完整的文章，对这方面有兴趣的朋友建议一读。不过这是我的建议：好好学习 Swift/iOS 和 Java/Android，没有任何跨平台方案比得上真正原生的方案。”
 
 ### <a id="open_examples"></a>2. 示例项目
 * [ViewSource(Swift+Objective-C)](https://github.com/dominic/ViewSource)：通过 iOS 8 Extension 实现让 Web 工程师喜欢的"显示网页源代码"。
@@ -797,6 +809,8 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [WatchKit FAQ](http://www.cocoachina.com/ios/20150323/11396.html)：“翻译自 Raywenderlich 的一篇译文，这篇WatchKit FAQ解答了一系列在社区、Twitter、邮件以及Stack Overflow上问的比较频繁的问题，包括基础问题，进阶问题、动画、调试和单元测试以及货币化的一些问题（译者:YueWang） By [@CocoaChina](http://weibo.com/cocoachina)”。
 	* [Apple Watch平台认知与产品设计](http://www.beforweb.com/node/695)：长文。引子部分略显拖沓， Watch 交互设计介绍及应用场景探讨部分值得一读。个人感觉，仅供参考。
 	* [在 WatchKit 应用里使用 Realm 的教程](https://realm.io/news/tutorial-sharing-data-between-watchkit-and-your-app/)：是一份很完整的教程。文章附了[完整示例代码](https://github.com/FancyPixel/done-swift)。 P.S. Realm 是志向代替 Core Data 和 SQLite 的移动数据库，它的特点是轻量、低耦、面向对象。
+	* [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
+	* [WatchKit 控制器的生命周期](http://weibo.com/p/1001603842436727235421)：“本文介绍的生命周期同样适用于 Hierarchical interfaces, Glances, 以及 Notification interfaces”。译者：[http://weibo.com/twios](http://weibo.com/twios)
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。
@@ -805,6 +819,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [WatchApps](http://watchaware.com/watch-apps)：“可交互的演示网站, 和 Apple Watch 应用开发者合作, 利用 Javascript 和动态 PNG, 以及来自视频, 真机屏幕截图等素材, 让大家预览 Apple Watch 上热门应用的使用体验, 包括应用界面, Glance 一瞥界面, 通知界面。” By [@苹果网](http://weibo.com/macx)
 * [Apple Watch 的 5 个产品思路畅想](http://www.beforweb.com/node/689)：“接下来的几年会很有意思，数字产品的体验模式正朝着多平台的方向迅速进化着，每一类设备都在开疆破土。我（英文原文作者）整理了五个类型的产品思路，或是说畅想，在 Apple Watch 即将正式上市的前夕，与大家做以分享和探讨...”
 * [kiavashfaisali/KFWatchKitAnimations](https://github.com/kiavashfaisali/KFWatchKitAnimations)：为  Watch 提供 60 帧动画显示效果解决方案及示例。
+* [mobitar/Starburst](https://github.com/mobitar/Starburst)：几款可用于 Apple Watch 应用的 PNG 序列动画。
 
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新 Apple Watch 身上小试身手时，iOS 开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出 WatchKit 开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
