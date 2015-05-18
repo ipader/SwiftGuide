@@ -44,6 +44,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [Swift 中的 UIKit 重力学（一](http://www.devtalking.com/articles/swift-uikit-dynamics-1/)、[二](http://www.devtalking.com/articles/swift-uikit-dynamics-1/)）：通过 UIKit Dynamics 和 Motion Effects 两大利器实现具有重力效应的界面元素教程。来源：Ray Wenderlich，译者：[@DevTalking](http://weibo.com/jacefu)
 * [在 iOS8 创建一个交互性强的本地通知](http://www.cocoachina.com/ios/20150112/10901.html)：“iOS 8里，通知加入了新特性。开发者可以指定用户可触发的具体的动作，而且甚至不用启动应用也可以处理这个通知。本文详细讲解了如何开发一个互动性强的本地通知”。附：[完整示例](https://github.com/iBenjamin/ShoppingAlertFinal)，译者：[@iBenjamin_Go](http://weibo.com/u/2771490773)
 * Hamburger Button - [Menu/Close](http://holko.pl/2014/07/15/hamburger-button-animation/), [Menu/Back](http://robb.is/working-on/a-hamburger-button-transition/)：小小的按钮，无论在设计上，还是代码上，都进行了精雕细琢。两位作者对基于动画的开发都非常有经验。作者：Robert Böhnke, Arkadiusz Holko
+* [Swift扩展的三个微妙细节](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-4/Swift%E6%89%A9%E5%B1%95%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BE%AE%E5%A6%99%E7%BB%86%E8%8A%82.md)：有关于 extension 细节的较完整说明。推荐不甚了解的开发同学阅读，避免稀里糊涂地使用。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：samw00，原文：[3 Nuances of Swift Extensions](http://www.andrewcbancroft.com/2015/04/22/3-nuances-of-swift-extensions/)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -52,6 +53,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [Objective-C 开发者对 Swift 亮点的点评](http://blog.jobbole.com/71250/)：这篇文章涵盖了 Swift 典型亮点，或许描述还不够全面，不过，对初学者应该已经很受用了。P.S. 提醒：由于本文写于 Swift 刚发布时，因此版本关系可能会有个别点不精准。来源：Ray Wenderlich，译者：[@午后的小甜点](http://weibo.com/u/3178558825)
 * [Cocoa 之死](http://nshipster.cn/the-death-of-cocoa/)（Mattt Thompson），[Cocoa 永生](http://nshipster.cn/long-live-cocoa/)（Nate Cook）：
 两篇貌似矛盾，其实并非如此，后一篇溢美 Cocoa 辉煌过去及成就，实则告诉大家它更为 Swift 的亮相铺平了道路，使其一出世开发者就有优秀工具库可用。作者也预言未来会有更好的继任者。来源：NSHipster，译者：[@李乐佳](http://weibo.com/leelejia)
+* [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
 * [WatchKit FAQ](http://www.cocoachina.com/ios/20150323/11396.html)：“解答了一系列在社区、Twitter、邮件以及 Stack Overflow 上问的比较频繁的问题，包括基础问题，进阶问题、动画、调试和单元测试以及货币化的一些问题”。来源：Ray Wenderlich，译者：Yue Wang（[@CocoaChina](http://weibo.com/cocoachina) 翻译组）
 * 三篇优秀的 WatchKit 初探：分别来自 [Ray Wenderlich－WatchKit 初探](http://www.devtalking.com/articles/watchkit-initial-impressions/)（译者：@DevTalking），[Mattt Thompson－WatchKit](http://nshipster.cn/watchkit/)（译者：Bob Liu），[王巍－ Apple WatchKit 初探](http://onevcat.com/2014/11/watch-kit/)（作者：@onevcat）。
 * WatchKit Storyboard攻略：1. [开发基础与小技巧](http://weibo.com/p/1001603783085996013229)；2. [Glance 示例介绍](http://weibo.com/p/1001603787367470257327)；3. [Notification 视图相关](http://weibo.com/p/1001603792803355322322)。作者：[@WatchKit开发](http://weibo.com/twio)
@@ -59,6 +61,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [案例学习 - 为Apple Watch简化现有产品的设计思路](http://www.beforweb.com/node/709)：文章讲述了一款导航应用在 Apple Watch 上的设计及思考过程。P.S. 来自 [@BeForWeb](http://weibo.com/beforweb) 的译文学习及思考性很强，目前读者虽然更倾向于产品经理、用户体验设计师或工程师。感兴趣产品体验的开发者，建议多关注。译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 关于Watch应用的导航、通知、复杂任务及动效](http://beforweb.com/node/717)： “为Watch设计的过程很有意思，我们必须聚焦在核心体验上，打造最基本最简化的界面及交互，并设计合理的通知机制。对于复杂的功能要考虑通过Handoff完成。此外不要忘记在恰当的地方通过动效来提升交互体验...”。来源：[medium.com](https://medium.com/design-for-wearables/designing-wallaby-for-apple-watch-dd5be371288a)，译者：[@C7210](http://weibo.com/c7210)
 * [74 个 Swift 标准库函数](http://letsswift.com/2014/06/74-swift-library-functions/)："Swift 包含了 74 个内置函数，但在 The Swift Programming Langage 一书中只介绍了其中的 7 个，其它的都没有在文档中体现。文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果"。译者：[@李洁信](http://weibo.com/u/1780854425)
+* [聊聊移动端跨平台开发的各种技术](http://fex.baidu.com/blog/2015/05/cross-mobile/)：文章研究很全面、很透彻。赞同林老师建议。实在需要时，iOS/WKWebView 和 Android/WebView 可以做为跨平台衔接技术。“[@林泰前](http://weibo.com/limtc)：目前看到对跨平台开发最完整的文章，对这方面有兴趣的朋友建议一读。不过这是我的建议：好好学习 Swift/iOS 和 Java/Android，没有任何跨平台方案比得上真正原生的方案。”
 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。
