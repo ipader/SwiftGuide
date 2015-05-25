@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-5-17，最近收录项目 SwiftCharts, SwiftyTimer, Bond ,Prephirences, DKChainableAnimationKit, SwiftQRCode 等 6 个，合计已收录 108 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-5-17，最近收录项目 CleanroomLogger, Prototope, SwiftDate, SwiftRecord, ZoomTransition, PullToRefresh 等 6 个，合计已收录 114 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -27,6 +27,7 @@
 [OAuthSwift](https://github.com/dongri/OAuthSwift)|[Dongri Jin](https://github.com/dongri)|国外主流网站 OAuth 授权类库
 [PathKit](https://github.com/kylef/PathKit)|[Kyle Fuller](http://kylefuller.co.uk)|小而美的路径管理类
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)|[Dave Wood](https://github.com/tangplin)|功能完整的日志管理类库
+[CleanroomLogger](https://github.com/emaloney/CleanroomLogger)|[emaloney](https://github.com/emaloney)|相当于 CocoaLumberjack 或 Log4j 
 [Surge](https://github.com/mattt/Surge) |[Mattt Thompson ](https://github.com/mattt)|基于苹果 Accelerate 高性能计算框架封装库
 [Async](https://github.com/duemunk/Async)|[Due Munk](http://developmunk.dk/)|简洁的后台执行代码封装库
 [Euler](https://github.com/mattt/Euler)|[Mattt Thompson ](https://github.com/mattt)|直观、简洁的数学表达式 ∛27÷3+∑[3,1,2]
@@ -41,14 +42,15 @@
 [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)|[Marcin Krzyzanowski](https://github.com/krzyzanowskim)|Crypto 算法及相关功能类库
 [SemverKit](https://github.com/nomothetis/SemverKit)|[Alexandros Salazar](https://github.com/nomothetis)|基于语义化版本规范 2.0.0 版本号的解析类库
 [Punctual.swift](https://github.com/harlanhaskins/Punctual.swift)|[Harlan](https://github.com/harlanhaskins)|日期访问及操作更加自然语言化
-[naoty/Timepiece](https://github.com/naoty/Timepiece)|[Naoto Kaneko](https://github.com/naoty)|日期加减运算、初始设置、变更以及格式解析
+[Timepiece](https://github.com/naoty/Timepiece)|[Naoto Kaneko](https://github.com/naoty)|日期加减运算、初始设置、变更以及格式解析
+[SwiftDate](https://github.com/malcommac/SwiftDate)|[Daniele Margutti](https://github.com/malcommac)|几乎涵盖了已知开源日期类库所有优秀特性
 [SwiftyTimer](https://github.com/radex/SwiftyTimer)|[Radek Pietruszewski](https://github.com/radex)|一个更友好、更简单的时间操作 NSTimer 扩展
 [Parsimmon](https://github.com/ayanonagon/Parsimmon)|[Ayaka Nonaka](https://github.com/ayanonagon)|小而美的自然语言分析工具包，参考 [NSLinguistic​Tagger](http://nshipster.cn/nslinguistictagger/)
 [SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类
 [Result](https://github.com/antitypical/Result)|[Antitypical](https://github.com/antitypical)|精巧实用的 success/failure 小类库
 [SwiftPriorityQueue](https://github.com/davecom/SwiftPriorityQueue)|[David Kopec](https://github.com/davecom)|通用优先级队列数据结构实现类（二进制堆）
 [FontBlaster](https://github.com/ArtSabintsev/FontBlaster)|[Arthur Ariel Sabintsev](https://github.com/ArtSabintsev)|调用自定义字体封装类
-[phimage/Prephirences](https://github.com/phimage/Prephirences)|[](https://github.com/phimage)|让开发者更方便管理、读写应用的配置
+[Prephirences](https://github.com/phimage/Prephirences)|[](https://github.com/phimage)|让开发者更方便管理、读写应用的配置
 
 * <a id="storage"></a>存储类
 
@@ -57,6 +59,7 @@
 [AlecrimCoreData](https://github.com/Alecrim/AlecrimCoreData)|[Alecrim](https://github.com/Alecrim)|更容易地访问 CoreData 对象封装类库
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)|[Stephen Celis](http://stephencelis.com)|简单、轻量，使用上最 SQL 的 SQLite 封装库
 [Realm](https://github.com/realm/realm-cocoa)|[Realm](http://realm.io)|志向代替 Core Data 和 SQLite 的移动数据库
+[SwiftRecord](https://github.com/arkverse/SwiftRecord)|[ark](https://github.com/arkverse)|基于 Core Data 极为轻量、易用的对象持久化工具库
 
 * <a id="network"></a>网络类
 
@@ -107,6 +110,7 @@
 [LineChart](https://github.com/zemirco/swift-linechart)|[Mirco Zeiss](https://github.com/zemirco)|功能完整、实用的折线图组件
 [KSTokenView](https://github.com/khawars/KSTokenView)|[Khawar Shahzad](https://github.com/khawars)|带搜索、快捷输入、分段显示关键词输入组件
 [GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)|[Andrea Mazzini](https://github.com/andreamazz)|无违和感的下拉刷新动画组件
+[PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [CameraManager](https://github.com/imaginary-cloud/CameraManager)|[Imaginary Cloud](https://github.com/imaginary-cloud)|简单、易用的相机管理封装类库
 [QRCodeReader](https://github.com/yannickl/QRCodeReader.swift)|[Yannick Loriot](https://github.com/yannickl)|QR 二维码阅读组件及示例
 [SwiftQRCode](https://github.com/liufan321/SwiftQRCode)|[Fan Liu](https://github.com/liufan321)|简单、实用的 QR Code 扫描识别及生成库
@@ -122,6 +126,7 @@
 [JGFlipMenu](https://github.com/ziligy/JGFlipMenu)|[jeff greenberg](https://github.com/ziligy)|Flip 式菜单及其对应动画组件
 [ChineseTraditionalColors](https://github.com/zhxnlai/UIColor-ChineseTraditionalColors)|[Zhixuan Lai](https://github.com/zhxnlai)|中国传统颜色引用 UIColor 扩展
 [ShinpuruLayout](https://github.com/FlexMonkey/ShinpuruLayout)|[simon gladman](https://github.com/FlexMonkey)|通过水平和垂直分组模块实现简单、快速布局的组件库
+[ZoomTransition](https://github.com/tristanhimmelman/ZoomTransition)|[Tristan Himmelman](https://github.com/tristanhimmelman)|通过手势操控图片的放大、缩小、旋转等自由变化效果的组件及示例
 
 * <a id="framework"></a>框架类
 
@@ -137,6 +142,7 @@
 [X](https://github.com/soffes/X)|[Sam Soffes](https://github.com/soffes)|iOS/OS X 平台统一开发类库
 [TouchVisualizer](https://github.com/morizotter/TouchVisualizer)|[Morita Naoki](https://github.com/morizotter)|实用的多点触摸可视化组件
 [Bond](https://github.com/SwiftBond/Bond)|[Bond](https://github.com/SwiftBond)|使用简单、易于理解的对象绑定框架
+[Prototope](https://github.com/Khan/Prototope)|[Khan Academy](https://github.com/Khan)|一款轻量的 Javascript 桥接 Swift 库
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
