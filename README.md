@@ -276,6 +276,12 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [用 Swift 实现轻量的属性监听系统](https://github.com/nixzhu/dev-blog/blob/master/2015-04-30-property-listener.md)：“本文的目的是（优雅的）解决“模型的一处修改，UI 要多处更新”的问题。为此，我们会使用一些新技术，在对比中看看它们能给我们带来什么好处”。作者：[@nixzhu](http://weibo.com/nixzhu)
 * iOS 开发 UI 搭建心得：[1. 驾驭 Storyboard](http://lvwenhan.com/ios/452.html)，[2. 善用 xib](http://lvwenhan.com/ios/453.html)。作者：[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)
 * [Swift扩展的三个微妙细节](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-4/Swift%E6%89%A9%E5%B1%95%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BE%AE%E5%A6%99%E7%BB%86%E8%8A%82.md)：有关于 extension 细节的较完整说明。推荐不甚了解的开发同学阅读，避免稀里糊涂地使用。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：samw00，原文：[3 Nuances of Swift Extensions](http://www.andrewcbancroft.com/2015/04/22/3-nuances-of-swift-extensions/)
+* [objc.io - #24 音频](http://objccn.io/issue-24/)：经过了前两期（[照片](http://objccn.io/issue-21/)和[视频](http://objccn.io/issue-23/)），本期自然地延伸为音频，这种具有连续性的博客平台，对于开发者，实在是福气。本期首篇文章《[音频处理的狗屋（译文）](http://objccn.io/issue-24-1/)》是精品之作。
+* 自己动手写一个 iOS 网络请求库：[1. NSURLSession 初探](http://lvwenhan.com/ios/454.html)；[2. 封装接口](http://lvwenhan.com/ios/455.html)；[3. 降低耦合](http://lvwenhan.com/ios/456.html)。项目地址：[johnlui/Pitaya](https://github.com/johnlui/Pitaya)。作者：[@吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)
+* [PaintCode 教程](http://www.jianshu.com/p/5e75408812df)："PaintCode是个非常棒又小而美的mac程序，主要用途是可以将你的矢量图轻松地转换成CoreGraphics代码，可以很轻松的把代码放在你的iOS app里"。作者：[@叶孤城___](http://weibo.com/u/1438670852)，相关示例项目：[使用 PaintCode 制作一个星星评分视图](http://www.jianshu.com/p/e2efd7132bc1) By [@crane乖乖](http://weibo.com/u/1925302084)
+* Ray Wenderlich － WatchKit 开始教程：[1. 入门](http://www.cocoachina.com/swift/20150518/11860.html)；[2. 表格和网络请求](http://www.cocoachina.com/swift/20150520/11861.html)；[3. WatchKit 开始教程 － Table、Glance 和 Handoff](http://www.cocoachina.com/swift/20150522/11862.html)。原文：[Part 1: Getting Started](http://www.raywenderlich.com/89562/watchkit-tutorial-with-swift-getting-started)
+* Core Graphics 教程：1. [起步](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-5/Swift-Core-Graphics%E6%95%99%E7%A8%8B%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86.md)；2. [Gradients 与 Context](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-5/Swift-Core-Graphics%E6%95%99%E7%A8%8B%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86-Gradients%E4%B8%8EContext.md)；3. [Patterns 和 Playgrounds](http://t.cn/R257CaO)。原文来源：[Ray Wenderlich](http://www.raywenderlich.com/90690/modern-core-graphics-with-swift-part-1)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)
+* [Swift Documentation（译文）](http://nshipster.cn/swift-documentation/)：“代码的结构和组织关乎了开发童鞋们的节操问题。明确和一致的代码表示了明确和一贯的思想。编译器并没有一个挑剔的口味，但当谈到命名，空格或文档，人类的差异就体现出来了”。来源：NSHipster
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -345,6 +351,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [案例学习 - 关于Watch应用的导航、通知、复杂任务及动效](http://beforweb.com/node/717)： “为Watch设计的过程很有意思，我们必须聚焦在核心体验上，打造最基本最简化的界面及交互，并设计合理的通知机制。对于复杂的功能要考虑通过Handoff完成。此外不要忘记在恰当的地方通过动效来提升交互体验...”。来源：[medium.com](https://medium.com/design-for-wearables/designing-wallaby-for-apple-watch-dd5be371288a)，译者：[@C7210](http://weibo.com/c7210)
 * [智能手表从业者于海东：十句话读懂 Apple Watch 应用设计（一](http://www.leikeji.com/article?2307)、[二](http://www.leikeji.com/article?2308)）：“Apple Watch 应用设计有何玄机？智能手表应用开发者应该注意什么？且看果壳电子软件副总裁于海东万字长文深度解析”。来源：[@雷科技](http://weibo.com/leitech)
 * [2015-2016交互体验趋势](http://mux.baidu.com/?p=8242)：“2015年的移动应用数量增长依然强劲，但是移动交互体验的却在发生着变化。较之去年层出不穷的新颖形式，今年的交互体验趋势中，更多的是某一个方面的体验优化与深耕，而较少有创造性的引领者出现。这说明移动应用在市场在“爆发”后进入了一个新的阶段”。
+* [网易新闻 iOS 版在开发过程中曾经使用过的第三方开源类库、组件](http://www.jianshu.com/p/8952944f7566)：一款主流新闻 iOS 应用让我们感受开源的力量。来源：[@_TongJZ](http://weibo.com/u/2068840121)
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -414,6 +421,10 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [phimage/Prephirences](https://github.com/phimage/Prephirences)：这个库可以让开发者更方便管理、读写应用的配置信息。很实用。
 	* [radex/SwiftyTimer](https://github.com/radex/SwiftyTimer)：一个更友好、更简单的时间操作 NSTimer 扩展。P.S. 类似针对日期有 Punctual.swift 和 Timepiece。
 	* [liufan321/SwiftQRCode](https://github.com/liufan321/SwiftQRCode)：简单、实用的 QR Code 扫描识别及生成库。
+	* [emaloney/CleanroomLogger](https://github.com/emaloney/CleanroomLogger)：相当于 CocoaLumberjack 或 Log4j 的 Swift 版本，功能上甚至更强大。另外，源代码中已经内含了完整的 API 文档，使用非常方便。
+	* [Khan/Prototope](https://github.com/Khan/Prototope)：一款轻量的 Javascript 桥接 Swift 库。对于 JS 控，或许可以从玩这个项目开始 iOS 原型开发。
+	* [malcommac/SwiftDate](https://github.com/malcommac/SwiftDate)：特别完整、强大的日期操作管理类库。它几乎涵盖了已知开源日期类库所有优秀特性。是一款值得毫不犹豫收录的类库。
+	* [arkverse/SwiftRecord](https://github.com/arkverse/SwiftRecord)：基于 Core Data 极为轻量、易用的对象持久化工具库，相当于 ActiveRecord 的 Swift 版本。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -440,6 +451,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [daltoniam/Skeets](https://github.com/daltoniam/Skeets)：网络图片的获取、缓存及显示类库，支持缓存的清理及时效性管理。
 	* [evermeer/EVCloudKitDao](https://github.com/evermeer/EVCloudKitDao)：一套使用 CloudKit 简单封装库。作者还提供了示例项目及程序供开发者参考使用。
 	* [andrelind/Breeze](https://github.com/andrelind/Breeze)：轻量 CoreData 管理封装库。支持 iCloud 。
+	* [arkverse/SwiftRecord](https://github.com/arkverse/SwiftRecord)：基于 Core Data 极为轻量、易用的对象持久化工具库，相当于 ActiveRecord 的 Swift 版本。
 
 * 远程访问
 	* [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent)：一个简单、小巧、实用的 HTTP 请求 Swift 语言实现类（仅一个 Agent.swift 类）
@@ -545,6 +557,9 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [andreamazz/BubbleTransition](https://github.com/andreamazz/BubbleTransition)：以气泡膨胀和缩小的动画效果来显示切换界面。代码实现很简单，效果很突出。
 	* [KittenYang/KYFloatingBubble](https://github.com/KittenYang/KYFloatingBubble)：实现iOS7 Game Center浮动气泡的一种思路。示例代码不多，效果还真得赞。
 	* [i-schuetz/SwiftCharts](https://github.com/i-schuetz/SwiftCharts)：基于层架构设计思想的图表类库。基于层架构，无论定制新的图表类型还是已有图表的叠加，都变得非常的容易。
+	* [tristanhimmelman/ZoomTransition](https://github.com/tristanhimmelman/ZoomTransition)：通过手势操控图片的放大、缩小、旋转等自由变化效果的组件及示例。
+	* [Yalantis/PullToRefresh](https://github.com/Yalantis/PullToRefresh)：刷新动画可定制的下拉数据请求更新组件（类库非常简洁易用）。该组件由知名开源开发商 Yalantis 开发，并且还提供了完整动画定制演示项目 [PullToMakeSoup](https://github.com/Yalantis/PullToMakeSoup)
+	* [mikaoj/BSImagePicker](https://github.com/mikaoj/BSImagePicker)：图片多选组件。接口简单，使用很方便。
 
 * 测试相关
 	* [kylef/Mockingjay](https://github.com/kylef/Mockingjay)：在单元测试时，模拟匹配条件的任意 HTTP 请求，该类库集成于 XCTest 框架内。是一套不可多得的快速开发工具库。
@@ -613,6 +628,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [lexrus/JSCoreDemo](https://github.com/lexrus/JSCoreDemo)：“演示了一下怎样在 Swift 里用 JavaScriptCore 把原生功能桥接给 JS 用，代码少很容易理解”。简单、易懂的基础演示代码。P.S. 希望进阶学习的同学，这里有一个完整项目供参考 [RichEditorView](https://github.com/cjwirth/RichEditorView)：基于 HTML 5 的可定制富文本编辑器组件及示例。
 * [gilesvangruisen/Swift-YouTube-Player](https://github.com/gilesvangruisen/Swift-YouTube-Player)：用不了的同学就当学习吧。或参考并试着写个 Swift-(...)-Player。
 * [Imperiopolis/WatchScreenshotMagic](https://github.com/Imperiopolis/WatchScreenshotMagic)：快速生成干净、漂亮的 Apple Watch 截图的实用工具应用。
+* [beltex/dshb](https://github.com/beltex/dshb)：OS X 系统状态（CPU、电池、内存、温度传感器、风扇及杂项）监视器应用。每秒刷新文本界面，极低系统开销。
+* [nscoding/sleep-osx](https://github.com/nscoding/sleep-osx)：在 Spotlight 中输入 sleep 即休眠你的 Mac。实现特别简单，几行代码而已。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是 #Workflow# 了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
@@ -671,6 +688,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [CocoaPods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin)：一款 Xcode 插件，允许你直接从 Xcode 管理 CocoaPod 依赖。
 * [onevcat/VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)：快捷注释 Xcode 插件。By [@onevcat](http://weibo.com/onevcat)
 * [Xcode 优秀插件整理](https://github.com/ddapps/DeepIniOS):持续保持整理更新的 Xcode 插件整理 By [@ddapps](https://github.com/ddapps)
+* [CodeEagle/SwiftCodeSnippets](https://github.com/CodeEagle/SwiftCodeSnippets)：自动下载指定 Xcode Snippet 源的 Xcode Plugin。项目缺省提供 Snippet 代码源 [burczyk/XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets/tree/master/plist) 。
+* [realm/SwiftLint](https://github.com/realm/SwiftLint)：Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
 
 ### 4. 管理工具
 * [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X 上非常出色的包管理工具。
