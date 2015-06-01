@@ -4,6 +4,7 @@
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
+* [codepath/ios_guides](https://github.com/codepath/ios_guides)：通过众包模式为开发者写更专业（系统化一条龙学习平台）的开发教程。此项目若能长期长展，所有人都会受益。感兴趣的同学可以参与其中。
 * Swift REPL（Read - Eval - Print Loop） － 1. 入门介绍 http://idlelife.org/archives/842，2. 一切皆可重定义 http://www.cocoachina.com/ios/20150212/11147.html：习惯命令行式、解释型语言风格实时预览代码运行结果的同学，这两篇来自苹果官方博客的文章不容错过。译者：@pockry / @MichealGeng
 * [Alamofire - 1. 基础教程](http://www.jianshu.com/p/f1208b5e42d9)，[2. 进阶教程](http://www.jianshu.com/p/30599f64a09c)：该系列教程通过示例项目分步骤详细介绍了 Alamofire 网络库的使用技巧。Alamofire 是 Mattt Thompson 为其著名的 AFNetworking 采用 Swift 重写的网络库。来源：Ray Wenderlich，作者：Essan Parto，译者：[@星夜暮晨](http://weibo.com/u/3227937731)
 * [Swift Documentation](http://nshipster.com/swift-documentation/)：“对于开发者来讲，良好的代码结构及组织是其引以为豪的事。干净、一致的代码习惯，对于编译器并无所谓，但程序字里行间可以代表个人符号、或与同伴的差异”。两位博主的倾情合作，有了这篇美文。来源：NSHipster
@@ -51,6 +52,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
+* [一次 Objective-C 到 Swift 的改写之旅](https://github.com/nixzhu/dev-blog/blob/master/2015-05-27-wormhole.md)：“既然 Swift 是未来，自然要改写。而改写应当是一种再思考、再设计的过程”。作者：[@nixzhu](http://weibo.com/nixzhu)
 * [设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)：原文作者做为视觉设计师，讲述了采用 Interface Builder 和 Storyboard 与开发小组协同工作的故事。虽然只是一个4人小团队，但清晰的分工协作，使项目有序高效进展。Xcode也让视觉设计师及UX设计师有机会分担部分前端开发工作。原文: [Blurring the lines between design and code](http://ustwo.com/blog/the-billogram-story/)，来源：[@BeForWeb](http://weibo.com/beforweb)，译者: [@C7210](http://weibo.com/c7210) 
 * [#objc中国# － Issue 20](http://objccn.io/issue-20/)：“三位传奇开发者的访谈，很有意思。天才少年 Andy Matuschak [《终身学习的一代人》](http://objccn.io/issue-20-1/)  两次创业 Loren Brichter [《让东西变得不那么糟》](http://objccn.io/issue-20-2/) 以及前 FBI 的俄国妹子 Natasha Murashev [《学无止境》](http://objccn.io/issue-20-3/)。简直篇篇精彩。By [@onevcat](http://weibo.com/onevcat)”。Natasha Murashev 的访谈故事对于学习 Swift 的同学比较励志。
 * [Objective-C 开发者对 Swift 亮点的点评](http://blog.jobbole.com/71250/)：这篇文章涵盖了 Swift 典型亮点，或许描述还不够全面，不过，对初学者应该已经很受用了。P.S. 提醒：由于本文写于 Swift 刚发布时，因此版本关系可能会有个别点不精准。来源：Ray Wenderlich，译者：[@午后的小甜点](http://weibo.com/u/3178558825)
@@ -61,9 +63,12 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * 三篇优秀的 WatchKit 初探：分别来自 [Ray Wenderlich－WatchKit 初探](http://www.devtalking.com/articles/watchkit-initial-impressions/)（译者：@DevTalking），[Mattt Thompson－WatchKit](http://nshipster.cn/watchkit/)（译者：Bob Liu），[王巍－ Apple WatchKit 初探](http://onevcat.com/2014/11/watch-kit/)（作者：@onevcat）。
 * WatchKit Storyboard攻略：1. [开发基础与小技巧](http://weibo.com/p/1001603783085996013229)；2. [Glance 示例介绍](http://weibo.com/p/1001603787367470257327)；3. [Notification 视图相关](http://weibo.com/p/1001603792803355322322)。作者：[@WatchKit开发](http://weibo.com/twio)
 * [详解Xcode 6的视图调试](http://www.cocoachina.com/ios/20150423/11658.html)：教程非常实用，值得学习。另外，教程选用的开源项目（[jessesquires/JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)）也很经典。来源：Ray Wenderlich，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组
+* [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)：“介绍了如何通过视图模型优化WatchKit 应用的性能表现，英语好的大大可以翻译下。By [@WatchKit开发](http://weibo.com/twios)” 。WatchKit 开发最佳实践。
+* [案例学习 - 面向Apple Watch自身特性及局限的产品重设计](http://www.beforweb.com/node/720)：“和前面几次 Watch 设计案例不同，今天这篇比实践更加实践 - 作者做了第一版 Watch App，发现在实际当中问题成堆，于是重新思考并改变架构，在设计规范框架基础上结合硬件限制和自家产品特性，做了大胆突破...”。原文：[Redesigning Overcast’s Apple Watch app](http://www.marco.org/2015/05/08/overcast-apple-watch-redesign)，译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 为Apple Watch简化现有产品的设计思路](http://www.beforweb.com/node/709)：文章讲述了一款导航应用在 Apple Watch 上的设计及思考过程。P.S. 来自 [@BeForWeb](http://weibo.com/beforweb) 的译文学习及思考性很强，目前读者虽然更倾向于产品经理、用户体验设计师或工程师。感兴趣产品体验的开发者，建议多关注。译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 关于Watch应用的导航、通知、复杂任务及动效](http://beforweb.com/node/717)： “为Watch设计的过程很有意思，我们必须聚焦在核心体验上，打造最基本最简化的界面及交互，并设计合理的通知机制。对于复杂的功能要考虑通过Handoff完成。此外不要忘记在恰当的地方通过动效来提升交互体验...”。来源：[medium.com](https://medium.com/design-for-wearables/designing-wallaby-for-apple-watch-dd5be371288a)，译者：[@C7210](http://weibo.com/c7210)
 * [74 个 Swift 标准库函数](http://letsswift.com/2014/06/74-swift-library-functions/)："Swift 包含了 74 个内置函数，但在 The Swift Programming Langage 一书中只介绍了其中的 7 个，其它的都没有在文档中体现。文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果"。译者：[@李洁信](http://weibo.com/u/1780854425)
+* [iOS 项目的持续集成与管理](http://www.devtf.cn/?p=537)：提高生产力的实战经验分享好文章。作者：[@Sam_Lau_13](http://weibo.com/liuyaozhu)
 * [聊聊移动端跨平台开发的各种技术](http://fex.baidu.com/blog/2015/05/cross-mobile/)：文章研究很全面、很透彻。赞同林老师建议。实在需要时，iOS/WKWebView 和 Android/WebView 可以做为跨平台衔接技术。“[@林泰前](http://weibo.com/limtc)：目前看到对跨平台开发最完整的文章，对这方面有兴趣的朋友建议一读。不过这是我的建议：好好学习 Swift/iOS 和 Java/Android，没有任何跨平台方案比得上真正原生的方案。”
 * [objc.io - #24 音频](http://objccn.io/issue-24/)：经过了前两期（[照片](http://objccn.io/issue-21/)和[视频](http://objccn.io/issue-23/)），本期自然地延伸为音频，这种具有连续性的博客平台，对于开发者，实在是福气。本期首篇文章《[音频处理的狗屋（译文）](http://objccn.io/issue-24-1/)》是精品之作。
 * [Swift Documentation（译文）](http://nshipster.cn/swift-documentation/)：“代码的结构和组织关乎了开发童鞋们的节操问题。明确和一致的代码表示了明确和一贯的思想。编译器并没有一个挑剔的口味，但当谈到命名，空格或文档，人类的差异就体现出来了”。来源：NSHipster
