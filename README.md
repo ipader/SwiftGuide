@@ -151,6 +151,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，官方版本：[Developing IOS 8 Apps With Swift](https://itunes.apple.com/cn/course/developing-ios-8-apps-swift/id961180099)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)，备选中文字幕版：[斯坦福大学公开课：iOS 8 开发](http://www.swiftv.cn/course/i7ahl5gn)。By [suffering](https://github.com/suffering)
 * [Swift Cheat Sheet (PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_3.pdf)：形式以代码先行，极简、有效地 Swift 语言快速学习指南。另一个更新版本：[iOS8 Swift Cheat Sheet and Quick Reference Guide](http://swift-cheatsheet.co.uk/)
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift)：相对于 Swift Cheat Sheet 带了不少说明，但整个文档不显啰嗦，可读性强
+* [codepath/ios_guides](https://github.com/codepath/ios_guides)：通过众包模式为开发者写更专业（系统化一条龙学习平台）的开发教程。此项目若能长期长展，所有人都会受益。感兴趣的同学可以参与其中。
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq)： Raywenderlich 的 Swift 语言FAQ说清楚了很多问题。这份 FAQ 确实浅显易读，初学者不可或缺好文章！
 * [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：了解使用 String 的更高级技巧（尤其在Unicode的使用上）。文章中作者附上了示列代码在 Playground 项目中，似乎 Swift 开发者们已经慢慢地习惯了结合 playground 讲授 Swift 使用小技巧及语言特性。
 * 与其它语言对比表：
@@ -282,6 +283,7 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * Ray Wenderlich － WatchKit 开始教程：[1. 入门](http://www.cocoachina.com/swift/20150518/11860.html)；[2. 表格和网络请求](http://www.cocoachina.com/swift/20150520/11861.html)；[3. WatchKit 开始教程 － Table、Glance 和 Handoff](http://www.cocoachina.com/swift/20150522/11862.html)。原文：[Part 1: Getting Started](http://www.raywenderlich.com/89562/watchkit-tutorial-with-swift-getting-started)
 * Core Graphics 教程：1. [起步](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-5/Swift-Core-Graphics%E6%95%99%E7%A8%8B%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86.md)；2. [Gradients 与 Context](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-5/Swift-Core-Graphics%E6%95%99%E7%A8%8B%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86-Gradients%E4%B8%8EContext.md)；3. [Patterns 和 Playgrounds](http://t.cn/R257CaO)。原文来源：[Ray Wenderlich](http://www.raywenderlich.com/90690/modern-core-graphics-with-swift-part-1)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)
 * [Swift Documentation（译文）](http://nshipster.cn/swift-documentation/)：“代码的结构和组织关乎了开发童鞋们的节操问题。明确和一致的代码表示了明确和一贯的思想。编译器并没有一个挑剔的口味，但当谈到命名，空格或文档，人类的差异就体现出来了”。来源：NSHipster
+* [一次 Objective-C 到 Swift 的改写之旅](https://github.com/nixzhu/dev-blog/blob/master/2015-05-27-wormhole.md)：“既然 Swift 是未来，自然要改写。而改写应当是一种再思考、再设计的过程”。作者：[@nixzhu](http://weibo.com/nixzhu)
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -346,12 +348,15 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [Swift extension 的三项细节](http://www.andrewcbancroft.com/2015/04/22/3-nuances-of-swift-extensions/)：相对于其它主流面向对象编程语言，Swift extension 访问控制与之有着细微的不同之处。比如同一个.swift 文件中不同类/结构间是可以访问 private 属性值的。而 Java, C# 等不同类间显然不能访问其 private 属性。
 * [Facebook React Native 中文教程](http://wiki.jikexueyuan.com/project/react-native/)：“Facebook 在 [React.js Conf 2015 大会](http://conf.reactjs.com/)上推出了基于 JavaScript 的开源框架 [React Native](http://facebook.github.io/react-native/)，本中文教程翻译自 [React Native 官方文档](http://facebook.github.io/react-native/docs/getting-started.html)”。译者：[@极客学院_jikexueyuan](http://weibo.com/jikexueyuan)
 * [EGOCache 源码解析](http://www.isaced.com/post-268.html)：很专业的解读。话说如此精简、广得人心的 Objective-C 类库，哪位同学抽空把它转为 Swift 吧。
+* [案例学习 - 面向Apple Watch自身特性及局限的产品重设计](http://www.beforweb.com/node/720)：“和前面几次 Watch 设计案例不同，今天这篇比实践更加实践 - 作者做了第一版 Watch App，发现在实际当中问题成堆，于是重新思考并改变架构，在设计规范框架基础上结合硬件限制和自家产品特性，做了大胆突破...”。原文：[Redesigning Overcast’s Apple Watch app](http://www.marco.org/2015/05/08/overcast-apple-watch-redesign)，译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 为Apple Watch简化现有产品的设计思路](http://www.beforweb.com/node/709)：文章讲述了一款导航应用在 Apple Watch 上的设计及思考过程。P.S. 来自 [@BeForWeb](http://weibo.com/beforweb) 的译文学习及思考性很强，目前读者虽然更倾向于产品经理、用户体验设计师或工程师。感兴趣产品体验的开发者，建议多关注。译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 为Soundwave设计Watch应用时学到的五件事](http://www.beforweb.com/node/701)：“Soundwave已经在iOS及Android平台上发展了将近两年。我(英文原文作者)最近有幸得到机会，能够为Apple Watch版本的Soundwave进行UI与交互设计，并在这个过程当中学到了一些很关键的东西...”。译者：[@C7210](http://weibo.com/c7210)
 * [案例学习 - 关于Watch应用的导航、通知、复杂任务及动效](http://beforweb.com/node/717)： “为Watch设计的过程很有意思，我们必须聚焦在核心体验上，打造最基本最简化的界面及交互，并设计合理的通知机制。对于复杂的功能要考虑通过Handoff完成。此外不要忘记在恰当的地方通过动效来提升交互体验...”。来源：[medium.com](https://medium.com/design-for-wearables/designing-wallaby-for-apple-watch-dd5be371288a)，译者：[@C7210](http://weibo.com/c7210)
 * [智能手表从业者于海东：十句话读懂 Apple Watch 应用设计（一](http://www.leikeji.com/article?2307)、[二](http://www.leikeji.com/article?2308)）：“Apple Watch 应用设计有何玄机？智能手表应用开发者应该注意什么？且看果壳电子软件副总裁于海东万字长文深度解析”。来源：[@雷科技](http://weibo.com/leitech)
 * [2015-2016交互体验趋势](http://mux.baidu.com/?p=8242)：“2015年的移动应用数量增长依然强劲，但是移动交互体验的却在发生着变化。较之去年层出不穷的新颖形式，今年的交互体验趋势中，更多的是某一个方面的体验优化与深耕，而较少有创造性的引领者出现。这说明移动应用在市场在“爆发”后进入了一个新的阶段”。
 * [网易新闻 iOS 版在开发过程中曾经使用过的第三方开源类库、组件](http://www.jianshu.com/p/8952944f7566)：一款主流新闻 iOS 应用让我们感受开源的力量。来源：[@_TongJZ](http://weibo.com/u/2068840121)
+* [iOS 项目的持续集成与管理](http://www.devtf.cn/?p=537)：提高生产力的实战经验分享好文章。作者：[@Sam_Lau_13](http://weibo.com/liuyaozhu)
+* iOS应用架构谈：[1. 架构设计的方法论](http://www.infoq.com/cn/articles/ios-app-arch-part-01)；[2.View层的组织和调用方案（上）](http://www.infoq.com/cn/articles/ios-app-arch-2-1)，[iOS应用架构谈（二）：View层的组织和调用方案（中）](http://www.infoq.com/cn/articles/ios-app-arch-2-2)。可以学习不同工作背景下开发同学对于 iOS 应用架构的理解及经验。作者：田伟宇
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -683,13 +688,14 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [Bitbucket](https://bitbucket.org/)：国外的代码托管服务，不同于 GitHub 的是，Bitbucket 可以免费建立 private 项目。
 * [Git](http://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看免费电子书籍。
 
-### 3. Xcode插件
+### 3. Xcode 插件
 * [CocoaPods](http://beta.cocoapods.org/)：第三方库的管理利器，允许你简单地把第三方库整合进自己的应用中。对我个人来说，我基本上每个项目都使用 CocoaPods。
 * [CocoaPods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin)：一款 Xcode 插件，允许你直接从 Xcode 管理 CocoaPod 依赖。
 * [onevcat/VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)：快捷注释 Xcode 插件。By [@onevcat](http://weibo.com/onevcat)
 * [Xcode 优秀插件整理](https://github.com/ddapps/DeepIniOS):持续保持整理更新的 Xcode 插件整理 By [@ddapps](https://github.com/ddapps)
 * [CodeEagle/SwiftCodeSnippets](https://github.com/CodeEagle/SwiftCodeSnippets)：自动下载指定 Xcode Snippet 源的 Xcode Plugin。项目缺省提供 Snippet 代码源 [burczyk/XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets/tree/master/plist) 。
 * [realm/SwiftLint](https://github.com/realm/SwiftLint)：Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
+* [XCode 升级后插件失效的原理与修复办法](http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid/)：由一条命令引发的分析文章。[@_TongJZ](http://weibo.com/u/2068840121)
 
 ### 4. 管理工具
 * [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X 上非常出色的包管理工具。
@@ -830,6 +836,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [在 WatchKit 应用里使用 Realm 的教程](https://realm.io/news/tutorial-sharing-data-between-watchkit-and-your-app/)：是一份很完整的教程。文章附了[完整示例代码](https://github.com/FancyPixel/done-swift)。 P.S. Realm 是志向代替 Core Data 和 SQLite 的移动数据库，它的特点是轻量、低耦、面向对象。
 	* [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
 	* [WatchKit 控制器的生命周期](http://weibo.com/p/1001603842436727235421)：“本文介绍的生命周期同样适用于 Hierarchical interfaces, Glances, 以及 Notification interfaces”。译者：[http://weibo.com/twios](http://weibo.com/twios)
+	* [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)：“介绍了如何通过视图模型优化WatchKit 应用的性能表现，英语好的大大可以翻译下。By [@WatchKit开发](http://weibo.com/twios)” 。WatchKit 开发最佳实践。
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。
