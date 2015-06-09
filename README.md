@@ -250,6 +250,8 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [Realm 数据库基础教程](http://www.cocoachina.com/ios/20150505/11756.html)：“Realm 是一个跨平台的移动数据库引擎，于 2014 年 7 月发布，准确来说，它是专门为移动应用所设计的数据持久化解决方案之一。Realm 可以轻松地移植到您的项目当中，并且绝大部分常用的功能（比如说插入、查询等等）都可以用一行简单的代码轻松完成”。来源：[Ray Wenderlich](http://www.raywenderlich.com/81615/introduction-to-realm)，译者：[@星夜暮晨](http://weibo.com/moonisky)
 * [Swift 的响应式编程](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-3/Swift%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B.md)：文章通过在使用 MVC 以及 MVVM 中发现代码繁杂的弊病，引出响应式编程解决方案，并通过解读 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)，让读者进一步理解响应式编程所带来的好处。原文：[Reactive Swift](https://medium.com/swift-programming/reactive-swift-3b6050375534)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[@MrSimp1e](http://weibo.com/mrsimp1e)
 * [iOS 后台模式开发指南](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-3/iOS%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.md)：“这个教程会教你在什么时候怎么去用最常用的一些后台操作... 在本教程中你将建立一个关于简单标签应用的工程，来探索从连续播放视频到周期性的获取更新内容的四种常见模式”。原文来源：Ray Wenderlich，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[@MollyMmmmm](http://weibo.com/mollymmmmmmmm)
+* [iOS8 使用 iCloud](http://www.devtf.cn/?p=574)：“对于开发者来说，如何用适当的方式来存储应用程序数据是一个比较重要的问题。 毫无疑问，任何应用都或多或少需要存储一些数据。对于一般的应用程序来说，被保存的数据各不相同，大部分时间都被存储在本地以便再次在相同的设备运行该应用程序。尽管这不是是唯一的选择”。原文来源：[AppCoda](http://www.appcoda.com/cloudkit-introduction-tutorial/)，译者：[@HarriesChen](http://weibo.com/harrieschen)
+* [Grand Central Dispatch 基础教程：Part 1/2](http://www.jianshu.com/p/50c060bab0ff)：“尽管 Grand Central Dispatch（以下简称为 GCD）已推出一段时间了，但并不是所有人都明白其原理；当然这是可以理解的，毕竟程序的并发机制很繁琐，而且基于 C 的 GCD 的 API 对于 Swift 的新世界并不是特别友好”。来源：[Ray Wenderlich](http://www.raywenderlich.com/79149/grand-central-dispatch-tutorial-swift-part-1)，译者：[@Ethan_Joe](http://weibo.com/u/2898857711)
 
 ### <a id="dev_skill"></a>4. 开发技巧
 * [Problems With Building a Today Extension in iOS 8](https://medium.com/ios-os-x-development/learnings-from-building-a-today-view-extension-in-ios-8-710d5f481594)：构建 Today 扩展时可能碰到的一些问题。
@@ -313,6 +315,7 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [超越 Objective-C，超越 Swift](http://idlelife.org/archives/774)：很有趣的作者，除了对 Swift 有比较专业地概括式理解，还从应用的纬度对新语言提出了自己的要求。比如：自动持久化，自动 RESTful API，有表现力的触发器和响应，所见即所得的 UI 编辑等。译者：[@pockry](http://weibo.com/pockry) 原文：[Beyond Objective-C, Beyond Swift](http://blog.jaredsinclair.com/post/98402624705/beyond-objective-c-beyond-swift)
 * [Some ideas for projects in Swift](http://chris.eidhof.nl/posts/swift-ideas.html)：“正在造轮子的不妨看看~” By [Chris Eidhof](http://chris.eidhof.nl/)(creator of objc.io)
 * [设计师 + Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)：原文作者做为视觉设计师，讲述了采用 Interface Builder 和 Storyboard 与开发小组协同工作的故事。虽然只是一个 4 人小团队，但清晰的分工协作，使项目有序高效进展。Xcode 也让视觉设计师及 UX 设计师有机会分担部分前端开发工作。来源：[@BeForWeb](http://weibo.com/beforweb) 译者：[@C7210](http://weibo.com/c7210) 原文：[Blurring the lines between design and code](http://ustwo.com/blog/the-billogram-story/)
+* [从减少点击次数，到降低使用负荷](http://www.beforweb.com/node/722)：“从减少点击次数，到降低使用负荷 - 如果你的产品不需要用户背负沉重的认知与操作负荷便能高效的使用核心功能，并且将体验打磨到极致，那么你就拥有了竞争的力量 - 你至少可以拉拢到那些在多数时间只会用到这些特定功能，却被那些复杂的产品搞的疲惫不堪的用户...”。来源：[@BeForWeb](http://weibo.com/beforweb)，译者：[@C7210](http://weibo.com/u/1833937113)
 * [iOS设计指南](http://www.ui.cn/project.php?id=32167)（译者：shengbanx）：非官方文档，不过原文《[The iOS Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS Human Interface Guidelines》进行解读介绍。非常值得收藏。原作者 Ivo Mynttinen，是一位来自德国的年轻 UI 设计师。其个人博客网站也值得同学们收录：[ivomynttinen.com](http://ivomynttinen.com)
 * [Natasha The Robot - Holiday Reading: Functional Programming](http://natashatherobot.com/reading-functional-programming/)： 考虑到在写 Swift 代码时，越来越多的使用函数式编程思想，圣诞节期间，娜塔莎网站特意精选了一份可以更深入理解函数式编程的阅读书单。书单主要以有函数式编程语言著称的 Haskel 为主要参考。
 * [IBM Design Language](http://www.ibm.com/design/language/)："Living Language
@@ -356,7 +359,7 @@ A shared vocabulary for design。Explore the guidelines for making delightful pr
 * [2015-2016交互体验趋势](http://mux.baidu.com/?p=8242)：“2015年的移动应用数量增长依然强劲，但是移动交互体验的却在发生着变化。较之去年层出不穷的新颖形式，今年的交互体验趋势中，更多的是某一个方面的体验优化与深耕，而较少有创造性的引领者出现。这说明移动应用在市场在“爆发”后进入了一个新的阶段”。
 * [网易新闻 iOS 版在开发过程中曾经使用过的第三方开源类库、组件](http://www.jianshu.com/p/8952944f7566)：一款主流新闻 iOS 应用让我们感受开源的力量。来源：[@_TongJZ](http://weibo.com/u/2068840121)
 * [iOS 项目的持续集成与管理](http://www.devtf.cn/?p=537)：提高生产力的实战经验分享好文章。作者：[@Sam_Lau_13](http://weibo.com/liuyaozhu)
-* iOS应用架构谈：[1. 架构设计的方法论](http://www.infoq.com/cn/articles/ios-app-arch-part-01)；[2.View层的组织和调用方案（上）](http://www.infoq.com/cn/articles/ios-app-arch-2-1)，[iOS应用架构谈（二）：View层的组织和调用方案（中）](http://www.infoq.com/cn/articles/ios-app-arch-2-2)。可以学习不同工作背景下开发同学对于 iOS 应用架构的理解及经验。作者：田伟宇
+* iOS应用架构谈：[1. 架构设计的方法论](http://www.infoq.com/cn/articles/ios-app-arch-part-01)；[2.View层的组织和调用方案（上）](http://www.infoq.com/cn/articles/ios-app-arch-2-1)，[iOS应用架构谈（二）：View层的组织和调用方案（中）](http://www.infoq.com/cn/articles/ios-app-arch-2-2)，[iOS应用架构谈（三）：网络层架构方案和设计](http://casatwy.com/iosying-yong-jia-gou-tan-wang-luo-ceng-she-ji-fang-an.html)。可以学习不同工作背景下开发同学对于 iOS 应用架构的理解及经验。作者：田伟宇
 
 ---
 ## <a id="swift_projects"></a>Swift 项目
@@ -429,7 +432,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [emaloney/CleanroomLogger](https://github.com/emaloney/CleanroomLogger)：相当于 CocoaLumberjack 或 Log4j 的 Swift 版本，功能上甚至更强大。另外，源代码中已经内含了完整的 API 文档，使用非常方便。
 	* [Khan/Prototope](https://github.com/Khan/Prototope)：一款轻量的 Javascript 桥接 Swift 库。对于 JS 控，或许可以从玩这个项目开始 iOS 原型开发。
 	* [malcommac/SwiftDate](https://github.com/malcommac/SwiftDate)：特别完整、强大的日期操作管理类库。它几乎涵盖了已知开源日期类库所有优秀特性。是一款值得毫不犹豫收录的类库。
-	* [arkverse/SwiftRecord](https://github.com/arkverse/SwiftRecord)：基于 Core Data 极为轻量、易用的对象持久化工具库，相当于 ActiveRecord 的 Swift 版本。
+	* [nghialv/Future](https://github.com/nghialv/Future)：基于微框架设计思想的异步执行及结果响应类。由示例发现，代码即简单又干净。
+	* [alexeyxo/protobuf-swift](https://github.com/alexeyxo/protobuf-swift)：Protocol Buffers 的 Swift 语言实现库。P.S. Protocol Buffers 是 Google 开源项目，主要功能是实现直接序列化结构化的对象数据，方便跨平台快速传递，开发者也可以直接修改 protobuf 中的数据。相比 XML 和 JSON，protobuf 解析更快，存储更小。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -441,6 +445,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [contentful-labs/Concorde](https://github.com/contentful-labs/Concorde)：一个可用于下载和解码渐进式 JPEG 的库。特定场合很有用。类库的调用方法也很自然、方便。
 	* [FlexMonkey/SnapSwift](https://github.com/FlexMonkey/SnapSwift)：一款 Snapseed 风格滤镜及参数编辑菜单。弹出菜单项后，上下、左右滑动即可调整滤镜参数。
 	* [kiavashfaisali/KFSwiftImageLoader](https://github.com/kiavashfaisali/KFSwiftImageLoader)：极高性能、轻量、低功耗网络图片异步加载扩展库（支持 iOS 和 WatchKit）。良好的缓存管理机制保证的作者设计初衷。P.S. 作者曾开发过 [KFWatchKitAnimations](https://github.com/kiavashfaisali/KFWatchKitAnimations)：一款为  Watch 提供 60 帧动画显示效果解决方案及示例。
+	* [yannickl/DynamicColor](https://github.com/yannickl/DynamicColor)：强大的颜色操作扩展类。通过该类，你可以通过扩展方法基于某个颜色得到不同深浅、饱和度、灰度、色相，以及反转后的新颜色。是不可多得的好类库。
 
 * 存储
 	* [SQLiteDB in Swift](https://github.com/FahimF/SQLiteDB)："This is a basic SQLite wrapper for Swift. It is very simple at the moment and does not provide any advanced functionality. Additionally, it's not pure Swift at the moment due to some difficulties in making all of the necessary sqlite C API calls from Swift."
@@ -457,6 +462,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [evermeer/EVCloudKitDao](https://github.com/evermeer/EVCloudKitDao)：一套使用 CloudKit 简单封装库。作者还提供了示例项目及程序供开发者参考使用。
 	* [andrelind/Breeze](https://github.com/andrelind/Breeze)：轻量 CoreData 管理封装库。支持 iCloud 。
 	* [arkverse/SwiftRecord](https://github.com/arkverse/SwiftRecord)：基于 Core Data 极为轻量、易用的对象持久化工具库，相当于 ActiveRecord 的 Swift 版本。
+	* [arkverse/SwiftRecord](https://github.com/arkverse/SwiftRecord)：基于 Core Data 极为轻量、易用的对象持久化工具库，相当于 ActiveRecord 的 Swift 版本。
+	* [JohnEstropia/CoreStore](https://github.com/JohnEstropia/CoreStore)：提供高可读性，一致性及安全性的 Core Data 管理类库。 其中事务管理及查询是其比较大的亮点，整套 API 功能完整，风格传统又实用。非常值得收入。
 
 * 远程访问
 	* [Minimalistic Swift HTTP request agent for iOS and OS X](https://github.com/hallas/agent)：一个简单、小巧、实用的 HTTP 请求 Swift 语言实现类（仅一个 Agent.swift 类）
@@ -559,6 +566,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [FlexMonkey/ShinpuruLayout](https://github.com/FlexMonkey/ShinpuruLayout)：通过水平和垂直分组模块实现简单、快速布局的组件库。作者提供了多种不同类型的布局示例。
 	* [ziligy/JGFlipMenu](https://github.com/ziligy/JGFlipMenu)：Flip 式菜单及其对应动画组件。使用也很简单直接 Interface Builder 。赞不赞自己看。
 	* [Draveness/DKChainableAnimationKit](https://github.com/Draveness/DKChainableAnimationKit)：高可读、链式代码风格动画框架库。
+	* [icanzilb/EasyAnimation](https://github.com/icanzilb/EasyAnimation)：又一款使用简单、功能强大的动画类库。
 	* [andreamazz/BubbleTransition](https://github.com/andreamazz/BubbleTransition)：以气泡膨胀和缩小的动画效果来显示切换界面。代码实现很简单，效果很突出。
 	* [KittenYang/KYFloatingBubble](https://github.com/KittenYang/KYFloatingBubble)：实现iOS7 Game Center浮动气泡的一种思路。示例代码不多，效果还真得赞。
 	* [i-schuetz/SwiftCharts](https://github.com/i-schuetz/SwiftCharts)：基于层架构设计思想的图表类库。基于层架构，无论定制新的图表类型还是已有图表的叠加，都变得非常的容易。
@@ -570,6 +578,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [kylef/Mockingjay](https://github.com/kylef/Mockingjay)：在单元测试时，模拟匹配条件的任意 HTTP 请求，该类库集成于 XCTest 框架内。是一套不可多得的快速开发工具库。
 	* [practicalswift/swift-compiler-crashes](https://github.com/practicalswift/swift-compiler-crashes)：旨在收集使 Swift 编译器崩溃的测试用例。这是一个疯狂又非常有意义的开源项目。可以定期关注一下。P.S. 该开源项目作者最新提示：Xcode 6.3 beta 与 Swift 1.2 已修复了其已发现编译器崩溃级缺陷的 83% 。
 	* [czechboy0/Buildasaur](https://github.com/czechboy0/Buildasaur)：自动测试 GitHub Pull Requests，以提高团队生产力。Buildasaur 安装条件：Xcode 6+, Xcode Server 4+ 和 GitHub 仓库证书。
+	* [realm/SwiftCov](https://github.com/realm/SwiftCov)：Realm 开发的 Swift 代码测试覆盖率命令行工具。大家可以用用看，试试效果如何？
 
 ### <a id="examples"></a>2. 示例项目
 * [官方示例](https://developer.apple.com/wwdc/resources/sample-code/)："比起 GitHub 上的开源项目来说，官方的代码我觉得是更有参考价值的，比如 Session 406 的代码，Lister，就用一个 Swift 实现的包含 OSX 和 iOS 的" By [@晨钰Lancy](http://weibo.com/lancy1014)
@@ -615,6 +624,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 戏平台不二之选。
 * [Mav3r1ck/Project-RainMan](https://github.com/Mav3r1ck/Project-RainMan)：一款很酷的天气预报应用。Forcast.io 提供的天气预报 API 很赞。
 * [kongtomorrow/WatchTransition](https://github.com/kongtomorrow/WatchTransition)：模拟 Apple Watch 上的动画过渡效果。Objective-C 和 Swift 混搭开发学习参考。
+* [jessesquires/JSQWebViewControlle](https://github.com/jessesquires/JSQWebViewController)：一款轻量的 WebKit 浏览器视图控制封装库（使用 WKWebView）。
+* [radex/DiffyTables](https://github.com/radex/DiffyTables)：提供在 WatchKit 应用中有效使用表格的实例。完整实现思路作者已经撰写长文 [Practical and efficient WatchKit tables with view model diffing](http://radex.io/watch/diffing/)。充分理解该文章作者推荐阅读 [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)
 
 ### <a id="projects"></a>3. 完整项目
 * [FlappySwift](https://github.com/fullstackio/FlappySwift)：用 Swift 语言实现的 FlappyBird
@@ -696,6 +707,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [CodeEagle/SwiftCodeSnippets](https://github.com/CodeEagle/SwiftCodeSnippets)：自动下载指定 Xcode Snippet 源的 Xcode Plugin。项目缺省提供 Snippet 代码源 [burczyk/XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets/tree/master/plist) 。
 * [realm/SwiftLint](https://github.com/realm/SwiftLint)：Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
 * [XCode 升级后插件失效的原理与修复办法](http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid/)：由一条命令引发的分析文章。[@_TongJZ](http://weibo.com/u/2068840121)
+* [feinstruktur/CoPilot](https://github.com/feinstruktur/CoPilot)：通过此插件，Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。[演示视频](https://vimeo.com/128713880) 
 
 ### 4. 管理工具
 * [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X 上非常出色的包管理工具。
@@ -837,6 +849,8 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
 	* [WatchKit 控制器的生命周期](http://weibo.com/p/1001603842436727235421)：“本文介绍的生命周期同样适用于 Hierarchical interfaces, Glances, 以及 Notification interfaces”。译者：[http://weibo.com/twios](http://weibo.com/twios)
 	* [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)：“介绍了如何通过视图模型优化WatchKit 应用的性能表现，英语好的大大可以翻译下。By [@WatchKit开发](http://weibo.com/twios)” 。WatchKit 开发最佳实践。
+	* [Apple Watch 应用优化的一些心得技巧总结](http://www.csdn.net/article/2015-06-01/2824816)：“尽管 Watch OS 1.01  已经提升了应用启动的速度，但用户普遍感受还是体验较差，因此我们有必要尽全力优化自己的 Apple Watch 应用。本文作者 [@WatchKit开发](http://weibo.com/twios) 结合自己的体会和其他先驱者的一些心得，对相关技巧做了一些汇总”。来源：[CSDN移动](http://weibo.com/csdnmobile)
+	* [Deep Dive Into the WatchKit SDK（深入WatchKit SDK）](http://tech.ustwo.com/2015/05/27/deepdive-with-watchkit/)：“介绍了手机手表间的通信、本地通知、自定义动画、使用自定义字体等小技巧。By [@WatchKit开发](http://weibo.com/twios)”。
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。
@@ -846,6 +860,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [Apple Watch 的 5 个产品思路畅想](http://www.beforweb.com/node/689)：“接下来的几年会很有意思，数字产品的体验模式正朝着多平台的方向迅速进化着，每一类设备都在开疆破土。我（英文原文作者）整理了五个类型的产品思路，或是说畅想，在 Apple Watch 即将正式上市的前夕，与大家做以分享和探讨...”
 * [kiavashfaisali/KFWatchKitAnimations](https://github.com/kiavashfaisali/KFWatchKitAnimations)：为  Watch 提供 60 帧动画显示效果解决方案及示例。
 * [mobitar/Starburst](https://github.com/mobitar/Starburst)：几款可用于 Apple Watch 应用的 PNG 序列动画。
+* [sandofsky/soon](https://github.com/sandofsky/soon)：一款倒计时 WatchKit 示例应用。作者从架构的角度，思考如何设计一款完整、通讯高效且性能又好的 WatchKit 扩展应用。该示例学习性非常强。
 
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新 Apple Watch 身上小试身手时，iOS 开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出 WatchKit 开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
