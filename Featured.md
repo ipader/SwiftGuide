@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-5-31，最近收录项目 CoPilot, DynamicColor, protobuf-swift, CoreStore, SwiftCov, Future, EasyAnimation 等 6 个，合计已收录 126 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-5-31，最近收录项目 WWDC app for OS X, ZLSwipeableViewSwift, MAGearRefreshControl, XcodeServerSDK 等 4 个，合计已收录 130 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -117,6 +117,7 @@
 [LineChart](https://github.com/zemirco/swift-linechart)|[Mirco Zeiss](https://github.com/zemirco)|功能完整、实用的折线图组件
 [KSTokenView](https://github.com/khawars/KSTokenView)|[Khawar Shahzad](https://github.com/khawars)|带搜索、快捷输入、分段显示关键词输入组件
 [GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)|[Andrea Mazzini](https://github.com/andreamazz)|无违和感的下拉刷新动画组件
+[MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)|[Michaël Azevedo](https://github.com/micazeve)|同样是下拉刷新，人家花了很大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [CameraManager](https://github.com/imaginary-cloud/CameraManager)|[Imaginary Cloud](https://github.com/imaginary-cloud)|简单、易用的相机管理封装类库
 [QRCodeReader](https://github.com/yannickl/QRCodeReader.swift)|[Yannick Loriot](https://github.com/yannickl)|QR 二维码阅读组件及示例
@@ -135,6 +136,7 @@
 [ShinpuruLayout](https://github.com/FlexMonkey/ShinpuruLayout)|[simon gladman](https://github.com/FlexMonkey)|通过水平和垂直分组模块实现简单、快速布局的组件库
 [ZoomTransition](https://github.com/tristanhimmelman/ZoomTransition)|[Tristan Himmelman](https://github.com/tristanhimmelman)|通过手势操控图片的放大、缩小、旋转等自由变化效果的组件及示例
 [MCMHeaderAnimated](https://github.com/mathcarignani/MCMHeaderAnimated)|[Mathias](https://github.com/mathcarignani)|提供列表与详细页切换转场动画
+[ZLSwipeableViewSwift](https://github.com/zhxnlai/ZLSwipeableViewSwift)|[Zhixuan Lai](https://github.com/zhxnlai)|多变的卡片切换转场动画封装类库
 
 * <a id="framework"></a>框架类
 
@@ -152,6 +154,7 @@
 [TouchVisualizer](https://github.com/morizotter/TouchVisualizer)|[Morita Naoki](https://github.com/morizotter)|实用的多点触摸可视化组件
 [Bond](https://github.com/SwiftBond/Bond)|[Bond](https://github.com/SwiftBond)|使用简单、易于理解的对象绑定框架
 [Prototope](https://github.com/Khan/Prototope)|[Khan Academy](https://github.com/Khan)|一款轻量的 Javascript 桥接 Swift 库
+[XcodeServerSDK](https://github.com/czechboy0/XcodeServerSDK)|[Honza Dvorsky](https://github.com/czechboy0)|非官方 Xcode Server SDK 封装库
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -176,6 +179,7 @@
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [edhita](https://github.com/tnantoka/edhita)|[Tatsuya Tobioka](http://blog.tnantoka.com/)|支持 Markdown, HTML 预览的文本编辑器
+[WWDC](https://github.com/insidegui/WWDC)|[Guilherme Rambo](https://github.com/insidegui)］| WWDC 2015 [应用下载](https://github.com/insidegui/WWDC/blob/master/Releases/WWDC_latest.zip?raw=true)
 [firefox-ios](https://github.com/mozilla/firefox-ios)|[Mozilla](https://github.com/mozilla)|来自 Mozilla 开发团队大型纯 Swift 项目
 [Carthage](https://github.com/Carthage/Carthage)|[Carthage](https://github.com/Carthage)|更简单的方式来管理 Cocoa。与 [CocoaPods 差别](http://www.cocoachina.com/ios/20141204/10528.html)
 [SwiftWeather](https://github.com/JakeLin/SwiftWeather)|[Jake Lin](http://weibo.com/yongjianlin/)|清新淡雅持续改进天气预报项目
