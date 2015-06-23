@@ -18,7 +18,7 @@
 * [nabilfreeman/ios-universal-webview-boilerplate](https://github.com/nabilfreeman/ios-universal-webview-boilerplate)： 快速封装 WebApp 到 iOS 应用，即便你毫无 Swift 编程经验。
 
 ### 文档
-> [Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)：最近新收录 4 份，合计已收录 79 份。
+> [Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)：最近新收录 [Swift 2.0 初探](http://www.devtalking.com/articles/what-is-new-in-swift/)，[Swift 2 有哪些新特性[译]](http://www.jianshu.com/p/2dc639b2675a)，[Swift 2.0 异常处理](http://www.jianshu.com/p/96a7db3fde00)，[Grand Central Dispatch 基础教程：Part 2/2](http://www.jianshu.com/p/6185d3753dd8) 等 4 份，合计已收录 79 份。
 
 * [Swift 2.0 初探](http://www.devtalking.com/articles/what-is-new-in-swift/)：言简意赅、示例并茂地讲了若干关键新语法功能及用途。作者：[@DevTalking](http://weibo.com/jacefu)
 * [Swift 2 有哪些新特性[译]](http://www.jianshu.com/p/2dc639b2675a)：“在WWDC我们发现Swift团队没有浪费时间在无谓的地方，而是致力于改善 Swift 2”。来源：Ray Wenderlich [What’s New in Swift 2](http://www.raywenderlich.com/108522/whats-new-in-swift-2)，[@Sam_Lau_Dev](http://weibo.com/liuyaozhu)
