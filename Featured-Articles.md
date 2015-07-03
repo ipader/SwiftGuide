@@ -55,6 +55,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * Hamburger Button - [Menu/Close](http://holko.pl/2014/07/15/hamburger-button-animation/), [Menu/Back](http://robb.is/working-on/a-hamburger-button-transition/)：小小的按钮，无论在设计上，还是代码上，都进行了精雕细琢。两位作者对基于动画的开发都非常有经验。作者：Robert Böhnke, Arkadiusz Holko
 * [Swift扩展的三个微妙细节](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-4/Swift%E6%89%A9%E5%B1%95%E7%9A%84%E4%B8%89%E4%B8%AA%E5%BE%AE%E5%A6%99%E7%BB%86%E8%8A%82.md)：有关于 extension 细节的较完整说明。推荐不甚了解的开发同学阅读，避免稀里糊涂地使用。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：samw00，原文：[3 Nuances of Swift Extensions](http://www.andrewcbancroft.com/2015/04/22/3-nuances-of-swift-extensions/)
 * [radex/DiffyTables](https://github.com/radex/DiffyTables)：提供在 WatchKit 应用中有效使用表格的实例。完整实现思路作者已经撰写长文 [Practical and efficient WatchKit tables with view model diffing](http://radex.io/watch/diffing/)。充分理解该文章作者推荐阅读 [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)
+* [使用 Quick 框架和 Nimble 来测试 ViewControler](http://www.devtf.cn/?p=739)：“不错的文章，有翻译不到位的还请专业人士指出~ ”。来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[@MrSimp1e](http://weibo.com/mrsimp1e)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -66,6 +67,9 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 两篇貌似矛盾，其实并非如此，后一篇溢美 Cocoa 辉煌过去及成就，实则告诉大家它更为 Swift 的亮相铺平了道路，使其一出世开发者就有优秀工具库可用。作者也预言未来会有更好的继任者。来源：NSHipster，译者：[@李乐佳](http://weibo.com/leelejia)
 * [Swift 2.0 初探](http://www.devtalking.com/articles/what-is-new-in-swift/)：言简意赅、示例并茂地讲了若干关键新语法功能及用途。作者：[@DevTalking](http://weibo.com/jacefu)
 * [Swift 2 有哪些新特性[译]](http://www.jianshu.com/p/2dc639b2675a)：“在WWDC我们发现Swift团队没有浪费时间在无谓的地方，而是致力于改善 Swift 2”。来源：Ray Wenderlich [What’s New in Swift 2](http://www.raywenderlich.com/108522/whats-new-in-swift-2)，[@Sam_Lau_Dev](http://weibo.com/liuyaozhu)
+* [What’s New in Swift 2.0 简要介绍](http://chengway.in/post/ji-zhu/what-s-new-in-swift-2.0)：“看了很多篇介绍 Swift 2.0 的，感觉 Appcoda 这篇介绍的比较清楚，顺手学习并翻译了一下，英文原文 [
+What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-introduction/)”。译者：[@walkingway](http://weibo.com/walkingway)
+* [watchOS 2 之 WatchKit 初探](http://www.devtf.cn/?p=758)：“我在过去的几天里看完了新的Apple Watch文档，所以你可以在这篇文章里能非常快的浏览在新的 watchOS 2 中有什么新玩意~”。原文：[WatchKit for watchOS 2: Initial Impressions](http://www.raywenderlich.com/108415/watchkit-for-watchos-2)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[StormXX](https://github.com/StormXX)
 * [Swift 2.0 异常处理](http://www.jianshu.com/p/96a7db3fde00)：“WWDC 2015 宣布了新的 Swift 2.0. 这次重大更新给 Swift 提供了新的异常处理方法。这篇文章会主要围绕这个方面进行讨论”。作者：[@溯流言之](http://weibo.com/rcgary)
 * [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
 * [WatchKit FAQ](http://www.cocoachina.com/ios/20150323/11396.html)：“解答了一系列在社区、Twitter、邮件以及 Stack Overflow 上问的比较频繁的问题，包括基础问题，进阶问题、动画、调试和单元测试以及货币化的一些问题”。来源：Ray Wenderlich，译者：Yue Wang（[@CocoaChina](http://weibo.com/cocoachina) 翻译组）
