@@ -1,6 +1,6 @@
 [Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 33
 ===
-> **本期特别推荐** [neoneye/SwiftyFORM](https://github.com/neoneye/SwiftyFORM)：表单输入框架（亮点是表单验证规则引擎），是我见过地最易用的 Swift 表单组件。
+> **本期特别推荐** [SwiftyFORM](https://github.com/neoneye/SwiftyFORM)：表单输入框架（亮点是表单验证规则引擎），是我见过地最易用的 Swift 表单组件。
 
 > [Swift 2.0 翻译启动](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/issues/383) By [@梁杰_numbbbbb](http://weibo.com/numbbbbb)
 
