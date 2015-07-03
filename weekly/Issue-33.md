@@ -2,6 +2,8 @@
 ===
 > **本期特别推荐** [neoneye/SwiftyFORM](https://github.com/neoneye/SwiftyFORM)：表单输入框架（亮点是表单验证规则引擎），是我见过地最易用的 Swift 表单组件。
 
+> [Swift 2.0 翻译启动](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/issues/383) By [@梁杰_numbbbbb](http://weibo.com/numbbbbb)
+
 ### 项目
 > [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [SwiftyFORM](https://github.com/neoneye/SwiftyFORM)，[SwiftSequence](https://github.com/oisdk/SwiftSequence)，[swifter](https://github.com/glock45/swifter)，[GEOSwift](https://github.com/andreacremaschi/GEOSwift)，[CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)，[GaugeKit](https://github.com/skywinder/GaugeKit)，[Tomate](https://github.com/dasdom/Tomate)，[Butterfly](https://github.com/wongzigii/Butterfly) 等 8 个，合计已收录 144 个。
 
@@ -60,8 +62,6 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [案例学习 - 在实践中重新思考 Apple Watch 版本的 Todoist](http://beforweb.com/node/734)：“我们需要知道不恰当的功能设计致使用户必须保持抬腕15秒所产生的挫败感有多糟，需要知道在每天的真实情境当中哪些功能是用户在Watch上真正需要的，还需要知道怎样形式的信息才能做到“抬腕一瞥即可获取”...”。
 * [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
 * [Swift 2：SIMD（单指令多数据流）](http://www.russbishop.net/swift-2-simd)：“可以更好的利用GPU了 By [@pockry](http://weibo.com/pockry)”。 
-
-> [Swift 2.0 翻译启动](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/issues/383) By [@梁杰_numbbbbb](http://weibo.com/numbbbbb)
 
 
 ### 其它关注
