@@ -699,6 +699,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
 	* [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
 	* [iOS 开发技术前线](https://github.com/bboyfeiyu/iOS-tech-frontier)：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：[@开发技术前线](http://weibo.com/u/5589212242)
+	* [花川学院swift视频教程](http://www.hcxy.me/)：“专注Swift和Apple Watch开发, 致力于提供中国质量最高的iOS8视频课程，视频全部免费。”
 
 ---
 ## <a id="tools"></a>相关工具
