@@ -292,6 +292,11 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [Swift 2.0 初探](http://www.devtalking.com/articles/what-is-new-in-swift/)：言简意赅、示例并茂地讲了若干关键新语法功能及用途。作者：[@DevTalking](http://weibo.com/jacefu)
 * [Swift 2 有哪些新特性[译]](http://www.jianshu.com/p/2dc639b2675a)：“在WWDC我们发现Swift团队没有浪费时间在无谓的地方，而是致力于改善 Swift 2”。来源：Ray Wenderlich [What’s New in Swift 2](http://www.raywenderlich.com/108522/whats-new-in-swift-2)，[@Sam_Lau_Dev](http://weibo.com/liuyaozhu)
 * [Swift 2.0 异常处理](http://www.jianshu.com/p/96a7db3fde00)：“WWDC 2015 宣布了新的 Swift 2.0. 这次重大更新给 Swift 提供了新的异常处理方法。这篇文章会主要围绕这个方面进行讨论”。作者：[@溯流言之](http://weibo.com/rcgary)
+* [What’s New in Swift 2.0 简要介绍](http://chengway.in/post/ji-zhu/what-s-new-in-swift-2.0)：“看了很多篇介绍 Swift 2.0 的，感觉 Appcoda 这篇介绍的比较清楚，顺手学习并翻译了一下，英文原文 [
+What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-introduction/)”。译者：[@walkingway](http://weibo.com/walkingway)
+* [Swift 2：SIMD（单指令多数据流）](http://www.russbishop.net/swift-2-simd)：“可以更好的利用GPU了 By [@pockry](http://weibo.com/pockry)”。 
+* [PhotoStackView——照片叠放视图](http://blog.csdn.net/u013604612/article/details/46336657)：刚开始学习 Swift 就能写如此功能性的“轮子”及分享文章。不容易，大赞。[源代码：YiZhuoChen/PhotoStackView-Swift](https://github.com/YiZhuoChen/PhotoStackView-Swift)。 作者：陈一卓
+* [使用 Quick 框架和 Nimble 来测试 ViewControler](http://www.devtf.cn/?p=739)：“不错的文章，有翻译不到位的还请专业人士指出~ ”。来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[@MrSimp1e](http://weibo.com/mrsimp1e)
 
 ### <a id="related_doc"></a>5. 相关文档
 * WWDC 2014
@@ -443,6 +448,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [nghialv/Future](https://github.com/nghialv/Future)：基于微框架设计思想的异步执行及结果响应类。由示例发现，代码即简单又干净。
 	* [alexeyxo/protobuf-swift](https://github.com/alexeyxo/protobuf-swift)：Protocol Buffers 的 Swift 语言实现库。P.S. Protocol Buffers 是 Google 开源项目，主要功能是实现直接序列化结构化的对象数据，方便跨平台快速传递，开发者也可以直接修改 protobuf 中的数据。相比 XML 和 JSON，protobuf 解析更快，存储更小。
 	* [soffes/SyntaxKits](https://github.com/soffes/SyntaxKit)：TextMate 风格语法高亮类库（基于 Swift 2.0）。
+	* [glock45/swifter](https://github.com/glock45/swifter)：一款极其轻量的 HTTP 服务器引擎。#Swift 2#
+	* [andreacremaschi/GEOSwift](https://github.com/andreacremaschi/GEOSwift)：可轻松地处理地理对象模型和相关地形操作，是一个极其易用的地理封装库（集成 MapKit 和 Quicklook）。绝佳好轮子，不容错过。
 
 * 图片
 	* [kaishin/ImageScout](https://github.com/kaishin/ImageScout)：最小网络代价获得图片大小（宽和高）及类型，它对于很多场合，比如：布局和排版都有积极作用。
@@ -489,6 +496,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [ishkawa/APIKit](https://github.com/ishkawa/APIKit)：为不同来源或类型 Web 服务，提供安全地可定制化网络请求 API 的基础类库。很好的面向对象设计思路实例。
 	* [contentful-labs/Stargate](https://github.com/contentful-labs/Stargate)：通过 iPhone 桥接实现 Mac 与 Watch 的即时通讯。Stargate 通过封装两个优秀的基础类库 MMWormhole 和 PeerKit 实现高效的通讯应用。
 	* [JustHTTP/Just](https://github.com/JustHTTP/Just)：小而美的 HTTP 类。功能简单、直接、完整且健壮性高。
+	* [CloudKitSpace/CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)：基于 CloudKit 服务器实现多终端数据同步。附示例动态图。
 
 * 社交网络
 	* [lingoer/SwiftWeiboKit](https://github.com/lingoer/SwiftWeiboKit)："封装了整个 OAuth 2.0 的授权流程,并提供了几个简便易用的请求方法"
@@ -504,6 +512,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [Masonry/Snappy](https://github.com/Masonry/Snappy)：一个基于 AutoLayout 封装，语法简洁的轻量级布局框架。当然，用代码还是 storyboard，全凭开发者喜好。若偏好可视化自动布局，@DevTalking 的两篇译文值得参考[《Swift 自适应布局教程》](http://www.devtalking.com/articles/adaptive-layout-1/)和[《为 iPhone 6 设计自适应布局》](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)。
 	* [jpsim/PeerKit](https://github.com/jpsim/PeerKit)：基于事件驱动的多端对等连接开源框架。作者提供了该组件使用案例[jpsim/CardsAgainst](https://github.com/jpsim/CardsAgainst)，具体引用代码详见[这里](https://github.com/jpsim/CardsAgainst/blob/master/CardsAgainst/Controllers/ConnectionManager.swift)。
 	* [Quick/Nimble](https://github.com/Quick/Nimble)：功能更强于Xcode自带测试框架（XCTest）的测试类库。
+	* [venmo/DVR](https://github.com/venmo/DVR)：针对网络请求的测试框架，超实用的工具。且支持 iOS, OSX, watchOS 全平台。
+	* [owensd/swift-perf](https://github.com/owensd/swift-perf)：针对 Swift 的性能测试方案。通过抽样场景关键代码与 C 或 Objective-C 的比较做为其测试基准。
 	* [nghialv/MaterialKit](https://github.com/nghialv/MaterialKit)：Swift 版 Google Material Design 组件库。虽然个人并不推荐在 iOS 平台上使用非 iOS 风格界面，不过，对于 Android 强迫症“患者”，多一种选择也是友好的。顺带附上 Google 提供的开源[Material Design 图标集](https://github.com/google/material-design-icons)，可以一起收入。
 	* [facebook/AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)：它是由 Facebook 开发并用于其 Paper 应用的 iOS UI 框架，它主要解决问题是提供界面的高流畅性切换及更灵敏的响应，解决思路是将部分 UI 渲染及复杂计算交由独立于主线程的处理程序负责。中译教程《[AsyncDisplayKit 教程 - 达到 60 FPS 的滚动帧率](https://github.com/nixzhu/dev-blog/blob/master/2014-11-22-asyncdisplaykit-tutorial-achieving-60-fps-scrolling.md) By [@nixzhu](http://weibo.com/nixzhu)》，教程原文《[AsyncDisplayKit Tutorial: Achieving 60 FPS scrolling](http://www.raywenderlich.com/86365/asyncdisplaykit-tutorial-achieving-60-fps-scrolling)》。
 	* [mutualmobile/MMWormhole](https://github.com/mutualmobile/MMWormhole)：提供了 iOS 应用与扩展之间的消息传递，其最有价值之处当属 iPhone 与  Watch 间的消息传递，从而实现相互操控的功能。
@@ -516,6 +526,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [FutureKit/FutureKit](https://github.com/FutureKit/FutureKit)：“是一个 100% Swift 实现的 Future/Promises 库，由 Swift Generic 带来的类型安全、由 GCD 带来的线程安全，通过 FutureKit 可以在 iOS/OS X 下灵活玩转 Future/Promises 式编程了”。推荐者：[@图拉鼎](http://weibo.com/tualatrix)
 	* [SwiftBond/Bond](https://github.com/SwiftBond/Bond)：使用简单、易于理解的对象绑定框架。比如：你可以使用代码 textField ->> label 将输入框文本映射到标签中的文字属性，当文本变化时，标签文字随动变化。 真的很方便。
 	* [nabilfreeman/ios-universal-webview-boilerplate](https://github.com/nabilfreeman/ios-universal-webview-boilerplate)： 快速封装 WebApp 到 iOS 应用，即便你毫无 Swift 编程经验。
+	* [FabrizioBrancati/BFKit-Swift](https://github.com/FabrizioBrancati/BFKit-Swift)：作者说这套工具库可以提高应用开发效率。不知效果如果？有兴趣的同学可以试用一下。
 
 * UI组件
 	* [jcavar/refresher](https://github.com/jcavar/refresher)：一个常用的下拉即刷新列表工具类，提供开放接口定制刷新动态变换效果。
@@ -523,6 +534,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [vikmeup/SCLAlertView-Swift](https://github.com/vikmeup/SCLAlertView-Swift)：动画效果弹出框封装库（管理于 CocoaPods），使用也足够方便。试着运行了一下，效果还不错。
 	* [varshylmobile/MapManager](https://github.com/varshylmobile/MapManager):地图管理封装库（默认支持Google和Apple地图服务）。
 	* [varshylmobile/LocationManager](https://github.com/varshylmobile/LocationManager)：位置管理封装库（默认支持 Google 和 Apple 地图服务）。
+	* [neoneye/SwiftyFORM](https://github.com/neoneye/SwiftyFORM)：表单输入框架（亮点是表单验证规则引擎），是我见过地最易用的 Swift 表单组件。
 	* [ortuman/SwiftForms](https://github.com/ortuman/SwiftForms)：这个表单递交库简单实用，支持主要数据类型及定制。快速开发利器。
 	* [kentya6/KYCircularProgress](https://github.com/kentya6/KYCircularProgress)：这个进程条类库实现及使用都很简单，支持进程路径的定制，灵活方便。
 	* [coolbeet/CBStoreHouseRefreshControl](https://github.com/coolbeet/CBStoreHouseRefreshControl)：这个下拉刷新库，提供完全可定制进度变换效果，且极具艺术感。建议有能力的同学把 Objective-C 版本改写为Swift版本。
@@ -561,6 +573,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [larcus94/BRNImagePickerSheet](https://github.com/larcus94/BRNImagePickerSheet)：图片或视频选择器（可多选）组件及其示例项目。P.S. 作者推荐低藕、非侵入式三方库依赖引用方案 Carthage，从 iOS 8 开始，越来越多开发者推荐 Carthage 做为标配了。
 	* [JayGajjar/JGTransitionCollectionView](https://github.com/JayGajjar/JGTransitionCollectionView)：基于集合视图扩展实现完成自动布局及单元项 Flip 式动画效果（效果很赞）。组件使用方便、自然（只需设置集合视图数据源的标准方式即可）。
 	* [knutigro/COBezierTableView](https://github.com/knutigro/COBezierTableView)：通过编辑 Bezier 曲线四点位置设置 TableView 内 Cell 及对应按扭位置。实验效果很赞。#为开源点赞#
+	* [jozsef-vesza/ExpandingStackCells](https://github.com/jozsef-vesza/ExpandingStackCells)：采用 UIStackView 实现表格单元格扩展内容显示示例及解决方案。
 	* [szk-atmosphere/SAHistoryNavigationViewController](https://github.com/szk-atmosphere/SAHistoryNavigationViewController)：通过继承 UIViewController 并扩展 UICollectionView，UINavigationController，NSLayoutConstraint 等界面及布局控制核心类，应用内模拟实现 iOS 任务管理界面及切换组件。
 	* [szk-atmosphere/SABlurImageView](https://github.com/szk-atmosphere/SABlurImageView)：支持渐变动画效果的图像模糊化类库。P.S. 与前几天推存类库 SAHistoryNavigationViewController 是同一位作者。
 	* [cocoatoucher/AIFlatSwitch](https://github.com/cocoatoucher/AIFlatSwitch)：一款带平滑过渡动画的 Switch 组件类。记得之前收录过两款相同风格的 [Hamburger - Menu/Close](https://github.com/robb/hamburger-button) 和 [Hamburger - Menu/Back](https://github.com/fastred/HamburgerButton)。都是精细之作。
@@ -587,6 +600,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [tristanhimmelman/ZoomTransition](https://github.com/tristanhimmelman/ZoomTransition)：通过手势操控图片的放大、缩小、旋转等自由变化效果的组件及示例。
 	* [Yalantis/PullToRefresh](https://github.com/Yalantis/PullToRefresh)：刷新动画可定制的下拉数据请求更新组件（类库非常简洁易用）。该组件由知名开源开发商 Yalantis 开发，并且还提供了完整动画定制演示项目 [PullToMakeSoup](https://github.com/Yalantis/PullToMakeSoup)
 	* [mikaoj/BSImagePicker](https://github.com/mikaoj/BSImagePicker)：图片多选组件。接口简单，使用很方便。
+	* [skywinder/GaugeKit](https://github.com/skywinder/GaugeKit)：模拟实现  Watch 风格运动进程表盘示例。P.S. 顺附  Watch 另一个圆型进程条参考项目 [iOS-Swift-Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)
+	* [wongzigii/Butterfly](https://github.com/wongzigii/Butterfly)：一款轻量、优雅的缺陷报告及反馈组件。与应用集成极为简单（仅需 2 行代码）。这个“轮子”实在太实用了，强烈推荐。附演示示例动态图。作者：[@Wongzigii](http://weibo.com/wongzigii)
 
 * 测试相关
 	* [kylef/Mockingjay](https://github.com/kylef/Mockingjay)：在单元测试时，模拟匹配条件的任意 HTTP 请求，该类库集成于 XCTest 框架内。是一套不可多得的快速开发工具库。
@@ -642,8 +657,10 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [jessesquires/JSQWebViewControlle](https://github.com/jessesquires/JSQWebViewController)：一款轻量的 WebKit 浏览器视图控制封装库（使用 WKWebView）。
 * [radex/DiffyTables](https://github.com/radex/DiffyTables)：提供在 WatchKit 应用中有效使用表格的实例。完整实现思路作者已经撰写长文 [Practical and efficient WatchKit tables with view model diffing](http://radex.io/watch/diffing/)。充分理解该文章作者推荐阅读 [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)
 * WWDC 2015 watchOS应用示例：1. [Lister](https://developer.apple.com/library/prerelease/watchos/samplecode/Lister/Introduction/Intro.html)(大家比较熟了); 2. [PotLoc](https://developer.apple.com/library/prerelease/watchos/samplecode/PotLoc/Introduction/Intro.html)：使用 CoreLocation 定位；3.[WatchKitMoviePlayer](https://developer.apple.com/library/prerelease/watchos/samplecode/WatchKitMoviePlayer/Introduction/Intro.html): 使用 WKInterfaceMovie播放视频。
+* [The-Swift-2.0-Programming-Language-playground](https://github.com/mengxiangyue/The-Swift-2.0-Programming-Language-playground)：“自己整理的对应最新发布《The Swift Programming Language》Swift 2.0 一书中的内容的Playground，基本在Playground中包含了书中描述的知识点 By [@孟祥月](http://weibo.com/u/1750643861)”。
 * [alskipp/Swift-Diagram-Playgrounds](https://github.com/alskipp/Swift-Diagram-Playgrounds)：面向协议的编程示例 Playgrounds 。P.S. 编程技术真是日新月异啊。
 * [jstart/UIStackView-Playground](https://github.com/jstart/UIStackView-Playground)：采用 UIStackView 平铺式自动布局演示示例 Playground。#为开源点赞# P.S. 顺附 [UIStackView 官方文档译文](http://www.cnblogs.com/tieria/p/4572882.html) By [@潇湘TT](http://weibo.com/tieria0512)。
+* [phpmaple/Stick-Hero-Swift](https://github.com/phpmaple/Stick-Hero-Swift)：“开源小游戏Stick-Hero，和大家一起学习Swift2和Spritekit，基础功能完成，后续添加一些细节方面设计 By [@KooFrank](http://weibo.com/phpmaple)”。#Swift 2#
 
 ### <a id="projects"></a>3. 完整项目
 * [WWDC app for OS X](https://github.com/insidegui/WWDC)：去年还只是一个会后的脑补演示项目。而今年已然成为追剧观看的超实用项目。连编译都懒得做的同学直接[下载应用](https://github.com/insidegui/WWDC/blob/master/Releases/WWDC_latest.zip?raw=true)即可。
@@ -666,6 +683,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [Imperiopolis/WatchScreenshotMagic](https://github.com/Imperiopolis/WatchScreenshotMagic)：快速生成干净、漂亮的 Apple Watch 截图的实用工具应用。
 * [beltex/dshb](https://github.com/beltex/dshb)：OS X 系统状态（CPU、电池、内存、温度传感器、风扇及杂项）监视器应用。每秒刷新文本界面，极低系统开销。
 * [nscoding/sleep-osx](https://github.com/nscoding/sleep-osx)：在 Spotlight 中输入 sleep 即休眠你的 Mac。实现特别简单，几行代码而已。
+* [dasdom/Tomate](https://github.com/dasdom/Tomate)：这个圆盘式计时器让你更专注于工作或学习。P.S. [App Store 上架收费应用](https://itunes.apple.com/de/app/fojusi/id923044693)（0.99 欧），开发者福利呀。
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是 #Workflow# 了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
@@ -699,6 +717,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
 	* [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
 	* [iOS 开发技术前线](https://github.com/bboyfeiyu/iOS-tech-frontier)：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：[@开发技术前线](http://weibo.com/u/5589212242)
+	* [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
 
 ---
 ## <a id="tools"></a>相关工具
@@ -877,6 +896,9 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 	* [Reducing WatchKit Traffic With View Models](http://techblog.thescore.com/2015/05/20/reducing-watchkit-traffic-with-view-models/)：“介绍了如何通过视图模型优化WatchKit 应用的性能表现，英语好的大大可以翻译下。By [@WatchKit开发](http://weibo.com/twios)” 。WatchKit 开发最佳实践。
 	* [Apple Watch 应用优化的一些心得技巧总结](http://www.csdn.net/article/2015-06-01/2824816)：“尽管 Watch OS 1.01  已经提升了应用启动的速度，但用户普遍感受还是体验较差，因此我们有必要尽全力优化自己的 Apple Watch 应用。本文作者 [@WatchKit开发](http://weibo.com/twios) 结合自己的体会和其他先驱者的一些心得，对相关技巧做了一些汇总”。来源：[CSDN移动](http://weibo.com/csdnmobile)
 	* [Deep Dive Into the WatchKit SDK（深入WatchKit SDK）](http://tech.ustwo.com/2015/05/27/deepdive-with-watchkit/)：“介绍了手机手表间的通信、本地通知、自定义动画、使用自定义字体等小技巧。By [@WatchKit开发](http://weibo.com/twios)”。
+	* [关于Apple Watch官方提到的10个设计小技巧](http://www.uisdc.com/10-tips-designing-for-apple-watch)：“今天这篇是国外某位亲历WWDC 2015的设计师写的，他把官网视频里提到的小技巧都提炼成图文分享出来，特别实用，推荐学习”。特定场景下最小加载、最小计算、占位布局技巧是不能丢的。译文来源：[@优秀网页设计](http://weibo.com/u/1773655610)，原文：[11 Tips For Designing Apps for Apple Watch](https://medium.com/design-idea/11-tips-for-designing-apps-for-apple-watch-4b6cc2cb11d3)
+	* [watchOS 2 之 WatchKit 初探](http://www.devtf.cn/?p=758)：“我在过去的几天里看完了新的Apple Watch文档，所以你可以在这篇文章里能非常快的浏览在新的 watchOS 2 中有什么新玩意~”。原文：[WatchKit for watchOS 2: Initial Impressions](http://www.raywenderlich.com/108415/watchkit-for-watchos-2)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[StormXX](https://github.com/StormXX)
+	* [案例学习 - 在实践中重新思考 Apple Watch 版本的 Todoist](http://beforweb.com/node/734)：“我们需要知道不恰当的功能设计致使用户必须保持抬腕15秒所产生的挫败感有多糟，需要知道在每天的真实情境当中哪些功能是用户在Watch上真正需要的，还需要知道怎样形式的信息才能做到“抬腕一瞥即可获取”...”。
 
 ### <a id="watch_projects"></a>4. Watch 项目
 * [kostiakoval/WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)：WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程。
@@ -889,6 +911,7 @@ Awareness: The Killer Feature of the Apple Watch?](https://medium.com/@marckohlb
 * [sandofsky/soon](https://github.com/sandofsky/soon)：一款倒计时 WatchKit 示例应用。作者从架构的角度，思考如何设计一款完整、通讯高效且性能又好的 WatchKit 扩展应用。该示例学习性非常强。
 * [shu223/watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)：基于 watchOS 2 若干新特性，作者写了相应的示例代码供大家学习、参考。
 * [KhaosT/HMWatch](https://github.com/KhaosT/HMWatch)：即便只是一个有待完善的 watchOS 2.0 HomeKit 示例，参考价值还是很高的。
+* [yasuoza/YOChartImageKit](https://github.com/yasuoza/YOChartImageKit)：“YOChartImageKit 支持在 watchOS 上绘制图表。By [@WatchKit开发](http://weibo.com/twios)”
 
 ### <a id="watch_news"></a>5. 媒体文章
 * [Apple Watch应用开发正在紧锣密鼓地进行](http://www.forbeschina.com/review/201410/0038218.shtml)："因此大家可以想象，终于可以在最新 Apple Watch 身上小试身手时，iOS 开发者们该有多兴奋。周四，苹果公司首席执行官蒂姆·库克（Tim Cook）宣布将推出 WatchKit 开发工具，让开发者和移动行业创业者能够开始为这款最新设备开发新的应用程序。" By [福布斯](http://www.forbeschina.com/)
