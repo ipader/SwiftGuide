@@ -5,7 +5,7 @@
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
 * [codepath/ios_guides](https://github.com/codepath/ios_guides)：通过众包模式为开发者写更专业（系统化一条龙学习平台）的开发教程。此项目若能长期长展，所有人都会受益。感兴趣的同学可以参与其中。
-* Swift REPL（Read - Eval - Print Loop） － 1. 入门介绍 http://idlelife.org/archives/842，2. 一切皆可重定义 http://www.cocoachina.com/ios/20150212/11147.html：习惯命令行式、解释型语言风格实时预览代码运行结果的同学，这两篇来自苹果官方博客的文章不容错过。译者：@pockry / @MichealGeng
+* Swift REPL（Read - Eval - Print Loop） － [1. 入门介绍](http://idlelife.org/archives/842)，[2. 一切皆可重定义](http://www.cocoachina.com/ios/20150212/11147.html)：习惯命令行式、解释型语言风格实时预览代码运行结果的同学，这两篇来自苹果官方博客的文章不容错过。译者：[@pockry](http://weibo.com/pockry) / [@MichealGeng](http://weibo.com/u/3039394685)
 * [UIStackView](http://www.cnblogs.com/tieria/p/4572882.html)：“iOS9 新增的 UIStackView 官方文档翻译”。译者：[@潇湘TT](http://weibo.com/tieria0512)
 * [Alamofire - 1. 基础教程](http://www.jianshu.com/p/f1208b5e42d9)，[2. 进阶教程](http://www.jianshu.com/p/30599f64a09c)：该系列教程通过示例项目分步骤详细介绍了 Alamofire 网络库的使用技巧。Alamofire 是 Mattt Thompson 为其著名的 AFNetworking 采用 Swift 重写的网络库。来源：Ray Wenderlich，作者：Essan Parto，译者：[@星夜暮晨](http://weibo.com/u/3227937731)
 * [Swift Documentation](http://nshipster.com/swift-documentation/)：“对于开发者来讲，良好的代码结构及组织是其引以为豪的事。干净、一致的代码习惯，对于编译器并无所谓，但程序字里行间可以代表个人符号、或与同伴的差异”。两位博主的倾情合作，有了这篇美文。来源：NSHipster
