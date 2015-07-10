@@ -1,6 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。逐步整理中...
 
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-10，最近新收录 [多范式编程语言－以 Swift 为例](http://www.infoq.com/cn/articles/multi-paradigm-programming-language-swift), [NSHipster - CloudKit](http://nshipster.com/cloudkit/), [An Introduction to watchOS 2 ClockKit](http://code.tutsplus.com/tutorials/an-introduction-to-clockkit--cms-24247), [WatchOS 2 Tutorial: Animations Using Groups](http://www.kristinathai.com/watchos-2-tutorial-animations-using-groups/)等 4 份，合计已收录 86 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -16,7 +17,9 @@
 * [Java​Script​Core](http://nshipster.cn/javascriptcore/)：文章介绍了在 Swift 中使用 Javascript 的方法和技巧。来源：[@NSHipster](http://weibo.com/nshipster)，作者：Nate Cook（是一位独立的 Web 应用开发者及非常活跃的 Swift 博主），译者：[April Peng](http://nshipster.cn/translators/april-peng/)
 * [Core Location in i​OS 8](http://nshipster.cn/core-location-in-ios-8/)：本文侧重于 iOS 8 核心位置服务的权限、室内位置追踪、CLVisit 等角度做了针对性介绍。来源：[@NSHipster](http://weibo.com/nshipster)，译者：[April Peng](http://nshipster.cn/translators/april-peng/)
 * [IBInspectable / IBDesignable](http://nshipster.cn/ibinspectable-ibdesignable/)：通过两者的配合，所见即所得修改界面元素显示属性。尽管这样开发方式对于程序员来讲，并非那么地不可或缺（维护时很有用）。然而，对于设计师，则可以更多地参与界面开发，以有效提高实施效率。来源：[@NSHipster](http://weibo.com/nshipster)，译者：[April Peng](http://nshipster.cn/translators/april-peng/)
+* [NSHipster - CloudKit](http://nshipster.com/cloudkit/)：一篇非常实用的 CloudKit 入门指南。通过轻便地 CloudKit API 管理应用数据，由 iCloud 平台来保证应用数据安全，舍它取谁。[嘻嘻] P.S. 恭喜 [@刘镇夫](http://weibo.com/croath) 同学转正为 nshipster.com 作者了。
 * [Swift 方法的多面性](http://objccn.io/issue-16-3/)：非常基础、易读的文章。相比官方《Swift Programming Language》对应章节，这篇文章讲解得更细、更通俗一些。适合入门者。来源：objc.io，译者：[@唯木念](http://weibo.com/u/1709283185)
+* [多范式编程语言－以 Swift 为例](http://www.infoq.com/cn/articles/multi-paradigm-programming-language-swift)：Swift 基本语法的分类总结。浅显易懂，非常适合初学者阅读参考。作者：[郭麟](http://www.infoq.com/cn/author/%E9%83%AD%E9%BA%9F)
 * [如何在 Swift 中创建 Action 扩展](http://www.devtalking.com/articles/how-to-create-action-extension/)：通过一个简单的 Action 扩展教你如何将 Safari 中拷贝的文本读入 Note 应用中。开发步骤很清晰，并提供完整示例项目代码 https://github.com/jorjuela33/NoteApp。虽然它"只是一个简单的Aciton扩展的例子，但我们可以由此延伸出更多有用、有创意的功能"。 译者：[@DevTalking](http://weibo.com/jacefu)
 * [在 iOS 8 中使用 Handoff](http://www.cocoachina.com/ios/20150115/10926.html)：“本文通过一个包含不同功能的联系人示例工程详细讲述了如何进行 Handoff 开发，以及需要注意的地方。By @CocoaChina”。来源：[AppCoda](http://www.appcoda.com/handoff/) ，译者：[@_HuaQiao](http://weibo.com/u/2509273763)
 * [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：列举了常用设计模式，并结合 Swift 程序实现进行讲解。除了回顾设计模式外，它更易于理解 Swift 语言特性，以及了解 Swift 与其它编程语言间的差异。
@@ -70,6 +73,8 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [What’s New in Swift 2.0 简要介绍](http://chengway.in/post/ji-zhu/what-s-new-in-swift-2.0)：“看了很多篇介绍 Swift 2.0 的，感觉 Appcoda 这篇介绍的比较清楚，顺手学习并翻译了一下，英文原文 [
 What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-introduction/)”。译者：[@walkingway](http://weibo.com/walkingway)
 * [watchOS 2 之 WatchKit 初探](http://www.devtf.cn/?p=758)：“我在过去的几天里看完了新的Apple Watch文档，所以你可以在这篇文章里能非常快的浏览在新的 watchOS 2 中有什么新玩意~”。原文：[WatchKit for watchOS 2: Initial Impressions](http://www.raywenderlich.com/108415/watchkit-for-watchos-2)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[StormXX](https://github.com/StormXX)
+* [WatchOS 2 Tutorial: Animations Using Groups](http://www.kristinathai.com/watchos-2-tutorial-animations-using-groups/)：“这篇博文实践了 watchOS2 里的 UI 动画 By [@WatchKit开发](http://weibo.com/twios)”
+* 表盘开发外文二联弹：[（一）An Introduction to watchOS 2 ClockKit](http://code.tutsplus.com/tutorials/an-introduction-to-clockkit--cms-24247)，[（二）The Not So Comlicated Complications](http://macoscope.com/blog/the-not-so-complicated-complications)。By [@WatchKit开发](http://weibo.com/twios)
 * [Swift 2.0 异常处理](http://www.jianshu.com/p/96a7db3fde00)：“WWDC 2015 宣布了新的 Swift 2.0. 这次重大更新给 Swift 提供了新的异常处理方法。这篇文章会主要围绕这个方面进行讨论”。作者：[@溯流言之](http://weibo.com/rcgary)
 * [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
 * [WatchKit FAQ](http://www.cocoachina.com/ios/20150323/11396.html)：“解答了一系列在社区、Twitter、邮件以及 Stack Overflow 上问的比较频繁的问题，包括基础问题，进阶问题、动画、调试和单元测试以及货币化的一些问题”。来源：Ray Wenderlich，译者：Yue Wang（[@CocoaChina](http://weibo.com/cocoachina) 翻译组）

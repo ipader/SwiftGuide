@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-3，最近收录项目 [SwiftyFORM](https://github.com/neoneye/SwiftyFORM)，[SwiftSequence](https://github.com/oisdk/SwiftSequence)，[swifter](https://github.com/glock45/swifter)，[GEOSwift](https://github.com/andreacremaschi/GEOSwift)，[CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)，[GaugeKit](https://github.com/skywinder/GaugeKit)，[Tomate](https://github.com/dasdom/Tomate)，[Butterfly](https://github.com/wongzigii/Butterfly) 等 8 个，合计已收录 144 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-10，最近收录项目 [Swifternalization](https://github.com/tomkowz/Swifternalization), [TLMetaResolver](https://github.com/tryolabs/TLMetaResolver), [Presentation](https://github.com/hyperoslo/Presentation), [apous](https://github.com/owensd/apous), [Sapporo](https://github.com/nghialv/Sapporo), [Koloda](https://github.com/Yalantis/Koloda), [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView), [swiftmi-app](https://github.com/feiin/swiftmi-app) 等 8 个，合计已收录 152 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -26,6 +26,7 @@
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift 版 Lo-Dash (或 underscore )函数式工具库
 [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)|[Alexey Khokhlov](https://github.com/alexeyxo)|Protocol Buffers 的 Swift 语言实现库
 [SwiftMoment](https://github.com/akosma/SwiftMoment)|[Adrian Kosmaczewski](https://github.com/akosma)|Swift 版 [Moment.js](http://momentjs.com/)
+[Swifternalization](https://github.com/tomkowz/Swifternalization)|[Tomasz Szulc](https://github.com/tomkowz)| 实用的本地化工具库
 [OAuthSwift](https://github.com/dongri/OAuthSwift)|[Dongri Jin](https://github.com/dongri)|国外主流网站 OAuth 授权类库
 [PathKit](https://github.com/kylef/PathKit)|[Kyle Fuller](http://kylefuller.co.uk)|小而美的路径管理类
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)|[Dave Wood](https://github.com/tangplin)|功能完整的日志管理类库
@@ -77,6 +78,7 @@
 [APIKit](https://github.com/ishkawa/APIKit)|[Yosuke Ishikawa](https://github.com/ishkawa)|安全地可定制化网络请求基础类库
 [Stargate](https://github.com/contentful-labs/Stargate)|[contentful-labs](https://github.com/contentful-labs)|通过 iPhone 桥接实现 Mac 与 Watch 的即时通讯
 [CoreStore](https://github.com/JohnEstropia/CoreStore)|[John Estropia](https://github.com/JohnEstropia/)|提供高可读性，一致性及安全性的 Core Data 管理类库
+[TLMetaResolver](https://github.com/tryolabs/TLMetaResolver)|[Tryolabs](https://github.com/tryolabs)|解析 HTML 头部 Meta Tags 
 
 * <a id="pictures"></a>图片类
 
@@ -126,6 +128,7 @@
 [GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)|[Andrea Mazzini](https://github.com/andreamazz)|无违和感的下拉刷新动画组件
 [MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)|[Michaël Azevedo](https://github.com/micazeve)|同样是下拉刷新，人家花了很大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
+[Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例
 [CameraManager](https://github.com/imaginary-cloud/CameraManager)|[Imaginary Cloud](https://github.com/imaginary-cloud)|简单、易用的相机管理封装类库
 [QRCodeReader](https://github.com/yannickl/QRCodeReader.swift)|[Yannick Loriot](https://github.com/yannickl)|QR 二维码阅读组件及示例
 [SwiftQRCode](https://github.com/liufan321/SwiftQRCode)|[Fan Liu](https://github.com/liufan321)|简单、实用的 QR Code 扫描识别及生成库
@@ -145,6 +148,9 @@
 [MCMHeaderAnimated](https://github.com/mathcarignani/MCMHeaderAnimated)|[Mathias](https://github.com/mathcarignani)|提供列表与详细页切换转场动画
 [ZLSwipeableViewSwift](https://github.com/zhxnlai/ZLSwipeableViewSwift)|[Zhixuan Lai](https://github.com/zhxnlai)|多变的卡片切换转场动画封装类库
 [Butterfly](https://github.com/wongzigii/Butterfly)|[Wongzigii](https://github.com/wongzigii)|轻量、优雅的缺陷报告及反馈组件
+[Presentation](https://github.com/hyperoslo/Presentation)|[Hyper](https://github.com/hyperoslo)|方便你制作定制的动画式教程
+[Sapporo](https://github.com/nghialv/Sapporo)|[Le Van Nghia](https://github.com/nghialv)|单元格模型驱动的集合视图管理器
+[QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView)|[Sergey Pershenkov](https://github.com/okla)|基于 UITableView 的快速重排功能
 
 * <a id="framework"></a>框架类
 
@@ -166,6 +172,7 @@
 [ios-universal-webview-boilerplate](https://github.com/nabilfreeman/ios-universal-webview-boilerplate)|[Freeman](https://github.com/nabilfreeman)|快速封装 WebApp 到 iOS 应用
 [swifter](https://github.com/glock45/swifter)|[Damian Kołakowski](https://github.com/glock45)|轻量的 HTTP 服务器引擎
 [CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)|[CloudKitSpace](https://github.com/CloudKitSpace)|基于 CloudKit 服务器实现多终端数据同步
+[apous](https://github.com/owensd/apous)|[David Owens II](https://github.com/owensd)|让 Swift 成为脚本语言
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -202,3 +209,4 @@
 [CoPilot](https://github.com/feinstruktur/CoPilot)|[Sven A. Schmidt](https://github.com/feinstruktur)|协同编程 Xcode 插件
 [SwiftCov](https://github.com/realm/SwiftCov)|[Realm](https://github.com/realm)|代码测试覆盖率命令行工具
 [Tomate](https://github.com/dasdom/Tomate)|[Dominik Hauser](https://github.com/dasdom)|圆盘式计时器让你更专注于工作或学习
+[swiftmi-app](https://github.com/feiin/swiftmi-app)|[feiin](https://github.com/feiin)|完整的社区应用

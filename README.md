@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。希望快速找到其中精选文章，可以访问[《Swift 文章精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-7-3，更新内容详见[《Issue 33》](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-33.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-7-10，更新内容详见[《Issue 33》](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-34.md)</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -294,7 +294,7 @@ UIKit 重力学（[一](http://www.devtalking.com/articles/swift-uikit-dynamics-
 * [Swift 2.0 异常处理](http://www.jianshu.com/p/96a7db3fde00)：“WWDC 2015 宣布了新的 Swift 2.0. 这次重大更新给 Swift 提供了新的异常处理方法。这篇文章会主要围绕这个方面进行讨论”。作者：[@溯流言之](http://weibo.com/rcgary)
 * [What’s New in Swift 2.0 简要介绍](http://chengway.in/post/ji-zhu/what-s-new-in-swift-2.0)：“看了很多篇介绍 Swift 2.0 的，感觉 Appcoda 这篇介绍的比较清楚，顺手学习并翻译了一下，英文原文 [
 What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-introduction/)”。译者：[@walkingway](http://weibo.com/walkingway)
-* [Swift 2：SIMD（单指令多数据流）](http://www.russbishop.net/swift-2-simd)：“可以更好的利用GPU了 By [@pockry](http://weibo.com/pockry)”。 
+* [Swift 2：SIMD（单指令多数据流）](http://www.russbishop.net/swift-2-simd)：“可以更好的利用GPU了 By [@pockry](http://weibo.com/pockry)”。
 * [PhotoStackView——照片叠放视图](http://blog.csdn.net/u013604612/article/details/46336657)：刚开始学习 Swift 就能写如此功能性的“轮子”及分享文章。不容易，大赞。[源代码：YiZhuoChen/PhotoStackView-Swift](https://github.com/YiZhuoChen/PhotoStackView-Swift)。 作者：陈一卓
 * [使用 Quick 框架和 Nimble 来测试 ViewControler](http://www.devtf.cn/?p=739)：“不错的文章，有翻译不到位的还请专业人士指出~ ”。来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[@MrSimp1e](http://weibo.com/mrsimp1e)
 
@@ -747,7 +747,7 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [CodeEagle/SwiftCodeSnippets](https://github.com/CodeEagle/SwiftCodeSnippets)：自动下载指定 Xcode Snippet 源的 Xcode Plugin。项目缺省提供 Snippet 代码源 [burczyk/XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets/tree/master/plist) 。
 * [realm/SwiftLint](https://github.com/realm/SwiftLint)：Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
 * [XCode 升级后插件失效的原理与修复办法](http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid/)：由一条命令引发的分析文章。[@_TongJZ](http://weibo.com/u/2068840121)
-* [feinstruktur/CoPilot](https://github.com/feinstruktur/CoPilot)：通过此插件，Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。[演示视频](https://vimeo.com/128713880) 
+* [feinstruktur/CoPilot](https://github.com/feinstruktur/CoPilot)：通过此插件，Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。[演示视频](https://vimeo.com/128713880)
 
 ### 4. 管理工具
 * [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X 上非常出色的包管理工具。
