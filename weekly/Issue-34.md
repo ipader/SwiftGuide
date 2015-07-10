@@ -51,5 +51,4 @@
 * [WatchOS 2 Tutorial: Animations Using Groups](http://www.kristinathai.com/watchos-2-tutorial-animations-using-groups/)：“这篇博文实践了 watchOS2 里的 UI 动画 By [@WatchKit开发](http://weibo.com/twios)”
 * 表盘开发外文二联弹：[（一）An Introduction to watchOS 2 ClockKit](http://code.tutsplus.com/tutorials/an-introduction-to-clockkit--cms-24247)，[（二）The Not So Comlicated Complications](http://macoscope.com/blog/the-not-so-complicated-complications)。By [@WatchKit开发](http://weibo.com/twios)
 * [多范式编程语言－以 Swift 为例](http://www.infoq.com/cn/articles/multi-paradigm-programming-language-swift)：Swift 基本语法的分类总结。浅显易懂，非常适合初学者阅读参考。作者：[郭麟](http://www.infoq.com/cn/author/%E9%83%AD%E9%BA%9F)
-
 * [简约之道 - 最小化界面设计的起源](http://www.beforweb.com/node/736)：文章通过例数界面设计发展历程，直到当前主流设计及观点，是一篇极具思考性的文章。P.S. 个人觉得界面极简于否应取决于屏幕大小、使用场景及用户有效关注点数量，长远来看，还是应该有更智能的个性化界面。来源：[@BeForWeb](http://weibo.com/beforweb) 译者：[@C7210](http://weibo.com/c7210) 原文：[The Roots of Minimalism in Web Design](http://www.nngroup.com/articles/roots-minimalism-web-design/)

@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-10，最近收录项目 [Swifternalization](https://github.com/tomkowz/Swifternalization), [TLMetaResolver](https://github.com/tryolabs/TLMetaResolver), [Presentation](https://github.com/hyperoslo/Presentation), [apous](https://github.com/owensd/apous), [Sapporo](https://github.com/nghialv/Sapporo), [Koloda](https://github.com/Yalantis/Koloda), [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView), [swiftmi-app](https://github.com/feiin/swiftmi-app) 等 8 个，合计已收录 152 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-10，最近收录项目 [Swifternalization](https://github.com/tomkowz/Swifternalization), [TLMetaResolver](https://github.com/tryolabs/TLMetaResolver), [Presentation](https://github.com/hyperoslo/Presentation), [apous](https://github.com/owensd/apous), [Sapporo](https://github.com/nghialv/Sapporo), [Koloda](https://github.com/Yalantis/Koloda), [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView), [swiftmi-app](https://github.com/feiin/swiftmi-app) 等 8 个，合计已收录 154 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -151,6 +151,7 @@
 [Presentation](https://github.com/hyperoslo/Presentation)|[Hyper](https://github.com/hyperoslo)|方便你制作定制的动画式教程
 [Sapporo](https://github.com/nghialv/Sapporo)|[Le Van Nghia](https://github.com/nghialv)|单元格模型驱动的集合视图管理器
 [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView)|[Sergey Pershenkov](https://github.com/okla)|基于 UITableView 的快速重排功能
+[SlideMenuControllerSwift](https://github.com/dekatotoro/SlideMenuControllerSwift)|[Yuji Hato](https://github.com/dekatotoro)|侧滑菜单组件
 
 * <a id="framework"></a>框架类
 
@@ -193,6 +194,7 @@
 [Project-RainMan](https://github.com/Mav3r1ck/Project-RainMan)|[Aaron](https://github.com/Mav3r1ck)|采用 Forcast.io API 的天气预报应用
 [UIStackView-Playground](https://github.com/jstart/UIStackView-Playground)|[Christopher Truman](https://github.com/jstart)|采用 UIStackView 平铺式自动布局示例 
 [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)|[shu223](https://github.com/shu223)| watchOS 2 若干新特性写的示例
+[SwiftSideslipLikeQQ](https://github.com/johnlui/SwiftSideslipLikeQQ)|[@吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)|再造 “手机QQ” 侧滑菜单
 
 * <a id="projects"></a>完整应用
 
