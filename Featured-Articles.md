@@ -1,7 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。逐步整理中...
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-10，最近新收录 [多范式编程语言－以 Swift 为例](http://www.infoq.com/cn/articles/multi-paradigm-programming-language-swift), [NSHipster - CloudKit](http://nshipster.com/cloudkit/), [An Introduction to watchOS 2 ClockKit](http://code.tutsplus.com/tutorials/an-introduction-to-clockkit--cms-24247), [WatchOS 2 Tutorial: Animations Using Groups](http://www.kristinathai.com/watchos-2-tutorial-animations-using-groups/)等 4 份，合计已收录 86 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-19，最近新收录 [Tesseract OCR（光学字符识别）教程](http://www.cocoachina.com/ios/20150708/12463.html) 1 份，合计已收录 87 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -41,6 +41,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * Core Graphics 教程：1. [起步](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-5/Swift-Core-Graphics%E6%95%99%E7%A8%8B%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86.md)；2. [Gradients 与 Context](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-5/Swift-Core-Graphics%E6%95%99%E7%A8%8B%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86-Gradients%E4%B8%8EContext.md)；3. [Patterns 和 Playgrounds](http://t.cn/R257CaO)。原文来源：[Ray Wenderlich](http://www.raywenderlich.com/90690/modern-core-graphics-with-swift-part-1)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)
 * [iOS8 使用 iCloud](http://www.devtf.cn/?p=574)：“对于开发者来说，如何用适当的方式来存储应用程序数据是一个比较重要的问题。 毫无疑问，任何应用都或多或少需要存储一些数据。对于一般的应用程序来说，被保存的数据各不相同，大部分时间都被存储在本地以便再次在相同的设备运行该应用程序。尽管这不是是唯一的选择”。原文来源：[AppCoda](http://www.appcoda.com/cloudkit-introduction-tutorial/)，译者：[@HarriesChen](http://weibo.com/harrieschen)
 * [Grand Central Dispatch 基础教程：Part 1/2](http://www.jianshu.com/p/50c060bab0ff)，[Part 2/2](http://www.jianshu.com/p/6185d3753dd8)：“尽管 Grand Central Dispatch（以下简称为 GCD）已推出一段时间了，但并不是所有人都明白其原理；当然这是可以理解的，毕竟程序的并发机制很繁琐，而且基于 C 的 GCD 的 API 对于 Swift 的新世界并不是特别友好”。来源：[Ray Wenderlich](http://www.raywenderlich.com/79149/grand-central-dispatch-tutorial-swift-part-1)，译者：[@Ethan_Joe](http://weibo.com/u/2898857711)
+* [Tesseract OCR（光学字符识别）教程](http://www.cocoachina.com/ios/20150708/12463.html)：“你之前肯定已经见过，OCR技术被应用于在平板电脑上将扫描文件处理成手写字迹，还被应用于谷歌最近添加到他们的Translate app上的"Word Len"功能。现在你将学习在自己的iPhone app上使用OCR，非常酷，不是吗？”。原文：[Tesseract OCR Tutorial](http://www.raywenderlich.com/93276/implementing-tesseract-ocr-ios)，作者：[Lyndsey Scott](http://www.raywenderlich.com/u/Lyndsey)，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组 [Mr_cyz](http://blog.csdn.net/u013604612)
 * [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
 * 视频教程
 	* [1. 基础篇－使用 Swift 开发 iOS8 应用实战](http://www.imooc.com/view/173)，[2. 进阶篇－Swift Weather APP](http://www.imooc.com/view/149)：实战学习是最有效的编程学习方法。该系列视频教程通过不同的案例，由浅入深地介绍 iOS 应用开发方法。来源：[@慕课网](http://weibo.com/mukewang)，讲师：[@林永坚Jake](http://weibo.com/yongjianlin)
