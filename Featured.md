@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-7-19，最近收录项目 [Mirror](https://github.com/kostiakoval/Mirror), [Decodable](https://github.com/Anviking/Decodable), [CoreValue](https://github.com/terhechte/CoreValue), [Static](https://github.com/venmo/Static), [ParkedTextField](https://github.com/gmertk/ParkedTextField), [GMStepper](https://github.com/gmertk/GMStepper), [tispr-card-stack](https://github.com/tispr/tispr-card-stack) 等 7 个，合计已收录 161 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-8-1，最近收录项目  [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)，[CKWaveCollectionViewTransition](https://github.com/CezaryKopacz/CKWaveCollectionViewTransition)，[EasyTipView](https://github.com/teodorpatras/EasyTipView)，[SwiftPages](https://github.com/GabrielAlva/SwiftPages)，[RazzleDazzle](https://github.com/IFTTT/RazzleDazzle)，[FFLabel](https://github.com/liufan321/FFLabel) 等 5 个，合计已收录 166 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -154,11 +154,16 @@
 [ZoomTransition](https://github.com/tristanhimmelman/ZoomTransition)|[Tristan Himmelman](https://github.com/tristanhimmelman)|通过手势操控图片的放大、缩小、旋转等自由变化效果的组件及示例
 [MCMHeaderAnimated](https://github.com/mathcarignani/MCMHeaderAnimated)|[Mathias](https://github.com/mathcarignani)|提供列表与详细页切换转场动画
 [ZLSwipeableViewSwift](https://github.com/zhxnlai/ZLSwipeableViewSwift)|[Zhixuan Lai](https://github.com/zhxnlai)|多变的卡片切换转场动画封装类库
+[SwiftPages](https://github.com/GabrielAlva/SwiftPages)|[Gabriel Alvarado]((https://github.com/GabrielAlva/)|高可定制类似 Instagram 视图滑动切换
 [Butterfly](https://github.com/wongzigii/Butterfly)|[Wongzigii](https://github.com/wongzigii)|轻量、优雅的缺陷报告及反馈组件
 [Presentation](https://github.com/hyperoslo/Presentation)|[Hyper](https://github.com/hyperoslo)|方便你制作定制的动画式教程
+[RazzleDazzle](https://github.com/IFTTT/RazzleDazzle)|[IFTTT](https://github.com/IFTTT/)|基于关键锁的动画框架类库
 [Sapporo](https://github.com/nghialv/Sapporo)|[Le Van Nghia](https://github.com/nghialv)|单元格模型驱动的集合视图管理器
 [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView)|[Sergey Pershenkov](https://github.com/okla)|基于 UITableView 的快速重排功能
 [SlideMenuControllerSwift](https://github.com/dekatotoro/SlideMenuControllerSwift)|[Yuji Hato](https://github.com/dekatotoro)|侧滑菜单组件
+[CKWaveCollectionViewTransition](https://github.com/CezaryKopacz/CKWaveCollectionViewTransition)|[Cezary Kopacz](https://github.com/CezaryKopacz)|仿波纹（图片）视图收放动画
+[NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)|[Nguyen Vinh](https://github.com/ninjaprox)|酷炫的装载动画库及演示
+[EasyTipView](https://github.com/teodorpatras/EasyTipView)|[Teodor Patraş](https://github.com/teodorpatras/)|弹出提示框类及演示示例
 
 * <a id="framework"></a>框架类
 
