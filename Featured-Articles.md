@@ -1,7 +1,7 @@
 ## Swift 文章精选
->站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。逐步整理中...
+>站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-8-1，最近新收录 [UICollectionViews 的拖拽效果](http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/)，[如何用代码控制以不同屏幕方向打开新页面](http://lvwenhan.com/ios/458.html)，[关键帧动画实用教程](http://www.devtalking.com/articles/uiview-keyframe-animation/)，[iOS9 Day-by-Day 中译](http://www.jianshu.com/notebooks/1351342/latest)，[单例在Swift中的正确实现方式](http://www.devtf.cn/?p=937) 等 5 份，合计已收录 92 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-8-18，最近新收录 [Strings in Swift 2 译文](http://www.devtf.cn/?p=989), [从 SDK 详说 Swift 代码的改变](http://www.csdn.net/article/2015-08-17/2825473-swift-er-sdk)，[30 分钟开发一个简单的 watchOS 2 app](http://onevcat.com/2015/08/watchos2/), [自己动手构建表单验证功能](http://lvwenhan.com/ios/459.html), [如果你还在用子类（Subclassing），那就不对了](http://www.jianshu.com/p/80bd6633ec7c) 等 5 份，合计已收录 97 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -24,6 +24,8 @@
 * [在 iOS 8 中使用 Handoff](http://www.cocoachina.com/ios/20150115/10926.html)：“本文通过一个包含不同功能的联系人示例工程详细讲述了如何进行 Handoff 开发，以及需要注意的地方。By @CocoaChina”。来源：[AppCoda](http://www.appcoda.com/handoff/) ，译者：[@_HuaQiao](http://weibo.com/u/2509273763)
 * [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：列举了常用设计模式，并结合 Swift 程序实现进行讲解。除了回顾设计模式外，它更易于理解 Swift 语言特性，以及了解 Swift 与其它编程语言间的差异。
 * [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：深入了解使用 String 的更高级技巧（尤其在 Unicode 的使用上）。为了更直观理解示例代码运行状态，作者附上了与本文几乎完全一致的 Playground 项目下载。P.S. 如今 Playground 已经成为讲授 Swift 使用小技巧及语言特性必备。
+* [Strings in Swift 2 译文](http://www.devtf.cn/?p=989)：“Swift 提供高性能，兼容 Unicode 的 String 作为标准库的一部分，在 Swift 2.0，String 类型不再符合CollectionType协议，曾经String是字符的集合，类似于 Array。现在，String 提供了一个公开字符集视图的charactes属性...”。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)
+* [从 SDK 详说 Swift 代码的改变](http://www.csdn.net/article/2015-08-17/2825473-swift-er-sdk)：“Xcode 7中，几乎所有常见框架都指定了其API的nullability注解，包括其集合类型的元素，这使得Swift代码的样子发生了变化，而通过To Latest Swift Syntax会将实现从Swift 1.2到2.0的代码转换”。译文来源：[@CSDN移动](http://weibo.com/csdnmobile)
 * [Swift 的函数式 API](http://objccn.io/issue-16-4/)：“一篇质量非常高的译文，用很简明的例子从基础开始阐述了 Swift 中函数式 API 的思想。这是一片 Swift 带来的新天地，真心推荐一看。By [@onevcat](http://weibo.com/onevcat) ”。译者：[@请叫我汪二](http://weibo.com/small1030light)
 * [CMDevice​Motion](http://segmentfault.com/a/1190000002400742)：关于传感器框架的解读及使用方法的介绍。让开发者对如何使用三轴陀螺仪、加速感应器、运动协处理器及框架有个基本了解。此外，文章更重要的是启发开发者如何采用传感器结合各种场景开发新颖好玩的应用。来源：[@SegmentFault](http://weibo.com/segmentfault)，译者：Cruise Chan
 * [理解 iOS 8 中的 Photo Editing Extension](http://www.cocoachina.com/ios/20150122/10978.html)：“我们一起来看看怎样制作一个 Photo Editing Extension。由于我们的关注点在创建应用程序扩展而不是写一个完整的应用，我已经创建了一个你们可以下载并且一路跟着做的上手项目...”。来源：AppCoda，译者：[@X140Yu](http://weibo.com/272255634)
@@ -42,6 +44,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [iOS8 使用 iCloud](http://www.devtf.cn/?p=574)：“对于开发者来说，如何用适当的方式来存储应用程序数据是一个比较重要的问题。 毫无疑问，任何应用都或多或少需要存储一些数据。对于一般的应用程序来说，被保存的数据各不相同，大部分时间都被存储在本地以便再次在相同的设备运行该应用程序。尽管这不是是唯一的选择”。原文来源：[AppCoda](http://www.appcoda.com/cloudkit-introduction-tutorial/)，译者：[@HarriesChen](http://weibo.com/harrieschen)
 * [Grand Central Dispatch 基础教程：Part 1/2](http://www.jianshu.com/p/50c060bab0ff)，[Part 2/2](http://www.jianshu.com/p/6185d3753dd8)：“尽管 Grand Central Dispatch（以下简称为 GCD）已推出一段时间了，但并不是所有人都明白其原理；当然这是可以理解的，毕竟程序的并发机制很繁琐，而且基于 C 的 GCD 的 API 对于 Swift 的新世界并不是特别友好”。来源：[Ray Wenderlich](http://www.raywenderlich.com/79149/grand-central-dispatch-tutorial-swift-part-1)，译者：[@Ethan_Joe](http://weibo.com/u/2898857711)
 * [Tesseract OCR（光学字符识别）教程](http://www.cocoachina.com/ios/20150708/12463.html)：“你之前肯定已经见过，OCR技术被应用于在平板电脑上将扫描文件处理成手写字迹，还被应用于谷歌最近添加到他们的Translate app上的"Word Len"功能。现在你将学习在自己的iPhone app上使用OCR，非常酷，不是吗？”。原文：[Tesseract OCR Tutorial](http://www.raywenderlich.com/93276/implementing-tesseract-ocr-ios)，作者：[Lyndsey Scott](http://www.raywenderlich.com/u/Lyndsey)，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组 [Mr_cyz](http://blog.csdn.net/u013604612)
+* [30 分钟开发一个简单的 watchOS 2 app](http://onevcat.com/2015/08/watchos2/)：[OneV's Den](http://weibo.com/onevcat) 的新文章 WWDC15 Session 笔记。
 * [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
 * [iOS9-day-by-day](https://github.com/shinobicontrols/iOS9-day-by-day)： 继 [iOS8-day-by-day](https://github.com/shinobicontrols/iOS8-day-by-day) 后， iOS9-day-by-day 也来了。如此专业的实战训练项目，不要错过。[中译版](http://www.jianshu.com/notebooks/1351342/latest) By [@nathan1](http://weibo.com/elepone)
 * 视频教程
@@ -64,9 +67,11 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [UICollectionViews 的拖拽效果](http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/)：“随着 iOS9 的发布，现在实现起来更加简单。By [@Meng_Hang_](http://weibo.com/u/5193870696)”。源代码：[nshintio/uicollectionview-reordering](https://github.com/nshintio/uicollectionview-reordering)
 * [如何用代码控制以不同屏幕方向打开新页面](http://lvwenhan.com/ios/458.html)：“前两天遇到了一个 “使用指定的不同屏幕方向打开新页面” 的需求，需求很简单：APP 一直保持竖屏，要求新打开的页面能够指定为横屏或竖屏，并且不允许自动切换，新页面退出后要恢复竖屏”。作者：[吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)
 * [关键帧动画实用教程](http://www.devtalking.com/articles/uiview-keyframe-animation/)：“Keyframe 动画可以让我们有效的拆分由若干段动画连接而成的复杂动画，可以较为精准的定义每段动画的起始点及持续时间，并且在代码组织方面也非常清晰”。作者：[@DevTalking](http://weibo.com/jacefu)
+* [自己动手构建表单验证功能](http://lvwenhan.com/ios/459.html)：“实现下图中的所有功能，加上注释和空行，一共用了 90 行代码”。作者：[@吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
+* [如果你还在用子类（Subclassing），那就不对了](http://www.jianshu.com/p/80bd6633ec7c)：“你可能对我的标题感到诧异。我并不是说子类没有价值，尤其在使用单一继承（single inheritance）的情况下，类和子类当然是强有力的工具。然而我想说的是，iOS日常开发的问题是对类和继承的过度使用...”。作者：[ray16897188](http://www.jianshu.com/users/97c49dfd1f9f/latest_articles)
 * [一次 Objective-C 到 Swift 的改写之旅](https://github.com/nixzhu/dev-blog/blob/master/2015-05-27-wormhole.md)：“既然 Swift 是未来，自然要改写。而改写应当是一种再思考、再设计的过程”。作者：[@nixzhu](http://weibo.com/nixzhu)
 * [设计师+Xcode：突破产品开发的流程界线](http://www.beforweb.com/node/604)：原文作者做为视觉设计师，讲述了采用 Interface Builder 和 Storyboard 与开发小组协同工作的故事。虽然只是一个4人小团队，但清晰的分工协作，使项目有序高效进展。Xcode也让视觉设计师及UX设计师有机会分担部分前端开发工作。原文: [Blurring the lines between design and code](http://ustwo.com/blog/the-billogram-story/)，来源：[@BeForWeb](http://weibo.com/beforweb)，译者: [@C7210](http://weibo.com/c7210) 
 * [#objc中国# － Issue 20](http://objccn.io/issue-20/)：“三位传奇开发者的访谈，很有意思。天才少年 Andy Matuschak [《终身学习的一代人》](http://objccn.io/issue-20-1/)  两次创业 Loren Brichter [《让东西变得不那么糟》](http://objccn.io/issue-20-2/) 以及前 FBI 的俄国妹子 Natasha Murashev [《学无止境》](http://objccn.io/issue-20-3/)。简直篇篇精彩。By [@onevcat](http://weibo.com/onevcat)”。Natasha Murashev 的访谈故事对于学习 Swift 的同学比较励志。
