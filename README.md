@@ -310,7 +310,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 	* [inamiy/SwiftTask](https://github.com/inamiy/SwiftTask)： 一个很标准的任务及其生命周期管理类库。作者还附上了一个基于Alamofire库完成的网络文件下载的任务管理示例。
 	* [inamiy/SwiftState](https://github.com/inamiy/SwiftState)：Swift版本State Machine，这是SwiftTask的姐妹篇。开发过Workflow类应用的同学有没有很亲切。
 	* [colemancda/NetworkObjects](https://github.com/colemancda/NetworkObjects)：基于Swift的轻量版HttpServer框架，可以做为iOS/OS X分布式对象的替代。可惜缺少演示或示例代码。
-	* [Masonry/Snappy](https://github.com/Masonry/Snappy)：一个基于AutoLayout封装，语法简洁的轻量级布局框架。当然，用代码还是storyboard，全凭开发者喜好。若偏好可视化自动布局，@DevTalking 的两篇译文值得参考[《Swift自适应布局教程》](http://www.devtalking.com/articles/adaptive-layout-1/)和[《为iPhone6设计自适应布局》](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)。
+	* [Masonry/Snappy](https://github.com/Masonry/Snappy)：一个基于AutoLayout封装，语法简洁的轻量级布局框架。当然，用代码还是storyboard，全凭开发者喜好。可视化自动布局，@DevTalking 的两篇译文值得参考[《Swift自适应布局教程》](http://www.devtalking.com/articles/adaptive-layout-1/)和[《为iPhone6设计自适应布局》](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)。
 	* [jpsim/PeerKit](https://github.com/jpsim/PeerKit)：基于事件驱动的多端对等连接开源框架。作者提供了该组件使用案例[jpsim/CardsAgainst](https://github.com/jpsim/CardsAgainst)，具体引用代码详见[这里](https://github.com/jpsim/CardsAgainst/blob/master/CardsAgainst/Controllers/ConnectionManager.swift)。
 	* [Quick/Nimble](https://github.com/Quick/Nimble)：功能更强于Xcode自带测试框架（XCTest）的测试类库。
 	* [nghialv/MaterialKit](https://github.com/nghialv/MaterialKit)：Swift版Google Material Design组件库。虽然个人并不推荐在iOS平台上使用非iOS风格界面，不过，对于Android强迫症“患者”，多一种选择也是友好的。顺带附上Google提供的开源[Material Design图标集](https://github.com/google/material-design-icons)，可以一起收入。
