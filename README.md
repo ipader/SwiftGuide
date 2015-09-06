@@ -396,6 +396,7 @@ of iOS and OSX libraries)](http://www.swifttoolbox.io/) (By [Adam Leonard](https
 * [CocoaPods](http://beta.cocoapods.org/)：第三方库的管理利器，允许你简单地把第三方库整合进自己的应用中。对我个人来说，我基本上每个项目都使用CocoaPods。
 * [CocoaPods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin)：一款Xcode插件，允许你直接从Xcode管理CocoaPod依赖。
 * [onevcat/VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)：快捷注释Xcode插件。By [@onevcat](http://weibo.com/onevcat)
+* [ColorSense](https://github.com/omz/ColorSense-for-Xcode)：一款显示颜色数值的插件，还可以直接通过系统的ColorPicker来自动生成对应颜色代码
 
 ### 4. 管理工具
 * [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X上非常出色的包管理工具。
