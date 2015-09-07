@@ -1,7 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-9-7，最近新收录 [仿 Taasky 的 3D 翻转菜单动画实现](http://www.brighttj.com/ios/3d-effect-taasky-swift.html)，[如何创建一个非常酷的 3D 效果菜单](http://www.jianshu.com/p/a7f5cab17395)，[如何在 Swift 中使用字典树](http://swift.gg/2015/09/06/a-trie-in-swift/)，[什么时候不适合使用函数式方法](http://swift.gg/2015/08/28/swift_when_the_functional_approach_is_not_right/)， [UIGestureRecognizer 教程：创建自定义手势识别器](http://swift.gg/2015/08/11/uigesturerecognizer-tutorial-creating-custom-recognizers/)，[Swift 函数式编程实践](http://swift.gg/2015/09/04/swift-functional-programming-intro/) 等 6 份，合计已收录 103 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-8-18，最近新收录 [Strings in Swift 2 译文](http://www.devtf.cn/?p=989), [从 SDK 详说 Swift 代码的改变](http://www.csdn.net/article/2015-08-17/2825473-swift-er-sdk)，[30 分钟开发一个简单的 watchOS 2 app](http://onevcat.com/2015/08/watchos2/), [自己动手构建表单验证功能](http://lvwenhan.com/ios/459.html), [如果你还在用子类（Subclassing），那就不对了](http://www.jianshu.com/p/80bd6633ec7c) 等 5 份，合计已收录 97 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -47,7 +47,6 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [30 分钟开发一个简单的 watchOS 2 app](http://onevcat.com/2015/08/watchos2/)：[OneV's Den](http://weibo.com/onevcat) 的新文章 WWDC15 Session 笔记。
 * [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
 * [iOS9-day-by-day](https://github.com/shinobicontrols/iOS9-day-by-day)： 继 [iOS8-day-by-day](https://github.com/shinobicontrols/iOS8-day-by-day) 后， iOS9-day-by-day 也来了。如此专业的实战训练项目，不要错过。[中译版](http://www.jianshu.com/notebooks/1351342/latest) By [@nathan1](http://weibo.com/elepone)
-* [如何在 Swift 中使用字典树](http://swift.gg/2015/09/06/a-trie-in-swift/)：“Swift 中有许多“不明觉厉”的数据结构，今天我们就来看其中最神秘的一个”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@小铁匠Linus](http://weibo.com/linusling)
 * 视频教程
 	* [1. 基础篇－使用 Swift 开发 iOS8 应用实战](http://www.imooc.com/view/173)，[2. 进阶篇－Swift Weather APP](http://www.imooc.com/view/149)：实战学习是最有效的编程学习方法。该系列视频教程通过不同的案例，由浅入深地介绍 iOS 应用开发方法。来源：[@慕课网](http://weibo.com/mukewang)，讲师：[@林永坚Jake](http://weibo.com/yongjianlin)
 	*  WWDC 视频：1. Swift 入门（[A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)）；2. Swift 进阶（[A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)）；3. Swift 版本升级补录补丁（[A001.Patch](http://v.youku.com/v_show/id_XNzg1MTM2NDEy.html?f=22361976)，[A002.Patch](http://v.youku.com/v_show/id_XNzg1MTQ2MDY0.html?f=22519841)）。翻译：[@赵哲A](http://weibo.com/zhaozhecleric)
@@ -69,9 +68,6 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [如何用代码控制以不同屏幕方向打开新页面](http://lvwenhan.com/ios/458.html)：“前两天遇到了一个 “使用指定的不同屏幕方向打开新页面” 的需求，需求很简单：APP 一直保持竖屏，要求新打开的页面能够指定为横屏或竖屏，并且不允许自动切换，新页面退出后要恢复竖屏”。作者：[吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)
 * [关键帧动画实用教程](http://www.devtalking.com/articles/uiview-keyframe-animation/)：“Keyframe 动画可以让我们有效的拆分由若干段动画连接而成的复杂动画，可以较为精准的定义每段动画的起始点及持续时间，并且在代码组织方面也非常清晰”。作者：[@DevTalking](http://weibo.com/jacefu)
 * [自己动手构建表单验证功能](http://lvwenhan.com/ios/459.html)：“实现下图中的所有功能，加上注释和空行，一共用了 90 行代码”。作者：[@吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)
-* [仿 Taasky 的 3D 翻转菜单动画实现](http://www.brighttj.com/ios/3d-effect-taasky-swift.html)：本文翻译自 Audrey Tam 发布在 raywenderlich 上的文章 [How To Create a Cool 3D Sidebar Animation Like in Taasky](http://www.raywenderlich.com/87268/3d-effect-taasky-swift)。译者：[@saitjr](http://weibo.com/u/1918545437)。顺便，还可以看下[@叶孤城___](http://weibo.com/u/1438670852) 的 [如何创建一个非常酷的 3D 效果菜单](http://www.jianshu.com/p/a7f5cab17395)
-* [UIGestureRecognizer 教程：创建自定义手势识别器](http://swift.gg/2015/08/11/uigesturerecognizer-tutorial-creating-custom-recognizers/)：“自定义手势可以使 app 更独特，更有活力，从而取悦用户。... 通过这篇自定义 UIGestureRecognizer 教程你可以掌握所有关于手势识别的知识!”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[mmoaay](http://blog.csdn.net/mmoaay)
-* [Swift 函数式编程实践](http://swift.gg/2015/09/04/swift-functional-programming-intro/)：“Swift 为 iOS 编程世界引入了一个新的范式：函数式范式。大多数 iOS 开发者之前都习惯了用 Objective-C 或者其他面向对象编程语言，函数式的编码和思考会变得有点烧脑(brain-addling)”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[shanks](http://codebuild.me/)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -88,8 +84,6 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-introduction/)”。译者：[@walkingway](http://weibo.com/walkingway)
 * [watchOS 2 之 WatchKit 初探](http://www.devtf.cn/?p=758)：“我在过去的几天里看完了新的Apple Watch文档，所以你可以在这篇文章里能非常快的浏览在新的 watchOS 2 中有什么新玩意~”。原文：[WatchKit for watchOS 2: Initial Impressions](http://www.raywenderlich.com/108415/watchkit-for-watchos-2)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[StormXX](https://github.com/StormXX)
 * [WatchOS 2 Tutorial: Animations Using Groups](http://www.kristinathai.com/watchos-2-tutorial-animations-using-groups/)：“这篇博文实践了 watchOS2 里的 UI 动画 By [@WatchKit开发](http://weibo.com/twios)”
-* [什么时候不适合使用函数式方法](http://swift.gg/2015/08/28/swift_when_the_functional_approach_is_not_right/)：作者经验告诉我们，在同等性能前提下，当极简代码影响到可读性时，需慎重使用（尤其在协作开发中）。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@天才175 
-](http://weibo.com/u/2916092907)
 * 表盘开发外文二联弹：[（一）An Introduction to watchOS 2 ClockKit](http://code.tutsplus.com/tutorials/an-introduction-to-clockkit--cms-24247)，[（二）The Not So Comlicated Complications](http://macoscope.com/blog/the-not-so-complicated-complications)。By [@WatchKit开发](http://weibo.com/twios)
 * [Swift 2.0 异常处理](http://www.jianshu.com/p/96a7db3fde00)：“WWDC 2015 宣布了新的 Swift 2.0. 这次重大更新给 Swift 提供了新的异常处理方法。这篇文章会主要围绕这个方面进行讨论”。作者：[@溯流言之](http://weibo.com/rcgary)
 * [Design for Wearables](http://designforwearables.com/vip/)：很系统化的 Apple Watch 设计课程， 建议开发的同学好好学习一下。
