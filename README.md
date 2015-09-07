@@ -6,7 +6,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 > 想了解关于该指南及 Swift 更多信息的同学，可以阅读短文《[致 Swift 开发者](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)》。 想快速找到优秀开源项目的开发者，可以访问我们额外整理的[《Swift 项目精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)。希望快速找到其中精选文章，可以访问[《Swift 文章精选》](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-9-7，更新内容详见[《Issue 38》](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-38.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2015-8-18，更新内容详见[《Issue 37》](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-37.md)</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
@@ -49,9 +49,9 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 ## <a id="swift_doc"></a>Swift 文档
 
-### <a id="welcome"></a>1. [Welcome to Swift](https://developer.apple.com/swift/)
+### <a id="welcome"></a>1. [Welcome to Swift](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html)
 苹果针对 Swift 开发者官方文档入口。其中包括：
-[Swift 概括](https://developer.apple.com/swift/)，[Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)，[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
+[Swift 概括](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html)，[Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)，[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
 
 
 ### <a id="spl"></a>2. [Swift Programming Language](https://developer.apple.com/swift/)
