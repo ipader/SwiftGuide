@@ -61,7 +61,7 @@
 [FontBlaster](https://github.com/ArtSabintsev/FontBlaster)|[Arthur Ariel Sabintsev](https://github.com/ArtSabintsev)|调用自定义字体封装类
 [Prephirences](https://github.com/phimage/Prephirences)|[Phi Mage](https://github.com/phimage)|让开发者更方便管理、读写应用的配置
 [Locksmith](https://github.com/matthewpalmer/Locksmith)|[Matthew Palmer](https://github.com/matthewpalmer)|面向协议便于扩展的 Keychain 类库
-[RateLimit](https://github.com/soffes/RateLimit)|[Sam Soffes](https://github.com/soffes)|简单、实用定时执行任务工具类库
+[RateLimit](https://github.com/soffes/RateLimit)|[Sam Soffes](https://github.com/soffes)|简单、实用的限制执行次数类库
 [DDMathParser](https://github.com/davedelong/DDMathParser)|[Dave DeLong](https://github.com/davedelong)|功能更强大的数学表达式解析器。
 [SWXMLHash](https://github.com/drmohundro/SWXMLHash)|[David Mohundro](https://github.com/drmohundro)|易用的 XML 解析类库
 [FileKit](https://github.com/nvzqz/FileKit)|[Nikolai Vazquez](https://github.com/nvzqz)|使用简单、功能完整的文件管理工具库类

@@ -9,7 +9,7 @@
 * [richzertuche/InceptionTouch](https://github.com/richzertuche/InceptionTouch)：让没有 3D Touch 设备也有类似交互体验的 InceptionTouch 类（基于 UITextView 实现，支持日期，链接，电话号码，地址触摸响应）。P.S. 虽然有一点噱头，不过也不愧为简单实用的类。开发者：[Ricardo Zertuche](https://github.com/richzertuche)
 * [nixzhu/MonkeyKing](https://github.com/nixzhu/MonkeyKing)：信息递交中文社交网络及分享类库。开发者：[@nixzhu](weibo.com/nixzhu)
 * [matthewpalmer/Locksmith](https://github.com/matthewpalmer/Locksmith)：能强大、面向协议便于扩展的 Keychain 类库。开发者：[Matthew Palmer](https://github.com/matthewpalmer)
-* [soffes/RateLimit](https://github.com/soffes/RateLimit)：简单、实用定时执行任务工具类库。开发者：[Sam Soffes](https://github.com/soffes)
+* [soffes/RateLimit](https://github.com/soffes/RateLimit)：简单、实用的代码限制执行次数类库。开发者：[Sam Soffes](https://github.com/soffes)
 * [davedelong/DDMathParser](https://github.com/davedelong/DDMathParser)：相比 NSExpression 和 GCMathPaser，功能更强大的数学表达式解析器。开发者：[Dave DeLong](https://github.com/davedelong)
 * [drmohundro/SWXMLHash](https://github.com/drmohundro/SWXMLHash)：易用的 XML 解析类库。非常实用的“轮子”。开发者：[David Mohundro](https://github.com/drmohundro)
 * [nvzqz/FileKit](https://github.com/nvzqz/FileKit)：使用简单、功能完整的文件管理工具库类。很值得收入。开发者：[Nikolai Vazquez](https://github.com/nvzqz)
