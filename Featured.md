@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-9-21，最近新收入 [PagingView](https://github.com/KyoheiG3/PagingView), [DDMathParser](https://github.com/davedelong/DDMathParser), [MonkeyKing](https://github.com/nixzhu/MonkeyKing), [Nuke](https://github.com/kean/Nuke), [FileKit](https://github.com/nvzqz/FileKit), [Locksmith](https://github.com/matthewpalmer/Locksmith), [QueryKit](https://github.com/QueryKit/QueryKit), [InceptionTouch](https://github.com/richzertuche/InceptionTouch), [RateLimit](https://github.com/soffes/RateLimit) 等 9 个，合计已收录 197 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-11-2，最近新收入 [mattress](https://github.com/buzzfeed/mattress), [Reachability.swift](https://github.com/ashleymills/Reachability.swift), [BluetoothKit](https://github.com/rasmusth/BluetoothKit), [Spectre](https://github.com/kylef/Spectre), [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit), [SigmaSwiftStatistics](https://github.com/evgenyneu/SigmaSwiftStatistics), [Neon](https://github.com/mamaral/Neon), [FlagKit](https://github.com/madebybowtie/FlagKit)，[Blurable](https://github.com/FlexMonkey/Blurable), [TFBubbleItUp](https://github.com/thefuntasty/TFBubbleItUp), [SKPhotoBrowserser](https://github.com/suzuki-0000/SKPhotoBrowser), [DGElasticPullToRefresh](https://github.com/gontovnik/DGElasticPullToRefresh), [Eureka](https://github.com/xmartlabs/Eureka), [CardAnimation](https://github.com/seedante/CardAnimation), [Instructions](https://github.com/ephread/Instructions), [LiquidLoader](https://github.com/yoavlt/LiquidLoader), [Plum-O-Meter](https://github.com/FlexMonkey/Plum-O-Meter), [Swift-Radio-Pro](https://github.com/swiftcodex/Swift-Radio-Pro), [SimpleMemo](https://github.com/likumb/SimpleMemo), [StarWars.iOS](https://github.com/Yalantis/StarWars.iOS), [HackingWithSwift](https://github.com/twostraws/HackingWithSwift), [ViewMonitor](https://github.com/daisuke0131/ViewMonitor), [SwiftMock](https://github.com/mflint/SwiftMock), [Watchdog](https://github.com/wojteklukaszuk/Watchdog), [xcode-snippets](https://github.com/Abizern/xcode-snippets) 等 25 个，合计已收录 222 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -35,9 +35,12 @@
 [CleanroomLogger](https://github.com/emaloney/CleanroomLogger)|[emaloney](https://github.com/emaloney)|相当于 CocoaLumberjack 或 Log4j 
 [honghaoz/Loggerithm](https://github.com/honghaoz/Loggerithm)|[张宏昊](https://github.com/honghaoz)|靠谱的日志管理输出类库
 [Surge](https://github.com/mattt/Surge) |[Mattt Thompson ](https://github.com/mattt)|基于苹果 Accelerate 高性能计算框架封装库
+[Watchdog](https://github.com/wojteklukaszuk/Watchdog)|[Wojtek Lukaszuk](https://github.com/wojteklukaszuk)|实时监视主线程运行或堵塞情况
 [Async](https://github.com/duemunk/Async)|[Due Munk](http://developmunk.dk/)|简洁的后台执行代码封装库
 [Future](https://github.com/nghialv/Future)|[Le Van Nghia](https://github.com/nghialv)|基于微框架设计的异步执行及结果响应类
 [Euler](https://github.com/mattt/Euler)|[Mattt Thompson ](https://github.com/mattt)|直观、简洁的数学表达式 ∛27÷3+∑[3,1,2]
+[SigmaSwiftStatistics](https://github.com/evgenyneu/SigmaSwiftStatistics)|[Evgenii Neumerzhitckii](https://github.com/evgenyneu)|统计类计算函数集类库。简单、实用
+[kylef/Spectre](https://github.com/kylef/Spectre)|[Kyle Fuller](https://github.com/kylef)|BDD 框架，写小清新代码
 [LocationManager](https://github.com/varshylmobile/LocationManager)|[Jimmy Jose](https://github.com/varshylmobile)|地理位置管理封装库
 [GEOSwift](https://github.com/andreacremaschi/GEOSwift)|[Andrea Cremaschi](https://github.com/andreacremaschi)|轻松地处理地理对象模型和相关地形操作
 [Siren](https://github.com/ArtSabintsev/Siren)|[Ariel Sabintsev](https://github.com/ArtSabintsev)|当应用更新时，通知用户并提供App Store链接
@@ -66,6 +69,7 @@
 [SWXMLHash](https://github.com/drmohundro/SWXMLHash)|[David Mohundro](https://github.com/drmohundro)|易用的 XML 解析类库
 [FileKit](https://github.com/nvzqz/FileKit)|[Nikolai Vazquez](https://github.com/nvzqz)|使用简单、功能完整的文件管理工具库类
 [QueryKit](https://github.com/QueryKit/QueryKit)|[Kyle Fuller](https://github.com/kylef)|使用简单、功能完善的 CoreData 查询类库
+[madebybowtie/FlagKit](https://github.com/madebybowtie/FlagKit)|[Bowtie](https://github.com/madebybowtie)|漂亮、完整的国旗小图标工具集
 
 * <a id="storage"></a>存储类
 
@@ -75,7 +79,7 @@
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)|[Stephen Celis](http://stephencelis.com)|简单、轻量，使用上最 SQL 的 SQLite 封装库
 [Realm](https://github.com/realm/realm-cocoa)|[Realm](http://realm.io)|志向代替 Core Data 和 SQLite 的移动数据库
 [SwiftRecord](https://github.com/arkverse/SwiftRecord)|[ark](https://github.com/arkverse)|基于 Core Data 极为轻量、易用的对象持久化工具库
-[CoreValue](https://github.com/terhechte/CoreValue)|[Benedikt Terhechte](https://github.com/terhechte)|Swift 2 版 Core Data 封装库
+[CoreValue](https://github.com/terhechte/CoreValue)|[Benedikt Terhechte](https://github.com/terhechte)|Swift 2 版 Core Data 封装库[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|[Roy Marmelstein](https://github.com/marmelroy)|解析、格式化及验证国际电话号码工具库
 
 * <a id="network"></a>网络类
 
@@ -93,6 +97,7 @@
 [Ji](https://github.com/honghaoz/Ji)|[@HonghaoZ](http://weibo.com/billyzhanghonghao)|Swift 版 HTML/XML 解析器
 [R.swift](https://github.com/mac-cain13/R.swift)|[Mathijs Kadijk](https://github.com/mac-cain13/)|Hardcode 字符串配置
 [NetReachability](https://github.com/liufan321/NetReachability)|[Fan Liu](https://github.com/liufan321)|检查网络连接的连通性
+[Reachability.swift](https://github.com/ashleymills/Reachability.swift)|[Ashley Mills](https://github.com/ashleymills)|检测网络连通性实用工具库
 [MonkeyKing](https://github.com/nixzhu/MonkeyKing)|[@nixzhu](weibo.com/nixzhu)|信息递交中文社交网络
 
 * <a id="pictures"></a>图片类
@@ -123,6 +128,7 @@
 [suguru/Cheetah](https://github.com/suguru/Cheetah)|[Suguru Namura](https://github.com/suguru)|易用、高可读链式动画类库
 [SwiftGraphics](https://github.com/schwa/SwiftGraphics)|[Jonathan Wight](https://github.com/schwa)|易学、易用的绘图工具库封装
 [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库，storyboard中使用
+[Eureka](https://github.com/xmartlabs/Eureka)|[XMARTLABS](https://github.com/xmartlabs)|功能强大的表单（XLForm）组件库
 [SwiftyFORM](https://github.com/neoneye/SwiftyFORM)|[Simon Strandgaard](https://github.com/neoneye)|表单框架，亮点是表单验证规则引擎
 [SwiftForms](https://github.com/ortuman/SwiftForms)|[Ángel Ortuño](https://github.com/ortuman)|表单递交库，快速开发利器
 [Static](https://github.com/venmo/Static)|[Venmo](https://github.com/venmo)|使用简单、功能强大地静态表格视图组件
@@ -143,6 +149,7 @@
 [KYCircularProgress](https://github.com/kentya6/KYCircularProgress)|[Kengo YOKOYAMA](https://github.com/kentya6)|简单、实用路径可定进程条
 [Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)|[Wagner Truppel](https://github.com/wltrup)|小而精悍地可定制类似  Watch 圆型进程条组件
 [GaugeKit](https://github.com/skywinder/GaugeKit)|[Petr Korolev](https://github.com/skywinder)| Watch 风格运动进程表盘
+[LiquidLoader](https://github.com/yoavlt/LiquidLoader)|[Takuma Yoshida](https://github.com/yoavlt)|细滑进程装载动画效果
 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)|[Fahim Farook](https://github.com/FahimF)|Float Label Pattern 浮动标签输入效果类
 [ParkedTextField](https://github.com/gmertk/ParkedTextField)|[Gunay Mert Karadogan](https://github.com/gmertk)|带固定文本的输入组件
 [optonaut/ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)|[Optonaut](https://github.com/optonaut)|扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应
@@ -150,7 +157,9 @@
 [MapManager](https://github.com/varshylmobile/MapManager)|[Jimmy Jose](https://github.com/varshylmobile)|地图及路径管理封装库
 [LineChart](https://github.com/zemirco/swift-linechart)|[Mirco Zeiss](https://github.com/zemirco)|功能完整、实用的折线图组件
 [KSTokenView](https://github.com/khawars/KSTokenView)|[Khawar Shahzad](https://github.com/khawars)|带搜索、快捷输入、分段显示关键词输入组件
+[TFBubbleItUp](https://github.com/thefuntasty/TFBubbleItUp)|[The Funtasty](https://github.com/thefuntasty)|配置性很强的分段文本标签输入组件
 [GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)|[Andrea Mazzini](https://github.com/andreamazz)|无违和感的下拉刷新动画组件
+[DGElasticPullToRefresh](https://github.com/gontovnik/DGElasticPullToRefresh)|[Danil Gontovnik](https://github.com/gontovnik)|皮筋式弹性下拉即刷新组件及演
 [MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)|[Michaël Azevedo](https://github.com/micazeve)|同样是下拉刷新，人家花了很大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
@@ -162,6 +171,7 @@
 [AAFaceDetection](https://github.com/aaronabentheuer/AAFaceDetection)|[Aaron Abentheuer](https://github.com/aaronabentheuer)|简单、实用的面部识别封装库
 [JGTransitionCollectionView](https://github.com/JayGajjar/JGTransitionCollectionView)|[Jay Gajjar](https://github.com/JayGajjar)|集合视图扩展实现自动布局及单元项动画
 [SABlurImageView](https://github.com/szk-atmosphere/SABlurImageView)|[szk-atmosphere](https://github.com/szk-atmosphere)|支持渐变动画效果的图像模糊化类库
+[Blurable](https://github.com/FlexMonkey/Blurable)|[simon gladman](https://github.com/FlexMonkey)|基于 Swift 协议扩展实现任意 UIView 的高斯模糊算法滤镜库
 [WobbleView](https://github.com/inFullMobile/WobbleView)|[inFullMobile](https://github.com/inFullMobile)|当界面组件过渡时，带波纹摆动效果的组件扩展
 [RichEditorView](https://github.com/cjwirth/RichEditorView)|[Caesar Wirth](https://github.com/cjwirth)|一套可定制富文本编辑器组件及示例（基于 HTML5）
 [MarkdownTextView](https://github.com/indragiek/MarkdownTextView)|[Indragie Karunaratne](https://github.com/indragiek)|非常轻量、简洁、高效的 Markdown 编辑组件及示例
@@ -172,6 +182,7 @@
 [JGFlipMenu](https://github.com/ziligy/JGFlipMenu)|[jeff greenberg](https://github.com/ziligy)|Flip 式菜单及其对应动画组件
 [ChineseTraditionalColors](https://github.com/zhxnlai/UIColor-ChineseTraditionalColors)|[Zhixuan Lai](https://github.com/zhxnlai)|中国传统颜色引用 UIColor 扩展
 [ShinpuruLayout](https://github.com/FlexMonkey/ShinpuruLayout)|[simon gladman](https://github.com/FlexMonkey)|通过水平和垂直分组模块实现简单、快速布局的组件库
+[Neon](https://github.com/mamaral/Neon)|[Mike Amaral](https://github.com/mamaral)|功能强大的 UI 布局神器
 [ZoomTransition](https://github.com/tristanhimmelman/ZoomTransition)|[Tristan Himmelman](https://github.com/tristanhimmelman)|通过手势操控图片的放大、缩小、旋转等自由变化效果的组件及示例
 [MCMHeaderAnimated](https://github.com/mathcarignani/MCMHeaderAnimated)|[Mathias](https://github.com/mathcarignani)|提供列表与详细页切换转场动画
 [ZLSwipeableViewSwift](https://github.com/zhxnlai/ZLSwipeableViewSwift)|[Zhixuan Lai](https://github.com/zhxnlai)|多变的卡片切换转场动画封装类库
@@ -193,6 +204,7 @@
 [AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar)|[Andrea Mazzini](https://github.com/andreamazz)|上下滚动时自动消隐或显示导航标题栏
 [PagingView](https://github.com/KyoheiG3/PagingView)|[Kyohei Ito](https://github.com/KyoheiG3)|注重细节的自动布局分页视图
 [InceptionTouch](https://github.com/richzertuche/InceptionTouch)|[Ricardo Zertuche](https://github.com/richzertuche)|让没有 3D Touch 设备也有类似交互体验 
+[Instructions](https://github.com/ephread/Instructions)|[Frédéric Maquin](https://github.com/ephread/)|可定制操作指引框架及演示
 
 * <a id="framework"></a>框架类
 
@@ -217,6 +229,8 @@
 [CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)|[CloudKitSpace](https://github.com/CloudKitSpace)|基于 CloudKit 服务器实现多终端数据同步
 [apous](https://github.com/owensd/apous)|[David Owens II](https://github.com/owensd)|让 Swift 成为脚本语言
 [Interstellar](https://github.com/JensRavens/Interstellar)|[Jens Ravens](https://github.com/JensRavens)|简单、轻量的函数响应式编程框架
+[mattress](https://github.com/buzzfeed/mattress)|[BuzzFeed](https://github.com/buzzfeed)|离线缓存 Web 浏览内容
+[BluetoothKit](https://github.com/rasmusth/BluetoothKit)|[Rasmus Taulborg Hummelmose](https://github.com/rasmusth)|基于 CoreBluetooth API 跨设备间蓝牙通讯封装类库
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -228,6 +242,8 @@
 [whereami](https://github.com/victor/whereami)|[Victor Jalencas](http://victor.sh)|通过命令行获得当前设备地理位置
 [Design-Patterns](https://github.com/ochococo/Design-Patterns-In-Swift)|[Oktawian Chojnacki](https://github.com/ochococo)|如何使用常用设计模式及示例
 [PhotoBrowser](https://github.com/MoZhouqi/PhotoBrowser)|[Zhouqi Mo](http://weibo.com/u/2626996387)|简单又实用的 Instagram 图片浏览功能
+[SKPhotoBrowser](https://github.com/suzuki-0000/SKPhotoBrowser)|[suzuki-0000](https://github.com/suzuki-0000)|中规中矩、实用的图片浏览类库
+[CardAnimation](https://github.com/seedante/CardAnimation)|[@seedante](http://weibo.com/u/1815689155)|卡片式垂直翻转动画。[实现思路](http://www.jianshu.com/p/286222d4edf8)
 [RMParallax](https://github.com/michaelbabiy/RMParallax)|[Michael Babiy](https://github.com/michaelbabiy)|简单的帮助向导界面组件及示例
 [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)|[Kostiantyn Koval](https://github.com/kostiakoval)|学习 WatchKit 应用的示例式教程集锦
 [CarlosButron - Examples](https://github.com/CarlosButron/Swift)|[Carlos Butron](https://github.com/CarlosButron)|60多个（技术品类丰富的）示例项目集锦
@@ -239,6 +255,9 @@
 [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)|[shu223](https://github.com/shu223)| watchOS 2 若干新特性写的示例
 [SwiftSideslipLikeQQ](https://github.com/johnlui/SwiftSideslipLikeQQ)|[@吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)|再造 “手机QQ” 侧滑菜单
 [BlackHawk](https://github.com/Lucky-Orange/BlackHawk)|[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)|基于 WKWebView 的 Cordova 兼容实现
+[Plum-O-Meter](https://github.com/FlexMonkey/Plum-O-Meter)|[simon gladman](https://github.com/FlexMonkey)|基于 3D Touch 模拟电子秤
+[StarWars.iOS](https://github.com/Yalantis/StarWars.iOS)|[Yalantis](https://github.com/Yalantis)|瞬间崩塌为小方块动画效果
+[HackingWithSwift](https://github.com/twostraws/HackingWithSwift)|[twostraws](https://github.com/twostraws)|hackingwithswift.com 示例项目代码库
 
 * <a id="projects"></a>完整应用
 
@@ -254,5 +273,11 @@
 [androidtool-mac](https://github.com/mortenjust/androidtool-mac)|[Morten Just](https://github.com/mortenjust)|在 Mac 上使用的 Android 工具（一键截屏, 视频录制, APK 安装等）
 [CoPilot](https://github.com/feinstruktur/CoPilot)|[Sven A. Schmidt](https://github.com/feinstruktur)|协同编程 Xcode 插件
 [SwiftCov](https://github.com/realm/SwiftCov)|[Realm](https://github.com/realm)|代码测试覆盖率命令行工具
+[ViewMonitor](https://github.com/daisuke0131/ViewMonitor)|[Daisuke Yamashita](https://github.com/daisuke0131)|测量视图位置、大小、背景、字体大小等，开发调试神器
+[SwiftMock](https://github.com/mflint/SwiftMock)|[Matthew Flint](https://github.com/mflint)|一款 Mock 框架，单元测试的好伴侣
 [Tomate](https://github.com/dasdom/Tomate)|[Dominik Hauser](https://github.com/dasdom)|圆盘式计时器让你更专注于工作或学习
 [swiftmi-app](https://github.com/feiin/swiftmi-app)|[feiin](https://github.com/feiin)|完整的社区应用
+[Swift-Radio-Pro](https://github.com/swiftcodex/Swift-Radio-Pro)|[Swift Code X](https://github.com/swiftcodex)|集成 LastFM 的专业电台应用
+[SimpleMemo](https://github.com/likumb/SimpleMemo)|[@李俊likumb](http://weibo.com/likumb)|支持 3D Touch 功能易便签
+[xcode-snippets](https://github.com/Abizern/xcode-snippets)|[Abizer Nasir](https://github.com/Abizern)|Mattt 同学 Xcode-Snippets/Objective-C 的 Swift 版本
+

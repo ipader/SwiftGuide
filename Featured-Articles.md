@@ -1,7 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-9-21，最近新收录 [iOS 9 Adaptation Tips](https://github.com/ChenYilong/iOS9AdaptationTips)，[为 Apple TV 开发 tvOS 应用](http://swift.gg/2015/09/14/developing-tvos-apps-for-apple-tv-with-swift/)，[UIKey​Command](http://nshipster.cn/uikeycommand/)，[CALayer Animation 实践－Loading Indicator](http://www.devtalking.com/articles/calayer-animation-loading-lndicator/)，[Replicator Animation](http://www.devtalking.com/articles/calayer-animation-replicator-animation/)，[Swift 集合数据结构性能分析](http://swift.gg/2015/09/09/collection-data-structures-swift/)，[实现与智能机器人聊天的应用教程](http://www.jianshu.com/p/1f93e0fec8a5)，[QR Code 生成器应用](http://www.appcoda.com.tw/qr-code-generator-tutorial/) 等 8 份，合计已收录 111 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-11-2，最近新收录 [详解 Swift 模式匹配](http://swift.gg/2015/10/27/swift-pattern-matching-in-detail/)，[Swift 的类型体系](http://swift.gg/2015/09/23/swift-type-system/)，[NSHipster - guard & defer](http://nshipster.com/guard-and-defer/)，[如何制作一个炫酷好玩的爆炸效果](http://xxycode.com/ru-he-zhi-zuo-ge-xuan-ku-hao-wan-de-bao-zha-xiao-guo-2/) 等 4 份，合计已收录 115 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -77,6 +77,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [UIGestureRecognizer 教程：创建自定义手势识别器](http://swift.gg/2015/08/11/uigesturerecognizer-tutorial-creating-custom-recognizers/)：“自定义手势可以使 app 更独特，更有活力，从而取悦用户。... 通过这篇自定义 UIGestureRecognizer 教程你可以掌握所有关于手势识别的知识!”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[mmoaay](http://blog.csdn.net/mmoaay)
 * [Swift 函数式编程实践](http://swift.gg/2015/09/04/swift-functional-programming-intro/)：“Swift 为 iOS 编程世界引入了一个新的范式：函数式范式。大多数 iOS 开发者之前都习惯了用 Objective-C 或者其他面向对象编程语言，函数式的编码和思考会变得有点烧脑(brain-addling)”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[shanks](http://codebuild.me/)
 * [UIKey​Command](http://nshipster.cn/uikeycommand/)：“虽然我们在创建应用程序时并没有走捷径，这并不意味着用户觉得快捷方式没用。添加键盘命令可以让你的应用程序从屏幕转变到键盘，你的用户一定会喜欢新的选择”。来源：[NSHipster](http://nshipster.com/uikeycommand/)，译者：[April Peng](http://nshipster.cn/translators/april-peng/)
+* [如何制作一个炫酷好玩的爆炸效果](http://xxycode.com/ru-he-zhi-zuo-ge-xuan-ku-hao-wan-de-bao-zha-xiao-guo-2/)：无论文章还是代码，真心不错。源代码：[xxycode/UIViewXXYBoom](https://github.com/xxycode/UIViewXXYBoom)，作者：[@我是叉叉歪](http://weibo.com/u/2729196815)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -109,13 +110,15 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [案例学习 - 关于Watch应用的导航、通知、复杂任务及动效](http://beforweb.com/node/717)： “为Watch设计的过程很有意思，我们必须聚焦在核心体验上，打造最基本最简化的界面及交互，并设计合理的通知机制。对于复杂的功能要考虑通过Handoff完成。此外不要忘记在恰当的地方通过动效来提升交互体验...”。来源：[medium.com](https://medium.com/design-for-wearables/designing-wallaby-for-apple-watch-dd5be371288a)，译者：[@C7210](http://weibo.com/c7210)
 * [74 个 Swift 标准库函数](http://letsswift.com/2014/06/74-swift-library-functions/)："Swift 包含了 74 个内置函数，但在 The Swift Programming Langage 一书中只介绍了其中的 7 个，其它的都没有在文档中体现。文中作者没有提及他是如何发现这么多未在文档中体现的内置函数的，估计是反编译的结果"。译者：[@李洁信](http://weibo.com/u/1780854425)
 * [单例在Swift中的正确实现方式](http://www.devtf.cn/?p=937)：“在Swift中有好几种不同的方式来实现一个单例。到底哪一个才是正确的方式呢？在这边博客里，我将和你好好聊聊单例的历史和在Swift中单例正确的实现方式”。译者：[Gottabe](https://github.com/Gottabe)，来源：[开发技术前线](http://weibo.com/u/5589212242)
+* [详解 Swift 模式匹配](http://swift.gg/2015/10/27/swift-pattern-matching-in-detail/)：学习强大的模式匹配。译者：[mmoaay](http://blog.csdn.net/mmoaay)
+* [Swift 的类型体系](http://swift.gg/2015/09/23/swift-type-system/)：概述了一些 Swift 的特点，可以从另一个角度来理解 Swift。译者：[@画渣程序猿mmoaay](http://weibo.com/smmoaay)
 * [iOS 项目的持续集成与管理](http://www.devtf.cn/?p=537)：提高生产力的实战经验分享好文章。作者：[@Sam_Lau_13](http://weibo.com/liuyaozhu)
 * [聊聊移动端跨平台开发的各种技术](http://fex.baidu.com/blog/2015/05/cross-mobile/)：文章研究很全面、很透彻。赞同林老师建议。实在需要时，iOS/WKWebView 和 Android/WebView 可以做为跨平台衔接技术。“[@林泰前](http://weibo.com/limtc)：目前看到对跨平台开发最完整的文章，对这方面有兴趣的朋友建议一读。不过这是我的建议：好好学习 Swift/iOS 和 Java/Android，没有任何跨平台方案比得上真正原生的方案。”
 * [objc.io - #24 音频](http://objccn.io/issue-24/)：经过了前两期（[照片](http://objccn.io/issue-21/)和[视频](http://objccn.io/issue-23/)），本期自然地延伸为音频，这种具有连续性的博客平台，对于开发者，实在是福气。本期首篇文章《[音频处理的狗屋（译文）](http://objccn.io/issue-24-1/)》是精品之作。
 * [Swift Documentation（译文）](http://nshipster.cn/swift-documentation/)：“代码的结构和组织关乎了开发童鞋们的节操问题。明确和一致的代码表示了明确和一贯的思想。编译器并没有一个挑剔的口味，但当谈到命名，空格或文档，人类的差异就体现出来了”。来源：NSHipster
+* [guard & defer](http://nshipster.com/guard-and-defer/)：Swift 2.0 中 guard 和 defer 语句是极为讨好的新特性，尤其对于那些注重代码细节（甚至有一点代码洁癖）的开发同学。来源：NSHipster
 * [Apple Watch 应用优化的一些心得技巧总结](http://www.csdn.net/article/2015-06-01/2824816)：“尽管 Watch OS 1.01  已经提升了应用启动的速度，但用户普遍感受还是体验较差，因此我们有必要尽全力优化自己的 Apple Watch 应用。本文作者 [@WatchKit开发](http://weibo.com/twios) 结合自己的体会和其他先驱者的一些心得，对相关技巧做了一些汇总”。来源：[CSDN移动](http://weibo.com/csdnmobile)
 * [从减少点击次数，到降低使用负荷](http://www.beforweb.com/node/722)：“从减少点击次数，到降低使用负荷 - 如果你的产品不需要用户背负沉重的认知与操作负荷便能高效的使用核心功能，并且将体验打磨到极致，那么你就拥有了竞争的力量 - 你至少可以拉拢到那些在多数时间只会用到这些特定功能，却被那些复杂的产品搞的疲惫不堪的用户...”。来源：[@BeForWeb](http://weibo.com/beforweb)，译者：[@C7210](http://weibo.com/u/1833937113)
-
 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。
