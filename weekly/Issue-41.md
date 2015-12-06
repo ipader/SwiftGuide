@@ -3,6 +3,7 @@
 ===
 > **本期特别推荐** 开放平台项目 [编程基础库 SwiftFoundation](https://github.com/PureSwift/SwiftFoundation)、[应用中间件 Perfect](https://github.com/PerfectlySoft/Perfect) 及 [AI 及机器学习库 Swift-AI](https://github.com/collinhundley/Swift-AI)。
 
+> 重要事件（2015-12-4）：围绕 [Swift 开源](https://swift.org/) 及开放平台（支持 Linux 平台），苹果公布了 [GitHub 系列开源项目](https://github.com/apple)。
 
 ### 项目
 > [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [Device](https://github.com/Ekhoo/Device), [Format](https://github.com/marmelroy/Format), [Regex](https://github.com/sharplet/Regex), [SwiftCop](https://github.com/andresinaka/SwiftCop), [Money](https://github.com/danthorpe/Money), [Zephyr](https://github.com/ArtSabintsev/Zephyr), [SwiftyBeaver](https://github.com/skreutzberger/SwiftyBeaver), [Chatto](https://github.com/badoo/Chatto), [swiftFoundation](https://github.com/PureSwift/SwiftFoundation), [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions), [TKSwitcherCollection](https://github.com/TBXark/TKSwitcherCollection), [SwiftGraph](https://github.com/davecom/SwiftGraph), [Swift-AI](https://github.com/collinhundley/Swift-AI), [Perfect](https://github.com/PerfectlySoft/Perfect), [Epoch](https://github.com/Zewo/Epoch), [Erik](https://github.com/phimage/Erik), [Popsicle](https://github.com/DavdRoman/Popsicle), [AutocompleteField](https://github.com/filipstefansson/AutocompleteField), [ALCameraViewController](https://github.com/AlexLittlejohn/ALCameraViewController), [XAnimatedImage](https://github.com/khaledmtaha/XAnimatedImage), [GooeyTabbar](https://github.com/KittenYang/GooeyTabbar), [TrelloNavigation](https://github.com/DianQK/TrelloNavigation), [ImagePicker](https://github.com/hyperoslo/ImagePicker), [phphub-ios](https://github.com/Aufree/phphub-ios), [MPParallaxView](https://github.com/DroidsOnRoids/MPParallaxView), [droptogif](https://github.com/mortenjust/droptogif) 等 26 个，合计已收录 248 个。
@@ -57,4 +58,3 @@
 * [（更新至 Swift 2.1）Alamofire - 1. 基础教程](http://www.jianshu.com/p/f1208b5e42d9)，[2. 进阶教程](http://www.jianshu.com/p/30599f64a09c)：该系列教程通过示例项目分步骤详细介绍了 Alamofire 网络库的使用技巧。Alamofire 是 Mattt Thompson 为其著名的 AFNetworking 采用 Swift 重写的网络库。来源：Ray Wenderlich，作者：Essan Parto，译者：[@星夜暮晨](http://weibo.com/u/3227937731).
 * [iOS 9人机界面指南（一）：UI设计基础](http://isux.tencent.com/ios9-guideline-ch1.html) 译文来源：[@腾讯ISUX](http://weibo.com/txisux)
 
-> 重要事件（2015-12-4）：围绕 [Swift 开源](https://swift.org/) 及开放平台（支持 Linux 平台），苹果公布了 [GitHub 系列开源项目](https://github.com/apple)。
