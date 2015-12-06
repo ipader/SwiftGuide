@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Apple IIGS-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tu5-Rv-zBU">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mqw-Ho-O13" customClass="GSPicsView" customModule="GSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Apple IIGS" image="first" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="iyw-GN-Bc4">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </objects>
+            <point key="canvasLocation" x="3042" y="672"/>
+        </scene>
+        <!--View Controller - Space-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YC9-1S-hHv"/>
+                        <viewControllerLayoutGuide type="bottom" id="OVz-Ez-DZ2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fCP-k0-d7r">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space.png" translatesAutoresizingMaskIntoConstraints="NO" id="YmF-zq-4ac">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wsV-Ub-j85" customClass="SpaceView" customModule="GSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YmF-zq-4ac" firstAttribute="leading" secondItem="wsV-Ub-j85" secondAttribute="leading" id="54b-ZB-lac"/>
+                            <constraint firstItem="YmF-zq-4ac" firstAttribute="top" secondItem="fCP-k0-d7r" secondAttribute="top" id="KCU-yX-Tyb"/>
+                            <constraint firstAttribute="trailing" secondItem="wsV-Ub-j85" secondAttribute="trailing" id="Kc0-ca-4DN"/>
+                            <constraint firstAttribute="bottom" secondItem="wsV-Ub-j85" secondAttribute="bottom" id="OSP-OC-gDm"/>
+                            <constraint firstItem="OVz-Ez-DZ2" firstAttribute="top" secondItem="YmF-zq-4ac" secondAttribute="bottom" id="bZv-G9-QPs"/>
+                            <constraint firstItem="wsV-Ub-j85" firstAttribute="top" secondItem="fCP-k0-d7r" secondAttribute="top" id="dPD-lR-a8t"/>
+                            <constraint firstItem="wsV-Ub-j85" firstAttribute="leading" secondItem="fCP-k0-d7r" secondAttribute="leading" id="k1s-Z8-ZKU"/>
+                            <constraint firstItem="wsV-Ub-j85" firstAttribute="trailing" secondItem="YmF-zq-4ac" secondAttribute="trailing" id="oOx-gu-S88"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Space" image="second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3628" y="672"/>
+        </scene>
+        <!--View Controller - Hires-->
+        <scene sceneID="JvB-JK-v4j">
+            <objects>
+                <viewController id="ns8-Jp-cUc" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bpU-XU-lyD"/>
+                        <viewControllerLayoutGuide type="bottom" id="FFL-YQ-f2k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1p2-wW-MDD" customClass="HiresView" customModule="GSwift" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Hires" image="first" id="BpQ-JO-HVp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pWi-NB-pxi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3042" y="1264"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="ns8-Jp-cUc" kind="relationship" relationship="viewControllers" id="BkA-G1-WoW"/>
+                        <segue destination="zau-c4-xE8" kind="relationship" relationship="viewControllers" id="6wU-pA-xzs"/>
+                        <segue destination="Zlv-H6-Hsc" kind="relationship" relationship="viewControllers" id="WLo-Be-Vqh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2283" y="965"/>
+        </scene>
+        <!--View Controller - Lores-->
+        <scene sceneID="yjM-O8-3gw">
+            <objects>
+                <viewController id="zau-c4-xE8" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="55e-2D-mRC"/>
+                        <viewControllerLayoutGuide type="bottom" id="qVd-0U-nnF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4J3-3v-X0v" customClass="LoresView" customModule="GSwift" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Lores" image="second" id="CB0-u8-M86"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EtQ-iB-Nfk" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3620" y="1264"/>
+        </scene>
+        <!--View Controller - Paint-->
+        <scene sceneID="NcN-kK-JGM">
+            <objects>
+                <viewController id="Zlv-H6-Hsc" customClass="ViewController" customModule="GSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5KY-4u-Yfa"/>
+                        <viewControllerLayoutGuide type="bottom" id="wdD-CY-ZWh"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="M0o-jj-6pk" customClass="PaintView" customModule="GSwift" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Paint" image="first" id="9z4-yn-kc0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4QQ-QV-PdL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3042" y="1834"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="1024" height="768"/>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+        <image name="space.png" width="1024" height="768"/>
+    </resources>
+</document>

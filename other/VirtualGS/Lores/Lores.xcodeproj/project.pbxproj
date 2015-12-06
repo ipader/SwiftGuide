@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93A77CC41940A6BC00D3A623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A77CC31940A6BC00D3A623 /* AppDelegate.swift */; };
+		93A77CC61940A6BC00D3A623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A77CC51940A6BC00D3A623 /* ViewController.swift */; };
+		93A77CC91940A6BC00D3A623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A77CC71940A6BC00D3A623 /* Main.storyboard */; };
+		93A77CCB1940A6BC00D3A623 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A77CCA1940A6BC00D3A623 /* Images.xcassets */; };
+		93A77CD71940A6BD00D3A623 /* LoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A77CD61940A6BD00D3A623 /* LoresTests.swift */; };
+		93A77CE31940A72D00D3A623 /* Lores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A77CE21940A72D00D3A623 /* Lores.swift */; };
+		93A77CE51940A96F00D3A623 /* LoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A77CE41940A96F00D3A623 /* LoresView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93A77CD11940A6BD00D3A623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A77CB61940A6BC00D3A623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A77CBD1940A6BC00D3A623;
+			remoteInfo = Lores;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93A77CBE1940A6BC00D3A623 /* Lores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lores.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A77CC21940A6BC00D3A623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A77CC31940A6BC00D3A623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93A77CC51940A6BC00D3A623 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93A77CC81940A6BC00D3A623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93A77CCA1940A6BC00D3A623 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93A77CD01940A6BD00D3A623 /* LoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A77CD51940A6BD00D3A623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A77CD61940A6BD00D3A623 /* LoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoresTests.swift; sourceTree = "<group>"; };
+		93A77CE21940A72D00D3A623 /* Lores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lores.swift; sourceTree = "<group>"; };
+		93A77CE41940A96F00D3A623 /* LoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoresView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A77CBB1940A6BC00D3A623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A77CCD1940A6BD00D3A623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93A77CB51940A6BC00D3A623 = {
+			isa = PBXGroup;
+			children = (
+				93A77CC01940A6BC00D3A623 /* Lores */,
+				93A77CD31940A6BD00D3A623 /* LoresTests */,
+				93A77CBF1940A6BC00D3A623 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93A77CBF1940A6BC00D3A623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A77CBE1940A6BC00D3A623 /* Lores.app */,
+				93A77CD01940A6BD00D3A623 /* LoresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A77CC01940A6BC00D3A623 /* Lores */ = {
+			isa = PBXGroup;
+			children = (
+				93A77CC31940A6BC00D3A623 /* AppDelegate.swift */,
+				93A77CC51940A6BC00D3A623 /* ViewController.swift */,
+				93A77CE21940A72D00D3A623 /* Lores.swift */,
+				93A77CE41940A96F00D3A623 /* LoresView.swift */,
+				93A77CC71940A6BC00D3A623 /* Main.storyboard */,
+				93A77CCA1940A6BC00D3A623 /* Images.xcassets */,
+				93A77CC11940A6BC00D3A623 /* Supporting Files */,
+			);
+			path = Lores;
+			sourceTree = "<group>";
+		};
+		93A77CC11940A6BC00D3A623 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A77CC21940A6BC00D3A623 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93A77CD31940A6BD00D3A623 /* LoresTests */ = {
+			isa = PBXGroup;
+			children = (
+				93A77CD61940A6BD00D3A623 /* LoresTests.swift */,
+				93A77CD41940A6BD00D3A623 /* Supporting Files */,
+			);
+			path = LoresTests;
+			sourceTree = "<group>";
+		};
+		93A77CD41940A6BD00D3A623 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A77CD51940A6BD00D3A623 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A77CBD1940A6BC00D3A623 /* Lores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A77CDA1940A6BD00D3A623 /* Build configuration list for PBXNativeTarget "Lores" */;
+			buildPhases = (
+				93A77CBA1940A6BC00D3A623 /* Sources */,
+				93A77CBB1940A6BC00D3A623 /* Frameworks */,
+				93A77CBC1940A6BC00D3A623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lores;
+			productName = Lores;
+			productReference = 93A77CBE1940A6BC00D3A623 /* Lores.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93A77CCF1940A6BD00D3A623 /* LoresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A77CDD1940A6BD00D3A623 /* Build configuration list for PBXNativeTarget "LoresTests" */;
+			buildPhases = (
+				93A77CCC1940A6BD00D3A623 /* Sources */,
+				93A77CCD1940A6BD00D3A623 /* Frameworks */,
+				93A77CCE1940A6BD00D3A623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A77CD21940A6BD00D3A623 /* PBXTargetDependency */,
+			);
+			name = LoresTests;
+			productName = LoresTests;
+			productReference = 93A77CD01940A6BD00D3A623 /* LoresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A77CB61940A6BC00D3A623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Virtual GS";
+				TargetAttributes = {
+					93A77CBD1940A6BC00D3A623 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					93A77CCF1940A6BD00D3A623 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 93A77CBD1940A6BC00D3A623;
+					};
+				};
+			};
+			buildConfigurationList = 93A77CB91940A6BC00D3A623 /* Build configuration list for PBXProject "Lores" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93A77CB51940A6BC00D3A623;
+			productRefGroup = 93A77CBF1940A6BC00D3A623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A77CBD1940A6BC00D3A623 /* Lores */,
+				93A77CCF1940A6BD00D3A623 /* LoresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A77CBC1940A6BC00D3A623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A77CC91940A6BC00D3A623 /* Main.storyboard in Resources */,
+				93A77CCB1940A6BC00D3A623 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A77CCE1940A6BD00D3A623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A77CBA1940A6BC00D3A623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A77CE51940A96F00D3A623 /* LoresView.swift in Sources */,
+				93A77CC61940A6BC00D3A623 /* ViewController.swift in Sources */,
+				93A77CE31940A72D00D3A623 /* Lores.swift in Sources */,
+				93A77CC41940A6BC00D3A623 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A77CCC1940A6BD00D3A623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A77CD71940A6BD00D3A623 /* LoresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93A77CD21940A6BD00D3A623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A77CBD1940A6BC00D3A623 /* Lores */;
+			targetProxy = 93A77CD11940A6BD00D3A623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93A77CC71940A6BC00D3A623 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A77CC81940A6BC00D3A623 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93A77CD81940A6BD00D3A623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93A77CD91940A6BD00D3A623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93A77CDB1940A6BD00D3A623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Lores/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93A77CDC1940A6BD00D3A623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Lores/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93A77CDE1940A6BD00D3A623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lores.app/Lores";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		93A77CDF1940A6BD00D3A623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lores.app/Lores";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A77CB91940A6BC00D3A623 /* Build configuration list for PBXProject "Lores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A77CD81940A6BD00D3A623 /* Debug */,
+				93A77CD91940A6BD00D3A623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A77CDA1940A6BD00D3A623 /* Build configuration list for PBXNativeTarget "Lores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A77CDB1940A6BD00D3A623 /* Debug */,
+				93A77CDC1940A6BD00D3A623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A77CDD1940A6BD00D3A623 /* Build configuration list for PBXNativeTarget "LoresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A77CDE1940A6BD00D3A623 /* Debug */,
+				93A77CDF1940A6BD00D3A623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A77CB61940A6BC00D3A623 /* Project object */;
+}
