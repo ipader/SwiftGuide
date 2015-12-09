@@ -149,7 +149,7 @@ GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：
 
 ### <a id="getting_started"></a>2. 快速入门
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，官方版本：[Developing IOS 8 Apps With Swift](https://itunes.apple.com/cn/course/developing-ios-8-apps-swift/id961180099)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)，备选中文字幕版：[斯坦福大学公开课：iOS 8 开发](http://www.swiftv.cn/course/i7ahl5gn)。By [suffering](https://github.com/suffering)
-* [Swift Cheat Sheet (PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_3.pdf)：形式以代码先行，极简、有效地 Swift 语言快速学习指南。另一个更新版本：[iOS8 Swift Cheat Sheet and Quick Reference Guide](http://swift-cheatsheet.co.uk/)
+* [Swift Cheat Sheet (PDF)](http://cdn2.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_6.pdf)：形式以代码先行，极简、有效地 Swift 语言快速学习指南。另一个更新版本：[iOS8 Swift Cheat Sheet and Quick Reference Guide](http://swift-cheatsheet.co.uk/)
 * [An Absolute Beginner’s Guide to Swift](http://blog.teamtreehouse.com/an-absolute-beginners-guide-to-swift)：相对于 Swift Cheat Sheet 带了不少说明，但整个文档不显啰嗦，可读性强
 * [codepath/ios_guides](https://github.com/codepath/ios_guides)：通过众包模式为开发者写更专业（系统化一条龙学习平台）的开发教程。此项目若能长期长展，所有人都会受益。感兴趣的同学可以参与其中。
 * [Swift Language FAQ](http://www.raywenderlich.com/74138/swift-language-faq)： Raywenderlich 的 Swift 语言FAQ说清楚了很多问题。这份 FAQ 确实浅显易读，初学者不可或缺好文章！
