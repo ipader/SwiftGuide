@@ -3,7 +3,7 @@
 ===
 > **本期特别推荐** 1. [C4Framework/C4iOS](https://github.com/C4Framework/C4iOS)：用更少的代码，创建最佳应用体验库。2. [NSCache 源码分析](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)：读好代码是一个技能。
 
-> 大声1：“我们（[@SwiftGG翻译组](http://weibo.com/swiftguide)）翻译的 Apple 官方 Swift 文档成为了全球第一个被 [Apple 官方认可的翻译项目](https://swift.org/documentation/#the-swift-programming-language)”
+> 大声1：“我们翻译的 Apple 官方 Swift 文档成为了全球第一个被 [Apple 官方认可的翻译项目](https://swift.org/documentation/#the-swift-programming-language) By [@SwiftGG翻译组](http://weibo.com/swiftguide)”
 
 > 大声2：俺在 [GitHub Awards](http://github-awards.com/users?utf8=✓&type=world&language=Swift) 上 Swift 语言开发者影响力排名又提升了一位，挤身前六。😀
 
