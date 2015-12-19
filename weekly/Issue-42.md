@@ -5,7 +5,7 @@
 
 > 大声1：“我们（[@SwiftGG翻译组](http://weibo.com/swiftguide)）翻译的 Apple 官方 Swift 文档成为了全球第一个被 [Apple 官方认可的翻译项目](https://swift.org/documentation/#the-swift-programming-language)”
 
-> 大声2：在同学们对俺的《Swift 语言指南》热情支持下，在 [GitHub Awards](http://github-awards.com/users?utf8=✓&type=world&language=Swift) 上 Swift 语言开发者影响力排名又提升了一位，挤身前六。P.S. 俺只是一份大杂烩式的指南。😀
+> 大声2：俺在 [GitHub Awards](http://github-awards.com/users?utf8=✓&type=world&language=Swift) 上 Swift 语言开发者影响力排名又提升了一位，挤身前六。😀
 
 ### 项目
 > [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [focus](https://github.com/mozilla/focus), [Pantry](https://github.com/nickoneill/Pantry), [C4iOS](https://github.com/C4Framework/C4iOS), [XLActionController](https://github.com/xmartlabs/XLActionController), [ImageViewer](https://github.com/MailOnline/ImageViewer), [swiftScan](https://github.com/MxABC/swiftScan), [swift-http](https://github.com/huytd/swift-http), [Curassow](https://github.com/kylef/Curassow), [Laurine](https://github.com/JiriTrecak/Laurine), [Whisper](https://github.com/hyperoslo/Whisper) 等 10 个，合计已收录 258 个。
