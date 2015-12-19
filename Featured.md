@@ -212,7 +212,7 @@
 [EasyTipView](https://github.com/teodorpatras/EasyTipView)|[Teodor Patraş](https://github.com/teodorpatras/)|弹出提示框类及演示示例
 [Popover](https://github.com/corin8823/Popover)|[Yusuke Takahashi](https://github.com/corin8823)|泡泡风格弹出视图封装类库
 [BRYXBanner](https://github.com/bryx-inc/BRYXBanner)|[Bryx](https://github.com/bryx-inc)|可以带图片显示的下拉通知条类库及示例
-[Whisper](https://github.com/hyperoslo/Whisper)｜[Hyper](https://github.com/hyperoslo)｜使用简单、功能实用的消息及应用通知组件
+[Whisper](https://github.com/hyperoslo/Whisper)|[Hyper](https://github.com/hyperoslo)|使用简单、功能实用的消息及应用通知组件
 [SwiftPasscodeLock](https://github.com/yankodimitrov/SwiftPasscodeLock)|[Yanko Dimitrov](https://github.com/yankodimitrov)|可定制密码锁类库及示例
 [PhotoBrowser](https://github.com/nsdictionary/[PhotoBrowser)|[Charlin_冯成林](https://github.com/nsdictionary)|照片浏览利器，定制化特性丰富
 [AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar)|[Andrea Mazzini](https://github.com/andreamazz)|上下滚动时自动消隐或显示导航标题栏
