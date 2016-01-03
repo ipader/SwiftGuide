@@ -683,6 +683,8 @@ of iOS and OSX libraries）](http://www.swifttoolbox.io/) (By [Adam Leonard](htt
 * [beltex/dshb](https://github.com/beltex/dshb)：OS X 系统状态（CPU、电池、内存、温度传感器、风扇及杂项）监视器应用。每秒刷新文本界面，极低系统开销。
 * [nscoding/sleep-osx](https://github.com/nscoding/sleep-osx)：在 Spotlight 中输入 sleep 即休眠你的 Mac。实现特别简单，几行代码而已。
 * [dasdom/Tomate](https://github.com/dasdom/Tomate)：这个圆盘式计时器让你更专注于工作或学习。P.S. [App Store 上架收费应用](https://itunes.apple.com/de/app/fojusi/id923044693)（0.99 欧），开发者福利呀。
+* [doushiDev/ds_ios](https://github.com/doushiDev/ds_ios)：逗视-搞笑视频聚集地，Swift2.x编写.已经上传[App Store](https://itunes.apple.com/cn/app/id1044917946)
+
 
 ### <a id="project_reviews"></a>3. 项目评测
 * [【Workflow 测评】Workflow 是款什么软件？](http://jbguide.me/2014/12/18/workflow-review-what-is-workflow/)（作者：[@JailbreakHum](http://weibo.com/jailbreakhum)）："除了圣诞降价以外最近最火的软件话题应当是 #Workflow# 了。如果你没接触过此类软件,或许会纳闷它有何魅力。我们针对这款软件的测评系列的第一篇就是来向你概述它是什么软件的,所以文中给出大多是基本知识,不过相信也会给老手一定的启发。"
