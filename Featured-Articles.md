@@ -1,7 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-12-20，最近新收录 [NSCache 源码分析](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)，[Swift 的 NSDate 初学者指南](http://swift.gg/2015/12/14/a-beginners-guide-to-nsdate-in-swift/)，[Swift 字符串速查表](http://www.cocoachina.com/swift/20151218/14746.html)，[选择 Realm 而不是 CoreData](http://swift.gg/2015/12/08/ios-realm-instead-of-coredata/)，[使用 Realm 和 Swift 创建 ToDo 应用](http://swift.gg/2015/12/08/building-a-todo-app-using-realm-and-swift/)，[Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education) 等 6 份，合计已收录 133 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-5，最近新收录 [Swift Weekly Brief](http://www.jessesquires.com), [iOS 中的 UI 自适应](https://realm.io/cn/news/gotocph-sam-davies-adaptive-ui-ios/), [如何在Swift中调用 C 库](http://hearrain.com/2015/12/850), [Questing for Swift Source Code](http://www.jianshu.com/p/217510b270f1), [Core Data 线程大揭秘](https://realm.io/cn/news/marcus-zarra-core-data-threading/), [谈谈闭包——以 Swift 为例](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example), [iOS 9 by Tutorials 笔记](http://chengway.in), [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/), [如何在 Swift 中使用 Alamofire 进行网络编程](http://swift.gg/2015/12/22/alamofire-beginner-guide/), [Build your cells in a way of LEGO](https://medium.com/@victor_wang/build-your-cells-in-a-way-of-lego-fbf6a1133bb1#.ymdvydfc8), [用 TVML 开发 tvOS 应用教程](http://www.devtalking.com/articles/develop-tvos-app-with-tvml/), [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift), [设计的权重](http://www.beforweb.com/node/807) 等 13 份，合计已收录 146 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -63,6 +63,10 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [iOS：选择 Realm 而不是 CoreData](http://swift.gg/2015/12/08/ios-realm-instead-of-coredata/)：再一次更真切地认识 Realm。“Realm 听过很多遍了，到底如何使用？来看看这位作者的 Realm 初体验”。译文来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)
 * [Swift 的 NSDate 初学者指南](http://swift.gg/2015/12/14/a-beginners-guide-to-nsdate-in-swift/)：“如果问我在做过的所有项目中做的最多的事情，那处理日期绝对是榜上有名...”。译文来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)
 * [Swift String Cheat Sheet](http://useyourloaf.com/blog/swift-string-cheat-sheet.html)：最新 String 使用速查。“一纸说尽 Swift String By [@CodingTogether](http://weibo.com/u/2510885182)”。[中译版：Swift 字符串速查表](http://www.cocoachina.com/swift/20151218/14746.html)，译者：[@星夜暮晨](http://weibo.com/moonisky)
+* [如何在 Swift 中使用 Alamofire 进行网络编程](http://swift.gg/2015/12/22/alamofire-beginner-guide/)：“AppCoda 的长长长长文一篇，有点啰嗦，不过介绍了一些 JS 知识，可以入个门”。译文来源：[SwiftGG翻译组](http://weibo.com/swiftguide)
+* [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/)：“AppCoda 的万字长文，非常适合初学者，跟着一步一步做，可以学到很多东西”。 译者：[@saitjr](http://weibo.com/u/1918545437)，[@小铁匠Linus](http://weibo.com/linusling)
+* [Build your cells in a way of LEGO](https://medium.com/@victor_wang/build-your-cells-in-a-way-of-lego-fbf6a1133bb1#.ymdvydfc8)：“真响应式CollectionView的实现构思，用组合乐高的方式做布局，个人感觉更黑科技些，而且确实花了不少心血”。作者：[@ShengjiaWANG](http://weibo.com/u/1739447693)
+* [用 TVML 开发 tvOS 应用教程](http://www.devtalking.com/articles/develop-tvos-app-with-tvml/)：“在这篇教程中，你们的目标是开发以个能播放 RWDevCon 讨论视频的 tvOS 应用...”。无论采用传统原生的 tvOS 定制应用还是 TVML 应用开发方式，在 tvOS 中都是苹果推荐的。译者：[@DevTalking](http://weibo.com/jacefu)，来源：[Ray Wenderlich](http://www.raywenderlich.com/114886/beginning-tvos-development-with-tvml-tutorial)
 * 视频教程
 	* [1. 基础篇－使用 Swift 开发 iOS8 应用实战](http://www.imooc.com/view/173)，[2. 进阶篇－Swift Weather APP](http://www.imooc.com/view/149)：实战学习是最有效的编程学习方法。该系列视频教程通过不同的案例，由浅入深地介绍 iOS 应用开发方法。来源：[@慕课网](http://weibo.com/mukewang)，讲师：[@林永坚Jake](http://weibo.com/yongjianlin)
 	*  WWDC 视频：1. Swift 入门（[A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)）；2. Swift 进阶（[A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)）；3. Swift 版本升级补录补丁（[A001.Patch](http://v.youku.com/v_show/id_XNzg1MTM2NDEy.html?f=22361976)，[A002.Patch](http://v.youku.com/v_show/id_XNzg1MTQ2MDY0.html?f=22519841)）。翻译：[@赵哲A](http://weibo.com/zhaozhecleric)
@@ -91,6 +95,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [如何制作一个炫酷好玩的爆炸效果](http://xxycode.com/ru-he-zhi-zuo-ge-xuan-ku-hao-wan-de-bao-zha-xiao-guo-2/)：无论文章还是代码，真心不错。源代码：[xxycode/UIViewXXYBoom](https://github.com/xxycode/UIViewXXYBoom)，作者：[@我是叉叉歪](http://weibo.com/u/2729196815)
 * [如何在 iOS 中实现一个可展开的 Table View](http://swift.gg/2015/12/03/expandable-table-view/)。译文来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)
 * [深入理解 Kingfisher上](http://www.jianshu.com/p/326527a4d4f9)、[下](http://www.jianshu.com/p/0a5cdf3f7e9c)：无论代码还是评审都是很好的学习范本。“整理了临摹 Kingfisher 的笔记，主要是源码分析以及相关知识点讲解，一万字长文。涉及到了GCD、硬盘读写、URLSession、Gif数据处理、MD5、Associated Objects等”。
+* [Core Data 线程大揭秘](https://realm.io/cn/news/marcus-zarra-core-data-threading/)：“到了今天，Core Data 中的线程实现机制已经与其最初版本大相径庭了。在 Core Data 的悠久历史中，多年来关于如何使用线程的话题已经有了数种不同的解释，那么我们到底应该怎么做呢？Marcus Zarra 为我们展示了实现线程的三种方法，旧有的、复杂的和最佳的”。作者：Marcus Zarra，来源：Realm
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -133,7 +138,12 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [NSCache 源码分析](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)：“因为 NSCache 的代码并不多，所以先从其下手。顺便体会一下 Foundation 的编程风格。之所以用缓存，是为了以空间换时间。但空间总是有限的，这就需要缓存管理策略”。作者：[@nixzhu](http://weibo.com/swiftguide/nixzhu)
 * [Apple Watch 应用优化的一些心得技巧总结](http://www.csdn.net/article/2015-06-01/2824816)：“尽管 Watch OS 1.01  已经提升了应用启动的速度，但用户普遍感受还是体验较差，因此我们有必要尽全力优化自己的 Apple Watch 应用。本文作者 [@WatchKit开发](http://weibo.com/twios) 结合自己的体会和其他先驱者的一些心得，对相关技巧做了一些汇总”。来源：[CSDN移动](http://weibo.com/csdnmobile)
 * [从减少点击次数，到降低使用负荷](http://www.beforweb.com/node/722)：“从减少点击次数，到降低使用负荷 - 如果你的产品不需要用户背负沉重的认知与操作负荷便能高效的使用核心功能，并且将体验打磨到极致，那么你就拥有了竞争的力量 - 你至少可以拉拢到那些在多数时间只会用到这些特定功能，却被那些复杂的产品搞的疲惫不堪的用户...”。来源：[@BeForWeb](http://weibo.com/beforweb)，译者：[@C7210](http://weibo.com/u/1833937113)
-
+* [iOS 中的 UI 自适应](https://realm.io/cn/news/gotocph-sam-davies-adaptive-ui-ios/)：值得一读、教学性很强的演讲稿（演讲者 Sam Davies 来自 Ray Wenderlich）。“在本次讲演中，Sam Davies 将带我们深入了解自适应布局，通过展示几种形象的例子来讲解自适应布局的理念，同时还会带来使用界面构造器时的一些小技巧”。
+* 如何在Swift中调用C库 － [入门篇](http://hearrain.com/2015/12/850)、[进阶篇](http://hearrain.com/2016/01/853)、[完结篇](http://hearrain.com/2016/01/855)：“我一共写了三篇文章，包括了我最近遇到的一些问题和经验之谈”。作者：[@叶枫落](http://weibo.com/yefengluo) 
+* Questing for Swift Source Code - [Bool](http://www.jianshu.com/p/217510b270f1)、[整数类型](http://www.jianshu.com/p/ae67b4d37159)、：“这个系列是我学习 Swift 源码的心得和记录，内容主要是 Swift 源代码的相关分析和探究，如果您对 Swift 源代码也很感兴趣的话，欢迎阅读这个系列的文章~”。作者：[@星夜暮晨](http://weibo.com/moonisky)
+* [谈谈闭包——以 Swift 为例](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example)：“本文讨论闭包的相关概念，大部分代码使用Swift编写。Swift对闭包有着良好的支持。这是因为，Swift被设计成一门一定程度上支持函数式编程范式的编程语言。而函数式编程和闭包有着紧密的联系。本文着重讨论的也是函数式编程和闭包之间的关系”。作者：郭麟，来源：InfoQ  
+* [设计的权重](http://www.beforweb.com/node/807)：一篇重观点、轻结论，通过案例理性地针对设计权重分析、解读文章。“我们反反复复的设计着所谓的“体验”，将大量时间花费在稿子的某些细节当中以实现设计方案的“完美”，竭尽全力将各种设计产出物的表现力度一再提升 - 我们是在设计产品，还是在设计“设计”本身？”。译者：[@C7210](http://weibo.com/c7210)
+* 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/))：著名开源作者 [Matt Thompson](https://github.com/mattt) 创建的开发技术博客网站，他开发了 [AFNetworking](https://github.com/afnetworking/afnetworking) 网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709)
@@ -141,5 +151,7 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [iOSCreator](http://www.ioscreator.com/)：该网站每月出 2-3 份不同侧重的开发指引式教程。它们对于初学者来讲是非常直接明了、有效的学习资源。
 * [iOS Dev Weekly](https://iosdevweekly.com/)：收录一周以来 iOS 开发资讯链接，并于周五发布。由 [Dave Verwer](http://www.twitter.com/daveverwer) 创办，他是一位 iPhone 和 iPad 开发者以及培训师。
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
+* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
 * [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
+* [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
 

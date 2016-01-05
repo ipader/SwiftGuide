@@ -1,0 +1,57 @@
+[Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 43
+===
+> **本期特别推荐** 1. 项目：[Filterpedia](https://github.com/FlexMonkey/Filterpedia)（完整、强大的图片滤镜类库）、[ElasticTransition](https://github.com/lkzhao/ElasticTransition)（畅快、无违和感的皮筋式动画转场）以及 [VWInstantRun](https://github.com/wangshengjia/VWInstantRun)（Xcode 高效调试插件）; 2. 文章：[如何在Swift中调用 C 库](http://hearrain.com/2015/12/850) 和 [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/)
+
+## 概要
+　　Swift 开源以来，越来越多的同学开始沉下心来学习 Swift，无论 [笔记](http://chengway.in/)、[心得](http://weibo.com/p/1001603922841853642397)、亦或是翻译一篇[开发教程雄文](http://swift.gg/2015/12/29/foursquare-realm-swift/)，功课满满。过程中，当然不缺指引学习、分门别类的优秀文章，比如：[Swift 源码解读](http://www.jianshu.com/p/217510b270f1)、[Core Data 线程大揭秘](https://realm.io/cn/news/marcus-zarra-core-data-threading/)、[网络编程](http://swift.gg/2015/12/22/alamofire-beginner-guide/)、[谈谈闭包](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example)、[自动布局](https://medium.com/@victor_wang/build-your-cells-in-a-way-of-lego-fbf6a1133bb1#.ymdvydfc8)、[tvOS 应用开发](http://www.devtalking.com/articles/develop-tvos-app-with-tvml/)。有心的博主还为爱好者整理了[Swift 语言进展周报](http://www.jessesquires.com/)。
+
+　　基础库方向，有项目[初始化代码简化库](https://github.com/devxoul/Then)、[函数化正则表达式库](https://github.com/VerbalExpressions/SwiftVerbalExpressions)、[短平快的 SQLite 操作库](https://github.com/groue/GRDB.swift)、[好用的背景声音库](https://github.com/trifl/Chirp)。界面组件方向，有[号称最好用的日期选择组件](https://github.com/MrMage/DateRangePicker)、[强大的图片滤镜库](https://github.com/FlexMonkey/Filterpedia)，还有耳目一新、酣畅淋漓的[皮筋式动画转场库](https://github.com/lkzhao/ElasticTransition)。框架类也不甘落后，有[新颖的状态流记录框架](https://github.com/ReduxKit/ReduxKit)和[MVP（Model-View-Presenter）框架及示例](https://github.com/Karumi/BothamUI)。
+
+　　开放平台方向，有项目[七彩字串输出](https://github.com/onevcat/Rainbow)、[运行进程监控](https://github.com/jkandzi/Progress.swift)、[开发效率工具](https://github.com/wangshengjia/VWInstantRun)，还有文章[针对庞大的 C 语言库的探究](http://hearrain.com/2015/12/850)。
+
+　　完整应用方向，有技术探索类[可交互 Apple TV 浏览器](https://github.com/zats/BrowserTV)，开源的上架应用也越成趋势，本期是一款优秀的[词典应用](https://github.com/yingDev/QingDict)。与此同时，[有位同学](http://weibo.com/c7210)持续精选翻译设计类文章助力应用开发，本期特别推荐《[设计权重](http://www.beforweb.com/node/807)》。
+
+
+## 项目
+> [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions), [Progress.swift](https://github.com/jkandzi/Progress.swift), [Rainbow](https://github.com/onevcat/Rainbow), [Filterpedia](https://github.com/FlexMonkey/Filterpedia), [Then](https://github.com/devxoul/Then), [Chirp](https://github.com/trifl/Chirp), [GRDB.swift](https://github.com/groue/GRDB.swift), [ReduxKit](https://github.com/ReduxKit/ReduxKit), [BothamUI](https://github.com/Karumi/BothamUI), [ElasticTransition](https://github.com/lkzhao/ElasticTransition), [DateRangePicker](https://github.com/MrMage/DateRangePicker), [BrowserTV](https://github.com/zats/BrowserTV), [VWInstantRun](https://github.com/wangshengjia/VWInstantRun), [QingDict](https://github.com/yingDev/QingDict) 等 14 个，合计已收录 272 个。
+
+* [VerbalExpressions/SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions)：VerbalExpressions 通过函数方式编写复杂正则表达式，使其更易读，现在 Swift 版本也来了。开发者：[VerbalExpressions](https://github.com/VerbalExpressions)
+* [jkandzi/Progress.swift](https://github.com/jkandzi/Progress.swift)：循环内嵌进程代码显示进程条的小类库（运行于终端字符环境下，不支持 Xcode 控制台输出）。该类库适合服务端程序运行进程监控。开发者：[Justus Kandzi](https://github.com/jkandzi)
+* [onevcat/Rainbow](https://github.com/onevcat/Rainbow)：“Swift输出到终端给字符串加颜色和样式的框架，支持苹果各平台和Linux。Swift开源以后跨平台的命令行工具会多起来，这个框架也许能有点用处。当然配合XcodeColors也能用在Xcode里优化调试输出”。开发者：[@onevcat](http://weibo.com/onevcat)
+* [FlexMonkey/Filterpedia](https://github.com/FlexMonkey/Filterpedia)：基于 Core Image 框架，完整、强大的图片滤镜类库演示应用。开发者：[simon gladman](https://github.com/FlexMonkey)
+* [devxoul/Then](https://github.com/devxoul/Then)：在不失可读性前提下简化了初始化语法，好库。开发者：[Suyeol Jeon](https://github.com/devxoul)
+* [trifl/Chirp](https://github.com/trifl/Chirp)：最简单的方法在应用中装载、播放、停止声音文件。开发者：[trifl](https://github.com/trifl)
+* [groue/GRDB.swift](https://github.com/groue/GRDB.swift)：让操作 SQLite 再简单一点，方便、实用。开发者：[Gwendal Roué](https://github.com/groue)
+* [djyde/WebShell](https://github.com/djyde/WebShell)：给 Web 应用穿件 OS X 应用外套。没什么特别之处，顶多适合前端开发者（OS X 开发盲们）玩玩。一定要找点推荐理由的话－－最简 OS X 应用演示。开发者：[Randy](https://github.com/djyde)
+* [Swift-Flow/Swift-Flow](https://github.com/Swift-Flow/Swift-Flow)：该框架主要针对单页面应用状态及单向数据流管理。其中包含 UI 状态缓存、服务器响应数据及本地对响应数据的缓存、表单数据输入及创建缓存管理，它相当于 [Redux](https://github.com/rackt/redux) 的 Swift 版本实现。开发者：[Swift-Flow](https://github.com/Swift-Flow)。P.S. 相似项目:[ReduxKit/ReduxKit](https://github.com/ReduxKit/ReduxKit)，两位开发者有沟通及分享。
+* [Karumi/BothamUI](https://github.com/Karumi/BothamUI)：Swift 下的 MVP（Model-View-Presenter ）框架库及示例。关注过这款 UI 架构的同学可以研究、学习之用。开发者：[Karumi](https://github.com/Karumi)
+* [lkzhao/ElasticTransition](https://github.com/lkzhao/ElasticTransition)：畅快、无违和感的皮筋式动画转场效果。开发者：[Luke Zhao](https://github.com/lkzhao)
+* [MrMage/DateRangePicker](https://github.com/MrMage/DateRangePicker)：号称 OS X 下最好的日期区间选择组件。开发者：[MrMage](https://github.com/MrMage)
+* [zats/BrowserTV](https://github.com/zats/BrowserTV)：若你偏要在你的 Apple TV 上浏览网页，这款应用或许能满足你。不过，由于 Apple TV 上 API 硬性限制，当涉及交互时，还需要依赖 OS X 客户端通过对等连接（Multipeer Connectivity）将 Cookie 发送给 Browser TV。不论实用性如何，开发思路还是不错的。开发者：[Sash Zats](https://github.com/zats/BrowserTV)
+* [DianQK/TransitionTreasury](https://github.com/DianQK/TransitionTreasury)：功能完善、简便实用的视图转场类库及使用演示。开发者：[@DianQK](http://weibo.com/DianQK)
+* [wangshengjia/VWInstantRun](https://github.com/wangshengjia/VWInstantRun)：超级实用的 Xcode 工具，即时运行选中的代码片段。开发者：[@ShengjiaWANG](http://weibo.com/u/1739447693)
+* [guoc/spi](https://github.com/guoc/spi)：“2016 年第一天，今天我开源了上架一年多的 SPi 双拼输入法 for iPhone，支持多种常用双拼方案，无须「完全访问」，避免泄漏隐私...，自定义键盘，第三方库只用了 FMDB、InAppSettingsKit 和 uservoice”。开发者：[@gviridis](http://weibo.com/gviridis)
+* [DanisFabric/RainbowNavigation](https://github.com/DanisFabric/RainbowNavigation)：“分享我开发的UINavigationBar颜色变化的十分优秀的解决方案。 -能够跟随手势滑动改变颜色 -能够在navigationController的Push/Pop 时平滑改变颜色”。开发者：[@Danisfabric](http://weibo.com/u/2070729541)
+* [DanisFabric/Infinity](https://github.com/DanisFabric/Infinity)：“基于Swift的下拉刷新开源库~可完全自定义下拉刷新的动画和行为，一句代码集成”。开发者：[@Danisfabric](http://weibo.com/u/2070729541)
+* [yingDev/QingDict](https://github.com/yingDev/QingDict)：“轻量级、实用主义的词典程序 for OS X”。开发者：[@Nozama](http://weibo.com/xweb123)
+
+## 文档
+> [Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)：最近新收录 [Swift Weekly Brief](http://www.jessesquires.com), [iOS 中的 UI 自适应](https://realm.io/cn/news/gotocph-sam-davies-adaptive-ui-ios/), [如何在Swift中调用 C 库](http://hearrain.com/2015/12/850), [Questing for Swift Source Code](http://www.jianshu.com/p/217510b270f1), [Core Data 线程大揭秘](https://realm.io/cn/news/marcus-zarra-core-data-threading/), [谈谈闭包——以 Swift 为例](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example), [iOS 9 by Tutorials 笔记](http://chengway.in), [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/), [如何在 Swift 中使用 Alamofire 进行网络编程](http://swift.gg/2015/12/22/alamofire-beginner-guide/), [Build your cells in a way of LEGO](https://medium.com/@victor_wang/build-your-cells-in-a-way-of-lego-fbf6a1133bb1#.ymdvydfc8), [用 TVML 开发 tvOS 应用教程](http://www.devtalking.com/articles/develop-tvos-app-with-tvml/), [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift), [设计的权重](http://www.beforweb.com/node/807) 等 13 份，合计已收录 146 份。
+
+* [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
+* [iOS 中的 UI 自适应](https://realm.io/cn/news/gotocph-sam-davies-adaptive-ui-ios/)：值得一读、教学性很强的演讲稿（演讲者 Sam Davies 来自 Ray Wenderlich）。“在本次讲演中，Sam Davies 将带我们深入了解自适应布局，通过展示几种形象的例子来讲解自适应布局的理念，同时还会带来使用界面构造器时的一些小技巧”。
+* 如何在Swift中调用C库 － [入门篇](http://hearrain.com/2015/12/850)、[进阶篇](http://hearrain.com/2016/01/853)、[完结篇](http://hearrain.com/2016/01/855)：“我一共写了三篇文章，包括了我最近遇到的一些问题和经验之谈”。作者：[@叶枫落](http://weibo.com/yefengluo) 
+* Questing for Swift Source Code - [Bool](http://www.jianshu.com/p/217510b270f1)、[整数类型](http://www.jianshu.com/p/ae67b4d37159)、：“这个系列是我学习 Swift 源码的心得和记录，内容主要是 Swift 源代码的相关分析和探究，如果您对 Swift 源代码也很感兴趣的话，欢迎阅读这个系列的文章~”。作者：[@星夜暮晨](http://weibo.com/moonisky)
+* [Core Data 线程大揭秘](https://realm.io/cn/news/marcus-zarra-core-data-threading/)：“到了今天，Core Data 中的线程实现机制已经与其最初版本大相径庭了。在 Core Data 的悠久历史中，多年来关于如何使用线程的话题已经有了数种不同的解释，那么我们到底应该怎么做呢？Marcus Zarra 为我们展示了实现线程的三种方法，旧有的、复杂的和最佳的”。作者：Marcus Zarra，来源：Realm
+* [谈谈闭包——以 Swift 为例](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example)：“本文讨论闭包的相关概念，大部分代码使用Swift编写。Swift对闭包有着良好的支持。这是因为，Swift被设计成一门一定程度上支持函数式编程范式的编程语言。而函数式编程和闭包有着紧密的联系。本文着重讨论的也是函数式编程和闭包之间的关系”。作者：郭麟，来源：InfoQ  
+* Programming iOS 9 的第一部分：[Views](http://wdxtub.com/2015/12/22/programming-ios9-translation-1/)，[Drawing](http://wdxtub.com/2015/12/22/programming-ios9-translation-2/)，[Layer](http://wdxtub.com/2015/12/22/programming-ios9-translation-3/)，[Animation](http://wdxtub.com/2015/12/23/programming-ios9-translation-4/)，[Touches](http://wdxtub.com/2015/12/23/programming-ios9-translation-5/)。“偷懒迹象明显，属于意识流翻译”。作者：[@小土刀](http://weibo.com/p/1005051679008462)
+* iOS 9 by Tutorials 学习笔记：1. [Swift 2.0](http://mengxiangyue.com/2015/12/22/iOS9-by-Tutorials-学习笔记一：Swift-2-0/)；2. [App Search](http://mengxiangyue.com/2015/12/27/iOS9-by-Tutorials-学习笔记二：App-Search/)；1. [Your App on the Web](http://mengxiangyue.com/2015/12/27/iOS9-by-Tutorials-学习笔记三：Your-App-on-the-Web/)。作者：[@孟祥月](http://weibo.com/u/1750643861)
+* [iOS 9 by Tutorials 笔记](http://chengway.in) by [@walkingway](http://weibo.com/walkingway)
+* [Swift 重载操作符实现一个字典添加到另一个字典中](http://www.jianshu.com/p/1507a6f0abd7)：小技巧大用处。作者：[@没故事的卓同学](http://weibo.com/u/1926303682)
+* [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/)：“AppCoda 的万字长文，非常适合初学者，跟着一步一步做，可以学到很多东西”。 译者：[@saitjr](http://weibo.com/u/1918545437)，[@小铁匠Linus](http://weibo.com/linusling)
+* [如何在 Swift 中使用 Alamofire 进行网络编程](http://swift.gg/2015/12/22/alamofire-beginner-guide/)：“AppCoda 的长长长长文一篇，有点啰嗦，不过介绍了一些 JS 知识，可以入个门”。译文来源：[SwiftGG翻译组](http://weibo.com/swiftguide)
+* [Build your cells in a way of LEGO](https://medium.com/@victor_wang/build-your-cells-in-a-way-of-lego-fbf6a1133bb1#.ymdvydfc8)：“真响应式CollectionView的实现构思，用组合乐高的方式做布局，个人感觉更黑科技些，而且确实花了不少心血”。作者：[@ShengjiaWANG](http://weibo.com/u/1739447693)
+* [用 TVML 开发 tvOS 应用教程](http://www.devtalking.com/articles/develop-tvos-app-with-tvml/)：“在这篇教程中，你们的目标是开发以个能播放 RWDevCon 讨论视频的 tvOS 应用...”。无论采用传统原生的 tvOS 定制应用还是 TVML 应用开发方式，在 tvOS 中都是苹果推荐的。译者：[@DevTalking](http://weibo.com/jacefu)，来源：[Ray Wenderlich](http://www.raywenderlich.com/114886/beginning-tvos-development-with-tvml-tutorial)
+* [我的产品设计开发工作の流](http://weibo.com/p/1001603922841853642397)：“在过去3.5周左右的时间里，我从零基础学习 iOS 开发完成一款应用，一般很少有人在还在「非常入门的学习」的过程中就开始出来分享，但是对我而言没什么可害羞的，正是由于 Xcode 的加入，才可以让我的整个产品设计工作流得到完善”。作者：[Allen朝辉](http://weibo.com/wangchaohui)
+* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
+* [设计的权重](http://www.beforweb.com/node/807)：一篇重观点、轻结论，通过案例理性地针对设计权重分析、解读文章。“我们反反复复的设计着所谓的“体验”，将大量时间花费在稿子的某些细节当中以实现设计方案的“完美”，竭尽全力将各种设计产出物的表现力度一再提升 - 我们是在设计产品，还是在设计“设计”本身？”。译者：[@C7210](http://weibo.com/c7210)

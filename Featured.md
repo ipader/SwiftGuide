@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2015-12-20，最近新收录 [focus](https://github.com/mozilla/focus), [Pantry](https://github.com/nickoneill/Pantry), [C4iOS](https://github.com/C4Framework/C4iOS), [XLActionController](https://github.com/xmartlabs/XLActionController), [ImageViewer](https://github.com/MailOnline/ImageViewer), [swiftScan](https://github.com/MxABC/swiftScan), [swift-http](https://github.com/huytd/swift-http), [Curassow](https://github.com/kylef/Curassow), [Laurine](https://github.com/JiriTrecak/Laurine), [Whisper](https://github.com/hyperoslo/Whisper) 等 10 个，合计已收录 258 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-5，[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions), [Progress.swift](https://github.com/jkandzi/Progress.swift), [Rainbow](https://github.com/onevcat/Rainbow), [Filterpedia](https://github.com/FlexMonkey/Filterpedia), [Then](https://github.com/devxoul/Then), [Chirp](https://github.com/trifl/Chirp), [GRDB.swift](https://github.com/groue/GRDB.swift), [ReduxKit](https://github.com/ReduxKit/ReduxKit), [BothamUI](https://github.com/Karumi/BothamUI), [ElasticTransition](https://github.com/lkzhao/ElasticTransition), [DateRangePicker](https://github.com/MrMage/DateRangePicker), [BrowserTV](https://github.com/zats/BrowserTV), [VWInstantRun](https://github.com/wangshengjia/VWInstantRun), [QingDict](https://github.com/yingDev/QingDict) 等 14 个，合计已收录 272 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -78,6 +78,11 @@
 [madebybowtie/FlagKit](https://github.com/madebybowtie/FlagKit)|[Bowtie](https://github.com/madebybowtie)|漂亮、完整的国旗小图标工具集
 [Zephyr](https://github.com/ArtSabintsev/Zephyr)|[Arthur Ariel Sabintsev](https://github.com/ArtSabintsev)|将 NSUserDefaults 数据同步 iCould 实用工具类
 [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)|[Goktug Yilmaz](https://github.com/goktugyil)|让 Swift 基础类型及基础类更容易访问扩展
+[SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions)|[VerbalExpressions](https://github.com/VerbalExpressions)|通过函数方式编写复杂正则表达式
+[Progress.swift](https://github.com/jkandzi/Progress.swift)|[Justus Kandzi](https://github.com/jkandzi)|循环内嵌进程代码显示进程条
+[Rainbow](https://github.com/onevcat/Rainbow)|[@onevcat](http://weibo.com/onevcat)|七彩字串输出
+[Then](https://github.com/devxoul/Then)|[Suyeol Jeon](https://github.com/devxoul)|不失可读性前提下简化初始化语法
+[Chirp](https://github.com/trifl/Chirp)|[trifl](https://github.com/trifl)|应用中装载、播放、停止声音文件
 
 * <a id="storage"></a>存储类
 
@@ -89,6 +94,7 @@
 [SwiftRecord](https://github.com/arkverse/SwiftRecord)|[ark](https://github.com/arkverse)|基于 Core Data 极为轻量、易用的对象持久化工具库
 [CoreValue](https://github.com/terhechte/CoreValue)|[Benedikt Terhechte](https://github.com/terhechte)|Swift 2 版 Core Data 封装库[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|[Roy Marmelstein](https://github.com/marmelroy)|解析、格式化及验证国际电话号码工具库
 [Pantry](https://github.com/nickoneill/Pantry)|[Nick O'Neill](https://github.com/nickoneill)|可以持久化基础类型变量值的类库
+[GRDB.swift](https://github.com/groue/GRDB.swift)|[Gwendal Roué](https://github.com/groue)|让操作 SQLite 再简单一点
 
 * <a id="network"></a>网络类
 
@@ -127,6 +133,7 @@
 [AFImageHelper](https://github.com/melvitax/AFImageHelper)|[Melvin Rivera](https://github.com/melvitax)|填色和渐变、裁剪、缩放以及具有缓存机制的在线图片获取
 [DynamicColor](https://github.com/yannickl/DynamicColor)|[Yannick Loriot](https://github.com/yannickl)|得到不同深浅、饱和度、灰度、色相，以及反转后的新颜色
 [Nuke](https://github.com/kean/Nuke)|[Alexander Grebenyuk](https://github.com/kean)|完整、强大、实用的图片管理类库
+[Filterpedia](https://github.com/FlexMonkey/Filterpedia)|[simon gladman](https://github.com/FlexMonkey)|Core Image 下强大的图片滤镜类库演示应用
 
 * <a id="interfaces"></a>界面类
 
@@ -171,6 +178,7 @@
 [KSTokenView](https://github.com/khawars/KSTokenView)|[Khawar Shahzad](https://github.com/khawars)|带搜索、快捷输入、分段显示关键词输入组件
 [TFBubbleItUp](https://github.com/thefuntasty/TFBubbleItUp)|[The Funtasty](https://github.com/thefuntasty)|配置性很强的分段文本标签输入组件
 [GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)|[Andrea Mazzini](https://github.com/andreamazz)|无违和感的下拉刷新动画组件
+[ElasticTransition](https://github.com/lkzhao/ElasticTransition)|[Luke Zhao](https://github.com/lkzhao)|畅快、无违和感的皮筋式动画转场
 [DGElasticPullToRefresh](https://github.com/gontovnik/DGElasticPullToRefresh)|[Danil Gontovnik](https://github.com/gontovnik)|皮筋式弹性下拉即刷新组件及演
 [MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)|[Michaël Azevedo](https://github.com/micazeve)|同样是下拉刷新，人家花了很大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
@@ -224,6 +232,7 @@
 [TrelloNavigation](https://github.com/DianQK/TrelloNavigation)|[@靛青K](http://weibo.com/u/2314535081)|类似 trello 的导航动效控件实现
 [MPParallaxView](https://github.com/DroidsOnRoids/MPParallaxView)|[Droids On Roids](https://github.com/DroidsOnRoids)|Apple TV 中 Parallax 效果
 [TKSwitcherCollection](https://github.com/TBXark/TKSwitcherCollection)|[@TBXark](http://weibo.com/tbxark)|Switch 切换动画效果集合组件及演示
+[DateRangePicker](https://github.com/MrMage/DateRangePicker)|[MrMage](https://github.com/MrMage)|日期区间选择组件
 
 * <a id="framework"></a>框架类
 
@@ -261,6 +270,8 @@
 [Swift-AI](https://github.com/collinhundley/Swift-AI)|[Collin Hundley](https://github.com/collinhundley)|开发中的 AI 及机器学习库
 [Popsicle](https://github.com/DavdRoman/Popsicle)|[David Román](https://github.com/DavdRoman)|内置支持 UIKit 的插值框架类库及演示
 [C4iOS](https://github.com/C4Framework/C4iOS)|[-- C4 --](https://github.com/C4Framework)|用更少的代码，创建最佳应用体验库
+[BothamUI](https://github.com/Karumi/BothamUI)|[Karumi](https://github.com/Karumi)|MVP 框架库及示例
+[ReduxKit](https://github.com/ReduxKit/ReduxKit)|[ReduxKit](https://github.com/ReduxKit)|新颖的状态流记录框架
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -314,4 +325,7 @@
 [Swift-Radio-Pro](https://github.com/swiftcodex/Swift-Radio-Pro)|[Swift Code X](https://github.com/swiftcodex)|集成 LastFM 的专业电台应用
 [SimpleMemo](https://github.com/likumb/SimpleMemo)|[@李俊likumb](http://weibo.com/likumb)|支持 3D Touch 功能易便签
 [xcode-snippets](https://github.com/Abizern/xcode-snippets)|[Abizer Nasir](https://github.com/Abizern)|Mattt 同学 Xcode-Snippets/Objective-C 的 Swift 版本
+[VWInstantRun](https://github.com/wangshengjia/VWInstantRun)|[@ShengjiaWANG](http://weibo.com/u/1739447693)|即时运行选中的代码片段
 [Laurine](https://github.com/JiriTrecak/Laurine)|[Jiří Třečák](JiriTrecak/Laurine)|本地化代码生成器及示例，为了开发更得力
+[BrowserTV](https://github.com/zats/BrowserTV)|[Sash Zats](https://github.com/zats/BrowserTV)|可交互 Apple TV 浏览器
+[QingDict](https://github.com/yingDev/QingDict)|[@Nozama](http://weibo.com/xweb123)|轻量级、实用主义的词典程序
