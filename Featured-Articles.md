@@ -143,15 +143,16 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * Questing for Swift Source Code - [Bool](http://www.jianshu.com/p/217510b270f1)、[整数类型](http://www.jianshu.com/p/ae67b4d37159)、：“这个系列是我学习 Swift 源码的心得和记录，内容主要是 Swift 源代码的相关分析和探究，如果您对 Swift 源代码也很感兴趣的话，欢迎阅读这个系列的文章~”。作者：[@星夜暮晨](http://weibo.com/moonisky)
 * [谈谈闭包——以 Swift 为例](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example)：“本文讨论闭包的相关概念，大部分代码使用Swift编写。Swift对闭包有着良好的支持。这是因为，Swift被设计成一门一定程度上支持函数式编程范式的编程语言。而函数式编程和闭包有着紧密的联系。本文着重讨论的也是函数式编程和闭包之间的关系”。作者：郭麟，来源：InfoQ  
 * [设计的权重](http://www.beforweb.com/node/807)：一篇重观点、轻结论，通过案例理性地针对设计权重分析、解读文章。“我们反反复复的设计着所谓的“体验”，将大量时间花费在稿子的某些细节当中以实现设计方案的“完美”，竭尽全力将各种设计产出物的表现力度一再提升 - 我们是在设计产品，还是在设计“设计”本身？”。译者：[@C7210](http://weibo.com/c7210)
-* 
+
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/))：著名开源作者 [Matt Thompson](https://github.com/mattt) 创建的开发技术博客网站，他开发了 [AFNetworking](https://github.com/afnetworking/afnetworking) 网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709)
 * [objc.io](http://objc.io)([中译版 By @onevcat 及其朋友们](http://objccn.io))："关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
 * [iOSCreator](http://www.ioscreator.com/)：该网站每月出 2-3 份不同侧重的开发指引式教程。它们对于初学者来讲是非常直接明了、有效的学习资源。
 * [iOS Dev Weekly](https://iosdevweekly.com/)：收录一周以来 iOS 开发资讯链接，并于周五发布。由 [Dave Verwer](http://www.twitter.com/daveverwer) 创办，他是一位 iPhone 和 iPad 开发者以及培训师。
+* [SwiftGG](http://swift.gg/)：一个走心的 Swift 翻译组，由《The Swift Programming Language》中文版翻译团队原班人马组成， 翻译的文章来源于国外的优秀 Swift 网站和博客，且全部获得作者和网站授权。
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
-* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
 * [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
+* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
 * [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
 
