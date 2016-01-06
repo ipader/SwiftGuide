@@ -5,7 +5,7 @@ Swift 语言指南
 > GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [收录周报 Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)</span>
+<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
 ## 目录
 * [Swift 文档](#swift_doc)
