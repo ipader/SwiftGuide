@@ -5,10 +5,8 @@
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
-* [包管理器（官方）](https://github.com/nixzhu/dev-blog/blob/master/2015-12-04-swift-package-manager.md)：“简言之：一个包即一个有着语义版本 tag 的 git 仓库，其中包含 Swift 源代码，以及一个放在根目录的 Package.swift 清单文件”。译者：[@nixzhu](http://weibo.com/nixzhu)
-* [Swift 官方 API 设计准则](http://www.jianshu.com/p/b69d9b615ee5)：“与此前文章《[Swift 3 API 设计准则](http://www.jianshu.com/p/fce426e4f1c4)》的区别在于，之前文章只是一个 Swift 3 工作的概览说明，而这是有内容的干货！虽然还处于样稿阶段，但是有很好的参考价值”。译者：[@星夜暮晨](http://weibo.com/moonisky)
-* [iOS 9人机界面指南（一）：UI设计基础](http://isux.tencent.com/ios9-guideline-ch1.html) 译文来源：[@腾讯ISUX](http://weibo.com/txisux)
-＊ [Writing High-Performance Swift Code (Apple)](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)
+* [包管理器](https://github.com/nixzhu/dev-blog/blob/master/2015-12-04-swift-package-manager.md)：“简言之：一个包即一个有着语义版本 tag 的 git 仓库，其中包含 Swift 源代码，以及一个放在根目录的 Package.swift 清单文件”。译者：[@nixzhu](http://weibo.com/nixzhu)
+* [Writing High-Performance Swift Code (Apple)](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)
 * [codepath/ios_guides](https://github.com/codepath/ios_guides)：通过众包模式为开发者写更专业（系统化一条龙学习平台）的开发教程。此项目若能长期长展，所有人都会受益。感兴趣的同学可以参与其中。
 * Swift REPL（Read - Eval - Print Loop） － [1. 入门介绍](http://idlelife.org/archives/842)，[2. 一切皆可重定义](http://www.cocoachina.com/ios/20150212/11147.html)：习惯命令行式、解释型语言风格实时预览代码运行结果的同学，这两篇来自苹果官方博客的文章不容错过。译者：[@pockry](http://weibo.com/pockry) / [@MichealGeng](http://weibo.com/u/3039394685)
 * [UIStackView](http://www.cnblogs.com/tieria/p/4572882.html)：“iOS9 新增的 UIStackView 官方文档翻译”。译者：[@潇湘TT](http://weibo.com/tieria0512)

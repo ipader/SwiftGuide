@@ -35,6 +35,10 @@
 * [NSHipster - WKWeb​View](http://nshipster.cn/wkwebkit/)："WKWebView 是现代 WebKit API 在 iOS 8 和 OS X Yosemite 应用中的核心部分。它代替了 UIKit 中的 UIWebView 和 AppKit 中的 WebView，提供了统一的跨双平台 API。" 作者：[Mattt Thompson ](https://github.com/mattt)
 * [Core Location in i​OS 8](http://nshipster.com/core-location-in-ios-8/)：有关iOS 8核心位置服务介绍。文章从权限、室内位置跟踪、CLVisit 等角度做了较全面的介绍。
 * [NSHipster - Apple Pay](http://nshipster.com/apple-pay/)：继上一期 WatchKit 后，本期 NSHipster 专栏给了 Apple Pay。分别从以下几个主题阐述：1. 获得商户ID；2. 开发第一个收费程序；3. PKPaymentAuthorizationViewControllerDelegate；4. 动态的物流方式及定价。
+* [Basic Operators - Nil Coalescing Operator](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-XID_109) 解读
+	1. [Swift 中 Nil Coalescing 运算符的使用技巧](http://www.devtalking.com/articles/swift-nil-coalescing/)	By [@DevTalking](http://weibo.com/jacefu)
+	2. [Swift’s Nil Coalescing Operator In Xcode 6 Beta 5](http://jamesonquave.com/blog/swifts-nil-coaelescing-operator-in-xcode-6-beta-5/) By [Jameson Quave](http://jamesonquave.com/)
+* [《The Swift Programming Language》读簿](http://www.hawstein.com/posts/make-thiner-tspl.html)："读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。
 
 ### <a id="featured_courses"></a>3. 教程精选
 * <a id="featured_trans"></a>中译精选

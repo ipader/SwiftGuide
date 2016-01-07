@@ -44,13 +44,10 @@ Swift 语言指南
 [百度阅读版（By 小岂子）](http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000)
 
 * 相关文档
-	* [Basic Operators - Nil Coalescing Operator](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-XID_109) 解读
-		1. [Swift 中 Nil Coalescing 运算符的使用技巧](http://www.devtalking.com/articles/swift-nil-coalescing/)	By [@DevTalking](http://weibo.com/jacefu)
-		2. [Swift’s Nil Coalescing Operator In Xcode 6 Beta 5](http://jamesonquave.com/blog/swifts-nil-coaelescing-operator-in-xcode-6-beta-5/) By [Jameson Quave](http://jamesonquave.com/)
 	* Swift Style Guide（非苹果官方）：本风格指南的目标是让Swift代码更简洁、可读更强。
 		1. [RayWenderlich 版](https://github.com/raywenderlich/swift-style-guide)（[中译版](http://letsswift.com/2014/07/swift-style-guide/)）
 		2. [GitHub 官方小组版](https://github.com/github/swift-style-guide)（[中译版](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)）
-	* [《The Swift Programming Language》读簿](http://www.hawstein.com/posts/make-thiner-tspl.html)："读书就是要取其精华，去其糟粕、无用、简单和已知的内容。By [@Hawstein](http://weibo.com/hawstein)"。站在作者自己的理解能力上，应该是一份很好的去繁求简读薄。不过，每个初学者基础不同，理解能力也千差万别。因此，对于浓缩版，当有不理解时，应该对照原版章节再进一步细读，千万不能蒙混。
+	* [Swift 官方 API 设计准则](http://www.jianshu.com/p/b69d9b615ee5)：“与此前文章《[Swift 3 API 设计准则](http://www.jianshu.com/p/fce426e4f1c4)》的区别在于，之前文章只是一个 Swift 3 工作的概览说明，而这是有内容的干货！虽然还处于样稿阶段，但是有很好的参考价值”。译者：[@星夜暮晨](http://weibo.com/moonisky)
 
 ### <a id="using_swift"></a>3. Using Swift with Cocoa and Objective-C
 * 苹果官方文档：[在线版（英文）](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)｜[iBooks 版（英文）](https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11&ls=1)
@@ -110,14 +107,23 @@ Swift 语言指南
 
 ### <a id="ios_ui_guide"></a>7. iOS Human Interface Guidelines
 * 苹果官方文档：[在线版（英文）](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1), [iBooks 版（英文）](https://itunes.apple.com/us/book/ios-human-interface-guidelines/id877942287?mt=11)
-* 非官方中译版
+* iOS 9 人机交互指南
 
-	译文 | 译者 | 原文
+	译文 | 来源 | 原文
+------------ | ------------- | -------------
+[UI 设计基础](http://isux.tencent.com/ios9-guideline-ch1.html)|[@腾讯ISUX](http://weibo.com/txisux)|[UI Design Basics](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)
+[设计策略](http://isux.tencent.com/ios9-guideline-ch2.html)|-|[Deisgn Princibles](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1)
+iOS 技术（[上](http://isux.tencent.com/ios9-guideline-ch3-1.html)、[下](http://isux.tencent.com/ios9-guideline-ch3-2.html)）|-|[iOS Technologies](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71-SW1)
+
+* iOS 8 人机交互指南
+
+	译文 | 来源 | 原文
 ------------ | ------------- | -------------
 [UI 设计基础](http://isux.tencent.com/ios8-human-interface-guidelines.html) |[@腾讯ISUX](http://weibo.com/txisux)| [Designing for iOS](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)
 [设计策略](http://isux.tencent.com/ios8-human-interface-guidelines-design-strategies.html) | - | [Design Principles](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1)
+iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-technology-html.html)、[下](http://isux.tencent.com/ios8-human-interface-guidelines-technology.html)）|-|[iOS Technologies](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71-SW1)
 
-* iOS 7 人机交互指南（旧版）：[中译汇总](http://www.cocoachina.com/industry/20130628/6502.html)
+* iOS 7 人机交互指南：[中译汇总](http://www.cocoachina.com/industry/20130628/6502.html)
 
 ---
 ## <a id="swift_courses"></a>Swift 教程
