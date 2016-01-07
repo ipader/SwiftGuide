@@ -15,7 +15,7 @@ Swift 语言指南
 	* [HomeKit Developer Guide（中译）](#swift_homekit)
 	* [Swift Blog - Apple Developer（中译）](#swift_blog)
 	* [iOS Human Interface Guidelines（中译）](#ios_ui_guide)
-* [开发教程](#swift_courses)
+* [教程、指南、文章](#swift_courses)
 * [开源项目](#swift_projects)
 * [推荐网站](#recomm_sites)
 * [开发工具](#tools)
