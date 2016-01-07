@@ -125,11 +125,11 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 * [iOS 7 人机交互指南](http://www.cocoachina.com/industry/20130628/6502.html) By CocoaChina
 
 ---
-## <a id="swift_courses"></a>开发教程
+## <a id="swift_courses"></a>[教程、指南、文章](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)
 > 旧版内容过于庞杂，不再维护，取而代之的是《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。P.S. 需要查阅旧版内容的同学，详见[Swift 教程（旧版）](https://github.com/ipader/SwiftGuide/tree/master/archive/tutorial.md)。
 
 ---
-## <a id="swift_projects"></a>开源项目
+## <a id="swift_projects"></a>[开源项目](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)
 > 旧版内容过于庞杂，不再维护，取而代之的是《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》。P.S. 需要查阅旧版内容的同学，详见[Swift 项目（旧版）](https://github.com/ipader/SwiftGuide/tree/master/archive/projects.md)。
 
 ---
