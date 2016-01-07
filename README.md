@@ -1,8 +1,9 @@
 Swift 语言指南
 ===
+> <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
+
 [这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。
 
-<span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
 ## 目录
 * [官方文档](#swift_doc)
