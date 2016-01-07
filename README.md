@@ -4,11 +4,10 @@ Swift 语言指南
 
 > GitHub：[ipader/SwiftGuide](https://github.com/ipader/SwiftGuide) ｜ 网站：[http://dev.swiftguide.cn](http://dev.swiftguide.cn) ｜ _欢迎开发者一起[维护](https://github.com/ipader/SwiftGuide/pulls)，或[反馈/投稿](https://github.com/ipader/SwiftGuide/issues/new)_
 
-
 <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
 ## 目录
-* [Swift 文档](#swift_doc)
+* [官方文档](#swift_doc)
 	* [Welcome to Swift](#welcome)
 	* [Swift Programming Language（中译）](#spl)
 	* [Using Swift with Cocoa and Objective-C（中译）](#using_swift)
@@ -16,17 +15,17 @@ Swift 语言指南
 	* [HomeKit Developer Guide（中译）](#swift_homekit)
 	* [Swift Blog - Apple Developer（中译）](#swift_blog)
 	* [iOS Human Interface Guidelines（中译）](#ios_ui_guide)
-* [Swift 教程](#swift_courses)
-* [Swift 项目](#swift_projects)
-* [Swift 网站](#recomm_sites)
-* [相关工具](#tools)
-* [新闻报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
+* [开发教程](#swift_courses)
+* [开源项目](#swift_projects)
+* [推荐网站](#recomm_sites)
+* [开发工具](#tools)
+* [媒体报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
 * [开放平台](https://github.com/ipader/SwiftGuide/tree/master/archive/platforms.md)
 * [Apple Watch 指南](https://github.com/ipader/SwiftGuide/blob/master/Apple%20Watch/README.md)
 
 ---
 
-## <a id="swift_doc"></a>Swift 文档
+## <a id="swift_doc"></a>官方文档
 
 ### <a id="welcome"></a>1. [Welcome to Swift](https://developer.apple.com/swift/)
 苹果针对 Swift 开发者官方文档入口。其中包括：
@@ -123,19 +122,24 @@ iOS 技术（[上](http://isux.tencent.com/ios9-guideline-ch3-1.html)、[下](ht
 [设计策略](http://isux.tencent.com/ios8-human-interface-guidelines-design-strategies.html) | - | [Design Principles](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1)
 iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-technology-html.html)、[下](http://isux.tencent.com/ios8-human-interface-guidelines-technology.html)）|-|[iOS Technologies](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71-SW1)
 
-* iOS 7 人机交互指南：[中译汇总](http://www.cocoachina.com/industry/20130628/6502.html)
+* [iOS 7 人机交互指南](http://www.cocoachina.com/industry/20130628/6502.html) By CocoaChina
 
 ---
-## <a id="swift_courses"></a>Swift 教程
+## <a id="swift_courses"></a>开发教程
 > 旧版内容过于庞杂，不再维护，取而代之的是《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。P.S. 需要查阅旧版内容的同学，详见[Swift 教程（旧版）](https://github.com/ipader/SwiftGuide/tree/master/archive/tutorial.md)。
 
 ---
-## <a id="swift_projects"></a>Swift 项目
+## <a id="swift_projects"></a>开源项目
 > 旧版内容过于庞杂，不再维护，取而代之的是《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》。P.S. 需要查阅旧版内容的同学，详见[Swift 项目（旧版）](https://github.com/ipader/SwiftGuide/tree/master/archive/projects.md)。
 
 ---
-## <a id="recomm_sites"></a>Swift 网站
-* [ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux):作者（Karol Mazur）将 Apple Developer Forums 上有关 Swift 特性、缺陷及变更讨论分类汇总并更新到 GitHub，具有很好的可读性。从中可以一窥 Swift 缺陷及未来潜在地变化。最关键地是有 Chris Lattner 及核心团队答疑解惑。
+## <a id="recomm_sites"></a>推荐网站
+* **苹果官方**
+	* [Swift](https://developer.apple.com/swift/)：Swift 概述、博客以及开发资源。
+	* [swift.org](https://swift.org/)：开源后独立出来的 Swift 开源社区。
+	* [GitHub:apple](https://github.com/apple)：苹果在 GitHub 上的开源项目。
+	* [GitHub:apple/swift](https://github.com/apple/swift)：swift 语言在 GitHub 上的开源项目。
+* [ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux)：作者（Karol Mazur）将 Apple Developer Forums 上有关 Swift 特性、缺陷及变更讨论分类汇总并更新到 GitHub，具有很好的可读性。从中可以一窥 Swift 缺陷及未来潜在地变化。最关键地是有 Chris Lattner 及核心团队答疑解惑。
 * [raywenderlich.com](http://www.raywenderlich.com/)([中文版](http://www.raywenderlich.com/zh-hans/))：由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。近期第一时间出了[三本 Swift 新书](http://www.raywenderlich.com/74832/three-new-swift-books)。
 * [Natasha The Robot](http://natashatherobot.com/)： 时髦码农不容错过的 Swift 开发实战教程类网站。为了简化学习复杂性，每一篇文章涵盖技术点单一又独立，配以开发步骤、运行结果以及代码等标准方式教授。难能可贵的是，它往往出品“追剧式”（最新开发特性或API跟进式）教程，实在是开发者必藏精品网站。
 * [NShipster](http://nshipster.com/) ([中译版](http://nshipster.cn/)：[@刘镇夫](http://weibo.com/croath)，[April Peng](http://nshipster.cn/translators/april-peng/)，[@李乐佳](http://weibo.com/leelejia)，[@程序员付恒](http://weibo.com/fallhunter) 等翻译)：著名开源作者 [Matt Thompson](https://github.com/mattt) 创建的开发技术博客网站，他开发了 [AFNetworking](https://github.com/afnetworking/afnetworking) 网络库，也是非常多产的开源作者。更多了解参考：[《COCOA 潮人 MATTT THOMPSON》](http://www.fallhunter.com/p/10709) By [@程序员付恒](http://weibo.com/fallhunter)
@@ -143,14 +147,15 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 * [objc.io](https://www.objc.io/)([中译版 By @onevcat 及其朋友们](http://objccn.io))："关于 Objective-C 最佳实践和先进技术的期刊。 由 Chris Eidhof, Daniel Eggert 和 Florian Kugler 成立于柏林。我们成立 objc.io 的目的是针对深入的、跟所有 iOS 和 OS X 开发者相关的技术话题创造一个正式的平台。“
 * [iOSCreator](http://www.ioscreator.com/)：这类开发指引式教程对于初学者来讲，是直接明了的有效学习资源。推荐者[@荧星诉语](http://weibo.com/qq184675420)
 * [iOS Dev Weekly](https://iosdevweekly.com/)：收录一周以来 iOS 开发资讯链接，并于周五发布。由 [Dave Verwer](https://twitter.com/daveverwer) 创办，他是一位 iPhone 和 iPad 开发者以及培训师。
-* [Appcoda.com](http://www.appcoda.com/):质量很高的一个 iOS 开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触 iOS 开发的新手学习。
+* [Appcoda.com](http://www.appcoda.com/)：质量很高的一个 iOS 开发教程站，其中[iOS Programming Course](http://www.appcoda.com/ios-programming-course/)这个专题很适合刚接触 iOS 开发的新手学习。
 * [中文 iOS/Mac 开发博客列表](https://github.com/tangqiaoboy/iOSBlogCN)：By [@唐巧_body](http://weibo.com/tangqiaoboy)
 * [devtalking.com](http://www.devtalking.com/)：高产的中译博客。翻译了官方博客 Swift Blog - Apple Developer,《App Extension Programming Guide》。参与翻译了《Swift Programming Language》等。
 * [SwiftGG](http://swift.gg/)：一个走心的 Swift 翻译组，由《The Swift Programming Language》中文版翻译团队原班人马组成， 翻译的文章来源于国外的优秀 Swift 网站和博客，且全部获得作者和网站授权。
 * [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
 
-* **<a id="recomm_resources"></a>资源合集：以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。**
+* **<a id="recomm_resources"></a>资源合集**
+> 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
 	* [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
 	* [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
 	* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
@@ -170,8 +175,8 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 	* [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
 
 ---
-## <a id="tools"></a>相关工具
-### 1. 开发工具
+## <a id="tools"></a>开发工具
+### 1. 编程工具
 * [Xcode 6 beta下载](https://developer.apple.com/swift/resources/)：苹果应用集成开发环境。支持 C/C++, Objective C, Swift 等。不用购买开发者计划，直接下载。
 * [Textmate](http://macromates.com/)：Mac OS X 上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待 Xcode 加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
 * [Mou](http://mouapp.com/)：OS X 上一款 Markdown 的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：[罗晨](http://chenluois.com/)
@@ -211,3 +216,7 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 * [iOS 开发工具](http://www.cocoachina.com/ios/20140417/8187.html)："这是我们多篇 iOS 开发工具系列篇中的一篇，此前的文章比如：那些不能错过的 Xcode 插件，iOS 开发者有价值的工具集，iOS/OS X 开发：各种工具快到碗里来！，App 原型设计工具使用心得（上）& App 原型设计工具使用心得（下），你用哪种工具进行 iOS app 自动化功能测试？iOS 开发者必知的 75 个工具" By @CocoaChina
 * [IOS 各种调试技巧豪华套餐](http://www.cnblogs.com/daiweilai/p/4421340.html)：讲得很细。对于初学 Xcode 开发的同学值得参考，对于有经验的同学可以略过。作者：[@David戴未来](http://weibo.com/daiweilai)
 * [详解Xcode 6的视图调试](http://www.cocoachina.com/ios/20150423/11658.html)：教程非常实用，值得学习。另外，教程选用的开源项目（[jessesquires/JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)）也很经典。来源：Ray Wenderlich，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组
+
+## [媒体报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
+## [开放平台](https://github.com/ipader/SwiftGuide/tree/master/archive/platforms.md)
+## [Apple Watch 指南](https://github.com/ipader/SwiftGuide/blob/master/Apple%20Watch/README.md)
