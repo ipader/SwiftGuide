@@ -2,7 +2,7 @@ Swift 语言指南
 ===
 > <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
-[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。
+　　[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。
 
 
 ## 目录
@@ -155,6 +155,7 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 
 * **<a id="recomm_resources"></a>资源合集**
 > 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
+
 	* [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
 	* [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
 	* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
