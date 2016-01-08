@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-5，[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions), [Progress.swift](https://github.com/jkandzi/Progress.swift), [Rainbow](https://github.com/onevcat/Rainbow), [Filterpedia](https://github.com/FlexMonkey/Filterpedia), [Then](https://github.com/devxoul/Then), [Chirp](https://github.com/trifl/Chirp), [GRDB.swift](https://github.com/groue/GRDB.swift), [ReduxKit](https://github.com/ReduxKit/ReduxKit), [BothamUI](https://github.com/Karumi/BothamUI), [ElasticTransition](https://github.com/lkzhao/ElasticTransition), [DateRangePicker](https://github.com/MrMage/DateRangePicker), [BrowserTV](https://github.com/zats/BrowserTV), [VWInstantRun](https://github.com/wangshengjia/VWInstantRun), [QingDict](https://github.com/yingDev/QingDict) 等 14 个，合计已收录 272 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-5，[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions), [Progress.swift](https://github.com/jkandzi/Progress.swift), [Rainbow](https://github.com/onevcat/Rainbow), [Filterpedia](https://github.com/FlexMonkey/Filterpedia), [Then](https://github.com/devxoul/Then), [Chirp](https://github.com/trifl/Chirp), [GRDB.swift](https://github.com/groue/GRDB.swift), [ReduxKit](https://github.com/ReduxKit/ReduxKit), [BothamUI](https://github.com/Karumi/BothamUI), [ElasticTransition](https://github.com/lkzhao/ElasticTransition), [DateRangePicker](https://github.com/MrMage/DateRangePicker), [BrowserTV](https://github.com/zats/BrowserTV), [VWInstantRun](https://github.com/wangshengjia/VWInstantRun), [QingDict](https://github.com/yingDev/QingDict) 等 14 个，合计已收录 274 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -21,9 +21,10 @@
 	
 	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
-[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)|[tangplin](https://github.com/tangplin), [lingoer](https://github.com/lingoer)|GitHub 上最为开发者认可的 JSON 解析类
-[JSONCodable](https://github.com/matthewcheok/JSONCodable)|[Matthew Cheok](https://github.com/matthewcheok)|基于 Swift 2 新特性的 JSON 解析类
-[Decodable](https://github.com/Anviking/Decodable)|[Johannes Lund](https://github.com/Anviking)|Swift 2 版 JSON 解析（对象映射）类
+[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)|[tangplin](https://github.com/tangplin), [lingoer](https://github.com/lingoer)|GitHub 上最为开发者认可的 JSON 解析库
+[Argo](https://github.com/thoughtbot/Argo)|[thoughtbot](https://github.com/thoughtbot)|函数式 JSON 解析库
+[JSONCodable](https://github.com/matthewcheok/JSONCodable)|[Matthew Cheok](https://github.com/matthewcheok)|基于 Swift 2 新特性的 JSON 解析库
+[Decodable](https://github.com/Anviking/Decodable)|[Johannes Lund](https://github.com/Anviking)|Swift 2 版 JSON 解析（对象映射）库
 [Mirror](https://github.com/kostiakoval/Mirror)|[Kostiantyn Koval](https://github.com/kostiakoval)|通过反射实现镜像对象封装库
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift 版 Lo-Dash (或 underscore )函数式工具库
 [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)|[Alexey Khokhlov](https://github.com/alexeyxo)|Protocol Buffers 的 Swift 语言实现库
