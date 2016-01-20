@@ -1,9 +1,16 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 
-## [Issue 43](Issue-43.md)
-> **本期特别推荐** 1. 项目：[Filterpedia](https://github.com/FlexMonkey/Filterpedia)（完整、强大的图片滤镜类库）、[ElasticTransition](https://github.com/lkzhao/ElasticTransition)（畅快、无违和感的皮筋式动画转场）以及 [VWInstantRun](https://github.com/wangshengjia/VWInstantRun)（Xcode 高效调试插件）; 2. 文章：[如何在Swift中调用 C 库](http://hearrain.com/2015/12/850) 和 [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/)
+## [Issue 44](Issue-44.md)
+> **本期特别推荐** 1. 项目：[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)（ePub 阅读器及框架库）, [Zip](https://github.com/marmelroy/Zip)（基于 [minizip](https://github.com/nmoinvaz/minizip) 的解压缩类库）及 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)（基于 Xcode 插件技术快速原型开发工具） 2. 文档：[RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/), [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/) 及 [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)
+
+> 大声：“在TIOBE编程语言排行榜2016年1月的榜单上超过了Objective-C，排在第14位，Objective-C第18位。By [@崔康总编](http://weibo.com/cuikang82)”
 
 ## 往期回顾
+
+* [Issue 43](Issue-43.md)
+
+	> **本期特别推荐** 1. 项目：[Filterpedia](https://github.com/FlexMonkey/Filterpedia)（完整、强大的图片滤镜类库）、[ElasticTransition](https://github.com/lkzhao/ElasticTransition)（畅快、无违和感的皮筋式动画转场）以及 [VWInstantRun](https://github.com/wangshengjia/VWInstantRun)（Xcode 高效调试插件）; 2. 文章：[如何在Swift中调用 C 库](http://hearrain.com/2015/12/850) 和 [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/)
+
 * [Issue 42](Issue-33.md)
 
 	> **本期特别推荐** 1. [C4Framework/C4iOS](https://github.com/C4Framework/C4iOS)：用更少的代码，创建最佳应用体验库。2. [NSCache 源码分析](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)：读好代码是一个技能。

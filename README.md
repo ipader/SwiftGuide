@@ -1,6 +1,6 @@
 Swift 语言指南
 ===
-> <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-5，更新内容详见 [Issue 43](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-43.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
+> <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-1-20，更新内容详见 [Issue 44](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-44.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
 　　[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。
 
@@ -212,7 +212,10 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 ### 5. 调试工具
 * [mattt/fuckingclangwarnings.com](http://fuckingclangwarnings.com/)：警告与语义对照表。以后再也不用为 Xcode 各种警告纠结啦！By [@foogry](http://weibo.com/foogry)
 
-### 6. 参考文章
+### 6. 设计工具
+* [sketch](http://www.sketchapp.com/)：更适合开发应用的矢量设计工具。通过插件还支持与代码协同工作。推荐书籍：[Learn Sketch 3](https://designcode.io/sketch)
+
+### 7. 参考文章
 * [iOS 开发工具](http://www.cocoachina.com/ios/20140417/8187.html)："这是我们多篇 iOS 开发工具系列篇中的一篇，此前的文章比如：那些不能错过的 Xcode 插件，iOS 开发者有价值的工具集，iOS/OS X 开发：各种工具快到碗里来！，App 原型设计工具使用心得（上）& App 原型设计工具使用心得（下），你用哪种工具进行 iOS app 自动化功能测试？iOS 开发者必知的 75 个工具" By @CocoaChina
 * [IOS 各种调试技巧豪华套餐](http://www.cnblogs.com/daiweilai/p/4421340.html)：讲得很细。对于初学 Xcode 开发的同学值得参考，对于有经验的同学可以略过。作者：[@David戴未来](http://weibo.com/daiweilai)
 * [详解Xcode 6的视图调试](http://www.cocoachina.com/ios/20150423/11658.html)：教程非常实用，值得学习。另外，教程选用的开源项目（[jessesquires/JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)）也很经典。来源：Ray Wenderlich，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组

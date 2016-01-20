@@ -1,0 +1,47 @@
+[Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 44
+===
+> **本期特别推荐** 1. 项目：[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)（ePub 阅读器及框架库）, [Zip](https://github.com/marmelroy/Zip)（基于 [minizip](https://github.com/nmoinvaz/minizip) 的解压缩类库）及 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)（基于 Xcode 插件技术快速原型开发工具） 2. 文档：[RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/), [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/) 及 [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)
+
+> 大声：“在TIOBE编程语言排行榜2016年1月的榜单上超过了Objective-C，排在第14位，Objective-C第18位。By [@崔康总编](http://weibo.com/cuikang82)”
+
+## 项目
+* [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [Scale](https://github.com/onmyway133/Scale), [CaesarParser](https://github.com/lancy/CaesarParser), [ConfigurableTableViewController](https://github.com/fastred/ConfigurableTableViewController), [MockFive](https://github.com/DeliciousRaspberryPi/MockFive), [Zip](https://github.com/marmelroy/Zip), [swiftydb](https://github.com/Oyvindkg/swiftydb), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO), [Swindler](https://github.com/tmandry/Swindler), [Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift), [SwiftAndroid](https://github.com/SwiftAndroid/swift), [Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController), [IBAnimatable](https://github.com/JakeLin/IBAnimatable), [Refactorator](https://github.com/johnno1962/Refactorator), [LeanCloud SDK](https://leancloud.cn), [RxSwift](https://github.com/ReactiveX/RxSwift), [FolioReaderKit](https://github.com/FolioReader/FolioReaderKit) 等 16 个，合计已收录 290 个。
+
+* [onmyway133/Scale](https://github.com/onmyway133/Scale)：简单直观的单位计算及换算类库（支持常用计量类型）。代码简洁性、直观性杠杠的。开发者：[Khoa Pham](https://github.com/onmyway133)
+* [lancy/CaesarParser](https://github.com/lancy/CaesarParser)：JSON 解析类，采用大量的范型编程。这款类库比较简洁、耐用。开发者：[@晨钰Lancy](http://weibo.com/lancy1014)
+* [marmelroy/Zip](https://github.com/marmelroy/Zip)：第一套用 Swift 语言写的解、压缩框架库（其中引用了基础 C 库 [minizip](https://github.com/nmoinvaz/minizip)）。开发者：[Roy Marmelstein](https://github.com/marmelroy)
+* [Oyvindkg/swiftydb](https://github.com/Oyvindkg/swiftydb)：面向 SQLite 数据库的 O-R 映射工具类库。开发者：[Øyvind Grimnes](https://github.com/Oyvindkg)
+* [gontovnik/Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController)：简洁实用的视频快进、倒带控制视图类库。开发者：[Danil Gontovnik](https://github.com/gontovnik)
+* [DeliciousRaspberryPi/MockFive](https://github.com/DeliciousRaspberryPi/MockFive)：面向协议编程单元测试 Mock 框架。开发者：[Daniel Burbank](https://github.com/DeliciousRaspberryPi)
+* [unifiedh/Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift)：将 iOS API 移植到 OS X 的高度实验性项目，目标是让开发者的 iOS 应用或部分代码更容易移植到 OS X 平台。已经实现或正在实现的有 UIKit, StoreKit, MessageUI 等。开发者：[Daniel Hong](https://github.com/unifiedh)
+* [tmandry/Swindler](https://github.com/tmandry/Swindler)：一套采用 Swift 管理 OS X 应用窗口框架类库（从此以后，与基于 C 的窗口辅助管理 API 说再见了）。开发者：[Tyler Mandry](https://github.com/tmandry)
+* [SwiftAndroid/swift](https://github.com/SwiftAndroid/swift)：通过该项目进入 Swift 语言写 Android 应用领域，如何使用详见：[Getting started](https://github.com/SwiftAndroid/swift/wiki/Getting-started)。它 fork 了苹果swift开源分支。开发者：[SwiftAndroid](https://github.com/SwiftAndroid)
+* [uraimo/SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)：通过 Swift 语言去控制基于 Linux 主板（比如：C.H.I.P. 和 树莓派） 的 GPIO（General Purpose Input Output ），去完成简单的工控功能（比如 LED 灯的显示）。开发者：[Umberto Raimondi](https://github.com/uraimo)
+* [JakeLin/IBAnimatable](https://github.com/JakeLin/IBAnimatable)：“可以帮我们在Interface Builder和Swift playground里像Sketch那样配置UI以及像Framer Studio那样编辑和预览动画”。动画清新流畅，配置便捷，关键是不需要写一行代码。或许这正是原型工具的开发方向。开发者：[@林永坚](http://weibo.com/yongjianlin)
+* [johnno1962/Refactorator](https://github.com/johnno1962/Refactorator)：实用的 Xcode 代码重构插件，使重命名变量、函数、枚举名等变得如此方便。开发者：[John Holdsworth](John Holdsworth)
+* [yulingtianxia/Algorithm-Experiment](https://github.com/yulingtianxia/Algorithm-Experiment)：几款图形算法 ConvexHull（凸包），LCS（Longest Common Subsequence），Hamiltonian Cycle（汉密尔顿圈）等。既学习了 Swift 语法，又温习了算法，两全其美。开发者：[@杨萧玉HIT](http://weibo.com/yulingtianxia)
+* [fastred/ConfigurableTableViewController](https://github.com/fastred/ConfigurableTableViewController)：分别采用二种常用实现方案，引出第三种基于协议和泛型的可配置 UITableViewController 最终定稿该类库（多类型可扩展单元格）。对应博文 [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/)，无论学习性还是实用性，都堪称典范。作者：[Arkadiusz Holko](https://github.com/fastred)
+* [kejinlu/SwiftyText](https://github.com/kejinlu/SwiftyText)：“用Swift实现的基于Text Kit的富文本显示控件”。其中对应文档说明，学习价值也很高。开发者：[@卢小克](http://weibo.com/kejinlu)
+* [NicholasTD07/SwiftDailyAPI](https://github.com/NicholasTD07/SwiftDailyAPI)：“速知应用开源的知乎日报 API 库”。总体来讲，接口设计还是清晰的。P.S. 从面向对象角度，接口层 Model 中可以有更多相关联的行为。比如：数据请求、存储等相关逻辑内移，这样接口实现更完整，从而使应用端 Model 更轻量，且与底层耦合更小。 开发者：[@_咩咩_SAMA](http://weibo.com/u/1698361627)
+* [FolioReader/FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)：ePub 阅读器及解析框架类库。这个很震撼、很实用。P.S. 开发者还同步提供[Android 版](https://github.com/FolioReader/FolioReader-Android)。开发者：[FolioReader](https://github.com/FolioReader)
+* [LeanCloud SDK](https://leancloud.cn)：“LeanCloud 为应用开发提供一站式解决方案,包括:数据存储、用户管理、消息推送、应用统计、社交分享、实时聊天等服务”。[使用示例](https://github.com/leancloud/LeanStorageDemo-iOS)
+
+## 文档
+> [Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)：最近新收录 [RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/)，[短文：自定义 UITextView 关键字高亮与点击检测](https://github.com/nixzhu/dev-blog/blob/master/2016-01-14-mention-in-textview.md)，[iOS证书申请、开发、打包、排查等系列教学](http://superdanny.link/2015/09/24/iOS-about-certification-guide/), [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)，[Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/)，[内存恶鬼 drawRect](http://bihongbo.com/2016/01/03/memoryGhostdrawRect/)，[如何正确地写好一个界面](http://oncenote.com/2015/12/08/How-to-build-UI/)，[如何使用 iOS 9 应用瘦身功能](http://swift.gg/2016/01/07/app-thinning-appcoda/)，[iOS 9 人机界面指南](http://isux.tencent.com/?s=iOS+9人机界面指南) 等 9 份，合计已收录 155 份。
+
+* [RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/)：“异步操作的代码为什么会成为程序员的梦魇呢？函数响应式编程旨在简化异步操作，让您像操作变量一样来操作闭包。RxSwift 是一个全新的第三方库，让事件驱动应用更容易进行管理，让您不再为此而烦恼。By [RealmChina](http://weibo.com/realmchina)”。来源：Realm
+* [如何使用 iOS 9 应用瘦身功能](http://swift.gg/2016/01/07/app-thinning-appcoda/)：实用性很强的文章。用户体验从应用下载开始，此文由此细节展开。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)
+* [iOS 9 人机界面指南](http://isux.tencent.com/?s=iOS+9人机界面指南)：翻译自苹果官方文档 [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)。译者：[@腾讯ISUX](http://weibo.com/txisux) 
+* [Swift 字符串一口闷](http://www.jianshu.com/p/956665e3a0e5?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)：不错，可以受用于大部分新同学。作者：[@PPPPPPMST](http://weibo.com/u/2085734687)
+* [短文：自定义 UITextView 关键字高亮与点击检测](https://github.com/nixzhu/dev-blog/blob/master/2016-01-14-mention-in-textview.md)：“一种很简单的方法，妙手偶得，可比较容易地处理 Mention、Hashtag 等”。作者：[@ nixzhu](http://weibo.com/nixzhu)
+* [iOS证书申请、开发、打包、排查等系列教学](http://superdanny.link/2015/09/24/iOS-about-certification-guide/)：“本文是基于先人经验进行的总结整理。整理这篇文章的目的是为了让开发者能够更好更快的掌握iOS开发的整个打包流程，同时也方便本人以后查阅，减少不必要的时间。让整个开发流程简单易懂”。作者：[@Danny_吕昌辉](http://weibo.com/lovejameslvforever)
+* [内存恶鬼 drawRect](http://bihongbo.com/2016/01/03/memoryGhostdrawRect/)：“标题有点吓人，但是对于drawRect的评价倒是一点都不过分。在平日的开发中，随意覆盖drawRect方法，稍有不慎就会让你的程序内存暴增”。附：[续:答疑篇](http://bihongbo.com/2016/01/11/memoryGhostMore/)。作者：[@毕洪博](http://weibo.com/u/5578532822?is_hot=1)
+* [iOS9 by Tutorials 学习笔记五：Multitasking](http://mengxiangyue.com/2016/01/07/iOS9-by-Tutorials-学习笔记五：Multitasking/)：“这个功能允许我们同时运行两个App，比如在看视频的时候，能够同时刷微博，由于是同时运行两个App，对于硬件的要求比较高，目前苹果并没有在所有的设备上面开放这些功能。下面就简单的介绍一下multitasking”。作者：[@孟祥月](http://weibo.com/u/1750643861)
+* [iOS9 by Tutorials 学习笔记六：UIStackView & Auto Layout Changes](http://mengxiangyue.com/2016/01/13/iOS9-by-Tutorials-学习笔记六：UIStackView-Auto-Layout-Changes/)：“这篇文章介绍UIStackView和一些Auto Layout的改变”。作者：[@孟祥月](http://weibo.com/u/1750643861)
+* [如何正确地写好一个界面](http://oncenote.com/2015/12/08/How-to-build-UI/)：一篇很好的 UI 基础知识概述及教程。P.S. 微软在分层架构（解耦）不如苹果及 Java 阵营清晰明确，从分层解耦角度，对于 MVC 的正确理解，其实就是文中苹果官方给的MVC的设计模式图。作者：[@南峰子_老驴](http://weibo.com/touristdiary)
+* [2016 atSwift 大会讲演资源](https://github.com/atConf/atswift-2016-resources)：“这个仓库将会包含 2016中国Swift开发者大会的所有源文件，包括 讲师演讲用的keynote或pdf文件，讲师现场直播的工程文件，以及可能的根据讲师演讲的示例写成的playground文件”。来源：[atConf](https://github.com/atConf)
+* [100 Days of Swift](http://samvlu.com)：“作者学习Swift 100天，完成40个工程】By [@CodingTogether](http://weibo.com/u/2510885182)”。如此学习，自然高效。P.S. 笔记是亮点。
+* [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)：“iOS 开发者必看的 100 个全球最佳 iOS 博客 By [@CodingTogether](http://weibo.com/u/2510885182)”。
+* [LeetCode Swift 题](https://leetcode.com/problems/longest-substring-without-repeating-characters/)：“LeetCode OJ 已经支持 Swift 啦！目前已有60题支持 Swift，之后会迅速加上其他题目的支持”。来源：[@LeetCode中国微博](http://weibo.com/leetcode)
+* [在用户体验与业务目标之间寻求设计的平衡点](http://www.beforweb.com/node/813)：这类文章不能缺。[good] 1. “优秀的设计来自于对功能特性及目标实现流程的完美诠释，而非赏心悦目的界面外观。”；2. “一切在于权衡，使之两全其美”；3. “放下自我，放眼全局”。译者：[C7210](http://weibo.com/c7210)
+

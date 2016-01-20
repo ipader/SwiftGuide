@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-5，[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions), [Progress.swift](https://github.com/jkandzi/Progress.swift), [Rainbow](https://github.com/onevcat/Rainbow), [Filterpedia](https://github.com/FlexMonkey/Filterpedia), [Then](https://github.com/devxoul/Then), [Chirp](https://github.com/trifl/Chirp), [GRDB.swift](https://github.com/groue/GRDB.swift), [ReduxKit](https://github.com/ReduxKit/ReduxKit), [BothamUI](https://github.com/Karumi/BothamUI), [ElasticTransition](https://github.com/lkzhao/ElasticTransition), [DateRangePicker](https://github.com/MrMage/DateRangePicker), [BrowserTV](https://github.com/zats/BrowserTV), [VWInstantRun](https://github.com/wangshengjia/VWInstantRun), [QingDict](https://github.com/yingDev/QingDict) 等 14 个，合计已收录 274 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-20，最近新收录 [Scale](https://github.com/onmyway133/Scale), [CaesarParser](https://github.com/lancy/CaesarParser), [ConfigurableTableViewController](https://github.com/fastred/ConfigurableTableViewController), [MockFive](https://github.com/DeliciousRaspberryPi/MockFive), [Zip](https://github.com/marmelroy/Zip), [swiftydb](https://github.com/Oyvindkg/swiftydb), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO), [Swindler](https://github.com/tmandry/Swindler), [Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift), [SwiftAndroid](https://github.com/SwiftAndroid/swift), [Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController), [IBAnimatable](https://github.com/JakeLin/IBAnimatable), [Refactorator](https://github.com/johnno1962/Refactorator), [LeanCloud SDK](https://leancloud.cn), [RxSwift](https://github.com/ReactiveX/RxSwift), [FolioReaderKit](https://github.com/FolioReader/FolioReaderKit) 等 16 个，合计已收录 290 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -25,6 +25,7 @@
 [Argo](https://github.com/thoughtbot/Argo)|[thoughtbot](https://github.com/thoughtbot)|函数式 JSON 解析库
 [JSONCodable](https://github.com/matthewcheok/JSONCodable)|[Matthew Cheok](https://github.com/matthewcheok)|基于 Swift 2 新特性的 JSON 解析库
 [Decodable](https://github.com/Anviking/Decodable)|[Johannes Lund](https://github.com/Anviking)|Swift 2 版 JSON 解析（对象映射）库
+[CaesarParser](https://github.com/lancy/CaesarParser)|[@晨钰Lancy](http://weibo.com/lancy1014)|这款 JSON 解析类库比较简洁、耐用
 [Mirror](https://github.com/kostiakoval/Mirror)|[Kostiantyn Koval](https://github.com/kostiakoval)|通过反射实现镜像对象封装库
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift 版 Lo-Dash (或 underscore )函数式工具库
 [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)|[Alexey Khokhlov](https://github.com/alexeyxo)|Protocol Buffers 的 Swift 语言实现库
@@ -42,6 +43,7 @@
 [Regex](https://github.com/sharplet/Regex)|[Adam Sharp](https://github.com/sharplet)|实用的正则表达式微框架类库
 [Future](https://github.com/nghialv/Future)|[Le Van Nghia](https://github.com/nghialv)|基于微框架设计的异步执行及结果响应类
 [Euler](https://github.com/mattt/Euler)|[Mattt Thompson ](https://github.com/mattt)|直观、简洁的数学表达式 ∛27÷3+∑[3,1,2]
+[Scale](https://github.com/onmyway133/Scale)|[Khoa Pham](https://github.com/onmyway133)|单位计算及换算类库
 [SigmaSwiftStatistics](https://github.com/evgenyneu/SigmaSwiftStatistics)|[Evgenii Neumerzhitckii](https://github.com/evgenyneu)|统计类计算函数集类库。简单、实用
 [kylef/Spectre](https://github.com/kylef/Spectre)|[Kyle Fuller](https://github.com/kylef)|BDD 框架，写小清新代码
 [LocationManager](https://github.com/varshylmobile/LocationManager)|[Jimmy Jose](https://github.com/varshylmobile)|地理位置管理封装库
@@ -84,6 +86,7 @@
 [Rainbow](https://github.com/onevcat/Rainbow)|[@onevcat](http://weibo.com/onevcat)|七彩字串输出
 [Then](https://github.com/devxoul/Then)|[Suyeol Jeon](https://github.com/devxoul)|不失可读性前提下简化初始化语法
 [Chirp](https://github.com/trifl/Chirp)|[trifl](https://github.com/trifl)|应用中装载、播放、停止声音文件
+[Zip](https://github.com/marmelroy/Zip)|[Roy Marmelstein](https://github.com/marmelroy)|基于 [minizip](https://github.com/nmoinvaz/minizip) 的解、压缩框架库
 
 * <a id="storage"></a>存储类
 
@@ -92,6 +95,7 @@
 [AlecrimCoreData](https://github.com/Alecrim/AlecrimCoreData)|[Alecrim](https://github.com/Alecrim)|更容易地访问 CoreData 对象封装类库
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)|[Stephen Celis](http://stephencelis.com)|简单、轻量，使用上最 SQL 的 SQLite 封装库
 [Realm](https://github.com/realm/realm-cocoa)|[Realm](http://realm.io)|志向代替 Core Data 和 SQLite 的移动数据库
+[swiftydb](https://github.com/Oyvindkg/swiftydb)|[Øyvind Grimnes](https://github.com/Oyvindkg)|SQLite O-R 映射工具类库
 [SwiftRecord](https://github.com/arkverse/SwiftRecord)|[ark](https://github.com/arkverse)|基于 Core Data 极为轻量、易用的对象持久化工具库
 [CoreValue](https://github.com/terhechte/CoreValue)|[Benedikt Terhechte](https://github.com/terhechte)|Swift 2 版 Core Data 封装库[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|[Roy Marmelstein](https://github.com/marmelroy)|解析、格式化及验证国际电话号码工具库
 [Pantry](https://github.com/nickoneill/Pantry)|[Nick O'Neill](https://github.com/nickoneill)|可以持久化基础类型变量值的类库
@@ -214,6 +218,7 @@
 [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle)|[IFTTT](https://github.com/IFTTT/)|基于关键锁的动画框架类库
 [Sapporo](https://github.com/nghialv/Sapporo)|[Le Van Nghia](https://github.com/nghialv)|单元格模型驱动的集合视图管理器
 [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView)|[Sergey Pershenkov](https://github.com/okla)|基于 UITableView 的快速重排功能
+[ConfigurableTableViewController](https://github.com/fastred/ConfigurableTableViewController)|[Arkadiusz Holko](https://github.com/fastred)|多类型可扩展单元格 UITableViewController
 [SlideMenuControllerSwift](https://github.com/dekatotoro/SlideMenuControllerSwift)|[Yuji Hato](https://github.com/dekatotoro)|侧滑菜单组件
 [CKWaveCollectionViewTransition](https://github.com/CezaryKopacz/CKWaveCollectionViewTransition)|[Cezary Kopacz](https://github.com/CezaryKopacz)|仿波纹（图片）视图收放动画
 [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)|[Nguyen Vinh](https://github.com/ninjaprox)|酷炫的装载动画库及演示
@@ -234,6 +239,7 @@
 [MPParallaxView](https://github.com/DroidsOnRoids/MPParallaxView)|[Droids On Roids](https://github.com/DroidsOnRoids)|Apple TV 中 Parallax 效果
 [TKSwitcherCollection](https://github.com/TBXark/TKSwitcherCollection)|[@TBXark](http://weibo.com/tbxark)|Switch 切换动画效果集合组件及演示
 [DateRangePicker](https://github.com/MrMage/DateRangePicker)|[MrMage](https://github.com/MrMage)|日期区间选择组件
+[Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController)|[Danil Gontovnik](https://github.com/gontovnik)|简洁实用的视频快进、倒带控制
 
 * <a id="framework"></a>框架类
 
@@ -262,6 +268,7 @@
 [swifter](https://github.com/glock45/swifter)|[Damian Kołakowski](https://github.com/glock45)|轻量的 HTTP 服务器引擎
 [CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)|[CloudKitSpace](https://github.com/CloudKitSpace)|基于 CloudKit 服务器实现多终端数据同步
 [apous](https://github.com/owensd/apous)|[David Owens II](https://github.com/owensd)|让 Swift 成为脚本语言
+[RxSwift](https://github.com/ReactiveX/RxSwift)|[ReactiveX](https://github.com/ReactiveX)|让事件驱动应用更容易进行管理
 [Interstellar](https://github.com/JensRavens/Interstellar)|[Jens Ravens](https://github.com/JensRavens)|简单、轻量的函数响应式编程框架
 [mattress](https://github.com/buzzfeed/mattress)|[BuzzFeed](https://github.com/buzzfeed)|离线缓存 Web 浏览内容
 [BluetoothKit](https://github.com/rasmusth/BluetoothKit)|[Rasmus Taulborg Hummelmose](https://github.com/rasmusth)|基于 CoreBluetooth API 跨设备间蓝牙通讯封装类库
@@ -273,6 +280,12 @@
 [C4iOS](https://github.com/C4Framework/C4iOS)|[-- C4 --](https://github.com/C4Framework)|用更少的代码，创建最佳应用体验库
 [BothamUI](https://github.com/Karumi/BothamUI)|[Karumi](https://github.com/Karumi)|MVP 框架库及示例
 [ReduxKit](https://github.com/ReduxKit/ReduxKit)|[ReduxKit](https://github.com/ReduxKit)|新颖的状态流记录框架
+[SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)|[Umberto Raimondi](https://github.com/uraimo)| 控制 C.H.I.P. 或树莓派的 GPIOs
+[Swindler](https://github.com/tmandry/Swindler)|[Tyler Mandry](https://github.com/tmandry)|管理 OS X 应用窗口框架
+[Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift)|[Daniel Hong](https://github.com/unifiedh)|将 iOS API 移植到 OS X 的高度实验性项目
+[SwiftAndroid](https://github.com/SwiftAndroid/swift)| [SwiftAndroid](https://github.com/SwiftAndroid)|苹果swift开源分支，写 Android 应用，详见：[Getting started](https://github.com/SwiftAndroid/swift/wiki/Getting-started)
+[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)|[FolioReader](https://github.com/FolioReader)|ePub 阅读器及解析框架库
+[LeanCloud SDK](https://leancloud.cn)|[LeanCloud](https://github.com/leancloud)|数据存储、用户管理、消息推送、应用统计、社交分享、实时聊天等服务
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -316,9 +329,12 @@
 [LeetCode-Solutions](https://github.com/diwu/LeetCode-Solutions-in-Swift)|[@diwup](http://weibo.com/diwup)|LeetCode 的 Swift 语言版解题方案
 [androidtool-mac](https://github.com/mortenjust/androidtool-mac)|[Morten Just](https://github.com/mortenjust)|在 Mac 上使用的 Android 工具（一键截屏, 视频录制, APK 安装等）
 [CoPilot](https://github.com/feinstruktur/CoPilot)|[Sven A. Schmidt](https://github.com/feinstruktur)|协同编程 Xcode 插件
+[IBAnimatable](https://github.com/JakeLin/IBAnimatable)|[@林永坚](http://weibo.com/yongjianlin)|基于 Xcode 插件技术快速原型开发工具
+[Refactorator](https://github.com/johnno1962/Refactorator)|[John Holdsworth](https://github.com/johnno1962)|Xcode 代码重构插件，使重命名变量、函数、枚举名等变得方便
 [SwiftCov](https://github.com/realm/SwiftCov)|[Realm](https://github.com/realm)|代码测试覆盖率命令行工具
 [ViewMonitor](https://github.com/daisuke0131/ViewMonitor)|[Daisuke Yamashita](https://github.com/daisuke0131)|测量视图位置、大小、背景、字体大小等，开发调试神器
 [SwiftMock](https://github.com/mflint/SwiftMock)|[Matthew Flint](https://github.com/mflint)|一款 Mock 框架，单元测试的好伴侣
+[MockFive](https://github.com/DeliciousRaspberryPi/MockFive)|[Daniel Burbank](https://github.com/DeliciousRaspberryPi)|面向协议编程单元测试 Mock 框架
 [Tomate](https://github.com/dasdom/Tomate)|[Dominik Hauser](https://github.com/dasdom)|圆盘式计时器让你更专注于工作或学习
 [droptogif](https://github.com/mortenjust/droptogif)|[Morten Just](https://github.com/mortenjust)|视频拖拽到应用窗口后自动转换为 GIF 动画
 [swiftmi-app](https://github.com/feiin/swiftmi-app)|[feiin](https://github.com/feiin)|完整的社区应用
