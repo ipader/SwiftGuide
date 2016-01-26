@@ -26,6 +26,7 @@
 [JSONCodable](https://github.com/matthewcheok/JSONCodable)|[Matthew Cheok](https://github.com/matthewcheok)|基于 Swift 2 新特性的 JSON 解析库
 [Decodable](https://github.com/Anviking/Decodable)|[Johannes Lund](https://github.com/Anviking)|Swift 2 版 JSON 解析（对象映射）库
 [CaesarParser](https://github.com/lancy/CaesarParser)|[@晨钰Lancy](http://weibo.com/lancy1014)|这款 JSON 解析类库比较简洁、耐用
+[TidyJSON](https://github.com/benloong/TidyJSON)|[@benloong](https://github.com/benloong/)|简单易用Swift全平台JSON库
 [Mirror](https://github.com/kostiakoval/Mirror)|[Kostiantyn Koval](https://github.com/kostiakoval)|通过反射实现镜像对象封装库
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift 版 Lo-Dash (或 underscore )函数式工具库
 [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)|[Alexey Khokhlov](https://github.com/alexeyxo)|Protocol Buffers 的 Swift 语言实现库
