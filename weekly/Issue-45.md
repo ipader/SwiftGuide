@@ -1,6 +1,6 @@
 [Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 45
 ===
-> **本期特别推荐** 1. 项目：[swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)（算法开源俱乐部），[Localize-Swift](https://github.com/marmelroy/Localize-Swift)（国际化及本地化字符串框架库）以及[AudioKit](https://github.com/audiokit/AudioKit)（音频合成、加工及分析平台框架库）；2. 文档：[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/) 和 [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)
+> **本期特别推荐** 1. 项目：[Localize-Swift](https://github.com/marmelroy/Localize-Swift)（国际化及本地化字符串框架库），[AudioKit](https://github.com/audiokit/AudioKit)（音频合成、加工及分析平台框架库）以及 [swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)（Swift 算法俱乐部学习库）；2. 文档：[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/) 和 [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)
 
 > 大声：[Kingfisher 2.0 版](https://github.com/onevcat/Kingfisher/releases)：“OS X，watchOS，tvOS 全面支持，重写了 Option 设置部分使其扩展性更佳，Swift Package Manager 支持，部分性能优化等等。By [onevcat](http://weibo.com/onevcat)”。
 
