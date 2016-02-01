@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-20，最近新收录 [Scale](https://github.com/onmyway133/Scale), [CaesarParser](https://github.com/lancy/CaesarParser), [ConfigurableTableViewController](https://github.com/fastred/ConfigurableTableViewController), [MockFive](https://github.com/DeliciousRaspberryPi/MockFive), [Zip](https://github.com/marmelroy/Zip), [swiftydb](https://github.com/Oyvindkg/swiftydb), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO), [Swindler](https://github.com/tmandry/Swindler), [Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift), [SwiftAndroid](https://github.com/SwiftAndroid/swift), [Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController), [IBAnimatable](https://github.com/JakeLin/IBAnimatable), [Refactorator](https://github.com/johnno1962/Refactorator), [LeanCloud SDK](https://leancloud.cn), [RxSwift](https://github.com/ReactiveX/RxSwift), [FolioReaderKit](https://github.com/FolioReader/FolioReaderKit) 等 16 个，合计已收录 290 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-2-1，最近新收录 [Graph](https://github.com/CosmicMind/Graph), [Localize-Swift](https://github.com/marmelroy/Localize-Swift), [Cuckoo](https://github.com/SwiftKit/Cuckoo), [Gecco](https://github.com/yukiasai/Gecco), [AudioKit](https://github.com/audiokit/AudioKit), [vapor](https://github.com/tannernelson/vapor), [Every.swift](https://github.com/samhann/Every.swift) 等 7 个，合计已收录 297 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -88,6 +88,7 @@
 [Then](https://github.com/devxoul/Then)|[Suyeol Jeon](https://github.com/devxoul)|不失可读性前提下简化初始化语法
 [Chirp](https://github.com/trifl/Chirp)|[trifl](https://github.com/trifl)|应用中装载、播放、停止声音文件
 [Zip](https://github.com/marmelroy/Zip)|[Roy Marmelstein](https://github.com/marmelroy)|基于 [minizip](https://github.com/nmoinvaz/minizip) 的解、压缩框架库
+[Every.swift](https://github.com/samhann/Every.swift)|[Samhan Salahuddin](https://github.com/samhann)|定时重复执行代码段工具类库
 
 * <a id="storage"></a>存储类
 
@@ -101,6 +102,7 @@
 [CoreValue](https://github.com/terhechte/CoreValue)|[Benedikt Terhechte](https://github.com/terhechte)|Swift 2 版 Core Data 封装库[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|[Roy Marmelstein](https://github.com/marmelroy)|解析、格式化及验证国际电话号码工具库
 [Pantry](https://github.com/nickoneill/Pantry)|[Nick O'Neill](https://github.com/nickoneill)|可以持久化基础类型变量值的类库
 [GRDB.swift](https://github.com/groue/GRDB.swift)|[Gwendal Roué](https://github.com/groue)|让操作 SQLite 再简单一点
+[Graph](https://github.com/CosmicMind/Graph)|[CosmicMind](https://github.com/CosmicMind)|CoreData 持久化类库，设计新颖、使用简单
 
 * <a id="network"></a>网络类
 
@@ -241,6 +243,7 @@
 [TKSwitcherCollection](https://github.com/TBXark/TKSwitcherCollection)|[@TBXark](http://weibo.com/tbxark)|Switch 切换动画效果集合组件及演示
 [DateRangePicker](https://github.com/MrMage/DateRangePicker)|[MrMage](https://github.com/MrMage)|日期区间选择组件
 [Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController)|[Danil Gontovnik](https://github.com/gontovnik)|简洁实用的视频快进、倒带控制
+[Gecco](https://github.com/yukiasai/Gecco)|[yukiasai](https://github.com/yukiasai)|帮助开发者快速制作新手导引界面
 
 * <a id="framework"></a>框架类
 
@@ -267,6 +270,7 @@
 [swift-http](https://github.com/huytd/swift-http)|[Henry Tr.](https://github.com/huytd)|符合开放平台规范的最简 HTTP 示例服务器
 [Curassow](https://github.com/kylef/Curassow)|[Kyle Fuller](https://github.com/kylef) |简单、高效、低耦专业 Web 服务器及示例
 [swifter](https://github.com/glock45/swifter)|[Damian Kołakowski](https://github.com/glock45)|轻量的 HTTP 服务器引擎
+[vapor](https://github.com/tannernelson/vapor)|[Tanner](https://github.com/tannernelson)|更轻量、小巧型，且方便二次开发的 Web 服务器
 [CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)|[CloudKitSpace](https://github.com/CloudKitSpace)|基于 CloudKit 服务器实现多终端数据同步
 [apous](https://github.com/owensd/apous)|[David Owens II](https://github.com/owensd)|让 Swift 成为脚本语言
 [RxSwift](https://github.com/ReactiveX/RxSwift)|[ReactiveX](https://github.com/ReactiveX)|让事件驱动应用更容易进行管理
@@ -287,6 +291,8 @@
 [SwiftAndroid](https://github.com/SwiftAndroid/swift)| [SwiftAndroid](https://github.com/SwiftAndroid)|苹果swift开源分支，写 Android 应用，详见：[Getting started](https://github.com/SwiftAndroid/swift/wiki/Getting-started)
 [FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)|[FolioReader](https://github.com/FolioReader)|ePub 阅读器及解析框架库
 [LeanCloud SDK](https://leancloud.cn)|[LeanCloud](https://github.com/leancloud)|数据存储、用户管理、消息推送、应用统计、社交分享、实时聊天等服务
+[Localize-Swift](https://github.com/marmelroy/Localize-Swift)|[Roy Marmelstein](https://github.com/marmelroy)|国际化及本地化字符串框架库
+[AudioKit](https://github.com/audiokit/AudioKit)|[AudioKit](https://github.com/audiokit)|音频合成、加工及分析平台框架库
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -315,6 +321,7 @@
 [Plum-O-Meter](https://github.com/FlexMonkey/Plum-O-Meter)|[simon gladman](https://github.com/FlexMonkey)|基于 3D Touch 模拟电子秤
 [StarWars.iOS](https://github.com/Yalantis/StarWars.iOS)|[Yalantis](https://github.com/Yalantis)|瞬间崩塌为小方块动画效果
 [HackingWithSwift](https://github.com/twostraws/HackingWithSwift)|[twostraws](https://github.com/twostraws)|hackingwithswift.com 示例项目代码库
+[swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)|[Matthijs Hollemans](hollance/swift-algorithm-club)|Swift 语言算法开源俱乐部
 
 * <a id="projects"></a>完整应用
 
@@ -336,6 +343,7 @@
 [ViewMonitor](https://github.com/daisuke0131/ViewMonitor)|[Daisuke Yamashita](https://github.com/daisuke0131)|测量视图位置、大小、背景、字体大小等，开发调试神器
 [SwiftMock](https://github.com/mflint/SwiftMock)|[Matthew Flint](https://github.com/mflint)|一款 Mock 框架，单元测试的好伴侣
 [MockFive](https://github.com/DeliciousRaspberryPi/MockFive)|[Daniel Burbank](https://github.com/DeliciousRaspberryPi)|面向协议编程单元测试 Mock 框架
+[Cuckoo](https://github.com/SwiftKit/Cuckoo)|[SwiftKit](https://github.com/SwiftKit)|用法更接近于传统单元测试 Mock 框架库
 [Tomate](https://github.com/dasdom/Tomate)|[Dominik Hauser](https://github.com/dasdom)|圆盘式计时器让你更专注于工作或学习
 [droptogif](https://github.com/mortenjust/droptogif)|[Morten Just](https://github.com/mortenjust)|视频拖拽到应用窗口后自动转换为 GIF 动画
 [swiftmi-app](https://github.com/feiin/swiftmi-app)|[feiin](https://github.com/feiin)|完整的社区应用
