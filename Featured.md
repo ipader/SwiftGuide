@@ -321,7 +321,7 @@
 [Plum-O-Meter](https://github.com/FlexMonkey/Plum-O-Meter)|[simon gladman](https://github.com/FlexMonkey)|基于 3D Touch 模拟电子秤
 [StarWars.iOS](https://github.com/Yalantis/StarWars.iOS)|[Yalantis](https://github.com/Yalantis)|瞬间崩塌为小方块动画效果
 [HackingWithSwift](https://github.com/twostraws/HackingWithSwift)|[twostraws](https://github.com/twostraws)|hackingwithswift.com 示例项目代码库
-[swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)|[Matthijs Hollemans](hollance/swift-algorithm-club)|Swift 语言算法开源俱乐部
+[swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)|[Matthijs Hollemans](hollance/swift-algorithm-club)|Swift 算法俱乐部学习库
 
 * <a id="projects"></a>完整应用
 
