@@ -1,11 +1,16 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 
-## [Issue 44](Issue-44.md)
-> **本期特别推荐** 1. 项目：[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)（ePub 阅读器及框架库）, [Zip](https://github.com/marmelroy/Zip)（基于 [minizip](https://github.com/nmoinvaz/minizip) 的解压缩类库）及 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)（基于 Xcode 插件技术快速原型开发工具） 2. 文档：[RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/), [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/) 及 [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)
+## [Issue 45](Issue-45.md)
+**本期特别推荐** 1. 项目：[Localize-Swift](https://github.com/marmelroy/Localize-Swift)（国际化及本地化字符串框架库），[AudioKit](https://github.com/audiokit/AudioKit)（音频合成、加工及分析平台框架库）以及 [swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)（Swift 算法俱乐部学习库）；2. 文档：[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/) 和 [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)
 
-> 大声：“在TIOBE编程语言排行榜2016年1月的榜单上超过了Objective-C，排在第14位，Objective-C第18位。By [@崔康总编](http://weibo.com/cuikang82)”
+> 大声：[Kingfisher 2.0 版](https://github.com/onevcat/Kingfisher/releases)：“OS X，watchOS，tvOS 全面支持，重写了 Option 设置部分使其扩展性更佳，Swift Package Ma
 
 ## 往期回顾
+* [Issue 44](Issue-44.md)
+
+	> **本期特别推荐** 1. 项目：[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)（ePub 阅读器及框架库）, [Zip](https://github.com/marmelroy/Zip)（基于 [minizip](https://github.com/nmoinvaz/minizip) 的解压缩类库）及 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)（基于 Xcode 插件技术快速原型开发工具） 2. 文档：[RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/), [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/) 及 [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)
+
+> 大声：“在TIOBE编程语言排行榜2016年1月的榜单上超过了Objective-C，排在第14位，Objective-C第18位。By [@崔康总编](http://weibo.com/cuikang82)”
 
 * [Issue 43](Issue-43.md)
 

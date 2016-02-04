@@ -1,7 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-1-20，最近新收录 [RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/)，[短文：自定义 UITextView 关键字高亮与点击检测](https://github.com/nixzhu/dev-blog/blob/master/2016-01-14-mention-in-textview.md)，[iOS证书申请、开发、打包、排查等系列教学](http://superdanny.link/2015/09/24/iOS-about-certification-guide/), [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)，[Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/)，[内存恶鬼 drawRect](http://bihongbo.com/2016/01/03/memoryGhostdrawRect/)，[如何正确地写好一个界面](http://oncenote.com/2015/12/08/How-to-build-UI/)，[如何使用 iOS 9 应用瘦身功能](http://swift.gg/2016/01/07/app-thinning-appcoda/)，[iOS 9 人机界面指南](http://isux.tencent.com/?s=iOS+9人机界面指南) 等 9 份，合计已收录 155 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-2-1，最近新收录 [当 Swift 中的泛型遇到协议](http://chengway.in/dang-swift-zhong-de-fan-xing-yu-dao-xie-yi/)，[协变与逆变](http://swift.gg/2015/12/24/friday-qa-2015-11-20-covariance-and-contravariance/)，[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/)，[CoreData VS Realm](http://www.jianshu.com/p/e9532bd1bb65)，[Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)，[为什么 Swift 中的 String API 如此难用？](http://swift.gg/2016/01/25/friday-qa-2015-11-06-why-is-swifts-string-api-so-hard/)，[UIKit性能调优实战讲解](http://www.jianshu.com/p/619cf14640f3)，[Profiling your Swift compilation times](http://irace.me/swift-profiling) 等 8 份，合计已收录 163 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -100,6 +100,10 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [Core Data 线程大揭秘](https://realm.io/cn/news/marcus-zarra-core-data-threading/)：“到了今天，Core Data 中的线程实现机制已经与其最初版本大相径庭了。在 Core Data 的悠久历史中，多年来关于如何使用线程的话题已经有了数种不同的解释，那么我们到底应该怎么做呢？Marcus Zarra 为我们展示了实现线程的三种方法，旧有的、复杂的和最佳的”。作者：Marcus Zarra，来源：Realm
 * [短文：自定义 UITextView 关键字高亮与点击检测](https://github.com/nixzhu/dev-blog/blob/master/2016-01-14-mention-in-textview.md)：“一种很简单的方法，妙手偶得，可比较容易地处理 Mention、Hashtag 等”。作者：[@ nixzhu](http://weibo.com/nixzhu)
 * [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/)：分别采用二种常用实现方案，引出第三种基于协议和泛型的可配置 UITableViewController 最终定稿该类库（多类型可扩展单元格）无论学习性还是实用性，都堪称典范。作者：[Arkadiusz Holko](https://github.com/fastred)
+* [用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/)：作者即是 Swift-Flow（近期已与 ReduxKit 合并为 ReSwift）开发者。是一篇相对详细讲解 MVC 框架在应用设计中的片面性，从而引出 Redux 或 Swift-Flow 必要性的讲演稿译文。
+* [CoreData VS Realm](http://www.jianshu.com/p/e9532bd1bb65)：不错（尤其性能比较章节）。作者：[@Yu_我就想叫一个简单的昵称](http://weibo.com/iyunsn)
+* [Profiling your Swift compilation times](http://irace.me/swift-profiling)：“如果你想减少你的 Swift 项目的「带薪编译」的时间，这篇文章值得一看。By [@图拉鼎](http://weibo.com/tualatrix)”
+* [UIKit性能调优实战讲解](http://www.jianshu.com/p/619cf14640f3)：作者同学从细节着手，让你了解个中利害。“结合Instrument分析影响性能的因素，提出UIKit优化方案并解释背后的原理。还附有一步步调优的Demo”。作者：[@Martin_wjl](http://weibo.com/u/5419850564)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -148,6 +152,9 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [谈谈闭包——以 Swift 为例](http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example)：“本文讨论闭包的相关概念，大部分代码使用Swift编写。Swift对闭包有着良好的支持。这是因为，Swift被设计成一门一定程度上支持函数式编程范式的编程语言。而函数式编程和闭包有着紧密的联系。本文着重讨论的也是函数式编程和闭包之间的关系”。作者：郭麟，来源：InfoQ  
 * [设计的权重](http://www.beforweb.com/node/807)：一篇重观点、轻结论，通过案例理性地针对设计权重分析、解读文章。“我们反反复复的设计着所谓的“体验”，将大量时间花费在稿子的某些细节当中以实现设计方案的“完美”，竭尽全力将各种设计产出物的表现力度一再提升 - 我们是在设计产品，还是在设计“设计”本身？”。译者：[@C7210](http://weibo.com/c7210)
 * [内存恶鬼 drawRect](http://bihongbo.com/2016/01/03/memoryGhostdrawRect/)：“标题有点吓人，但是对于drawRect的评价倒是一点都不过分。在平日的开发中，随意覆盖drawRect方法，稍有不慎就会让你的程序内存暴增”。附：[续:答疑篇](http://bihongbo.com/2016/01/11/memoryGhostMore/)。作者：[@毕洪博](http://weibo.com/u/5578532822?is_hot=1)
+* [当 Swift 中的泛型遇到协议](http://chengway.in/dang-swift-zhong-de-fan-xing-yu-dao-xie-yi/)：好译文。译者同学有心地附上了另一篇参考译文《[协变与逆变](http://swift.gg/2015/12/24/friday-qa-2015-11-20-covariance-and-contravariance/)》对照着阅读。P.S. 扎实地基础才能写出好代码。译者：[@walkingway](http://weibo.com/walkingway)
+* [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)：好文。表述清晰、直接，这个要转起来。来源：IBM
+* [为什么 Swift 中的 String API 如此难用？](http://swift.gg/2016/01/25/friday-qa-2015-11-06-why-is-swifts-string-api-so-hard/)：String API 真的很失败吗？作者从字符串表示原理讲起，还原 Swift 的设计思想。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@永远十七岁的Cee妹](http://weibo.com/acgcee)
 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。
