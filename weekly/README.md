@@ -16,7 +16,7 @@
 
 	> **本期特别推荐** 1. 项目：[Filterpedia](https://github.com/FlexMonkey/Filterpedia)（完整、强大的图片滤镜类库）、[ElasticTransition](https://github.com/lkzhao/ElasticTransition)（畅快、无违和感的皮筋式动画转场）以及 [VWInstantRun](https://github.com/wangshengjia/VWInstantRun)（Xcode 高效调试插件）; 2. 文章：[如何在Swift中调用 C 库](http://hearrain.com/2015/12/850) 和 [如何使用 Swift、Foursquare API 及 Realm 构建一款 Coffee Shop 应用](http://swift.gg/2015/12/29/foursquare-realm-swift/)
 
-* [Issue 42](Issue-33.md)
+* [Issue 42](Issue-42.md)
 
 	> **本期特别推荐** 1. [C4Framework/C4iOS](https://github.com/C4Framework/C4iOS)：用更少的代码，创建最佳应用体验库。2. [NSCache 源码分析](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)：读好代码是一个技能。
 
@@ -24,30 +24,30 @@
 
 	> 大声2：俺在 [GitHub Awards](http://github-awards.com/users?utf8=✓&type=world&language=Swift) 上 Swift 语言开发者影响力排名又提升了一位，挤身前六。😀
 
-* [Issue 41](Issue-34.md)
+* [Issue 41](Issue-41.md)
 	> **本期特别推荐** 开放平台项目 [编程基础库 SwiftFoundation](https://github.com/PureSwift/SwiftFoundation)、[应用中间件 Perfect](https://github.com/PerfectlySoft/Perfect) 及 [AI 及机器学习库 Swift-AI](https://github.com/collinhundley/Swift-AI)。
 
 	> 重要事件（2015-12-4）：围绕 [Swift 开源](https://swift.org/) 及开放平台（支持 Linux 平台），苹果公布了 [GitHub 系列开源项目](https://github.com/apple)。
 
-* [Issue 40](Issue-35.md)
+* [Issue 40](Issue-40.md)
 > **本期特别推荐** 1. 瞬间崩塌为小方块动画效果 [StarWars.iOS](https://github.com/Yalantis/StarWars.iOS)；2. 功能强大的表单组件库 [Eureka](https://github.com/xmartlabs/Eureka)；3. 皮筋式弹性下拉即刷新组件及演示 [DGElasticPullToRefresh](https://github.com/gontovnik/DGElasticPullToRefresh)
 
-* [Issue 39](Issue-33.md)
+* [Issue 39](Issue-39.md)
 > **本期特别推荐** [CALayer Animation 实践－Loading Indicator](http://www.devtalking.com/articles/calayer-animation-loading-lndicator/)，[Replicator Animation](http://www.devtalking.com/articles/calayer-animation-replicator-animation/)：“本文作者以实战示例为引，对CALayer动画进行了初步的介绍，详解CALayer是如何让动画灵动起来。By [@CSDN移动](http://weibo.com/csdnmobile)”。作者：[@DevTalking](http://weibo.com/jacefu)
 
-* [Issue 38](Issue-33.md)
+* [Issue 38](Issue-38.md)
 > **本期特别推荐** [yoavlt/LiquidFloatingActionButton](https://github.com/yoavlt/LiquidFloatingActionButton)：可定制水滴型浮动动态按钮组件及演示。
 
-* [Issue 37](Issue-33.md)
+* [Issue 37](Issue-37.md)
 > **本期特别推荐** [《The Swift Programming Language》中文版全新发布](http://wiki.jikexueyuan.com/project/swift/)：“37个章节全部完成更新！从这次开始我们将组建长期维护团队，一起努力，让这个项目可以走的更远，可以帮助更多读者。” 转自 [@SwiftGG翻译组](http://weibo.com/swiftguide)。
 
-* [Issue 36](Issue-33.md)
+* [Issue 36](Issue-36.md)
 > **本期特别推荐** [ninjaprox/NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)：酷炫的装载动画库及演示。如此丰富的 Swift 装载动画集合，史无前例。
 
-* [Issue 35](Issue-33.md)
+* [Issue 35](Issue-35.md)
 > **本期特别推荐** [Tesseract OCR（光学字符识别）教程](http://www.cocoachina.com/ios/20150708/12463.html)：“你之前肯定已经见过，OCR技术被应用于在平板电脑上将扫描文件处理成手写字迹，还被应用于谷歌最近添加到他们的Translate app上的"Word Len"功能。现在你将学习在自己的iPhone app上使用OCR，非常酷，不是吗？”。原文：[Tesseract OCR Tutorial](http://www.raywenderlich.com/93276/implementing-tesseract-ocr-ios)，作者：[Lyndsey Scott](http://www.raywenderlich.com/u/Lyndsey)，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组 [Mr_cyz](http://blog.csdn.net/u013604612)
 
-* [Issue 34](Issue-33.md)
+* [Issue 34](Issue-34.md)
 > **本期特别推荐** [Yalantis/Koloda](https://github.com/Yalantis/Koloda)：基于卡片的 Tinder-style 动画效果示例。精细绝人。更赞的是额外附了详细开发教程 [How We Built Tinder-Like Koloda Animation in Swift](https://yalantis.com/blog/how-we-built-tinder-like-koloda-in-swift/)。Yalantis 出品动画程序款款精品。
 
 * [Issue 33](Issue-33.md)
@@ -55,7 +55,7 @@
 
 	> [Swift 2.0 翻译启动](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/issues/383) By [@梁杰_numbbbbb](http://weibo.com/numbbbbb)
 
-* [Issue 32](Issue-33.md)
+* [Issue 32](Issue-32.md)
 > **本期特别推荐** [Swift 2.0 初探](http://www.devtalking.com/articles/what-is-new-in-swift/)：言简意赅、示例并茂地讲了若干关键新语法功能及用途。作者：[@DevTalking](http://weibo.com/jacefu)
 
 * [Issue 31](Issue-31.md)
