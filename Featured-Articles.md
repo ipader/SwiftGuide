@@ -1,7 +1,7 @@
 ## Swift 文章精选
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对收录过的文章做了一个甄别、筛选。目的是摒弃杂音，更利于提高学习效率。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-2-1，最近新收录 [当 Swift 中的泛型遇到协议](http://chengway.in/dang-swift-zhong-de-fan-xing-yu-dao-xie-yi/)，[协变与逆变](http://swift.gg/2015/12/24/friday-qa-2015-11-20-covariance-and-contravariance/)，[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/)，[CoreData VS Realm](http://www.jianshu.com/p/e9532bd1bb65)，[Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)，[为什么 Swift 中的 String API 如此难用？](http://swift.gg/2016/01/25/friday-qa-2015-11-06-why-is-swifts-string-api-so-hard/)，[UIKit性能调优实战讲解](http://www.jianshu.com/p/619cf14640f3)，[Profiling your Swift compilation times](http://irace.me/swift-profiling) 等 8 份，合计已收录 163 份。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-2-22，最近新收录 [轮转式卡片效果 － 个性化UICollectionView Layout](http://www.jianshu.com/p/45f39b70263d)，[新手指南：使用 Social Framework 以及 UIActivityViewController](http://swift.gg/2016/02/04/social-framework-introduction/)，[SwiftGG 交流分享：Xcode使用技巧](http://www.jianshu.com/p/cda4b0fe07e0)，[使用 guard 的正确姿势](http://swift.gg/2016/02/14/swift-guard-radix/)，[如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)，《Threading Programming Guide》笔记（[1. 初识线程](http://geek.csdn.net/news/detail/54092)、[2. 线程配置与Run Loop](http://geek.csdn.net/news/detail/55617)、[3. Run Loop操作配置实践](http://geek.csdn.net/news/detail/56056)），设计并非艺术（[1. 本质区别](http://www.beforweb.com/node/821)、[2. 视觉美学与自我角色](http://www.beforweb.com/node/822)），[如何利用 Github 进行代码审查](https://realm.io/cn/news/codereview-howto/) 等 10 份，合计已收录 173 份。
 
 ### 教程和指南
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
@@ -69,6 +69,12 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [Build your cells in a way of LEGO](https://medium.com/@victor_wang/build-your-cells-in-a-way-of-lego-fbf6a1133bb1#.ymdvydfc8)：“真响应式CollectionView的实现构思，用组合乐高的方式做布局，个人感觉更黑科技些，而且确实花了不少心血”。作者：[@ShengjiaWANG](http://weibo.com/u/1739447693)
 * [用 TVML 开发 tvOS 应用教程](http://www.devtalking.com/articles/develop-tvos-app-with-tvml/)：“在这篇教程中，你们的目标是开发以个能播放 RWDevCon 讨论视频的 tvOS 应用...”。无论采用传统原生的 tvOS 定制应用还是 TVML 应用开发方式，在 tvOS 中都是苹果推荐的。译者：[@DevTalking](http://weibo.com/jacefu)，来源：[Ray Wenderlich](http://www.raywenderlich.com/114886/beginning-tvos-development-with-tvml-tutorial)
 * [如何正确地写好一个界面](http://oncenote.com/2015/12/08/How-to-build-UI/)：一篇很好的 UI 基础知识概述及教程。P.S. 微软在分层架构（解耦）不如苹果及 Java 阵营清晰明确，从分层解耦角度，对于 MVC 的正确理解，其实就是文中苹果官方给的MVC的设计模式图。作者：[@南峰子_老驴](http://weibo.com/touristdiary)
+* [轮转式卡片效果 － 个性化UICollectionView Layout](http://www.jianshu.com/p/45f39b70263d)：“这篇文是教怎么利用Collection view layout 做出自己喜欢的collection view ，翻译 [Ray Wenderlich](http://www.raywenderlich.com/107687/uicollectionview-custom-layout-tutorial-spinning-wheel) 的文，发现原文在anchor point计算那里有个小bug，所以就改了那里的计算”。译者：[@莫威權在B612等着那阵温柔的风](http://weibo.com/u/1061021332)
+* [新手指南：使用 Social Framework 以及 UIActivityViewController](http://swift.gg/2016/02/04/social-framework-introduction/)：“Appcoda 的长文来啦！以啰嗦著称的 Appcoda 这次介绍的是如何实现“分享到社交网络”功能”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@wangjianfeng](http://weibo.com/walkingway)
+* 《Threading Programming Guide》笔记（作者：[@DevTalking](http://weibo.com/jacefu)，来源：[@CSDN移动](http://weibo.com/csdnmobile)）
+	* [1. 初识线程](http://geek.csdn.net/news/detail/54092)：“说到OS X和iOS中的线程技术，就不得不说GNU Mach。Apple操作系统中的线程技术是基于Mach线程技术实现的，所以本身就带有线程基本的特性，比如PEM。”
+	* [2. 线程配置与Run Loop](http://geek.csdn.net/news/detail/55617)：“本文围绕着线程属性配置以及Run Loop Modes展开，作者@DevTalking 表示：如今关于iOS多线程的文章层出不穷，但若想更好的领会各个实践者的文章，应该先仔细读读官方的相关文档，打好基础，定会有更好的效果。”
+	* [3. Run Loop操作配置实践](http://geek.csdn.net/news/detail/56056)：“在对线程技术实践以及Run Loop的相关知识点进行讲解后，作者付宇轩开启了如何具体创建、配置和操作Run Loop的深度实践分享”。
 * 视频教程
 	* [1. 基础篇－使用 Swift 开发 iOS8 应用实战](http://www.imooc.com/view/173)，[2. 进阶篇－Swift Weather APP](http://www.imooc.com/view/149)：实战学习是最有效的编程学习方法。该系列视频教程通过不同的案例，由浅入深地介绍 iOS 应用开发方法。来源：[@慕课网](http://weibo.com/mukewang)，讲师：[@林永坚Jake](http://weibo.com/yongjianlin)
 	*  WWDC 视频：1. Swift 入门（[A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)）；2. Swift 进阶（[A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)）；3. Swift 版本升级补录补丁（[A001.Patch](http://v.youku.com/v_show/id_XNzg1MTM2NDEy.html?f=22361976)，[A002.Patch](http://v.youku.com/v_show/id_XNzg1MTQ2MDY0.html?f=22519841)）。翻译：[@赵哲A](http://weibo.com/zhaozhecleric)
@@ -104,6 +110,8 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [CoreData VS Realm](http://www.jianshu.com/p/e9532bd1bb65)：不错（尤其性能比较章节）。作者：[@Yu_我就想叫一个简单的昵称](http://weibo.com/iyunsn)
 * [Profiling your Swift compilation times](http://irace.me/swift-profiling)：“如果你想减少你的 Swift 项目的「带薪编译」的时间，这篇文章值得一看。By [@图拉鼎](http://weibo.com/tualatrix)”
 * [UIKit性能调优实战讲解](http://www.jianshu.com/p/619cf14640f3)：作者同学从细节着手，让你了解个中利害。“结合Instrument分析影响性能的因素，提出UIKit优化方案并解释背后的原理。还附有一步步调优的Demo”。作者：[@Martin_wjl](http://weibo.com/u/5419850564)
+* [使用 guard 的正确姿势](http://swift.gg/2016/02/14/swift-guard-radix/)：“guard 是 Swift 2 中我最喜爱的特性之一。虽然完全不使用 guard 也没有什么影响，它只是给我们提供了更微妙的句法表达，但是如果能够正确使用 guard 语句，无疑是一件令人愉快的事”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@EclipsePrayer](http://weibo.com/EclipsePrayer)
+* [如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)：“为什么不能用 throw 处理异步错误？如何正确处理异步错误？什么是 Promise？看完你就全懂了，强烈推荐！”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：ray16897188
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
@@ -155,6 +163,8 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [当 Swift 中的泛型遇到协议](http://chengway.in/dang-swift-zhong-de-fan-xing-yu-dao-xie-yi/)：好译文。译者同学有心地附上了另一篇参考译文《[协变与逆变](http://swift.gg/2015/12/24/friday-qa-2015-11-20-covariance-and-contravariance/)》对照着阅读。P.S. 扎实地基础才能写出好代码。译者：[@walkingway](http://weibo.com/walkingway)
 * [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)：好文。表述清晰、直接，这个要转起来。来源：IBM
 * [为什么 Swift 中的 String API 如此难用？](http://swift.gg/2016/01/25/friday-qa-2015-11-06-why-is-swifts-string-api-so-hard/)：String API 真的很失败吗？作者从字符串表示原理讲起，还原 Swift 的设计思想。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@永远十七岁的Cee妹](http://weibo.com/acgcee)
+* [如何利用 Github 进行代码审查](https://realm.io/cn/news/codereview-howto/)：这个 GitHub 社区同学都值得看一看。P.S. 俺认为对于商业化用途的代码，未经严格代码审查的发布行为是不负责任的，因为它是项目进程（早期）不可缺少的一部分。来源：[Realm](https://realm.io/cn/news/codereview-howto/)
+* 设计并非艺术([1. 本质区别](http://www.beforweb.com/node/821),[2. 视觉美学与自我角色](http://www.beforweb.com/node/822)) ： “艺术是主观的，设计是客观的：因为艺术是一种自我表达方式，所以创作内容可以完全来自于艺术家本人。而设计是面向使用的，其内容源自于产品目标及其所服务的对象，这些来源都是外在的”。译者：[@C7210](http://weibo.com/c7210)
 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。

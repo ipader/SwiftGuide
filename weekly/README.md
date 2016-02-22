@@ -1,11 +1,20 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 
-## [Issue 45](Issue-45.md)
-**本期特别推荐** 1. 项目：[Localize-Swift](https://github.com/marmelroy/Localize-Swift)（国际化及本地化字符串框架库），[AudioKit](https://github.com/audiokit/AudioKit)（音频合成、加工及分析平台框架库）以及 [swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)（Swift 算法俱乐部学习库）；2. 文档：[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/) 和 [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)
+##[Issue 46](Issue-46.md)
+
+**本期特别推荐** 1. 项目：[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)（相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目），[Tactile](https://github.com/delba/Tactile)（让手势识别如虎添翼），[folding-cell](https://github.com/Ramotion/folding-cell)（自然流畅、清新的单元格折叠动画类及演示），[Yep](https://github.com/CatchChat/Yep)（“打造由天才开发给天才们使用的社交软件”）；2. 文档：[新手指南：使用 Social Framework 以及 UIActivityViewController](http://swift.gg/2016/02/04/social-framework-introduction/)，《Threading Programming Guide》笔记（[1. 初识线程](http://geek.csdn.net/news/detail/54092)、[2. 线程配置与Run Loop](http://geek.csdn.net/news/detail/55617)、[3. Run Loop操作配置实践](http://geek.csdn.net/news/detail/56056)）
+
+> 大声1：“[苹果开源 Swift 基准测试套件](http://www.infoq.com/cn/news/2016/02/swift-benchmarking-suite)。在向 Swift 语言添加新特性时，它是跟踪 Swift 性能及捕获性能衰退的一个重要部分。By [@InfoQ](http://weibo.com/infoqchina)”。
+
+> 大声2：“[@叶孤城](http://weibo.com/u/1438670852)：2016，我们为大家做了一点小事. CodeReview,  简单来说,你可以提交自己的代码给大神审核.网站在这里,www.reviewcode.cn ”。
+
+## 往期回顾
+* [Issue 45](Issue-45.md)
+
+	> **本期特别推荐** 1. 项目：[Localize-Swift](https://github.com/marmelroy/Localize-Swift)（国际化及本地化字符串框架库），[AudioKit](https://github.com/audiokit/AudioKit)（音频合成、加工及分析平台框架库）以及 [swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)（Swift 算法俱乐部学习库）；2. 文档：[用 Swift 中的单向数据流来替代臃肿的视图控制器](https://realm.io/cn/news/benji-encz-unidirectional-data-flow-swift/) 和 [Swift中的7个陷阱与如何避免它们](https://developer.ibm.com/swift/2016/01/27/seven-swift-snares-how-to-avoid-them/)
 
 > 大声：[Kingfisher 2.0 版](https://github.com/onevcat/Kingfisher/releases)：“OS X，watchOS，tvOS 全面支持，重写了 Option 设置部分使其扩展性更佳，Swift Package Ma
 
-## 往期回顾
 * [Issue 44](Issue-44.md)
 
 	> **本期特别推荐** 1. 项目：[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)（ePub 阅读器及框架库）, [Zip](https://github.com/marmelroy/Zip)（基于 [minizip](https://github.com/nmoinvaz/minizip) 的解压缩类库）及 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)（基于 Xcode 插件技术快速原型开发工具） 2. 文档：[RxSwift 函数响应式编程](https://realm.io/cn/news/slug-max-alexander-functional-reactive-rxswift/), [Typed, yet Flexible Table View Controller](http://holko.pl/2016/01/05/typed-table-view-controller/) 及 [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)
