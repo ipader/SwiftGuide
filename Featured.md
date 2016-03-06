@@ -391,4 +391,3 @@
 [Yep](https://github.com/CatchChat/Yep)|[Catch](https://github.com/CatchChat)| “打造由天才开发给天才们使用的社交软件”
 [Phonetic](https://github.com/iAugux/Phonetic)|[@iAugus](http://weibo.com/augusoo7)|iOS 版的 Phonetic Contacts
 [shift-js](https://github.com/shift-js/shift-js)|[ShiftJS](https://github.com/shift-js)|Swift 程序员在写 iOS 和 Web 应用时无需语言切换
-I
