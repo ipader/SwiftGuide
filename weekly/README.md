@@ -6,9 +6,11 @@
 ，[Advance](https://github.com/storehouse/Advance)（侧重在手势交互、帧动画、自定义动画及仿真类型的动画框架库），[PromiseKit](https://github.com/mxcl/PromiseKit)（Swift 化的 Promise 类库）以及 [Zewo](https://github.com/Zewo/Zewo)（底层库组件化超强大中间件框架）
 ，2. 文档：[ReactiveCocoa 4 官方文档翻译](http://www.jianshu.com/p/fccba7be1ca1)，[Swift 性能探索和优化分析](https://onevcat.com/2016/02/swift-performance/)，[给 iOS 开发者的 Sketch 入门教程](http://ios.jobbole.com/83865/) 以及 [Perfect 让 Swift 在服务器端跑起来](http://blog.csdn.net/u014388424/article/category/6092861)
 
-> 大声1：“中国首届 Swift 开发者大会[嘉宾现场演讲视频](http://www.imooc.com/learn/600)正式上线了。众多资深的 iOS 研发攻城狮，与你分享 Swift 的最新动向。没有机会到场的朋友们，快来先睹为快吧！By [@慕课网](http://weibo.com/mukewang)”
+> 大声一：[IBM成为首个支持云端进行 Swift 应用开发的云供应商](http://t.cn/RGj1WYr)。 By [@IBM中国](http://weibo.com/u/1937649537)
 
-> 大声2：“[30 Days of Swift 是如何成为本周 Github 全语言类第一的？](http://weibo.com/ttarticle/p/show?id=2309403945025816947755) By [@Allen朝辉](http://weibo.com/wangchaohui)”
+> 大声二：[30 Days of Swift 是如何成为本周 Github 全语言类第一的](http://weibo.com/ttarticle/p/show?id=2309403945025816947755)？ By [@Allen朝辉](http://weibo.com/wangchaohui)
+
+> 大声三：[中国首届 Swift 开发者大会嘉宾现场演讲视频正式上线了](http://www.imooc.com/learn/600)。 By [@慕课网](http://weibo.com/mukewang)
 
 ## 往期回顾
 * [Issue 46](Issue-46.md)
