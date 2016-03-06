@@ -2,7 +2,7 @@
 
 >站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
 
-[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-2-22，最近新收录 [Freddy](https://github.com/bignerdranch/Freddy), [PMJSON](https://github.com/postmates/PMJSON), [Hue](https://github.com/hyperoslo/Hue), [fluent](https://github.com/qutheory/fluent), [circle-menu](https://github.com/Ramotion/circle-menu), [Phonetic](https://github.com/iAugux/Phonetic),[FileBrowser](https://github.com/marmelroy/FileBrowser), [blackfish](https://github.com/elliottminns/blackfish), [reel-search](https://github.com/Ramotion/reel-search), [folding-cell](https://github.com/Ramotion/folding-cell), [delba/Tactile](https://github.com/delba/Tactile), [30DaysofSwift](https://github.com/allenwong/30DaysofSwift), [URLNavigator](https://github.com/devxoul/URLNavigator), [trySwiftApp](https://github.com/NatashaTheRobot/trySwiftApp), [Stevia](https://github.com/s4cha/Stevia), [Ares](https://github.com/indragiek/Ares), [furni-ios](https://github.com/twitterdev/furni-ios), [Yep](https://github.com/CatchChat/Yep) 等 18 个，合计已收录 325 个。详见本文档。
+[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-7，最近新收录 [PromiseKit](https://github.com/mxcl/PromiseKit), [Zewo](https://github.com/Zewo/Zewo), [Kitura](https://github.com/IBM-Swift/Kitura), [TryParsec](https://github.com/inamiy/TryParsec), [Tentacle](https://github.com/mdiep/Tentacle), [Express](https://github.com/crossroadlabs/Express), [Swifton](https://github.com/necolt/Swifton), [VideoSplashKit](https://github.com/movielala/VideoSplashKit), [BTree](https://github.com/lorentey/BTree), [Markoff](https://github.com/thoughtbot/Markoff), [Heimdall](https://github.com/henrinormak/Heimdall), [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage), [Validated](https://github.com/Ben-G/Validated), [RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore), [STLocationRequest](https://github.com/SvenTiigi/STLocationRequest), [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard), [shift-js](https://github.com/shift-js/shift-js) 等 16 个，合计已收录 341 个。详见本文档。
 
 ## 目录
 * [“轮子”](#wheel)
@@ -29,6 +29,7 @@
 [TidyJSON](https://github.com/benloong/TidyJSON)|[@benloong](https://github.com/benloong/)|简单易用Swift全平台JSON库
 [Freddy](https://github.com/bignerdranch/Freddy)|[Big Nerd Ranch](https://github.com/bignerdranch)|充分考虑 Swift 固有语法的 JSON 解析类
 [PMJSON](https://github.com/postmates/PMJSON)|[Postmates](https://github.com/postmates)|简单、实用、高效的 JSON 解析类库
+[TryParsec](https://github.com/inamiy/TryParsec)|[Yasuhiro Inami](https://github.com/inamiy)|支持 CSV, XML, JSON 以及简单算术表达式解析工具库
 [Mirror](https://github.com/kostiakoval/Mirror)|[Kostiantyn Koval](https://github.com/kostiakoval)|通过反射实现镜像对象封装库
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift 版 Lo-Dash (或 underscore )函数式工具库
 [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)|[Alexey Khokhlov](https://github.com/alexeyxo)|Protocol Buffers 的 Swift 语言实现库
@@ -43,6 +44,7 @@
 [Surge](https://github.com/mattt/Surge) |[Mattt Thompson ](https://github.com/mattt)|基于苹果 Accelerate 高性能计算框架封装库
 [Watchdog](https://github.com/wojteklukaszuk/Watchdog)|[Wojtek Lukaszuk](https://github.com/wojteklukaszuk)|实时监视主线程运行或堵塞情况
 [Async](https://github.com/duemunk/Async)|[Due Munk](http://developmunk.dk/)|简洁的后台执行代码封装库
+[Validated](https://github.com/Ben-G/Validated)|[Benjamin Encz](https://github.com/Ben-G)|通过值验证或限定，快速定义新类型的微类库
 [Regex](https://github.com/sharplet/Regex)|[Adam Sharp](https://github.com/sharplet)|实用的正则表达式微框架类库
 [Future](https://github.com/nghialv/Future)|[Le Van Nghia](https://github.com/nghialv)|基于微框架设计的异步执行及结果响应类
 [Euler](https://github.com/mattt/Euler)|[Mattt Thompson ](https://github.com/mattt)|直观、简洁的数学表达式 ∛27÷3+∑[3,1,2]
@@ -91,6 +93,8 @@
 [Chirp](https://github.com/trifl/Chirp)|[trifl](https://github.com/trifl)|应用中装载、播放、停止声音文件
 [Zip](https://github.com/marmelroy/Zip)|[Roy Marmelstein](https://github.com/marmelroy)|基于 [minizip](https://github.com/nmoinvaz/minizip) 的解、压缩框架库
 [Every.swift](https://github.com/samhann/Every.swift)|[Samhan Salahuddin](https://github.com/samhann)|定时重复执行代码段工具类库
+[Tentacle](https://github.com/mdiep/Tentacle)|[Matt Diephouse](https://github.com/mdiep)|构建于 ReactiveCocoa 的 GitHub API
+[BTree](https://github.com/lorentey/BTree)|[Károly Lőrentey](https://github.com/lorentey/)|基于 B-Tree 更优执行性能的集合类型实现
 
 * <a id="storage"></a>存储类
 
@@ -135,6 +139,7 @@
 [Toucan](https://github.com/gavinbunney/Toucan)|[Gavin Bunney](https://github.com/gavinbunney)|小而美的图片变换及处理类
 [gifu](https://github.com/kaishin/gifu)|[Reda Lemeden](http://redalemeden.com)|高性能 GIF 显示类库
 [XAnimatedImage](https://github.com/khaledmtaha/XAnimatedImage)| [Khaled Taha](https://github.com/khaledmtaha)|基于 FLAnimatedImage 高性能 GIF 显示类库
+[JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[王佳玮](http://weibo.com/u/5228362742)|集中了目前主流的 GIF 显示库（如 FLAnimatedImage,Gifu）的优点
 [apngkit](https://github.com/onevcat/apngkit)|[@onevcat](http://weibo.com/onevcat)|解析和显示 APNG 的框架
 [HanekeSwift](https://github.com/Haneke/HanekeSwift)|[Haneke](https://github.com/Haneke)|轻量带缓存高性能图片加载组件
 [SwiftColorArt](https://github.com/Jan0707/SwiftColorArt)|[Jan Gregor Triebel](https://github.com/Jan0707)|图片色系决定界面背景色及字体显示颜色
@@ -153,6 +158,7 @@
 [Spring](https://github.com/MengTo/Spring)|[Meng To](https://github.com/MengTo)| 提供动画调试功能的强大动画的 API 库
 [ReactiveAnimation](https://github.com/ReactiveCocoa/ReactiveAnimation)|[ReactiveCocoa](https://github.com/ReactiveCocoa/)|知名ReactiveAnimation 的 Swift 版子项目
 [DKChainableAnimationKit](https://github.com/Draveness/DKChainableAnimationKit)|[Draveness](https://github.com/Draveness)|高可读、链式代码风格动画框架库。
+[Advance](https://github.com/storehouse/Advance)|[Storehouse](https://github.com/storehouse)|侧重在手势交互、帧动画、自定义动画及仿真类型的动画框架库
 [suguru/Cheetah](https://github.com/suguru/Cheetah)|[Suguru Namura](https://github.com/suguru)|易用、高可读链式动画类库
 [SwiftGraphics](https://github.com/schwa/SwiftGraphics)|[Jonathan Wight](https://github.com/schwa)|易学、易用的绘图工具库封装
 [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库，storyboard中使用
@@ -251,12 +257,15 @@
 [TKSwitcherCollection](https://github.com/TBXark/TKSwitcherCollection)|[@TBXark](http://weibo.com/tbxark)|Switch 切换动画效果集合组件及演示
 [DateRangePicker](https://github.com/MrMage/DateRangePicker)|[MrMage](https://github.com/MrMage)|日期区间选择组件
 [Periscope-VideoViewController](https://github.com/gontovnik/Periscope-VideoViewController)|[Danil Gontovnik](https://github.com/gontovnik)|简洁实用的视频快进、倒带控制
+[VideoSplashKit](https://github.com/movielala/VideoSplashKit)| [MovieLaLa](https://github.com/movielala)|易用的视频播放组件。P.S. 视频及 tvOS 开发可以关注该开发者
 [Gecco](https://github.com/yukiasai/Gecco)|[yukiasai](https://github.com/yukiasai)|帮助开发者快速制作新手导引界面
+[STLocationRequest](https://github.com/SvenTiigi/STLocationRequest)|[SvenTiigi](https://github.com/SvenTiigi)| 360 度 3D 俯瞰图方式请求用户位置
 
 * <a id="framework"></a>框架类
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
+[PromiseKit](https://github.com/mxcl/PromiseKit)|[Max Howell](https://github.com/mxcl) |Swift 化的 Promise 类库
 [AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)|[facebook](https://github.com/facebook/)|提供界面的高流畅性切换及更灵敏的响应
 [Cartography](https://github.com/robb/Cartography)|[Robert Böhnke](http://robb.is)|基于代码级的自动布局封装框架
 [Stevia](https://github.com/s4cha/Stevia)|[S4cha](https://github.com/s4cha)|简单、直观的纯代码自动布局类库
@@ -275,6 +284,10 @@
 [XcodeServerSDK](https://github.com/czechboy0/XcodeServerSDK)|[Honza Dvorsky](https://github.com/czechboy0)|非官方 Xcode Server SDK 封装库
 [ios-universal-webview-boilerplate](https://github.com/nabilfreeman/ios-universal-webview-boilerplate)|[Freeman](https://github.com/nabilfreeman)|快速封装 WebApp 到 iOS 应用
 [Perfect](https://github.com/PerfectlySoft/Perfect)|[PerfectlySoft](https://github.com/PerfectlySoft)|打造专业应用服务器开始
+[Zewo](https://github.com/Zewo/Zewo)|[Zewo](https://github.com/Zewo)|底层库组件化超强大中间件框架
+[Kitura](https://github.com/IBM-Swift/Kitura)|[Swift@IBM](https://github.com/IBM-Swift)|IBM Swift 开发组的开源 Web 服务器
+[Express](https://github.com/crossroadlabs/Express)|[Crossroad Labs](crossroadlabs/Express)|Swift 版 Express.js 风格应用服务器
+[Swifton](https://github.com/necolt/Swifton)|[NECOLT](https://github.com/necolt)|Ruby on Rails 风格 Web 服务器框架
 [Epoch](https://github.com/Zewo/Epoch)|[Zewo](https://github.com/Zewo)|独立于平台的 Http 服务器
 [swift-http](https://github.com/huytd/swift-http)|[Henry Tr.](https://github.com/huytd)|符合开放平台规范的最简 HTTP 示例服务器
 [Curassow](https://github.com/kylef/Curassow)|[Kyle Fuller](https://github.com/kylef) |简单、高效、低耦专业 Web 服务器及示例
@@ -304,6 +317,8 @@
 [Localize-Swift](https://github.com/marmelroy/Localize-Swift)|[Roy Marmelstein](https://github.com/marmelroy)|国际化及本地化字符串框架库
 [AudioKit](https://github.com/audiokit/AudioKit)|[AudioKit](https://github.com/audiokit)|音频合成、加工及分析平台框架库
 [URLNavigator](https://github.com/devxoul/URLNavigator)|[Jeon Suyeol](https://github.com/devxoul)|URL 与 view controllers 导航映射
+[Heimdall](https://github.com/henrinormak/Heimdall)|[Henri Normak](https://github.com/henrinormak)|易用的加、解密安全框架（AES/RSA）库
+[RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore)|[エウレカ](https://github.com/eure)|集 Realm 数据库和 CoreData 对象模型两者优势
 
 ### <a id="car"></a>“车子”
 * <a id="demo"></a>示例项目
@@ -338,12 +353,14 @@
 [Ares](https://github.com/indragiek/Ares)|[Indragie Karunaratne](https://github.com/indragiek/Ares)|P2P 文件传输演示项目
 [trySwiftApp](https://github.com/NatashaTheRobot/trySwiftApp)|[Natasha Murashev](https://github.com/NatashaTheRobot)|一款较为完整的会议原型应用
 [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)|[@Allen朝辉](http://weibo.com/wangchaohui)|相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目
+[AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
 
 * <a id="projects"></a>完整应用
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [edhita](https://github.com/tnantoka/edhita)|[Tatsuya Tobioka](http://blog.tnantoka.com/)|支持 Markdown, HTML 预览的文本编辑器
+[Markoff](https://github.com/thoughtbot/Markoff)|[thoughtbot](https://github.com/thoughtbot)|运行于 OS X 基于 cmark 轻量级 Markdown 预览
 [WWDC](https://github.com/insidegui/WWDC)|[Guilherme Rambo](https://github.com/insidegui)］| WWDC 2015 [应用下载](https://github.com/insidegui/WWDC/blob/master/Releases/WWDC_latest.zip?raw=true)
 [firefox-ios](https://github.com/mozilla/firefox-ios)|[Mozilla](https://github.com/mozilla)|来自 Mozilla 开发团队大型纯 Swift 项目
 [focus](https://github.com/mozilla/focus)|[Mozilla](https://github.com/mozilla)|拦截 Safari 的广告内容，分析和社交追踪器等
@@ -373,3 +390,5 @@
 [QingDict](https://github.com/yingDev/QingDict)|[@Nozama](http://weibo.com/xweb123)|轻量级、实用主义的词典程序
 [Yep](https://github.com/CatchChat/Yep)|[Catch](https://github.com/CatchChat)| “打造由天才开发给天才们使用的社交软件”
 [Phonetic](https://github.com/iAugux/Phonetic)|[@iAugus](http://weibo.com/augusoo7)|iOS 版的 Phonetic Contacts
+[shift-js](https://github.com/shift-js/shift-js)|[ShiftJS](https://github.com/shift-js)|Swift 程序员在写 iOS 和 Web 应用时无需语言切换
+I
