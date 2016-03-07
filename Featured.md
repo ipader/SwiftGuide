@@ -40,7 +40,7 @@
 [SwiftyBeaver](https://github.com/skreutzberger/SwiftyBeaver)|[Sebastian Kreutzberger](https://github.com/skreutzberger)|多彩的日志输出类，支持 Xcode 或 log 文件
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)|[Dave Wood](https://github.com/tangplin)|功能完整的日志管理类库
 [CleanroomLogger](https://github.com/emaloney/CleanroomLogger)|[emaloney](https://github.com/emaloney)|相当于 CocoaLumberjack 或 Log4j 
-[honghaoz/Loggerithm](https://github.com/honghaoz/Loggerithm)|[张宏昊](https://github.com/honghaoz)|靠谱的日志管理输出类库
+[Loggerithm](https://github.com/honghaoz/Loggerithm)|[张宏昊](https://github.com/honghaoz)|靠谱的日志管理输出类库
 [Surge](https://github.com/mattt/Surge) |[Mattt Thompson ](https://github.com/mattt)|基于苹果 Accelerate 高性能计算框架封装库
 [Watchdog](https://github.com/wojteklukaszuk/Watchdog)|[Wojtek Lukaszuk](https://github.com/wojteklukaszuk)|实时监视主线程运行或堵塞情况
 [Async](https://github.com/duemunk/Async)|[Due Munk](http://developmunk.dk/)|简洁的后台执行代码封装库
@@ -50,7 +50,7 @@
 [Euler](https://github.com/mattt/Euler)|[Mattt Thompson ](https://github.com/mattt)|直观、简洁的数学表达式 ∛27÷3+∑[3,1,2]
 [Scale](https://github.com/onmyway133/Scale)|[Khoa Pham](https://github.com/onmyway133)|单位计算及换算类库
 [SigmaSwiftStatistics](https://github.com/evgenyneu/SigmaSwiftStatistics)|[Evgenii Neumerzhitckii](https://github.com/evgenyneu)|统计类计算函数集类库。简单、实用
-[kylef/Spectre](https://github.com/kylef/Spectre)|[Kyle Fuller](https://github.com/kylef)|BDD 框架，写小清新代码
+[Spectre](https://github.com/kylef/Spectre)|[Kyle Fuller](https://github.com/kylef)|BDD 框架，写小清新代码
 [LocationManager](https://github.com/varshylmobile/LocationManager)|[Jimmy Jose](https://github.com/varshylmobile)|地理位置管理封装库
 [GEOSwift](https://github.com/andreacremaschi/GEOSwift)|[Andrea Cremaschi](https://github.com/andreacremaschi)|轻松地处理地理对象模型和相关地形操作
 [Siren](https://github.com/ArtSabintsev/Siren)|[Ariel Sabintsev](https://github.com/ArtSabintsev)|当应用更新时，通知用户并提供App Store链接
@@ -83,7 +83,7 @@
 [SWXMLHash](https://github.com/drmohundro/SWXMLHash)|[David Mohundro](https://github.com/drmohundro)|易用的 XML 解析类库
 [FileKit](https://github.com/nvzqz/FileKit)|[Nikolai Vazquez](https://github.com/nvzqz)|使用简单、功能完整的文件管理工具库类
 [QueryKit](https://github.com/QueryKit/QueryKit)|[Kyle Fuller](https://github.com/kylef)|使用简单、功能完善的 CoreData 查询类库
-[madebybowtie/FlagKit](https://github.com/madebybowtie/FlagKit)|[Bowtie](https://github.com/madebybowtie)|漂亮、完整的国旗小图标工具集
+[FlagKit](https://github.com/madebybowtie/FlagKit)|[Bowtie](https://github.com/madebybowtie)|漂亮、完整的国旗小图标工具集
 [Zephyr](https://github.com/ArtSabintsev/Zephyr)|[Arthur Ariel Sabintsev](https://github.com/ArtSabintsev)|将 NSUserDefaults 数据同步 iCould 实用工具类
 [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)|[Goktug Yilmaz](https://github.com/goktugyil)|让 Swift 基础类型及基础类更容易访问扩展
 [SwiftVerbalExpressions](https://github.com/VerbalExpressions/SwiftVerbalExpressions)|[VerbalExpressions](https://github.com/VerbalExpressions)|通过函数方式编写复杂正则表达式
@@ -159,7 +159,7 @@
 [ReactiveAnimation](https://github.com/ReactiveCocoa/ReactiveAnimation)|[ReactiveCocoa](https://github.com/ReactiveCocoa/)|知名ReactiveAnimation 的 Swift 版子项目
 [DKChainableAnimationKit](https://github.com/Draveness/DKChainableAnimationKit)|[Draveness](https://github.com/Draveness)|高可读、链式代码风格动画框架库。
 [Advance](https://github.com/storehouse/Advance)|[Storehouse](https://github.com/storehouse)|侧重在手势交互、帧动画、自定义动画及仿真类型的动画框架库
-[suguru/Cheetah](https://github.com/suguru/Cheetah)|[Suguru Namura](https://github.com/suguru)|易用、高可读链式动画类库
+[Cheetah](https://github.com/suguru/Cheetah)|[Suguru Namura](https://github.com/suguru)|易用、高可读链式动画类库
 [SwiftGraphics](https://github.com/schwa/SwiftGraphics)|[Jonathan Wight](https://github.com/schwa)|易学、易用的绘图工具库封装
 [animated-tab-bar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库，storyboard中使用
 [Eureka](https://github.com/xmartlabs/Eureka)|[XMARTLABS](https://github.com/xmartlabs)|功能强大的表单（XLForm）组件库
@@ -174,10 +174,10 @@
 [HamburgerButton - Menu/Close](https://github.com/robb/hamburger-button)|[Robert Böhnke](http://robb.is)|无论[设计](http://robb.is/working-on/a-hamburger-button-transition/)还是代码，都进行了精雕细琢
 [HamburgerButton - Menu/Back](https://github.com/fastred/HamburgerButton)|[Arkadiusz Holko](http://holko.pl/)|对应[博文](http://holko.pl/2014/07/15/hamburger-button-animation/)可知，开发者动画开发经验相当丰富
 [HamburgerButton - Check](https://github.com/entotsu/TKAnimatedCheckButton)|[Takuya.Okamoto](https://github.com/entotsu)|Hamburger 风格按钮动画图标（单选）组件
-[entotsu/TKSubmitTransition](https://github.com/entotsu/TKSubmitTransition)|[Takuya Okamoto](https://github.com/entotsu)|登录加载、返回按钮转场动画组件
+[TKSubmitTransition](https://github.com/entotsu/TKSubmitTransition)|[Takuya Okamoto](https://github.com/entotsu)|登录加载、返回按钮转场动画组件
 [circle-menu](https://github.com/Ramotion/circle-menu)|[Ramotion](https://github.com/Ramotion)|圆形缩放菜单类库及演示
 [AIFlatSwitch](https://github.com/cocoatoucher/AIFlatSwitch)|[cocoatoucher](https://github.com/cocoatoucher)|一款带平滑过渡动画的 Switch 组件类
-[yoavlt/LiquidFloatingActionButton](https://github.com/yoavlt/LiquidFloatingActionButton)|[Takuma Yoshida](https://github.com/yoavlt)|可定制水滴型浮动动态按钮组件
+[LiquidFloatingActionButton](https://github.com/yoavlt/LiquidFloatingActionButton)|[Takuma Yoshida](https://github.com/yoavlt)|可定制水滴型浮动动态按钮组件
 [XLActionController](https://github.com/xmartlabs/XLActionController)|[XMARTLABS](https://github.com/xmartlabs)|具有丰富可定制风格及动效的 Action 控制类
 [Swift-Prompts](https://github.com/GabrielAlva/Swift-Prompts)|[Gabriel Alvarado](https://github.com/GabrielAlva)|一款漂亮、实用的提示弹窗
 [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS)|[Viktor Radchenko](https://github.com/vikmeup)|带动画效果弹窗封装类
@@ -189,7 +189,7 @@
 [LiquidLoader](https://github.com/yoavlt/LiquidLoader)|[Takuma Yoshida](https://github.com/yoavlt)|细滑进程装载动画效果
 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)|[Fahim Farook](https://github.com/FahimF)|Float Label Pattern 浮动标签输入效果类
 [ParkedTextField](https://github.com/gmertk/ParkedTextField)|[Gunay Mert Karadogan](https://github.com/gmertk)|带固定文本的输入组件
-[optonaut/ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)|[Optonaut](https://github.com/optonaut)|扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应
+[ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)|[Optonaut](https://github.com/optonaut)|扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应
 [GMStepper](https://github.com/gmertk/GMStepper)|[Gunay Mert Karadogan](https://github.com/gmertk)|带动画效果、支持手势滑动操作的步进标签
 [MapManager](https://github.com/varshylmobile/MapManager)|[Jimmy Jose](https://github.com/varshylmobile)|地图及路径管理封装库
 [LineChart](https://github.com/zemirco/swift-linechart)|[Mirco Zeiss](https://github.com/zemirco)|功能完整、实用的折线图组件
@@ -204,7 +204,7 @@
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
 [folding-cell](https://github.com/Ramotion/folding-cell)|[Ramotion](https://github.com/Ramotion)|自然流畅、清新的单元格折叠动画类及演示
 [Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例
-[tispr/tispr-card-stack](https://github.com/tispr/tispr-card-stack)|[tispr](https://github.com/tispr)|卡片风格动画切换组件及完整交互示例
+[tispr-card-stack](https://github.com/tispr/tispr-card-stack)|[tispr](https://github.com/tispr)|卡片风格动画切换组件及完整交互示例
 [CameraManager](https://github.com/imaginary-cloud/CameraManager)|[Imaginary Cloud](https://github.com/imaginary-cloud)|简单、易用的相机管理封装类库
 [QRCodeReader](https://github.com/yannickl/QRCodeReader.swift)|[Yannick Loriot](https://github.com/yannickl)|QR 二维码阅读组件及示例
 [SwiftQRCode](https://github.com/liufan321/SwiftQRCode)|[Fan Liu](https://github.com/liufan321)|简单、实用的 QR Code 扫描识别及生成库
