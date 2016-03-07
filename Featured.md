@@ -1,23 +1,20 @@
 ## Swift 开源项目精选
 
->站在个人的角度，并基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》，针对开源项目做了一个甄别、筛选。当然，由于个人能力及涉足范围所限，还远远不够，其中肯定有偏颇及不足，还望同学们多多见谅。更希望能得到你的帮助和补充，共同参与。
+>基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别、筛选。并辅以一句话介绍。
 
 [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-7，最近新收录 [PromiseKit](https://github.com/mxcl/PromiseKit), [Zewo](https://github.com/Zewo/Zewo), [Kitura](https://github.com/IBM-Swift/Kitura), [TryParsec](https://github.com/inamiy/TryParsec), [Tentacle](https://github.com/mdiep/Tentacle), [Express](https://github.com/crossroadlabs/Express), [Swifton](https://github.com/necolt/Swifton), [VideoSplashKit](https://github.com/movielala/VideoSplashKit), [BTree](https://github.com/lorentey/BTree), [Markoff](https://github.com/thoughtbot/Markoff), [Heimdall](https://github.com/henrinormak/Heimdall), [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage), [Validated](https://github.com/Ben-G/Validated), [RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore), [STLocationRequest](https://github.com/SvenTiigi/STLocationRequest), [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard), [shift-js](https://github.com/shift-js/shift-js) 等 16 个，合计已收录 341 个。详见本文档。
 
 ## 目录
-* [“轮子”](#wheel)
-	* [工具类](#tools)
-	* [存储类](#storage)
-	* [网络类](#network)
-	* [图片类](#pictures)
-	* [界面类](#interfaces)
-	* [框架类](#framework)
-* [“车子”](#car)
-	* [示例项目](#demo)
-	* [完整应用](#projects)
+* [工具](#tools)
+* [存储](#storage)
+* [网络](#network)
+* [图片](#pictures)
+* [界面](#interfaces)
+* [框架](#framework)
+* [示例](#demo)
+* [应用](#projects)
 	
-### <a id="wheel"></a>“轮子”
-* <a id="tools"></a>工具类
+### <a id="tools"></a>工具
 	
 	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
@@ -96,7 +93,7 @@
 [Tentacle](https://github.com/mdiep/Tentacle)|[Matt Diephouse](https://github.com/mdiep)|构建于 ReactiveCocoa 的 GitHub API
 [BTree](https://github.com/lorentey/BTree)|[Károly Lőrentey](https://github.com/lorentey/)|基于 B-Tree 更优执行性能的集合类型实现
 
-* <a id="storage"></a>存储类
+### <a id="storage"></a>存储
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
@@ -111,7 +108,7 @@
 [Graph](https://github.com/CosmicMind/Graph)|[CosmicMind](https://github.com/CosmicMind)|CoreData 持久化类库，设计新颖、使用简单
 [fluent](https://github.com/qutheory/fluent)|[Qutheory](https://github.com/qutheory)|快速实现 CRUD 操作的对象存储类库
 
-* <a id="network"></a>网络类
+### <a id="network"></a>网络
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
@@ -130,7 +127,7 @@
 [Reachability.swift](https://github.com/ashleymills/Reachability.swift)|[Ashley Mills](https://github.com/ashleymills)|检测网络连通性实用工具库
 [MonkeyKing](https://github.com/nixzhu/MonkeyKing)|[@nixzhu](weibo.com/nixzhu)|信息递交中文社交网络
 
-* <a id="pictures"></a>图片类
+### <a id="pictures"></a>图片
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
@@ -151,7 +148,7 @@
 [Nuke](https://github.com/kean/Nuke)|[Alexander Grebenyuk](https://github.com/kean)|完整、强大、实用的图片管理类库
 [Filterpedia](https://github.com/FlexMonkey/Filterpedia)|[simon gladman](https://github.com/FlexMonkey)|Core Image 下强大的图片滤镜类库演示应用
 
-* <a id="interfaces"></a>界面类
+### <a id="interfaces"></a>界面
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
@@ -261,7 +258,7 @@
 [Gecco](https://github.com/yukiasai/Gecco)|[yukiasai](https://github.com/yukiasai)|帮助开发者快速制作新手导引界面
 [STLocationRequest](https://github.com/SvenTiigi/STLocationRequest)|[SvenTiigi](https://github.com/SvenTiigi)| 360 度 3D 俯瞰图方式请求用户位置
 
-* <a id="framework"></a>框架类
+### <a id="framework"></a>框架
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
@@ -320,8 +317,7 @@
 [Heimdall](https://github.com/henrinormak/Heimdall)|[Henri Normak](https://github.com/henrinormak)|易用的加、解密安全框架（AES/RSA）库
 [RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore)|[エウレカ](https://github.com/eure)|集 Realm 数据库和 CoreData 对象模型两者优势
 
-### <a id="car"></a>“车子”
-* <a id="demo"></a>示例项目
+### <a id="demo"></a>示例
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
@@ -355,7 +351,7 @@
 [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)|[@Allen朝辉](http://weibo.com/wangchaohui)|相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目
 [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
 
-* <a id="projects"></a>完整应用
+### <a id="projects"></a>应用
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
