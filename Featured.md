@@ -361,7 +361,7 @@
 ------------ | ------------- | -------------
 [edhita](https://github.com/tnantoka/edhita)|[Tatsuya Tobioka](http://blog.tnantoka.com/)|支持 Markdown, HTML 预览的文本编辑器
 [Markoff](https://github.com/thoughtbot/Markoff)|[thoughtbot](https://github.com/thoughtbot)|运行于 OS X 基于 cmark 轻量级 Markdown 预览
-[WWDC](https://github.com/insidegui/WWDC)|[Guilherme Rambo](https://github.com/insidegui)］| WWDC 2015 [应用下载](https://github.com/insidegui/WWDC/blob/master/Releases/WWDC_latest.zip?raw=true)
+[WWDC](https://github.com/insidegui/WWDC)|[Guilherme Rambo](https://github.com/insidegui)| WWDC 2015 [应用下载](https://github.com/insidegui/WWDC/blob/master/Releases/WWDC_latest.zip?raw=true)
 [firefox-ios](https://github.com/mozilla/firefox-ios)|[Mozilla](https://github.com/mozilla)|来自 Mozilla 开发团队大型纯 Swift 项目
 [focus](https://github.com/mozilla/focus)|[Mozilla](https://github.com/mozilla)|拦截 Safari 的广告内容，分析和社交追踪器等
 [Carthage](https://github.com/Carthage/Carthage)|[Carthage](https://github.com/Carthage)|更简单的方式来管理 Cocoa。与 [CocoaPods 差别](http://www.cocoachina.com/ios/20141204/10528.html)
