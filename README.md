@@ -28,7 +28,7 @@ Swift 语言指南
 
 ### <a id="welcome"></a>1. [Welcome to Swift](https://developer.apple.com/swift/)
 苹果针对 Swift 开发者官方文档入口。其中包括：
-[Swift 概括](https://developer.apple.com/swift/)，[Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)，[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
+[Swift Overview](https://developer.apple.com/swift/)，[Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)，[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
 
 
 ### <a id="spl"></a>2. [Swift Programming Language](https://developer.apple.com/swift/)
@@ -206,6 +206,7 @@ iOS 技术（[上](http://isux.tencent.com/ios8-human-interface-guidelines-techn
 * [feinstruktur/CoPilot](https://github.com/feinstruktur/CoPilot)：通过此插件，Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。[演示视频](https://vimeo.com/128713880)
 
 ### 4. 管理工具
+* [swiftenv](https://github.com/kylef/swiftenv)：Swift 版本管理器。类似 rvm（Ruby）, nvm（Node.js）。
 * [HomeBrew](http://brew.sh/index_zh-cn.html)：OS X 上非常出色的包管理工具。
 * [Transmit ($)](http://panic.com/transmit/)：一个Mac OS X 上 FTP 客户端，有着非常漂亮的用户界面和有用的功能。
 
