@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-<head>
 <title>Swift语言指南 By @SwiftLanguage</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -21,7 +20,7 @@ blockquote {
 }
 body {
     font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5em;
     color: #737373;
     background-color: white;
@@ -40,11 +39,12 @@ th {
 }
 
 a {
-    color: #0069d6;
+    color: #0088CC;
+	text-decoration: none;    
 }
 a:hover {
     color: #0050a3;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a img {
     border: none;
@@ -160,9 +160,9 @@ sup {
 
 </head>
 <body>
-<h1><center style="background: #666;color: whitesmoke;">Swift 语言指南</h1>
+<p><img src="archive/iT-bg-854X400.jpg" title="" alt="" /></p>
 
-<p><img src="archive/weixin-swiftlanguage.jpg" width="128px" style="float:right;"/></p>
+<h1>Swift 语言指南</h1>
 
 <blockquote><p><span style="color:lightgray;font-size:12px"><a href="http://weibo.com/swiftlanguage">@SwiftLanguage</a> 更新于 2016-3-7，更新内容详见 <a href="https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-47.md">Issue 47</a>。往期更新回顾详见《<a href="https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md">收录周报</a>》</span></p></blockquote>
 
@@ -171,19 +171,8 @@ sup {
 <h2>目录</h2>
 
 <ul>
-<li><a href="#swift_doc">官方文档</a>
-
-<ul>
-<li><a href="#welcome">Welcome to Swift</a></li>
-<li><a href="#spl">Swift Programming Language（中译）</a></li>
-<li><a href="#using_swift">Using Swift with Cocoa and Objective-C（中译）</a></li>
-<li><a href="#extension_guide">App Extension Programming Guide（中译）</a></li>
-<li><a href="#swift_homekit">HomeKit Developer Guide（中译）</a></li>
-<li><a href="#swift_blog">Swift Blog - Apple Developer（中译）</a></li>
-<li><a href="#ios_ui_guide">iOS Human Interface Guidelines（中译）</a></li>
-</ul>
-</li>
-<li><a href="#swift_courses">教程、指南、文章</a></li>
+<li><a href="#welcome">入门指引</a></li>
+<li><a href="#swift_courses">教程文章</a></li>
 <li><a href="#swift_projects">开源项目</a></li>
 <li><a href="#recomm_sites">推荐网站</a></li>
 <li><a href="#tools">开发工具</a></li>
@@ -195,338 +184,39 @@ sup {
 
 <hr />
 
-<h2><a id="swift_doc"></a>官方文档</h2>
+<h2><a id="welcome"></a>入门指引</h2>
 
-<h3><a id="welcome"></a>1. <a href="https://developer.apple.com/swift/">Welcome to Swift</a></h3>
-
-<p>苹果针对 Swift 开发者官方文档入口。其中包括：
-<a href="https://developer.apple.com/swift/">Swift Overview</a>，<a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html">Swift Programming Language</a>，<a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216">Using Swift with Cocoa and Objective-C</a></p>
-
-<h3><a id="spl"></a>2. <a href="https://developer.apple.com/swift/">Swift Programming Language</a></h3>
+<p>苹果为 Swift 开发者提供的<a href="https://developer.apple.com/swift/">官方文档入口</a>，包括 <a href="https://developer.apple.com/swift/">概述</a>，<a href="https://developer.apple.com/swift/blog/">博客</a>（<a href="https://github.com/ipader/SwiftGuide/tree/master/mirror/Swift%20Blog%20-%20Apple%20Developer">中译镜像</a>）及 <a href="https://developer.apple.com/swift/resources/">开发资源</a>。其中以下几份文档（Swift 2.1）为入门级必备（<a href="https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11">iBooks 版</a>）：</p>
 
 <ul>
-<li><p>苹果官方文档：
-<a href="https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html">在线版（英文）</a> ｜ <a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11">iBooks 版（英文）</a></p></li>
-<li><p>爱好者翻译版：
-<a href="http://www.swiftguide.cn">在线版（中文）</a> By <a href="http://weibo.com/swiftguide">@Swift 中文翻译组</a>｜
-<a href="http://pan.baidu.com/s/1gd3VOiB">PDF 版（提取码：vmcb）</a> By <a href="http://weibo.com/oldcoder">@老码团队</a>｜
-<a href="http://yuedu.baidu.com/ebook/6f6c3b1ef01dc281e43af000">百度阅读版（By 小岂子）</a></p></li>
-<li><p>相关文档</p>
-
-<ul>
-<li>Swift Style Guide（非苹果官方）：本风格指南的目标是让Swift代码更简洁、可读更强。
-
-<ol>
-<li> <a href="https://github.com/raywenderlich/swift-style-guide">RayWenderlich 版</a>（<a href="http://letsswift.com/2014/07/swift-style-guide/">中译版</a>）</li>
-<li> <a href="https://github.com/github/swift-style-guide">GitHub 官方小组版</a>（<a href="https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md">中译版</a>）</li>
-</ol>
-</li>
-<li><a href="http://www.jianshu.com/p/b69d9b615ee5">Swift 官方 API 设计准则</a>：“与此前文章《<a href="http://www.jianshu.com/p/fce426e4f1c4">Swift 3 API 设计准则</a>》的区别在于，之前文章只是一个 Swift 3 工作的概览说明，而这是有内容的干货！虽然还处于样稿阶段，但是有很好的参考价值”。译者：<a href="http://weibo.com/moonisky">@星夜暮晨</a></li>
-</ul>
-</li>
+<li><p><a href="https://developer.apple.com/swift/">Swift Programming Language</a>（<a href="http://gg.swiftguide.cn">中文版</a>｜<a href="http://wiki.jikexueyuan.com/download/swift/pdf/">PDF 版</a> By <a href="http://weibo.com/swiftguide">SwiftGG翻译组</a>）</p></li>
+<li><p><a href="https://developer.apple.com/swift/resources/">Start Developing iOS Apps</a></p></li>
+<li><a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html">Using Swift with Cocoa and Objective-C</a>（<a href="https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md">中文版</a> By <a href="http://weibo.com/cocoachina">@CocoaChina</a>）</li>
 </ul>
 
 
-<h3><a id="using_swift"></a>3. Using Swift with Cocoa and Objective-C</h3>
+<p>苹果同时也维护着相应 Beta 版（Swift 2.2）文档：<a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html">Swift Programming Language</a>，<a href="https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html">Start Developing iOS Apps</a>，<a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html">Using Swift with Cocoa and Objective-C</a>。</p>
+
+<p>学习实践的角度，标准库示例代码 <a href="https://developer.apple.com/sample-code/swift/downloads/Standard-Library.zip">Swift Standard Library.playground</a> 是很棒的学习伴侣。</p>
+
+<p>教程方面，苹果力荐了斯坦福课程 <a href="https://itunes.com/StanfordSwift">Stanford University: Developing iOS 8 Apps with Swift</a>（<a href="http://open.163.com/special/opencourse/ios8.html">中文字幕版</a> By <a href="http://weibo.com/163open">@网易公开课</a>）</p>
+
+<p>除以上所涉及入门级文档，<a href="https://developer.apple.com/library/ios/navigation/">iOS Developer Library</a> 还为开发者提供了更庞大、系统化的开发文档支持。</p>
+
+<p>以下列举了几份已有第三方中文翻译文档：</p>
 
 <ul>
-<li>苹果官方文档：<a href="https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216">在线版（英文）</a>｜<a href="https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11&amp;ls=1">iBooks 版（英文）</a></li>
-<li>爱好者翻译版：<a href="https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md">在线版（中文）(By @CocoaChina)</a>｜<a href="http://vdisk.weibo.com/s/EhsPPzRRQHNd/1402648326">PDF版（By @CocoaChina）</a></li>
+<li><a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html">App Extension Programming Guide</a>（<a href="https://github.com/ipader/SwiftGuide/tree/master/mirror/App%20Extension%20Programming%20Guide">中译镜像</a>）</li>
+<li><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html">iOS Human Interface Guidelines</a>（<a href="https://isux.tencent.com/?s=iOS+9+%E4%BA%BA%E6%9C%BA%E7%95%8C%E9%9D%A2%E6%8C%87%E5%8D%97">中文版</a>｜<a href="http://ixdc.org/2016/files/ISUX[%E8%AF%91]iOS9%20human%20Interface%20Guideline.pdf">PDF 版</a> By <a href="http://weibo.com/txisux">@腾讯ISUX</a>）</li>
+<li><a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/HomeKitDeveloperGuide/Introduction/Introduction.html">HomeKit Developer Guide</a>（<a href="http://www.cocoachina.com/ios/20150324/11411.html">中文版</a> By <a href="http://weibo.com/cocoachina">@CocoaChina</a>）</li>
 </ul>
 
 
-<h3><a id="extension_guide"></a>4. <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214">App Extension Programming Guide</a></h3>
+<p>对于 Swift 开源及跨平台开发的同学，可以关注 <a href="https://swift.org/">swift.org</a></p>
 
-<ul>
-<li><p>应用扩展要点（App Extension Essentials）</p>
-
-<table>
-<thead>
-<tr>
-<th>译文 </th>
-<th> 译者 </th>
-<th> 原文</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://www.devtalking.com/articles/understand-how-an-extension-works/">应用扩展如何工作</a> </td>
-<td> <a href="http://weibo.com/jacefu">@DevTalking</a> </td>
-<td> <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html#//apple_ref/doc/uid/TP40014214-CH2-SW2">Understand How an Extension Works</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/creating-an-app-extension/">开发应用扩展</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1">Creating an App Extension</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/app-extensions-increase-your-impact/">APP 扩展提高你的应用影响力</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1">App Extensions Increase Your Impact</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/handling-common-scenarios/">常见问题的处理方案</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1">Handling Common Scenarios</a></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li><p>应用扩展类型（App Extension Types）</p>
-
-<table>
-<thead>
-<tr>
-<th>译文 </th>
-<th> 译者 / 校对 </th>
-<th> 原文</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://www.cocoachina.com/ios/20140904/9527.html">Today</a></td>
-<td><a href="http://weibo.com/cocoachina">@CocoaChina</a> / <a href="http://weibo.com/p/1005051710992635">唧唧歪歪</a></td>
-<td><a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/NotificationCenter.html#//apple_ref/doc/uid/TP40014214-CH11-SW1">Today</a></td>
-</tr>
-<tr>
-<td><a href="http://www.cocoachina.com/ios/20140923/9728.html">Share</a></td>
-<td><a href="http://weibo.com/cocoachina">@CocoaChina</a> / <a href="http://blog.csdn.net/guopengzhang/article">张国鹏</a></td>
-<td><a href="http://www.cocoachina.com/ios/20140923/9728.html">Share</a></td>
-</tr>
-<tr>
-<td><a href="http://www.cocoachina.com/ios/20140929/9800.html">Action</a></td>
-<td><a href="http://weibo.com/cocoachina">@CocoaChina</a></td>
-<td><a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Services.html#//apple_ref/doc/uid/TP40014214-CH13-SW1">Action</a></td>
-</tr>
-<tr>
-<td><a href="http://www.cocoachina.com/ios/20141015/9918.html">照片编辑</a></td>
-<td> - </td>
-<td><a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Photos.html">Photo Editing</a></td>
-</tr>
-<tr>
-<td><a href="http://www.jianshu.com/p/359e064ffe20">Finder 同步</a></td>
-<td><a href="http://weibo.com/u/3227937731">@星夜暮晨</a></td>
-<td><a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Finder.html#//apple_ref/doc/uid/TP40014214-CH15-SW1">Finder Sync</a></td>
-</tr>
-<tr>
-<td><a href="http://www.jianshu.com/p/2f45696b812b">文档提供</a></td>
-<td> - </td>
-<td><a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/FileProvider.html#//apple_ref/doc/uid/TP40014214-CH18-SW1">Document Provider</a></td>
-</tr>
-<tr>
-<td><a href="http://www.jianshu.com/p/987dfa9f3baf">第三方输入法</a></td>
-<td> - </td>
-<td><a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16-SW7">Custom Keyboard</a></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
-
-
-<h3><a id="swift_homekit"></a>5. <a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/HomeKitDeveloperGuide/Introduction/Introduction.html">HomeKit Developer Guide</a></h3>
-
-<ul>
-<li><a href="http://www.cocoachina.com/ios/20150324/11411.html">HomeKit 开发指南（中文版）</a>（By <a href="http://weibo.com/cocoachina">@CocoaChina</a>）：“内容包括：简介、启用HomeKit、创建Home布局、创建Homes和添加Accessories、观察HomeKit数据库的变化、访问服务和特性、测试HomeKitApp、创建动作集（Action Sets）和触发器（Triggers）以及用户管理”。</li>
-</ul>
-
-
-<h3><a id="swift_blog"></a>6. <a href="https://developer.apple.com/swift/blog/">Swift Blog - Apple Developer</a></h3>
-
-<p>"值得一提的是，Swift 博客是苹果官方网站的第一个 Blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"</p>
-
-<table>
-<thead>
-<tr>
-<th>译文 </th>
-<th> 译者 </th>
-<th> 原文</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>-</td>
-<td>N/A</td>
-<td><a href="https://developer.apple.com/swift/blog/?id=26">New Playgrounds Part 2 - Sources</a></td>
-</tr>
-<tr>
-<td><a href="http://blog.csdn.net/zhangao0086/article/details/44409913">Swift Nullability and Objective-C</a></td>
-<td><a href="https://github.com/zhangao0086">Bannings</a></td>
-<td><a href="https://developer.apple.com/swift/blog/?id=25">Nullability and Objective-C</a></td>
-</tr>
-<tr>
-<td>-</td>
-<td>N/A</td>
-<td><a href="https://developer.apple.com/swift/blog/?id=24">New Playgrounds</a></td>
-</tr>
-<tr>
-<td>-</td>
-<td>N/A</td>
-<td><a href="https://developer.apple.com/swift/blog/?id=23">The as! Operator</a></td>
-</tr>
-<tr>
-<td><a href="http://www.csdn.net/article/2015-03-06/2824131-xcode-6-3-beta-2">Swift 1.2 和 Xcode 6.3 beta</a></td>
-<td><a href="http://weibo.com/oldcoder">@老码团队</a></td>
-<td><a href="https://developer.apple.com/swift/blog/?id=22">Swift 1.2 and Xcode 6.3 beta</a></td>
-</tr>
-<tr>
-<td>-</td>
-<td>N/A</td>
-<td><a href="https://developer.apple.com/swift/blog/?id=21">New Swift Development Courses Available on iTunes U</a></td>
-</tr>
-<tr>
-<td><a href="http://www.cocoachina.com/ios/20150212/11147.html">Swift REPL：一切皆可重定义</a></td>
-<td><a href="http://weibo.com/MichealGeng">@MichealGeng</a></td>
-<td><a href="https://developer.apple.com/swift/blog/?id=20">Redefining Everything with the Swift REPL</a></td>
-</tr>
-<tr>
-<td><a href="http://idlelife.org/archives/910">Swift 中的 NSMethodSignature 怎么了？</a></td>
-<td><a href="http://weibo.com/pockry">@pockry</a></td>
-<td><a href="https://developer.apple.com/swift/blog/?id=19"> What Happened to NSMethodSignature?</a></td>
-</tr>
-<tr>
-<td><a href="http://idlelife.org/archives/842">Swift REPL 入门介绍</a></td>
-<td> - </td>
-<td><a href="https://developer.apple.com/swift/blog/?id=18">Introduction to the Swift REPL</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/failable-initializers/">可失败构造器</a></td>
-<td><a href="http://weibo.com/jacefu">@DevTalking</a> </td>
-<td><a href="https://developer.apple.com/swift/blog/?id=17">Failable Initializers</a></td>
-</tr>
-<tr>
-<td>－</td>
-<td>N/A</td>
-<td><a href="https://developer.apple.com/swift/blog/?id=16">Building Your First Swift App Video</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/patterns-playground/">通过 Playground 展示一些编码模式</a></td>
-<td><a href="http://weibo.com/jacefu">@DevTalking</a> </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=13">Patterns Playground</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/optionals-case-study/">Swift 中 Optional 类型的使用案例分析：valuesForKeys</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html#//apple_ref/doc/uid/TP40014214-CH21-SW1">Optionals Case Study：valuesForKeys</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/access-control-and-protected/">Swift 中的访问控制与 protected</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=11">Access Control and protected</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/swift-value-and-reference-types/">Swift 中的值类型和参照类型</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=10">Value and Reference Types</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/swift-balloon/">WWDC 2014大会中的 Playground 大炮气球示例</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=9">Balloons</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/swift-boolean/">在 Swift 中构建布尔类型</a> </td>
-<td> - </td>
-<td>  <a href="https://developer.apple.com/swift/blog/?id=8">Boolean</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/files-and-initialization/">Swift 中的文件和初始化</a></td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=7">Files and Initialization</a></td>
-</tr>
-<tr>
-<td><a href="http://www.devtalking.com/articles/swift-c-pointer/">在 Swift 中使用 C 语言的指针</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=6">Interacting with C Pointers</a></td>
-</tr>
-<tr>
-<td>*<a href="http://www.devtalking.com/articles/swift-access-control/">Swift 新特性 － 访问控制</a>（文档版）</td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/swift/blog/?id=5">Access Control</a></td>
-</tr>
-</tbody>
-</table>
-
-
-<h3><a id="ios_ui_guide"></a>7. iOS Human Interface Guidelines</h3>
-
-<ul>
-<li>苹果官方文档：<a href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1">在线版（英文）</a>, <a href="https://itunes.apple.com/us/book/ios-human-interface-guidelines/id877942287?mt=11">iBooks 版（英文）</a></li>
-<li><p>iOS 9 人机交互指南</p>
-
-<table>
-<thead>
-<tr>
-<th>译文 </th>
-<th> 来源 </th>
-<th> 原文</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://isux.tencent.com/ios9-guideline-ch1.html">UI 设计基础</a></td>
-<td><a href="http://weibo.com/txisux">@腾讯ISUX</a></td>
-<td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1">UI Design Basics</a></td>
-</tr>
-<tr>
-<td><a href="http://isux.tencent.com/ios9-guideline-ch2.html">设计策略</a></td>
-<td>-</td>
-<td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1">Deisgn Princibles</a></td>
-</tr>
-<tr>
-<td>iOS 技术（<a href="http://isux.tencent.com/ios9-guideline-ch3-1.html">上</a>、<a href="http://isux.tencent.com/ios9-guideline-ch3-2.html">下</a>）</td>
-<td>-</td>
-<td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71-SW1">iOS Technologies</a></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li><p>iOS 8 人机交互指南</p>
-
-<table>
-<thead>
-<tr>
-<th>译文 </th>
-<th> 来源 </th>
-<th> 原文</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://isux.tencent.com/ios8-human-interface-guidelines.html">UI 设计基础</a> </td>
-<td><a href="http://weibo.com/txisux">@腾讯ISUX</a></td>
-<td> <a href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1">Designing for iOS</a></td>
-</tr>
-<tr>
-<td><a href="http://isux.tencent.com/ios8-human-interface-guidelines-design-strategies.html">设计策略</a> </td>
-<td> - </td>
-<td> <a href="https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Principles.html#//apple_ref/doc/uid/TP40006556-CH4-SW1">Design Principles</a></td>
-</tr>
-<tr>
-<td>iOS 技术（<a href="http://isux.tencent.com/ios8-human-interface-guidelines-technology-html.html">上</a>、<a href="http://isux.tencent.com/ios8-human-interface-guidelines-technology.html">下</a>）</td>
-<td>-</td>
-<td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71-SW1">iOS Technologies</a></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li><p><a href="http://www.cocoachina.com/industry/20130628/6502.html">iOS 7 人机交互指南</a> By CocoaChina</p></li>
-</ul>
-
-
-<hr />
-
-<h2><a id="swift_courses"></a><a href="https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md">教程、指南、文章</a></h2>
-
-<blockquote><p>旧版内容过于庞杂，不再维护，取而代之的是《<a href="https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md">Swift 文章精选</a>》。P.S. 需要查阅旧版内容的同学，详见<a href="https://github.com/ipader/SwiftGuide/tree/master/archive/tutorial.md">Swift 教程（旧版）</a>。</p></blockquote>
-
-<hr />
+<h2><a id="swift_courses"></a><a href="https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md">教程文章</a></h2>
 
 <h2><a id="swift_projects"></a><a href="https://github.com/ipader/SwiftGuide/blob/master/Featured.md">开源项目</a></h2>
-
-<blockquote><p>旧版内容过于庞杂，不再维护，取而代之的是《<a href="https://github.com/ipader/SwiftGuide/blob/master/Featured.md">Swift 项目精选</a>》。P.S. 需要查阅旧版内容的同学，详见<a href="https://github.com/ipader/SwiftGuide/tree/master/archive/projects.md">Swift 项目（旧版）</a>。</p></blockquote>
-
-<hr />
 
 <h2><a id="recomm_sites"></a>推荐网站</h2>
 
@@ -577,6 +267,9 @@ sup {
 <li><a href="https://github.com/bboyfeiyu/iOS-tech-frontier">iOS 开发技术前线</a>：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：<a href="http://weibo.com/u/5589212242">@开发技术前线</a></li>
 <li><a href="http://www.cocoachina.com/ios/20150626/11348.html">11个超棒的 iOS 开发学习网站</a>：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。</li>
 </ul>
+</li>
+</ul>
+
 
 <hr />
 
@@ -626,6 +319,7 @@ sup {
 <h3>4. 管理工具</h3>
 
 <ul>
+<li><a href="https://github.com/kylef/swiftenv">swiftenv</a>：Swift 版本管理器。类似 rvm（Ruby）, nvm（Node.js）。</li>
 <li><a href="http://brew.sh/index_zh-cn.html">HomeBrew</a>：OS X 上非常出色的包管理工具。</li>
 <li><a href="http://panic.com/transmit/">Transmit ($)</a>：一个Mac OS X 上 FTP 客户端，有着非常漂亮的用户界面和有用的功能。</li>
 </ul>
@@ -638,12 +332,10 @@ sup {
 </ul>
 
 
-<h3>6. 参考文章</h3>
+<h3>6. 设计工具</h3>
 
 <ul>
-<li><a href="http://www.cocoachina.com/ios/20140417/8187.html">iOS 开发工具</a>："这是我们多篇 iOS 开发工具系列篇中的一篇，此前的文章比如：那些不能错过的 Xcode 插件，iOS 开发者有价值的工具集，iOS/OS X 开发：各种工具快到碗里来！，App 原型设计工具使用心得（上）&amp; App 原型设计工具使用心得（下），你用哪种工具进行 iOS app 自动化功能测试？iOS 开发者必知的 75 个工具" By @CocoaChina</li>
-<li><a href="http://www.cnblogs.com/daiweilai/p/4421340.html">IOS 各种调试技巧豪华套餐</a>：讲得很细。对于初学 Xcode 开发的同学值得参考，对于有经验的同学可以略过。作者：<a href="http://weibo.com/daiweilai">@David戴未来</a></li>
-<li><a href="http://www.cocoachina.com/ios/20150423/11658.html">详解Xcode 6的视图调试</a>：教程非常实用，值得学习。另外，教程选用的开源项目（<a href="https://github.com/jessesquires/JSQMessagesViewController">jessesquires/JSQMessagesViewController</a>）也很经典。来源：Ray Wenderlich，译者：<a href="http://weibo.com/cocoachina">@CocoaChina</a> 翻译组</li>
+<li><a href="http://www.sketchapp.com/">sketch</a>：更适合开发应用的矢量设计工具。通过插件还支持与代码协同工作。推荐书籍：<a href="https://designcode.io/sketch">Learn Sketch 3</a></li>
 </ul>
 
 
@@ -652,8 +344,7 @@ sup {
 <h2><a href="https://github.com/ipader/SwiftGuide/tree/master/archive/platforms.md">开放平台</a></h2>
 
 <h2><a href="https://github.com/ipader/SwiftGuide/blob/master/Apple%20Watch/README.md">Apple Watch 指南</a></h2>
+</body>
 <div style = "display:none">
 <script src="http://s4.cnzz.com/stat.php?id=5934372&web_id=5934372" language="JavaScript"></script>
-</div>
-</body>
-</html>
+</div></html>
