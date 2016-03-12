@@ -1,4 +1,4 @@
-![](http://dulema.sinaapp.com/logo/sl-banner.png")
+![](http://dulema.sinaapp.com/logo/sl-banner.png)
 
 Swift 语言指南
 ===
