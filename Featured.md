@@ -2,15 +2,15 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-7，最近新收录 [PromiseKit](https://github.com/mxcl/PromiseKit), [Zewo](https://github.com/Zewo/Zewo), [Kitura](https://github.com/IBM-Swift/Kitura), [TryParsec](https://github.com/inamiy/TryParsec), [Tentacle](https://github.com/mdiep/Tentacle), [Express](https://github.com/crossroadlabs/Express), [Swifton](https://github.com/necolt/Swifton), [VideoSplashKit](https://github.com/movielala/VideoSplashKit), [BTree](https://github.com/lorentey/BTree), [Markoff](https://github.com/thoughtbot/Markoff), [Heimdall](https://github.com/henrinormak/Heimdall), [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage), [Validated](https://github.com/Ben-G/Validated), [RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore), [STLocationRequest](https://github.com/SvenTiigi/STLocationRequest), [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard), [shift-js](https://github.com/shift-js/shift-js) 等 16 个，合计已收录 341 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-14，最近新收录 [Log](https://github.com/delba/Log), [navigation-stack](https://github.com/Ramotion/navigation-stack), [SubtleVolume](https://github.com/andreamazz/SubtleVolume), [then](https://github.com/s4cha/then), [SoundCloudSwift](https://github.com/pepibumur/SoundCloudSwift), [WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView), [Nebula](https://github.com/FlexMonkey/Nebula), [turbolinks-ios](https://github.com/turbolinks/turbolinks-ios), [injectionforxcode](https://github.com/johnno1962/injectionforxcode) 等 9 个，合计已收录 350 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
 * [存储](#storage)
 * [网络](#network)
 * [图片](#pictures)
-* [界面](#interfaces)
 * [框架](#framework)
+* [界面](#interfaces)
 * [示例](#demo)
 * [应用](#projects)
 	
@@ -38,6 +38,7 @@
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)|[Dave Wood](https://github.com/tangplin)|功能完整的日志管理类库
 [CleanroomLogger](https://github.com/emaloney/CleanroomLogger)|[emaloney](https://github.com/emaloney)|相当于 CocoaLumberjack 或 Log4j 
 [Loggerithm](https://github.com/honghaoz/Loggerithm)|[张宏昊](https://github.com/honghaoz)|靠谱的日志管理输出类库
+[Log](https://github.com/delba/Log)|[Damien](https://github.com/delba)|可定制输出格式、主题风格
 [Surge](https://github.com/mattt/Surge) |[Mattt Thompson ](https://github.com/mattt)|基于苹果 Accelerate 高性能计算框架封装库
 [Watchdog](https://github.com/wojteklukaszuk/Watchdog)|[Wojtek Lukaszuk](https://github.com/wojteklukaszuk)|实时监视主线程运行或堵塞情况
 [Async](https://github.com/duemunk/Async)|[Due Munk](http://developmunk.dk/)|简洁的后台执行代码封装库
@@ -148,6 +149,68 @@
 [Nuke](https://github.com/kean/Nuke)|[Alexander Grebenyuk](https://github.com/kean)|完整、强大、实用的图片管理类库
 [Filterpedia](https://github.com/FlexMonkey/Filterpedia)|[simon gladman](https://github.com/FlexMonkey)|Core Image 下强大的图片滤镜类库演示应用
 
+### <a id="framework"></a>框架
+
+	项目 | 开发者 | 备注
+------------ | ------------- | -------------
+[PromiseKit](https://github.com/mxcl/PromiseKit)|[Max Howell](https://github.com/mxcl) |Swift 化的 Promise 类库
+[then](https://github.com/s4cha/then)|[S4cha](https://github.com/s4cha)|极为简洁的 Promise 轻量实现
+[AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)|[facebook](https://github.com/facebook/)|提供界面的高流畅性切换及更灵敏的响应
+[Cartography](https://github.com/robb/Cartography)|[Robert Böhnke](http://robb.is)|基于代码级的自动布局封装框架
+[Stevia](https://github.com/s4cha/Stevia)|[S4cha](https://github.com/s4cha)|简单、直观的纯代码自动布局类库
+[MMWormhole](https://github.com/mutualmobile/MMWormhole)|[Mutual Mobile](http://www.mutualmobile.com/)|iOS 扩展与宿主应用的通讯框架
+[Wormhole](https://github.com/nixzhu/Wormhole)|[@nixzhu](http://weibo.com/nixzhu)|[MMWormhole](https://github.com/mutualmobile/MMWormhole) 的纯 Swift 版本
+[NetworkObjects](https://github.com/colemancda/NetworkObjects)|[Coleman Miller](http://colemancda.com)|轻量版 HttpServer 框架，跨平台解决方案
+[SwiftFoundation](https://github.com/PureSwift/SwiftFoundation)|[PureSwift](https://github.com/PureSwift)|跨平台（支持 Linux）、面向协议编程基础库
+[MotionKit](https://github.com/MHaroonBaig/MotionKit)|[Haroon Baig](https://github.com/MHaroonBaig)|方便使用三轴陀螺仪、加速感应器及磁力仪
+[Jetstream](https://github.com/uber/jetstream-ios)|[Uber](https://github.com/uber)| 支持多用户实时通讯的 MVC 框架
+[SwiftSpace](https://github.com/FlexMonkey/SwiftSpace)|[simon gladman](https://github.com/FlexMonkey)|通过重力感应、陀螺仪、摄像头等常用传感器进行三维绘图
+[JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)|[Jesse Squires](https://github.com/jessesquires)|轻量、易用的通知发送及响应框架类库
+[X](https://github.com/soffes/X)|[Sam Soffes](https://github.com/soffes)|iOS/OS X 平台统一开发类库
+[TouchVisualizer](https://github.com/morizotter/TouchVisualizer)|[Morita Naoki](https://github.com/morizotter)|实用的多点触摸可视化组件
+[Bond](https://github.com/SwiftBond/Bond)|[Bond](https://github.com/SwiftBond)|使用简单、易于理解的对象绑定框架
+[Prototope](https://github.com/Khan/Prototope)|[Khan Academy](https://github.com/Khan)|一款轻量的 Javascript 桥接 Swift 库
+[XcodeServerSDK](https://github.com/czechboy0/XcodeServerSDK)|[Honza Dvorsky](https://github.com/czechboy0)|非官方 Xcode Server SDK 封装库
+[ios-universal-webview-boilerplate](https://github.com/nabilfreeman/ios-universal-webview-boilerplate)|[Freeman](https://github.com/nabilfreeman)|快速封装 WebApp 到 iOS 应用
+[Perfect](https://github.com/PerfectlySoft/Perfect)|[PerfectlySoft](https://github.com/PerfectlySoft)|打造专业应用服务器开始
+[Zewo](https://github.com/Zewo/Zewo)|[Zewo](https://github.com/Zewo)|底层库组件化超强大中间件框架
+[Kitura](https://github.com/IBM-Swift/Kitura)|[Swift@IBM](https://github.com/IBM-Swift)|IBM Swift 开发组的开源 Web 服务器
+[Express](https://github.com/crossroadlabs/Express)|[Crossroad Labs](crossroadlabs/Express)|Swift 版 Express.js 风格应用服务器
+[Swifton](https://github.com/necolt/Swifton)|[NECOLT](https://github.com/necolt)|Ruby on Rails 风格 Web 服务器框架
+[Epoch](https://github.com/Zewo/Epoch)|[Zewo](https://github.com/Zewo)|独立于平台的 Http 服务器
+[swift-http](https://github.com/huytd/swift-http)|[Henry Tr.](https://github.com/huytd)|符合开放平台规范的最简 HTTP 示例服务器
+[Curassow](https://github.com/kylef/Curassow)|[Kyle Fuller](https://github.com/kylef) |简单、高效、低耦专业 Web 服务器及示例
+[swifter](https://github.com/glock45/swifter)|[Damian Kołakowski](https://github.com/glock45)|轻量的 HTTP 服务器引擎
+[vapor](https://github.com/tannernelson/vapor)|[Tanner](https://github.com/tannernelson)|更轻量、小巧型，且方便二次开发的 Web 服务器
+[blackfish](https://github.com/elliottminns/blackfish)|[Elliott Minns](https://github.com/elliottminns)|基于 Node.js/Express 风格的 Web 服务器
+[CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)|[CloudKitSpace](https://github.com/CloudKitSpace)|基于 CloudKit 服务器实现多终端数据同步
+[apous](https://github.com/owensd/apous)|[David Owens II](https://github.com/owensd)|让 Swift 成为脚本语言
+[RxSwift](https://github.com/ReactiveX/RxSwift)|[ReactiveX](https://github.com/ReactiveX)|让事件驱动应用更容易进行管理
+[Interstellar](https://github.com/JensRavens/Interstellar)|[Jens Ravens](https://github.com/JensRavens)|简单、轻量的函数响应式编程框架
+[mattress](https://github.com/buzzfeed/mattress)|[BuzzFeed](https://github.com/buzzfeed)|离线缓存 Web 浏览内容
+[BluetoothKit](https://github.com/rasmusth/BluetoothKit)|[Rasmus Taulborg Hummelmose](https://github.com/rasmusth)|基于 CoreBluetooth API 跨设备间蓝牙通讯封装类库
+[Erik](https://github.com/phimage/Erik)|[phimage](https://github.com/phimage)|主要应用于网页功能测试
+[Chatto](https://github.com/badoo/Chatto)|[Badoo Development](https://github.com/badoo)|轻量级聊天应用框架及示例
+[ALCameraViewController](https://github.com/AlexLittlejohn/ALCameraViewController)|[Alex Littlejohn](https://github.com/AlexLittlejohn)|摄像头视图控制器
+[Swift-AI](https://github.com/collinhundley/Swift-AI)|[Collin Hundley](https://github.com/collinhundley)|开发中的 AI 及机器学习库
+[Popsicle](https://github.com/DavdRoman/Popsicle)|[David Román](https://github.com/DavdRoman)|内置支持 UIKit 的插值框架类库及演示
+[C4iOS](https://github.com/C4Framework/C4iOS)|[-- C4 --](https://github.com/C4Framework)|用更少的代码，创建最佳应用体验库
+[BothamUI](https://github.com/Karumi/BothamUI)|[Karumi](https://github.com/Karumi)|MVP 框架库及示例
+[ReduxKit](https://github.com/ReduxKit/ReduxKit)|[ReduxKit](https://github.com/ReduxKit)|新颖的状态流记录框架
+[SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)|[Umberto Raimondi](https://github.com/uraimo)| 控制 C.H.I.P. 或树莓派的 GPIOs
+[Swindler](https://github.com/tmandry/Swindler)|[Tyler Mandry](https://github.com/tmandry)|管理 OS X 应用窗口框架
+[Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift)|[Daniel Hong](https://github.com/unifiedh)|将 iOS API 移植到 OS X 的高度实验性项目
+[SwiftAndroid](https://github.com/SwiftAndroid/swift)| [SwiftAndroid](https://github.com/SwiftAndroid)|苹果swift开源分支，写 Android 应用，详见：[Getting started](https://github.com/SwiftAndroid/swift/wiki/Getting-started)
+[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)|[FolioReader](https://github.com/FolioReader)|ePub 阅读器及解析框架库
+[LeanCloud SDK](https://leancloud.cn)|[LeanCloud](https://github.com/leancloud)|数据存储、用户管理、消息推送、应用统计、社交分享、实时聊天等服务
+[Localize-Swift](https://github.com/marmelroy/Localize-Swift)|[Roy Marmelstein](https://github.com/marmelroy)|国际化及本地化字符串框架库
+[AudioKit](https://github.com/audiokit/AudioKit)|[AudioKit](https://github.com/audiokit)|音频合成、加工及分析平台框架库
+[URLNavigator](https://github.com/devxoul/URLNavigator)|[Jeon Suyeol](https://github.com/devxoul)|URL 与 view controllers 导航映射
+[Heimdall](https://github.com/henrinormak/Heimdall)|[Henri Normak](https://github.com/henrinormak)|易用的加、解密安全框架（AES/RSA）库
+[RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore)|[エウレカ](https://github.com/eure)|集 Realm 数据库和 CoreData 对象模型两者优势
+[SoundCloudSwift](https://github.com/pepibumur/SoundCloudSwift)|[Pedro Piñera Buendía](https://github.com/pepibumur)|SoundCloud 全平台客户端，功能完整、易于集成
+[turbolinks-ios](https://github.com/turbolinks/turbolinks-ios)|[Turbolinks](https://github.com/turbolinks)|提供了导航效率更高的本地适配及hybrid 方案
+
 ### <a id="interfaces"></a>界面
 
 	项目 | 开发者 | 备注
@@ -184,6 +247,7 @@
 [Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)|[Wagner Truppel](https://github.com/wltrup)|小而精悍地可定制类似  Watch 圆型进程条组件
 [GaugeKit](https://github.com/skywinder/GaugeKit)|[Petr Korolev](https://github.com/skywinder)| Watch 风格运动进程表盘
 [LiquidLoader](https://github.com/yoavlt/LiquidLoader)|[Takuma Yoshida](https://github.com/yoavlt)|细滑进程装载动画效果
+[WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|可配置圆形波浪进度指示器类及演示
 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)|[Fahim Farook](https://github.com/FahimF)|Float Label Pattern 浮动标签输入效果类
 [ParkedTextField](https://github.com/gmertk/ParkedTextField)|[Gunay Mert Karadogan](https://github.com/gmertk)|带固定文本的输入组件
 [ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)|[Optonaut](https://github.com/optonaut)|扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应
@@ -257,65 +321,8 @@
 [VideoSplashKit](https://github.com/movielala/VideoSplashKit)| [MovieLaLa](https://github.com/movielala)|易用的视频播放组件。P.S. 视频及 tvOS 开发可以关注该开发者
 [Gecco](https://github.com/yukiasai/Gecco)|[yukiasai](https://github.com/yukiasai)|帮助开发者快速制作新手导引界面
 [STLocationRequest](https://github.com/SvenTiigi/STLocationRequest)|[SvenTiigi](https://github.com/SvenTiigi)| 360 度 3D 俯瞰图方式请求用户位置
-
-### <a id="framework"></a>框架
-
-	项目 | 开发者 | 备注
------------- | ------------- | -------------
-[PromiseKit](https://github.com/mxcl/PromiseKit)|[Max Howell](https://github.com/mxcl) |Swift 化的 Promise 类库
-[AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)|[facebook](https://github.com/facebook/)|提供界面的高流畅性切换及更灵敏的响应
-[Cartography](https://github.com/robb/Cartography)|[Robert Böhnke](http://robb.is)|基于代码级的自动布局封装框架
-[Stevia](https://github.com/s4cha/Stevia)|[S4cha](https://github.com/s4cha)|简单、直观的纯代码自动布局类库
-[MMWormhole](https://github.com/mutualmobile/MMWormhole)|[Mutual Mobile](http://www.mutualmobile.com/)|iOS 扩展与宿主应用的通讯框架
-[Wormhole](https://github.com/nixzhu/Wormhole)|[@nixzhu](http://weibo.com/nixzhu)|[MMWormhole](https://github.com/mutualmobile/MMWormhole) 的纯 Swift 版本
-[NetworkObjects](https://github.com/colemancda/NetworkObjects)|[Coleman Miller](http://colemancda.com)|轻量版 HttpServer 框架，跨平台解决方案
-[SwiftFoundation](https://github.com/PureSwift/SwiftFoundation)|[PureSwift](https://github.com/PureSwift)|跨平台（支持 Linux）、面向协议编程基础库
-[MotionKit](https://github.com/MHaroonBaig/MotionKit)|[Haroon Baig](https://github.com/MHaroonBaig)|方便使用三轴陀螺仪、加速感应器及磁力仪
-[Jetstream](https://github.com/uber/jetstream-ios)|[Uber](https://github.com/uber)| 支持多用户实时通讯的 MVC 框架
-[SwiftSpace](https://github.com/FlexMonkey/SwiftSpace)|[simon gladman](https://github.com/FlexMonkey)|通过重力感应、陀螺仪、摄像头等常用传感器进行三维绘图
-[JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit)|[Jesse Squires](https://github.com/jessesquires)|轻量、易用的通知发送及响应框架类库
-[X](https://github.com/soffes/X)|[Sam Soffes](https://github.com/soffes)|iOS/OS X 平台统一开发类库
-[TouchVisualizer](https://github.com/morizotter/TouchVisualizer)|[Morita Naoki](https://github.com/morizotter)|实用的多点触摸可视化组件
-[Bond](https://github.com/SwiftBond/Bond)|[Bond](https://github.com/SwiftBond)|使用简单、易于理解的对象绑定框架
-[Prototope](https://github.com/Khan/Prototope)|[Khan Academy](https://github.com/Khan)|一款轻量的 Javascript 桥接 Swift 库
-[XcodeServerSDK](https://github.com/czechboy0/XcodeServerSDK)|[Honza Dvorsky](https://github.com/czechboy0)|非官方 Xcode Server SDK 封装库
-[ios-universal-webview-boilerplate](https://github.com/nabilfreeman/ios-universal-webview-boilerplate)|[Freeman](https://github.com/nabilfreeman)|快速封装 WebApp 到 iOS 应用
-[Perfect](https://github.com/PerfectlySoft/Perfect)|[PerfectlySoft](https://github.com/PerfectlySoft)|打造专业应用服务器开始
-[Zewo](https://github.com/Zewo/Zewo)|[Zewo](https://github.com/Zewo)|底层库组件化超强大中间件框架
-[Kitura](https://github.com/IBM-Swift/Kitura)|[Swift@IBM](https://github.com/IBM-Swift)|IBM Swift 开发组的开源 Web 服务器
-[Express](https://github.com/crossroadlabs/Express)|[Crossroad Labs](crossroadlabs/Express)|Swift 版 Express.js 风格应用服务器
-[Swifton](https://github.com/necolt/Swifton)|[NECOLT](https://github.com/necolt)|Ruby on Rails 风格 Web 服务器框架
-[Epoch](https://github.com/Zewo/Epoch)|[Zewo](https://github.com/Zewo)|独立于平台的 Http 服务器
-[swift-http](https://github.com/huytd/swift-http)|[Henry Tr.](https://github.com/huytd)|符合开放平台规范的最简 HTTP 示例服务器
-[Curassow](https://github.com/kylef/Curassow)|[Kyle Fuller](https://github.com/kylef) |简单、高效、低耦专业 Web 服务器及示例
-[swifter](https://github.com/glock45/swifter)|[Damian Kołakowski](https://github.com/glock45)|轻量的 HTTP 服务器引擎
-[vapor](https://github.com/tannernelson/vapor)|[Tanner](https://github.com/tannernelson)|更轻量、小巧型，且方便二次开发的 Web 服务器
-[blackfish](https://github.com/elliottminns/blackfish)|[Elliott Minns](https://github.com/elliottminns)|基于 Node.js/Express 风格的 Web 服务器
-[CKSIncrementalStore](https://github.com/CloudKitSpace/CKSIncrementalStore)|[CloudKitSpace](https://github.com/CloudKitSpace)|基于 CloudKit 服务器实现多终端数据同步
-[apous](https://github.com/owensd/apous)|[David Owens II](https://github.com/owensd)|让 Swift 成为脚本语言
-[RxSwift](https://github.com/ReactiveX/RxSwift)|[ReactiveX](https://github.com/ReactiveX)|让事件驱动应用更容易进行管理
-[Interstellar](https://github.com/JensRavens/Interstellar)|[Jens Ravens](https://github.com/JensRavens)|简单、轻量的函数响应式编程框架
-[mattress](https://github.com/buzzfeed/mattress)|[BuzzFeed](https://github.com/buzzfeed)|离线缓存 Web 浏览内容
-[BluetoothKit](https://github.com/rasmusth/BluetoothKit)|[Rasmus Taulborg Hummelmose](https://github.com/rasmusth)|基于 CoreBluetooth API 跨设备间蓝牙通讯封装类库
-[Erik](https://github.com/phimage/Erik)|[phimage](https://github.com/phimage)|主要应用于网页功能测试
-[Chatto](https://github.com/badoo/Chatto)|[Badoo Development](https://github.com/badoo)|轻量级聊天应用框架及示例
-[ALCameraViewController](https://github.com/AlexLittlejohn/ALCameraViewController)|[Alex Littlejohn](https://github.com/AlexLittlejohn)|摄像头视图控制器
-[Swift-AI](https://github.com/collinhundley/Swift-AI)|[Collin Hundley](https://github.com/collinhundley)|开发中的 AI 及机器学习库
-[Popsicle](https://github.com/DavdRoman/Popsicle)|[David Román](https://github.com/DavdRoman)|内置支持 UIKit 的插值框架类库及演示
-[C4iOS](https://github.com/C4Framework/C4iOS)|[-- C4 --](https://github.com/C4Framework)|用更少的代码，创建最佳应用体验库
-[BothamUI](https://github.com/Karumi/BothamUI)|[Karumi](https://github.com/Karumi)|MVP 框架库及示例
-[ReduxKit](https://github.com/ReduxKit/ReduxKit)|[ReduxKit](https://github.com/ReduxKit)|新颖的状态流记录框架
-[SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)|[Umberto Raimondi](https://github.com/uraimo)| 控制 C.H.I.P. 或树莓派的 GPIOs
-[Swindler](https://github.com/tmandry/Swindler)|[Tyler Mandry](https://github.com/tmandry)|管理 OS X 应用窗口框架
-[Chameleon-Swift](https://github.com/unifiedh/Chameleon-Swift)|[Daniel Hong](https://github.com/unifiedh)|将 iOS API 移植到 OS X 的高度实验性项目
-[SwiftAndroid](https://github.com/SwiftAndroid/swift)| [SwiftAndroid](https://github.com/SwiftAndroid)|苹果swift开源分支，写 Android 应用，详见：[Getting started](https://github.com/SwiftAndroid/swift/wiki/Getting-started)
-[FolioReaderKit](https://github.com/FolioReader/FolioReaderKit)|[FolioReader](https://github.com/FolioReader)|ePub 阅读器及解析框架库
-[LeanCloud SDK](https://leancloud.cn)|[LeanCloud](https://github.com/leancloud)|数据存储、用户管理、消息推送、应用统计、社交分享、实时聊天等服务
-[Localize-Swift](https://github.com/marmelroy/Localize-Swift)|[Roy Marmelstein](https://github.com/marmelroy)|国际化及本地化字符串框架库
-[AudioKit](https://github.com/audiokit/AudioKit)|[AudioKit](https://github.com/audiokit)|音频合成、加工及分析平台框架库
-[URLNavigator](https://github.com/devxoul/URLNavigator)|[Jeon Suyeol](https://github.com/devxoul)|URL 与 view controllers 导航映射
-[Heimdall](https://github.com/henrinormak/Heimdall)|[Henri Normak](https://github.com/henrinormak)|易用的加、解密安全框架（AES/RSA）库
-[RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore)|[エウレカ](https://github.com/eure)|集 Realm 数据库和 CoreData 对象模型两者优势
+[navigation-stack](https://github.com/Ramotion/navigation-stack)|[Ramotion](https://github.com/Ramotion)|导航控制器的 Stack 视图模型最佳实践
+[SubtleVolume](https://github.com/andreamazz/SubtleVolume)|[Andrea Mazzini](https://github.com/andreamazz)|更隐蔽的系统音量替代指示器
 
 ### <a id="demo"></a>示例
 
@@ -350,6 +357,7 @@
 [trySwiftApp](https://github.com/NatashaTheRobot/trySwiftApp)|[Natasha Murashev](https://github.com/NatashaTheRobot)|一款较为完整的会议原型应用
 [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)|[@Allen朝辉](http://weibo.com/wangchaohui)|相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目
 [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
+[Nebula](https://github.com/FlexMonkey/Nebula)|[simon gladman](https://github.com/FlexMonkey)|调用 GLSL 渲染[星云变化图](http://glslsandbox.com/e#31308.0)演示
 
 ### <a id="projects"></a>应用
 
@@ -387,3 +395,4 @@
 [Yep](https://github.com/CatchChat/Yep)|[Catch](https://github.com/CatchChat)| “打造由天才开发给天才们使用的社交软件”
 [Phonetic](https://github.com/iAugux/Phonetic)|[@iAugus](http://weibo.com/augusoo7)|iOS 版的 Phonetic Contacts
 [shift-js](https://github.com/shift-js/shift-js)|[ShiftJS](https://github.com/shift-js)|Swift 程序员在写 iOS 和 Web 应用时无需语言切换
+[injectionforxcode](https://github.com/johnno1962/injectionforxcode)|[Toshihiro Morimoto](https://github.com/dealforest)|修改一个类的代码实现而不用重启整个应用 Xcode 插件

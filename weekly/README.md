@@ -1,18 +1,29 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 
-##[Issue 47](Issue-47.md)
+## [Issue 48](Issue-48.md)
 
-**本期特别推荐** 1. 项目：[Kitura](https://github.com/IBM-Swift/Kitura)（IBM Swift 开发组的开源 Web 服务器）
+**本期特别推荐** 1. 项目：[injectionforxcode](https://github.com/johnno1962/injectionforxcode)（修改一个类的代码实现而不用重启整个应用 Xcode 插件），[navigation-stack](https://github.com/Ramotion/navigation-stack)（导航控制器的 Stack 视图模型最佳实践）以及 [WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView)（可配置圆形波浪进度指示器类及演示）；2. 文档：[Swift 入门指引](http://dev.swiftguide.cn/archive/getting-started-in-swift_v1.0.html) 和 [iOS 9 人机界面指南](https://isux.tencent.com/?s=iOS+9+人机界面指南)。
+
+**大声一**：Apple TV Tech Talks 和 WWDC 2015 的视频 已添加简体中文的字幕，现在开始您可以观看[翻译版的研讨会视频](https://developer.apple.com/videos/)了。
+
+**大声二**：终于决定建一个公众服务号了，用途除了方便移动端获取 Swift 优质资源外，同时考虑为不同层级用户提供些个性化定制服务。欢迎关注（公众号：swiftguide）。
+
+![](../archive/weixin-swiftlanguage.jpg)
+
+## 往期回顾
+* [Issue 47](Issue-47.md)
+
+	> **本期特别推荐** 1. 项目：[Kitura](https://github.com/IBM-Swift/Kitura)（IBM Swift 开发组的开源 Web 服务器）
 ，[Advance](https://github.com/storehouse/Advance)（侧重在手势交互、帧动画、自定义动画及仿真类型的动画框架库），[PromiseKit](https://github.com/mxcl/PromiseKit)（Swift 化的 Promise 类库）以及 [Zewo](https://github.com/Zewo/Zewo)（底层库组件化超强大中间件框架）
 ，2. 文档：[ReactiveCocoa 4 官方文档翻译](http://www.jianshu.com/p/fccba7be1ca1)，[Swift 性能探索和优化分析](https://onevcat.com/2016/02/swift-performance/)，[给 iOS 开发者的 Sketch 入门教程](http://ios.jobbole.com/83865/) 以及 [Perfect 让 Swift 在服务器端跑起来](http://blog.csdn.net/u014388424/article/category/6092861)
 
-**大声一**：[IBM成为首个支持云端进行 Swift 应用开发的云供应商](http://t.cn/RGj1WYr)。 By [@IBM中国](http://weibo.com/u/1937649537)
+	> **大声一**：[IBM成为首个支持云端进行 Swift 应用开发的云供应商](http://t.cn/RGj1WYr)。 By [@IBM中国](http://weibo.com/u/1937649537)
 
-**大声二**：[30 Days of Swift 是如何成为本周 Github 全语言类第一的](http://weibo.com/ttarticle/p/show?id=2309403945025816947755)？ By [@Allen朝辉](http://weibo.com/wangchaohui)
+	> **大声二**：[30 Days of Swift 是如何成为本周 Github 全语言类第一的](http://weibo.com/ttarticle/p/show?id=2309403945025816947755)？ By [@Allen朝辉](http://weibo.com/wangchaohui)
 
-**大声三**：[中国首届 Swift 开发者大会嘉宾现场演讲视频正式上线了](http://www.imooc.com/learn/600)。 By [@慕课网](http://weibo.com/mukewang)
+	> **大声三**：[中国首届 Swift 开发者大会嘉宾现场演讲视频正式上线了](http://www.imooc.com/learn/600)。 By [@慕课网](http://weibo.com/mukewang)
 
-## 往期回顾
+
 * [Issue 46](Issue-46.md)
 
 	> **本期特别推荐** 1. 项目：[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)（相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目），[Tactile](https://github.com/delba/Tactile)（让手势识别如虎添翼），[folding-cell](https://github.com/Ramotion/folding-cell)（自然流畅、清新的单元格折叠动画类及演示），[Yep](https://github.com/CatchChat/Yep)（“打造由天才开发给天才们使用的社交软件”）；2. 文档：[新手指南：使用 Social Framework 以及 UIActivityViewController](http://swift.gg/2016/02/04/social-framework-introduction/)，《Threading Programming Guide》笔记（[1. 初识线程](http://geek.csdn.net/news/detail/54092)、[2. 线程配置与Run Loop](http://geek.csdn.net/news/detail/55617)、[3. Run Loop操作配置实践](http://geek.csdn.net/news/detail/56056)）
