@@ -18,7 +18,7 @@ Mar 17, 2015|[New Playgrounds Part 2 - Sources](https://developer.apple.com/swif
 Mar 12, 2015|[Nullability and Objective-C](https://developer.apple.com/swift/blog/?id=25)|[Swift Nullability and Objective-C](http://blog.csdn.net/zhangao0086/article/details/44409913)|[Bannings](https://github.com/zhangao0086)
 Feb 24, 2015|[New Playgrounds](https://developer.apple.com/swift/blog/?id=24)|-|N/A
 Feb 18, 2015|[The as! Operator](https://developer.apple.com/swift/blog/?id=23)|-|N/A
-Feb 9, 2015|[Swift 1.2 和 Xcode 6.3 beta](http://www.csdn.net/article/2015-03-06/2824131-xcode-6-3-beta-2)|[@老码团队](http://weibo.com/oldcoder)|[Swift 1.2 and Xcode 6.3 beta](https://developer.apple.com/swift/blog/?id=22)
+Feb 9, 2015|[Swift 1.2 and Xcode 6.3 beta](https://developer.apple.com/swift/blog/?id=22)|[Swift 1.2 和 Xcode 6.3 beta](http://www.csdn.net/article/2015-03-06/2824131-xcode-6-3-beta-2)|[@老码团队](http://weibo.com/oldcoder)
 Jan 28, 2015|[New Swift Development Courses Available on iTunes U](https://developer.apple.com/swift/blog/?id=21)|-|N/A
 Jan 23, 2015|[Redefining Everything with the Swift REPL](https://developer.apple.com/swift/blog/?id=20)|[Swift REPL：一切皆可重定义](http://www.cocoachina.com/ios/20150212/11147.html)|[@MichealGeng](http://weibo.com/MichealGeng)
 Dec 12, 2014|[ What Happened to NSMethodSignature?](https://developer.apple.com/swift/blog/?id=19)|[Swift 中的 NSMethodSignature 怎么了？](http://idlelife.org/archives/910)|[@pockry](http://weibo.com/pockry)
