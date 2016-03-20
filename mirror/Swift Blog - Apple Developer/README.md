@@ -1,6 +1,6 @@
-[Swift Blog - Apple Developer](https://developer.apple.com/swift/blog/)
+Swift Blog - Apple Developer（Mirror）
 ===
-"值得一提的是，Swift 博客是苹果官方网站的第一个 Blog，这也代表了苹果对开发者和消费者的态度正变得越来越开放。"
+> 这是 [苹果官方 Swift 博客](https://developer.apple.com/swift/blog/) 目录镜像。其中收录了 Swift 爱好者提供的对应博客中文翻译。[欢迎投递](https://github.com/ipader/SwiftGuide/tree/master/mirror/Swift%20Blog%20-%20Apple%20Developer)。
 
 
 日期| 原文 | 译文 | 译者 
