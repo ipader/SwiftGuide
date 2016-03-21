@@ -1,7 +1,7 @@
 ## Swift 文章精选
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》收录过的文章，做了一个甄别和筛选。目的是摒弃杂音，更利于提高学习效率。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-14，最近新收录 [Swift 入门指引](http://dev.swiftguide.cn/archive/getting-started-in-swift_v1.0.html)，[iOS 9 人机界面指南](https://isux.tencent.com/?s=iOS+9+人机界面指南)，[iOS 开发中设计并发任务技术与注意事项](http://geek.csdn.net/news/detail/60236)，[发现循环引用的方法](http://swift.gg/2016/03/09/a-trick-to-discover-retain-cycles/)，[初探 Swift Sequences 和 Generators](http://swift.gg/2016/03/10/experimenting-with-swift-2-sequencetype-generatortype/)，[使用 Swift 的面向协议编程定义 Segue 标识](http://swift.gg/2016/02/01/protocol-oriented-segue-identifiers-swift/)，[在iOS开发中如何优雅地进行图片缩放？](http://www.jianshu.com/p/af2d471f7b9c) 等 8 份，合计已收录 198 份。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-21，最近新收录 [Swift 通知推送新手指南](http://swift.gg/2016/03/15/push-notification-ios/)，[ENJOY 的 Apple Pay 应用内支付接入实践](http://geek.csdn.net/news/detail/60849)，[一步步教你实现类似于格瓦拉启动页中的放大转场动画](http://www.jianshu.com/p/8c29fce5a994)，[Hirundo：在 OS X 上轻松获取 Swift 邮件列表](http://swift.gg/2016/03/14/hirundo-mac-app-swift-mailing-lists/) 等 4 份，合计已收录 202 份。
 
 ### 教程和指南
 * [Swift 入门指引](http://dev.swiftguide.cn/archive/getting-started-in-swift_v1.0.html)：以官方文档为基础结合已有中译版，整了一份简版 Swift 入门指引。作者：[@SwiftLanugage](http://weibo.com/swiftlanguage)
@@ -32,6 +32,7 @@
 * [多范式编程语言－以 Swift 为例](http://www.infoq.com/cn/articles/multi-paradigm-programming-language-swift)：Swift 基本语法的分类总结。浅显易懂，非常适合初学者阅读参考。作者：[郭麟](http://www.infoq.com/cn/author/%E9%83%AD%E9%BA%9F)
 * [如何在 Swift 中创建 Action 扩展](http://www.devtalking.com/articles/how-to-create-action-extension/)：通过一个简单的 Action 扩展教你如何将 Safari 中拷贝的文本读入 Note 应用中。开发步骤很清晰，并提供完整示例项目代码 https://github.com/jorjuela33/NoteApp。虽然它"只是一个简单的Aciton扩展的例子，但我们可以由此延伸出更多有用、有创意的功能"。 译者：[@DevTalking](http://weibo.com/jacefu)
 * [在 iOS 8 中使用 Handoff](http://www.cocoachina.com/ios/20150115/10926.html)：“本文通过一个包含不同功能的联系人示例工程详细讲述了如何进行 Handoff 开发，以及需要注意的地方。By @CocoaChina”。来源：[AppCoda](http://www.appcoda.com/handoff/) ，译者：[@_HuaQiao](http://weibo.com/u/2509273763)
+* [Swift 通知推送新手指南](http://swift.gg/2016/03/15/push-notification-ios/)：“推送通知已经成为绝大多数应用的标配功能，技术上并不复杂，实现起来却有不少坑。今天这篇长文手把手教你实现通知推送，AppCoda 出品，强烈推荐”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@bestswifter](http://weibo.com/bestswifter)
 * [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：列举了常用设计模式，并结合 Swift 程序实现进行讲解。除了回顾设计模式外，它更易于理解 Swift 语言特性，以及了解 Swift 与其它编程语言间的差异。
 * [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：深入了解使用 String 的更高级技巧（尤其在 Unicode 的使用上）。为了更直观理解示例代码运行状态，作者附上了与本文几乎完全一致的 Playground 项目下载。P.S. 如今 Playground 已经成为讲授 Swift 使用小技巧及语言特性必备。
 * [Strings in Swift 2 译文](http://www.devtf.cn/?p=989)：“Swift 提供高性能，兼容 Unicode 的 String 作为标准库的一部分，在 Swift 2.0，String 类型不再符合CollectionType协议，曾经String是字符的集合，类似于 Array。现在，String 提供了一个公开字符集视图的charactes属性...”。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)
@@ -78,6 +79,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [新手指南：使用 Social Framework 以及 UIActivityViewController](http://swift.gg/2016/02/04/social-framework-introduction/)：“Appcoda 的长文来啦！以啰嗦著称的 Appcoda 这次介绍的是如何实现“分享到社交网络”功能”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@wangjianfeng](http://weibo.com/walkingway)
 * [如何使用 iOS9 中的 Core Spotlight 框架](https://segmentfault.com/a/1190000004502546)：“Core Spotlight框架是被称为Search APIs这个大集合API中的的一部分。该框架为程序员提供了一个机会来增加他们应用程序可发现性、可见性以及访问的便捷性，并且作为新特性该框架无法在之前版本的iOS中使用的。..”。译者：[BigNerdCoding](http://weibo.com/1314ddml)，原文：[How To Use Core Spotlight Framework in iOS 9](http://www.appcoda.com/core-spotlight-framework/)
 * [一步步创建自己的 iOS 框架](http://gold.xitu.io/entry/56a5727d128fe10051612147)：“如果你曾经试图去创建一个自己的iOS框架的话，你应该知道这件事并不是那些畏惧困难的人能够成功完成的，这篇文章将从开始到最终完成一步步的进行讲解，以便你掌握后可以更好的创建自己的框架”。建议交叉阅读 [@onevcat](http://weibo.com/onevcat) 的《[如何打造一个让人愉快的框架](https://github.com/atConf/atswift-2016-resources)》。原文：[Creating your first iOS Framework](https://robots.thoughtbot.com/creating-your-first-ios-framework)
+* [一步步教你实现类似于格瓦拉启动页中的放大转场动画](http://www.jianshu.com/p/8c29fce5a994)：“用过格瓦拉电影，或者其他app可能都知道，一种点击按钮用放大效果实现转场的动画现在很流行，效果大致如下...”。作者：[@HenryCheng](http://weibo.com/L0veway)
 * [给 iOS 开发者的 Sketch 入门教程](http://ios.jobbole.com/83865/)：“作为一名iOS开发者，我经历过几个没有设计师的项目，结果就是，痛苦的一逼。做这种类型的项目，设计是非常重要的，特别是迭代设计。但是怎样才能在没有设计师的前提下设计原型，那就必须用到Sketch这货”。译者：[@Andy矢倉](http://weibo.com/ganmaojijie)，来源：[Ray Wenderlich](https://www.raywenderlich.com/117609/sketch-indie-developers)
 * [中国首届 Swift 开发者大会－嘉宾现场演讲视频](http://www.imooc.com/learn/600)：“众多资深的 iOS 研发攻城狮，与你分享 Swift 的最新动向。没有机会到场的朋友们，快来先睹为快吧！By [@慕课网](http://weibo.com/mukewang)”
 * [iOS9-by-Tutorials-学习笔记九：3D Touch 入门教程](http://mengxiangyue.com/2016/02/23/iOS9-by-Tutorials-学习笔记九：3D-Touch/) By [@孟祥月_iOS](http://weibo.com/u/1750643861)
@@ -135,6 +137,8 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [初探 Swift Sequences 和 Generators](http://swift.gg/2016/03/10/experimenting-with-swift-2-sequencetype-generatortype/)：“如果你还不了解序列和生成器，那一定要看下这篇文章...”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[CoderAFI](http://coderafi.github.io)
 * [使用 Swift 的面向协议编程定义 Segue 标识](http://swift.gg/2016/02/01/protocol-oriented-segue-identifiers-swift/)：“这次，我准备写的是：处理多个 segue 标识的优雅解决方案。你猜对了！就是使用协议...”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@请叫我_小锅_](http://weibo.com/swiftyper)
 * [在iOS开发中如何优雅地进行图片缩放？](http://www.jianshu.com/p/af2d471f7b9c)：图片缩放开发技巧及经验分享。作者：[@Martin_wjl](http://weibo.com/u/5419850564)
+* [ENJOY 的 Apple Pay 应用内支付接入实践](http://geek.csdn.net/news/detail/60849)：Apple Pay 集成解决方案及开发最佳实践。作者：[webfrogs](http://weibo.com/u/1713195262)
+* [Hirundo：在 OS X 上轻松获取 Swift 邮件列表](http://swift.gg/2016/03/14/hirundo-mac-app-swift-mailing-lists/)：“Swift 邮件列表由 Apple 官方维护，包括 Chris Lattner 在内的各位大牛都在这里和开发者交流讨论。本文作者开发了一个 Mac 客户端，如果你想了解最新进展并且不喜欢查看邮箱的话，这是个不错的选择。”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[CoderAFI](http://coderafi.github.io)
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)

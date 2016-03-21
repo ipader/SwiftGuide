@@ -2,7 +2,7 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-14，最近新收录 [Log](https://github.com/delba/Log), [navigation-stack](https://github.com/Ramotion/navigation-stack), [SubtleVolume](https://github.com/andreamazz/SubtleVolume), [then](https://github.com/s4cha/then), [SoundCloudSwift](https://github.com/pepibumur/SoundCloudSwift), [WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView), [Nebula](https://github.com/FlexMonkey/Nebula), [turbolinks-ios](https://github.com/turbolinks/turbolinks-ios), [injectionforxcode](https://github.com/johnno1962/injectionforxcode) 等 9 个，合计已收录 350 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-31，最近新收录 [Duration](https://github.com/SwiftStudies/Duration), [Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift), [Fusuma](https://github.com/ytakzk/Fusuma), [sweetcorn](https://github.com/FlexMonkey/sweetcorn), [Kingsroad](https://github.com/ricebook/Kingsroad), [react-native-ios-charts](https://github.com/Jpadilla1/react-native-ios-charts), [PeekPop](https://github.com/marmelroy/PeekPop), [ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation), [boilerplate](https://github.com/tailec/boilerplate) 等 9 个，合计已收录 359 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
@@ -93,6 +93,7 @@
 [Every.swift](https://github.com/samhann/Every.swift)|[Samhan Salahuddin](https://github.com/samhann)|定时重复执行代码段工具类库
 [Tentacle](https://github.com/mdiep/Tentacle)|[Matt Diephouse](https://github.com/mdiep)|构建于 ReactiveCocoa 的 GitHub API
 [BTree](https://github.com/lorentey/BTree)|[Károly Lőrentey](https://github.com/lorentey/)|基于 B-Tree 更优执行性能的集合类型实现
+[Duration](https://github.com/SwiftStudies/Duration)|[Swift Studies](https://github.com/SwiftStudies)|测量代码片段执行时间
 
 ### <a id="storage"></a>存储
 
@@ -148,6 +149,7 @@
 [DynamicColor](https://github.com/yannickl/DynamicColor)|[Yannick Loriot](https://github.com/yannickl)|得到不同深浅、饱和度、灰度、色相，以及反转后的新颜色
 [Nuke](https://github.com/kean/Nuke)|[Alexander Grebenyuk](https://github.com/kean)|完整、强大、实用的图片管理类库
 [Filterpedia](https://github.com/FlexMonkey/Filterpedia)|[simon gladman](https://github.com/FlexMonkey)|Core Image 下强大的图片滤镜类库演示应用
+[sweetcorn](https://github.com/FlexMonkey/sweetcorn)|[simon gladman](https://github.com/FlexMonkey)|UI 配置生成图像滤镜代码
 
 ### <a id="framework"></a>框架
 
@@ -155,6 +157,7 @@
 ------------ | ------------- | -------------
 [PromiseKit](https://github.com/mxcl/PromiseKit)|[Max Howell](https://github.com/mxcl) |Swift 化的 Promise 类库
 [then](https://github.com/s4cha/then)|[S4cha](https://github.com/s4cha)|极为简洁的 Promise 轻量实现
+[Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift)|[BoltsFramework](https://github.com/BoltsFramework)|任务管理 futures/promises 异步实现
 [AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)|[facebook](https://github.com/facebook/)|提供界面的高流畅性切换及更灵敏的响应
 [Cartography](https://github.com/robb/Cartography)|[Robert Böhnke](http://robb.is)|基于代码级的自动布局封装框架
 [Stevia](https://github.com/s4cha/Stevia)|[S4cha](https://github.com/s4cha)|简单、直观的纯代码自动布局类库
@@ -210,6 +213,7 @@
 [RealmIncrementalStore](https://github.com/eure/RealmIncrementalStore)|[エウレカ](https://github.com/eure)|集 Realm 数据库和 CoreData 对象模型两者优势
 [SoundCloudSwift](https://github.com/pepibumur/SoundCloudSwift)|[Pedro Piñera Buendía](https://github.com/pepibumur)|SoundCloud 全平台客户端，功能完整、易于集成
 [turbolinks-ios](https://github.com/turbolinks/turbolinks-ios)|[Turbolinks](https://github.com/turbolinks)|提供了导航效率更高的本地适配及hybrid 方案
+[Kingsroad](https://github.com/ricebook/Kingsroad)|[ENJOY](https://github.com/ricebook)|hybrid 框架，兼容 Cordova 的 JS 接口
 
 ### <a id="interfaces"></a>界面
 
@@ -229,6 +233,7 @@
 [Static](https://github.com/venmo/Static)|[Venmo](https://github.com/venmo)|使用简单、功能强大地静态表格视图组件
 [BWWalkthrough](https://github.com/ariok/BWWalkthrough)|[Yari](https://github.com/ariok)|界面切换中加入灵动的动画效果
 [ios-charts](https://github.com/danielgindi/ios-charts)|[Daniel Gindi](https://github.com/danielgindi)|Android 图表开源库 MPAndroidChart 的 Swift 版
+[react-native-ios-charts](https://github.com/Jpadilla1/react-native-ios-charts)|[Jose Padilla](https://github.com/Jpadilla1)|将 [ios-charts](https://github.com/danielgindi/ios-charts) 引入 React Native 的图表组件库
 [PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift)|[Kevin Zhow](http://weibo.com/kevinzhow)|带动画效果的图表控件库
 [SwiftCharts](https://github.com/i-schuetz/SwiftCharts)|[Ivan Schütz](https://github.com/i-schuetz)|基于层架构设计思想的图表类库
 [HamburgerButton - Menu/Close](https://github.com/robb/hamburger-button)|[Robert Böhnke](http://robb.is)|无论[设计](http://robb.is/working-on/a-hamburger-button-transition/)还是代码，都进行了精雕细琢
@@ -263,6 +268,7 @@
 [MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)|[Michaël Azevedo](https://github.com/micazeve)|同样是下拉刷新，人家花了很大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
+[ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation)|[Alex](https://github.com/fruitcoder)|基于 [@ZeeYoung欧阳哲](http://weibo.com/zeeya) 创意下拉刷新动画实现
 [folding-cell](https://github.com/Ramotion/folding-cell)|[Ramotion](https://github.com/Ramotion)|自然流畅、清新的单元格折叠动画类及演示
 [Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例
 [tispr-card-stack](https://github.com/tispr/tispr-card-stack)|[tispr](https://github.com/tispr)|卡片风格动画切换组件及完整交互示例
@@ -336,6 +342,8 @@
 [PhotoBrowser](https://github.com/MoZhouqi/PhotoBrowser)|[Zhouqi Mo](http://weibo.com/u/2626996387)|简单又实用的 Instagram 图片浏览功能
 [SKPhotoBrowser](https://github.com/suzuki-0000/SKPhotoBrowser)|[suzuki-0000](https://github.com/suzuki-0000)|中规中矩、实用的图片浏览类库
 [ImageViewer](https://github.com/MailOnline/ImageViewer)|[MailOnline](https://github.com/MailOnline)|用心之作图片全屏预览组件及类库
+[Fusuma](https://github.com/ytakzk/Fusuma)|[Yuta Akizuki](https://github.com/ytakzk)|Instagram 风格图片浏览及拍照
+[PeekPop](https://github.com/marmelroy/PeekPop)|[Roy Marmelstein](https://github.com/marmelroy)|基于 3D Touch 苹果新特性 Peek/Pop 图片预览
 [CardAnimation](https://github.com/seedante/CardAnimation)|[@seedante](http://weibo.com/u/1815689155)|卡片式垂直翻转动画。[实现思路](http://www.jianshu.com/p/286222d4edf8)
 [RMParallax](https://github.com/michaelbabiy/RMParallax)|[Michael Babiy](https://github.com/michaelbabiy)|简单的帮助向导界面组件及示例
 [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)|[Kostiantyn Koval](https://github.com/kostiakoval)|学习 WatchKit 应用的示例式教程集锦
@@ -356,6 +364,7 @@
 [Ares](https://github.com/indragiek/Ares)|[Indragie Karunaratne](https://github.com/indragiek/Ares)|P2P 文件传输演示项目
 [trySwiftApp](https://github.com/NatashaTheRobot/trySwiftApp)|[Natasha Murashev](https://github.com/NatashaTheRobot)|一款较为完整的会议原型应用
 [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)|[@Allen朝辉](http://weibo.com/wangchaohui)|相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目
+[boilerplate](https://github.com/tailec/boilerplate)|[Pawel Krawiec](https://github.com/tailec)|亲历典型案例，探索选择合适的架构
 [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
 [Nebula](https://github.com/FlexMonkey/Nebula)|[simon gladman](https://github.com/FlexMonkey)|调用 GLSL 渲染[星云变化图](http://glslsandbox.com/e#31308.0)演示
 
