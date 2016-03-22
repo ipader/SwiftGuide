@@ -97,7 +97,7 @@ Swift 语言指南
 ---
 ## <a id="tools"></a>开发工具
 ### 1. 编程工具
-* [Xcode 6 beta下载](https://developer.apple.com/swift/resources/)：苹果应用集成开发环境。支持 C/C++, Objective C, Swift 等。不用购买开发者计划，直接下载。
+* [Xcode 下载](https://developer.apple.com/swift/resources/)：苹果应用集成开发环境。支持 C/C++, Objective C, Swift 等。不用购买开发者计划，直接下载。
 * [Textmate](http://macromates.com/)：Mac OS X 上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待 Xcode 加载的时候。该工具目前已经[开源](https://github.com/textmate/textmate)
 * [Mou](http://mouapp.com/)：OS X 上一款 Markdown 的编辑器。非常适用于编写自述文件、变更日志以及其他方面的内容。作者：[罗晨](http://chenluois.com/)
 * [Sublime Text ($)](http://www.sublimetext.com/)：Mac OS X 上另一款非常受欢迎的轻量级，可高度自定义的编辑器。
