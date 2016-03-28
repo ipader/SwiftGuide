@@ -9,15 +9,6 @@
 
 **大声二**: [Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch](http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch)
 
-[RxGesture](https://github.com/icanzilb/RxGesture)|[Marin Todorov](https://github.com/icanzilb)|基于 RxSwift 的手势视图库
-[SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)|[Andrea Bizzotto](https://github.com/bizz84)|轻量、易用的极简购买框架库
-[SwipeViewController](https://github.com/fortmarek/SwipeViewController)|[Marek Fořt](https://github.com/fortmarek)|页面滑动和标签选项卡，同 [RKSwipeBetweenViewControllers](https://github.com/cwRichardKim/RKSwipeBetweenViewControllers)
-[XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip)|[xmartlabs](https://github.com/xmartlabs)|Android 上最常用的 PagerTabStrip 在 iOS 中的实现
-[Permission](https://github.com/delba/Permission)|[Damien](https://github.com/delba)|统一的 API 请求 iOS 本地设备及资源权限类库
-[Appz](https://github.com/SwiftKitz/Appz)|[Kitz](https://github.com/SwiftKitz)|深入参数级别的外部应用启动器
-[Countdown](https://github.com/soffes/Countdown)|[Sam Soffes](https://github.com/soffes)|倒计时屏保。年龄屏保 [Motivation](https://github.com/soffes/Motivation)
-[TextKitAndAnimationEffect](https://github.com/morpheus1984/TextKitAndAnimationEffect)|[@我在罪恶坑的日子](http://weibo.com/u/1660258615)|文字下坠动画变化效果实现及示例（[开发过程详解](http://www.ismash.cn/post/ru-he-shi-xian-zi-ji-mei-shi-xian-guo-de-xu-qiu-zhi-wen-ben-dong-hua-pian)）
-
 ## 项目
 > [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [RxGesture](https://github.com/icanzilb/RxGesture), [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit), [SwipeViewController](https://github.com/fortmarek/SwipeViewController), [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip), [Permission](https://github.com/delba/Permission), [Appz](https://github.com/SwiftKitz/Appz), [Countdown](https://github.com/soffes/Countdown), [TextKitAndAnimationEffect](https://github.com/morpheus1984/TextKitAndAnimationEffect) 等 8 个，合计已收录 367 个。
 
