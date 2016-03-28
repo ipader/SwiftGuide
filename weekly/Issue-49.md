@@ -1,3 +1,5 @@
+![](http://dulema.sinaapp.com/logo/sl-banner.png)
+
 **[<= 往期回顾](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)**
 [Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 49
 ===
