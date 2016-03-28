@@ -2,7 +2,7 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-31，最近新收录 [Duration](https://github.com/SwiftStudies/Duration), [Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift), [Fusuma](https://github.com/ytakzk/Fusuma), [sweetcorn](https://github.com/FlexMonkey/sweetcorn), [Kingsroad](https://github.com/ricebook/Kingsroad), [react-native-ios-charts](https://github.com/Jpadilla1/react-native-ios-charts), [PeekPop](https://github.com/marmelroy/PeekPop), [ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation), [boilerplate](https://github.com/tailec/boilerplate) 等 9 个，合计已收录 359 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-28，最近新收录  [RxGesture](https://github.com/icanzilb/RxGesture), [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit), [SwipeViewController](https://github.com/fortmarek/SwipeViewController), [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip), [Permission](https://github.com/delba/Permission), [Appz](https://github.com/SwiftKitz/Appz), [Countdown](https://github.com/soffes/Countdown), [TextKitAndAnimationEffect](https://github.com/morpheus1984/TextKitAndAnimationEffect) 等 8 个，合计已收录 367 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
@@ -214,6 +214,9 @@
 [SoundCloudSwift](https://github.com/pepibumur/SoundCloudSwift)|[Pedro Piñera Buendía](https://github.com/pepibumur)|SoundCloud 全平台客户端，功能完整、易于集成
 [turbolinks-ios](https://github.com/turbolinks/turbolinks-ios)|[Turbolinks](https://github.com/turbolinks)|提供了导航效率更高的本地适配及hybrid 方案
 [Kingsroad](https://github.com/ricebook/Kingsroad)|[ENJOY](https://github.com/ricebook)|hybrid 框架，兼容 Cordova 的 JS 接口
+[SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)|[Andrea Bizzotto](https://github.com/bizz84)|轻量、易用的极简购买框架库
+[Permission](https://github.com/delba/Permission)|[Damien](https://github.com/delba)|统一的 API 请求 iOS 本地设备及资源权限类库
+[Appz](https://github.com/SwiftKitz/Appz)|[Kitz](https://github.com/SwiftKitz)|深入参数级别的外部应用启动器
 
 ### <a id="interfaces"></a>界面
 
@@ -283,6 +286,7 @@
 [WobbleView](https://github.com/inFullMobile/WobbleView)|[inFullMobile](https://github.com/inFullMobile)|当界面组件过渡时，带波纹摆动效果的组件扩展
 [RichEditorView](https://github.com/cjwirth/RichEditorView)|[Caesar Wirth](https://github.com/cjwirth)|一套可定制富文本编辑器组件及示例（基于 HTML5）
 [MarkdownTextView](https://github.com/indragiek/MarkdownTextView)|[Indragie Karunaratne](https://github.com/indragiek)|非常轻量、简洁、高效的 Markdown 编辑组件及示例
+[RxGesture](https://github.com/icanzilb/RxGesture)|[Marin Todorov](https://github.com/icanzilb)|基于 RxSwift 的手势视图库
 [DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)|[Didier Brun](https://github.com/didierbrun)|基于路径模型的手势识别工具
 [PennyPincher](https://github.com/fe9lix/PennyPincher)|[fe9lix](https://github.com/fe9lix)|手势识别机器学习类库及演示
 [Tactile](https://github.com/delba/Tactile)|[Damien](https://github.com/delba)|让手势识别如虎添翼
@@ -297,6 +301,8 @@
 [MCMHeaderAnimated](https://github.com/mathcarignani/MCMHeaderAnimated)|[Mathias](https://github.com/mathcarignani)|提供列表与详细页切换转场动画
 [ZLSwipeableViewSwift](https://github.com/zhxnlai/ZLSwipeableViewSwift)|[Zhixuan Lai](https://github.com/zhxnlai)|多变的卡片切换转场动画封装类库
 [SwiftPages](https://github.com/GabrielAlva/SwiftPages)|[Gabriel Alvarado](https://github.com/GabrielAlva/)|高可定制类似 Instagram 视图滑动切换
+[SwipeViewController](https://github.com/fortmarek/SwipeViewController)|[Marek Fořt](https://github.com/fortmarek)|页面滑动和标签选项卡，同 [RKSwipeBetweenViewControllers](https://github.com/cwRichardKim/RKSwipeBetweenViewControllers)
+[XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip)|[xmartlabs](https://github.com/xmartlabs)|Android 上最常用的 PagerTabStrip 在 iOS 中的实现
 [Butterfly](https://github.com/wongzigii/Butterfly)|[Wongzigii](https://github.com/wongzigii)|轻量、优雅的缺陷报告及反馈组件
 [Presentation](https://github.com/hyperoslo/Presentation)|[Hyper](https://github.com/hyperoslo)|方便你制作定制的动画式教程
 [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle)|[IFTTT](https://github.com/IFTTT/)|基于关键锁的动画框架类库
@@ -335,6 +341,7 @@
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)|[Lex Tang](http://weibo.com/lexrus)|特赞的文字飘入飘出效果
+[TextKitAndAnimationEffect](https://github.com/morpheus1984/TextKitAndAnimationEffect)|[@我在罪恶坑的日子](http://weibo.com/u/1660258615)|文字下坠动画变化效果实现及示例（[开发过程详解](http://www.ismash.cn/post/ru-he-shi-xian-zi-ji-mei-shi-xian-guo-de-xu-qiu-zhi-wen-ben-dong-hua-pian)）
 [AEXML](https://github.com/tadija/AEXML)|[Marko Tadić](https://github.com/tadija)|简单又易于的 XML 解析类及示例
 [whereami](https://github.com/victor/whereami)|[Victor Jalencas](http://victor.sh)|通过命令行获得当前设备地理位置
 [Design-Patterns](https://github.com/ochococo/Design-Patterns-In-Swift)|[Oktawian Chojnacki](https://github.com/ochococo)|如何使用常用设计模式及示例
@@ -367,6 +374,7 @@
 [boilerplate](https://github.com/tailec/boilerplate)|[Pawel Krawiec](https://github.com/tailec)|亲历典型案例，探索选择合适的架构
 [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
 [Nebula](https://github.com/FlexMonkey/Nebula)|[simon gladman](https://github.com/FlexMonkey)|调用 GLSL 渲染[星云变化图](http://glslsandbox.com/e#31308.0)演示
+[Countdown](https://github.com/soffes/Countdown)|[Sam Soffes](https://github.com/soffes)|倒计时屏保。年龄屏保 [Motivation](https://github.com/soffes/Motivation)
 
 ### <a id="projects"></a>应用
 

@@ -1,19 +1,27 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 
+## [Issue 50](Issue-50.md)
 
-## [Issue 49](Issue-49.md)
+**本期特别推荐** 1. 项目：[Permission](https://github.com/delba/Permission)（统一的 API 请求 iOS 本地设备及资源权限类库），[SwipeViewController](https://github.com/fortmarek/SwipeViewController)（页面滑动和标签选项卡）；2. 文档：[我的 iOS 开发入门自学路径](http://www.jianshu.com/p/4be17ec40cfc)，[iOS Core Animation: Advanced Techniques 中文译本](https://zsisme.gitbooks.io/ios-/content/)，[Medium - Swift Programming](https://medium.com/swift-programming)。
 
-**本期特别推荐** 1. 项目：[ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation)（创意下拉刷新动画实现）、[Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift)（任务管理 futures/promises 异步实现）及 [PeekPop](https://github.com/marmelroy/PeekPop)（新特性 Peek/Pop 图片预览）；2. 文档：[Swift 通知推送新手指南](http://swift.gg/2016/03/15/push-notification-ios/) 和 [ENJOY 的 Apple Pay 应用内支付接入实践](http://geek.csdn.net/news/detail/60849)。
+**大声一**: “[IBAnimatable 2.0 发布了！](https://github.com/JakeLin/IBAnimatable/releases)” By [@林永坚Jake](http://weibo.com/yongjianlin)
 
-**大声一**：[Swift 现在可用于所有的 ARMv6 树莓派 （1,Zero）](http://swift.gg/2016/03/18/swift-available-on-armv6-raspberry-1-zero/)
-
-**大声二**：为了便于新手有效获取 Swift 学习资源，新建小站 [Swift 学习指引](http://swiftguide.cn)。
-
-**大声三**：[本指南](https://github.com/ipader/SwiftGuide) Google 中文搜索关键字（[swift](https://www.google.com.hk/search?q=swift)）排名第一（首次超过 Apple 官网）
+**大声二**: [Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch](http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch)
 
 > ![](../archive/weixin-swiftlanguage.jpg)
 
 ## 往期回顾
+* [Issue 49](Issue-49.md)
+
+	> **本期特别推荐** 1. 项目：[ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation)（创意下拉刷新动画实现）、[Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift)（任务管理 futures/promises 异步实现）及 [PeekPop](https://github.com/marmelroy/PeekPop)（新特性 Peek/Pop 图片预览）；2. 文档：[Swift 通知推送新手指南](http://swift.gg/2016/03/15/push-notification-ios/) 和 [ENJOY 的 Apple Pay 应用内支付接入实践](http://geek.csdn.net/news/detail/60849)。
+
+	> **大声一**：[Swift 现在可用于所有的 ARMv6 树莓派 （1,Zero）](http://swift.gg/2016/03/18/swift-available-on-armv6-raspberry-1-zero/)
+
+	> **大声二**：为了便于新手有效获取 Swift 学习资源，新建小站 [Swift 学习指引](http://swiftguide.cn)。
+
+	> **大声三**：[本指南](https://github.com/ipader/SwiftGuide) Google 中文搜索关键字（[swift](https://www.google.com.hk/search?q=swift)）排名第一（首次超过 Apple 官网）
+
+
 * [Issue 48](Issue-48.md)
 
 	> **本期特别推荐** 1. 项目：[injectionforxcode](https://github.com/johnno1962/injectionforxcode)（修改一个类的代码实现而不用重启整个应用 Xcode 插件），[navigation-stack](https://github.com/Ramotion/navigation-stack)（导航控制器的 Stack 视图模型最佳实践）以及 [WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView)（可配置圆形波浪进度指示器类及演示）；2. 文档：[Swift 入门指引](http://dev.swiftguide.cn/archive/getting-started-in-swift_v1.0.html) 和 [iOS 9 人机界面指南](https://isux.tencent.com/?s=iOS+9+人机界面指南)。

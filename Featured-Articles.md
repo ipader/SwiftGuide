@@ -1,12 +1,13 @@
 ## Swift 文章精选
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》收录过的文章，做了一个甄别和筛选。目的是摒弃杂音，更利于提高学习效率。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-21，最近新收录 [Swift 通知推送新手指南](http://swift.gg/2016/03/15/push-notification-ios/)，[ENJOY 的 Apple Pay 应用内支付接入实践](http://geek.csdn.net/news/detail/60849)，[一步步教你实现类似于格瓦拉启动页中的放大转场动画](http://www.jianshu.com/p/8c29fce5a994)，[Hirundo：在 OS X 上轻松获取 Swift 邮件列表](http://swift.gg/2016/03/14/hirundo-mac-app-swift-mailing-lists/) 等 4 份，合计已收录 202 份。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-28，最近新收录 [Swift 2.2 的新特性](http://swift.gg/2016/03/23/swift-22-new-features/)，[Medium - Swift Programming](https://medium.com/swift-programming)，[使用 SwiftyDB 来管理 SQLite 数据库](https://segmentfault.com/a/1190000004670954)，[iOS并发编程中Operation与Dispatch Queues实践](http://geek.csdn.net/news/detail/63001), [iOS-Note: CoreData, Photos, View Controller Transition](https://github.com/seedante/iOS-Note)，[我的iOS开发入门自学路径](http://www.jianshu.com/p/4be17ec40cfc)，[国外iOS大牛的分享经验和对Swift的看法](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=402947148&idx=1&sn=cd80fce3738d9d4b0037f38070b89c0f#rd)，[iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER](https://blog.coding.net/blog/ios-architecture-patterns), [构建 Swift 框架所面临的挑战](https://realm.io/cn/news/marius-rackwitz-challenges-building-swift-framework/)，[Swift 编程思想系列文章](http://swift.gg/tags/Crunchy-Development/)，[iOS Core Animation: Advanced Techniques 中文译本](https://zsisme.gitbooks.io/ios-/content/)，[Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch](http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch) 等 11 份，合计已收录 213 份。
 
 ### 教程和指南
 * [Swift 入门指引](http://dev.swiftguide.cn/archive/getting-started-in-swift_v1.0.html)：以官方文档为基础结合已有中译版，整了一份简版 Swift 入门指引。作者：[@SwiftLanugage](http://weibo.com/swiftlanguage)
 * [斯坦福大学公开课：iOS 8 开发](http://open.163.com/special/opencourse/ios8.html)：中文字幕版已经更新至第 6 集。网易公开课与时俱进程度简直是教育界的表率，强烈推荐。来源：[@网易公开课](http://weibo.com/163open)，字幕来源：[Stanford 公开课，Developing iOS 8 Apps with Swift 字幕翻译](https://github.com/x140yu/Developing_iOS_8_Apps_With_Swift)
 * Swift Style Guide：[RayWenderlich 版](https://github.com/raywenderlich/swift-style-guide)（[中文版](http://letsswift.com/2014/07/swift-style-guide/)），[GitHub 版](https://github.com/github/swift-style-guide)（[中文版](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)）
+* [iOS Core Animation: Advanced Techniques 中文译本](https://zsisme.gitbooks.io/ios-/content/) By [钟声](https://github.com/ZsIsMe)。原文：[Core Animation Advanced Techniques](http://www.amazon.com/iOS-Core-Animation-Advanced-Techniques-ebook/dp/B00EHJCORC/ref=sr_1_1?ie=UTF8&qid=1423192842&sr=8-1&keywords=Core+Animation+Advanced+Techniques)，译者：[FeiXu](https://github.com/AttackOnDobby), [even](https://github.com/evenluo/)
 * [包管理器](https://github.com/nixzhu/dev-blog/blob/master/2015-12-04-swift-package-manager.md)：“简言之：一个包即一个有着语义版本 tag 的 git 仓库，其中包含 Swift 源代码，以及一个放在根目录的 Package.swift 清单文件”。译者：[@nixzhu](http://weibo.com/nixzhu)
 * [iOS证书申请、开发、打包、排查等系列教学](http://superdanny.link/2015/09/24/iOS-about-certification-guide/)：“本文是基于先人经验进行的总结整理。整理这篇文章的目的是为了让开发者能够更好更快的掌握iOS开发的整个打包流程，同时也方便本人以后查阅，减少不必要的时间。让整个开发流程简单易懂”。作者：[@Danny_吕昌辉](http://weibo.com/lovejameslvforever)
 * [Writing High-Performance Swift Code (Apple)](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)
@@ -21,6 +22,8 @@
 * [Swift 中枚举高级用法及实践](http://swift.gg/2015/11/20/advanced-practical-enum-examples/)：“本文是一篇详细且具有实战意义的教程，涵盖几乎所有枚举(Enum)知识点，为你解答Swift中枚举的应用场合以及使用方法”。译者：[@请叫我_小锅_ @PPPPPPMST](http://weibo.com/u/2085734687)
 * [Swift Documentation](http://nshipster.com/swift-documentation/)：“对于开发者来讲，良好的代码结构及组织是其引以为豪的事。干净、一致的代码习惯，对于编译器并无所谓，但程序字里行间可以代表个人符号、或与同伴的差异”。两位博主的倾情合作，有了这篇美文。来源：NSHipster
 * [Swift 的响应式编程](https://github.com/bboyfeiyu/iOS-tech-frontier/blob/master/issue-3/Swift%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B.md)：文章通过在使用 MVC 以及 MVVM 中发现代码繁杂的弊病，引出响应式编程解决方案，并通过解读 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)，让读者进一步理解响应式编程所带来的好处。原文：[Reactive Swift](https://medium.com/swift-programming/reactive-swift-3b6050375534)，译文来源：[@开发技术前线](http://weibo.com/u/5589212242)，译者：[@MrSimp1e](http://weibo.com/mrsimp1e)
+* [iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER](https://blog.coding.net/blog/ios-architecture-patterns)：归纳简洁、清晰又完整，集图文和 Swift 示例代码结合的框架介绍。非常值得阅读的好译文。译文来源：[@Coding](http://weibo.com/clouddevelopment)，译者：王哼哼
+* [构建 Swift 框架所面临的挑战](https://realm.io/cn/news/marius-rackwitz-challenges-building-swift-framework/)：“在 Realm 在构建 Swift 动态框架的过程中，仍然存在着不少的挑战。在这个 MBLTDev 2015 的演讲中，Marius 总结了团队的相关经验，指出需要避免的陷阱，并且给予相应的提示，以便帮助您找到在快速发展的 Swift 生态系统中进行开发的舒适点。”。来源：Realm
 * [如何用 Swift 语言构建一个自定控件](http://beyondvincent.com/2014/08/28/2014-08-27-How-To-Make-a-Custom-Control-in-Swift/)：本文通过讲解如何编写一款两端都可以滑动（以获取最大值及最小值）的 RangeSlider 自定义控件（功能相当于两个 UISlider），让初学者真正地理解其开发步骤和方法，体验其中乐趣。来源：Ray Wenderlich，译者：[@BeyondVincent](http://weibo.com/beyondvincent)
 * [为 iPhone 6 设计自适应布局](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)（[一](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-1/)、[二](http://www.devtalking.com/articles/adaptive-layout-for-iphone6-2/)） ："当你们学习完这篇文章后，你们应该会比较自如的使用 storyboard、constraints、size classes 这三个 Apple 在 Xcode 里提供的工具，去探索和构建巧妙的自适应布局"。原文：[ADAPTIVE LAYOUTS FOR iPHONE 6](http://mathewsanders.com/designing-adaptive-layouts-for-iphone-6-plus/)，译者：[@DevTalking](http://weibo.com/jacefu) 
 * [WKWeb​View](http://nshipster.cn/wkwebkit/)：“WKWebView 是现代 WebKit API 在 iOS 8 和 OS X Yosemite 应用中的核心部分。它代替了 UIKit 中的 UIWebView 和 AppKit 中的 WebView，提供了统一的跨双平台 API”。来源：[@NSHipster](http://weibo.com/nshipster)，作者：Mattt Thompson，译者：[@刘镇夫](http://weibo.com/croath)
@@ -35,6 +38,7 @@
 * [Swift 通知推送新手指南](http://swift.gg/2016/03/15/push-notification-ios/)：“推送通知已经成为绝大多数应用的标配功能，技术上并不复杂，实现起来却有不少坑。今天这篇长文手把手教你实现通知推送，AppCoda 出品，强烈推荐”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@bestswifter](http://weibo.com/bestswifter)
 * [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)：列举了常用设计模式，并结合 Swift 程序实现进行讲解。除了回顾设计模式外，它更易于理解 Swift 语言特性，以及了解 Swift 与其它编程语言间的差异。
 * [Strings in Swift](http://oleb.net/blog/2014/07/swift-strings/)：深入了解使用 String 的更高级技巧（尤其在 Unicode 的使用上）。为了更直观理解示例代码运行状态，作者附上了与本文几乎完全一致的 Playground 项目下载。P.S. 如今 Playground 已经成为讲授 Swift 使用小技巧及语言特性必备。
+* [Swift 2.2 的新特性](http://swift.gg/2016/03/23/swift-22-new-features/)：优化的不少细节提升了友好性。译者：[@walkingway](http://weibo.com/walkingway)
 * [Strings in Swift 2 译文](http://www.devtf.cn/?p=989)：“Swift 提供高性能，兼容 Unicode 的 String 作为标准库的一部分，在 Swift 2.0，String 类型不再符合CollectionType协议，曾经String是字符的集合，类似于 Array。现在，String 提供了一个公开字符集视图的charactes属性...”。译文来源：[@开发技术前线](http://weibo.com/u/5589212242)
 * [从 SDK 详说 Swift 代码的改变](http://www.csdn.net/article/2015-08-17/2825473-swift-er-sdk)：“Xcode 7中，几乎所有常见框架都指定了其API的nullability注解，包括其集合类型的元素，这使得Swift代码的样子发生了变化，而通过To Latest Swift Syntax会将实现从Swift 1.2到2.0的代码转换”。译文来源：[@CSDN移动](http://weibo.com/csdnmobile)
 * [Swift 的函数式 API](http://objccn.io/issue-16-4/)：“一篇质量非常高的译文，用很简明的例子从基础开始阐述了 Swift 中函数式 API 的思想。这是一片 Swift 带来的新天地，真心推荐一看。By [@onevcat](http://weibo.com/onevcat) ”。译者：[@请叫我汪二](http://weibo.com/small1030light)
@@ -42,8 +46,11 @@
 * [理解 iOS 8 中的 Photo Editing Extension](http://www.cocoachina.com/ios/20150122/10978.html)：“我们一起来看看怎样制作一个 Photo Editing Extension。由于我们的关注点在创建应用程序扩展而不是写一个完整的应用，我已经创建了一个你们可以下载并且一路跟着做的上手项目...”。来源：AppCoda，译者：[@X140Yu](http://weibo.com/272255634)
 * [Realm 数据库基础教程](http://www.cocoachina.com/ios/20150505/11756.html)：“Realm 是一个跨平台的移动数据库引擎，于 2014 年 7 月发布，准确来说，它是专门为移动应用所设计的数据持久化解决方案之一。Realm 可以轻松地移植到您的项目当中，并且绝大部分常用的功能（比如说插入、查询等等）都可以用一行简单的代码轻松完成”。来源：[Ray Wenderlich](http://www.raywenderlich.com/81615/introduction-to-realm)，译者：[@星夜暮晨](http://weibo.com/moonisky)
 * [使用 Realm 和 Swift 创建 ToDo 应用](http://swift.gg/2015/12/08/building-a-todo-app-using-realm-and-swift/)：“最近，我无意中发现了 Realm，一个可以替代 SQLite 和 Core Data 的更好的解决方案”。译文来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，来源：[AppCoda](http://www.appcoda.com/realm-database-swift/)，作者：Hossam Ghareeb
+* [使用 SwiftyDB 来管理 SQLite 数据库](https://segmentfault.com/a/1190000004670954)：“从开发者的角度来说，对一个SQLite中的数据进行插入、更新、检索本身就是一件容易的事...”。原文来源：[App Coda](http://www.appcoda.com/swiftydb/)，译者：[@BigNerdCoding](http://weibo.com/1314ddml)
 * Swift编程风格指南－[Ray Wenderlich 版](http://letsswift.com/2014/07/swift-style-guide/)，[GitHub 版](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)：编程风格指南的目标是让 Swift 代码更简洁、可读性更强。
-* [iOS设计指南](http://www.ui.cn/project.php?id=32167)：非官方文档，不过原文《[The iOS 
+* [Swift 编程思想，第一部分（补遗）：牺牲小马](http://swift.gg/2016/03/21/thinking-in-swift-1-addendum/)：“[Swift 编程思想系列文章](http://swift.gg/tags/Crunchy-Development/) 是 SwiftGG 最受欢迎的系列文章之一。作者写完整个系列之后又补充了一些内容，深入讨论强制解析(!)的正确用法。”。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)。P.S. 有人认为细节决定成败，也有人认为不要过分细节。无论哪一种，都不能丢失全局观（与文章无关）。
+* [我的 iOS 开发入门自学路径](http://www.jianshu.com/p/4be17ec40cfc)：如此清晰、有效的学习路径，非常值得新手看齐、学习。By [@游薪渝](http://weibo.com/u/5639257977)
+* [iOS 设计指南](http://www.ui.cn/project.php?id=32167)：非官方文档，不过原文《[The iOS 
 Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS Human Interface Guidelines》进行解读介绍。非常值得收藏。原作者 Ivo Mynttinen，是一位来自德国的年轻 UI 设计师。其个人博客网站也值得同学们收录：[ivomynttinen.com](http://ivomynttinen.com)。译者：[@shengbanx](http://weibo.com/banxing1)
 * [Facebook React Native 中文教程](http://wiki.jikexueyuan.com/project/react-native/)：“Facebook 在 [React.js Conf 2015 大会](http://conf.reactjs.com/)上推出了基于 JavaScript 的开源框架 [React Native](http://facebook.github.io/react-native/)，本中文教程翻译自 [React Native 官方文档](http://facebook.github.io/react-native/docs/getting-started.html)”。译者：[@极客学院_jikexueyuan](http://weibo.com/jikexueyuan)
 * [Google 地图 SDK 入门教程](http://t.cn/RATvsic)：“在本文中我们将要学习的：①如何在地图上显示用户当前位置②如何定位自定义地址③如何绘制路径④如何在路径中添加中间点（路径点）等”。非常完整、实用的 Google 地图基础教程。完整示例：[google-maps-api-demo](https://github.com/appcoda/google-maps-api-demo)，来源：[AppCoda](http://www.appcoda.com/google-maps-api-tutorial)，译者：[@CocoaChina](http://weibo.com/cocoachina)和[百度智客联盟](http://maker.baidu.com/)共同翻译。
@@ -83,6 +90,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [给 iOS 开发者的 Sketch 入门教程](http://ios.jobbole.com/83865/)：“作为一名iOS开发者，我经历过几个没有设计师的项目，结果就是，痛苦的一逼。做这种类型的项目，设计是非常重要的，特别是迭代设计。但是怎样才能在没有设计师的前提下设计原型，那就必须用到Sketch这货”。译者：[@Andy矢倉](http://weibo.com/ganmaojijie)，来源：[Ray Wenderlich](https://www.raywenderlich.com/117609/sketch-indie-developers)
 * [中国首届 Swift 开发者大会－嘉宾现场演讲视频](http://www.imooc.com/learn/600)：“众多资深的 iOS 研发攻城狮，与你分享 Swift 的最新动向。没有机会到场的朋友们，快来先睹为快吧！By [@慕课网](http://weibo.com/mukewang)”
 * [iOS9-by-Tutorials-学习笔记九：3D Touch 入门教程](http://mengxiangyue.com/2016/02/23/iOS9-by-Tutorials-学习笔记九：3D-Touch/) By [@孟祥月_iOS](http://weibo.com/u/1750643861)
+* [iOS-Note](https://github.com/seedante/iOS-Note)：这里有 CoreData, Photos, 转场动画等实用、详细的笔记。作者：[@seedante](http://weibo.com/u/1815689155)
 * 《Threading Programming Guide》笔记（作者：[@DevTalking](http://weibo.com/jacefu)，来源：[@CSDN移动](http://weibo.com/csdnmobile)）
 	* [1. 初识线程](http://geek.csdn.net/news/detail/54092)：“说到OS X和iOS中的线程技术，就不得不说GNU Mach。Apple操作系统中的线程技术是基于Mach线程技术实现的，所以本身就带有线程基本的特性，比如PEM。”
 	* [2. 线程配置与Run Loop](http://geek.csdn.net/news/detail/55617)：“本文围绕着线程属性配置以及Run Loop Modes展开，作者@DevTalking 表示：如今关于iOS多线程的文章层出不穷，但若想更好的领会各个实践者的文章，应该先仔细读读官方的相关文档，打好基础，定会有更好的效果。”
@@ -90,6 +98,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 	* [4. iOS开发里的线程安全机制](http://geek.csdn.net/news/detail/56726)：“主要分享了包括原子操作、锁机制、Conditions等的线程安全机制，以及设计时所需要注意的事项，比如避免滥用、防止死锁和活锁的发生、正确使用volatile关键字等。”。
 *《Concurrency Programming Guide》笔记（作者：[@DevTalking](http://weibo.com/jacefu)，来源：[@CSDN移动](http://weibo.com/csdnmobile)）
 	* [1. iOS 开发中设计并发任务技术与注意事项](http://geek.csdn.net/news/detail/60236)：“并发执行任务的解决方案从最初的在程序中创建多个线程来实现，却极大地降低了应用程序的性能...”
+	* [2. iOS 并发编程中 Operation 与 Dispatch Queues 实践](http://geek.csdn.net/news/detail/63001)：“本文为读《Concurrency Programming Guide》笔记第二篇，在分享了OS X和iOS应用开发中实现任务异步执行的技术以及应注意的事项之后，作者对 Operation 对象的设置执行，以及 Dispatch Queues 的创建管理进行了实践总结。”
 * 视频教程
 	* [1. 基础篇－使用 Swift 开发 iOS8 应用实战](http://www.imooc.com/view/173)，[2. 进阶篇－Swift Weather APP](http://www.imooc.com/view/149)：实战学习是最有效的编程学习方法。该系列视频教程通过不同的案例，由浅入深地介绍 iOS 应用开发方法。来源：[@慕课网](http://weibo.com/mukewang)，讲师：[@林永坚Jake](http://weibo.com/yongjianlin)
 	*  WWDC 视频：1. Swift 入门（[A001.01](http://v.youku.com/v_show/id_XNzI1MTQ5NzYw.html), [A001.02](http://v.youku.com/v_show/id_XNzI1MTU2OTU2.html), [A001.03](http://v.youku.com/v_show/id_XNzI4MDE5ODYw.html), [A001.04](http://v.youku.com/v_show/id_XNzMxODgxNDM2.html)）；2. Swift 进阶（[A002.01](http://v.youku.com/v_show/id_XNzM4NTAwNzk2.html), [A002.02](http://v.youku.com/v_show/id_XNzQ1NDQzNzYw.html), [A002.03](http://v.youku.com/v_show/id_XNzUyNzA2NDYw.html), [A002.04](http://v.youku.com/v_show/id_XNzU5MjA5Mzgw.html?f=22519841), [A002.05](http://v.youku.com/v_show/id_XNzU5MjE5MjI4.html?f=22519841)）；3. Swift 版本升级补录补丁（[A001.Patch](http://v.youku.com/v_show/id_XNzg1MTM2NDEy.html?f=22361976)，[A002.Patch](http://v.youku.com/v_show/id_XNzg1MTQ2MDY0.html?f=22519841)）。翻译：[@赵哲A](http://weibo.com/zhaozhecleric)
@@ -142,6 +151,7 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 
 ### 经验和评论
 * [我在开发第一个 Swift 应用过程中学到的四件事](http://idlelife.org/archives/742)：作者为了讲授 iOS 8 App Extensions 视频教程而实际使用 Swift 开发了一款应用的经验及体会。原文：[Four Things I Learned Making My First Swift App](http://www.raywenderlich.com/86278/four-things-learned-making-first-swift-app)，来源：Ray Wenderlich，作者：Greg Heo（Ray 公司 Razeware 员工），译者：[@pockry](http://weibo.com/pockry)
+* [国外iOS大牛的分享经验和对Swift的看法](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=402947148&idx=1&sn=cd80fce3738d9d4b0037f38070b89c0f#rd)：“今年1月，我参加了由梁杰组织的Swift大会，这是国内首次由社区组织的移动技术大会，来自国内外的iOS开发大牛为大家奉献了精彩演讲。大会期间我采访了国外讲师Chris和Greg，他们分享了平时是如何工作，如何做分享，以及对Swift的看法。”。来源：[@移动开发前线](http://weibo.com/bornmobile)
 * [别让双手闲下来，来做一些练手项目吧](http://swift.gg/2016/03/08/how-to-start-an-ios-app-portfolio/)：很接地气的初级学习实践。来源：[@SwiftGG翻译组](http://weibo.com/swiftguide)，译者：[@saitjr](http://weibo.com/u/1918545437)
 * [如果你还在用子类（Subclassing），那就不对了](http://www.jianshu.com/p/80bd6633ec7c)：“你可能对我的标题感到诧异。我并不是说子类没有价值，尤其在使用单一继承（single inheritance）的情况下，类和子类当然是强有力的工具。然而我想说的是，iOS日常开发的问题是对类和继承的过度使用...”。作者：[ray16897188](http://www.jianshu.com/users/97c49dfd1f9f/latest_articles)
 * [一次 Objective-C 到 Swift 的改写之旅](https://github.com/nixzhu/dev-blog/blob/master/2015-05-27-wormhole.md)：“既然 Swift 是未来，自然要改写。而改写应当是一种再思考、再设计的过程”。作者：[@nixzhu](http://weibo.com/nixzhu)
@@ -198,6 +208,7 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [iOS 各种调试技巧豪华套餐](http://www.cnblogs.com/daiweilai/p/4421340.html) By [@David戴未来](http://weibo.com/daiweilai)
 * [详解 Xcode 6 的视图调试](http://www.cocoachina.com/ios/20150423/11658.html)：教程非常实用，值得学习。另外，教程选用的开源项目（[jessesquires/JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)）也很经典。来源：Ray Wenderlich，译者：[@CocoaChina](http://weibo.com/cocoachina) 翻译组
 * [iOS 开发工具列表](http://www.cocoachina.com/ios/20140417/8187.html) By [@CocoaChina](http://weibo.com/cocoachina)
+* [Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch](http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch)：“来自Mercury.io的iOS 9 UIKit，提供Sketch与Ai两种格式。官网有言：“你已经在用Facebook和MengTo大人出品的UI模板套装了？为什么还要再下载一套？答案很简单：我们的更好。” 亲测，市面上最全最细的UIKit，确实蛮霸道的，拿去做交互稿也不坏。By [@C7210](http://weibo.com/c7210)”
 
 ### 网站和博客
 * [raywenderlich.com](http://www.raywenderlich.com/)：由 Ray Wenderlich 创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的 iOS/OS X 博客及开发教程网站，非常适合新手学习。
@@ -210,5 +221,6 @@ What’s New in Swift 2.0: A Brief Introduction](http://www.appcoda.com/swift-2-
 * [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
 * [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
 * [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
+* [Medium - Swift Programming](https://medium.com/swift-programming)：好多编程技巧和文章，更新及时效性还不错，值得常关注。来源：Medium
 * [Top 100 Best Blogs for iOS Developers to Learn and Gain Insights](http://www.softwarehow.com/best-blogs-for-ios-developers/)：“iOS 开发者必看的 100 个全球最佳 iOS 博客 By [@CodingTogether](http://weibo.com/u/2510885182)”。
 
