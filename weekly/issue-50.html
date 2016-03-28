@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<title>Swift语言指南－Issue 50</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="keywords" content="Swift, Swift编程, Swift开发者, iOS, OSX, Swift开发指南, Swift编程指南" />
+<meta name="description" property="og:description" itemprop="description" content="Swift语言指南－收录周报" />
+<link rel="shortcut icon" href="sl-logo_1.0-16.png" />
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #737373;
+    background-color: white;
+    margin: 0px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0088CC;
+	text-decoration: none;    
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: underline;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>项目</title>
+
+</head>
+<body>
+<p><img src="http://dulema.sinaapp.com/logo/sl-banner.png" alt="" /></p>
+
+<p><strong><a href="https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md">&lt;= 往期回顾</a></strong></p>
+
+<h1><a href="https://github.com/ipader/SwiftGuide">Swift 语言指南</a>－Issue 50</h1>
+
+<p><strong>本期特别推荐</strong> 1. 项目：<a href="https://github.com/delba/Permission">Permission</a>（统一的 API 请求 iOS 本地设备及资源权限类库），<a href="https://github.com/fortmarek/SwipeViewController">SwipeViewController</a>（页面滑动和标签选项卡）；2. 文档：<a href="http://www.jianshu.com/p/4be17ec40cfc">我的 iOS 开发入门自学路径</a>，<a href="https://zsisme.gitbooks.io/ios-/content/">iOS Core Animation: Advanced Techniques 中文译本</a>，<a href="https://medium.com/swift-programming">Medium - Swift Programming</a>。</p>
+
+<p><strong>大声一</strong>: “<a href="https://github.com/JakeLin/IBAnimatable/releases">IBAnimatable 2.0 发布了！</a>” By <a href="http://weibo.com/yongjianlin">@林永坚Jake</a></p>
+
+<p><strong>大声二</strong>: <a href="http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch">Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch</a></p>
+
+<p><a href="https://github.com/icanzilb/RxGesture">RxGesture</a>|<a href="https://github.com/icanzilb">Marin Todorov</a>|基于 RxSwift 的手势视图库
+<a href="https://github.com/bizz84/SwiftyStoreKit">SwiftyStoreKit</a>|<a href="https://github.com/bizz84">Andrea Bizzotto</a>|轻量、易用的极简购买框架库
+<a href="https://github.com/fortmarek/SwipeViewController">SwipeViewController</a>|<a href="https://github.com/fortmarek">Marek Fořt</a>|页面滑动和标签选项卡，同 <a href="https://github.com/cwRichardKim/RKSwipeBetweenViewControllers">RKSwipeBetweenViewControllers</a>
+<a href="https://github.com/xmartlabs/XLPagerTabStrip">XLPagerTabStrip</a>|<a href="https://github.com/xmartlabs">xmartlabs</a>|Android 上最常用的 PagerTabStrip 在 iOS 中的实现
+<a href="https://github.com/delba/Permission">Permission</a>|<a href="https://github.com/delba">Damien</a>|统一的 API 请求 iOS 本地设备及资源权限类库
+<a href="https://github.com/SwiftKitz/Appz">Appz</a>|<a href="https://github.com/SwiftKitz">Kitz</a>|深入参数级别的外部应用启动器
+<a href="https://github.com/soffes/Countdown">Countdown</a>|<a href="https://github.com/soffes">Sam Soffes</a>|倒计时屏保。年龄屏保 <a href="https://github.com/soffes/Motivation">Motivation</a>
+<a href="https://github.com/morpheus1984/TextKitAndAnimationEffect">TextKitAndAnimationEffect</a>|<a href="http://weibo.com/u/1660258615">@我在罪恶坑的日子</a>|文字下坠动画变化效果实现及示例（<a href="http://www.ismash.cn/post/ru-he-shi-xian-zi-ji-mei-shi-xian-guo-de-xu-qiu-zhi-wen-ben-dong-hua-pian">开发过程详解</a>）</p>
+
+<h2>项目</h2>
+
+<blockquote><p><a href="https://github.com/ipader/SwiftGuide/blob/master/Featured.md">Swift 项目精选</a>：最近新收录 <a href="https://github.com/icanzilb/RxGesture">RxGesture</a>, <a href="https://github.com/bizz84/SwiftyStoreKit">SwiftyStoreKit</a>, <a href="https://github.com/fortmarek/SwipeViewController">SwipeViewController</a>, <a href="https://github.com/xmartlabs/XLPagerTabStrip">XLPagerTabStrip</a>, <a href="https://github.com/delba/Permission">Permission</a>, <a href="https://github.com/SwiftKitz/Appz">Appz</a>, <a href="https://github.com/soffes/Countdown">Countdown</a>, <a href="https://github.com/morpheus1984/TextKitAndAnimationEffect">TextKitAndAnimationEffect</a> 等 8 个，合计已收录 367 个。</p></blockquote>
+
+<ul>
+<li><a href="https://github.com/icanzilb/RxGesture">icanzilb/RxGesture</a>：基于响应式编程的手势视图类库，又一款基于 RxSwift 编程利器。开发者：<a href="https://github.com/icanzilb">Marin Todorov</a></li>
+<li><a href="https://github.com/delba/Permission">delba/Permission</a>：统一的 API 请求 iOS 本地设备及资源权限类库。这款实在太好用了。开发者 Damien 总能发布短小精悍的工具库，值得关注。开发者：<a href="https://github.com/delba">Damien</a></li>
+<li><a href="https://github.com/bizz84/SwiftyStoreKit">bizz84/SwiftyStoreKit</a>：轻量、易用的极简购买框架库。开发者：<a href="https://github.com/bizz84">Andrea Bizzotto</a></li>
+<li><a href="https://github.com/fortmarek/SwipeViewController">fortmarek/SwipeViewController</a>：又一款好用的页面滑动和标签选项卡类库及示例。功能相当于 Objective-C 版 RKSwipeBetweenViewControllers。开发者：<a href="https://github.com/fortmarek">Marek Fořt</a></li>
+<li><a href="https://github.com/xmartlabs/XLPagerTabStrip">xmartlabs/XLPagerTabStrip</a>：Android 上最常用、好用的 PagerTabStrip（页面滑动和标签选项卡） 在 iOS 中的实现类库及丰富示例。开发者：<a href="https://github.com/xmartlabs">xmartlabs</a></li>
+<li><a href="https://github.com/maxkonovalov/MKRingProgressView">maxkonovalov/MKRingProgressView</a>：类似 Apple Watch 活动圆环可定制进程条。开发者：<a href="https://github.com/maxkonovalov">Max Konovalov</a>。P.S. iOS 9.3 后有原版 HKActivityRingView。</li>
+<li><a href="https://github.com/wenghengcong/Coderpursue">wenghengcong/Coderpursue</a>：“Github 第三方客户端，使用最新的 Swift 语言编写，目前已开源。”。开发者：<a href="http://weibo.com/735929774">@翁恒丛</a></li>
+<li><a href="https://github.com/SwiftKitz/Appz">SwiftKitz/Appz</a>：深入参数级别的外部应用启动器。支持主流应用，或自定义应用。可以运行于 Playground。开发者：<a href="https://github.com/SwiftKitz">Kitz</a></li>
+<li><a href="https://github.com/soffes/Countdown">soffes/Countdown</a>：设置任意日期的倒计时 OS X 屏保。同一开发者另一款“兄弟”屏保还有动态年龄增长 <a href="https://github.com/soffes/Motivation">Motivation</a>。开发者：<a href="https://github.com/soffes">Sam Soffes</a></li>
+<li><a href="https://github.com/morpheus1984/TextKitAndAnimationEffect">morpheus1984/TextKitAndAnimationEffect</a>：文字下坠动画变化效果实现及示例（<a href="http://www.ismash.cn/post/ru-he-shi-xian-zi-ji-mei-shi-xian-guo-de-xu-qiu-zhi-wen-ben-dong-hua-pian">开发过程详解</a>）。开发者：<a href="http://weibo.com/u/1660258615">@我在罪恶坑的日子</a></li>
+<li><a href="https://github.com/muukii/NextGrowingTextView">muukii/NextGrowingTextView</a>:自适应高度的多行文本输入框扩展组件和使用演示。开发者：<a href="muukii/NextGrowingTextView">Hiroshi Kimura</a>。P.S. “不建议用任何第三方库，AutoLayout+TextView就能实现的东西，代码不超过10行 By <a href="http://weibo.com/weetom">@王小贤放弃治疗</a>”</li>
+</ul>
+
+
+<h2>文档</h2>
+
+<blockquote><p><a href="https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md">Swift 文章精选</a>：最近新收录 <a href="http://swift.gg/2016/03/23/swift-22-new-features/">Swift 2.2 的新特性</a>，<a href="https://medium.com/swift-programming">Medium - Swift Programming</a>，<a href="https://segmentfault.com/a/1190000004670954">使用 SwiftyDB 来管理 SQLite 数据库</a>，<a href="http://geek.csdn.net/news/detail/63001">iOS并发编程中Operation与Dispatch Queues实践</a>, <a href="https://github.com/seedante/iOS-Note">iOS-Note: CoreData, Photos, View Controller Transition</a>，<a href="http://www.jianshu.com/p/4be17ec40cfc">我的iOS开发入门自学路径</a>，<a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=402947148&amp;idx=1&amp;sn=cd80fce3738d9d4b0037f38070b89c0f#rd">国外iOS大牛的分享经验和对Swift的看法</a>，<a href="https://blog.coding.net/blog/ios-architecture-patterns">iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER</a>, <a href="https://realm.io/cn/news/marius-rackwitz-challenges-building-swift-framework/">构建 Swift 框架所面临的挑战</a>，<a href="http://swift.gg/tags/Crunchy-Development/">Swift 编程思想系列文章</a>，<a href="https://zsisme.gitbooks.io/ios-/content/">iOS Core Animation: Advanced Techniques 中文译本</a>，<a href="http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch">Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch</a> 等 11 份，合计已收录 213 份。</p></blockquote>
+
+<ul>
+<li><a href="http://swift.gg/2016/03/23/swift-22-new-features/">Swift 2.2 的新特性</a>：优化的不少细节提升了友好性。译者：<a href="http://weibo.com/walkingway">@walkingway</a></li>
+<li><a href="http://swift.gg/2016/03/22/getting-ready-for-swift-to-stop-breaking-code/">Swift 3.0：你的代码即将崩坏</a>：“Swift 3.0 已经确定了大量破坏性的改动，官方开发团队计划将所有破坏性改动都集中到版本 3，从而减少之后版本的破坏性。这篇文章是一个预警，请各位开发者做好加班准备。”。来源：<a href="http://weibo.com/swiftguide">@SwiftGG翻译组</a>。P.S. Swift 发展速度有极客精神（推动力来源于社区），是过去任何一门编程语言没有过的。</li>
+<li><a href="http://swift.gg/2016/03/21/thinking-in-swift-1-addendum/">Swift 编程思想，第一部分（补遗）：牺牲小马</a>：“<a href="http://swift.gg/tags/Crunchy-Development/">Swift 编程思想系列文章</a> 是 SwiftGG 最受欢迎的系列文章之一。作者写完整个系列之后又补充了一些内容，深入讨论强制解析(!)的正确用法。”。来源：<a href="http://weibo.com/swiftguide">@SwiftGG翻译组</a>。P.S. 有人认为细节决定成败，也有人认为不要过分细节。无论哪一种，都不能丢失全局观（与文章无关）。</li>
+<li><a href="https://medium.com/swift-programming">Medium - Swift Programming</a>：好多编程技巧和文章，更新及时效性还不错，值得常关注。来源：Medium</li>
+<li><a href="http://geek.csdn.net/news/detail/63001">iOS并发编程中Operation与Dispatch Queues实践</a>：“本文为读《Concurrency Programming Guide》笔记第二篇，在分享了OS X和iOS应用开发中实现任务异步执行的技术以及应注意的事项之后，作者<a href="http://weibo.com/jacefu">@DevTalking</a> 对 Operation 对象的设置执行，以及 Dispatch Queues 的创建管理进行了实践总结。”。来源：<a href="http://weibo.com/csdnmobile">@CSDN移动</a></li>
+<li><a href="https://segmentfault.com/a/1190000004660311">使用 react-hot-loader</a>：短又精炼的 react-hot-loader 应用技巧。来源：<a href="http://weibo.com/segmentfault">@SegmentFault</a>，作者：<a href="http://weibo.com/u/3025220401">@孙恒哲</a></li>
+<li><a href="https://github.com/seedante/iOS-Note">iOS-Note</a>：这里有 CoreData, Photos, 转场动画等实用、详细的笔记。作者：<a href="http://weibo.com/u/1815689155">@seedante</a></li>
+<li><a href="https://segmentfault.com/a/1190000004670954">使用 SwiftyDB 来管理 SQLite 数据库</a>：“从开发者的角度来说，对一个SQLite中的数据进行插入、更新、检索本身就是一件容易的事...”。原文来源：<a href="http://www.appcoda.com/swiftydb/">App Coda</a>，译者：<a href="http://weibo.com/1314ddml">@BigNerdCoding</a></li>
+<li><a href="https://www.hackingwithswift.com">Hacking With Swift</a>：“一个完整的 Swift 培训课程，36个动手项目免费教你应用程序开发。并且所有项目也都对 Swift 2 写了。学习Swift的童鞋，开启学习之旅吧！By <a href="http://weibo.com/mukewang">@慕课网</a>”。P.S. hackingwithswift.com 是一个优秀、自成一体的 Swift 学习教程网站，非常适合初学者（即便你是零基础学习者）。</li>
+<li><a href="https://segmentfault.com/a/1190000004650551">AutoLayout：constraint priority 约束优先级（九宫格续，一个更优方案）</a>：拟定开发案例方向后，在排错中积累经验、完善方案。顺附连载上一篇《<a href="http://cheng-kang.github.io/2016/03/19/AutoLayout%EF%BC%9AUITableViewCell%20%E8%87%AA%E9%80%82%E5%BA%94%E9%AB%98%E5%BA%A6%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BE%8B%E5%AD%90/">AutoLayout：UITableViewCell 自适应高度的一个例子</a>》。作者：<a href="http://weibo.com/progrant">@雷森图喵喜客</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=402947148&amp;idx=1&amp;sn=cd80fce3738d9d4b0037f38070b89c0f#rd">国外iOS大牛的分享经验和对Swift的看法</a>：“今年1月，我参加了由梁杰组织的Swift大会，这是国内首次由社区组织的移动技术大会，来自国内外的iOS开发大牛为大家奉献了精彩演讲。大会期间我采访了国外讲师Chris和Greg，他们分享了平时是如何工作，如何做分享，以及对Swift的看法。”。来源：<a href="http://weibo.com/bornmobile">@移动开发前线</a></li>
+<li><a href="http://www.jianshu.com/p/4be17ec40cfc">我的 iOS 开发入门自学路径</a>：如此清晰、有效的学习路径，非常值得新手看齐、学习。By <a href="http://weibo.com/u/5639257977">@游薪渝</a></li>
+<li><a href="https://blog.coding.net/blog/ios-architecture-patterns">iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER</a>：归纳简洁、清晰又完整，集图文和 Swift 示例代码结合的框架介绍。非常值得阅读的好译文。译文来源：<a href="http://weibo.com/clouddevelopment">@Coding</a>，译者：王哼哼</li>
+<li><a href="https://realm.io/cn/news/marius-rackwitz-challenges-building-swift-framework/">构建 Swift 框架所面临的挑战</a>：“在 Realm 在构建 Swift 动态框架的过程中，仍然存在着不少的挑战。在这个 MBLTDev 2015 的演讲中，Marius 总结了团队的相关经验，指出需要避免的陷阱，并且给予相应的提示，以便帮助您找到在快速发展的 Swift 生态系统中进行开发的舒适点。”。来源：Realm</li>
+<li><a href="http://www.jianshu.com/p/f31ec42120db">Swift 开源周刊#14</a> By <a href="http://weibo.com/u/2085734687">@PPPPPPMST</a></li>
+<li><a href="http://shellhue.github.io/2016/03/26/typealias/">typealias理解小误区</a> By <a href="http://weibo.com/u/5707174464">@黄泽宇ShellHue</a></li>
+<li><a href="https://zsisme.gitbooks.io/ios-/content/">iOS Core Animation: Advanced Techniques 中文译本</a> By <a href="https://github.com/ZsIsMe">钟声</a>。原文：<a href="http://www.amazon.com/iOS-Core-Animation-Advanced-Techniques-ebook/dp/B00EHJCORC/ref=sr_1_1?ie=UTF8&amp;qid=1423192842&amp;sr=8-1&amp;keywords=Core+Animation+Advanced+Techniques">Core Animation Advanced Techniques</a>，译者：<a href="https://github.com/AttackOnDobby">FeiXu</a>, <a href="https://github.com/evenluo/">even</a></li>
+<li><a href="http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch">Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch</a>：“来自Mercury.io的iOS 9 UIKit，提供Sketch与Ai两种格式。官网有言：“你已经在用Facebook和MengTo大人出品的UI模板套装了？为什么还要再下载一套？答案很简单：我们的更好。” 亲测，市面上最全最细的UIKit，确实蛮霸道的，拿去做交互稿也不坏。By <a href="http://weibo.com/c7210">@C7210</a>”</li>
+</ul>
+</body>
+<div style = "display:none">
+<script src="http://s4.cnzz.com/stat.php?id=5934372&web_id=5934372" language="JavaScript"></script>
+</div></html>
