@@ -71,6 +71,7 @@ Swift 语言指南
 * [devtalking.com](http://www.devtalking.com/)：高产的中译博客。翻译了官方博客 Swift Blog - Apple Developer,《App Extension Programming Guide》。参与翻译了《Swift Programming Language》等。
 * [SwiftGG](http://swift.gg/)：一个走心的 Swift 翻译组，由《The Swift Programming Language》中文版翻译团队原班人马组成， 翻译的文章来源于国外的优秀 Swift 网站和博客，且全部获得作者和网站授权。
 * [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
+* [Swift Developer Weekly](http://swiftdevweekly.co/):这个网站每周推送最新的技术文章和书本推荐到你的email，由Phil Wright创办。
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
 
 * **<a id="recomm_resources"></a>资源合集**
@@ -135,7 +136,8 @@ Swift 语言指南
 
 ### 6. 设计工具
 * [sketch](http://www.sketchapp.com/)：更适合开发应用的矢量设计工具。通过插件还支持与代码协同工作。推荐书籍：[Learn Sketch 3](https://designcode.io/sketch)
-
+* [PaintCode](http://www.paintcodeapp.com/)
+:PaintCode是Apple Designer入门APP开发最合适的辅助工具之一，她可以把你绘制的矢量UI自动转化为适用于iOS/OS X的Objective-C代码。
 ## [媒体报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
 ## [开放平台](https://github.com/ipader/SwiftGuide/tree/master/archive/platforms.md)
 ## [Apple Watch 指南](https://github.com/ipader/SwiftGuide/blob/master/Apple%20Watch/README.md)
