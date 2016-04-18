@@ -2,11 +2,11 @@
 
 ## [Issue 51](Issue-51.md)
 
-**本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)：功能及使用介绍均完整带图标显示浮动标签组件库；[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)：可爱的数字补间（变身）动画类库；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
+**本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)（带图标显示浮动标签组件库）、[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)（可爱的数字补间（变身）动画类库）、[SwiftSVG](https://github.com/mchoe/SwiftSVG)（支持多种接口绘制 SVG）；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
 
-**大声一**: [拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)
+**大声一**: [IBM 为可穿戴设备提供开源框架（SDK）及示例](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk)
 
-**大声二**: [如何使用Instruments诊断App（Swift版）：起步](http://www.cocoachina.com/ios/20150623/12237.html)
+**大声二**: [拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/) By realm.io
 
 > ![](../archive/weixin-swiftlanguage.jpg)
 
@@ -14,7 +14,9 @@
 * [Issue 50](Issue-50.md)
 
 	> **本期特别推荐** 1. 项目: [Permission](https://github.com/delba/Permission) (统一的 API 请求 iOS 本地设备及资源权限类库) ，[SwipeViewController](https://github.com/fortmarek/SwipeViewController) (页面滑动和标签选项卡) ；2. 文档：[我的 iOS 开发入门自学路径](http://www.jianshu.com/p/4be17ec40cfc)，[iOS Core Animation: Advanced Techniques 中文译本](https://zsisme.gitbooks.io/ios-/content/) 以及 [Medium - Swift Programming](https://medium.com/swift-programming)。
+	
 	> **大声一**: “[IBAnimatable 2.0 发布了！](https://github.com/JakeLin/IBAnimatable/releases)” By [@林永坚Jake](http://weibo.com/yongjianlin)
+	
 	> **大声二**: [Free iOS 9.3 iPhone UI Kit for Illustrator and Sketch](http://mercury.io/blog/free-ios-9-3-iphone-ui-kit-for-illustrator-and-sketch)
 
 

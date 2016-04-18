@@ -2,7 +2,7 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-4-18，最近新收录  [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton) 等 7 个，合计已收录 374 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-4-18，最近新收录 [Cache](https://github.com/hyperoslo/Cache), [SwiftSVG](https://github.com/mchoe/SwiftSVG), [BCColor](https://github.com/boycechang/BCColor), [Sensitive](https://github.com/igormatyushkin014/Sensitive), [NiceGesture](https://github.com/lacklock/NiceGesture), [MetalAcc](https://github.com/wangjwchn/MetalAcc), [WKZombie](https://github.com/mkoehnke/WKZombie), [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk), [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown), [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO) 等 17 个，合计已收录 384 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
@@ -109,6 +109,7 @@
 [GRDB.swift](https://github.com/groue/GRDB.swift)|[Gwendal Roué](https://github.com/groue)|让操作 SQLite 再简单一点
 [Graph](https://github.com/CosmicMind/Graph)|[CosmicMind](https://github.com/CosmicMind)|CoreData 持久化类库，设计新颖、使用简单
 [fluent](https://github.com/qutheory/fluent)|[Qutheory](https://github.com/qutheory)|快速实现 CRUD 操作的对象存储类库
+[Cache](https://github.com/hyperoslo/Cache)|[Hyper](https://github.com/hyperoslo)|多类型数据混合缓存库
 
 ### <a id="network"></a>网络
 
@@ -135,12 +136,14 @@
 ------------ | ------------- | ------------- 
 [ImageScout](https://github.com/kaishin/ImageScout) |[Reda Lemeden](http://redalemeden.com)|最小网络代价获得图片大小及类型
 [DominantColor](https://github.com/indragiek/DominantColor)|[Indragie Karunaratne](http://indragie.com)|提取图片主色示例项目
+[BCColor](https://github.com/boycechang/BCColor)|[@Boyce_Chang](http://weibo.com/u/1897577113)|开源的轻量而强大的颜色处理库
 [Toucan](https://github.com/gavinbunney/Toucan)|[Gavin Bunney](https://github.com/gavinbunney)|小而美的图片变换及处理类
 [gifu](https://github.com/kaishin/gifu)|[Reda Lemeden](http://redalemeden.com)|高性能 GIF 显示类库
 [XAnimatedImage](https://github.com/khaledmtaha/XAnimatedImage)| [Khaled Taha](https://github.com/khaledmtaha)|基于 FLAnimatedImage 高性能 GIF 显示类库
 [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[王佳玮](http://weibo.com/u/5228362742)|高性能 GIF 显示库,对多GIF显示的场景进行了优化
 [apngkit](https://github.com/onevcat/apngkit)|[@onevcat](http://weibo.com/onevcat)|解析和显示 APNG 的框架
 [HanekeSwift](https://github.com/Haneke/HanekeSwift)|[Haneke](https://github.com/Haneke)|轻量带缓存高性能图片加载组件
+[MetalAcc](https://github.com/wangjwchn/MetalAcc)|[王佳玮](http://weibo.com/u/5228362742)|基于 GPU 的多媒体处理库
 [SwiftColorArt](https://github.com/Jan0707/SwiftColorArt)|[Jan Gregor Triebel](https://github.com/Jan0707)|图片色系决定界面背景色及字体显示颜色
 [UIImageColors](https://github.com/jathu/UIImageColors)|[jathu](https://github.com/jathu)|功能同上。获取主色、次色、背景色、详细色
 [Concorde](https://github.com/contentful-labs/Concorde)|[contentful-labs](https://github.com/contentful-labs)|一个可用于下载和解码渐进式 JPEG 的库
@@ -150,6 +153,7 @@
 [Nuke](https://github.com/kean/Nuke)|[Alexander Grebenyuk](https://github.com/kean)|完整、强大、实用的图片管理类库
 [Filterpedia](https://github.com/FlexMonkey/Filterpedia)|[simon gladman](https://github.com/FlexMonkey)|Core Image 下强大的图片滤镜类库演示应用
 [sweetcorn](https://github.com/FlexMonkey/sweetcorn)|[simon gladman](https://github.com/FlexMonkey)|UI 配置生成图像滤镜代码
+[SwiftSVG](https://github.com/mchoe/SwiftSVG)|[Michael Choe](https://github.com/mchoe)|支持多种接口绘制 SVG 类库
 
 ### <a id="framework"></a>框架
 
@@ -217,6 +221,8 @@
 [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)|[Andrea Bizzotto](https://github.com/bizz84)|轻量、易用的极简购买框架库
 [Permission](https://github.com/delba/Permission)|[Damien](https://github.com/delba)|统一的 API 请求 iOS 本地设备及资源权限类库
 [Appz](https://github.com/SwiftKitz/Appz)|[Kitz](https://github.com/SwiftKitz)|深入参数级别的外部应用启动器
+[WKZombie](https://github.com/mkoehnke/WKZombie)|[Mathias Köhnke](https://github.com/mkoehnke)|浏览器内快速导航或切换到指定页面
+[SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)|[Umberto Raimondi](https://github.com/uraimo)|控制基于 Linux 主板（比如：C.H.I.P. 和 树莓派）的 GPIO
 
 ### <a id="interfaces"></a>界面
 
@@ -286,10 +292,13 @@
 [WobbleView](https://github.com/inFullMobile/WobbleView)|[inFullMobile](https://github.com/inFullMobile)|当界面组件过渡时，带波纹摆动效果的组件扩展
 [RichEditorView](https://github.com/cjwirth/RichEditorView)|[Caesar Wirth](https://github.com/cjwirth)|一套可定制富文本编辑器组件及示例（基于 HTML5）
 [MarkdownTextView](https://github.com/indragiek/MarkdownTextView)|[Indragie Karunaratne](https://github.com/indragiek)|非常轻量、简洁、高效的 Markdown 编辑组件及示例
+[SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown)|[Simon Fairbairn](https://github.com/SimonFairbairn)|Markdown 解析器（解析到 NSAttributedString ）
 [RxGesture](https://github.com/icanzilb/RxGesture)|[Marin Todorov](https://github.com/icanzilb)|基于 RxSwift 的手势视图库
 [DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)|[Didier Brun](https://github.com/didierbrun)|基于路径模型的手势识别工具
 [PennyPincher](https://github.com/fe9lix/PennyPincher)|[fe9lix](https://github.com/fe9lix)|手势识别机器学习类库及演示
 [Tactile](https://github.com/delba/Tactile)|[Damien](https://github.com/delba)|让手势识别如虎添翼
+[Sensitive](https://github.com/igormatyushkin014/Sensitive)|[Igor Matyushkin](https://github.com/igormatyushkin014)|一套使用更简单、直观的手势识别库
+[NiceGesture](https://github.com/lacklock/NiceGesture)|[@没故事的卓同学](http://weibo.com/u/1926303682)|一个愉快使用UIGesture的库
 [GuillotineMenu](https://github.com/Yalantis/GuillotineMenu)|[Yalantis](https://github.com/Yalantis)|极具创意及突破精神的动画演示
 [SingleLineShakeAnimation](https://github.com/haaakon/SingleLineShakeAnimation)|[Håkon Bogen](https://github.com/haaakon)|用一行代码给视图加上抖动效果
 [JGFlipMenu](https://github.com/ziligy/JGFlipMenu)|[jeff greenberg](https://github.com/ziligy)|Flip 式菜单及其对应动画组件

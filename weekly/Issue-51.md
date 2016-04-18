@@ -3,14 +3,15 @@
 **[<= 往期回顾](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)**
 [Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 51
 ===
-**本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)：功能及使用介绍均完整带图标显示浮动标签组件库；[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)：可爱的数字补间（变身）动画类库；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
+**本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)（带图标显示浮动标签组件库）、[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)（可爱的数字补间（变身）动画类库）、[SwiftSVG](https://github.com/mchoe/SwiftSVG)（支持多种接口绘制 SVG）；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
 
-**大声一**: [拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)
+**大声一**: [IBM 为可穿戴设备提供开源框架（SDK）及示例](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk)
 
-**大声二**: [如何使用Instruments诊断App（Swift版）：起步](http://www.cocoachina.com/ios/20150623/12237.html)
+**大声二**: [拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/) By realm.io
+
 
 ## 项目
-> [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton) 等 7 个，合计已收录 374 个。
+> [Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)：最近新收录 [Cache](https://github.com/hyperoslo/Cache), [SwiftSVG](https://github.com/mchoe/SwiftSVG), [BCColor](https://github.com/boycechang/BCColor), [Sensitive](https://github.com/igormatyushkin014/Sensitive), [NiceGesture](https://github.com/lacklock/NiceGesture), [MetalAcc](https://github.com/wangjwchn/MetalAcc), [WKZombie](https://github.com/mkoehnke/WKZombie), [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk), [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown), [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO) 等 17 个，合计已收录 384 个。
 
 
 * [cleartext-mac](https://github.com/mortenjust/cleartext-mac)：提供一千个常用单词的编辑器。应用灵感来源于 Randall Munroe 新书《Thing Explainer：Complicated Stuff in Simple Words》。作者避免复杂、晦涩语言、尽可能使用通俗（1000 单词）术语、词句、插图来诠释我们的世界。开发者：[Morten Just](https://github.com/mortenjust)
@@ -20,17 +21,15 @@
 * [iOS 9 GUI](https://designcode.io/ios9)，[iOS 9 GUI for iPad](https://designcode.io/ios9-ipad)，[Apple Watch GUI](https://designcode.io/watch)：之前推介 Mercury 的 iOS 9.3 Sketch UIKit 时提到 Mengto 出品的经典资源。开发者：Meng To
 * [URLEmbeddedView](https://github.com/szk-atmosphere/URLEmbeddedView)：基于 URL 的数据和图像装载、缓存及视图工具库。开发者：[Taiki Suzuki](https://github.com/szk-atmosphere)
 * [IBAnimatable](https://github.com/JakeLin/IBAnimatable)：IBAnimatable 2.1又 release 了，加了一些转场动画，支持 Swift 2.2，修正一些 bugs。开发者：[Jake Lin](https://github.com/JakeLin)
-* [MetalAcc](https://github.com/wangjwchn/MetalAcc)：基于 GPU 的多媒体处理库，使用了 Apple 最新的图像处理接口"Metal",Swift 编写。API 仿照 GPUImage。开发者：[Jiawei Wang](https://github.com/wangjwchn)
-* [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)：一款高性能 GIF 动态图显示引擎。开发者：[Jiawei Wang
-](https://github.com/wangjwchn)
-* [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)：过 Swift 语言去控制基于 Linux 主板（比如：C.H.I.P. 和 树莓派） 的 GPIO（General Purpose Input Output ），去完成简单的工控功能（比如 LED 灯的显示）。开发者：[Umberto Raimondi](https://github.com/uraimo)
+* [MetalAcc](https://github.com/wangjwchn/MetalAcc)：基于 GPU 的多媒体处理库，使用了 Apple 最新的图像处理接口"Metal",Swift 编写。API 仿照 GPUImage。开发者：[王佳玮](http://weibo.com/u/5228362742)
+* [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)：通过 Swift 语言去控制基于 Linux 主板（比如：C.H.I.P. 和 树莓派） 的 GPIO（General Purpose Input Output ），去完成简单的工控功能（比如 LED 灯的显示）。开发者：[Umberto Raimondi](https://github.com/uraimo)
 * [WKZombie](https://github.com/mkoehnke/WKZombie)：不需要通过界面和 API 在浏览器内快速、直接导航或切换到指定数据页面（类设计采用了直观、易用的链式调用）。开发者主要应用于网页功能的自动测试。很有新意的实验性项目。开发者：[Mathias Köhnke](https://github.com/mkoehnke)
-* [WKZombie](https://github.com/hyperoslo/Cache)：可以为多类型（或定制类型）数据提供缓存功能的混合缓存库。开发者：[Hyper](https://github.com/hyperoslo)
+* [Cache](https://github.com/hyperoslo/Cache)：可以为多类型（或定制类型）数据提供缓存功能的混合缓存库。开发者：[Hyper](https://github.com/hyperoslo)
 * [KSHObjcUML](https://github.com/kimsungwhee/KSHObjcUML)：Xcode 插件 KSHObjcUML 2.0。开发者：[Sungwhee Kim](https://github.com/kimsungwhee)
 * [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl)：易用、可定制的替换  UISegmentedControl & UISwitch 组件。开发者：[George Marmaridis](https://github.com/gmarm)
 * [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown)：Swift 版 Markdown 解析器（解析到 NSAttributedString ）。开发者：[Simon Fairbairn](https://github.com/SimonFairbairn)
 * [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit)：一套简单、易用的动画库。开发者：[Jelly Development](https://github.com/JellyDevelopment)
-* [NiceGesture](https://github.com/lacklock/NiceGesture)：一个愉快使用UIGesture的库。开发者：[没故事的卓同学](http://www.jianshu.com/users/88a056103c02/latest_articles)
+* [NiceGesture](https://github.com/lacklock/NiceGesture)：一个愉快使用UIGesture的库。开发者：[@没故事的卓同学](http://weibo.com/u/1926303682)
 * [timer-app](https://github.com/michaelvillar/timer-app)：一款简单、漂亮的 Mac定时器应用。开发者：[Michael Villar](https://github.com/michaelvillar)
 * [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)：功能及使用介绍均完整带图标显示浮动标签组件库。这或许是 Floating Label Patten首选库了。开发者：[Skyscanner](https://github.com/Skyscanner)
 * [YPDropMenuViewDemo](https://github.com/MakeBetterMe/YPDropMenuViewDemo)：swift实现的一款DropMenu,menuView,类似之前美团的下拉菜单。开发者：[Pony](https://github.com/MakeBetterMe)
@@ -38,8 +37,8 @@
 * [TKDotSegment](https://github.com/TBXark/TKDotSegment)：封装圆点动画 Segment。开发者：[TBXark](https://github.com/TBXark)
 * [SwiftSVG](https://github.com/mchoe/SwiftSVG)：支持多种接口（String, NS/UIBezierPath, CAShapeLayer, and NS/UIView）绘制 SVG 类库。开发者：[Michael Choe](https://github.com/mchoe)
 * [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)：两个集合视图在不同布局（平铺和列表）间平滑切换。Yalantis 出品。开发者：[Yalantis](https://github.com/Yalantis)
-* [BCColor](https://github.com/boycechang/BCColor)：开源的轻量而强大的颜色处理库，纯 Swift 版。 支持从图片拾取一套主题色，类似AppleMusic；支持图片黑白化、对颜色的加深和变浅、生成渐变颜色等。开发者：[Boyce Chang](https://github.com/boycechang)
-* [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk)：IBM为Gemsense、MicrosoftBand等可穿戴设备提供了一个Swift编写的框架以让iOS开发者更容易上手，而且目前手势识别部分的代码开源。开发者：[IBM Wearables SDK for Mobile](https://github.com/ibm-wearables-sdk-for-mobile)
+* [BCColor](https://github.com/boycechang/BCColor)：开源的轻量而强大的颜色处理库，纯 Swift 版。 支持从图片拾取一套主题色，类似AppleMusic；支持图片黑白化、对颜色的加深和变浅、生成渐变颜色等。开发者：[@Boyce_Chang](http://weibo.com/u/1897577113)
+* [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk)：IBM 为 Gemsense、MicrosoftBand 等可穿戴设备提供了一个 Swift 编写的框架以让 iOS 开发者更容易上手，而且目前手势识别部分的代码开源。开发者：[IBM Wearables SDK for Mobile](https://github.com/ibm-wearables-sdk-for-mobile)
 * [EasyPeasy](https://github.com/nakiostudio/EasyPeasy)：编程方式自动布局框架库。开发者：[Carlos Vidal](https://github.com/nakiostudio)
 * [InkKit](https://github.com/shaps80/InkKit)：该类库帮助开发者绘制简单图形更容易。开发者：[Shaps M](https://github.com/shaps80)
 * [DynamicButton](https://github.com/yannickl/DynamicButton)：完整、且带动画过渡的图标按钮库。开发者：[Yannick Loriot](https://github.com/yannickl)
