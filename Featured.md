@@ -140,7 +140,8 @@
 [Toucan](https://github.com/gavinbunney/Toucan)|[Gavin Bunney](https://github.com/gavinbunney)|小而美的图片变换及处理类
 [gifu](https://github.com/kaishin/gifu)|[Reda Lemeden](http://redalemeden.com)|高性能 GIF 显示类库
 [XAnimatedImage](https://github.com/khaledmtaha/XAnimatedImage)| [Khaled Taha](https://github.com/khaledmtaha)|基于 FLAnimatedImage 高性能 GIF 显示类库
-[JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[王佳玮](http://weibo.com/u/5228362742)|高性能 GIF 显示库,对多GIF显示的场景进行了优化
+[JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[王佳玮](https://github.com/wangjwchn)|高性能 GIF 显示库,对多GIF显示的场景进行了优化
+[MetalAcc](https://github.com/wangjwchn/MetalAcc)|[王佳玮](https://github.com/wangjwchn)|基于GPU的多媒体处理库，使用了Apple最新的图像处理接口'Metal'
 [apngkit](https://github.com/onevcat/apngkit)|[@onevcat](http://weibo.com/onevcat)|解析和显示 APNG 的框架
 [HanekeSwift](https://github.com/Haneke/HanekeSwift)|[Haneke](https://github.com/Haneke)|轻量带缓存高性能图片加载组件
 [MetalAcc](https://github.com/wangjwchn/MetalAcc)|[王佳玮](http://weibo.com/u/5228362742)|基于 GPU 的多媒体处理库
