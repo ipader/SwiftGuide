@@ -2,7 +2,7 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-3-28，最近新收录  [RxGesture](https://github.com/icanzilb/RxGesture), [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit), [SwipeViewController](https://github.com/fortmarek/SwipeViewController), [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip), [Permission](https://github.com/delba/Permission), [Appz](https://github.com/SwiftKitz/Appz), [Countdown](https://github.com/soffes/Countdown), [TextKitAndAnimationEffect](https://github.com/morpheus1984/TextKitAndAnimationEffect) 等 8 个，合计已收录 367 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-4-18，最近新收录  [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton) 等 7 个，合计已收录 374 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
@@ -335,6 +335,12 @@
 [STLocationRequest](https://github.com/SvenTiigi/STLocationRequest)|[SvenTiigi](https://github.com/SvenTiigi)| 360 度 3D 俯瞰图方式请求用户位置
 [navigation-stack](https://github.com/Ramotion/navigation-stack)|[Ramotion](https://github.com/Ramotion)|导航控制器的 Stack 视图模型最佳实践
 [SubtleVolume](https://github.com/andreamazz/SubtleVolume)|[Andrea Mazzini](https://github.com/andreamazz)|更隐蔽的系统音量替代指示器
+[JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[George Marmaridis](https://github.com/gmarm)|易用、可定制的替换  UISegmentedControl & UISwitch 组件
+[ZYThumbnailTableView](https://github.com/liuzhiyi1992/ZYThumbnailTableView)|[Jelly Development](https://github.com/JellyDevelopment)|一套简单、易用的动画库
+[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)|[Skyscanner](https://github.com/Skyscanner)|功能及使用介绍均完整带图标显示浮动标签组件库
+[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)|[Abhinav Chauhan](https://github.com/me-abhinav)|可爱的数字补间（变身）动画类库
+[DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)|[Yalantis](https://github.com/Yalantis)|两个集合视图在不同布局（平铺和列表）间平滑切换
+[DynamicButton](https://github.com/yannickl/DynamicButton)|[Yannick Loriot](https://github.com/yannickl)|完整、且带动画过渡的图标按钮库
 
 ### <a id="demo"></a>示例
 
@@ -413,3 +419,4 @@
 [Phonetic](https://github.com/iAugux/Phonetic)|[@iAugus](http://weibo.com/augusoo7)|iOS 版的 Phonetic Contacts
 [shift-js](https://github.com/shift-js/shift-js)|[ShiftJS](https://github.com/shift-js)|Swift 程序员在写 iOS 和 Web 应用时无需语言切换
 [injectionforxcode](https://github.com/johnno1962/injectionforxcode)|[Toshihiro Morimoto](https://github.com/dealforest)|修改一个类的代码实现而不用重启整个应用 Xcode 插件
+[cleartext-mac](https://github.com/mortenjust/cleartext-mac)|[Morten Just](https://github.com/mortenjust)|提供一千个常用单词的编辑器
