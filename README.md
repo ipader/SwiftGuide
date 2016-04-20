@@ -81,6 +81,7 @@ Swift 语言指南
 	* [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
 	* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](matteocrippa/awesome-swift)
 	* [适合iOS开发者的 15 大网站推荐](http://www.csdn.net/article/2015-03-04/2824108-ios-developers-sites/1)：的确很全、很主流的国外 iOS 开发者网站。
+	* [掘金 Swift 版块](http://gold.xitu.io/#/tag/Swift)
 	* [码农周刊 －《Swift 特刊》](http://weekly.manong.io/issues/33?ref=swift)
 	* [CocoaChina －《Swift 新手入门汇集帖》](http://www.cocoachina.com/bbs/read.php?tid=204512)
 	* [CSDN_CODE －《Swift 编程语言资料大合集》](http://code.csdn.net/news/2820075)
