@@ -28,6 +28,7 @@
 [PMJSON](https://github.com/postmates/PMJSON)|[Postmates](https://github.com/postmates)|简单、实用、高效的 JSON 解析类库
 [TryParsec](https://github.com/inamiy/TryParsec)|[Yasuhiro Inami](https://github.com/inamiy)|支持 CSV, XML, JSON 以及简单算术表达式解析工具库
 [Mirror](https://github.com/kostiakoval/Mirror)|[Kostiantyn Koval](https://github.com/kostiakoval)|通过反射实现镜像对象封装库
+[JSONExport](https://github.com/Ahmed-Ali/JSONExport)|[Ahmed-Ali](https://github.com/Ahmed-Ali)|将 JSON 迅速转换为 Model（Swift, Java, OC）
 [Dollar.swift](https://github.com/ankurp/Dollar.swift) |[Ankur Patel](https://github.com/ankurp)|Swift 版 Lo-Dash (或 underscore )函数式工具库
 [protobuf-swift](https://github.com/alexeyxo/protobuf-swift)|[Alexey Khokhlov](https://github.com/alexeyxo)|Protocol Buffers 的 Swift 语言实现库
 [SwiftMoment](https://github.com/akosma/SwiftMoment)|[Adrian Kosmaczewski](https://github.com/akosma)|Swift 版 [Moment.js](http://momentjs.com/)
