@@ -346,7 +346,8 @@
 [navigation-stack](https://github.com/Ramotion/navigation-stack)|[Ramotion](https://github.com/Ramotion)|导航控制器的 Stack 视图模型最佳实践
 [SubtleVolume](https://github.com/andreamazz/SubtleVolume)|[Andrea Mazzini](https://github.com/andreamazz)|更隐蔽的系统音量替代指示器
 [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[George Marmaridis](https://github.com/gmarm)|易用、可定制的替换  UISegmentedControl & UISwitch 组件
-[ZYThumbnailTableView](https://github.com/liuzhiyi1992/ZYThumbnailTableView)|[Jelly Development](https://github.com/JellyDevelopment)|一套简单、易用的动画库
+[JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit)|[Jelly Development](https://github.com/JellyDevelopment)|一套简单、易用的动画库
+[ZYThumbnailTableView](https://github.com/liuzhiyi1992/ZYThumbnailTableView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|可定制展开型预览 TableView
 [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)|[Skyscanner](https://github.com/Skyscanner)|功能及使用介绍均完整带图标显示浮动标签组件库
 [NumberMorphView](https://github.com/me-abhinav/NumberMorphView)|[Abhinav Chauhan](https://github.com/me-abhinav)|可爱的数字补间（变身）动画类库
 [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)|[Yalantis](https://github.com/Yalantis)|两个集合视图在不同布局（平铺和列表）间平滑切换
