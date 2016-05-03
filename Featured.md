@@ -2,7 +2,7 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-4-18，最近新收录 [Cache](https://github.com/hyperoslo/Cache), [SwiftSVG](https://github.com/mchoe/SwiftSVG), [BCColor](https://github.com/boycechang/BCColor), [Sensitive](https://github.com/igormatyushkin014/Sensitive), [NiceGesture](https://github.com/lacklock/NiceGesture), [MetalAcc](https://github.com/wangjwchn/MetalAcc), [WKZombie](https://github.com/mkoehnke/WKZombie), [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk), [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown), [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO) 等 17 个，合计已收录 384 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-4-18，最近新收录 [Cache](https://github.com/hyperoslo/Cache), [SwiftSVG](https://github.com/mchoe/SwiftSVG), [BCColor](https://github.com/boycechang/BCColor), [Sensitive](https://github.com/igormatyushkin014/Sensitive), [NiceGesture](https://github.com/lacklock/NiceGesture), [MetalAcc](https://github.com/wangjwchn/MetalAcc), [WKZombie](https://github.com/mkoehnke/WKZombie), [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk), [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown), [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO) 等 17 个，合计已收录 386 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
@@ -14,12 +14,14 @@
 * [示例](#demo)
 * [应用](#projects)
 	
-### <a id="tools"></a>工具
-	
+
+### <a id="tools"></a>工具	
+> 备注栏 🔗 或 📝 链接详细介绍或最佳实践。其中 🔗 － 指外链接，📝 － 指 Wiki 可编辑	
+
 	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
-[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)|[tangplin](https://github.com/tangplin), [lingoer](https://github.com/lingoer)|GitHub 上最为开发者认可的 JSON 解析库
-[Argo](https://github.com/thoughtbot/Argo)|[thoughtbot](https://github.com/thoughtbot)|函数式 JSON 解析库
+[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)|[tangplin](https://github.com/tangplin), [lingoer](https://github.com/lingoer)|GitHub 上最为开发者认可的 JSON 解析库 [🔗](http://tangplin.github.io/swiftyjson/)
+[Argo](https://github.com/thoughtbot/Argo)|[thoughtbot](https://github.com/thoughtbot)|函数式 JSON 解析库 [🔗](https://robots.thoughtbot.com/introducing-argo-10-more-power-more-fun)
 [JSONCodable](https://github.com/matthewcheok/JSONCodable)|[Matthew Cheok](https://github.com/matthewcheok)|基于 Swift 2 新特性的 JSON 解析库
 [Decodable](https://github.com/Anviking/Decodable)|[Johannes Lund](https://github.com/Anviking)|Swift 2 版 JSON 解析（对象映射）库
 [CaesarParser](https://github.com/lancy/CaesarParser)|[@晨钰Lancy](http://weibo.com/lancy1014)|这款 JSON 解析类库比较简洁、耐用
@@ -116,8 +118,8 @@
 
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
-[Alamofire](https://github.com/Alamofire/Alamofire) |[Mattt Thompson](https://github.com/mattt)|著名的 AFNetworking 络基础库 Swift 语言版
- [AlamofireImage](https://github.com/Alamofire/AlamofireImage)|[Christian Noon](https://github.com/cnoon)|基于 Alamofire 的网络图片组件库
+[Alamofire](https://github.com/Alamofire/Alamofire) |[Mattt Thompson](https://github.com/mattt)|著名的 AFNetworking 络基础库 Swift 语言版 [📝](https://github.com/ipader/SwiftGuide/wiki/Alamofire%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
+[AlamofireImage](https://github.com/Alamofire/AlamofireImage)|[Christian Noon](https://github.com/cnoon)|基于 Alamofire 的网络图片组件库
 [starscream](https://github.com/daltoniam/starscream)|[Dalton](http://daltoniam.com)|WebSocket 客户端类库
 [SocketIO-Kit](https://github.com/ricardopereira/SocketIO-Kit)|[Ricardo Pereira](https://github.com/ricardopereira)|基于 [Starscream](https://github.com/daltoniam/Starscream) 的 socket.io 实现
 [SwiftWebSocket](https://github.com/tidwall/SwiftWebSocket)|[Josh Baker](https://github.com/tidwall)|WebSocket 协议（RFC 6455）实现类库
@@ -247,6 +249,7 @@
 [react-native-ios-charts](https://github.com/Jpadilla1/react-native-ios-charts)|[Jose Padilla](https://github.com/Jpadilla1)|将 [ios-charts](https://github.com/danielgindi/ios-charts) 引入 React Native 的图表组件库
 [PNChart-Swift](https://github.com/kevinzhow/PNChart-Swift)|[Kevin Zhow](http://weibo.com/kevinzhow)|带动画效果的图表控件库
 [SwiftCharts](https://github.com/i-schuetz/SwiftCharts)|[Ivan Schütz](https://github.com/i-schuetz)|基于层架构设计思想的图表类库
+[SpreadButton](https://github.com/liuzhiyi1992/SpreadButton)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|会散开，会自动贴边的菜单按钮[🔗](http://zyden.vicp.cc/zyspreadbutton/)
 [HamburgerButton - Menu/Close](https://github.com/robb/hamburger-button)|[Robert Böhnke](http://robb.is)|无论[设计](http://robb.is/working-on/a-hamburger-button-transition/)还是代码，都进行了精雕细琢
 [HamburgerButton - Menu/Back](https://github.com/fastred/HamburgerButton)|[Arkadiusz Holko](http://holko.pl/)|对应[博文](http://holko.pl/2014/07/15/hamburger-button-animation/)可知，开发者动画开发经验相当丰富
 [HamburgerButton - Check](https://github.com/entotsu/TKAnimatedCheckButton)|[Takuya.Okamoto](https://github.com/entotsu)|Hamburger 风格按钮动画图标（单选）组件
@@ -263,7 +266,7 @@
 [Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)|[Wagner Truppel](https://github.com/wltrup)|小而精悍地可定制类似  Watch 圆型进程条组件
 [GaugeKit](https://github.com/skywinder/GaugeKit)|[Petr Korolev](https://github.com/skywinder)| Watch 风格运动进程表盘
 [LiquidLoader](https://github.com/yoavlt/LiquidLoader)|[Takuma Yoshida](https://github.com/yoavlt)|细滑进程装载动画效果
-[WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|可配置圆形波浪进度指示器类及演示
+[WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|球型波浪进度指示器 [🔗](http://zyden.vicp.cc/waveloadingindicator/)
 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)|[Fahim Farook](https://github.com/FahimF)|Float Label Pattern 浮动标签输入效果类
 [ParkedTextField](https://github.com/gmertk/ParkedTextField)|[Gunay Mert Karadogan](https://github.com/gmertk)|带固定文本的输入组件
 [ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)|[Optonaut](https://github.com/optonaut)|扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应
@@ -281,7 +284,7 @@
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
 [ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation)|[Alex](https://github.com/fruitcoder)|基于 [@ZeeYoung欧阳哲](http://weibo.com/zeeya) 创意下拉刷新动画实现
 [folding-cell](https://github.com/Ramotion/folding-cell)|[Ramotion](https://github.com/Ramotion)|自然流畅、清新的单元格折叠动画类及演示
-[Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例
+[Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例 [🔗](https://yalantis.com/blog/how-we-built-tinder-like-koloda-in-swift/)
 [tispr-card-stack](https://github.com/tispr/tispr-card-stack)|[tispr](https://github.com/tispr)|卡片风格动画切换组件及完整交互示例
 [CameraManager](https://github.com/imaginary-cloud/CameraManager)|[Imaginary Cloud](https://github.com/imaginary-cloud)|简单、易用的相机管理封装类库
 [QRCodeReader](https://github.com/yannickl/QRCodeReader.swift)|[Yannick Loriot](https://github.com/yannickl)|QR 二维码阅读组件及示例
@@ -348,7 +351,7 @@
 [SubtleVolume](https://github.com/andreamazz/SubtleVolume)|[Andrea Mazzini](https://github.com/andreamazz)|更隐蔽的系统音量替代指示器
 [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[George Marmaridis](https://github.com/gmarm)|易用、可定制的替换  UISegmentedControl & UISwitch 组件
 [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit)|[Jelly Development](https://github.com/JellyDevelopment)|一套简单、易用的动画库
-[ZYThumbnailTableView](https://github.com/liuzhiyi1992/ZYThumbnailTableView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|可定制展开型预览 TableView
+[ZYThumbnailTableView](https://github.com/liuzhiyi1992/ZYThumbnailTableView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|可定制展开型预览 TableView [🔗](http://zyden.vicp.cc/zythumbnailtableview)
 [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)|[Skyscanner](https://github.com/Skyscanner)|功能及使用介绍均完整带图标显示浮动标签组件库
 [NumberMorphView](https://github.com/me-abhinav/NumberMorphView)|[Abhinav Chauhan](https://github.com/me-abhinav)|可爱的数字补间（变身）动画类库
 [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)|[Yalantis](https://github.com/Yalantis)|两个集合视图在不同布局（平铺和列表）间平滑切换
@@ -369,7 +372,7 @@
 [ImageViewer](https://github.com/MailOnline/ImageViewer)|[MailOnline](https://github.com/MailOnline)|用心之作图片全屏预览组件及类库
 [Fusuma](https://github.com/ytakzk/Fusuma)|[Yuta Akizuki](https://github.com/ytakzk)|Instagram 风格图片浏览及拍照
 [PeekPop](https://github.com/marmelroy/PeekPop)|[Roy Marmelstein](https://github.com/marmelroy)|基于 3D Touch 苹果新特性 Peek/Pop 图片预览
-[CardAnimation](https://github.com/seedante/CardAnimation)|[@seedante](http://weibo.com/u/1815689155)|卡片式垂直翻转动画。[实现思路](http://www.jianshu.com/p/286222d4edf8)
+[CardAnimation](https://github.com/seedante/CardAnimation)|[@seedante](http://weibo.com/u/1815689155)|卡片式垂直翻转动画 [🔗](http://www.jianshu.com/p/286222d4edf8)
 [RMParallax](https://github.com/michaelbabiy/RMParallax)|[Michael Babiy](https://github.com/michaelbabiy)|简单的帮助向导界面组件及示例
 [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps)|[Kostiantyn Koval](https://github.com/kostiakoval)|学习 WatchKit 应用的示例式教程集锦
 [CarlosButron - Examples](https://github.com/CarlosButron/Swift)|[Carlos Butron](https://github.com/CarlosButron)|60多个（技术品类丰富的）示例项目集锦
@@ -382,13 +385,13 @@
 [SwiftSideslipLikeQQ](https://github.com/johnlui/SwiftSideslipLikeQQ)|[@吕文翰_JohnLui ](http://weibo.com/balishengmuyuan)|再造 “手机QQ” 侧滑菜单
 [BlackHawk](https://github.com/Lucky-Orange/BlackHawk)|[@吕文翰_JohnLui](http://weibo.com/balishengmuyuan)|基于 WKWebView 的 Cordova 兼容实现
 [Plum-O-Meter](https://github.com/FlexMonkey/Plum-O-Meter)|[simon gladman](https://github.com/FlexMonkey)|基于 3D Touch 模拟电子秤
-[StarWars.iOS](https://github.com/Yalantis/StarWars.iOS)|[Yalantis](https://github.com/Yalantis)|瞬间崩塌为小方块动画效果
+[StarWars.iOS](https://github.com/Yalantis/StarWars.iOS)|[Yalantis](https://github.com/Yalantis)|瞬间崩塌为小方块动画效果 [🔗](https://yalantis.com/blog/uidynamics-uikit-or-opengl-3-types-of-ios-animations-for-the-star-wars/)
 [HackingWithSwift](https://github.com/twostraws/HackingWithSwift)|[twostraws](https://github.com/twostraws)|hackingwithswift.com 示例项目代码库
 [swift-algorithm-club](https://github.com/hollance/swift-algorithm-club)|[Matthijs Hollemans](hollance/swift-algorithm-club)|Swift 算法俱乐部学习库
 [furni-ios](https://github.com/twitterdev/furni-ios)|[@TwitterDev](https://github.com/twitterdev)|由 Twitter 基于 Fabric 开发的家居商店应用演示
 [Ares](https://github.com/indragiek/Ares)|[Indragie Karunaratne](https://github.com/indragiek/Ares)|P2P 文件传输演示项目
 [trySwiftApp](https://github.com/NatashaTheRobot/trySwiftApp)|[Natasha Murashev](https://github.com/NatashaTheRobot)|一款较为完整的会议原型应用
-[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)|[@Allen朝辉](http://weibo.com/wangchaohui)|相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目
+[30DaysofSwift](https://github.com/allenwong/30DaysofSwift)|[@Allen朝辉](http://weibo.com/wangchaohui)|相比 [100 Days of Swift](http://samvlu.com/index.html)，一样的赏心悦目 [🔗](https://github.com/allenwong/30DaysofSwift/blob/master/README.md)
 [boilerplate](https://github.com/tailec/boilerplate)|[Pawel Krawiec](https://github.com/tailec)|亲历典型案例，探索选择合适的架构
 [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
 [Nebula](https://github.com/FlexMonkey/Nebula)|[simon gladman](https://github.com/FlexMonkey)|调用 GLSL 渲染[星云变化图](http://glslsandbox.com/e#31308.0)演示
@@ -399,7 +402,7 @@
 	项目 | 开发者 | 备注
 ------------ | ------------- | -------------
 [edhita](https://github.com/tnantoka/edhita)|[Tatsuya Tobioka](http://blog.tnantoka.com/)|支持 Markdown, HTML 预览的文本编辑器
-[Markoff](https://github.com/thoughtbot/Markoff)|[thoughtbot](https://github.com/thoughtbot)|运行于 OS X 基于 cmark 轻量级 Markdown 预览
+[Markoff](https://github.com/thoughtbot/Markoff)|[thoughtbot](https://github.com/thoughtbot)|运行于 OS X 基于 cmark 轻量级 Markdown 预览 [🔗](https://robots.thoughtbot.com/markoff-free-markdown-previewer)
 [WWDC](https://github.com/insidegui/WWDC)|[Guilherme Rambo](https://github.com/insidegui)| WWDC 2015 [应用下载](https://github.com/insidegui/WWDC/blob/master/Releases/WWDC_latest.zip?raw=true)
 [firefox-ios](https://github.com/mozilla/firefox-ios)|[Mozilla](https://github.com/mozilla)|来自 Mozilla 开发团队大型纯 Swift 项目
 [focus](https://github.com/mozilla/focus)|[Mozilla](https://github.com/mozilla)|拦截 Safari 的广告内容，分析和社交追踪器等
@@ -409,7 +412,7 @@
 [LeetCode-Solutions](https://github.com/diwu/LeetCode-Solutions-in-Swift)|[@diwup](http://weibo.com/diwup)|LeetCode 的 Swift 语言版解题方案
 [androidtool-mac](https://github.com/mortenjust/androidtool-mac)|[Morten Just](https://github.com/mortenjust)|在 Mac 上使用的 Android 工具（一键截屏, 视频录制, APK 安装等）
 [CoPilot](https://github.com/feinstruktur/CoPilot)|[Sven A. Schmidt](https://github.com/feinstruktur)|协同编程 Xcode 插件
-[IBAnimatable](https://github.com/JakeLin/IBAnimatable)|[@林永坚](http://weibo.com/yongjianlin)|基于 Xcode 插件技术快速原型开发工具
+[IBAnimatable](https://github.com/JakeLin/IBAnimatable)|[@林永坚](http://weibo.com/yongjianlin)|基于 Xcode 插件技术快速原型开发工具 [🔗](https://github.com/JakeLin/IBAnimatable/blob/master/Documentation/README.zh.md)
 [Refactorator](https://github.com/johnno1962/Refactorator)|[John Holdsworth](https://github.com/johnno1962)|Xcode 代码重构插件，使重命名变量、函数、枚举名等变得方便
 [SwiftCov](https://github.com/realm/SwiftCov)|[Realm](https://github.com/realm)|代码测试覆盖率命令行工具
 [ViewMonitor](https://github.com/daisuke0131/ViewMonitor)|[Daisuke Yamashita](https://github.com/daisuke0131)|测量视图位置、大小、背景、字体大小等，开发调试神器
@@ -424,7 +427,7 @@
 [SimpleMemo](https://github.com/likumb/SimpleMemo)|[@李俊likumb](http://weibo.com/likumb)|支持 3D Touch 功能易便签
 [xcode-snippets](https://github.com/Abizern/xcode-snippets)|[Abizer Nasir](https://github.com/Abizern)|Mattt 同学 Xcode-Snippets/Objective-C 的 Swift 版本
 [VWInstantRun](https://github.com/wangshengjia/VWInstantRun)|[@ShengjiaWANG](http://weibo.com/u/1739447693)|即时运行选中的代码片段
-[Laurine](https://github.com/JiriTrecak/Laurine)|[Jiří Třečák](JiriTrecak/Laurine)|本地化代码生成器及示例，为了开发更得力
+[Laurine](https://github.com/JiriTrecak/Laurine)|[Jiří Třečák](JiriTrecak/Laurine)|本地化代码生成器及示例，为了开发更得力 [🔗](https://medium.com/@victor_wang/run-your-code-snippet-from-xcode-without-building-the-whole-project-1821cf85b2f2#.3b0za012v) 
 [BrowserTV](https://github.com/zats/BrowserTV)|[Sash Zats](https://github.com/zats/BrowserTV)|可交互 Apple TV 浏览器
 [QingDict](https://github.com/yingDev/QingDict)|[@Nozama](http://weibo.com/xweb123)|轻量级、实用主义的词典程序
 [Yep](https://github.com/CatchChat/Yep)|[Catch](https://github.com/CatchChat)| “打造由天才开发给天才们使用的社交软件”
@@ -432,3 +435,4 @@
 [shift-js](https://github.com/shift-js/shift-js)|[ShiftJS](https://github.com/shift-js)|Swift 程序员在写 iOS 和 Web 应用时无需语言切换
 [injectionforxcode](https://github.com/johnno1962/injectionforxcode)|[Toshihiro Morimoto](https://github.com/dealforest)|修改一个类的代码实现而不用重启整个应用 Xcode 插件
 [cleartext-mac](https://github.com/mortenjust/cleartext-mac)|[Morten Just](https://github.com/mortenjust)|提供一千个常用单词的编辑器
+[ViewController-Transition-Demo](https://github.com/seedante/iOS-ViewController-Transition-Demo)|[@seedante](http://weibo.com/u/1815689155)|视图控制器转场从入门到接近精通 [🔗](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)
