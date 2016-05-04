@@ -131,7 +131,7 @@
 [R.swift](https://github.com/mac-cain13/R.swift)|[Mathijs Kadijk](https://github.com/mac-cain13/)|Hardcode 字符串配置
 [NetReachability](https://github.com/liufan321/NetReachability)|[Fan Liu](https://github.com/liufan321)|检查网络连接的连通性
 [Reachability.swift](https://github.com/ashleymills/Reachability.swift)|[Ashley Mills](https://github.com/ashleymills)|检测网络连通性实用工具库
-[MonkeyKing](https://github.com/nixzhu/MonkeyKing)|[@nixzhu](weibo.com/nixzhu)|信息递交中文社交网络
+[MonkeyKing](https://github.com/nixzhu/MonkeyKing)|[@nixzhu](http://weibo.com/nixzhu)|信息递交中文社交网络
 
 ### <a id="pictures"></a>图片
 
@@ -332,7 +332,7 @@
 [BRYXBanner](https://github.com/bryx-inc/BRYXBanner)|[Bryx](https://github.com/bryx-inc)|可以带图片显示的下拉通知条类库及示例
 [Whisper](https://github.com/hyperoslo/Whisper)|[Hyper](https://github.com/hyperoslo)|使用简单、功能实用的消息及应用通知组件
 [SwiftPasscodeLock](https://github.com/yankodimitrov/SwiftPasscodeLock)|[Yanko Dimitrov](https://github.com/yankodimitrov)|可定制密码锁类库及示例
-[PhotoBrowser](https://github.com/nsdictionary/[PhotoBrowser)|[Charlin_冯成林](https://github.com/nsdictionary)|照片浏览利器，定制化特性丰富
+[PhotoBrowser](https://github.com/nsdictionary/PhotoBrowser)|[Charlin_冯成林](https://github.com/nsdictionary)|照片浏览利器，定制化特性丰富
 [AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar)|[Andrea Mazzini](https://github.com/andreamazz)|上下滚动时自动消隐或显示导航标题栏
 [GooeyTabbar](https://github.com/KittenYang/GooeyTabbar)|[@KITTEN-YANG](http://weibo.com/710312327)|皮筋式弹性缩放工具栏示例及演示
 [PagingView](https://github.com/KyoheiG3/PagingView)|[Kyohei Ito](https://github.com/KyoheiG3)|注重细节的自动布局分页视图
