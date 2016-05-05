@@ -40,7 +40,7 @@
 * [LeeGo](https://github.com/wangshengjia/LeeGo)：LeeGo 是一个 Swift 框架，旨在带来更声明式的，可配置的和易复用的 UI 开发方式，让 UI 开发变得像玩乐高积木一样简单直观，某种程度上取代 ComponentKit。开发者：[@ShengjiaWANG](http://weibo.com/u/1739447693)
 * [OnOffButton](https://github.com/rakaramos/OnOffButton)：极简、带动画平滑过渡（单选）按钮组件（支持 IB）。与之类似的 TKAnimatedCheckButton，可以择优选用。开发者：[Rafael Ramos](https://github.com/rakaramos/)
 * [Reddit-MVVM-Benchmark](https://github.com/ivanbruel/Reddit-MVVM-Benchmark)：通过开发一款简版 Reddit 应用比较 MVVM + FRP 与 MVC 给定指标（附图）优劣。P.S. 值得一提的还有，作者开发文档功底非常扎实。条理清晰，堪称典范。开发者：[Ivan Bruel](https://github.com/ivanbruel/)
-* [SwiftOCR](https://github.com/garnele007/SwiftOCR)：识别字母和数字相较于 Tesseract 有压倒性优势（附图）的 OCR 类库。P.S. 对于文章或整段文本，建议还是选用 Tesseract。作者：[Nicolas Camenisch](https://github.com/garnele007/)
+* [SwiftOCR](https://github.com/garnele007/SwiftOCR)：识别字母和数字相较于 Tesseract 有压倒性优势（附图）的 OCR 类库。P.S. 对于文章或整段文本，建议还是选用 Tesseract。开发者：[Nicolas Camenisch](https://github.com/garnele007/)
 
 
 ## 文档
