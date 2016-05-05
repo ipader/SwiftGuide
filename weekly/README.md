@@ -1,16 +1,26 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 
-## [Issue 51](Issue-51.md)
+## [Issue 52](Issue-52.md)
 
-**本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)（带图标显示浮动标签组件库）、[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)（可爱的数字补间（变身）动画类库）、[SwiftSVG](https://github.com/mchoe/SwiftSVG)（支持多种接口绘制 SVG）；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
 
-**大声一**: [IBM 为可穿戴设备提供开源框架（SDK）及示例](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk)
+**本期特别推荐** 1. 项目：[GPUImage2](https://github.com/BradLarson/GPUImage2)（基于 GPU 图像和视频处理框架库），[Peek](https://github.com/shaps80/Peek)（更友好、手势方式检查界面内组件布局信息），[SwiftyGif](https://github.com/kirualex/SwiftyGif)（高性能 Gif 播放引擎），[JASON](https://github.com/delba/JASON)（高速 JSON 解析类库）；2. 文档：[Swift Strings](http://andybargh.com/swift-strings/)，[Stanford 公开课中文字幕翻译](https://github.com/X140Yu/Developing-iOS-9-Apps-with-Swift)，[React Native 的官方最佳实践翻译](http://f8-app.liaohuqiu.net/)，[浅谈 iOS 中的视图优化](http://www.jianshu.com/p/5c968a240e27?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo)。
 
-**大声二**: [拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/) By realm.io
+**大声一**：[SwiftCon 2016 参会感想](http://blog.devtang.com/2016/04/25/swiftcon-2016-notes/) By [@唐巧](http://weibo.com/tangqiaoboy)
+
+**大声二**：[MShare 第一期（iOS 专场相关 Keynote、代码和视频的 Github 仓库）](https://github.com/mengxiangyue/MShare_Salon) By [@孟祥月](http://weibo.com/u/1750643861)
+
 
 > ![](../archive/weixin-swiftlanguage.jpg)
 
 ## 往期回顾
+* [Issue 51](Issue-51.md)
+
+	> **本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)（带图标显示浮动标签组件库）、[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)（可爱的数字补间（变身）动画类库）、[SwiftSVG](https://github.com/mchoe/SwiftSVG)（支持多种接口绘制 SVG）；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
+
+	> **大声一**: [IBM 为可穿戴设备提供开源框架（SDK）及示例](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk)
+
+	> **大声二**: [拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/) By realm.io
+
 * [Issue 50](Issue-50.md)
 
 	> **本期特别推荐** 1. 项目: [Permission](https://github.com/delba/Permission) (统一的 API 请求 iOS 本地设备及资源权限类库) ，[SwipeViewController](https://github.com/fortmarek/SwipeViewController) (页面滑动和标签选项卡) ；2. 文档：[我的 iOS 开发入门自学路径](http://www.jianshu.com/p/4be17ec40cfc)，[iOS Core Animation: Advanced Techniques 中文译本](https://zsisme.gitbooks.io/ios-/content/) 以及 [Medium - Swift Programming](https://medium.com/swift-programming)。

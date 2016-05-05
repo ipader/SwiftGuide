@@ -1,8 +1,8 @@
 ## Swift 开源项目精选
 
-基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。
+基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-4-18，最近新收录 [Cache](https://github.com/hyperoslo/Cache), [SwiftSVG](https://github.com/mchoe/SwiftSVG), [BCColor](https://github.com/boycechang/BCColor), [Sensitive](https://github.com/igormatyushkin014/Sensitive), [NiceGesture](https://github.com/lacklock/NiceGesture), [MetalAcc](https://github.com/wangjwchn/MetalAcc), [WKZombie](https://github.com/mkoehnke/WKZombie), [ibm-wearables-swift-sdk](https://github.com/ibm-wearables-sdk-for-mobile/ibm-wearables-swift-sdk), [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown), [cleartext-mac](https://github.com/mortenjust/cleartext-mac), [BetterSegmentedControl](https://github.com/gmarm/BetterSegmentedControl), [JDAnimationKit](https://github.com/JellyDevelopment/JDAnimationKit), [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField), [NumberMorphView](https://github.com/me-abhinav/NumberMorphView), [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher), [DynamicButton](https://github.com/yannickl/DynamicButton), [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO) 等 17 个，合计已收录 386 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-5-4，最近新收录 [Peek](https://github.com/shaps80/Peek), [CocoaMQTT](https://github.com/emqtt/CocoaMQTT), [AIToolbox](https://github.com/KevinCoble/AIToolbox), [SwiftyGif](https://github.com/kirualex/SwiftyGif), [FlowingMenu](https://github.com/yannickl/FlowingMenu), [swift-summary](https://github.com/jakarmy/swift-summary), [iconMaker](https://github.com/kaphacius/IconMaker), [JASON](https://github.com/delba/JASON), [producthunt-osx](https://github.com/producthunt/producthunt-osx), [SwiftyDown](https://github.com/aaaron7/SwiftyDown), [Smile-Lock](https://github.com/liu044100/Smile-Lock), [GlitchLabel](https://github.com/kciter/GlitchLabel), [MessageBalloon](https://github.com/caiobzen/MessageBalloon), [RxBluetoothKit](https://github.com/Polidea/RxBluetoothKit), [xi-editor](https://github.com/google/xi-editor), [jchat-swift](https://github.com/jpush/jchat-swift), [Caishen](https://github.com/prolificinteractive/Caishen), [ConsistencyManager-iOS](https://github.com/linkedin/ConsistencyManager-iOS), [Reductio](https://github.com/fdzsergio/Reductio), [TabDrawer](https://github.com/winslowdibona/TabDrawer), [StateView](https://github.com/sahandnayebaziz/StateView), [StackViewController](https://github.com/seedco/StackViewController), [LeeGo](https://github.com/wangshengjia/LeeGo), [OnOffButton](https://github.com/rakaramos/OnOffButton), [Reddit-MVVM-Benchmark](https://github.com/ivanbruel/Reddit-MVVM-Benchmark), [SwiftOCR](https://github.com/garnele007/SwiftOCR) 等 26 个，合计已收录 412 个。详见本文档。
 
 ## 目录
 * [工具](#tools)
@@ -21,6 +21,7 @@
 	项目 | 开发者 | 备注
 ------------ | ------------- | ------------- 
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)|[tangplin](https://github.com/tangplin), [lingoer](https://github.com/lingoer)|GitHub 上最为开发者认可的 JSON 解析库 [🔗](http://tangplin.github.io/swiftyjson/)
+[JASON](https://github.com/delba/JASON)|[Damien](https://github.com/delba/)|高速 JSON 解析类库
 [Argo](https://github.com/thoughtbot/Argo)|[thoughtbot](https://github.com/thoughtbot)|函数式 JSON 解析库 [🔗](https://robots.thoughtbot.com/introducing-argo-10-more-power-more-fun)
 [JSONCodable](https://github.com/matthewcheok/JSONCodable)|[Matthew Cheok](https://github.com/matthewcheok)|基于 Swift 2 新特性的 JSON 解析库
 [Decodable](https://github.com/Anviking/Decodable)|[Johannes Lund](https://github.com/Anviking)|Swift 2 版 JSON 解析（对象映射）库
@@ -97,6 +98,8 @@
 [Tentacle](https://github.com/mdiep/Tentacle)|[Matt Diephouse](https://github.com/mdiep)|构建于 ReactiveCocoa 的 GitHub API
 [BTree](https://github.com/lorentey/BTree)|[Károly Lőrentey](https://github.com/lorentey/)|基于 B-Tree 更优执行性能的集合类型实现
 [Duration](https://github.com/SwiftStudies/Duration)|[Swift Studies](https://github.com/SwiftStudies)|测量代码片段执行时间
+[AIToolbox](https://github.com/KevinCoble/AIToolbox)|[Kevin Coble](https://github.com/KevinCoble)|AI 主流模块集工具箱库
+[Reductio](https://github.com/fdzsergio/Reductio)|[Sergio Fernández](https://github.com/fdzsergio)|基于 TextRank 算法提取文章或段落的关键词或总结
 
 ### <a id="storage"></a>存储
 
@@ -132,6 +135,7 @@
 [NetReachability](https://github.com/liufan321/NetReachability)|[Fan Liu](https://github.com/liufan321)|检查网络连接的连通性
 [Reachability.swift](https://github.com/ashleymills/Reachability.swift)|[Ashley Mills](https://github.com/ashleymills)|检测网络连通性实用工具库
 [MonkeyKing](https://github.com/nixzhu/MonkeyKing)|[@nixzhu](http://weibo.com/nixzhu)|信息递交中文社交网络
+[CocoaMQTT](https://github.com/emqtt/CocoaMQTT)|[emqtt](https://github.com/emqtt)|Swift 2 版 MQTT v3.1.1 客户端库
 
 ### <a id="pictures"></a>图片
 
@@ -143,6 +147,7 @@
 [Toucan](https://github.com/gavinbunney/Toucan)|[Gavin Bunney](https://github.com/gavinbunney)|小而美的图片变换及处理类
 [gifu](https://github.com/kaishin/gifu)|[Reda Lemeden](http://redalemeden.com)|高性能 GIF 显示类库
 [XAnimatedImage](https://github.com/khaledmtaha/XAnimatedImage)| [Khaled Taha](https://github.com/khaledmtaha)|基于 FLAnimatedImage 高性能 GIF 显示类库
+[SwiftyGif](https://github.com/kirualex/SwiftyGif)|[Alexis Creuzot](https://github.com/kirualex)|高性能 Gif 播放引擎
 [JWAnimatedImage](https://github.com/wangjwchn/JWAnimatedImage)|[王佳玮](https://github.com/wangjwchn)|高性能 GIF&APNG 显示库,对多动图显示的场景进行了优化
 [MetalAcc](https://github.com/wangjwchn/MetalAcc)|[王佳玮](https://github.com/wangjwchn)|基于GPU的多媒体处理库，使用了Apple最新的图像处理接口'Metal'
 [apngkit](https://github.com/onevcat/apngkit)|[@onevcat](http://weibo.com/onevcat)|解析和显示 APNG 的框架
@@ -158,6 +163,7 @@
 [Filterpedia](https://github.com/FlexMonkey/Filterpedia)|[simon gladman](https://github.com/FlexMonkey)|Core Image 下强大的图片滤镜类库演示应用
 [sweetcorn](https://github.com/FlexMonkey/sweetcorn)|[simon gladman](https://github.com/FlexMonkey)|UI 配置生成图像滤镜代码
 [SwiftSVG](https://github.com/mchoe/SwiftSVG)|[Michael Choe](https://github.com/mchoe)|支持多种接口绘制 SVG 类库
+[SwiftOCR](https://github.com/garnele007/SwiftOCR)|[Nicolas Camenisch](https://github.com/garnele007/)|识别字母和数字相较于 Tesseract 有压倒性优势 OCR
 
 ### <a id="framework"></a>框架
 
@@ -200,6 +206,7 @@
 [Interstellar](https://github.com/JensRavens/Interstellar)|[Jens Ravens](https://github.com/JensRavens)|简单、轻量的函数响应式编程框架
 [mattress](https://github.com/buzzfeed/mattress)|[BuzzFeed](https://github.com/buzzfeed)|离线缓存 Web 浏览内容
 [BluetoothKit](https://github.com/rasmusth/BluetoothKit)|[Rasmus Taulborg Hummelmose](https://github.com/rasmusth)|基于 CoreBluetooth API 跨设备间蓝牙通讯封装类库
+[RxBluetoothKit](https://github.com/Polidea/RxBluetoothKit)|[Polidea](https://github.com/Polidea/)|基于 RxSwift 的蓝牙通讯库
 [Erik](https://github.com/phimage/Erik)|[phimage](https://github.com/phimage)|主要应用于网页功能测试
 [Chatto](https://github.com/badoo/Chatto)|[Badoo Development](https://github.com/badoo)|轻量级聊天应用框架及示例
 [ALCameraViewController](https://github.com/AlexLittlejohn/ALCameraViewController)|[Alex Littlejohn](https://github.com/AlexLittlejohn)|摄像头视图控制器
@@ -227,6 +234,8 @@
 [Appz](https://github.com/SwiftKitz/Appz)|[Kitz](https://github.com/SwiftKitz)|深入参数级别的外部应用启动器
 [WKZombie](https://github.com/mkoehnke/WKZombie)|[Mathias Köhnke](https://github.com/mkoehnke)|浏览器内快速导航或切换到指定页面
 [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)|[Umberto Raimondi](https://github.com/uraimo)|控制基于 Linux 主板（比如：C.H.I.P. 和 树莓派）的 GPIO
+[GPUImage2](https://github.com/BradLarson/GPUImage2)|[Brad Larson](https://github.com/BradLarson)|基于 GPU 图像和视频处理框架库）
+[LeeGo](https://github.com/wangshengjia/LeeGo)|[@ShengjiaWANG](http://weibo.com/u/1739447693)|UI 开发变得像玩乐高积木一样简单直观
 
 ### <a id="interfaces"></a>界面
 
@@ -253,6 +262,7 @@
 [HamburgerButton - Menu/Close](https://github.com/robb/hamburger-button)|[Robert Böhnke](http://robb.is)|无论[设计](http://robb.is/working-on/a-hamburger-button-transition/)还是代码，都进行了精雕细琢
 [HamburgerButton - Menu/Back](https://github.com/fastred/HamburgerButton)|[Arkadiusz Holko](http://holko.pl/)|对应[博文](http://holko.pl/2014/07/15/hamburger-button-animation/)可知，开发者动画开发经验相当丰富
 [HamburgerButton - Check](https://github.com/entotsu/TKAnimatedCheckButton)|[Takuya.Okamoto](https://github.com/entotsu)|Hamburger 风格按钮动画图标（单选）组件
+[OnOffButton](https://github.com/rakaramos/OnOffButton)|[Rafael Ramos](https://github.com/rakaramos/)|极简、带动画平滑过渡（单选）按钮
 [TKSubmitTransition](https://github.com/entotsu/TKSubmitTransition)|[Takuya Okamoto](https://github.com/entotsu)|登录加载、返回按钮转场动画组件
 [circle-menu](https://github.com/Ramotion/circle-menu)|[Ramotion](https://github.com/Ramotion)|圆形缩放菜单类库及演示
 [AIFlatSwitch](https://github.com/cocoatoucher/AIFlatSwitch)|[cocoatoucher](https://github.com/cocoatoucher)|一款带平滑过渡动画的 Switch 组件类
@@ -262,11 +272,13 @@
 [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS)|[Viktor Radchenko](https://github.com/vikmeup)|带动画效果弹窗封装类
 [Dodo](https://github.com/exchangegroup/Dodo)|[The Exchange Group](https://github.com/exchangegroup)|一款轻量地可定制信息栏小组件
 [AnimatedTabBar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库
+[TabDrawer](https://github.com/winslowdibona/TabDrawer)|[Winslow DiBona](https://github.com/winslowdibona)|适合单手操作的可定制 Tab Bar
 [KYCircularProgress](https://github.com/kentya6/KYCircularProgress)|[Kengo YOKOYAMA](https://github.com/kentya6)|简单、实用路径可定进程条
 [Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)|[Wagner Truppel](https://github.com/wltrup)|小而精悍地可定制类似  Watch 圆型进程条组件
 [GaugeKit](https://github.com/skywinder/GaugeKit)|[Petr Korolev](https://github.com/skywinder)| Watch 风格运动进程表盘
 [LiquidLoader](https://github.com/yoavlt/LiquidLoader)|[Takuma Yoshida](https://github.com/yoavlt)|细滑进程装载动画效果
 [WaveLoadingView](https://github.com/liuzhiyi1992/WaveLoadingView)|[@潜艇_刘智艺Zzz](http://weibo.com/525567789)|球型波浪进度指示器 [🔗](http://zyden.vicp.cc/waveloadingindicator/)
+[MessageBalloon](https://github.com/caiobzen/MessageBalloon)|[Carlos Corrêa da Silva](https://github.com/caiobzen)|消息类应用的信息加载动画
 [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)|[Fahim Farook](https://github.com/FahimF)|Float Label Pattern 浮动标签输入效果类
 [ParkedTextField](https://github.com/gmertk/ParkedTextField)|[Gunay Mert Karadogan](https://github.com/gmertk)|带固定文本的输入组件
 [ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift)|[Optonaut](https://github.com/optonaut)|扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应
@@ -279,6 +291,7 @@
 [GearRefreshControl](https://github.com/andreamazz/GearRefreshControl)|[Andrea Mazzini](https://github.com/andreamazz)|无违和感的下拉刷新动画组件
 [ElasticTransition](https://github.com/lkzhao/ElasticTransition)|[Luke Zhao](https://github.com/lkzhao)|畅快、无违和感的皮筋式动画转场
 [DGElasticPullToRefresh](https://github.com/gontovnik/DGElasticPullToRefresh)|[Danil Gontovnik](https://github.com/gontovnik)|皮筋式弹性下拉即刷新组件及演
+[FlowingMenu](https://github.com/yannickl/FlowingMenu)|[Yannick Loriot](https://github.com/yannickl)|皮筋弹跳式动画菜单出场
 [MAGearRefreshControl](https://github.com/micazeve/MAGearRefreshControl)|[Michaël Azevedo](https://github.com/micazeve)|同样是下拉刷新，人家花了很大的心思写[代码](https://github.com/micazeve/MAGearRefreshControl/blob/master/Classes/MAGearRefreshControl.swift)
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
@@ -298,6 +311,7 @@
 [RichEditorView](https://github.com/cjwirth/RichEditorView)|[Caesar Wirth](https://github.com/cjwirth)|一套可定制富文本编辑器组件及示例（基于 HTML5）
 [MarkdownTextView](https://github.com/indragiek/MarkdownTextView)|[Indragie Karunaratne](https://github.com/indragiek)|非常轻量、简洁、高效的 Markdown 编辑组件及示例
 [SwiftyMarkdown](https://github.com/SimonFairbairn/SwiftyMarkdown)|[Simon Fairbairn](https://github.com/SimonFairbairn)|Markdown 解析器（解析到 NSAttributedString ）
+[SwiftyDown](https://github.com/aaaron7/SwiftyDown)|[@aaaron7](http://weibo.com/roseofsharon)|Markdown 语法解析更强库
 [RxGesture](https://github.com/icanzilb/RxGesture)|[Marin Todorov](https://github.com/icanzilb)|基于 RxSwift 的手势视图库
 [DBPathRecognizer](https://github.com/didierbrun/DBPathRecognizer)|[Didier Brun](https://github.com/didierbrun)|基于路径模型的手势识别工具
 [PennyPincher](https://github.com/fe9lix/PennyPincher)|[fe9lix](https://github.com/fe9lix)|手势识别机器学习类库及演示
@@ -356,6 +370,12 @@
 [NumberMorphView](https://github.com/me-abhinav/NumberMorphView)|[Abhinav Chauhan](https://github.com/me-abhinav)|可爱的数字补间（变身）动画类库
 [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)|[Yalantis](https://github.com/Yalantis)|两个集合视图在不同布局（平铺和列表）间平滑切换
 [DynamicButton](https://github.com/yannickl/DynamicButton)|[Yannick Loriot](https://github.com/yannickl)|完整、且带动画过渡的图标按钮库
+[Smile-Lock](https://github.com/liu044100/Smile-Lock)|[Rain](https://github.com/liu044100)|一款高仿、可定制密码锁组件
+[GlitchLabel](https://github.com/kciter/GlitchLabel)|[Lee Sun-Hyoup](https://github.com/kciter)|俗称晃瞎你的眼文字标签
+[Caishen](https://github.com/prolificinteractive/Caishen)|[Prolific Interactive](https://github.com/prolificinteractive/)|简易、实用的信用卡号输入及校验 UI 组件
+[ConsistencyManager-iOS](https://github.com/linkedin/ConsistencyManager-iOS)|[LinkedIn](https://github.com/linkedin/)|使同一标识 ID 数据在多个模型内保持一致性
+[StateView](https://github.com/sahandnayebaziz/StateView)|[Sahand Nayebaziz](https://github.com/sahandnayebaziz)|当有数据更新时自动更新 UIView
+[StackViewController](https://github.com/seedco/StackViewController)|[Seed](https://github.com/seedco)|提供更易用的 UIStackView 组件功能
 
 ### <a id="demo"></a>示例
 
@@ -396,6 +416,10 @@
 [AFBrushBoard](https://github.com/AfryMask/AFBrushBoard)|[@AfryMask](http://weibo.com/u/2233947233)|毛笔画板演示
 [Nebula](https://github.com/FlexMonkey/Nebula)|[simon gladman](https://github.com/FlexMonkey)|调用 GLSL 渲染[星云变化图](http://glslsandbox.com/e#31308.0)演示
 [Countdown](https://github.com/soffes/Countdown)|[Sam Soffes](https://github.com/soffes)|倒计时屏保。年龄屏保 [Motivation](https://github.com/soffes/Motivation)
+[ViewController-Transition-Demo](https://github.com/seedante/iOS-ViewController-Transition-Demo)|[@seedante](http://weibo.com/u/1815689155)|视图控制器转场从入门到接近精通 [🔗](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)
+[swift-summary](https://github.com/jakarmy/swift-summary)|[Juan Antonio Karmy](https://github.com/jakarmy/)|用 Playground 来概述 Swift 语言特性
+[jchat-swift](https://github.com/jpush/jchat-swift)|[JPush](https://github.com/jpush/)|换一个 Logo 和名字即可拥有自己的 IM
+[Reddit-MVVM-Benchmark](https://github.com/ivanbruel/Reddit-MVVM-Benchmark)|[Ivan Bruel](https://github.com/ivanbruel/)|开发一款简版 Reddit，比较 MVVM + FRP 与 MVC 给定指标
 
 ### <a id="projects"></a>应用
 
@@ -414,6 +438,7 @@
 [CoPilot](https://github.com/feinstruktur/CoPilot)|[Sven A. Schmidt](https://github.com/feinstruktur)|协同编程 Xcode 插件
 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)|[@林永坚](http://weibo.com/yongjianlin)|基于 Xcode 插件技术快速原型开发工具 [🔗](https://github.com/JakeLin/IBAnimatable/blob/master/Documentation/README.zh.md)
 [Refactorator](https://github.com/johnno1962/Refactorator)|[John Holdsworth](https://github.com/johnno1962)|Xcode 代码重构插件，使重命名变量、函数、枚举名等变得方便
+[iconMaker](https://github.com/kaphacius/IconMaker)|[Yurii](https://github.com/kaphacius/)|Xcode插件自动生成不同尺寸的应用图标
 [SwiftCov](https://github.com/realm/SwiftCov)|[Realm](https://github.com/realm)|代码测试覆盖率命令行工具
 [ViewMonitor](https://github.com/daisuke0131/ViewMonitor)|[Daisuke Yamashita](https://github.com/daisuke0131)|测量视图位置、大小、背景、字体大小等，开发调试神器
 [SwiftMock](https://github.com/mflint/SwiftMock)|[Matthew Flint](https://github.com/mflint)|一款 Mock 框架，单元测试的好伴侣
@@ -435,4 +460,6 @@
 [shift-js](https://github.com/shift-js/shift-js)|[ShiftJS](https://github.com/shift-js)|Swift 程序员在写 iOS 和 Web 应用时无需语言切换
 [injectionforxcode](https://github.com/johnno1962/injectionforxcode)|[Toshihiro Morimoto](https://github.com/dealforest)|修改一个类的代码实现而不用重启整个应用 Xcode 插件
 [cleartext-mac](https://github.com/mortenjust/cleartext-mac)|[Morten Just](https://github.com/mortenjust)|提供一千个常用单词的编辑器
-[ViewController-Transition-Demo](https://github.com/seedante/iOS-ViewController-Transition-Demo)|[@seedante](http://weibo.com/u/1815689155)|视图控制器转场从入门到接近精通 [🔗](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)
+[Peek](https://github.com/shaps80/Peek)|[Shaps M](https://github.com/shaps80)|检查界面内组件布局信息
+[producthunt-osx](https://github.com/producthunt/producthunt-osx)|[Product Hunt](https://github.com/producthunt/)|Product Hunt 开源 Mac 客户端
+[xi-editor](https://github.com/google/xi-editor)|[Google](https://github.com/google/)|高性能文本编辑器
