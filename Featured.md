@@ -376,6 +376,7 @@
 [ConsistencyManager-iOS](https://github.com/linkedin/ConsistencyManager-iOS)|[LinkedIn](https://github.com/linkedin/)|使同一标识 ID 数据在多个模型内保持一致性
 [StateView](https://github.com/sahandnayebaziz/StateView)|[Sahand Nayebaziz](https://github.com/sahandnayebaziz)|当有数据更新时自动更新 UIView
 [StackViewController](https://github.com/seedco/StackViewController)|[Seed](https://github.com/seedco)|提供更易用的 UIStackView 组件功能
+[JKBlurPopup](https://github.com/Jinkeycode/JKBlurPopup)|[Jinkey](https://github.com/Jinkeycode)|提供带动画效果毛玻璃背景的弹出窗口
 
 ### <a id="demo"></a>示例
 
