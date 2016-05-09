@@ -296,6 +296,7 @@
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
 [ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation)|[Alex](https://github.com/fruitcoder)|基于 [@ZeeYoung欧阳哲](http://weibo.com/zeeya) 创意下拉刷新动画实现
+[pull-to-refresh](https://github.com/eggswift/pull-to-refresh)|[Egg Swift](https://github.com/eggswift/)|高度定制的下拉刷新和上拉加载组件
 [folding-cell](https://github.com/Ramotion/folding-cell)|[Ramotion](https://github.com/Ramotion)|自然流畅、清新的单元格折叠动画类及演示
 [Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例 [🔗](https://yalantis.com/blog/how-we-built-tinder-like-koloda-in-swift/)
 [tispr-card-stack](https://github.com/tispr/tispr-card-stack)|[tispr](https://github.com/tispr)|卡片风格动画切换组件及完整交互示例
