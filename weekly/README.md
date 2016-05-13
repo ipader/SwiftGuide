@@ -1,4 +1,5 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
+> 考虑到此项工作的长期可持续性，已启用[志愿者服务](Volunteers.md)。
 
 ## [Issue 52](Issue-52.md)
 
