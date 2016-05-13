@@ -17,4 +17,4 @@
 	>收录标准较为主观，基于 Star 数和 GitHub 作者权重，微博转发、评论数等因子
 3. 更新 [weekly/README.md](README.md)
 
-3. 更新 [ipader/SwiftGuide - README.md](https://github.com/ipader/SwiftGuide/blob/master/README.md)
+4. 更新 [ipader/SwiftGuide - README.md](https://github.com/ipader/SwiftGuide/blob/master/README.md)
