@@ -9,10 +9,10 @@
 
 ### 整理步骤
 
-1. 从上一期后发布后的微博，按项目和文章逐条整理至当期（[模板](template.md)）
+1. 从上一期后发布后的[微博](http://weibo.com/swiftlanguage)，按项目和文章逐条整理至当期（[模板](template.md)）
 	
 	>收录链接采用原始链接，非微博短链；项目开发者使用 Github 中作者名字，非用户名
-2. 挑选项目和文章分别按类别收录至《 Swift 项目精选》和 《 Swift 文章精选》
+2. 挑选项目和文章分别按类别收录至《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和 《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》
   
 	>收录标准较为主观，基于 Star 数和 GitHub 作者权重，微博转发、评论数等因子
 3. 更新 [weekly/README.md](README.md)
