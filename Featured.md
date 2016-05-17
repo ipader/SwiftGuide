@@ -2,7 +2,7 @@
 
 基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》
 
-> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-5-4，最近新收录 [Peek](https://github.com/shaps80/Peek), [CocoaMQTT](https://github.com/emqtt/CocoaMQTT), [AIToolbox](https://github.com/KevinCoble/AIToolbox), [SwiftyGif](https://github.com/kirualex/SwiftyGif), [FlowingMenu](https://github.com/yannickl/FlowingMenu), [swift-summary](https://github.com/jakarmy/swift-summary), [iconMaker](https://github.com/kaphacius/IconMaker), [JASON](https://github.com/delba/JASON), [producthunt-osx](https://github.com/producthunt/producthunt-osx), [SwiftyDown](https://github.com/aaaron7/SwiftyDown), [Smile-Lock](https://github.com/liu044100/Smile-Lock), [GlitchLabel](https://github.com/kciter/GlitchLabel), [MessageBalloon](https://github.com/caiobzen/MessageBalloon), [RxBluetoothKit](https://github.com/Polidea/RxBluetoothKit), [xi-editor](https://github.com/google/xi-editor), [jchat-swift](https://github.com/jpush/jchat-swift), [Caishen](https://github.com/prolificinteractive/Caishen), [ConsistencyManager-iOS](https://github.com/linkedin/ConsistencyManager-iOS), [Reductio](https://github.com/fdzsergio/Reductio), [TabDrawer](https://github.com/winslowdibona/TabDrawer), [StateView](https://github.com/sahandnayebaziz/StateView), [StackViewController](https://github.com/seedco/StackViewController), [LeeGo](https://github.com/wangshengjia/LeeGo), [OnOffButton](https://github.com/rakaramos/OnOffButton), [Reddit-MVVM-Benchmark](https://github.com/ivanbruel/Reddit-MVVM-Benchmark), [SwiftOCR](https://github.com/garnele007/SwiftOCR) 等 26 个，合计已收录 411 个。详见本文档。
+> [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-5-17，最近新收录 28 个（详见《[Issue - 53](weekly/Issue-53.md)》），合计已收录 439 个。
 
 ## 目录
 * [工具](#tools)
@@ -100,6 +100,16 @@
 [Duration](https://github.com/SwiftStudies/Duration)|[Swift Studies](https://github.com/SwiftStudies)|测量代码片段执行时间
 [AIToolbox](https://github.com/KevinCoble/AIToolbox)|[Kevin Coble](https://github.com/KevinCoble)|AI 主流模块集工具箱库
 [Reductio](https://github.com/fdzsergio/Reductio)|[Sergio Fernández](https://github.com/fdzsergio)|基于 TextRank 算法提取文章或段落的关键词或总结
+[swift-pons](https://github.com/dankogai/swift-pons)|[Dan Kogai](https://github.com/dankogai)|面向协议的不受长度限制数字类型及数学计算扩充类库
+[Unbox](https://github.com/JohnSundell/Unbox)|[John Sundell](https://github.com/JohnSundell)|极为易用、轻量，更少辅助代码的 JSON 解析类
+[Lyft](https://github.com/genadyo/Lyft)|[Genady Okrain](https://github.com/genadyo)|面向 Lyft 开发者的 API
+[Venice](https://github.com/VeniceX/Venice)|[Venice](https://github.com/VeniceX)|让 Swift 3 提前支持协程
+[SwiftNotificationCenter](https://github.com/100mango/SwiftNotificationCenter)|[100mango](https://github.com/100mango)|面向协议、安全可靠的通知中心实用封装库
+[ClosuresKit](https://github.com/lacklock/ClosuresKit)|[Zhuo](https://github.com/lacklock)|启发自 BlocksKit 的实用工具库
+[TempiBeatDetection](https://github.com/jscalo/TempiBeatDetection)|[John Scalo](https://github.com/jscalo)|音乐节奏节拍检测库
+[SwiftyOAuth](https://github.com/delba/SwiftyOAuth)|[Damien](https://github.com/delba)|极为小巧、易用的 OAuth 授权类库
+[Github.swift](https://github.com/onmyway133/Github.swift)|[Khoa Pham](https://github.com/onmyway133)|功能相对完整的 Github API 客户端
+
 
 ### <a id="storage"></a>存储
 
@@ -123,6 +133,7 @@
 ------------ | ------------- | -------------
 [Alamofire](https://github.com/Alamofire/Alamofire) |[Mattt Thompson](https://github.com/mattt)|著名的 AFNetworking 络基础库 Swift 语言版 [📝](https://github.com/ipader/SwiftGuide/wiki/Alamofire%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
 [AlamofireImage](https://github.com/Alamofire/AlamofireImage)|[Christian Noon](https://github.com/cnoon)|基于 Alamofire 的网络图片组件库
+[Networking](https://github.com/3lvis/Networking)|[Elvis Nuñez](https://github.com/3lvis)|使用简单、功能惊喜的网络封装库
 [starscream](https://github.com/daltoniam/starscream)|[Dalton](http://daltoniam.com)|WebSocket 客户端类库
 [SocketIO-Kit](https://github.com/ricardopereira/SocketIO-Kit)|[Ricardo Pereira](https://github.com/ricardopereira)|基于 [Starscream](https://github.com/daltoniam/Starscream) 的 socket.io 实现
 [SwiftWebSocket](https://github.com/tidwall/SwiftWebSocket)|[Josh Baker](https://github.com/tidwall)|WebSocket 协议（RFC 6455）实现类库
@@ -164,6 +175,7 @@
 [sweetcorn](https://github.com/FlexMonkey/sweetcorn)|[simon gladman](https://github.com/FlexMonkey)|UI 配置生成图像滤镜代码
 [SwiftSVG](https://github.com/mchoe/SwiftSVG)|[Michael Choe](https://github.com/mchoe)|支持多种接口绘制 SVG 类库
 [SwiftOCR](https://github.com/garnele007/SwiftOCR)|[Nicolas Camenisch](https://github.com/garnele007/)|识别字母和数字相较于 Tesseract 有压倒性优势 OCR
+[PHImageKit](https://github.com/producthunt/PHImageKit)|[Product Hunt](https://github.com/producthunt)|带下载及缓存的 GIF 播放组件库
 
 ### <a id="framework"></a>框架
 
@@ -236,6 +248,11 @@
 [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)|[Umberto Raimondi](https://github.com/uraimo)|控制基于 Linux 主板（比如：C.H.I.P. 和 树莓派）的 GPIO
 [GPUImage2](https://github.com/BradLarson/GPUImage2)|[Brad Larson](https://github.com/BradLarson)|基于 GPU 图像和视频处理框架库）
 [LeeGo](https://github.com/wangshengjia/LeeGo)|[@ShengjiaWANG](http://weibo.com/u/1739447693)|UI 开发变得像玩乐高积木一样简单直观
+[SwiftTweaks](https://github.com/Khan/SwiftTweaks)|[Khan Academy](https://github.com/Khan)|不用重新编译即可调整 UI 配置
+[PatronKit](https://github.com/MosheBerman/PatronKit)|[Moshe](https://github.com/MosheBerman)|应用内购及赞助管理框架库
+[Material](https://github.com/CosmicMind/Material)|[CosmicMind](https://github.com/CosmicMind)|Material Design 动画及图形框架库
+[Render](https://github.com/alexdrone/Render)|[Alex Usbergo](https://github.com/alexdrone)|启发自 React 的函数版 UIKit 封装库
+[Interpolate](https://github.com/marmelroy/Interpolate)|[Roy Marmelstein](https://github.com/marmelroy)|手势驱动交互式转场动画框架库
 
 ### <a id="interfaces"></a>界面
 
@@ -376,6 +393,13 @@
 [ConsistencyManager-iOS](https://github.com/linkedin/ConsistencyManager-iOS)|[LinkedIn](https://github.com/linkedin/)|使同一标识 ID 数据在多个模型内保持一致性
 [StateView](https://github.com/sahandnayebaziz/StateView)|[Sahand Nayebaziz](https://github.com/sahandnayebaziz)|当有数据更新时自动更新 UIView
 [StackViewController](https://github.com/seedco/StackViewController)|[Seed](https://github.com/seedco)|提供更易用的 UIStackView 组件功能
+[DynamicMaskSegmentSwitch](https://github.com/KittenYang/DynamicMaskSegmentSwitch)|[Kitten Yang](https://github.com/KittenYang)|一个简单有趣的 SegmentedControl
+[BMPlayer](https://github.com/BrikerMan/BMPlayer)|[BrikerMan](https://github.com/BrikerMan)|相当于 Swift 版 ZFPlayer
+[SMSegmentView](https://github.com/sima-11/SMSegmentView)|[Si](https://github.com/sima-11)|可定制图文 Segment Control 组件
+[paper-onboarding](https://github.com/Ramotion/paper-onboarding)|[Ramotion](https://github.com/Ramotion)|漂亮的 Material Design 风格页面滑块
+[UIImageView-BetterFace-Swift](https://github.com/croath/UIImageView-BetterFace-Swift)|[Croath Liu](https://github.com/croath)|预览照片时，让脸部显示在更恰当的预览区域
+[Wizardry](https://github.com/ijoshsmith/Wizardry)|[Josh Smith](https://github.com/ijoshsmith)|可重用的方法和框架实现向导式用户界面管理
+[Toast-Swift](https://github.com/scalessec/Toast-Swift)|[Charles Scalesse](https://github.com/scalessec)|高可定制、易用的 Toast 通知组件
 
 ### <a id="demo"></a>示例
 
@@ -420,6 +444,7 @@
 [swift-summary](https://github.com/jakarmy/swift-summary)|[Juan Antonio Karmy](https://github.com/jakarmy/)|用 Playground 来概述 Swift 语言特性
 [jchat-swift](https://github.com/jpush/jchat-swift)|[JPush](https://github.com/jpush/)|换一个 Logo 和名字即可拥有自己的 IM
 [Reddit-MVVM-Benchmark](https://github.com/ivanbruel/Reddit-MVVM-Benchmark)|[Ivan Bruel](https://github.com/ivanbruel/)|开发一款简版 Reddit，比较 MVVM + FRP 与 MVC 给定指标
+[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)|[Larry Natalicio](https://github.com/larrynatalicio)| 15 天动画编程
 
 ### <a id="projects"></a>应用
 
@@ -432,7 +457,7 @@
 [focus](https://github.com/mozilla/focus)|[Mozilla](https://github.com/mozilla)|拦截 Safari 的广告内容，分析和社交追踪器等
 [Carthage](https://github.com/Carthage/Carthage)|[Carthage](https://github.com/Carthage)|更简单的方式来管理 Cocoa。与 [CocoaPods 差别](http://www.cocoachina.com/ios/20141204/10528.html)
 [SwiftWeather](https://github.com/JakeLin/SwiftWeather)|[Jake Lin](http://weibo.com/yongjianlin/)|清新淡雅持续改进天气预报项目
-[VPNOn](https://github.com/lexrus/VPNOn)|[Lex Tang](http://weibo.com/lexrus)|驻在通知中心内的 VPN 开关应用	
+[VPNOn](https://github.com/lexrus/VPNOn)|[Lex Tang](http://weibo.com/lexrus)|驻在通知中心内的 VPN 开关应用
 [LeetCode-Solutions](https://github.com/diwu/LeetCode-Solutions-in-Swift)|[@diwup](http://weibo.com/diwup)|LeetCode 的 Swift 语言版解题方案
 [androidtool-mac](https://github.com/mortenjust/androidtool-mac)|[Morten Just](https://github.com/mortenjust)|在 Mac 上使用的 Android 工具（一键截屏, 视频录制, APK 安装等）
 [CoPilot](https://github.com/feinstruktur/CoPilot)|[Sven A. Schmidt](https://github.com/feinstruktur)|协同编程 Xcode 插件
@@ -462,3 +487,7 @@
 [Peek](https://github.com/shaps80/Peek)|[Shaps M](https://github.com/shaps80)|检查界面内组件布局信息
 [producthunt-osx](https://github.com/producthunt/producthunt-osx)|[Product Hunt](https://github.com/producthunt/)|Product Hunt 开源 Mac 客户端
 [xi-editor](https://github.com/google/xi-editor)|[Google](https://github.com/google/)|高性能文本编辑器
+[BuildTimeAnalyzer-for-Xcode](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)|[Robert Gummesson](https://github.com/RobertGummesson)|实用的编译时间分析 Xcode 插件
+[QBlocker](https://github.com/steve228uk/QBlocker)|[Stephen Radford](https://github.com/steve228uk)|不再因为手误意外地退出应用
+[RealmVideo](https://github.com/BalestraPatrick/RealmVideo)|[Patrick Balestra](https://github.com/BalestraPatrick)|同步播放 realm.io 网站上的演讲视频和 slides
+[PodcastMenu](https://github.com/insidegui/PodcastMenu)|[Guilherme Rambo](https://github.com/insidegui)|便捷地收听广播 Overcast.fm

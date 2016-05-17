@@ -1,19 +1,28 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 > 考虑到此项工作的长期可持续性，已启用[志愿者服务](Volunteers.md)。
 
-## [Issue 52](Issue-52.md)
 
+## [Issue 53](Issue-53.md)
 
-**本期特别推荐** 1. 项目：[GPUImage2](https://github.com/BradLarson/GPUImage2)（基于 GPU 图像和视频处理框架库），[Peek](https://github.com/shaps80/Peek)（更友好、手势方式检查界面内组件布局信息），[SwiftyGif](https://github.com/kirualex/SwiftyGif)（高性能 Gif 播放引擎），[JASON](https://github.com/delba/JASON)（高速 JSON 解析类库）；2. 文档：[Swift Strings](http://andybargh.com/swift-strings/)，[Stanford 公开课中文字幕翻译](https://github.com/X140Yu/Developing-iOS-9-Apps-with-Swift)，[React Native 的官方最佳实践翻译](http://f8-app.liaohuqiu.net/)，[浅谈 iOS 中的视图优化](http://www.jianshu.com/p/5c968a240e27?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo)。
+**本期特别推荐** 1. 项目：[SwiftTweaks：不用重新编译即可调整 UI 配置](https://github.com/Khan/SwiftTweaks)，[Material：Swift 版 Material Design 动画及图形框架库](https://github.com/CosmicMind/Material)，[Networking：使用简单、功能惊喜的网络封装库](https://github.com/3lvis/Networking)，[Interpolate：手势驱动交互式转场动画框架库](https://github.com/marmelroy/Interpolate)；2. 文章：[Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)，[分类、整理、归纳非常清晰的开源 iOS 应用集合](https://github.com/dkhamsing/open-source-ios-apps)，[用 HealthKit 来开发一个健身 App](http://swift.gg/2016/05/13/healthkit-introduction/)。
 
-**大声一**：[SwiftCon 2016 参会感想](http://blog.devtang.com/2016/04/25/swiftcon-2016-notes/) By [@唐巧](http://weibo.com/tangqiaoboy)
+**大声一：**[Swift 官方文档中文版已经同步到 Swift 2.2](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/releases/tag/v2.2)（[@SwiftGG翻译组](http://weibo.com/swiftguide)）
 
-**大声二**：[MShare 第一期（iOS 专场相关 Keynote、代码和视频的 Github 仓库）](https://github.com/mengxiangyue/MShare_Salon) By [@孟祥月](http://weibo.com/u/1750643861)
+**大声二：**[Swift 开发者、项目、最佳实践：由 Swift 开发者自己的维护的干货](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)（[@SwiftLanguage](http://weibo.com/swiftlanguage)）
 
 
 > ![](../archive/weixin-swiftlanguage.jpg)
 
 ## 往期回顾
+* [Issue 52](Issue-52.md)
+
+
+	> **本期特别推荐** 1. 项目：[GPUImage2](https://github.com/BradLarson/GPUImage2)（基于 GPU 图像和视频处理框架库），[Peek](https://github.com/shaps80/Peek)（更友好、手势方式检查界面内组件布局信息），[SwiftyGif](https://github.com/kirualex/SwiftyGif)（高性能 Gif 播放引擎），[JASON](https://github.com/delba/JASON)（高速 JSON 解析类库）；2. 文档：[Swift Strings](http://andybargh.com/swift-strings/)，[Stanford 公开课中文字幕翻译](https://github.com/X140Yu/Developing-iOS-9-Apps-with-Swift)，[React Native 的官方最佳实践翻译](http://f8-app.liaohuqiu.net/)，[浅谈 iOS 中的视图优化](http://www.jianshu.com/p/5c968a240e27?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weibo)。
+
+	> **大声一**：[SwiftCon 2016 参会感想](http://blog.devtang.com/2016/04/25/swiftcon-2016-notes/) By [@唐巧](http://weibo.com/tangqiaoboy)
+
+	> **大声二**：[MShare 第一期（iOS 专场相关 Keynote、代码和视频的 Github 仓库）](https://github.com/mengxiangyue/MShare_Salon) By [@孟祥月](http://weibo.com/u/1750643861)
+
 * [Issue 51](Issue-51.md)
 
 	> **本期特别推荐** 1. 项目：[SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField)（带图标显示浮动标签组件库）、[NumberMorphView](https://github.com/me-abhinav/NumberMorphView)（可爱的数字补间（变身）动画类库）、[SwiftSVG](https://github.com/mchoe/SwiftSVG)（支持多种接口绘制 SVG）；2. 文档：[拥抱未来：更优雅的 Swift 写法](https://realm.io/cn/news/doios-daniel-steinberg-ready-for-the-future/)，[iOS主流动画开源库深入分析(一)：IBAnimatable](http://www.jianshu.com/p/5faf36e1f700)，[面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)。
