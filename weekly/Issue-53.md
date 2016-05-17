@@ -32,7 +32,7 @@
 ![](http://ww4.sinaimg.cn/small/005DI7Bigw1f3kva6btyjj31fg16on8q.jpg)|[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)（[Larry Natalicio](https://github.com/larrynatalicio)） ⭐️<br>从 100 Days of Swift 到 30 Days of Swift，再到 15 Days of Animations in Swift，真是前赴后继啊。
 ![](http://ww3.sinaimg.cn/small/005DI7Bigw1f3kejtjvpsg30dc0nqx6p.gif)|[Interpolate：手势驱动交互式转场动画框架库](https://github.com/marmelroy/Interpolate)（[Roy Marmelstein](https://github.com/marmelroy)） ⭐️<br>这个很专业，且非常有意思
 ![](https://avatars1.githubusercontent.com/u/2466701?v=3&s=100)|[Unbox：极为易用、轻量，更少辅助代码的 JSON 解析类](https://github.com/JohnSundell/Unbox)（[John Sundell](https://github.com/JohnSundell)） ⭐️
-![](http://tva2.sinaimg.cn/crop.0.0.180.180.180/70f3262ejw1e8qgp5bmzyj2050050aa8.jpg)|[JKBlurPopup：弹出视图的同时模糊化背景类及演示](https://github.com/Jinkeycode/JKBlurPopup)（[Jinkeycode](https://github.com/Jinkeycode)）
+![](http://tva2.sinaimg.cn/crop.0.0.180.180.100/70f3262ejw1e8qgp5bmzyj2050050aa8.jpg)|[JKBlurPopup：弹出视图的同时模糊化背景类及演示](https://github.com/Jinkeycode/JKBlurPopup)（[Jinkeycode](https://github.com/Jinkeycode)）
 ![](https://avatars0.githubusercontent.com/u/5073511?v=3&s=100)| [SwiftNotificationCenter：面向协议、安全可靠的通知中心实用封装库](https://github.com/100mango/SwiftNotificationCenter)（[100mango](https://github.com/100mango)） ⭐️
 ![](http://ww2.sinaimg.cn/small/005DI7Bigw1f3ml6ulbbgj30m809l78r.jpg)|[BuildTimeAnalyzer-for-Xcode：实用的编译时间分析 Xcode 插件](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)（[Robert Gummesson](https://github.com/RobertGummesson)） ⭐️
 ![](http://ww4.sinaimg.cn/small/005DI7Bigw1f3lbq1x960g30oq0ikqv8.gif)|[paper-onboarding：漂亮的 Material Design 风格页面滑块](https://github.com/Ramotion/paper-onboarding)（[Ramotion](https://github.com/Ramotion)） ⭐️
