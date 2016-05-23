@@ -39,7 +39,7 @@
 [OAuthSwift](https://github.com/dongri/OAuthSwift)|[Dongri Jin](https://github.com/dongri)|国外主流网站 OAuth 授权类库
 [PathKit](https://github.com/kylef/PathKit)|[Kyle Fuller](http://kylefuller.co.uk)|小而美的路径管理类
 [SwiftyBeaver](https://github.com/skreutzberger/SwiftyBeaver)|[Sebastian Kreutzberger](https://github.com/skreutzberger)|多彩的日志输出类，支持 Xcode 或 log 文件
-[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)|[Dave Wood](https://github.com/tangplin)|功能完整的日志管理类库
+[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)|[Dave Wood](https://github.com/DaveWoodCom)|功能完整的日志管理类库
 [CleanroomLogger](https://github.com/emaloney/CleanroomLogger)|[emaloney](https://github.com/emaloney)|相当于 CocoaLumberjack 或 Log4j 
 [Loggerithm](https://github.com/honghaoz/Loggerithm)|[张宏昊](https://github.com/honghaoz)|靠谱的日志管理输出类库
 [Log](https://github.com/delba/Log)|[Damien](https://github.com/delba)|可定制输出格式、主题风格
