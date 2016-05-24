@@ -38,6 +38,7 @@ Swift 语言指南
 
 以下列举了几份已有第三方中文翻译文档：
 
+* [API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)（中文版：[Swift API 设计指南](http://swift.gg/2016/05/18/api-design-guidelines/)）By [@SwiftGG翻译组](http://weibo.com/u/5174822990)
 * [App Extension Programming Guide](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html)（[中译镜像](https://github.com/ipader/SwiftGuide/tree/master/mirror/App%20Extension%20Programming%20Guide)）
 * [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html)（[中文版](https://isux.tencent.com/?s=iOS+9+%E4%BA%BA%E6%9C%BA%E7%95%8C%E9%9D%A2%E6%8C%87%E5%8D%97)｜[PDF 版](http://ixdc.org/2016/files/ISUX[%E8%AF%91]iOS9%20human%20Interface%20Guideline.pdf) By [@腾讯ISUX](http://weibo.com/txisux)）
 * [HomeKit Developer Guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/HomeKitDeveloperGuide/Introduction/Introduction.html)（[中文版](http://www.cocoachina.com/ios/20150324/11411.html) By [@CocoaChina](http://weibo.com/cocoachina)）
