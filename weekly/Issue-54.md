@@ -3,7 +3,7 @@
 **[<= 往期回顾](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)**
 [Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 54
 ===
-**本期特别推荐** 1. 项目：[Clipy（强大到变态的 OS X 剪贴板扩展应用开源）](https://github.com/Clipy/Clipy)，[expanding-collection（也许是展开、查看列表项最浑然天成的 Peek/Pop 用法及动画效果）](https://github.com/Ramotion/expanding-collection)，[Scrollable-GraphView（灵动感十足的自适应、可定制滚动曲（折）线图表库）](https://github.com/philackm/Scrollable-GraphView)，2. 文章：[Swift 算法实战之路（二）：数组，字符串，集合，与字典](http://www.jianshu.com/p/977736b08bd7)，[Swift 中的尾递归和弹床](http://swift.gg/2016/05/27/recursive-tail-calls-and-trampolines-in-swift/)，
+**本期特别推荐** 1. 项目：[Clipy（强大到变态的 OS X 剪贴板扩展应用开源）](https://github.com/Clipy/Clipy)，[expanding-collection（也许是展开、查看列表项最浑然天成的 Peek/Pop 用法及动画效果）](https://github.com/Ramotion/expanding-collection)，[Scrollable-GraphView（灵动感十足的自适应、可定制滚动曲（折）线图表库）](https://github.com/philackm/Scrollable-GraphView)，2. 文章：[Swift 算法实战之路（二）：数组，字符串，集合，与字典](http://www.jianshu.com/p/977736b08bd7)，[Swift 中的尾递归和弹床](http://swift.gg/2016/05/27/recursive-tail-calls-and-trampolines-in-swift/)。
 
 **大声一：** [Realm 1.0.0 版本发布！](https://realm.io/cn/news/realm-1.0/)（[中文文档](https://realm.io/cn/docs/swift/latest/)）
 
