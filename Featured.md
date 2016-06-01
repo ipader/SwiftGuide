@@ -1,6 +1,6 @@
 ## Swift 开源项目精选
 
-基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》
+基于《[Swift 语言指南](https://github.com/ipader/SwiftGuide)》开源项目收录，做了一个甄别和筛选，并辅以一句话介绍。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》和 《[开发者个人资料页](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E9%A1%B5)》。
 
 > [@SwiftLanguage](http://weibo.com/swiftlanguage) 更新至 2016-5-17，最近新收录 28 个（详见《[Issue - 53](weekly/Issue-53.md)》），合计已收录 439 个。
 
