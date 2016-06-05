@@ -4,7 +4,7 @@ Swift 语言指南
 ===
 > <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-5-30，更新内容详见 [Issue 54](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-54.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
-　　[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》。
+　　[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》。当然也不能错过那些活跃、优秀的《[开发者个人资料页](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E9%A1%B5)》。
 
 
 ## 目录
