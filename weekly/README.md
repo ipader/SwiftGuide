@@ -1,19 +1,27 @@
 ## [Swift 语言指南](https://github.com/ipader/SwiftGuide) － 收录周报
 > 考虑到此项工作的长期可持续性，已启用[志愿者服务](Volunteers.md)。
 
+## [Issue 54](Issue-54.md)
 
-## [Issue 53](Issue-53.md)
+**本期特别推荐** 1. 项目：[Clipy（强大到变态的 OS X 剪贴板扩展应用开源）](https://github.com/Clipy/Clipy)，[expanding-collection（也许是展开、查看列表项最浑然天成的 Peek/Pop 用法及动画效果）](https://github.com/Ramotion/expanding-collection)，[Scrollable-GraphView（灵动感十足的自适应、可定制滚动曲（折）线图表库）](https://github.com/philackm/Scrollable-GraphView)；2. 文章：[Swift 算法实战之路（二）：数组，字符串，集合，与字典](http://www.jianshu.com/p/977736b08bd7)，[Swift 中的尾递归和弹床](http://swift.gg/2016/05/27/recursive-tail-calls-and-trampolines-in-swift/)。
 
-**本期特别推荐** 1. 项目：[SwiftTweaks：不用重新编译即可调整 UI 配置](https://github.com/Khan/SwiftTweaks)，[Material：Swift 版 Material Design 动画及图形框架库](https://github.com/CosmicMind/Material)，[Networking：使用简单、功能惊喜的网络封装库](https://github.com/3lvis/Networking)，[Interpolate：手势驱动交互式转场动画框架库](https://github.com/marmelroy/Interpolate)；2. 文章：[Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)，[分类、整理、归纳非常清晰的开源 iOS 应用集合](https://github.com/dkhamsing/open-source-ios-apps)，[用 HealthKit 来开发一个健身 App](http://swift.gg/2016/05/13/healthkit-introduction/)。
+**大声一：** [Realm 1.0.0 版本发布！](https://realm.io/cn/news/realm-1.0/)（[中文文档](https://realm.io/cn/docs/swift/latest/)）
 
-**大声一：**[Swift 官方文档中文版已经同步到 Swift 2.2](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/releases/tag/v2.2)（[@SwiftGG翻译组](http://weibo.com/swiftguide)）
-
-**大声二：**[Swift 开发者、项目、最佳实践：由 Swift 开发者自己的维护的干货](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)（[@SwiftLanguage](http://weibo.com/swiftlanguage)）
+**大声二：** [创建你所了解的知名 Swift 开发者个人资料页](https://github.com/ipader/SwiftGuide/wiki)
 
 
 > ![](../archive/weixin-swiftlanguage.jpg)
 
 ## 往期回顾
+
+* [Issue 53](Issue-53.md)
+
+	> **本期特别推荐** 1. 项目：[SwiftTweaks：不用重新编译即可调整 UI 配置](https://github.com/Khan/SwiftTweaks)，[Material：Swift 版 Material Design 动画及图形框架库](https://github.com/CosmicMind/Material)，[Networking：使用简单、功能惊喜的网络封装库](https://github.com/3lvis/Networking)，[Interpolate：手势驱动交互式转场动画框架库](https://github.com/marmelroy/Interpolate)；2. 文章：[Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)，[分类、整理、归纳非常清晰的开源 iOS 应用集合](https://github.com/dkhamsing/open-source-ios-apps)，[用 HealthKit 来开发一个健身 App](http://swift.gg/2016/05/13/healthkit-introduction/)。
+
+	> **大声一：**[Swift 官方文档中文版已经同步到 Swift 2.2](https://github.com/numbbbbb/the-swift-programming-language-in-chinese/releases/tag/v2.2)（[@SwiftGG翻译组](http://weibo.com/swiftguide)）
+
+	> **大声二：**[Swift 开发者、项目、最佳实践：由 Swift 开发者自己的维护的干货](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)（[@SwiftLanguage](http://weibo.com/swiftlanguage)）
+
 * [Issue 52](Issue-52.md)
 
 
