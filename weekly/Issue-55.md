@@ -1,7 +1,7 @@
 ![](http://dulema.sinaapp.com/logo/sl-banner.png)
 
 **[<= 往期回顾](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)**
-[Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue XX
+[Swift 语言指南](https://github.com/ipader/SwiftGuide)－Issue 55
 ===
 **本期特别推荐** 1. 项目： [Stellar（通过物理引擎 UIDynamic 实现超酷物理动画类库](https://github.com/AugustRush/Stellar）)，[Floater_（加一个浮动指尖图标到你的演示应用）](https://github.com/Buglife/Floater_)，[OOD-Principles-In-Swift（基于 Bob 大叔 OOD 经典 Swift 实现示例）](https://github.com/ochococo/OOD-Principles-In-Swift)；2. 文章：[Swift：Selector 语法糖](http://swift.gg/2016/06/02/swift-selector-syntax-sugar/)，[Swift 算法实战之路：链表](http://www.jianshu.com/p/cf962aeff643)，[用 Swift 编写面向协议的视图](http://swift.gg/2016/06/01/protocol-oriented-views-in-swift/)。
 
