@@ -109,7 +109,7 @@
 [TempiBeatDetection](https://github.com/jscalo/TempiBeatDetection)|[John Scalo](https://github.com/jscalo)|音乐节奏节拍检测库
 [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)|[Damien](https://github.com/delba)|极为小巧、易用的 OAuth 授权类库
 [Github.swift](https://github.com/onmyway133/Github.swift)|[Khoa Pham](https://github.com/onmyway133)|功能相对完整的 Github API 客户端
-
+[SBShortcutMenuSimulator](https://github.com/DeskConnect/SBShortcutMenuSimulator)|[DeskConnect](https://github.com/DeskConnect)|使模拟器能够测试3D Touch功能
 
 ### <a id="storage"></a>存储
 
