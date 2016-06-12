@@ -125,7 +125,6 @@ Design Guidelines](http://iosdesign.ivomynttinen.com/)》遵循并基于《iOS H
 * [Swift 2 throws 全解析](https://onevcat.com/2016/03/swift-throws/)：Swift 2 throws 全解析 - 从原理到实践。By [onecat](https://onevcat.com/#blog)
 * 使用React Native开发F8 App实战教程（一）](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=403628431&idx=1&sn=8384dc0956e12dbbbce3982bb2a85cee#rd)：F8 开发者大会上，Facebook 宣布与微软和三星合作，为 React Native 在 Windows UWP 平台和 Tizen 系统提供支持，并且还放出了RN的新的系列教程，这是第一篇。作者：Facebook，译者：[@移动开发前线](http://weibo.com/bornmobile?refer_flag=1005055013_&is_all=1)
 * [iOS并发（concurrency）概念浅析](http://shellhue.github.io/2016/03/29/concurrency/)：解析并发涉及串行、并发、并行、同步、异步、多线程、GCD、NSOperation 和 NSOperationQueue 等诸多容易混淆的概念。By [@黄泽宇ShellHue](http://weibo.com/u/5707174464?refer_flag=1005055013_&is_hot=1)
-* [小波说雨燕](http://www.xiaoboswift.com/)：比较全面系统的介绍Swift，出了好几季。比较适合初学者或者没有接触过iOS开发的人员学习。
 
  
 ### 技巧和方案
