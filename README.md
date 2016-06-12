@@ -110,6 +110,8 @@ Swift 语言指南
 * [Markdown -> Playground](https://github.com/jas/playground)：该开源项目可将内含有 Swift 代码的 Markdown 自动转换为 Xcode Playgrounds 文件。喜欢用 Markdown 编辑的同学很激动吧。P.S. 这款工具写于 NodeJS，原因作者有交待。
 * [iOS/Mac Autolayout Constraints](https://autolayoutconstraints.com)：这个工具不错，很直观，布局时可以省不少工夫。推荐者：[@荧星诉语](http://weibo.com/qq184675420)
 * [在线生成 AppStore 审核用截图](https://appscreens.io/yK7cLuBNij)：便捷的生产力工具。免费，易操作，可自定义。
+* [IBM Swift Sandbox](https://swiftlang.ng.bluemix.net/#/repl)：IBM的在线Swift网站，需要翻墙。
+* [SwiftStub](http://swiftstub.com/)：另外一个Swift在线练习网站。
 
 ### 2. 代码管理
 * [GitHub](https://github.com/)：声望日盛的资源分享之地。
@@ -117,6 +119,7 @@ Swift 语言指南
 * [GitCafe](https://gitcafe.com/)：GitCafe is a source code hosting service based on version control system Git。国内的代码托管服务，基于 Git，值得一提的是最近也推出了和 GitHub Pages 类似的服务 Gitcafe Pages。因为是在国内，所以相比较 GitHub 有速度优势，在网络环境差的情况下也许可以作为 GitHub 的备用。
 * [Bitbucket](https://bitbucket.org/)：国外的代码托管服务，不同于 GitHub 的是，Bitbucket 可以免费建立 private 项目。
 * [Git](https://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看免费电子书籍。
+* [SourceTree](https://www.sourcetreeapp.com/)：A free Git & Mercurial client for Windows or Mac.免费的Git和Mercurial客户端，当然也可以配合Bitbucket使用。
 
 ### 3. Xcode 插件
 * [CocoaPods](http://beta.cocoapods.org/)：第三方库的管理利器，允许你简单地把第三方库整合进自己的应用中。对我个人来说，我基本上每个项目都使用 CocoaPods。
@@ -128,6 +131,7 @@ Swift 语言指南
 * [realm/SwiftLint](https://github.com/realm/SwiftLint)：Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
 * [XCode 升级后插件失效的原理与修复办法](http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid/)：由一条命令引发的分析文章。[@_TongJZ](http://weibo.com/u/2068840121)
 * [feinstruktur/CoPilot](https://github.com/feinstruktur/CoPilot)：通过此插件，Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。[演示视频](https://vimeo.com/128713880)
+* [Carthage](https://github.com/Carthage/Carthage)：新兴起的去中心化的依赖管理器，目标是用最简单的方式来管理Cocoa第三方框架。优势很明显，但是也有不足，看后面的发展吧。
 
 ### 4. 管理工具
 * [swiftenv](https://github.com/kylef/swiftenv)：Swift 版本管理器。类似 rvm（Ruby）, nvm（Node.js）。
@@ -145,3 +149,4 @@ Swift 语言指南
 ## [媒体报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
 ## [开放平台](https://github.com/ipader/SwiftGuide/tree/master/archive/platforms.md)
 ## [Apple Watch 指南](https://github.com/ipader/SwiftGuide/blob/master/Apple%20Watch/README.md)
+
