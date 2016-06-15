@@ -109,7 +109,7 @@
 [TempiBeatDetection](https://github.com/jscalo/TempiBeatDetection)|[John Scalo](https://github.com/jscalo)|音乐节奏节拍检测库
 [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)|[Damien](https://github.com/delba)|极为小巧、易用的 OAuth 授权类库
 [Github.swift](https://github.com/onmyway133/Github.swift)|[Khoa Pham](https://github.com/onmyway133)|功能相对完整的 Github API 客户端
-
+[FlatBuffersSwift](https://github.com/mzaks/FlatBuffersSwift)|[Myaxim Zaks](https://github.com/mzaks)|Swift 版 FlatBuffers 实现类
 
 ### <a id="storage"></a>存储
 
@@ -126,6 +126,7 @@
 [Graph](https://github.com/CosmicMind/Graph)|[CosmicMind](https://github.com/CosmicMind)|CoreData 持久化类库，设计新颖、使用简单
 [fluent](https://github.com/qutheory/fluent)|[Qutheory](https://github.com/qutheory)|快速实现 CRUD 操作的对象存储类库
 [Cache](https://github.com/hyperoslo/Cache)|[Hyper](https://github.com/hyperoslo)|多类型数据混合缓存库
+[FlatBuffersSwift](https://github.com/mzaks/FlatBuffersSwift)|[Myaxim Zaks](https://github.com/mzaks)|Swift 版 FlatBuffers 实现类
 
 ### <a id="network"></a>网络
 
@@ -466,6 +467,8 @@
 [iconMaker](https://github.com/kaphacius/IconMaker)|[Yurii](https://github.com/kaphacius/)|Xcode插件自动生成不同尺寸的应用图标
 [SwiftCov](https://github.com/realm/SwiftCov)|[Realm](https://github.com/realm)|代码测试覆盖率命令行工具
 [ViewMonitor](https://github.com/daisuke0131/ViewMonitor)|[Daisuke Yamashita](https://github.com/daisuke0131)|测量视图位置、大小、背景、字体大小等，开发调试神器
+[Quick](https://github.com/Quick/Quick)|[Quick](https://github.com/Quick)| 行为驱动的测试框架
+[Nimble](https://github.com/Quick/Nimble)|[Quick](https://github.com/Quick)| 比 XCTAssertEqual 更方便易用的匹配框架
 [SwiftMock](https://github.com/mflint/SwiftMock)|[Matthew Flint](https://github.com/mflint)|一款 Mock 框架，单元测试的好伴侣
 [MockFive](https://github.com/DeliciousRaspberryPi/MockFive)|[Daniel Burbank](https://github.com/DeliciousRaspberryPi)|面向协议编程单元测试 Mock 框架
 [Cuckoo](https://github.com/SwiftKit/Cuckoo)|[SwiftKit](https://github.com/SwiftKit)|用法更接近于传统单元测试 Mock 框架库
