@@ -21,7 +21,7 @@ Swift 语言指南
 
 ## <a id="welcome"></a>入门指引
 
-苹果为为 [Swift](http://www.apple.com/swift/)（[中文介绍](http://www.apple.com/cn/swift/)）开发者提供的[官方文档入口](https://developer.apple.com/swift/)，包括 [概述](https://developer.apple.com/swift/)，[博客](https://developer.apple.com/swift/blog/)（[中文镜像](https://github.com/ipader/SwiftGuide/tree/master/mirror/Swift%20Blog%20-%20Apple%20Developer)）及 [开发资源](https://developer.apple.com/swift/resources/)。其中以下几份文档（Swift 2.1）为入门级必备（[iBooks 版](https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11)）：
+苹果为 [Swift](http://www.apple.com/swift/)（[中文介绍](http://www.apple.com/cn/swift/)）开发者提供的[官方文档入口](https://developer.apple.com/swift/)，包括 [概述](https://developer.apple.com/swift/)，[博客](https://developer.apple.com/swift/blog/)（[中文镜像](https://github.com/ipader/SwiftGuide/tree/master/mirror/Swift%20Blog%20-%20Apple%20Developer)）及 [开发资源](https://developer.apple.com/swift/resources/)。其中以下几份文档（Swift 2.1）为入门级必备（[iBooks 版](https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11)）：
 
 * [Swift Programming Language](https://developer.apple.com/swift/)（[中文版](http://gg.swiftguide.cn)｜[PDF 版](http://wiki.jikexueyuan.com/download/swift/pdf/) By [SwiftGG翻译组](http://weibo.com/swiftguide)）
 
