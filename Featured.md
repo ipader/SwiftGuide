@@ -290,6 +290,7 @@
 [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS)|[Viktor Radchenko](https://github.com/vikmeup)|带动画效果弹窗封装类
 [Dodo](https://github.com/exchangegroup/Dodo)|[The Exchange Group](https://github.com/exchangegroup)|一款轻量地可定制信息栏小组件
 [AnimatedTabBar](https://github.com/Ramotion/animated-tab-bar)|[Ramotion](https://github.com/Ramotion)|灵动的动画标签栏类库
+[ESTabBarController](https://github.com/eggswift/ESTabBarController)|[egg swift](https://github.com/eggswift)|Tab Bar自定义和添加动画组件类
 [TabDrawer](https://github.com/winslowdibona/TabDrawer)|[Winslow DiBona](https://github.com/winslowdibona)|适合单手操作的可定制 Tab Bar
 [KYCircularProgress](https://github.com/kentya6/KYCircularProgress)|[Kengo YOKOYAMA](https://github.com/kentya6)|简单、实用路径可定进程条
 [Circular-Progress-View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View)|[Wagner Truppel](https://github.com/wltrup)|小而精悍地可定制类似  Watch 圆型进程条组件
@@ -314,6 +315,7 @@
 [PullToRefresh](https://github.com/Yalantis/PullToRefresh)|[Yalantis](https://github.com/Yalantis)|刷新动画可定制的下拉数据请求更新组件
 [PullToBounce](https://github.com/entotsu/PullToBounce)|[Takuya.Okamoto](https://github.com/entotsu)|弹跳球效果下拉即刷新动画类库及演示
 [ReplaceAnimation](https://github.com/fruitcoder/ReplaceAnimation)|[Alex](https://github.com/fruitcoder)|基于 [@ZeeYoung欧阳哲](http://weibo.com/zeeya) 创意下拉刷新动画实现
+[pull-to-refresh](https://github.com/eggswift/pull-to-refresh)|[Egg Swift](https://github.com/eggswift/)|高度定制的下拉刷新和上拉加载组件
 [folding-cell](https://github.com/Ramotion/folding-cell)|[Ramotion](https://github.com/Ramotion)|自然流畅、清新的单元格折叠动画类及演示
 [Koloda](https://github.com/Yalantis/Koloda)|[Yalantis](https://github.com/Yalantis)|基于卡片的 Tinder-style 动画效果示例 [🔗](https://yalantis.com/blog/how-we-built-tinder-like-koloda-in-swift/)
 [tispr-card-stack](https://github.com/tispr/tispr-card-stack)|[tispr](https://github.com/tispr)|卡片风格动画切换组件及完整交互示例
