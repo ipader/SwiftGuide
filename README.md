@@ -98,7 +98,8 @@ Swift 语言指南
 	* [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
 	* [iOS 开发技术前线](https://github.com/hehonghui/iOS-tech-frontier)：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：[@开发技术前线](http://weibo.com/u/5589212242)
 	* [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
-	* [服务器端Swift语言的应用（简体中文）](http://github.com/PerfectlySoft/PerfectDocs)：包括如何用Swift快速建立Web服务、连接到数据库并为移动iOS提供后台服务。
+  * [服务器端Swift语言的应用（简体中文）](http://github.com/PerfectlySoft/PerfectDocs)：包括如何用Swift快速建立Web服务、连接到数据库并为移动iOS提供后台服务。
+
 ---
 ## <a id="tools"></a>开发工具
 ### 1. 编程工具
