@@ -25,7 +25,7 @@ Swift 语言指南
 
 * [Swift Programming Language](https://developer.apple.com/swift/)（[中文版](http://gg.swiftguide.cn)｜[PDF 版](http://wiki.jikexueyuan.com/download/swift/pdf/) By [SwiftGG翻译组](http://weibo.com/swiftguide)）
 
-* [Start Developing iOS Apps](https://developer.apple.com/swift/resources/) 
+* [Start Developing iOS Apps](https://developer.apple.com/swift/resources/)
 * [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)（[中文版](https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md) By [@CocoaChina](http://weibo.com/cocoachina)）
 
 	*苹果同时也维护着相应 Beta 版（Swift 2.2）文档：[Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)，[Start Developing iOS Apps](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)，[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)。*
@@ -74,6 +74,7 @@ Swift 语言指南
 * [Swift Weekly Brief](http://www.jessesquires.com)：“这个博客现在每周会将Swift开源中的重要讨论和提交整理成Open source Swift weekly brief，这对一线开发者尽早了解这门语言的动态情报很有帮助。By [@崔康总编](http://weibo.com/cuikang82) ”。来源：[Jesse Squires](http://www.jessesquires.com)
 * [Swift Developer Weekly](http://swiftdevweekly.co/):这个网站每周推送最新的技术文章和书本推荐到你的email，由Phil Wright创办。
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
+* [Perfect.org](http://perfect.org)：有了Perfect 2.0软件框架体系，Swift语言还可以在云端连接数据库并开发Web服务器，从此iOS程序员只需掌握Swift一种语言即可。中文版即将推出，目前已经有[中文开发文档](https://github.com/PerfectlySoft/PerfectDocs)
 
 * **<a id="recomm_resources"></a>资源合集**
 > 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
@@ -97,7 +98,7 @@ Swift 语言指南
 	* [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
 	* [iOS 开发技术前线](https://github.com/hehonghui/iOS-tech-frontier)：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：[@开发技术前线](http://weibo.com/u/5589212242)
 	* [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
-
+  * [服务器端Swift语言的应用（简体中文）](https://github.com/PerfectlySoft/PerfectDocs)：包括如何用Swift快速建立Web服务、连接到数据库并为移动iOS提供后台服务。
 ---
 ## <a id="tools"></a>开发工具
 ### 1. 编程工具
@@ -149,4 +150,3 @@ Swift 语言指南
 ## [媒体报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
 ## [开放平台](https://github.com/ipader/SwiftGuide/tree/master/archive/platforms.md)
 ## [Apple Watch 指南](https://github.com/ipader/SwiftGuide/blob/master/Apple%20Watch/README.md)
-
