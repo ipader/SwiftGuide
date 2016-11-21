@@ -494,3 +494,4 @@
 [QBlocker](https://github.com/steve228uk/QBlocker)|[Stephen Radford](https://github.com/steve228uk)|不再因为手误意外地退出应用
 [RealmVideo](https://github.com/BalestraPatrick/RealmVideo)|[Patrick Balestra](https://github.com/BalestraPatrick)|同步播放 realm.io 网站上的演讲视频和 slides
 [PodcastMenu](https://github.com/insidegui/PodcastMenu)|[Guilherme Rambo](https://github.com/insidegui)|便捷地收听广播 Overcast.fm
+[TimeTable](https://github.com/dulingkang/TimeTable)|[Shawn Du](https://github.com/dulingkang)|使用Realm做的简洁课程表
