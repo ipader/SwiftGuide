@@ -144,6 +144,7 @@ Swift 语言指南
 ### 6. 设计工具
 * [sketch](http://www.sketchapp.com/)：更适合开发应用的矢量设计工具。通过插件还支持与代码协同工作。推荐书籍：[Learn Sketch 3](https://designcode.io/sketch)
 * [PaintCode](http://www.paintcodeapp.com/)
+* [Hype3](http://www.tumult.com/hype/) 适合开发过场动画,支持无代码直接生成H5动画,兼容性优秀
 :PaintCode是Apple Designer入门APP开发最合适的辅助工具之一，她可以把你绘制的矢量UI自动转化为适用于iOS/OS X的Objective-C代码。
 
 ## [媒体报道](https://github.com/ipader/SwiftGuide/tree/master/archive/news.md)
