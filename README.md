@@ -59,6 +59,7 @@ Swift 语言指南
 	* [swift.org](https://swift.org/)：开源后独立出来的 Swift 开源社区。
 	* [GitHub:apple](https://github.com/apple)：苹果在 GitHub 上的开源项目。
 	* [GitHub:apple/swift](https://github.com/apple/swift)：swift 语言在 GitHub 上的开源项目。
+	* [SwiftDoc.org](http://swiftdoc.org/): Swift doc的官方html版，应该是Apple自己的项目，github地址https://github.com/SwiftDocOrg， 尤其是对于class，struct，protocol的继承关系，特别直观
 * [ksm/SwiftInFlux](https://github.com/ksm/SwiftInFlux)：作者（Karol Mazur）将 Apple Developer Forums 上有关 Swift 特性、缺陷及变更讨论分类汇总并更新到 GitHub，具有很好的可读性。从中可以一窥 Swift 缺陷及未来潜在地变化。最关键地是有 Chris Lattner 及核心团队答疑解惑。
 * [raywenderlich.com](https://www.raywenderlich.com/)([中文版](https://www.raywenderlich.com/zh-hans/))：由Ray Wenderlich创建，专注于开发高质量编程指南（近期优质Swift文章及视频教程不断），著名的iOS/OS X博客及开发教程网站，非常适合新手学习。近期第一时间出了[三本 Swift 新书](https://www.raywenderlich.com/74832/three-new-swift-books)。
 * [Natasha The Robot](http://www.natashatherobot.com/)： 时髦码农不容错过的 Swift 开发实战教程类网站。为了简化学习复杂性，每一篇文章涵盖技术点单一又独立，配以开发步骤、运行结果以及代码等标准方式教授。难能可贵的是，它往往出品“追剧式”（最新开发特性或API跟进式）教程，实在是开发者必藏精品网站。
