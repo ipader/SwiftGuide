@@ -112,6 +112,7 @@ Swift 语言指南
 * [在线生成 AppStore 审核用截图](https://appscreens.io/yK7cLuBNij)：便捷的生产力工具。免费，易操作，可自定义。
 * [IBM Swift Sandbox](https://swiftlang.ng.bluemix.net/#/repl)：IBM的在线Swift网站，需要翻墙。
 * [SwiftStub](http://swiftstub.com/)：另外一个Swift在线练习网站。
+* [JSON2Swift](https://itunes.apple.com/us/app/json2swift/id1208964041?mt=12): 一个从 JSON 文件生成 Swift model 代码的可视化工具。自定义功能强大。
 
 ### 2. 代码管理
 * [GitHub](https://github.com/)：声望日盛的资源分享之地。
