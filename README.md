@@ -76,27 +76,27 @@ Swift 语言指南
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
 
 * **<a id="recomm_resources"></a>资源合集**
-> 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
-
-	* [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
-	* [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
-	* [iOS Cookies](http://www.ioscookies.com/)：分类合理、排序靠谱的 Swift 开源类库集合。
-	* [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](https://github.com/matteocrippa)
-	* [适合iOS开发者的 15 大网站推荐](http://www.csdn.net/article/2015-03-04/2824108-ios-developers-sites/1)：的确很全、很主流的国外 iOS 开发者网站。
-	* [掘金 Swift 版块](http://gold.xitu.io/#/tag/Swift)
-	* [码农周刊 －《Swift 特刊》](http://weekly.manong.io/issues/33?ref=swift)
-	* [CocoaChina －《Swift 新手入门汇集帖》](http://www.cocoachina.com/bbs/read.php?tid=204512)
-	* [CSDN_CODE －《Swift 编程语言资料大合集》](http://code.csdn.net/news/2820075)
-	* [InfoQ －《学习苹果 Swift 语言的一些在线资源（英文）》](http://www.infoq.com/cn/news/2014/06/apple-swift-learning-resources)
-	* [刘兰涛 －《Swift 学习资源》](https://github.com/Lax/iOS-Swift-Demos/wiki) By [@懒桃儿吃桃儿](http://weibo.com/u/1653644220)
-	* [learnswift.tips](http://www.learnswift.tips/)：国外主流 Swift 学习资源集合。
-	* [Awesome iOS](https://github.com/vsouza/awesome-ios)：一个 iOS 的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
-	* [iOS Developer Tips](http://iosdevelopertips.com/)：还是有关 iOS 的开发资源及文章合集。
-	* [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的 Swift 资源列表（有持续更新）。
-	* [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
-	* [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
-	* [iOS 开发技术前线](https://github.com/hehonghui/iOS-tech-frontier)：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：[@开发技术前线](http://weibo.com/u/5589212242)
-	* [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
+  > 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
+  
+  * [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
+  * [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理得如此美妙的学习资源，实在让人太欢喜了。
+  * [iOS Cookies](http://www.ioscookies.com/)：分类合理、排序靠谱的 Swift 开源类库集合。
+  * [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift)：这个版本的 Swift 资源集合内容丰富，分类也不错。作者：[Matteo Crippa](https://github.com/matteocrippa)
+  * [适合iOS开发者的 15 大网站推荐](http://www.csdn.net/article/2015-03-04/2824108-ios-developers-sites/1)：的确很全、很主流的国外 iOS 开发者网站。
+  * [掘金 Swift 版块](http://gold.xitu.io/#/tag/Swift)
+  * [码农周刊 －《Swift 特刊》](http://weekly.manong.io/issues/33?ref=swift)
+  * [CocoaChina －《Swift 新手入门汇集帖》](http://www.cocoachina.com/bbs/read.php?tid=204512)
+  * [CSDN_CODE －《Swift 编程语言资料大合集》](http://code.csdn.net/news/2820075)
+  * [InfoQ －《学习苹果 Swift 语言的一些在线资源（英文）》](http://www.infoq.com/cn/news/2014/06/apple-swift-learning-resources)
+  * [刘兰涛 －《Swift 学习资源》](https://github.com/Lax/iOS-Swift-Demos/wiki) By [@懒桃儿吃桃儿](http://weibo.com/u/1653644220)
+  * [learnswift.tips](http://www.learnswift.tips/)：国外主流 Swift 学习资源集合。
+  * [Awesome iOS](https://github.com/vsouza/awesome-ios)：一个 iOS 的各类优秀的开源项目集合。真不错！可惜Swift开源项目资源不足。
+  * [iOS Developer Tips](http://iosdevelopertips.com/)：还是有关 iOS 的开发资源及文章合集。
+  * [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift)：一位俄罗斯朋友分类整理的 Swift 资源列表（有持续更新）。
+  * [Aufree/trip-to-iOS](https://github.com/Aufree/trip-to-iOS)：显然作者很用心的做了非常深入的整理。它对于开发者拓展学习范围及开发知识面非常有益。
+  * [Robin Eggenkamp - Awesome Swift](https://swift.zeef.com/robin.eggenkamp)：“一个收集了很多 Swift 开发资源的网站”。
+  * [iOS 开发技术前线](https://github.com/hehonghui/iOS-tech-frontier)：“一个定期翻译、发布国内外iOS优质的技术、开源库、软件架构设计、测试等文章的开源项目”。主要翻译来源 Ray Wenderlich，App Coda，Medium。来源：[@开发技术前线](http://weibo.com/u/5589212242)
+  * [11个超棒的 iOS 开发学习网站](http://www.cocoachina.com/ios/20150626/11348.html)：还算比较主流的归纳。不过，缺了raywenderlich.com 和 ioscreator.com 这两个重量级教程网站实在是不应该啊。
 
 ---
 ## <a id="tools"></a>开发工具
