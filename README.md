@@ -1,5 +1,3 @@
-![](http://dulema.sinaapp.com/logo/sl-banner.png)
-
 Swift 语言指南
 ===
 > <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-6-6，更新内容详见 [Issue 55](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-55.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
@@ -76,7 +74,7 @@ Swift 语言指南
 * [iosdevtips.co](http://iosdevtips.co)：iOS Development Tips
 
 * **<a id="recomm_resources"></a>资源合集**
-> 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
+	> 以下是其它开发者社区或 Swift 爱好者整理的有关 Swift 语言学习的资源列表。
 
 	* [SwiftEducation](https://github.com/SwiftEducation)：“这是建立在 GitHub 上的一个 Swift 学习资料汇集，包括了有关幻灯和多个练手的应用程序源码。By @极客头条”。的确有不少基础实用的好[教程](https://github.com/SwiftEducation/presentations)。这对于基础学起的同学有福了。
 	* [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)：整理地如此美妙的学习资源，实在让人太欢喜了。
