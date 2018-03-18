@@ -2,7 +2,7 @@ Swift 语言指南
 ===
 > <span style="color:lightgray;font-size:12px">[@SwiftLanguage](http://weibo.com/swiftlanguage) 更新于 2016-6-6，更新内容详见 [Issue 55](https://github.com/ipader/SwiftGuide/blob/master/weekly/Issue-55.md)。往期更新回顾详见《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》</span>
 
-　　[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》。当然也不能错过那些活跃、优秀的《[开发者个人资料页](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E9%A1%B5)》。
+　　[这份指南](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md)汇集了 Swift 语言主流学习资源，并以开发者的视角整理编排。对于精选项目及文章，可直接访问《[Swift 项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)》和《[Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)》。还有开发者们自己维护的《[开发者、项目、最佳实践](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E3%80%81%E9%A1%B9%E7%9B%AE%E3%80%81%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)》。当然也不能错过那些活跃、优秀的《[开发者个人资料页](https://github.com/ipader/SwiftGuide/wiki/%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99%E9%A1%B5)》。往期《[收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)》回顾。
 
 
 ## 目录
@@ -19,29 +19,27 @@ Swift 语言指南
 
 ## <a id="welcome"></a>入门指引
 
-苹果为 [Swift](http://www.apple.com/swift/)（[中文介绍](http://www.apple.com/cn/swift/)）开发者提供的[官方文档入口](https://developer.apple.com/swift/)，包括 [概述](https://developer.apple.com/swift/)，[博客](https://developer.apple.com/swift/blog/)（[中文镜像](https://github.com/ipader/SwiftGuide/tree/master/mirror/Swift%20Blog%20-%20Apple%20Developer)）及 [开发资源](https://developer.apple.com/swift/resources/)。其中以下几份文档（Swift 2.1）为入门级必备（[iBooks 版](https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11)）：
+苹果为 [Swift](http://www.apple.com/swift/)（[中文介绍](http://www.apple.com/cn/swift/)）开发者提供的 [官方文档入口](https://developer.apple.com/swift/)，包括 [概述](https://developer.apple.com/swift/)，[博客](https://developer.apple.com/swift/blog/)（[中文镜像](https://github.com/ipader/SwiftGuide/tree/master/mirror/Swift%20Blog%20-%20Apple%20Developer)）及 [开发资源](https://developer.apple.com/swift/resources/)。其中以下几份文档为入门级必备（[iBooks 版](https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11)）：
 
-* [Swift Programming Language](https://developer.apple.com/swift/)（[中文版](http://gg.swiftguide.cn)｜[PDF 版](http://wiki.jikexueyuan.com/download/swift/pdf/) By [SwiftGG翻译组](http://weibo.com/swiftguide)）
-
-* [Start Developing iOS Apps](https://developer.apple.com/swift/resources/) 
+* [Swift Programming Language](https://developer.apple.com/swift/)（[4.0 中文版](https://www.cnswift.org/) by [@lomyrjo](https://twitter.com/lomyrjo) | [3.0 中文版](http://gg.swiftguide.cn)，[3.0 中文版（PDF）](http://wiki.jikexueyuan.com/download/swift/pdf/) By [SwiftGG](http://weibo.com/swiftguide)）
+* [Start Developing iOS Apps](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html) 
 * [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)（[中文版](https://github.com/CocoaChina-editors/Welcome-to-Swift/blob/master/UsingSwiftwithCocoaandObjective-C%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C.md) By [@CocoaChina](http://weibo.com/cocoachina)）
-
-	*苹果同时也维护着相应 Beta 版（Swift 2.2）文档：[Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)，[Start Developing iOS Apps](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html)，[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)。*
 
 学习实践的角度，标准库示例代码 [Swift Standard Library.playground](https://developer.apple.com/sample-code/swift/downloads/Standard-Library.zip) 是很棒的学习伴侣。
 
-教程方面，苹果力荐了斯坦福课程 [Stanford University: Developing iOS 8 Apps with Swift](https://itunes.com/StanfordSwift)（[中文字幕版](http://open.163.com/special/opencourse/ios8.html) By [@网易公开课](http://weibo.com/163open)）
+教程方面，苹果力荐了斯坦福课程 [Stanford University: Developing iOS 11 Apps with Swift](https://itunes.apple.com/cn/podcast/developing-ios-11-apps-with-swift)（[中文字幕](https://github.com/ApolloZhu/Developing-iOS-11-Apps-with-Swift) By [ApolloZhiyu](https://weibo.com/u/2607042732)）
 
 除以上所涉及入门级文档，[iOS Developer Library](https://developer.apple.com/library/ios/navigation/) 还为开发者提供了更庞大、系统化的开发文档支持。
 
 以下列举了几份已有第三方中文翻译文档：
 
-* [API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)（[中文版](http://swift.gg/2016/05/18/api-design-guidelines/) By [@SwiftGG翻译组](http://weibo.com/u/5174822990)）
+* [API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)（[中文版](https://www.jianshu.com/p/b11dd44f2848) By [fever105](https://weibo.com/fever105)）
 * [App Extension Programming Guide](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html)（[中译镜像](https://github.com/ipader/SwiftGuide/tree/master/mirror/App%20Extension%20Programming%20Guide)）
-* [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html)（[中文版](https://isux.tencent.com/?s=iOS+9+%E4%BA%BA%E6%9C%BA%E7%95%8C%E9%9D%A2%E6%8C%87%E5%8D%97)｜[PDF 版](http://ixdc.org/2016/files/ISUX[%E8%AF%91]iOS9%20human%20Interface%20Guideline.pdf) By [@腾讯ISUX](http://weibo.com/txisux)）
+* [Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html)（[中文版（一](http://www.ui.cn/detail/283944.html)、[二）](http://www.ui.cn/detail/284044.html) By [奔跑的蓝大喵]()，[iPhone X](https://zhuanlan.zhihu.com/p/29327102) By [饿了么UED](https://weibo.com/eued)）
+* [Auto Layout Guide](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853)（[中文版](https://www.jianshu.com/nb/16482665) By [fever105](https://weibo.com/fever105)）
 * [HomeKit Developer Guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/HomeKitDeveloperGuide/Introduction/Introduction.html)（[中文版](http://www.cocoachina.com/ios/20150324/11411.html) By [@CocoaChina](http://weibo.com/cocoachina)）
 
-值得称道的还有：苹果为 [Apple TV Tech Talks](https://developer.apple.com/videos/) 和 [WWDC 2015](https://developer.apple.com/videos/wwdc2015/) 的视频添加简体中文字幕，从而方便中国开发者观看来自官方的权威技术分享。
+值得称道的还有：苹果为开发者提供的[开发视频](https://developer.apple.com/videos/)（包括 WWDC session，可选中文字幕），方便开发者观看来自官方的权威技术分享。
 
 有关于 Swift 开源及跨平台开发，可以关注 [swift.org](https://swift.org/)
 
