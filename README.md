@@ -104,7 +104,6 @@ Swift 语言指南
 * [InfinitApps - Bezel](http://infinitapps.com/bezel/)：“嫌 Xcode 6 目前提供的 Watch 模拟器不够直观？Bezel 是一个用于视觉预览 WatchKit 所开发程序效果的小工具，前提是你安装了 xScope 软件（Mac端）或 xScopeMirror（iPhone端）。 By [@WatchKit开发](http://weibo.com/twios)”
 * [Markdown -> Playground](https://github.com/jas/playground)：该开源项目可将内含有 Swift 代码的 Markdown 自动转换为 Xcode Playgrounds 文件。喜欢用 Markdown 编辑的同学很激动吧。P.S. 这款工具写于 NodeJS，原因作者有交待。
 * [iOS/Mac Autolayout Constraints](https://autolayoutconstraints.com)：这个工具不错，很直观，布局时可以省不少工夫。推荐者：[@荧星诉语](http://weibo.com/qq184675420)
-* [在线生成 AppStore 审核用截图](https://appscreens.io/yK7cLuBNij)：便捷的生产力工具。免费，易操作，可自定义。
 * [IBM Swift Sandbox](https://swiftlang.ng.bluemix.net/#/repl)：IBM的在线Swift网站，需要翻墙。
 * [SwiftStub](http://swiftstub.com/)：另外一个Swift在线练习网站。
 
