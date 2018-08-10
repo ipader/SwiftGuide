@@ -45,7 +45,7 @@ Swift 语言指南
 
 
 ## <a id="swift_projects"></a>[开源项目](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)
-
+![](/Open Sources for Swift - Classification 2.png)
 
 ## <a id="recomm_sites"></a>推荐网站
 * **苹果官方**
