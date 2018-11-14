@@ -47,9 +47,11 @@ Swift 语言指南
 
 
 ## <a id="swift_projects"></a>[开源项目](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)
->那些仍然活跃的 Swift 开源项目整理，尽可能遵循苹果开发者文档分类规则，对应关系仅做参考。除了活跃度，还综合了库的实用性、稳定性、star/fork 等做为参考。
+>那些仍然活跃的 Swift 开源项目整理，分类规则尽可能遵循苹果开发者文档（对应关系仅做参考）；筛选规则主要参考过去四年多来微博分享，综合了库的实用性、稳定性、star/fork，以及活跃度等因素。整理后的开源项目数量目前为 400 多个项目，并以图片及 [myMindNode 浏览](https://xiaozhuanlan.com/topic/5271086934) 两种方式呈现。望大家多多鼓励、支持，谢谢。 🙏
 
 ![](https://raw.githubusercontent.com/ipader/SwiftGuide/master/Open%20Sources%20for%20Swift%20-%20Classification%202.png)
+
+
 
 ## <a id="recomm_sites"></a>推荐网站
 * **苹果官方**
