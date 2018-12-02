@@ -1,4 +1,4 @@
-<a href="https://www.vultr.com/?ref=7585084"><img src="https://www.vultr.com/media/banner_1.png" width="364" height="45"></a>
+<a href="https://www.vultr.com/?ref=7229348"><img src="https://www.vultr.com/media/banner_1.png" width="364" height="45"></a>
 
 Swift 语言指南
 ===
@@ -47,9 +47,9 @@ Swift 语言指南
 
 
 ## <a id="swift_projects"></a>[开源项目](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)
->那些仍然活跃的 Swift 开源项目整理，分类规则尽可能遵循苹果开发者文档（对应关系仅做参考）；筛选规则主要参考过去四年多来微博分享，综合了库的实用性、稳定性、star/fork，以及活跃度等因素。整理后的开源项目数量目前为 400 多个项目，并以图片及 [myMindNode 浏览](https://xiaozhuanlan.com/topic/5271086934) 两种方式呈现。望大家多多鼓励、支持，谢谢。 🙏
+>那些仍然活跃的 Swift 开源项目整理，分类规则尽可能遵循苹果开发者文档（对应关系仅做参考）；筛选规则主要参考过去四年多来微博分享，综合了库的实用性、稳定性、star/fork，以及活跃度等因素。整理后的开源项目数量目前为 400 多个项目，并以图片及 [myMindNode 浏览](https://xiaozhuanlan.com/topic/5271086934) 两种方式呈现。以下是站在应用架构角度全新整理的其中一部分。望大家多多鼓励、支持，谢谢。🙏
 
-![](https://raw.githubusercontent.com/ipader/SwiftGuide/master/Open%20Sources%20for%20Swift%20-%20Classification%202.png)
+![](https://raw.githubusercontent.com/ipader/SwiftGuide/master/Open%20Source%20for%20Swift%20-%20App%20Architecture.png)
 
 
 
