@@ -1,6 +1,6 @@
 基于[Swift 开源项目精选导图](Open Source for Swift - Classification.md)，以应用架构角度出发继续甄选并“精分”。筛选、介定方法更偏重于构建应用时，项目在分类中起到的作用权重，可持续性权重，并部分算上开发者影响力。尝试持续地完善一份不那么杂乱无章（也许还比较好用）的 Swift 开源子集。内容将依然以导图和 myMindNode 形式呈现（持续更新中……）
 
-![](Open Source for Swift - App Architecture.png)
+![](OpenSourceforSwift-AppArchitecture.png?raw=true)
 
 [myMindNode浏览及导图原文档下载……](https://xiaozhuanlan.com/topic/5796328014)
 

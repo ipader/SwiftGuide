@@ -1,5 +1,5 @@
 # Swift 知名开发者介绍
-![](Swift developers.png)
+![](SwiftDevelopers.png?raw=true)
 ## 目录
 * [全身心拥抱开源的开发者 Mattt Thompson](#mattt-thompson)
 * [富有创意的开发者 Morten Just](#morten-just)

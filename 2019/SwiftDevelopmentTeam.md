@@ -1,5 +1,5 @@
 # Swift 开源项目团队介绍
-![](Swift development team.png)
+![](SwiftDevelopmentTeam.png?raw=true)
 ## 目录
 * Swift 开源团队预览
 * Swift 开源项目团队
