@@ -1,3 +1,5 @@
+# Swift 开源项目精选导图
+
 这份文档主要基于微博 [@SwiftLanguage](https://weibo.com/swiftlanguage) 跟踪过活跃于 Swift 语言领域的那些 GitHub 开源项目，顺便也是对于过去几年关注的内容进行一次系统化梳理。尝试整理出一份相对结构化且精练的 Swift 开源项目参考知识库，它将主要以思维导图形式呈现。
 
 导图分类规则尽可能遵循[苹果开发者文档](https://developer.apple.com/documentation/)（对应关系仅做参考），试图与官方类库分类尽量有一个对照关系（其初衷是引导开发者不要为了使用开源而忽视官方类库本身已经具备的功能特性）；筛选规则主要参考过去四年多来微博分享，综合了库的实用性、稳定性、star/fork，以及活跃度等因素，筛选出其中一个子集，整理后的开源项目数量目前为 400 多个项目。导图将以一整张大图及 myMindNode 浏览两种方式访问。另外，站在开发者应用开发视角，额外筛检了一份更精简且分类明细的 [Swift 开源项目精选 - 应用架构角度](OpenSourceforSwift-ApplicationArchitecture.md)。
