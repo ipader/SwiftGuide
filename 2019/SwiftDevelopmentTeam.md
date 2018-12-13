@@ -1,7 +1,6 @@
 # Swift 开源项目团队介绍
 ![](SwiftDevelopmentTeam.png?raw=true)
 ## 目录
-* Swift 开源团队预览
 * Swift 开源项目团队
   * [专注于服务端 Kitura 及相关技术的项目团队 IBM-Swift](#IBM-Swift)
   * [最流行的管依赖管理项目团队 Carthage](#Carthage)
@@ -43,8 +42,6 @@
   * [知名开发培训博客 raywenderlich](#raywenderlich)
   * [知名开发技术博客 NSHipster](#NSHipster)
 
-## Swift 开源团队预览
-![](https://diycode.b0.upaiyun.com/photo/2018/bfa3d95a2285f6617b0fb75a29fe5c0d.png)
 ------------
 整理中……
 
