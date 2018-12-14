@@ -6,7 +6,7 @@
 
 [myMindNode浏览及导图原文档下载……](https://xiaozhuanlan.com/topic/5796328014)
 
-## 附：MindNode 格式导图导出的文本内容
+## 附：MindNode 格式导图导出的文本内容（[浏览 PDF 版本](OpenSourceforSwift-ApplicationArchitecture.pdf)）
 ---
 # Learning & Advanced
 
