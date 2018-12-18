@@ -1,7 +1,7 @@
 
 Swift 开源精选
 ===
-　　自 2014年 WWDC 发布 Swift 语言以来，[本项目](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md) 一直致力于将主流 Swift 中文学习、开发资源汇集于此，并且尽力紧密地跟踪、甄选优秀 Swift 开源项目，以方便开发者快速获得并使用。考虑 Swift 已经正式发布超过四年半（更无力管理维护海量的 Swift 学习资源），因此，后续本项目将专注于 Swift 开源精选资源方向（项目及应用架构，开发方法和工具）进行维护、更新，内容的呈现或展示形式将着重于思维导图。而相对偏重于 Swift 初学者的旧有文档 [Swift 语言指南](https://github.com/ipader/SwiftGuide/blob/master/README20181213.md) 将不再进一步更新、维护。项目名称变更为 Swift 开源精选。库名由原先的 SwiftGuide 改为 awesome-swift。后续更新、维护的文档如下：
+　　自 2014年 WWDC 发布 Swift 语言以来，[本项目](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md) 一直致力于将主流 Swift 中文学习、开发资源汇集于此，并且尽力紧密地跟踪、甄选优秀 Swift 开源项目，以方便开发者快速获得并使用。考虑 Swift 已经正式发布超过四年半（更无力管理维护海量的 Swift 学习资源），因此，后续本项目将专注于 Swift 开源精选资源方向（项目及应用架构，开发方法和工具）进行维护、更新，内容的呈现或展示形式将着重于思维导图。而相对偏重于 Swift 初学者的旧有文档 [Swift 语言指南](https://github.com/ipader/SwiftGuide/blob/master/README20181213.md) 将不再进一步更新、维护。项目名称变更为 Swift 开源精选，库名由原先的 SwiftGuide 改为 awesome-swift。后续更新、维护的文档如下：
 
 * Swift 开源项目精选导图
 > 这份文档主要基于微博 @SwiftLanguage 跟踪过活跃于 Swift 语言领域的那些 GitHub 开源项目，顺便也是对于过去几年关注的开源项目进行一次系统化梳理。尝试整理出一份相对结构化且精练的 Swift 开源项目参考知识库，它将主要以思维导图形式呈现。[详见……](2019/OpenSourceforSwift-Classification.md)　　
