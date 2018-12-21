@@ -1,6 +1,6 @@
 # Recently Included Swift Projects
 
-![](2019/RecentlyIncludedSwiftProjects.png?raw=true)
+![](RecentlyIncludedSwiftProjects.png?raw=true)
 
 - <*UI styles using Swifty Method Chain*> shindyu/ApplyStyleKit ➟ iOS
 
