@@ -10,7 +10,7 @@ Swift 开源精选
 
 * Swift 开源项目精选 - 应用架构角度
 > 基于[Swift 开源项目精选导图](2019/OpenSourceforSwift-Classification.md)，以应用架构角度出发继续甄选并“精分”。筛选、介定方法更偏重于构建应用时，项目在分类中起到的作用权重，可持续性权重，并部分算上开发者影响力。尝试持续地完善一份不那么杂乱无章（也许还比较好用）的 Swift 开源子集。[详见……](2019/OpenSourceforSwift-ApplicationArchitecture.md)　
-　
+
 ![](2019/OpenSourceforSwift-ApplicationArchitecture.png?raw=true)
 
 * Swift 开源项目团队介绍
