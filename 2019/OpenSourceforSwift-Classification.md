@@ -7,7 +7,7 @@
 订阅后显示部分目前实为持续更新的 myMindNode 链接及明细内容浏览方式（叶子节点针对每一个收录开源项目的中文简介）。此外，附上项目中部分 [Swift 知名开发者个人资料](https://xiaozhuanlan.com/topic/9687124530)，以便于进一步了解其中部分优秀项目开发者背景。另外，考虑到开源项目的发展及持续更新。本文档并非最终稿，它将与微博  [@SwiftLanguage](https://weibo.com/swiftlanguage)  同步更新（周为单位）。对于那些不再活跃或中止的项目也会尽力删减。对于 Swift 新手欢迎关注文档 [Swift 开发指引](http://swiftguide.cn) 以及  [Swift 语言指南](https://github.com/ipader/SwiftGuide/blob/master/README20181213.md) (13.9k+ stars)，其中有项目介绍、入门文章等与 Swift 开发相关的信息。
 
 ![](OpenSourceforSwift-Classification.png?raw=true)
-[myMindNode浏览及导图原文档下载……](https://xiaozhuanlan.com/topic/5271086934)
+[myMindNode浏览及导图原文档下载……](https://my.mindnode.com/s4jn5DKQV7qwpCdnyd12sDXcnTYJmFzPNghYx91s)
 
 
 ## 附：MindNode 格式导图导出的文本内容（[浏览 PDF 版本](OpenSourceforSwift-Classification.pdf)）
