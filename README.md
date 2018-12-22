@@ -6,11 +6,10 @@ Swift 开源精选
 * Swift 开源项目精选导图
 > 这份文档主要基于微博 @SwiftLanguage 跟踪过活跃于 Swift 语言领域的那些 GitHub 开源项目，顺便也是对于过去几年关注的开源项目进行一次系统化梳理。尝试整理出一份相对结构化且精练的 Swift 开源项目参考知识库，它将主要以思维导图形式呈现。[详见……](2019/OpenSourceforSwift-Classification.md)　　
 
-![](2019/OpenSourceforSwift-Classification.md)
+![](2019/OpenSourceforSwift-Classification.png?raw=true)
 
 * Swift 开源项目精选 - 应用架构角度
 > 基于[Swift 开源项目精选导图](2019/OpenSourceforSwift-Classification.md)，以应用架构角度出发继续甄选并“精分”。筛选、介定方法更偏重于构建应用时，项目在分类中起到的作用权重，可持续性权重，并部分算上开发者影响力。尝试持续地完善一份不那么杂乱无章（也许还比较好用）的 Swift 开源子集。[详见……](2019/OpenSourceforSwift-ApplicationArchitecture.md)　
-
 　
 ![](2019/OpenSourceforSwift-ApplicationArchitecture.png?raw=true)
 
