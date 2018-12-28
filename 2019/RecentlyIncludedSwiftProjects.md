@@ -1,21 +1,14 @@
 # Recently Included Swift Projects
 
+![](RecentlyIncludedSwiftProjects.png)
 
-- <*collection scrolling*> Cuberto/smooth-scroll ➟ iOS
+- <*Instagram filters implemented in Metal*> alexiscn/MetalFilters ➟ iOS
 
-	顺滑滚动过程中标题和内容卡式切换。
+	基于 Metal 框架实现的 Instagram 风格图片滤镜库。
 
-- <*feature switch*> rwbutler/FeatureFlags ➟ iOS
+- <*wrapper for Apple’s Reachability*> rwbutler/Connectivity ➟ iOS
 
-	特性切换配置（本地或远程）框架库（测试方案支持 A/B 及 MVT）。
-
-- <*write Shortcuts in Playground*> a2/shortcuts-swift ➟ iOS
-
-	用 Swift 在 Playgrounds 中写捷径。
-
-- <*UI styles using Swifty Method Chain*> shindyu/ApplyStyleKit ➟ iOS
-
-	常用 UI 组件样式的链式操作（实现逻辑简单、轻量）。
+	基于 Reachability 的封装类库，检查 当前 Wi-Fi 互联网连接性及即时状态。
 
 - <*UIKit extensions*> haoking/SwiftyUI ➟ iOS
 
@@ -73,11 +66,19 @@
 
 	一款 Playground 效率工具。快速地转换当前目录及子目录内所有 Swift 文件到（兼容 iPad 运行的） Playground 项目。
 
-- <*wrapper for Apple’s Reachability*> rwbutler/Connectivity ➟ iOS
+- <*UI styles using Swifty Method Chain*> shindyu/ApplyStyleKit ➟ iOS
 
-	基于 Reachability 的封装类库，检查 当前 Wi-Fi 互联网连接性及即时状态。
+	常用 UI 组件样式的链式操作（实现逻辑简单、轻量）。
 
-- <*Instagram filters implemented in Metal*> alexiscn/MetalFilters ➟ iOS
+- <*write Shortcuts in Playground*> a2/shortcuts-swift ➟ iOS
 
-	基于 Metal 框架实现的 Instagram 风格图片滤镜库。
+	用 Swift 在 Playgrounds 中写捷径。
+
+- <*feature switch*> rwbutler/FeatureFlags ➟ iOS
+
+	特性切换配置（本地或远程）框架库（测试方案支持 A/B 及 MVT）。
+
+- <*collection scrolling*> Cuberto/smooth-scroll ➟ iOS
+
+	顺滑滚动过程中标题和内容卡式切换。
 
