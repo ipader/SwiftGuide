@@ -1,5 +1,6 @@
 # Recently Included Swift Projects
 
+![](RecentlyIncludedSwiftProjects.png)
 
 - <*collection scrolling*> Cuberto/smooth-scroll ➟ iOS
 
