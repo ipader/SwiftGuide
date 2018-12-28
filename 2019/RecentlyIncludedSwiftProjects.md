@@ -1,6 +1,17 @@
 # Recently Included Swift Projects
 
-![](RecentlyIncludedSwiftProjects.png?raw=true)
+
+- <*collection scrolling*> Cuberto/smooth-scroll ➟ iOS
+
+	顺滑滚动过程中标题和内容卡式切换。
+
+- <*feature switch*> rwbutler/FeatureFlags ➟ iOS
+
+	特性切换配置（本地或远程）框架库（测试方案支持 A/B 及 MVT）。
+
+- <*write Shortcuts in Playground*> a2/shortcuts-swift ➟ iOS
+
+	用 Swift 在 Playgrounds 中写捷径。
 
 - <*UI styles using Swifty Method Chain*> shindyu/ApplyStyleKit ➟ iOS
 
@@ -61,4 +72,12 @@
 - <*Playground generator*> JohnSundell/Shapeshift ➟ CLI environment
 
 	一款 Playground 效率工具。快速地转换当前目录及子目录内所有 Swift 文件到（兼容 iPad 运行的） Playground 项目。
+
+- <*wrapper for Apple’s Reachability*> rwbutler/Connectivity ➟ iOS
+
+	基于 Reachability 的封装类库，检查 当前 Wi-Fi 互联网连接性及即时状态。
+
+- <*Instagram filters implemented in Metal*> alexiscn/MetalFilters ➟ iOS
+
+	基于 Metal 框架实现的 Instagram 风格图片滤镜库。
 
