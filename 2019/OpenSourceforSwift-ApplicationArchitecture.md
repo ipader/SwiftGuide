@@ -6,6 +6,7 @@
 
 [myMindNode浏览及导图原文档下载……](https://my.mindnode.com/epd4C5grMxtWnojnVGXy9LCay1n8zosXRpzawppy)
 
+
 ## 附：MindNode 格式导图导出的文本内容（[浏览 PDF 版本](OpenSourceforSwift-ApplicationArchitecture.pdf)）
 ---
 # Learning & Advanced

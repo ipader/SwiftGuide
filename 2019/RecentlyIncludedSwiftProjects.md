@@ -2,6 +2,44 @@
 
 ![](RecentlyIncludedSwiftProjects.png)
 
+## *Shared & Featured*
+
+- <*network debugging tool*> yagiz/Bagel ➟ iOS | macOS
+
+	iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连接证书之类的）。
+
+- <*third-party dependencies*> mxcl/swift-sh ➟ macOS | Linux
+
+	最简单、实用的依赖库导入脚本。这太方便了
+
+- <*floating panel*> IdeasOnCanvas/Aiolos ➟ iOS
+
+	MindNode  iOS 项目中使用的浮动面板。
+
+- <*liquid swipe animation > Cuberto/liquid-swipe ➟ iOS
+
+	液滑动画效果升级版。
+
+- <*pure swift PNG decoder and encoder* > kelvin13/png ➟ macOS | Linux
+
+	纯 Swift 代码解析 PNG 格式，返回图像原始像素数据和尺寸。
+
+- <*Mac style Menu*> TwoLivesLeft/Menu ➟ iOS
+
+	著名 iPad 编程应用 Codea（Lua 语言） 开源传统菜单如何存在于小屏幕设计思路及解决方案。
+
+- <*@dynamicMemberLookup feature*> saoudrizwan/DynamicJSON ➟ iOS | macOS | watchOS
+
+	采用 Swift 4.2 新特性 （@dynamicMemberLookup） 实现轻便访问 JSON 数据。
+
+- <*iOS SDK for AWS AppSync*> awslabs/aws-mobile-appsync-sdk-ios ➟ iOS
+
+	来自 Amazon Web Services 实验室的 AWS AppSync iOS SDK。
+
+- <*HTTP/2 support for SwiftNIO*> apple/swift-nio-http2 ➟ iOS | macOS | watchOS | Linux
+
+	苹果发布 SwiftNIO 针对 HTTP/2 的开源支持库。
+
 - <*Instagram filters implemented in Metal*> alexiscn/MetalFilters ➟ iOS
 
 	基于 Metal 框架实现的 Instagram 风格图片滤镜库。
@@ -37,6 +75,24 @@
 - <*Swift on ARM devices*> uraimo/buildSwiftOnARM ➟ Shell
 
 	持续提供使 Swift 运行于 ARM 上的编译版本（已经更新到 Swift 4.1.3 ），它几乎支持所有的（运行于 Ubuntu 16.04 和 Raspbain）树莓派版本。
+
+## *Shared Only*
+
+- *<Mechanical Keyboard Simulator>* x0054/MKS ➟ macOS*
+
+	机械键盘按键声效模拟器，MBP 使用时很舒爽的感觉。机械键盘控们可以试试。
+
+- *<Redux + MVVM>* grzeszczak/ReMVVM ➟ *iOS*
+
+	ReMVVM is an application architecture concept, marriage of Unidirectional Data Flow (Redux) with MVVM.
+
+- *<tracking autolayout feedback loops> rsrbk/LayoutLoopHunter* ➟ *iOS*
+
+	追踪潜在的自动布局反馈循环引起的 OOM（Out of Memory）应用崩溃。
+
+- <*iOS Project Template*> pgorzelany/iOS-project-template ➟ iOS
+
+	快速少弯路的 iOS 项目开发最佳实践模板。
 
 - <*dependency injection framework*> uber/needle ➟ iOS | macOS | watchOS
 

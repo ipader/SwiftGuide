@@ -14,6 +14,10 @@
 
 		GitHub 上最为开发者认可的 JSON 解析库。
 
+	- saoudrizwan/DynamicJSON
+
+		采用 Swift 4.2 新特性 （@dynamicMemberLookup） 实现轻便访问 JSON 数据。
+
 	- ***tristanhimmelman/ObjectMapper***
 
 		简介：对象与JSON互转实用类库。
@@ -356,6 +360,10 @@
 
 		精细化效仿官方音乐，播客，邮件等应用弹出模态窗口效果控制库。
 
+	- IdeasOnCanvas/Aiolos
+
+		MindNode  iOS 项目中使用的浮动面板。
+
 - *Notification View*
 
 	- Daltron/NotificationBanner
@@ -391,6 +399,10 @@
 	- *AlexandrGraschenkov/LiquidTransition*
 
 		对这款动画转场库中酷酷的碎图转场效果示例比较感兴趣。
+
+	- Cuberto/liquid-swipe
+
+		液滑动画效果升级版。
 
 - *form*
 
@@ -434,6 +446,10 @@
 
 	- *Yalantis/GuillotineMenu*
 
+	- TwoLivesLeft/Menu
+
+		著名 iPad 编程应用 Codea（Lua 语言） 开源传统菜单如何存在于小屏幕设计思路及解决方案。
+
 - *keyboard*
 
 	- *freshOS/KeyboardLayoutGuide*
@@ -449,6 +465,10 @@
 - apple/swift-nio
 
 	事件驱动网络应用框架。
+
+- apple/swift-nio-http2
+
+	苹果发布 SwiftNIO 针对 HTTP/2 的开源支持库。
 
 - ***vapor/vapor***
 
@@ -715,6 +735,12 @@
 	
 	APP STORE CONNECT 使用入门（官方中、英、日文版）https://help.apple.com/app-store-connect/
 
+### Web Services
+
+- awslabs/aws-mobile-appsync-sdk-ios
+
+	来自 Amazon Web Services 实验室的 AWS AppSync iOS SDK。
+
 ## Developer Tools
 
 ### Package Manager
@@ -727,6 +753,10 @@
 
 	在 Swift 项目中支持 Git hooks。
 	配置实例：[https://github.com/orta/Komondor/blob/master/Documentation/with_swiftpm.md](https://github.com/orta/Komondor/blob/master/Documentation/with_swiftpm.md)
+
+- mxcl/swift-sh
+
+	最简单、实用的依赖库导入脚本。这太方便了
 
 ### XcodeKit
 
@@ -823,6 +853,10 @@
 - *johnno1962/InjectionIII*
 
 	在 Xcode 开发调试应用过程中使用注入（即通过不重新编译及重启应用干预应用运行状态，以提高调试效率）。
+
+- yagiz/Bagel
+
+	iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连接证书之类的）。
 
 ### *design & prototype*
 
@@ -1211,6 +1245,10 @@
 - *wangjwchn/AImage*
 
 	GIF/APNG 播放引擎。
+
+- kelvin13/png
+
+	纯 Swift 代码解析 PNG 格式，返回图像原始像素数据和尺寸。
 
 ### ARKit
 

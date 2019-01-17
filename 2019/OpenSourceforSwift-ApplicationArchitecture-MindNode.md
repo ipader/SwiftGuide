@@ -34,38 +34,6 @@ AR 与 GPS 精确数据的结合，开始一次导航之旅。非常重要的实
 # Developer Tools
 
 
-## XCTest
-
-### <*testing framework*> Quick/Quick & Quick/Nimble ➟ iOS | macOS
-
-单元测试框架库
-
-### <*snapshot testing*> pointfreeco/swift-snapshot-testing ➟ iOS | macOS
-
-通过快照记录方式进行自动化测试。非常直观方便的一种方式。
-
-## <*code generator*> mac-cain13/R.swift ➟ macOS
-
-常用资源（images，fonts, ,colors 等）通过更易用的强类型方式在 Xcode 编辑器输入并自动转换。
-
-## <*code formatter*> inamiy/SwiftRewriter ➟ CLI environment
-
-基于 SwiftSyntax 针对代码进行自动格式化（其中包括基于代码规范进行简单的代码优化）。
-
-## <*Code Diagnostics*> realm/SwiftLint ➟ macOS 
-
-Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查及转换工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
-
-## <*design & prototype*> IBAnimatable/IBAnimatable ➟ iOS | macOS
-
-IBAnimatable 是一个帮助我们在 Interface Builder 和 Swift Playground 里面设计 UI, 交互, 导航模式, 换场和动画的开源库。 [https://github.com/IBAnimatable/IBAnimatable/blob/master/Documentation/README.zh.md](https://github.com/IBAnimatable/IBAnimatable/blob/master/Documentation/README.zh.md)
-
-## <*App Store Connect API*> AvdLee/appstoreconnect-swift-sdk ➟ macOS
-
-“借助 App Store Connect API 实现工作流程自动化”，这个库是对整套工作流程 Swift 版的易用化封装。
-REST API：https://[developer.apple.com/documentation/appstoreconnectapi](http://developer.apple.com/documentation/appstoreconnectapi)
-APP STORE CONNECT 使用入门（官方中、英、日文版）[https://help.apple.com/app-store-connect/](https://help.apple.com/app-store-connect/)
-
 ## Package Manager
 
 ### <*Package Manager*> apple/swift-package-manager ➟ macOS
@@ -79,6 +47,46 @@ APP STORE CONNECT 使用入门（官方中、英、日文版）[https://help.app
 ###  <*Git Hooks*> orta/Komondor ➟ macOS
 
 在 Swift 项目中支持 Git hooks。 配置实例：https://github.com/orta/Komondor/blob/master/Documentation/with_swiftpm.md
+
+### <*third-party dependencies*> mxcl/swift-sh ➟ macOS | Linux
+
+最简单、实用的依赖库导入脚本。这太方便了
+
+## <*App Store Connect API*> AvdLee/appstoreconnect-swift-sdk ➟ macOS
+
+“借助 App Store Connect API 实现工作流程自动化”，这个库是对整套工作流程 Swift 版的易用化封装。
+REST API：https://[developer.apple.com/documentation/appstoreconnectapi](http://developer.apple.com/documentation/appstoreconnectapi)
+APP STORE CONNECT 使用入门（官方中、英、日文版）[https://help.apple.com/app-store-connect/](https://help.apple.com/app-store-connect/)
+
+## <*design & prototype*> IBAnimatable/IBAnimatable ➟ iOS | macOS
+
+IBAnimatable 是一个帮助我们在 Interface Builder 和 Swift Playground 里面设计 UI, 交互, 导航模式, 换场和动画的开源库。 [https://github.com/IBAnimatable/IBAnimatable/blob/master/Documentation/README.zh.md](https://github.com/IBAnimatable/IBAnimatable/blob/master/Documentation/README.zh.md)
+
+## <*Code Diagnostics*> realm/SwiftLint ➟ macOS 
+
+Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查及转换工具。除了命令行运行方式，也提供集成 Xcode 的方法。对于新团队，这样的工具可以自动约束大家遵循编程规范。
+
+## <*code formatter*> inamiy/SwiftRewriter ➟ CLI environment
+
+基于 SwiftSyntax 针对代码进行自动格式化（其中包括基于代码规范进行简单的代码优化）。
+
+## <*code generator*> mac-cain13/R.swift ➟ macOS
+
+常用资源（images，fonts, ,colors 等）通过更易用的强类型方式在 Xcode 编辑器输入并自动转换。
+
+## XCTest
+
+### <*testing framework*> Quick/Quick & Quick/Nimble ➟ iOS | macOS
+
+单元测试框架库
+
+### <*snapshot testing*> pointfreeco/swift-snapshot-testing ➟ iOS | macOS
+
+通过快照记录方式进行自动化测试。非常直观方便的一种方式。
+
+## <*network debugging tool*> yagiz/Bagel ➟ iOS | macOS
+
+iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连接证书之类的）。
 
 
 # Programming Framework ➟ iOS | macOS | watchOS | Linux
@@ -101,8 +109,91 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 ## ……
 
 
+# Server ➟ macOS | Linux
+
+
+## <*web framework*> vapor/vapor
+
+最活跃的 Web 服务器框架。  
+推荐理由：纯 Swift 开发，引导开发者采用简洁、干净的 Swift 语法。  
+主要缺点：牺牲部分性能换取未使用 C 语言基础库为代价  
+
+Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https://www.jianshu.com/p/a9ca47e844d7)
+
+## <*web framework*> PerfectlySoft/Perfect
+
+功能更强大，性能更好的 Web 服务器框架。有完整的中文开发文档支持。  
+[https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md](https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md)
+
+## <*web framework and HTTP server*> IBM-Swift/Kitura
+
+与 IBM Bluemix 最佳云集成，功能强大的 Web 服务器框架。CGI 支持。
+
+## <*Swift on ARM + Docker*> helje5/dockSwiftOnARM ➟ Shell
+
+将 Swift 编译运行于 ARM 平台 Docker 上。
+
+## ……
+
+
 # Application ➟ iOS | macOS | watchOS
 
+
+## Foundation
+
+### <*@dynamicMemberLookup feature*> saoudrizwan/DynamicJSON ➟ iOS | macOS | watchOS
+
+采用 Swift 4.2 新特性 （@dynamicMemberLookup） 实现轻便访问 JSON 数据。
+
+### <*UserDefaults wrapper*> radex/SwiftyUserDefaults ➟ iOS | macOS
+
+轻量级数据存储类 NSUserDefaults 扩展类，它使类型数据访问和存储更为便捷、直观。
+
+## System
+
+### Security
+
+- <*data store in Keychain*> square/Valet ➟ iOS | macOS | watchOS
+
+	在钥匙串中安全、方便的去存储你的数据。
+
+- <*Keychain Services wrapper*> kishikawakatsumi/KeychainAccess ➟ iOS | macOS | watchOS
+
+	钥匙串存储管理封装
+
+- <*AES wrapper*> RNCryptor/RNCryptor ➟ iOS | macOS
+
+	针对数据的 AES 加密封装。提供多语言封装解决方案。
+
+### Networking
+
+- <*HTTP networking*> Alamofire/Alamofire ➟ iOS | watchOS | macOS
+
+	著名的 AFNetworking 络基础库 Swift 语言版。
+
+- <*network abstraction layer*> Moya/Moya ➟ iOS | watchOS | macOS
+
+	为你提供一套干净的网络抽象层，以以区隔底层网络库。
+
+- <*Apple Reachability replacement*> ashleymills/Reachability.swift ➟ iOS | macOS
+
+	检测网络连通性实用工具库。
+
+- <*wrapper for Apple’s Reachability*> rwbutler/Connectivity ➟ iOS
+
+	基于 Reachability 的封装类库，检查 当前 Wi-Fi 互联网连接性及即时状态。
+
+- <*WebSocket client*> daltoniam/Starscream ➟ iOS | macOS
+
+	WebSocket 标准（RFC 6455）客户端库 Swift 实现。
+
+###  <*RxSwift + Bluetooth*> Polidea/RxBluetoothKit ➟ iOS | macOS
+
+基于 RxSwift 框架的蓝牙库。
+
+### <*LocalAuthentication*> rushisangani/BiometricAuthentication ➟ iOS | macOS 
+
+针对 Face ID 和 Touch ID 更简洁地封装使用。
 
 ## App Services
 
@@ -111,10 +202,6 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 - <*cache*> hyperoslo/Cache ➟ iOS | macOS | watchOS
 
 	多类型数据混合缓存库。
-
-- <*UserDefaults wrapper*> radex/SwiftyUserDefaults ➟ iOS | macOS
-
-	轻量级数据存储类 NSUserDefaults 扩展类，它使类型数据访问和存储更为便捷、直观。
 
 ### Social API
 
@@ -192,51 +279,11 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	用 CoreML 扫描、过滤不雅图片。
 
-## System
+### Web Services
 
-### Security
+- <*iOS SDK for AWS AppSync*> awslabs/aws-mobile-appsync-sdk-ios ➟ iOS
 
-- <*data store in Keychain*> square/Valet ➟ iOS | macOS | watchOS
-
-	在钥匙串中安全、方便的去存储你的数据。
-
-- <*Keychain Services wrapper*> kishikawakatsumi/KeychainAccess ➟ iOS | macOS | watchOS
-
-	钥匙串存储管理封装
-
-- <*AES wrapper*> RNCryptor/RNCryptor ➟ iOS | macOS
-
-	针对数据的 AES 加密封装。提供多语言封装解决方案。
-
-### Networking
-
-- <*HTTP networking*> Alamofire/Alamofire ➟ iOS | watchOS | macOS
-
-	著名的 AFNetworking 络基础库 Swift 语言版。
-
-- <*network abstraction layer*> Moya/Moya ➟ iOS | watchOS | macOS
-
-	为你提供一套干净的网络抽象层，以以区隔底层网络库。
-
-- <*Apple Reachability replacement*> ashleymills/Reachability.swift ➟ iOS | macOS
-
-	检测网络连通性实用工具库。
-
-- <*wrapper for Apple’s Reachability*> rwbutler/Connectivity ➟ iOS
-
-	基于 Reachability 的封装类库，检查 当前 Wi-Fi 互联网连接性及即时状态。
-
-- <*WebSocket client*> daltoniam/Starscream ➟ iOS | macOS
-
-	WebSocket 标准（RFC 6455）客户端库 Swift 实现。
-
-###  <*RxSwift + Bluetooth*> Polidea/RxBluetoothKit ➟ iOS | macOS
-
-基于 RxSwift 框架的蓝牙库。
-
-### <*LocalAuthentication*> rushisangani/BiometricAuthentication ➟ iOS | macOS 
-
-针对 Face ID 和 Touch ID 更简洁地封装使用。
+	来自 Amazon Web Services 实验室的 AWS AppSync iOS SDK。
 
 ## Graphics and Games
 
@@ -340,6 +387,14 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	可滚动的（显示或隐藏 UINavigationBar
 
+- <*Mac style Menu*> TwoLivesLeft/Menu ➟ iOS
+
+	著名 iPad 编程应用 Codea（Lua 语言） 开源传统菜单如何存在于小屏幕设计思路及解决方案。
+
+- <*floating panel*  > IdeasOnCanvas/Aiolos ➟ iOS
+
+	MindNode  iOS 项目中使用的浮动面板。
+
 ### View Layout
 
 - <*Autolayout*>  SnapKit/SnapKit ➟ iOS | macOS
@@ -373,36 +428,13 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	简单的代码实现复杂 UI 布局及动画切换。
 
+- <*liquid swipe animation* > Cuberto/liquid-swipe ➟ iOS
+
+	液滑动画效果升级版。
+
 ### <*UIKit extensions*> haoking/SwiftyUI ➟ iOS
 
 轻量、高性能的 UI 渲染及扩展类库。
-
-
-# Server ➟ macOS | Linux
-
-
-## <*web framework*> vapor/vapor
-
-最活跃的 Web 服务器框架。  
-推荐理由：纯 Swift 开发，引导开发者采用简洁、干净的 Swift 语法。  
-主要缺点：牺牲部分性能换取未使用 C 语言基础库为代价  
-
-Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https://www.jianshu.com/p/a9ca47e844d7)
-
-## <*web framework*> PerfectlySoft/Perfect
-
-功能更强大，性能更好的 Web 服务器框架。有完整的中文开发文档支持。  
-[https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md](https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md)
-
-## <*web framework and HTTP server*> IBM-Swift/Kitura
-
-与 IBM Bluemix 最佳云集成，功能强大的 Web 服务器框架。CGI 支持。
-
-## <*Swift on ARM + Docker*> helje5/dockSwiftOnARM ➟ Shell
-
-将 Swift 编译运行于 ARM 平台 Docker 上。
-
-## ……
 
 
 # IoT ➟ Ubuntu | Raspain
@@ -445,6 +477,10 @@ GitHub 上最为开发者认可的 JSON 解析库。
 
 极易用的文件路径操作类库
 
+### <*pure swift PNG decoder and encoder* > kelvin13/png ➟ macOS | Linux
+
+纯 Swift 代码解析 PNG 格式，返回图像原始像素数据和尺寸。
+
 ## Security
 
 ### <*cryptographic algorithms*> krzyzanowskim/CryptoSwift
@@ -462,6 +498,10 @@ Crypto 算法及相关功能类库集合
 ### <*event-driven network framework*> apple/swift-nio
 
 事件驱动网络应用框架。
+
+### <*HTTP/2 support for SwiftNIO*> apple/swift-nio-http2
+
+苹果发布 SwiftNIO 针对 HTTP/2 的开源支持库。
 
 ### <*SwiftNIO-based server-side*> amzn/smoke-framework
 
@@ -492,10 +532,10 @@ Realm 平台目标实现可交互的移动数据库
 ## ……
 
 
-# iCloud & Remote (iCloud, On-drive, Dropbox, Webdav, ftp/ftps, Samba...)
-
-
 # IBM Watson Services (AI)
+
+
+# iCloud & Remote (iCloud, On-drive, Dropbox, Webdav, ftp/ftps, Samba...)
 
 
 # TensorFlow (pre-trained model)
