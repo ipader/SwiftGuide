@@ -219,6 +219,10 @@
 
 		这款可以说是相当出色的滑动呼出面板框架了。
 
+	- hubrioAU/XRouter
+
+		一款使用简单，结构清晰同时支持 URL 的应用路由库。
+
 - UILabel
 
 	- *optonaut/ActiveLabel.swift*
@@ -562,6 +566,10 @@
 
 	macOS 文件系统更新事件监视封装库。
 
+- mxcl/Path.swift
+
+	功能完整的文件系统针对目录级路径的 CRUD（增删改查）。
+
 ### NotificationCenter
 
 ### Core Location
@@ -720,6 +728,14 @@
 
 - *spreadsheet: kishikawakatsumi/SpreadsheetView*
 
+- GeekTree0101/VEditorKit
+
+	功能强大、完成度非常高的 iOS 编辑器组件。
+
+- moliveira/MarkdownKit
+
+	一款简单地可定制化 Markdown 解析预览类库。
+
 ### …
 
 ## Web
@@ -857,6 +873,10 @@
 - yagiz/Bagel
 
 	iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连接证书之类的）。
+
+- isavynskyi/LayoutInspector
+
+	3D 视角 iOS 应用布局视图检查器。
 
 ### *design & prototype*
 

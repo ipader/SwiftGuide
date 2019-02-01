@@ -4,6 +4,26 @@
 
 ## *Shared & Featured*
 
+- <*Tool to debug layouts*> isavynskyi/LayoutInspector ➟ iOS
+
+	3D 视角 iOS 应用布局视图检查器。
+
+- <*A simple routing library*> hubrioAU/XRouter ➟ iOS
+
+	一款使用简单，结构清晰同时支持 URL 的应用路由库。
+
+- <*Editor Kit*> GeekTree0101/VEditorKit ➟ iOS
+
+	功能强大、完成度非常高的 iOS 编辑器组件。
+
+- <*cross-platform and chainable file-pathing*> mxcl/Path.swift ➟ iOS | macOS | watchOS | Linux
+
+	功能完整的文件系统针对目录级路径的 CRUD（增删改查）。
+
+- <*customizable Markdown Parser*> moliveira/MarkdownKit ➟ iOS | macOS
+
+	一款简单地可定制化 Markdown 解析预览类库。
+
 - <*network debugging tool*> yagiz/Bagel ➟ iOS | macOS
 
 	iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连接证书之类的）。
@@ -16,7 +36,7 @@
 
 	MindNode  iOS 项目中使用的浮动面板。
 
-- <*liquid swipe animation > Cuberto/liquid-swipe ➟ iOS
+- <*liquid swipe animation* > Cuberto/liquid-swipe ➟ iOS
 
 	液滑动画效果升级版。
 
@@ -78,15 +98,39 @@
 
 ## *Shared Only*
 
-- *<Mechanical Keyboard Simulator>* x0054/MKS ➟ macOS*
+- *<A collection of iOS architectures>* tailec/ios-architecture ➟ iOS
+
+	iOS 程序开发框架项目实践。
+
+- <*DSL for UIKit*> mecid/UIKitSwiftDSL ➟ iOS 
+
+	Swift DSL for UIKit
+
+- <*Automated mutation testing*> SeanROlszewski/muter ➟ iOS | macOS | watchOS | Linux
+
+	变异测试（mutation testing）库的探索与实践。
+
+- <*modal/alert*> loryhuz/CleanyModal ➟ iOS 
+
+	一套清洁带交互的模式/弹窗组件。
+
+- <*Messenger*> instamobile/messenger-iOS-chat-swift-firestore ➟ iOS 
+
+	基于组件 MessageKit 及实时通讯云 Firestore 的即时通讯实现（功能参考 Facebook Messenger）。
+
+- *<image assets and styling UIButton>* gabrieloc/roundrect ➟ iOS
+
+	代码方式渲染 UIButton 显示风格及样式。
+
+- *<Mechanical Keyboard Simulator>* x0054/MKS ➟ macOS
 
 	机械键盘按键声效模拟器，MBP 使用时很舒爽的感觉。机械键盘控们可以试试。
 
-- *<Redux + MVVM>* grzeszczak/ReMVVM ➟ *iOS*
+- *<Redux + MVVM>* grzeszczak/ReMVVM ➟ iOS
 
 	ReMVVM is an application architecture concept, marriage of Unidirectional Data Flow (Redux) with MVVM.
 
-- *<tracking autolayout feedback loops> rsrbk/LayoutLoopHunter* ➟ *iOS*
+- *<tracking autolayout feedback loops> rsrbk/LayoutLoopHunter* ➟ iOS
 
 	追踪潜在的自动布局反馈循环引起的 OOM（Out of Memory）应用崩溃。
 

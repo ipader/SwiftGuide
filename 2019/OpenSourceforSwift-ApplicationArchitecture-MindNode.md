@@ -88,6 +88,10 @@ Realm 采用 Swift 编写的基于 GitHub's Swift Style Guide 规则的检查及
 
 iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连接证书之类的）。
 
+## <*layouts debugging tool*> isavynskyi/LayoutInspector ➟ iOS
+
+3D 视角 iOS 应用布局视图检查器。
+
 
 # Programming Framework ➟ iOS | macOS | watchOS | Linux
 
@@ -105,33 +109,6 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 ## <*state management*> ReSwift/ReSwift
 
 该框架主要针对单页面应用状态及单向数据流管理。
-
-## ……
-
-
-# Server ➟ macOS | Linux
-
-
-## <*web framework*> vapor/vapor
-
-最活跃的 Web 服务器框架。  
-推荐理由：纯 Swift 开发，引导开发者采用简洁、干净的 Swift 语法。  
-主要缺点：牺牲部分性能换取未使用 C 语言基础库为代价  
-
-Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https://www.jianshu.com/p/a9ca47e844d7)
-
-## <*web framework*> PerfectlySoft/Perfect
-
-功能更强大，性能更好的 Web 服务器框架。有完整的中文开发文档支持。  
-[https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md](https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md)
-
-## <*web framework and HTTP server*> IBM-Swift/Kitura
-
-与 IBM Bluemix 最佳云集成，功能强大的 Web 服务器框架。CGI 支持。
-
-## <*Swift on ARM + Docker*> helje5/dockSwiftOnARM ➟ Shell
-
-将 Swift 编译运行于 ARM 平台 Docker 上。
 
 ## ……
 
@@ -215,6 +192,10 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 
 	轻量，但功能一点也不轻量的 App Store 上架的开源文本编辑器（几乎支持所有主流格式语法高亮显示，且可以扩展及自定义）
 
+- <*Editor Kit*> GeekTree0101/VEditorKit ➟ iOS
+
+	功能强大、完成度非常高的 iOS 编辑器组件。
+
 ### WebKit
 
 - <*WKWebView*> LinusU/Marionette ➟ iOS | macOS
@@ -234,6 +215,10 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 -  <*WKWebView*> tophat/RichTextView ➟ iOS
 
 	兼具主流格式解析（LaTeX, HTML, Markdown）及简单视频嵌入（YouTube/Vimeo）功能富文本浏览视图。
+
+- <*customizable Markdown Parser*> moliveira/MarkdownKit ➟ iOS | macOS
+
+	一款简单地可定制化 Markdown 解析预览类库。
 
 ### ePub
 
@@ -395,6 +380,10 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 
 	MindNode  iOS 项目中使用的浮动面板。
 
+- <*A simple routing library*> hubrioAU/XRouter ➟ iOS
+
+	一款使用简单，结构清晰同时支持 URL 的应用路由库。
+
 ### View Layout
 
 - <*Autolayout*>  SnapKit/SnapKit ➟ iOS | macOS
@@ -435,6 +424,33 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 ### <*UIKit extensions*> haoking/SwiftyUI ➟ iOS
 
 轻量、高性能的 UI 渲染及扩展类库。
+
+
+# Server ➟ macOS | Linux
+
+
+## <*web framework*> vapor/vapor
+
+最活跃的 Web 服务器框架。  
+推荐理由：纯 Swift 开发，引导开发者采用简洁、干净的 Swift 语法。  
+主要缺点：牺牲部分性能换取未使用 C 语言基础库为代价  
+
+Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https://www.jianshu.com/p/a9ca47e844d7)
+
+## <*web framework*> PerfectlySoft/Perfect
+
+功能更强大，性能更好的 Web 服务器框架。有完整的中文开发文档支持。  
+[https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md](https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md)
+
+## <*web framework and HTTP server*> IBM-Swift/Kitura
+
+与 IBM Bluemix 最佳云集成，功能强大的 Web 服务器框架。CGI 支持。
+
+## <*Swift on ARM + Docker*> helje5/dockSwiftOnARM ➟ Shell
+
+将 Swift 编译运行于 ARM 平台 Docker 上。
+
+## ……
 
 
 # IoT ➟ Ubuntu | Raspain
@@ -480,6 +496,10 @@ GitHub 上最为开发者认可的 JSON 解析库。
 ### <*pure swift PNG decoder and encoder* > kelvin13/png ➟ macOS | Linux
 
 纯 Swift 代码解析 PNG 格式，返回图像原始像素数据和尺寸。
+
+### <*chainable file-pathing*> mxcl/Path.swift ➟ iOS | macOS | watchOS | Linux
+
+功能完整的文件系统针对目录级路径的 CRUD（增删改查）。
 
 ## Security
 
