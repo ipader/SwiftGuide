@@ -35,6 +35,10 @@
 
 		解析、格式化及验证国际电话号码工具库（相当于 Google 的 libphonenumber 库的 Swift 版本）。
 
+	- jverkoey/BinaryCodable
+
+		Codable 风格实现 Binary 数据的 Decode/Encode。
+
 - *date & time*
 
 	- ***malcommac/SwiftDate***
@@ -105,6 +109,10 @@
 
 		一套函数式编程库。
 
+	- *Flight-School/RegularExpressionDecoder*
+
+		针对结构化数据的正则表达式解析库。
+
 - *reactive programming*
 
 	- ***ReactiveX/RxSwift***
@@ -115,6 +123,12 @@
 	- *ReactiveCocoa/ReactiveCocoa*
 
 		Cocoa 风格 Swift 函数反应式编程 API
+
+- JavasScript engine
+
+	- googleprojectzero/fuzzilli
+
+		Javascript 解释器引擎，技术融合的一大进步。
 
 - *extensions & syntactic sugar*
 
@@ -229,7 +243,7 @@
 
 		扩展实现 UILabel 触控事件针对 “#, @, 链接” 响应。
 
-- UITableView
+- UITableView/UICollectionView
 
 	- *SwipeCellKit/SwipeCellKit*
 
@@ -238,8 +252,6 @@
 	- ***Ramotion/folding-cell***
 
 		自然流畅、清新的单元格可折叠视图及演示库。
-
-- UICollectionView
 
 	- *Instagram/IGListKit*
 
@@ -273,6 +285,10 @@
 	- *yahoojapan/UICollectionViewSplitLayout*
 
 		使集合视图内项目显示及布局管理更灵活、合理。
+
+	- ra1028/Carbon
+
+		在 UITableView 和 UICollectionView 中构建基于组件声明式界面库。提供 API 文档及丰富示例。
 
 - UIRefreshControl
 
@@ -315,6 +331,10 @@
 	- *GitHawkApp/Squawk*
 
 		适用于全面屏设备的 iOS 交互式高可定制底部警示弹出框。
+
+	- slackhq/PanModal
+
+		这款可定制性底部上滑式模态窗口组件开发和用户体验都不错啊。
 
 - Popovers
 
@@ -424,7 +444,11 @@
 
 	- *SwiftValidatorCommunity/SwiftValidator*
 
-	- *cgoldsby / LoginCritter*
+	- *cgoldsby/LoginCritter*
+
+	- Cuberto/rubber-range-picker
+
+		很带人情味的数字区间选择。
 
 - *graph*
 
@@ -435,6 +459,10 @@
 	- *philackm/ScrollableGraphView*
 
 	- *i-schuetz/SwiftCharts*
+
+	- *mac-gallagher/MultiProgressView*
+
+		多区间进程条展示效果组件及示例。
 
 - *menu*
 
@@ -531,6 +559,10 @@
 - *muukii/Pixel*
 
 	一款（迭代开发中）基于 CoreImage 开源图片编辑器。
+
+- koooootake/Portrait-without-Depth-ios
+
+	实现单摄人像模式。
 
 ### *Core Data*
 
@@ -663,6 +695,10 @@
 - *lovoo/NSFWDetector*
 
 	用 CoreML 扫描、过滤不雅图片。
+
+- tensorflow/swift-apis
+
+	应用于 Swift 的 TensorFlow 深度学习库。
 
 ### Social
 
@@ -842,6 +878,10 @@
 
 - *onevcat/Rainbow*
 
+- apple/swift-log
+
+	这个 Apple 官方也出，与民争利了。
+
 - *DaveWoodCom/XCGLogger*
 
 - *kasketis/netfox*
@@ -878,11 +918,19 @@
 
 	3D 视角 iOS 应用布局视图检查器。
 
-### *design & prototype*
+### design & prototype
 
 - ***IBAnimatable/IBAnimatable***
 
 	IBAnimatable 是一个帮助我们在 Interface Builder 和 Swift Playground 里面设计 UI, 交互, 导航模式, 换场和动画的开源库。 [https://github.com/IBAnimatable/IBAnimatable/blob/master/Documentation/README.zh.md](https://github.com/IBAnimatable/IBAnimatable/blob/master/Documentation/README.zh.md)
+
+### modularization
+
+基于组件 MessageKit 及实时通讯云 Firestore 的即时通讯实现（功能参考 Facebook Messenger）。
+
+- mxcl/Cake 
+
+	基于组件 MessageKit 及实时通讯云 Firestore 的即时通讯实现（功能参考 Facebook Messenger）。
 
 ### *References*
 
@@ -933,6 +981,10 @@
 - *dgurkaynak/Penc*
 
 	果然是窗口管理神器，历害了。
+
+- ianyh/Amethyst
+
+	自动排列及快捷操作切换、管理窗口。
 
 ### *player*
 
@@ -1226,19 +1278,19 @@
 
 	特赞的文字飘入飘出效果。
 
+- vector animations: airbnb/lottie-ios
+
+	Airbnb 矢量级动画渲染库全面迁移至 Swift 版本。其势不可挡。
+
+- sagaya/Wobbly 
+
+	对界面组件元素实现各种摇晃抖闪的动画效果。
+
 ### Core Graphics
 
 - Image Processing: gavinbunney/Toucan
 
 	小而美的图片变换及处理类。
-
-- *malcommac/ImageSizeFetcher*
-
-	通过 URL 获取图像类型或尺寸。
-
-- kaishin/ImageScout
-
-	最小网络代价获得图片大小及类型。
 
 - *color: jathu/UIImageColors*
 
@@ -1269,6 +1321,14 @@
 - kelvin13/png
 
 	纯 Swift 代码解析 PNG 格式，返回图像原始像素数据和尺寸。
+
+- *malcommac/ImageSizeFetcher*
+
+	通过 URL 获取图像类型或尺寸。
+
+- kaishin/ImageScout
+
+	最小网络代价获得图片大小及类型。
 
 ### ARKit
 
@@ -1333,6 +1393,10 @@
 - *alexiscn/MetalFilters*
 
 	基于 Metal 框架实现的 Instagram 风格图片滤镜库。
+
+- endavid/VidEngine
+
+	用 Metal (GPU) 技术封装实现的 3D渲染引擎。
 
 ### SpriteKit
 

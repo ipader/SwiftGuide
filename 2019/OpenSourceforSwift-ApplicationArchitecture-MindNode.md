@@ -92,6 +92,10 @@ iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连
 
 3D 视角 iOS 应用布局视图检查器。
 
+## <*modularization*> mxcl/Cake ➟ macOS 
+
+基于组件 MessageKit 及实时通讯云 Firestore 的即时通讯实现（功能参考 Facebook Messenger）。
+
 
 # Programming Framework ➟ iOS | macOS | watchOS | Linux
 
@@ -109,6 +113,33 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 ## <*state management*> ReSwift/ReSwift
 
 该框架主要针对单页面应用状态及单向数据流管理。
+
+## ……
+
+
+# Server ➟ macOS | Linux
+
+
+## <*web framework*> vapor/vapor
+
+最活跃的 Web 服务器框架。  
+推荐理由：纯 Swift 开发，引导开发者采用简洁、干净的 Swift 语法。  
+主要缺点：牺牲部分性能换取未使用 C 语言基础库为代价  
+
+Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https://www.jianshu.com/p/a9ca47e844d7)
+
+## <*web framework*> PerfectlySoft/Perfect
+
+功能更强大，性能更好的 Web 服务器框架。有完整的中文开发文档支持。  
+[https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md](https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md)
+
+## <*web framework and HTTP server*> IBM-Swift/Kitura
+
+与 IBM Bluemix 最佳云集成，功能强大的 Web 服务器框架。CGI 支持。
+
+## <*Swift on ARM + Docker*> helje5/dockSwiftOnARM ➟ Shell
+
+将 Swift 编译运行于 ARM 平台 Docker 上。
 
 ## ……
 
@@ -296,13 +327,15 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	小而美的图片变换及处理类。
 
-- <*size of PNG, GIF, JPEG, BMP*> malcommac/ImageSizeFetcher ➟ iOS | macOS | watchOS
-
-	通过 URL 获取图像类型或尺寸。
-
 - <*dominant & prominent colors*>  jathu/UIImageColors ➟ iOS
 
 	图片色系决定界面背景色及字体显示颜色。获取主色、次色、背景色、详细色
+
+### Core Image
+
+- <*OpenCV and portrait mode*> koooootake/Portrait-without-Depth-ios ➟ iOS 
+
+	实现单摄人像模式。
 
 ### Image I/O
 
@@ -322,11 +355,19 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	支持多种接口绘制 SVG 类库。
 
+- <*size of PNG, GIF, JPEG, BMP*> malcommac/ImageSizeFetcher ➟ iOS | macOS | watchOS
+
+	通过 URL 获取图像类型或尺寸。
+
 ### Metal
 
 - <*Instagram filters implemented in Metal*> alexiscn/MetalFilters ➟ iOS
 
 	基于 Metal 框架实现的 Instagram 风格图片滤镜库。
+
+- *<3D graphics>* endavid/VidEngine ➟ iOS
+
+	用 Metal (GPU) 技术封装实现的 3D渲染引擎。
 
 ## UIKit & AppKit
 
@@ -351,6 +392,10 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 - <*modal segue*> SwiftKickMobile/SwiftMessages ➟ iOS
 
 	高可定制信息弹窗组件
+
+- <*modal*> slackhq/PanModal ➟ iOS 
+
+	这款可定制性底部上滑式模态窗口组件开发和用户体验都不错啊。
 
 - <*Calendar*> patchthecode/JTAppleCalendar ➟ iOS
 
@@ -384,6 +429,14 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	一款使用简单，结构清晰同时支持 URL 的应用路由库。
 
+- *<range picker> Cuberto/rubber-range-picker* ➟ iOS
+
+	很带人情味的数字区间选择。
+
+- <*progress view*> mac-gallagher/MultiProgressView ➟ iOS
+
+	多区间进程条展示效果组件及示例。
+
 ### View Layout
 
 - <*Autolayout*>  SnapKit/SnapKit ➟ iOS | macOS
@@ -394,6 +447,16 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 - <*grids and lists layout*> airbnb/MagazineLayout ➟ iOS
 
 	出自 Airbnb 栅格级 CollectionView 布局库。
+
+- <*component-based UI*> ra1028/Carbon ➟ iOS
+
+	在 UITableView 和 UICollectionView 中构建基于组件声明式界面库。提供 API 文档及丰富示例。
+
+### window
+
+- <*window manager*> ianyh/Amethyst ➟ macOS
+
+	自动排列及快捷操作切换、管理窗口。
 
 ### Animations
 
@@ -421,36 +484,17 @@ RxSwift vs PromiseKit https://blog.dianqk.org/2016/08/22/rxswift-vs-promisekit/
 
 	液滑动画效果升级版。
 
+- <*vector animations*> airbnb/lottie-ios ➟ iOS | macOS 
+
+	Airbnb 矢量级动画渲染库全面迁移至 Swift 版本。其势不可挡。
+
+- <*animations*> sagaya/Wobbly ➟ iOS 
+
+	对界面组件元素实现各种摇晃抖闪的动画效果。
+
 ### <*UIKit extensions*> haoking/SwiftyUI ➟ iOS
 
 轻量、高性能的 UI 渲染及扩展类库。
-
-
-# Server ➟ macOS | Linux
-
-
-## <*web framework*> vapor/vapor
-
-最活跃的 Web 服务器框架。  
-推荐理由：纯 Swift 开发，引导开发者采用简洁、干净的 Swift 语法。  
-主要缺点：牺牲部分性能换取未使用 C 语言基础库为代价  
-
-Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https://www.jianshu.com/p/a9ca47e844d7)
-
-## <*web framework*> PerfectlySoft/Perfect
-
-功能更强大，性能更好的 Web 服务器框架。有完整的中文开发文档支持。  
-[https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md](https://github.com/PerfectlySoft/Perfect/blob/master/README.zh_CN.md)
-
-## <*web framework and HTTP server*> IBM-Swift/Kitura
-
-与 IBM Bluemix 最佳云集成，功能强大的 Web 服务器框架。CGI 支持。
-
-## <*Swift on ARM + Docker*> helje5/dockSwiftOnARM ➟ Shell
-
-将 Swift 编译运行于 ARM 平台 Docker 上。
-
-## ……
 
 
 # IoT ➟ Ubuntu | Raspain
@@ -485,6 +529,10 @@ GitHub 上最为开发者认可的 JSON 解析库。
 简介：对象与JSON互转实用类库。
 推荐理由：面向对象模型，易于开发集成。有更完善的与 Alamofire 的集成方案。
 
+### <*Binary Codable*> jverkoey/BinaryCodable ➟ iOS | macOS | Linux
+
+Codable 风格实现 Binary 数据的 Decode/Encode。
+
 ### <*Date*> malcommac/SwiftDate
 
 几乎涵盖了已知开源日期类库所有优秀特性
@@ -497,9 +545,17 @@ GitHub 上最为开发者认可的 JSON 解析库。
 
 纯 Swift 代码解析 PNG 格式，返回图像原始像素数据和尺寸。
 
-### <*chainable file-pathing*> mxcl/Path.swift ➟ iOS | macOS | watchOS | Linux
+### <*chainable file-pathing*> mxcl/Path.swift
 
 功能完整的文件系统针对目录级路径的 CRUD（增删改查）。
+
+### <*logger*> apple/swift-log ➟ macOS  | Linux
+
+这个 Apple 官方也出，与民争利了。
+
+### <*Regular Expression*> Flight-School/RegularExpressionDecoder ➟ iOS | macOS
+
+针对结构化数据的正则表达式解析库。
 
 ## Security
 
@@ -535,9 +591,15 @@ Crypto 算法及相关功能类库集合
 
 ##  Cognitive Computing 
 
+### <*tensorflow apis*> tensorflow/swift-apis ➟ macOS
+
 ### <*IBM Watson*> watson-developer-cloud/swift-sdk ➟ iOS | Linux
 
 让开发者在自己的应用内快速应用 IBM Watson Cognitive Computing 服务。
+
+## <*JavasScript engine*> googleprojectzero/fuzzilli ➟ macOS | Linux 
+
+Javascript 解释器引擎，技术融合的一大进步。
 
 ## ……
 
