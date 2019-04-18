@@ -52,6 +52,10 @@ AR 与 GPS 精确数据的结合，开始一次导航之旅。非常重要的实
 
 最简单、实用的依赖库导入脚本。这太方便了
 
+### <*dependency manager*> JamitLabs/Accio ➟ macOS
+
+结合 SwiftPM，为 Carthage 锦上添花的包管理命令行工具。
+
 ## <*App Store Connect API*> AvdLee/appstoreconnect-swift-sdk ➟ macOS
 
 “借助 App Store Connect API 实现工作流程自动化”，这个库是对整套工作流程 Swift 版的易用化封装。
@@ -95,6 +99,18 @@ iOS 网络通讯本地调试神器（用 Bounjour 协议，不需要繁琐的连
 ## <*modularization*> mxcl/Cake ➟ macOS 
 
 基于组件 MessageKit 及实时通讯云 Firestore 的即时通讯实现（功能参考 Facebook Messenger）。
+
+## <*Metrics API*> apple/swift-metrics ➟ iOS | macOS | Linux
+
+苹果开源并逐步固定 Metrics API，以方便用户对应用的运行及资源状态进行有效跟踪。
+
+## <*science-journal*> google/science-journal-ios ➟ iOS
+
+Google 科学日志 iOS 版应用开源。
+
+## <*CLI tool*> rockbruno/SwiftInfo ➟ macOS
+
+命令行工具跟踪检查 iOS 应用版本代码级变化。
 
 
 # Programming Framework ➟ iOS | macOS | watchOS | Linux
@@ -301,6 +317,10 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 
 	来自 Amazon Web Services 实验室的 AWS AppSync iOS SDK。
 
+- <*AWS SDK*> swift-aws/aws-sdk-swift ➟ macOS | Linux 
+
+	支持 macOS 和 Ubuntu 的 AWS SDK。
+
 ## Graphics and Games
 
 ### ARKit
@@ -369,6 +389,12 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 
 	用 Metal (GPU) 技术封装实现的 3D渲染引擎。
 
+### SceneKit
+
+- <*3D Picture Gallery Slideshow*> folio-sec/Slideshow ➟ macOS 
+
+	采用 SceneKit 写的 3D 动态图片墙。酷！不过系统资源消耗也很历害。
+
 ## UIKit & AppKit
 
 ### View and Controls
@@ -408,6 +434,10 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 - <*skeleton loading*> Juanpe/SkeletonView ➟ iOS
 
 	等待加载信息前，预先优雅的显示内容骨架。
+
+- <*loading*> farshadjahanmanesh/loady ➟ iOS
+
+	常用可定制载入进程按钮动画。
 
 - <*UITextFields*> raulriera/TextFieldEffects ➟ iOS
 
@@ -496,6 +526,14 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 
 轻量、高性能的 UI 渲染及扩展类库。
 
+### <*Declarative UI construction*> square/Blueprint ➟ iOS
+
+Square 公司开源的自用声明式 UI 开发框架库。
+
+### <*hand-drawn, comic shape*> onmyway133/RoughSwift ➟ iOS
+
+编程方式创建手绘和漫画风格画面。酷炫！
+
 
 # IoT ➟ Ubuntu | Raspain
 
@@ -516,9 +554,17 @@ Vapor, Perfect, Kitura 比较：[https://www.jianshu.com/p/a9ca47e844d7](https:/
 
 ## Utility
 
+### <*handy features to standard library*> *Flinesoft/HandySwift* ➟ iOS | macOS | Linux
+
+由于某些原因 Swift 标准库仍未收入且很好用的功能特性扩展。
+
 ### <*extensions*> SwifterSwift/SwifterSwift
 
 一套超过 500 个本地库扩展的生产力工具库。
+
+### *<string scanning library>* JohnSundell/Sweep ➟ iOS | macOS | Linux
+
+比正则表达式简单很多的子字符串扫描和匹配。
 
 ### <*JSON parser*> SwiftyJSON/SwiftyJSON
 
@@ -532,6 +578,10 @@ GitHub 上最为开发者认可的 JSON 解析库。
 ### <*Binary Codable*> jverkoey/BinaryCodable ➟ iOS | macOS | Linux
 
 Codable 风格实现 Binary 数据的 Decode/Encode。
+
+### <*Codable extension*> JohnSundell/Codextended ➟ macOS | Linux
+
+为自定义 Codable 而生的扩展 API。
 
 ### <*Date*> malcommac/SwiftDate
 
@@ -556,6 +606,10 @@ Codable 风格实现 Binary 数据的 Decode/Encode。
 ### <*Regular Expression*> Flight-School/RegularExpressionDecoder ➟ iOS | macOS
 
 针对结构化数据的正则表达式解析库。
+
+### <*converts between AttributedStrings and HTML*> IdeasOnCanvas/Ashton ➟ iOS | macOS
+
+MindNode 团队开发使用的 NSAttributedStrings 和 HTML 高性能互转类库。
 
 ## Security
 
@@ -604,6 +658,9 @@ Javascript 解释器引擎，技术融合的一大进步。
 ## ……
 
 
+# IBM Watson Services (AI)
+
+
 # Database Server (cross platform)
 
 
@@ -612,9 +669,6 @@ Javascript 解释器引擎，技术融合的一大进步。
 Realm 平台目标实现可交互的移动数据库
 
 ## ……
-
-
-# IBM Watson Services (AI)
 
 
 # iCloud & Remote (iCloud, On-drive, Dropbox, Webdav, ftp/ftps, Samba...)

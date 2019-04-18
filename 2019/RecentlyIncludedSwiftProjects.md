@@ -4,121 +4,73 @@
 
 ## *Shared & Featured*
 
-- <*openCV portrait mode*> koooootake/Portrait-without-Depth-ios ➟ iOS 
+- <*AWS SDK*> swift-aws/aws-sdk-swift ➟ macOS | Linux 
 
-	实现单摄人像模式。
+	支持 macOS 和 Ubuntu 的 AWS SDK。
 
-- <*JavasScript engine*> googleprojectzero/fuzzilli ➟ macOS | Linux 
+- <*3D Picture Gallery Slideshow*> folio-sec/Slideshow ➟ macOS 
 
-	Javascript 解释器引擎，技术融合的一大进步。
+	采用 SceneKit 写的 3D 动态图片墙。酷！不过系统资源消耗也很历害。
 
-- <*randomness*> pointfreeco/swift-gen ➟ iOS  | macOS | Linux
+- <*Metrics API*> apple/swift-metrics ➟ iOS | macOS | Linux
 
-	基于强大的 Swift 随机数 API，包装易于扩展可定制的多类型随机数生成器。
+	苹果开源并逐步固定 Metrics API，以方便用户对应用的运行及资源状态进行有效跟踪。
 
-- <*vector animations*> airbnb/lottie-ios ➟ iOS | macOS 
+- <*converts between AttributedStrings and HTML*> IdeasOnCanvas/Ashton ➟ iOS | macOS
 
-	Airbnb 矢量级动画渲染库全面迁移至 Swift 版本。其势不可挡。
+	MindNode 团队开发使用的 NSAttributedStrings 和 HTML 高性能互转类库。
 
-- <*logger*> apple/swift-log ➟ macOS  | Linux
+- <*handy features to standard library*> *Flinesoft/HandySwift* ➟ iOS | macOS | Linux
 
-	这个 Apple 官方也出，与民争利了。
+	由于某些原因 Swift 标准库仍未收入且很好用的功能特性扩展。
 
-- <*modal*> slackhq/PanModal ➟ iOS 
+- <*Codable extension*> JohnSundell/Codextended ➟ macOS | Linux
 
-	这款可定制性底部上滑式模态窗口组件开发和用户体验都不错啊。
+	为自定义 Codable 而生的扩展 API。
 
-- <*modularization*> mxcl/Cake ➟ macOS 
+- <*dependency manager*> JamitLabs/Accio ➟ macOS
 
-	基于组件 MessageKit 及实时通讯云 Firestore 的即时通讯实现（功能参考 Facebook Messenger）。
+	结合 SwiftPM，为 Carthage 锦上添花的包管理命令行工具。
 
-- <*animations*> sagaya/Wobbly ➟ iOS 
+- *<string scanning library>* JohnSundell/Sweep ➟ iOS | macOS | Linux
 
-	对界面组件元素实现各种摇晃抖闪的动画效果。
+	比正则表达式简单很多的子字符串扫描和匹配。
 
-- <*window manager*> ianyh/Amethyst ➟ macOS
+- <*Declarative UI construction*> square/Blueprint ➟ iOS
 
-	自动排列及快捷操作切换、管理窗口。
+	Square 公司开源的自用声明式 UI 开发框架库。
 
-- *<3D graphics>* endavid/VidEngine ➟ iOS
+- <*loading*> farshadjahanmanesh/loady ➟ iOS
 
-	用 Metal (GPU) 技术封装实现的 3D渲染引擎。
+	常用可定制载入进程按钮动画。
 
-- *<range picker> Cuberto/rubber-range-picker* ➟ iOS
+- <*science-journal*> google/science-journal-ios ➟ iOS
 
-	很带人情味的数字区间选择。
+	Google 科学日志 iOS 版应用开源。
 
-- <*progress view*> mac-gallagher/MultiProgressView ➟ iOS
+- <*CLI tool*> rockbruno/SwiftInfo ➟ macOS
 
-	多区间进程条展示效果组件及示例。
+	命令行工具跟踪检查 iOS 应用版本代码级变化。
 
-- <*component-based UI*> ra1028/Carbon ➟ iOS
+- <*hand-drawn, comic shape*> onmyway133/RoughSwift ➟ iOS
 
-	在 UITableView 和 UICollectionView 中构建基于组件声明式界面库。提供 API 文档及丰富示例。
-
-- <*Binary Codable*> jverkoey/BinaryCodable ➟ iOS | macOS | Linux
-
-	Codable 风格实现 Binary 数据的 Decode/Encode。
-
-- <*Regular Expression*> Flight-School/RegularExpressionDecoder ➟ iOS | macOS
-
-	针对结构化数据的正则表达式解析库。
-
-- <*tensorflow apis*> tensorflow/swift-apis ➟ macOS
-
-	应用于 Swift 的 TensorFlow 深度学习库。
+	编程方式创建手绘和漫画风格画面。酷炫！
 
 ## *Shared Only*
 
-- <*2d vector*> 2d-inc/Flare-Swift ➟ macOS 
+- <*animated switch*> d-dotsenko/DDAnimatedSwitch ➟ iOS 
 
-	Flare 创建的 2D 矢量动画 Swift 播放环境。
+	把开关动画定制到可乐。
 
-- <*Watch Face*> kuglee/TermiWatch ➟ watchOS 
+- <*execute Swift into markdown*> objcio/markdown-playgrounds ➟ macOS 
 
-	Terminal 都能上 Apple Watch 了，想像力无处不在。
+	在 Markdown 中执行 Swift Playgrounds 代码。这是想让 Markdown 编辑器无敌的节奏吗？
 
-- *<conference video>* zagahr/Conferences.digital ➟ macOS
+- <*native source editor*> twostraws/Sourceful ➟ iOS | macOS 
 
-	该应用模型可以方便你在 Mac 上观看开发论坛高清视频。
+	有了这个支持，是时候写一款 iOS/macOS 通用的源代码编辑器了。
 
-- *<reading list>* AndrewBennet/ReadingList ➟ iOS
+- *<TouchBar extension> pigigaldi/Pock* ➟ macOS
 
-	阅读进程列表组件。
-
-- <*Swift Algorithms*> thexande/SwiftAlgorithms ➟ iOS 
-
-	把 raywenderlich/swift-algorithm-club Markdown 资源应用化了，查阅实在太便利了。
-
-- <*crop image and transformation*> *d-dotsenko/DDPerspectiveTransform* ➟ iOS 
-
-	交互式截图并转换。
-
-- <*bottom controller*> IvanVorobei/SPLarkController ➟ iOS 
-
-	效果不错的适用于应用设置模态控制器。
-
-- <*dependency manager*> mxcl/AppUpdater ➟ CLI environment
-
-	GitHub 开源应用自动更新器（macOS）。
-
-- <*tab bar*> Cuberto/bubble-icon-tabbar ➟ iOS
-
-	Tab 图标展开式显示栏。
-
-- <*development tool*> peripheryapp/periphery ➟ macOS
-
-	排查消除项目内非使用过的代码碎片
-
-- <*javascript*> pomber/git-history ➟ Browser
-
-	直观动态地展示 GitHub 文件历史。创意和效果一级棒，服！
-
-- <*Segment Slide*> Jiar/SegementSlide ➟ iOS
-
-	功能完整的滑滚及切换组件。
-
-- <*notification*> jogendra/BedgeNotificHub ➟ iOS
-
-	快速加上通知徽章及数字提醒到 UIView，支持丰富的徽章小动效。
+	将 macOS Dock 放入 Touch Bar。总得来讲是 Touch Bar 的有益补充，设计思路及程序结构也恰到好处。
 

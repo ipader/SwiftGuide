@@ -39,6 +39,10 @@
 
 		Codable 风格实现 Binary 数据的 Decode/Encode。
 
+	- JohnSundell/Codextended
+
+		为自定义 Codable 而生的扩展 API。
+
 - *date & time*
 
 	- ***malcommac/SwiftDate***
@@ -156,6 +160,14 @@
 
 		得到不同深浅、饱和度、灰度、色相，以及反转后的新颜色。
 
+	- *Flinesoft/HandySwift*
+
+		由于某些原因 Swift 标准库仍未收入且很好用的功能特性扩展。
+
+	- *JohnSundell/Sweep*
+
+		比正则表达式简单很多的子字符串扫描和匹配。
+
 - *HTML*
 
 	- *parser: honghaoz/Ji*
@@ -165,6 +177,10 @@
 	- *transformation: pointfreeco/swift-html*
 
 		类型保护、可扩展、可转换的 HTML 文档的 Swift DSL 支持工具库。
+
+	- *IdeasOnCanvas/Ashton*
+
+		MindNode 团队开发使用的 NSAttributedStrings 和 HTML 高性能互转类库。
 
 - *Excel*
 
@@ -492,6 +508,14 @@
 
 	轻量、高性能的 UI 渲染及扩展类库。
 
+- square/Blueprint
+
+	Square 公司开源的自用声明式 UI 开发框架库。
+
+- onmyway133/RoughSwift
+
+	编程方式创建手绘和漫画风格画面。酷炫！
+
 ### SwiftNIO
 
 - apple/swift-nio
@@ -793,6 +817,10 @@
 
 	来自 Amazon Web Services 实验室的 AWS AppSync iOS SDK。
 
+- swift-aws/aws-sdk-swift
+
+	支持 macOS 和 Ubuntu 的 AWS SDK。
+
 ## Developer Tools
 
 ### Package Manager
@@ -809,6 +837,10 @@
 - mxcl/swift-sh
 
 	最简单、实用的依赖库导入脚本。这太方便了
+
+- JamitLabs/Accio
+
+	结合 SwiftPM，为 Carthage 锦上添花的包管理命令行工具。
 
 ### XcodeKit
 
@@ -951,6 +983,18 @@
 - pointfreeco/episode-code-samples
 
 	这种专注于学习 Swift 编程的视频聊天系列有点酷。
+
+### apple/swift-metrics
+
+苹果开源并逐步固定 Metrics API，以方便用户对应用的运行及资源状态进行有效跟踪。
+
+### google/science-journal-ios
+
+Google 科学日志 iOS 版应用开源。
+
+### rockbruno/SwiftInfo
+
+命令行工具跟踪检查 iOS 应用版本代码级变化。
 
 ### …
 
@@ -1264,6 +1308,10 @@
 
 		这个图文结合进程条功能完整，整体效果还很酷。
 
+	- *farshadjahanmanesh/loady*
+
+		常用可定制载入进程按钮动画。
+
 - *screen*
 
 	- *willowtreeapps/spruce-ios*
@@ -1421,6 +1469,12 @@
 - *game: songkuixi/TouchBreakout*
 
 	用 Touch Bar 在 Mac 上玩打砖块游戏。
+
+### SceneKit
+
+- folio-sec/Slideshow
+
+	采用 SceneKit 写的 3D 动态图片墙。酷！不过系统资源消耗也很历害。
 
 ### …
 
