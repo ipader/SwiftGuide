@@ -1,4 +1,4 @@
-<a href="https://www.vultr.com/?ref=7229348"><img src="https://www.vultr.com/media/banner_1.png" width="364" height="45"></a>
+推荐 [Vultr VPS](https://www.vultr.com/?ref=7229348) 开启你的互联网之路。
 
 Swift 开源精选
 ===
