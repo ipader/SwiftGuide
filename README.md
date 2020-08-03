@@ -1,4 +1,4 @@
-推荐 [Vultr VPS](https://www.vultr.com/?ref=7229348) 开启你的互联网之路。
+VPS 个人一直坚持使用 [Vultr](https://www.vultr.com/?ref=7229348) ，推荐使用。
 
 Swift 开源精选
 ===
