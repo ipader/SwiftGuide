@@ -18,8 +18,8 @@ Swift 开源精选
 * Swift 知名开发者介绍
 > 介绍活跃于开源社区知名的开发者及其作品。[详见……](2019/SwiftDevelopers.md)　
 
-* [近期分享和收录 Swift 项目](2019/RecentlyIncludedSwiftProjects.md)
+* 近期分享和收录 Markdown Programming in Swift
 
-![](2019/RecentlyIncludedSwiftProjects.png?raw=true)
+![](2021/MarkdownProgramminginSwift.png?raw=true)
 
 推荐：VPS 个人一直坚持使用 [Vultr](https://www.vultr.com/?ref=7229348) 。
