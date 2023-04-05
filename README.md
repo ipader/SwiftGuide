@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/badge/semgrep-security-green.svg)](https://travis-ci.org/returntocorp/semgrep)
+[![Build Status](https://img.shields.io/badge/semgrep-security-green.svg)](https://semgrep.dev/)
 
 Swift 开源精选
 ===
