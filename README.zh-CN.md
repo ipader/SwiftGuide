@@ -1,9 +1,13 @@
 Language: 中文 · [English](README.md)
 
+### Swift 开源生态盘点
+* [2026 深度洞察：Swift 开源生态演进报告 (100 项目 & 20 开发者)](2026/Swift_open-source_ecosystem_report.zh-CN.md)
+
+---
+### 以下内容已存档
 Swift 开源精选
 > 本文为 SwiftGuide / Swift 开源精选的原中文说明文档。当前英文 README 作为项目新的主入口，用于重新介绍该项目作为结构化知识资产的历史与延续。
 
-===
 　　自 2014年 WWDC 发布 Swift 语言以来，[本项目](https://github.com/ipader/SwiftGuide/blob/master/2014%20letter.md) 一直致力于将主流 Swift 中文学习、开发资源汇集于此，并且尽力紧密地跟踪、甄选优秀 Swift 开源项目，以方便开发者快速获得并使用。考虑 Swift 已经正式发布超过四年半（更无力管理维护海量的 Swift 学习资源），因此，后续本项目将专注于 Swift 开源精选资源方向（项目及应用架构，开发方法和工具）进行维护、更新，内容的呈现或展示形式将着重于思维导图。而相对偏重于 Swift 初学者的旧有文档 [Swift 语言指南](https://github.com/ipader/SwiftGuide/blob/master/README20181213.md) 将不再进一步更新、维护。项目名称变更为 Swift 开源精选，库名由原先的 SwiftGuide 改为 awesome-swift。后续更新、维护的文档如下：
 
 * Swift 开源项目精选导图
