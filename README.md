@@ -1,7 +1,13 @@
 Language: [中文](README.zh-CN.md) · English
 
+### Swift Ecosystem Overview
+* [2026 Deep Dive: Swift Open-Source Ecosystem Report (100 Projects & 20 Developers)](2026/Swift_open-source_ecosystem_report.en.md)
+
+---
+
+### Archived Content
+
 Swift Open Source Highlights
-===
 
 > **A structured knowledge project revisited**  
 > SwiftGuide was a long-running Swift learning and open source reference project.  
