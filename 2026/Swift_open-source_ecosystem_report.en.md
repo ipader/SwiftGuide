@@ -1,4 +1,4 @@
-## 🇺🇸 2026 Deep Dive: Swift Open-Source Ecosystem Report (100 Projects & 20 Developers)
+## 2026 Deep Dive: Swift Open-Source Ecosystem Report (100 Projects & 20 Developers)
 
 ### 🌟 20 Leading Developers & Teams
 
