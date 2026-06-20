@@ -1,6 +1,11 @@
 Language: [中文](README.zh-CN.md) · English
 
 ### Swift Ecosystem Overview
+> It has been roughly six to seven years since the SwiftGuide saw its last major update. In the realm of mobile development, a seven-year span is nothing short of a lifetime. From the exploratory days of Swift 3 to the comprehensive maturity of Swift 6 in 2026, we have witnessed a profound reshaping of underlying development paradigms. The once-crowded battlefield of third-party JSON parsers was silenced by the native Codable; the aging Core Data is steadily yielding to the modernized SwiftData; the arrival of Async/Await and the Actor model finally put an end to callback hell; and the maturation of SwiftUI has propelled declarative UI and minimalist interactive aesthetics into the absolute mainstream.
+
+> As Apple's native APIs have grown unprecedentedly powerful, the third-party open-source ecosystem has inevitably undergone a brutal consolidation—transitioning from "wild growth" to a philosophy of "less is more." Today's software engineering is rapidly accelerating toward Local-first architectures, emphasizing the return of data sovereignty and absolute end-to-end security. Meanwhile, independent developers increasingly prefer to use the absolute minimum of dependencies to build clean, lightweight applications that breathe with a refined, minimalist aesthetic.
+
+> Therefore, we have brushed off the dust of history to conduct a panoramic review of the classic open-source libraries and developers from the SwiftGuide, fully updated for today in 2026. This serves both as a tribute to the open-source pioneers who once pushed the wheel of history forward, and as a timeless, modern tech-stack guide for today's independent creators navigating through the relentless cycles of technology.
 * [2026 Deep Dive: Swift Open-Source Ecosystem Report (100 Projects & 20 Developers)](2026/Swift_open-source_ecosystem_report.en.md)
 
 ---
